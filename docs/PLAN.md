@@ -2,18 +2,18 @@
 
 Web học tiếng Trung 4 kỹ năng (Nghe – Nói – Đọc – Viết) giúp người Việt thi HSK. Giao diện tiếng Việt, nhiều người dùng (mỗi người dùng trên trình duyệt của mình, tiến độ lưu cục bộ).
 
-Tài liệu liên quan: `docs/DATA_SCHEMA.md` (hợp đồng dữ liệu — NGUỒN CHÂN LÝ duy nhất giữa hai agent), `docs/CONTENT_NOTES.md` (ghi chú của Agent Chuyên môn).
+Tài liệu liên quan: `docs/DATA_SCHEMA.md` (hợp đồng dữ liệu — NGUỒN CHÂN LÝ duy nhất giữa các agent; cấu trúc HSK 3.0 ở Phụ lục A), `docs/CONTENT_NOTES-{A,B,C}.md` (ghi chú của từng người trong đội Chuyên môn).
 
 ---
 
-## 1. Mục tiêu đợt 1
+## 1. Mục tiêu (đã đổi phạm vi: 9 cấp, chuẩn HSK 3.0)
 
-- HSK 1, 2, 3 theo cấu trúc **HSK 2.0** (đúng số phần, số câu, dạng câu từng cấp — xem bảng ở DATA_SCHEMA §4).
-- Mỗi cấp có **1 đề thi thử đầy đủ**: HSK1 (nghe + đọc, 40 câu), HSK2 (nghe + đọc, 60 câu), HSK3 (nghe + đọc + viết, 80 câu).
-- Từ vựng đầy đủ: HSK1 150 từ, HSK2 150 từ mới, HSK3 300 từ mới.
-- Nói: hội thoại AI (Gemini), Shadowing (TTS + YouTube), luyện trả lời HSKK có chấm.
-- Viết: luyện từng chữ bằng Hanzi Writer, bài tập viết theo dạng HSK.
-- Schema mở rộng được HSK 4–6 mà không phải đổi code (chỉ thêm file + khai báo trong manifest).
+- **Chuẩn HSK 3.0** (đề chính thức từ 13/12/2026); HSK 2.0 bỏ hoàn toàn. Cấu trúc đề từng cấp: `docs/DATA_SCHEMA.md` **Phụ lục A**.
+- Đủ 9 cấp: HSK 1, 2, 3, 4, 5, 6 và đề gộp HSK 7–9 (`level: "7-9"`).
+- Mỗi cấp **1 đề thi thử đầy đủ** đúng cấu trúc thật: HSK1 40 câu · HSK2 60 · HSK3 70 · HSK4 70 · HSK5 72 · HSK6 82 · HSK7–9 91 (nghe, đọc, viết, dịch); bài thi nói riêng cho HSK3–6 và 7–9.
+- **[CHỐT bởi điều phối chính]** File từ vựng theo chuẩn GF0025-2021 (nguồn mở ivankra/hsk30), từ mới mỗi cấp: 500 / 772 / 973 / 1 000 / 1 071 / 1 140 / 5 636 (7–9, gộp một file). Từ thuộc đại cương thi 2025 đánh field tùy chọn `"syllabus2025": true` khi xác định được. Đề thi thử bám độ khó đại cương 2025.
+- Nói: hội thoại AI (Gemini), Shadowing (TTS + YouTube), luyện + thi nói HSK 3.0 có AI chấm.
+- Viết: luyện từng chữ bằng Hanzi Writer, bài viết theo dạng HSK (đến viết luận, mô tả biểu đồ, dịch).
 
 ## 2. Ràng buộc kỹ thuật (đã chốt, không thay đổi)
 
@@ -47,16 +47,16 @@ Tài liệu liên quan: `docs/DATA_SCHEMA.md` (hợp đồng dữ liệu — NGU
 │   ├── compare.js             # so khớp chuỗi Hán tự (chấm cơ bản)
 │   ├── exam/                  # renderer + chấm điểm theo từng type câu hỏi
 │   └── pages/                 # home, vocab, listening, reading, writing, speaking/*, progress, settings
-├── data/                      # ← CHỈ Agent Chuyên môn ghi
-│   ├── index.json
-│   ├── vocab/hsk1.json, hsk2.json, hsk3.json
-│   ├── exams/hsk1-de1.json, hsk2-de1.json, hsk3-de1.json
-│   ├── speaking/topics.json, hskk.json, shadowing.json
-│   └── writing/characters.json, practice.json
+├── data/                      # ← CHỈ đội Chuyên môn (A/B/C) ghi, theo phân vùng §5
+│   ├── index.json             # A (đủ 7 level ngay từ đầu)
+│   ├── vocab/hsk1..hsk6.json, hsk7-9.json
+│   ├── exams/hsk1-de1.json … hsk6-de1.json, hsk7-9-de1.json
+│   ├── speaking/topics.json, hskk.json, shadowing.json      # A
+│   └── writing/characters-hsk{L}.json, practice-hsk{L}.json
 ├── test/                      # dữ liệu giả của Agent Web (cùng schema) + trang test
 ├── tools/
 │   └── validate-data.mjs      # Agent Web viết: `node tools/validate-data.mjs [thư_mục_data]`
-├── docs/PLAN.md, DATA_SCHEMA.md, CONTENT_NOTES.md
+├── docs/PLAN.md, DATA_SCHEMA.md, CONTENT_NOTES-A.md, CONTENT_NOTES-B.md, CONTENT_NOTES-C.md
 └── README.md                  # Agent Web: cách chạy local (python -m http.server) + deploy
 ```
 
@@ -73,7 +73,7 @@ Tài liệu liên quan: `docs/DATA_SCHEMA.md` (hợp đồng dữ liệu — NGU
 | `#/writing/practice/{level}` | Bài viết dạng HSK: reorder_words, write_hanzi_from_pinyin, write_sentence (AI chấm nếu có key, không có key → so với `sample_answers` + kiểm tra có dùng `keyword`). |
 | `#/speaking/chat` | Hội thoại AI theo chủ đề (`topics.json`): AI đóng vai, nói tiếng Trung đúng cấp, kèm pinyin + dịch Việt (bật/tắt); người dùng nói (nhận dạng zh-CN) hoặc gõ; AI đọc to câu trả lời; nút "Sửa lỗi cho tôi" (nhận xét tiếng Việt). |
 | `#/speaking/shadowing` | Danh sách bài (`shadowing.json`) + bài người dùng tự thêm (lưu localStorage): dán link YouTube → tự thêm đoạn (start/end/hanzi/pinyin/vi). Phát đoạn, lặp đoạn N lần, tốc độ, ghi âm nghe lại, nhận dạng giọng → % khớp, tô màu chữ sai. |
-| `#/speaking/hskk` | Luyện HSKK theo cấp sơ/trung/cao và theo part: nghe/đọc đề, đếm giờ chuẩn bị/trả lời, ghi âm + nhận dạng → AI chấm theo rubric (điểm từng tiêu chí + nhận xét tiếng Việt); không key → chấm so khớp với `sample_answer`/`keywords`. |
+| `#/speaking/hskk` | Thi nói HSK 3.0 (paper theo cấp 3–6, 7–9) và luyện theo part (kể cả HSKK sơ/trung/cao nếu có dữ liệu): nghe/đọc đề, đếm giờ chuẩn bị/trả lời, ghi âm + nhận dạng → AI chấm theo rubric (điểm từng tiêu chí + nhận xét tiếng Việt); không key → chấm so khớp với `sample_answer`/`keywords`. |
 | `#/progress` | Lịch sử làm đề, điểm, từ đã thuộc, chữ đã viết. Xuất/nhập JSON tiến độ (sao lưu). |
 | `#/settings` | Gemini API key (ẩn/hiện, nút kiểm tra key), tên model, chọn voice zh-CN nam/nữ, tốc độ đọc, bật pinyin mặc định, xóa dữ liệu. |
 
@@ -81,51 +81,81 @@ Quy tắc chung UI: responsive (dùng tốt trên điện thoại 360px), tiến
 
 ## 5. Phân công
 
-### Agent Chuyên môn (nội dung)
-- **CHỈ ghi** `data/**` và `docs/CONTENT_NOTES.md`. Không sửa file nào khác.
-- Tuân thủ tuyệt đối `docs/DATA_SCHEMA.md`. Nếu thấy schema thiếu, KHÔNG tự thêm field bắt buộc mới; được dùng field `notes` (chuỗi tự do) và ghi đề xuất vào `CONTENT_NOTES.md`.
-- Nội dung tự soạn (không chép nguyên văn đề thật có bản quyền), đúng phạm vi từ vựng cấp đó (đề HSK n chỉ dùng từ ≤ HSK n, tối đa ~5% từ ngoài, ghi chú lại).
-- YouTube: chỉ đưa video nếu chắc chắn `videoId` có thật; không chắc → không đưa. `verified: true` chỉ khi đã kiểm tra được.
+### Đội Chuyên môn (nội dung) — 3 agent song song
+
+Quy tắc chung cho A, B, C:
+- Chỉ ghi file trong **vùng của mình** (bảng dưới) và `docs/CONTENT_NOTES-{X}.md` của mình. Không sửa file của người khác, không sửa `docs/DATA_SCHEMA.md`.
+- Tuân thủ tuyệt đối `docs/DATA_SCHEMA.md` (Phụ lục A thắng mọi chỗ mâu thuẫn). Schema thiếu → dùng field `notes`, ghi đề xuất vào CONTENT_NOTES của mình.
+- Nội dung tự soạn (không chép nguyên văn đề thật), đúng phạm vi từ vựng (đề cấp n chỉ dùng từ ≤ cấp n, ngoài phạm vi ≤ 5%, ghi lại). Từ vựng cấp sau không lặp cấp trước.
+- Chữ Hán không trùng giữa các file `characters-hsk{L}.json`: người cấp cao hơn kiểm tra file cấp thấp hơn trước khi thêm (nếu file đó chưa có thì bỏ qua và ghi chú để rà soát cuối).
+
+| Người | Vùng ghi |
+|---|---|
+| **A** — HSK1–3 + toàn bộ NÓI + shadowing | `data/index.json`; `vocab/hsk1..3.json`; `exams/hsk1-de1.json`, `hsk2-de1.json`, `hsk3-de1.json`; `writing/characters-hsk1..3.json`, `writing/practice-hsk1..3.json`; `speaking/topics.json`, `speaking/hskk.json` (gồm **mọi** đề nói HSK3–6 và 7–9), `speaking/shadowing.json` |
+| **B** — HSK4–6 | `vocab/hsk4..6.json`; `exams/hsk4-de1.json`, `hsk5-de1.json`, `hsk6-de1.json` (nghe, đọc, viết; `speaking_paper` ghi id do A đặt: `hsk{n}-de1-speaking`); `writing/characters-hsk4..6.json`; `writing/practice-hsk4..6.json` (đề viết luyện tập) |
+| **C** — HSK7–9 | `vocab/hsk7-9.json`; `exams/hsk7-9-de1.json` (nghe, đọc, viết, dịch viết + dịch nói; `speaking_paper: "hsk7-9-de1-speaking"`); `writing/characters-hsk7-9.json` |
+
+- YouTube (A): chỉ đưa video nếu chắc chắn `videoId` có thật; `verified: true` chỉ khi đã kiểm tra được.
 
 ### Agent Web (code)
-- Ghi mọi thứ **ngoài** `data/` (và không sửa `docs/DATA_SCHEMA.md`, `docs/CONTENT_NOTES.md`). Có thể sửa PLAN.md phần trạng thái.
+- Ghi mọi thứ **ngoài** `data/` (và không sửa `docs/DATA_SCHEMA.md`, `docs/CONTENT_NOTES-*.md`). Có thể sửa PLAN.md phần trạng thái.
 - Không sửa `data/`. Dữ liệu test giả đặt trong `test/data/` cùng cấu trúc; app có tham số `?data=test/data/` để trỏ sang (mặc định `data/`).
 - Viết `tools/validate-data.mjs` kiểm tra dữ liệu theo DATA_SCHEMA (cả hai bên dùng).
-- Renderer phải xử lý MỌI `type` trong DATA_SCHEMA §5, kể cả type HSK4–6 đã liệt kê (render tối thiểu được), và bỏ qua an toàn type lạ (hiện "Dạng câu chưa hỗ trợ").
+- Renderer phải xử lý MỌI `type` trong DATA_SCHEMA §5 và Phụ lục A.3, `group.audio`/`group.passage`, chỗ trống đánh số `（41）`, `level: "7-9"`, `score_mode: "bands"`, `speaking_paper`; bỏ qua an toàn type lạ (hiện "Dạng câu chưa hỗ trợ"). File trong manifest bị 404 → hiện "Đang soạn".
 
 ## 6. Checklist nghiệm thu
 
-### 6.1 Agent Chuyên môn
-- [ ] Tất cả file JSON parse được (`node -e "JSON.parse(require('fs').readFileSync(f,'utf8'))"`) và `node tools/validate-data.mjs` báo 0 lỗi (khi tool đã có).
-- [ ] `data/index.json` liệt kê đúng mọi file tồn tại; không đường dẫn chết.
-- [ ] Từ vựng: `hsk1.json` = 150 từ, `hsk2.json` = 150 từ mới, `hsk3.json` = 300 từ mới; `id` không trùng; mọi từ có `hanzi`, `pinyin` (dấu thanh), `meaning_vi`, `pos`; ≥ 50% từ mỗi cấp có `example`.
-- [ ] Đề `hsk1-de1`: 40 câu (nghe 20 = 4 part × 5; đọc 20 = 4 part × 5). `hsk2-de1`: 60 câu (nghe 35 = 10/10/10/5; đọc 25 = 5/5/5/10). `hsk3-de1`: 80 câu (nghe 40 = 10/10/10/10; đọc 30 = 10/10/10; viết 10 = 5/5). Số `no` liên tục 1..N, đúng thứ tự.
-- [ ] Mọi câu có `answer` hợp lệ (chữ cái nằm trong options; true/false là boolean) và `explanation_vi` không rỗng; mọi câu nghe có `audio.lines` không rỗng, `repeat: 2`.
-- [ ] Phân bố đáp án hợp lý (không quá 40% cùng một chữ cái trong một part có ≥5 câu; true/false mỗi part có cả đúng và sai).
-- [ ] HSK1, HSK2: mọi đoạn văn bản hiển thị có `pinyin`.
-- [ ] `topics.json`: ≥ 6 chủ đề cho mỗi level 1, 2, 3 (tổng ≥ 18).
-- [ ] `hskk.json`: ≥ 10 item mỗi cấp `so` và `trung`, phủ đủ mọi part của cấp đó; có rubric cho mỗi part; `cao` tùy chọn.
-- [ ] `shadowing.json`: ≥ 15 segment nguồn `tts` (tổng các item), mỗi segment có `hanzi`, `pinyin`, `vi`. Item YouTube (nếu có) có `verified` đúng sự thật.
-- [ ] `characters.json`: bao phủ 100% chữ Hán xuất hiện trong từ vựng HSK1, + ≥ 100 chữ mới HSK2, + ≥ 100 chữ mới HSK3; mỗi chữ có `strokes`, `radical`.
-- [ ] `writing/practice.json`: level 3 có ≥ 15 `reorder_words`, ≥ 15 `write_hanzi_from_pinyin`, ≥ 10 `write_sentence`; level 1 và 2 mỗi cấp ≥ 10 `reorder_words` (luyện thêm).
-- [ ] `docs/CONTENT_NOTES.md`: nguồn tham khảo, quy ước, danh sách từ ngoài phạm vi, đề xuất schema (nếu có).
+### 6.1 Đội Chuyên môn
+
+**Chung (A, B, C)** — áp cho mọi file mình ghi:
+- [ ] JSON parse được; `node tools/validate-data.mjs` 0 lỗi (khi tool đã có).
+- [ ] Đề: số part, số câu từng part, `type`, `no` liên tục 1..N khớp **đúng bảng Phụ lục A.2**; `expected_count` đúng; `standard: "HSK3.0"`.
+- [ ] Mọi câu có `answer` hợp lệ (key nằm trong options; boolean cho đúng/sai; `null` cho câu chủ quan), `explanation_vi` không rỗng; câu chủ quan có `max_points`, `rubric_id` trỏ tới `exam.rubrics`, ≥ 1 `sample_answers`/`reference_zh`.
+- [ ] Câu nghe có `audio.lines` (hoặc `group.audio`), `repeat` theo A.2.
+- [ ] Phân bố đáp án: trong part ≥ 5 câu, không chữ cái nào > 40%; part đúng/sai có cả hai.
+- [ ] Vocab: `count` = độ dài `words`, `id` duy nhất dạng `hsk{L}-{stt:04}`, mọi từ có `hanzi`, `pinyin` (dấu thanh), `pos`, `meaning_vi`; ≥ 50% có `example`; không trùng từ cấp thấp hơn.
+- [ ] Chữ Hán: mỗi chữ có `strokes`, `radical`, `pinyin`, `meaning_vi`; không trùng giữa các cấp.
+
+**A — HSK1–3 + Nói**
+- [ ] `index.json` đủ 7 level, đúng tên file quy ước (DATA_SCHEMA §2).
+- [ ] Vocab: `hsk1` = 500, `hsk2` = 772, `hsk3` = 973 từ mới (`complete: true`).
+- [ ] Đề `hsk1-de1` (40), `hsk2-de1` (60), `hsk3-de1` (70); HSK1–2 mọi Text có `pinyin`; `hsk3-de1.speaking_paper = "hsk3-de1-speaking"`.
+- [ ] Chữ: `characters-hsk1` = 246 chữ, `-hsk2` ≥ 125 mới, `-hsk3` ≥ 284 mới (đánh `handwrite` theo khả năng).
+- [ ] `practice-hsk1..3`: mỗi cấp ≥ 10 câu luyện viết (HSK2: `choose_component` + `write_hanzi_from_pinyin`; HSK3: ≥ 15 `write_hanzi_from_pinyin`, ≥ 10 `write_sentence`).
+- [ ] `topics.json`: ≥ 6 chủ đề mỗi level 1–6 và "7-9" (tổng ≥ 42).
+- [ ] `hskk.json`: đủ 5 `papers` (`hsk3-de1-speaking` … `hsk6-de1-speaking`, `hsk7-9-de1-speaking`) đúng số mục/thời gian bảng A.4; thêm ngân hàng luyện ≥ 10 item mỗi level 3–6 (ngoài paper); rubric cho mọi part.
+- [ ] `shadowing.json`: ≥ 15 segment `tts` (phủ level 1–3) + ≥ 5 segment mỗi level 4–6; YouTube chỉ khi chắc chắn, `verified` đúng sự thật.
+
+**B — HSK4–6**
+- [ ] Vocab: `hsk4` 1 000, `hsk5` 1 600, `hsk6` 1 800 từ mới. Tối thiểu nghiệm thu đợt này: `hsk4` đủ 1 000; `hsk5`, `hsk6` mỗi file ≥ 800 với `complete` phản ánh đúng thực tế.
+- [ ] Đề `hsk4-de1` (70), `hsk5-de1` (72), `hsk6-de1` (82) đúng A.2, có `speaking_paper` đúng id, có `rubrics`.
+- [ ] Chữ: `characters-hsk4..6` mỗi file ≥ 200 chữ mới (mục tiêu 441 / 431 / 413).
+- [ ] `practice-hsk4..6`: HSK4 ≥ 10 `write_sentence` + ≥ 3 `write_essay`; HSK5 ≥ 3 `picture_story_writing` + ≥ 3 `write_essay`; HSK6 ≥ 3 `write_essay` practical + ≥ 3 argumentative. Mỗi câu có `sample_answers` + `outline_vi`.
+
+**C — HSK7–9**
+- [ ] `vocab/hsk7-9.json`: mục tiêu ~5 600; tối thiểu nghiệm thu đợt này ≥ 1 500 từ, `complete` đúng thực tế.
+- [ ] `exams/hsk7-9-de1.json`: 91 câu đúng A.2 (nghe 40, đọc 40, viết 2, dịch 4), `score_mode: "bands"`, `band_rules` có `official: false`, `chart` hợp lệ, `translate_*` có `source.lang: "en"` + `reference_zh`.
+- [ ] `characters-hsk7-9`: ≥ 300 chữ mới (mục tiêu 1 148).
+
+**Báo cáo**: mỗi người ghi `docs/CONTENT_NOTES-{X}.md`: nguồn tham khảo, các điểm "(giả định)" đã theo, từ ngoài phạm vi, số lượng thực tế, đề xuất schema.
 
 ### 6.2 Agent Web
 - [ ] Mở bằng `python3 -m http.server` tại gốc và tại đường dẫn con (`/tieng-trung-khong-kho/`) đều chạy: không đường dẫn tuyệt đối, console không lỗi khi tải trang chủ.
 - [ ] Mọi route ở §4 hoạt động, nút Back/Forward trình duyệt đúng, reload giữ nguyên trang.
 - [ ] Renderer + chấm điểm cho từng `type` ở DATA_SCHEMA §5; có trang `test/` hoặc dữ liệu `test/data/` chứa ≥ 1 câu mỗi type và đều render/chấm đúng.
-- [ ] Đề thi: đồng hồ, nộp bài, điểm từng phần quy về thang HSK (mỗi phần 100), tổng, đạt/không đạt; câu `is_example` không tính điểm; xem lại có transcript + giải thích.
+- [ ] Đề thi: đồng hồ, nộp bài, điểm từng phần (mỗi phần 100), tổng, đạt/không đạt (`score_mode: pass`) hoặc xếp bậc 7/8/9 kèm cảnh báo "không chính thức" (`bands`); câu chủ quan chấm AI theo rubric; nút chuyển sang đề nói (`speaking_paper`); câu `is_example` không tính điểm; xem lại có transcript + giải thích.
+- [ ] Biểu đồ `chart_description` vẽ được (bar/line/pie/table); dịch nói `translate_oral` ghi âm + chấm.
 - [ ] Nghe: phát đúng `repeat` lần với nghỉ giữa (mặc định 2 s), giọng 男/女 khác nhau (voice khác hoặc pitch khác rõ rệt), 旁白 dùng giọng trung tính.
-- [ ] Hanzi Writer: animation + quiz cho mọi chữ trong `characters.json`; chữ không có dữ liệu nét → báo lỗi thân thiện.
+- [ ] Hanzi Writer: animation + quiz cho mọi chữ trong `characters-hsk{L}.json`; chữ không có dữ liệu nét → báo lỗi thân thiện.
 - [ ] Gemini: lưu/xóa key, kiểm tra key, xử lý lỗi 400/403/429 bằng thông báo tiếng Việt; không key → phương án dự phòng chạy được (chấm so khớp).
 - [ ] Hội thoại AI: system prompt dùng `ai_role_zh`, `level`, `key_vocab`; trả lời ở định dạng JSON có hanzi/pinyin/vi (xem DATA_SCHEMA §9.3); nói + nghe hoạt động trên Chrome.
 - [ ] Shadowing: lặp đoạn TTS và YouTube (theo `start`/`end`), ghi âm + phát lại, % khớp; người dùng thêm/sửa/xóa bài YouTube của mình (lưu localStorage, parse được link `youtu.be/…`, `watch?v=…`, `shorts/…`).
-- [ ] HSKK: đếm giờ chuẩn bị/trả lời theo item, ghi âm, AI chấm theo rubric trả điểm từng tiêu chí + nhận xét tiếng Việt.
+- [ ] Đề nói HSK 3.0 (`hskk.json` papers): phần khởi động, phát âm thanh 1 lần, đếm giờ chuẩn bị/trả lời theo item, `picture_story` nhiều ảnh, ghi âm, AI chấm theo rubric trả điểm từng tiêu chí + nhận xét tiếng Việt.
 - [ ] localStorage: mọi truy cập bọc try/catch (chạy được ở chế độ chặn storage); xuất/nhập tiến độ JSON.
 - [ ] `tools/validate-data.mjs` kiểm tra: JSON hợp lệ, field bắt buộc, type hợp lệ, đáp án nằm trong options, số câu khớp `expected_count` của part, `no` liên tục; exit code ≠ 0 khi có lỗi.
 - [ ] Giao diện dùng được ở 360px; README hướng dẫn chạy local + deploy GitHub Pages.
 
 ## 7. Thứ tự làm việc
-1. Hai agent làm song song, chỉ dựa vào DATA_SCHEMA.md.
+1. Bốn agent (Web, A, B, C) làm song song, chỉ dựa vào DATA_SCHEMA.md (Phụ lục A).
 2. Agent Web làm trước `tools/validate-data.mjs` + `test/data/` mẫu.
-3. Khi xong: chạy validator trên `data/` thật, mở web kiểm thử với dữ liệu thật, sửa lỗi theo phân quyền (lỗi dữ liệu → Agent Chuyên môn; lỗi code → Agent Web).
+3. Khi xong: chạy validator trên `data/` thật, mở web kiểm thử với dữ liệu thật, sửa lỗi theo phân quyền (lỗi dữ liệu → A/B/C theo vùng; lỗi code → Agent Web).

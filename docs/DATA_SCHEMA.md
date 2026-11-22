@@ -1,12 +1,13 @@
 # ĐẶC TẢ DỮ LIỆU (DATA_SCHEMA) — "Tiếng Trung không khó"
 
-Hợp đồng giữa Agent Chuyên môn (ghi `data/`) và Agent Web (đọc `data/`). Mọi thứ ở đây là **bắt buộc** trừ khi ghi "(tùy chọn)". Không thêm field bắt buộc mới; field lạ được phép nhưng web bỏ qua. Field `notes` (chuỗi) được phép ở mọi object.
+Hợp đồng giữa đội Chuyên môn A/B/C (ghi `data/`, phân vùng theo PLAN §5) và Agent Web (đọc `data/`). Chuẩn **HSK 3.0, 9 cấp** — cấu trúc đề ở **Phụ lục A** (thắng mọi chỗ mâu thuẫn bên trên). Mọi thứ ở đây là **bắt buộc** trừ khi ghi "(tùy chọn)". Không thêm field bắt buộc mới; field lạ được phép nhưng web bỏ qua. Field `notes` (chuỗi) được phép ở mọi object.
 
 ## 1. Quy ước chung
 
 - File JSON UTF-8, không BOM, không comment, không dấu phẩy thừa. Thụt lề 2 khoảng trắng.
 - Đường dẫn trong JSON là **tương đối so với thư mục `data/`** (vd `"vocab/hsk1.json"`).
-- `level` (HSK): số nguyên 1–6. Cấp HSKK: chuỗi `"so"` | `"trung"` | `"cao"`.
+- **Chuẩn: HSK 3.0** (đề chính thức từ 13/12/2026). Mọi nội dung HSK 2.0 đã bỏ.
+- `level` (HSK): số nguyên `1`–`6`, hoặc chuỗi `"7-9"` cho bậc cao gộp (đề, vocab, chữ Hán, nói đều dùng `"7-9"`; không có file riêng hsk7/hsk8/hsk9). Trong tên file viết `hsk7-9`. Web so sánh bằng `String(level)`. Cấp HSKK độc lập (tùy chọn): `"so"` | `"trung"` | `"cao"`.
 - Pinyin: dùng **dấu thanh** (`nǐ hǎo`), cách nhau theo từ, viết thường (trừ tên riêng/đầu câu tùy chọn). Không dùng số thanh.
 - Chữ Hán: giản thể. Dấu câu tiếng Trung toàn khổ (`，。？！：“”`).
 - Chỗ trống trong câu: chuỗi `"（ ）"` (ngoặc toàn khổ + 1 khoảng trắng) — web thay bằng ô trống/ô nhập. Mỗi câu tối đa 1 chỗ trống.
@@ -36,32 +37,39 @@ Hợp đồng giữa Agent Chuyên môn (ghi `data/`) và Agent Web (đọc `dat
     { "level": 2, "name_vi": "HSK 2", "vocab": "vocab/hsk2.json",
       "exams": [ { "id": "hsk2-de1", "file": "exams/hsk2-de1.json", "title_vi": "Đề thi thử HSK 2 – Đề 1" } ] },
     { "level": 3, "name_vi": "HSK 3", "vocab": "vocab/hsk3.json",
-      "exams": [ { "id": "hsk3-de1", "file": "exams/hsk3-de1.json", "title_vi": "Đề thi thử HSK 3 – Đề 1" } ] }
+      "characters": "writing/characters-hsk3.json", "practice": "writing/practice-hsk3.json",
+      "exams": [ { "id": "hsk3-de1", "file": "exams/hsk3-de1.json", "title_vi": "Đề thi thử HSK 3 – Đề 1" } ] },
+    "… level 4, 5, 6 tương tự …",
+    { "level": "7-9", "name_vi": "HSK 7–9", "vocab": "vocab/hsk7-9.json",
+      "characters": "writing/characters-hsk7-9.json", "practice": null,
+      "exams": [ { "id": "hsk7-9-de1", "file": "exams/hsk7-9-de1.json", "title_vi": "Đề thi thử HSK 7–9 – Đề 1" } ] }
   ],
   "speaking": {
     "topics": "speaking/topics.json",
     "hskk": "speaking/hskk.json",
     "shadowing": "speaking/shadowing.json"
-  },
-  "writing": {
-    "characters": "writing/characters.json",
-    "practice": "writing/practice.json"
   }
 }
 ```
-Web lấy danh sách cấp/đề **chỉ** từ manifest (không hard-code). Thêm HSK4 = thêm phần tử `levels`.
+(Chuỗi `"… level 4, 5, 6 tương tự …"` chỉ là chú thích trong tài liệu, file thật phải đủ 7 object: 1, 2, 3, 4, 5, 6, "7-9".)
+- Mỗi level có: `level`, `name_vi`, `vocab`, `characters`, `practice` (null nếu không có), `exams`.
+- **Agent A viết toàn bộ manifest ngay từ đầu** với đủ 7 level và tên file cố định như trên (tên file theo quy tắc: `vocab/hsk{L}.json`, `writing/characters-hsk{L}.json`, `writing/practice-hsk{L}.json`, `exams/hsk{L}-de1.json`, với `{L}` = `1`…`6` hoặc `7-9`). Agent B, C không sửa manifest. File chưa có → web hiển thị "Đang soạn" (fetch 404 không được làm crash).
+- Web lấy danh sách cấp/đề **chỉ** từ manifest (không hard-code).
 
-## 3. `data/vocab/hsk{n}.json` — từ vựng
+## 3. `data/vocab/hsk{L}.json` — từ vựng (`{L}` = 1…6 hoặc `7-9`)
 
 Mỗi file chỉ chứa từ **mới** của cấp đó (HSK2 không lặp từ HSK1).
 
 ```json
 {
   "level": 1,
-  "count": 150,
+  "standard": "HSK3.0-2025",
+  "target_count": 500,
+  "count": 500,
+  "complete": true,
   "words": [
     {
-      "id": "hsk1-001",
+      "id": "hsk1-0001",
       "hanzi": "爱",
       "pinyin": "ài",
       "pos": "động từ",
@@ -73,51 +81,17 @@ Mỗi file chỉ chứa từ **mới** của cấp đó (HSK2 không lặp từ 
   ]
 }
 ```
-- Bắt buộc: `id` (`hsk{n}-{stt:03}`), `hanzi`, `pinyin`, `pos`, `meaning_vi`. Tùy chọn: `han_viet`, `example` (Text có đủ zh/pinyin/vi), `topic`, `traditional`.
+- Bắt buộc: `id` (`hsk{L}-{stt:04}`), `hanzi`, `pinyin`, `pos`, `meaning_vi`. Tùy chọn: `han_viet`, `example` (Text có đủ zh/pinyin/vi), `topic`, `traditional`.
 - `pos` dùng một trong: `danh từ`, `động từ`, `tính từ`, `phó từ`, `đại từ`, `số từ`, `lượng từ`, `giới từ`, `liên từ`, `trợ từ`, `trợ động từ`, `thán từ`, `cụm từ`, `danh từ riêng`. Nhiều loại: nối bằng `, `.
-- `count` = độ dài `words`. Sắp theo pinyin (a→z).
+- `count` = độ dài `words`; `target_count` = số từ mới theo đề cương (Phụ lục A.1); `complete` = (`count` ≥ `target_count`). Sắp theo pinyin (a→z). `id` luôn dạng `hsk{L}-{stt:04}` (4 chữ số, vd `hsk1-0001`, `hsk7-9-0001`) — ví dụ `hsk1-001` ở trên thay bằng `hsk1-0001`. File `hsk7-9.json` có `level: "7-9"`.
 
-## 4. Cấu trúc đề HSK 2.0 (bắt buộc tuân thủ)
+## 4. Cấu trúc đề — ĐÃ THAY
 
-| Cấp | Phần | Part | Mã part (`code`) | Số câu | `type` | Ghi chú |
-|---|---|---|---|---|---|---|
-| HSK1 | Nghe | 1 | `L1` | 5 | `true_false_image` | Nghe cụm từ, đúng/sai với ảnh |
-| | | 2 | `L2` | 5 | `choose_image` | Nghe câu, chọn 1 trong 3 ảnh A/B/C |
-| | | 3 | `L3` | 5 | `match_image` | Nghe hội thoại, chọn ảnh từ A–F (1 group, 6 ảnh, 1 ví dụ) |
-| | | 4 | `L4` | 5 | `choose_option` | Nghe câu + câu hỏi, chọn A/B/C (chữ) |
-| | Đọc | 1 | `R1` | 5 | `true_false_image` | Từ + ảnh, đúng/sai |
-| | | 2 | `R2` | 5 | `match_image` | Câu ↔ ảnh A–F |
-| | | 3 | `R3` | 5 | `match_sentence` | Câu hỏi ↔ câu trả lời A–F |
-| | | 4 | `R4` | 5 | `fill_blank_wordbank` | Chọn từ A–F điền chỗ trống |
-| HSK2 | Nghe | 1 | `L1` | 10 | `true_false_image` | Nghe câu, đúng/sai với ảnh |
-| | | 2 | `L2` | 10 | `match_image` | Hội thoại ngắn ↔ ảnh; 2 group × 5 (mỗi group 5–6 ảnh) |
-| | | 3 | `L3` | 10 | `choose_option` | Hội thoại 2 câu + câu hỏi, A/B/C |
-| | | 4 | `L4` | 5 | `choose_option` | Hội thoại 4–5 câu + câu hỏi, A/B/C |
-| | Đọc | 1 | `R1` | 5 | `match_image` | Câu ↔ ảnh A–F |
-| | | 2 | `R2` | 5 | `fill_blank_wordbank` | Từ A–F điền chỗ trống |
-| | | 3 | `R3` | 5 | `true_false_statement` | Đoạn văn + câu ★, đúng/sai |
-| | | 4 | `R4` | 10 | `match_sentence` | Ghép câu A–E/F; 2 group × 5 |
-| HSK3 | Nghe | 1 | `L1` | 10 | `match_image` | Hội thoại ↔ ảnh; 2 group × 5 |
-| | | 2 | `L2` | 10 | `true_false_statement` | Nghe đoạn, phán đoán câu ★ |
-| | | 3 | `L3` | 10 | `choose_option` | Hội thoại ngắn + câu hỏi, A/B/C |
-| | | 4 | `L4` | 10 | `choose_option` | Hội thoại dài hơn (4–5 lượt) + câu hỏi, A/B/C |
-| | Đọc | 1 | `R1` | 10 | `match_sentence` | Ghép câu; 2 group × 5 (A–F) |
-| | | 2 | `R2` | 10 | `fill_blank_wordbank` | 2 group × 5 (mỗi group 6 từ A–F, 1 ví dụ) |
-| | | 3 | `R3` | 10 | `choose_option` | Đoạn văn ngắn + câu hỏi, A/B/C |
-| | Viết | 1 | `W1` | 5 | `reorder_words` | Sắp xếp từ thành câu |
-| | | 2 | `W2` | 5 | `write_hanzi_from_pinyin` | Viết chữ Hán theo pinyin |
+> **Bảng HSK 2.0 cũ đã bị thay** bằng cấu trúc HSK 3.0 ở **Phụ lục A** (cuối file). Mọi đề phải theo Phụ lục A (mã part, số câu, `type`, thời gian, thang điểm, pinyin).
 
-Thông tin đề:
+Điểm phần = round(max_score × số câu đúng / số câu tính điểm của phần) cho câu khách quan; câu chủ quan (viết đoạn, dịch, nói) có `max_points` riêng và được chấm theo rubric (AI). Câu `is_example: true` không tính và **không** thuộc số câu ở Phụ lục A (đánh `no: 0`, hiển thị "Ví dụ" đã có đáp án).
 
-| Cấp | `duration_minutes` | Thang điểm | `pass_score` | Pinyin trên đề |
-|---|---|---|---|---|
-| HSK1 | 40 | nghe 100 + đọc 100 = 200 | 120 | có |
-| HSK2 | 55 | nghe 100 + đọc 100 = 200 | 120 | có |
-| HSK3 | 90 | nghe 100 + đọc 100 + viết 100 = 300 | 180 | không |
-
-Điểm phần = round(100 × số câu đúng / số câu tính điểm của phần). Câu `is_example: true` không tính và **không** thuộc số câu ở bảng trên (đánh `no: 0`, hiển thị "Ví dụ" đã có đáp án).
-
-## 5. `data/exams/hsk{n}-de{k}.json` — đề thi
+## 5. `data/exams/hsk{L}-de{k}.json` — đề thi (`hsk1-de1` … `hsk6-de1`, `hsk7-9-de1`)
 
 ### 5.1 Khung
 
@@ -126,7 +100,7 @@ Thông tin đề:
   "id": "hsk1-de1",
   "level": 1,
   "title_vi": "Đề thi thử HSK 1 – Đề 1",
-  "standard": "HSK2.0",
+  "standard": "HSK3.0",
   "duration_minutes": 40,
   "total_score": 200,
   "pass_score": 120,
@@ -161,7 +135,9 @@ Thông tin đề:
   ]
 }
 ```
-- `sections[].id` ∈ `listening` | `reading` | `writing` (HSK1–2 không có `writing`; HSK4–6 có thể thêm). Thứ tự: listening → reading → writing.
+- `sections[].id` ∈ `listening` | `reading` | `writing` | `translation` | `speaking`. Thứ tự theo Phụ lục A. HSK1 không có `writing`. `translation` chỉ có ở 7-9. `speaking` **không** nằm trong file đề HSK3–6 (đề nói là bài thi riêng, nằm ở `speaking/hskk.json`, xem A.4); exam có field `speaking_paper` = id paper trong hskk.json hoặc `null`. Đề 7-9: phần nói cũng tham chiếu `speaking_paper`; phần dịch nói (视译) nằm trong section `translation` của file đề.
+- `level` của đề: 1–6 (số) hoặc `"7-9"`.
+- `group.audio` (tùy chọn): Audio dùng chung cho cả group (một đoạn nghe có nhiều câu hỏi — HSK4+). Khi có `group.audio`, câu hỏi trong group có thể không có `audio` riêng hoặc chỉ có audio câu hỏi (`旁白`).
 - Mọi part đều có `groups` (≥1). `expected_count` = tổng câu không phải ví dụ trong mọi group.
 - `group.shared_options`: mảng Option dùng chung (cho `match_image`, `match_sentence`, `fill_blank_wordbank`), ngược lại `null`.
 - `group.passage`: Text dùng chung cho cả group (dùng cho đoạn văn dài HSK4+), ngược lại `null`.
@@ -182,6 +158,8 @@ Thông tin đề:
 | `tags` | string[] | – | vd `["thời gian","số đếm"]` |
 
 ### 5.3 Các `type` câu hỏi
+
+> Ghi chú trong ngoặc sau tên type (vd "HSK1 L1") là theo bản HSK 2.0 cũ, **chỉ để tham khảo**; type nào dùng ở part nào thì theo **Phụ lục A.2**. Field của từng type vẫn đúng như dưới đây, cộng thay đổi ở A.3.
 
 **`true_false_image`** — (HSK1 L1, R1; HSK2 L1)
 ```json
@@ -274,7 +252,7 @@ Nghe: có `audio`, `stem: null`. Đọc: không có `audio`, `stem` là Text (t�
 ```
 `answer`: đúng 1 chữ Hán (HSK3). Chấm: so khớp tuyệt đối sau trim.
 
-**`write_sentence`** — (HSK4 W2 / luyện viết mở rộng; dùng trong `writing/practice.json`) viết câu dùng từ cho trước (+ ảnh tùy chọn).
+**`write_sentence`** — (HSK3 W2, HSK4 W1; luyện tập) viết câu dùng từ cho trước (+ ảnh tùy chọn).
 ```json
 { "id": "wp3-ws-01", "type": "write_sentence",
   "prompt_vi": "Đặt một câu có dùng từ cho sẵn, phù hợp với hình.",
@@ -287,7 +265,7 @@ Nghe: có `audio`, `stem: null`. Đọc: không có `audio`, `stem` là Text (t�
 ```
 Chấm: có Gemini key → AI chấm (§9.2); không key → đạt nếu chứa `keyword.zh`, độ dài ≥ `min_chars`, và hiện `sample_answers` để tự so. `image` tùy chọn.
 
-Type dành sẵn cho HSK4–6 (web render tối thiểu, đợt 1 chưa cần dữ liệu): `choose_option` với `passage` dài (đọc hiểu), `order_sentences` (`sentences`: Option[] A–C, `answer`: `"BAC"`), `write_essay` (`prompt_vi`, `prompt_zh`, `keywords`: string[], `min_chars`, `sample_answers`, `answer: null`).
+Các type mới của HSK 3.0 (`choose_reply`, `choose_component`, `cloze_option`, `cloze_sentence`, `order_position`, `short_answer`, `write_essay`, `picture_story_writing`, `chart_description`, `translate_written`, `translate_oral`) và các thay đổi field của type cũ: xem **Phụ lục A.3**. `true_false_image` và `reorder_words` không còn trong đề HSK 3.0 nhưng vẫn giữ để dùng trong bài luyện tập.
 
 ### 5.4 Ví dụ part có group dùng chung (HSK1 R4)
 
@@ -389,7 +367,7 @@ Cấu trúc thật HSKK (dùng cho `parts`):
 - `prep_seconds`, `answer_seconds` trên item ghi đè giá trị của part.
 - `sample_answer`: Text; `keywords`: 2–8 từ dùng cho chấm dự phòng.
 - Rubric gợi ý: `rb-repeat` (accuracy, pronunciation); `rb-answer-short` cho `listen_answer` (relevance, grammar, pronunciation); `rb-speech` cho `answer_question`/`describe_picture`/`retell` (content, fluency, vocab_grammar, pronunciation). Tổng `weight` = 1. `max_score` số nguyên.
-- ≥ 10 item cho `so` và ≥ 10 cho `trung`, mỗi part của cấp có ≥ 2 item.
+- Số lượng tối thiểu và bộ đề nói HSK 3.0: xem Phụ lục A.4.
 
 ## 8. `data/speaking/shadowing.json`
 
@@ -424,7 +402,7 @@ Cấu trúc thật HSKK (dùng cho `parts`):
 
 ## 9. Writing
 
-### 9.1 `data/writing/characters.json`
+### 9.1 `data/writing/characters-hsk{L}.json` (mỗi cấp một file; `{L}` = 1…6 hoặc `7-9`)
 ```json
 {
   "characters": [
@@ -434,9 +412,9 @@ Cấu trúc thật HSKK (dùng cho `parts`):
   ]
 }
 ```
-Bắt buộc: `hanzi` (đúng 1 ký tự, không trùng trong file), `pinyin`, `meaning_vi`, `strokes` (int), `radical`, `level` (cấp đầu tiên chữ xuất hiện). Tùy chọn: `han_viet`, `radical_meaning_vi`, `words` (từ trong vocab chứa chữ này). Sắp theo `level` rồi pinyin.
+Bắt buộc: `hanzi` (đúng 1 ký tự, không trùng trong file và không trùng với file cấp thấp hơn), `pinyin`, `meaning_vi`, `strokes` (int), `radical`, `level` (cấp đầu tiên chữ xuất hiện). Tùy chọn: `han_viet`, `radical_meaning_vi`, `words` (từ trong vocab chứa chữ này). Sắp theo `level` rồi pinyin.
 
-### 9.2 `data/writing/practice.json` — luyện viết ngoài đề
+### 9.2 `data/writing/practice-hsk{L}.json` — luyện viết ngoài đề (mỗi cấp một file)
 ```json
 {
   "sets": [
@@ -445,7 +423,7 @@ Bắt buộc: `hanzi` (đúng 1 ký tự, không trùng trong file), `pinyin`, `
   ]
 }
 ```
-- Mỗi set một `type` (`reorder_words` | `write_hanzi_from_pinyin` | `write_sentence`); câu hỏi dùng đúng schema §5.3, không cần `no`, không cần `audio`.
+- Mỗi set một `type` (`reorder_words` | `write_hanzi_from_pinyin` | `choose_component` | `write_sentence` | `write_essay` | `picture_story_writing` | `chart_description` | `translate_written`); câu hỏi dùng đúng schema §5.3, không cần `no`, không cần `audio`.
 - Prompt AI chấm `write_sentence` (web tự xây): chấm thang 0–10 về ngữ pháp, dùng đúng từ khóa, phù hợp ảnh, độ tự nhiên; trả JSON `{score, corrected_zh, pinyin, feedback_vi}`.
 
 ### 9.3 Định dạng trả lời AI (tham chiếu cho Agent Web, không phải file data)
@@ -453,7 +431,256 @@ Bắt buộc: `hanzi` (đúng 1 ký tự, không trùng trong file), `pinyin`, `
 - Chấm HSKK: `{ "scores": { "<criteria.key>": number(0..10) }, "total": number(0..max_score), "transcript_note_vi": "...", "feedback_vi": "...", "suggested_answer_zh": "..." }`; web tính `total` = Σ weight × score × max_score/10 nếu AI trả thiếu.
 - Chấm dự phòng (không key): độ khớp ký tự = LCS(chuỗi nhận dạng, chuỗi mẫu)/độ dài mẫu (bỏ dấu câu, khoảng trắng); với câu mở: tỷ lệ `keywords` xuất hiện.
 
-## 10. Mở rộng HSK 4–6
-- Thêm `levels[]` trong manifest + file `vocab/hsk4.json`, `exams/hsk4-de1.json`.
-- Part code tiếp tục `L1..Ln`, `R1..Rn`, `W1..Wn`; dùng type ở §5.3 (kể cả `order_sentences`, `write_essay`); `choose_option` cho phép 4 phương án.
-- `show_pinyin: false` từ HSK3 trở lên.
+---
+
+# PHỤ LỤC A — CHUẨN HSK 3.0 (bắt buộc, thay cho HSK 2.0)
+
+Kỳ thi HSK 3.0 cấp 1–6 chính thức từ **13/12/2026**; HSK 7–9 là một bài thi gộp. Số liệu dưới đây tổng hợp từ trang chinesetest.cn (CTI), đề mẫu chính thức của CLEC (bản PDF "HSK4/5/6级考试结构与样题"), saymei.app, studycli.org, hsklord.com (tra ngày 23/11/2026). Ô có dấu **(giả định)** là chỗ nguồn không nói rõ → làm theo giá trị ghi ở đây cho thống nhất, ghi lại trong CONTENT_NOTES nếu tìm được nguồn khác.
+
+## A.1 Quy mô từ vựng / chữ Hán (đề cương 2025, cộng dồn)
+
+> **[CHỐT bởi điều phối chính — ưu tiên hơn bảng dưới]** `target_count` của file vocab theo chuẩn GF0025-2021 (ivankra/hsk30): 1=500, 2=772, 3=973, 4=1000, 5=1071, 6=1140, "7-9"=5636. Bảng dưới (đại cương 2025) chỉ để tham khảo độ khó đề thi. Field tùy chọn `syllabus2025: true` trên từ thuộc đại cương 2025.
+
+| Level | Từ cộng dồn | **Từ mới của cấp = `target_count`** | Chữ nhận biết (cộng dồn) | Chữ viết tay (cộng dồn) | File vocab |
+|---|---|---|---|---|---|
+| 1 | 300 | 300 | 246 | 100 (chung với cấp 2) | `vocab/hsk1.json` |
+| 2 | 500 | 200 | 371 | 100 | `vocab/hsk2.json` |
+| 3 | 1 000 | 500 | 655 | 250 | `vocab/hsk3.json` |
+| 4 | 2 000 | 1 000 | 1 096 | 400 | `vocab/hsk4.json` |
+| 5 | 3 600 | 1 600 | 1 527 | 550 | `vocab/hsk5.json` |
+| 6 | 5 400 | 1 800 | 1 940 | 700 | `vocab/hsk6.json` |
+| "7-9" | ~11 000 | 5 600 | 3 088 | 1 200 | `vocab/hsk7-9.json` (**gộp một file**, vì đề cương không tách 7/8/9) |
+
+- Lưu ý: một số trang ghi 500/772/973/… là đề cương GF0025-2021 (bản cũ) — **không dùng**.
+- Chữ Hán: `writing/characters-hsk{L}.json`; `target_count` của chữ = số chữ nhận biết mới của cấp (1: 246, 2: 125, 3: 284, 4: 441, 5: 431, 6: 413, 7-9: 1 148). Thêm field `handwrite: true` cho chữ thuộc danh sách viết tay. File chữ có khung `{ "level", "target_count", "count", "complete", "characters": [...] }`.
+
+## A.2 Cấu trúc đề từng cấp
+
+Ký hiệu: `opt3` = 3 phương án A–C, `opt4` = 4 phương án A–D. "g a×b" = a group, mỗi group b câu. Thời gian tính phút, không gồm 5–8 phút điền thông tin. `repeat` = số lần phát âm thanh nghe.
+
+### HSK 1 — 40 câu, ~40 phút, không viết, không nói. Thang 200 (nghe 100 + đọc 100), đạt 120. Pinyin: có. `repeat: 2`.
+| Phần | Part | Câu | Số | `type` | Mô tả |
+|---|---|---|---|---|---|
+| Nghe (~12 + 3 chép đáp án) | L1 | 1–5 | 5 | `choose_image` | Nghe từ/câu ngắn, chọn 1 trong 3 ảnh |
+| | L2 | 6–10 | 5 | `choose_option` (`question: null`, opt3) | Nghe một câu nói/câu hỏi, chọn câu đáp lại in sẵn |
+| | L3 | 11–15 | 5 | `match_image` (g 1×5, 6 ảnh gồm ví dụ) | Nghe hội thoại ngắn, ghép ảnh |
+| | L4 | 16–20 | 5 | `choose_option` opt3 | Nghe câu + câu hỏi, chọn đáp án chữ |
+| Đọc (20) | R1 | 21–25 | 5 | `match_image` | Câu ↔ ảnh |
+| | R2 | 26–30 | 5 | `match_sentence` | Câu hỏi ↔ câu trả lời |
+| | R3 | 31–35 | 5 | `fill_blank_wordbank` (6 từ) | Chọn từ điền trống |
+| | R4 | 36–40 | 5 | `choose_option` opt3 (có `passage`, `question` dạng ★) | Đọc đoạn ngắn, trả lời câu ★ |
+
+### HSK 2 — 60 câu, ~60 phút, không nói. Thang 300 (nghe/đọc/viết mỗi phần 100), đạt 180. Pinyin: có (cả phần viết). `repeat: 2`.
+| Phần | Part | Câu | Số | `type` | Mô tả |
+|---|---|---|---|---|---|
+| Nghe (~17 + 3) | L1 | 1–5 | 5 | `choose_image` | Nghe câu, chọn 1/3 ảnh |
+| | L2 | 6–15 | 10 | `match_image` g 2×5 | Hội thoại ↔ ảnh |
+| | L3 | 16–25 | 10 | `choose_option` opt3 | Hội thoại + câu hỏi |
+| Đọc (25) | R1 | 26–30 | 5 | `match_image` | Câu ↔ ảnh |
+| | R2 | 31–35 | 5 | `fill_blank_wordbank` | Chọn từ điền trống |
+| | R3 | 36–45 | 10 | `match_sentence` g 2×5 | Câu ↔ câu đáp |
+| | R4 | 46–50 | 5 | `choose_option` opt3 (passage + ★) | Đọc đoạn ngắn |
+| Viết (10) | W1 | 51–55 | 5 | `choose_component` (6 bộ kiện A–F dùng chung) | Hoàn thành chữ bằng cách chọn bộ phận còn thiếu |
+| | W2 | 56–60 | 5 | `write_hanzi_from_pinyin` | Viết chữ còn thiếu theo pinyin |
+
+### HSK 3 — 70 câu, ~83 phút + bài nói 15 phút. Thang viết 300 (100/100/100), đạt 180. Pinyin: không. `repeat: 2` (giả định).
+| Phần | Part | Câu | Số | `type` | Mô tả |
+|---|---|---|---|---|---|
+| Nghe (~23 + 5) | L1 | 1–10 | 10 | `match_image` g 2×5 | Hội thoại ngắn ↔ ảnh |
+| | L2 | 11–20 | 10 | `choose_option` opt3 | Hội thoại + câu hỏi |
+| | L3 | 21–30 | 10 | `choose_option` opt3 | Đoạn nói ngắn (độc thoại) + câu hỏi |
+| Đọc (30) | R1 | 31–40 | 10 | `match_sentence` g 2×5 | Câu ↔ câu đáp |
+| | R2 | 41–50 | 10 | `fill_blank_wordbank` g 2×5 | Chọn từ điền trống |
+| | R3 | 51–60 | 10 | `choose_option` opt3 (★) | Đoạn ngắn; 2 đoạn có 2 câu hỏi (dùng `group.passage`) |
+| Viết (20) | W1 | 61–65 | 5 | `write_hanzi_from_pinyin` | Viết chữ còn thiếu theo pinyin |
+| | W2 | 66–70 | 5 | `write_sentence` (có `image`, `max_points: 2` giả định) | Đặt câu với từ cho sẵn + ảnh |
+| Nói | — | 15 mục | | xem A.4 | nhắc lại 8 · tả ảnh 5 · trả lời 2 |
+
+### HSK 4 — 70 câu, ~85 phút + nói 20 phút. Thang 300, đạt 180. `repeat: 1` (giả định).
+| Phần | Part | Câu | Số | `type` | Mô tả |
+|---|---|---|---|---|---|
+| Nghe (~20 + 5) | L1 | 1–14 | 14 | `choose_option` opt4 | Hội thoại ngắn + câu hỏi |
+| | L2 | 15–32 | 18 | `choose_option` opt4 | Đoạn độc thoại/tin nhắn; một số đoạn 2 câu hỏi (`group.audio`) |
+| Đọc (30) | R1 | 33–42 | 10 | `fill_blank_wordbank` g 2×5 (5 từ A–E) | 33–37 câu đơn, 38–42 hội thoại 2 lượt |
+| | R2 | 43–57 | 15 | `choose_option` opt4 | 43–50: đoạn ngắn + câu ★; 51–57: đoạn dài, mỗi đoạn 2 câu (group.passage) |
+| | R3 | 58–64 | 7 | `cloze_sentence` | Điền câu A–… vào chỗ trống đánh số trong đoạn văn |
+| Viết (25) | W1 | 65–69 | 5 | `write_sentence` (không ảnh, `max_points: 4` giả định) | Đặt câu với từ cho sẵn |
+| | W2 | 70 | 1 | `write_essay` (`min_chars: 80`, `max_points: 20`) | Đoạn văn ≥ 80 chữ theo đề |
+| Nói | — | 5 mục | | A.4 | thuật lại 2 · kể chuyện theo 3 ảnh 1 · trả lời 2 |
+
+### HSK 5 — 72 câu, ~110 phút + nói 23 phút. Thang 300, `pass_score: 180` (giả định — chưa công bố). `repeat: 1` (giả định).
+| Phần | Part | Câu | Số | `type` | Mô tả |
+|---|---|---|---|---|---|
+| Nghe (~25 + 5) | L1 | 1–19 | 19 | `choose_option` opt4 | Hội thoại ngắn |
+| | L2 | 20–35 | 16 | `choose_option` opt4 | Đoạn dài, nhiều câu/đoạn (`group.audio`) |
+| Đọc (35) | R1 | 36–45 | 10 | `cloze_option` | Đoạn văn có chỗ trống, mỗi chỗ 4 phương án |
+| | R2 | 46–55 | 10 | `order_position` g 2×5 (5 đoạn A–E) | Sắp xếp 5 câu/đoạn thành bài mạch lạc |
+| | R3 | 56–70 | 15 | `choose_option` opt4 | Bài đọc, nhiều câu/bài |
+| Viết (40) | W1 | 71 | 1 | `picture_story_writing` (4 ảnh, `min_chars: 100`, `max_points: 40`) | Kể chuyện theo tranh |
+| | W2 | 72 | 1 | `write_essay` (`min_chars: 200`, `max_points: 60`) | Bài văn theo đề |
+| Nói | — | 5 mục | | A.4 | thuật lại 2 · kể chuyện theo 3 ảnh 1 · trả lời 2 |
+
+### HSK 6 — 82 câu, ~125 phút + nói 23 phút. Thang 300, `pass_score: 180` (giả định). `repeat: 1` (giả định).
+| Phần | Part | Câu | Số | `type` | Mô tả |
+|---|---|---|---|---|---|
+| Nghe (~30 + 5) | L1 | 1–8 | 8 | `choose_option` opt4 (`question: null`) | Nghe đoạn ngắn, chọn câu khớp nghĩa |
+| | L2 | 9–28 | 20 | `choose_option` opt4, g 5×4 (`group.audio`) | 5 đoạn độc thoại, mỗi đoạn 4 câu |
+| | L3 | 29–40 | 12 | `choose_option` opt4, g 3×4 (`group.audio`) | 3 hội thoại nam–nữ, mỗi bài 4 câu |
+| Đọc (40) | R1 | 41–50 | 10 | `cloze_option` g 2×5 | 2 đoạn, mỗi đoạn 5 chỗ trống, 4 phương án |
+| | R2 | 51–60 | 10 | `cloze_sentence` g 2×5 (6 câu A–F, thừa 1) | Điền câu vào đoạn |
+| | R3 | 61–80 | 20 | `choose_option` opt4, g 5×4 | 5 bài đọc × 4 câu |
+| Viết (45) | W1 | 81 | 1 | `write_essay` (`genre: "practical"`, `min_chars: 150`, `max_points: 40`) | Văn bản ứng dụng (thông báo…) |
+| | W2 | 82 | 1 | `write_essay` (`genre: "argumentative"`, `min_chars: 300`, `max_points: 60`) | Nghị luận |
+| Nói | — | 5 mục | | A.4 | thuật lại 2 · kể chuyện theo 4 ảnh 1 · trả lời 2 |
+
+### HSK 7–9 (đề gộp) — `level: "7-9"`, file `exams/hsk7-9-de1.json`, 91 câu, ~200 phút. Theo trang CTI hiện tại (một bản khác ghi 98 câu/210 phút — dùng bản 91). `repeat: 1`. Mỗi kỹ năng chấm 0–100; kết quả xếp bậc: dưới 7 / 7 / 8 / 9.
+| Phần (`section.id`) | Part | Số | `type` | Mô tả |
+|---|---|---|---|---|
+| Nghe `listening` (~33) | L1 | 10 | `true_false_statement` (giả định) | Nghe, phán đoán đúng/sai |
+| | L2 | 12 | 9 `choose_option` opt4 + 3 `short_answer` (`group.audio`) | Đoạn nghe dài: chọn + điền ngắn |
+| | L3 | 18 | 15 `choose_option` opt4 + 3 `short_answer` | Bài giảng/phỏng vấn dài |
+| Đọc `reading` (50) | R1 | 21 | `choose_option` opt4 (group.passage) | Bài đọc dài |
+| | R2 | 5 | `order_position` hoặc `cloze_sentence` (giả định: `cloze_sentence`, 6–7 đoạn A–G) | Điền đoạn/sắp xếp đoạn |
+| | R3 | 14 | `short_answer` (`max_chars` ≤ 10) | Trả lời ngắn theo bài đọc |
+| Viết `writing` (55) | W1 | 1 | `chart_description` (`min_chars: 200`, ~15 phút) | Mô tả, phân tích biểu đồ |
+| | W2 | 1 | `write_essay` (`genre: "argumentative"`, `min_chars: 600`, ~40 phút) | Nghị luận |
+| Dịch `translation` (42) | T1 | 2 | `translate_written` | Dịch viết đoạn tiếng nước ngoài → tiếng Trung |
+| | T2 | 2 | `translate_oral` | Dịch nói (视译): đọc đoạn văn, nói bản dịch tiếng Trung |
+| Nói `speaking` (~20) | — | 5 | A.4 (paper `hsk7-9-de1-speaking`) | 1 trình bày theo tài liệu · 3 nghe rồi trả lời · 1 trả lời quan điểm (chuẩn bị 3', nói 3') |
+
+Khung riêng của file 7-9: `"total_score": null`, `"pass_score": null`, `"score_mode": "bands"`, mỗi section `max_score: 100`, và:
+```json
+"band_rules": { "basis": "average_section_score", "official": false,
+  "bands": [ { "min": 0, "label_vi": "Dưới HSK 7" }, { "min": 60, "label_vi": "HSK 7" },
+             { "min": 75, "label_vi": "HSK 8" }, { "min": 90, "label_vi": "HSK 9" } ] }
+```
+(ngưỡng tạm do web ước lượng — **không chính thức**, web phải hiện dòng cảnh báo đó.) HSK1–6: `"score_mode": "pass"`.
+
+## A.3 Type câu hỏi mới / thay đổi
+
+**Thay đổi chung**
+- `choose_option`: `options` có 3 (HSK1–3) hoặc 4 (HSK4+) phần tử; `question` được phép `null` (HSK1 L2: chọn câu đáp lại; HSK6 L1: chọn câu khớp nghĩa) — khi đó web hiện "Chọn đáp án phù hợp".
+- `write_sentence`: thêm `max_points` (int); `image` có ở HSK3, không có ở HSK4.
+- Câu chủ quan (`write_sentence`, `short_answer`, `write_essay`, `picture_story_writing`, `chart_description`, `translate_written`, `translate_oral`) bắt buộc có `max_points` và `rubric_id` (trỏ tới `exam.rubrics[]`, cùng cấu trúc rubric §7; tiêu chí gợi ý: content, organization, vocab_grammar, characters / accuracy, fluency cho dịch). `answer: null` trừ `short_answer`.
+- Điểm một section = round(`max_score` × điểm đạt / tổng điểm tối đa), câu khách quan = 1 điểm.
+- Trong đoạn văn có chỗ trống đánh số, ký hiệu chỗ trống là `（{no}）`, vd `（41）` (khác `（ ）` của câu đơn).
+
+**`choose_component`** (HSK2 W1). `group.shared_options`: 6 Option `{key, text:{zh:"马"}}` là bộ kiện.
+```json
+{ "id": "hsk2-de1-51", "no": 51, "type": "choose_component",
+  "word": { "zh": "妈妈", "pinyin": "māma" },
+  "target_char": "妈", "target_index": 0,
+  "shown_part": "女", "layout": "left-right",
+  "answer": "B", "explanation_vi": "妈 = 女 + 马 (B)." }
+```
+`layout` ∈ `left-right` | `top-bottom` | `enclosure` | `other`. Web hiển thị `word` với chữ thứ `target_index` thay bằng `shown_part` + ô trống theo `layout`.
+
+**`cloze_option`** (HSK5 R1, HSK6 R1). Đoạn văn ở `group.passage` chứa `（36）`…; mỗi câu một chỗ trống.
+```json
+{ "id": "hsk5-de1-36", "no": 36, "type": "cloze_option", "blank_no": 36,
+  "options": [ { "key": "A", "text": { "zh": "方便" } }, { "key": "B", "text": { "zh": "随便" } },
+               { "key": "C", "text": { "zh": "顺便" } }, { "key": "D", "text": { "zh": "轻便" } } ],
+  "answer": "A", "explanation_vi": "…" }
+```
+
+**`cloze_sentence`** (HSK4 R3, HSK6 R2, 7-9 R2). `group.passage` chứa `（58）`…; `group.shared_options` là các câu/đoạn A–F (có thể thừa); mỗi key dùng tối đa 1 lần.
+```json
+{ "id": "hsk4-de1-58", "no": 58, "type": "cloze_sentence", "blank_no": 58, "answer": "B", "explanation_vi": "…" }
+```
+
+**`order_position`** (HSK5 R2). `group.shared_options` = 5 câu/đoạn A–E đã xáo; `group.passage` (tùy chọn) = tiêu đề/câu mở đầu. Mỗi câu hỏi là một vị trí; mỗi key dùng đúng 1 lần.
+```json
+{ "id": "hsk5-de1-46", "no": 46, "type": "order_position", "position": 1, "answer": "C", "explanation_vi": "C giới thiệu nhân vật nên đứng đầu." }
+```
+
+**`short_answer`** (7-9 L2, L3, R3). Ngữ liệu ở `group.audio` hoặc `group.passage`.
+```json
+{ "id": "hsk7-9-de1-20", "no": 20, "type": "short_answer",
+  "question": { "zh": "作者认为城市绿化最大的作用是什么？" },
+  "max_chars": 10, "answer": "改善空气质量", "accepted_answers": ["提高空气质量"],
+  "keywords": ["空气"], "max_points": 1, "rubric_id": "rb-short", "explanation_vi": "…" }
+```
+Chấm không AI: đúng nếu khớp `answer`/`accepted_answers` (bỏ dấu câu) hoặc chứa mọi `keywords`.
+
+**`write_essay`** (HSK4 W2, HSK5 W2, HSK6 W1–W2, 7-9 W2)
+```json
+{ "id": "hsk4-de1-70", "no": 70, "type": "write_essay",
+  "genre": "narrative",
+  "prompt": { "zh": "请写一篇不少于80字的短文，介绍一下你最难忘的一次旅行。" },
+  "prompt_vi": "Viết đoạn văn ≥ 80 chữ kể về chuyến du lịch đáng nhớ nhất.",
+  "keywords": [], "image": null, "min_chars": 80, "max_chars": null,
+  "time_minutes": null,
+  "sample_answers": ["…"], "outline_vi": ["Mở: …", "Thân: …", "Kết: …"],
+  "max_points": 20, "rubric_id": "rb-essay", "answer": null, "explanation_vi": "…" }
+```
+`genre` ∈ `narrative` | `practical` | `argumentative` | `descriptive`.
+
+**`picture_story_writing`** (HSK5 W1)
+```json
+{ "id": "hsk5-de1-71", "no": 71, "type": "picture_story_writing",
+  "images": [ { "emoji": "🧒📚", "alt_vi": "Cậu bé ngồi đọc sách một mình" }, { "emoji": "…", "alt_vi": "…" },
+              { "emoji": "…", "alt_vi": "…" }, { "emoji": "…", "alt_vi": "…" } ],
+  "prompt": { "zh": "请根据下面四张图片写一个不少于100字的故事。" }, "prompt_vi": "…",
+  "min_chars": 100, "sample_answers": ["…"], "max_points": 40, "rubric_id": "rb-essay",
+  "answer": null, "explanation_vi": "…" }
+```
+
+**`chart_description`** (7-9 W1). Web vẽ biểu đồ đơn giản (SVG/bảng) từ `chart`.
+```json
+{ "id": "hsk7-9-de1-81", "no": 81, "type": "chart_description",
+  "chart": { "kind": "bar", "title_zh": "2020—2024年某市电动汽车销量", "unit": "万辆",
+             "labels": ["2020","2021","2022","2023","2024"],
+             "series": [ { "name": "销量", "values": [3.2, 4.8, 7.1, 9.6, 12.3] } ] },
+  "prompt": { "zh": "请描述并分析上图，写一篇200字左右的短文。" }, "prompt_vi": "…",
+  "min_chars": 200, "time_minutes": 15, "sample_answers": ["…"],
+  "max_points": 30, "rubric_id": "rb-chart", "answer": null, "explanation_vi": "…" }
+```
+`chart.kind` ∈ `bar` | `line` | `pie` | `table`; `values.length` = `labels.length`.
+
+**`translate_written`** (7-9 T1) và **`translate_oral`** (7-9 T2)
+```json
+{ "id": "hsk7-9-de1-83", "no": 83, "type": "translate_written",
+  "source": { "lang": "en", "text": "…English passage…" },
+  "source_vi": "…bản tiếng Việt tương đương (tùy chọn, cho người Việt luyện)…",
+  "reference_zh": "…bản dịch mẫu…", "time_minutes": 20,
+  "max_points": 25, "rubric_id": "rb-translate", "answer": null, "explanation_vi": "…" }
+```
+`translate_oral` thêm `prep_seconds` (vd 60), `answer_seconds` (vd 120); bài làm là ghi âm → nhận dạng → AI chấm so với `reference_zh`. Đề thật dùng tiếng Anh: `source.lang: "en"` bắt buộc, `source_vi` tùy chọn.
+
+## A.4 Bài thi nói HSK 3.0 (trong `speaking/hskk.json` — Agent A)
+
+`hskk.json` giữ cấu trúc §7, mở rộng:
+- `levels[].level` thêm `3`, `4`, `5`, `6`, `"7-9"` (cấp HSKK độc lập `so|trung|cao` thành tùy chọn).
+- `items[].type` thêm `picture_story` (`images`: 3–4 Image theo thứ tự) và `present_material` (`prompt` là tài liệu hiển thị, có `prep_seconds`). `describe_picture` ở HSK3 = nói 1 câu cho 1 ảnh.
+- Mảng mới `papers`: bộ đề nói hoàn chỉnh, đề viết tham chiếu qua `exam.speaking_paper`.
+```json
+"papers": [ { "id": "hsk4-de1-speaking", "level": 4, "title_vi": "Đề nói HSK 4 – Đề 1",
+              "warmup": true, "prep_total_seconds": 600,
+              "item_ids": ["hsk4-s-01", "hsk4-s-02", "hsk4-s-03", "hsk4-s-04", "hsk4-s-05"] } ]
+```
+`warmup: true` → web phát phần chào + 3 câu hỏi cá nhân (tên, quốc tịch, 5 số cuối số báo danh; 10 s mỗi câu, không chấm). Âm thanh đề nói phát **1 lần**. Câu hỏi part 3 chỉ in chữ Hán (không pinyin, không đọc).
+
+| Level | Part `code` | `type` | Số mục | Chuẩn bị | Trả lời |
+|---|---|---|---|---|---|
+| 3 | `hsk3-1` | `repeat` (câu 7–10 chữ) | 8 | 0 | 10 s |
+| | `hsk3-2` | `describe_picture` (1 câu/ảnh) | 5 | 0 | 15 s |
+| | `hsk3-3` | `answer_question` | 2 | 180 s/câu | 90 s |
+| 4 | `hsk4-1` | `retell` (đoạn nghe 14–20 s) | 2 | 0 | 40 s |
+| | `hsk4-2` | `picture_story` (3 ảnh) | 1 | 180 s | 120 s |
+| | `hsk4-3` | `answer_question` | 2 | 210 s/câu | 120 s |
+| 5 | `hsk5-1` | `retell` (đoạn 30–36 s) | 2 | 0 | 90 s |
+| | `hsk5-2` | `picture_story` (3 ảnh) | 1 | 180 s | 120 s |
+| | `hsk5-3` | `answer_question` | 2 | 210 s/câu | 150 s |
+| 6 | `hsk6-1` | `retell` (đoạn 30–36 s) | 2 | 0 | 90 s |
+| | `hsk6-2` | `picture_story` (4 ảnh) | 1 | 180 s | 120 s |
+| | `hsk6-3` | `answer_question` | 2 | 210 s/câu | 150 s |
+| 7-9 | `hsk7-9-1` | `present_material` | 1 | 120 s (giả định) | 180 s (giả định) |
+| | `hsk7-9-2` | `listen_answer` | 3 | 0 (giả định) | 60 s (giả định) |
+| | `hsk7-9-3` | `answer_question` (quan điểm) | 1 | 180 s | 180 s |
+
+Item id: `hsk{L}-s-{stt:02}`. Rubric gợi ý: `rb-repeat`, `rb-speech` (dùng chung), `rb-present`.
+
+## A.5 Tên file đề và quy ước
+- HSK1–6: `data/exams/hsk{n}-de1.json` (`id` `hsk{n}-de1`). Đề gộp: `data/exams/hsk7-9-de1.json` (`id` `hsk7-9-de1`, `level: "7-9"`). Đề thứ k: `-de{k}`.
+- Field mới của exam: `"score_mode": "pass" | "bands"`, `"speaking_paper": "<paper id>" | null`, `"rubrics": [...]` (cho câu chủ quan), `"band_rules"` (chỉ 7-9), `"repeat_default"` (2 cho HSK1–3, 1 cho HSK4+). `"standard": "HSK3.0"`.
+- `show_pinyin`: `true` cho HSK1–2, `false` từ HSK3.
