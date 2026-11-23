@@ -1,0 +1,406 @@
+{
+  "notes": "Chỉ gồm bài nguồn TTS. Không đưa video YouTube vì chưa xác minh được videoId và mốc thời gian chính xác; người dùng có thể tự thêm bài YouTube trong web.",
+  "items": [
+    {
+      "id": "sh-tts-01",
+      "level": 1,
+      "title": "Giới thiệu bản thân",
+      "source": "tts",
+      "youtube": null,
+      "segments": [
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "你好，我叫小月。",
+          "pinyin": "nǐ hǎo, wǒ jiào Xiǎoyuè.",
+          "vi": "Xin chào, tôi tên Tiểu Nguyệt.",
+          "speaker": "女"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "我是越南人，今年二十岁。",
+          "pinyin": "wǒ shì Yuènán rén, jīnnián èr shí suì.",
+          "vi": "Tôi là người Việt Nam, năm nay hai mươi tuổi.",
+          "speaker": "女"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "我是大学生，在学汉语。",
+          "pinyin": "wǒ shì dàxuéshēng, zài xué Hànyǔ.",
+          "vi": "Tôi là sinh viên, đang học tiếng Trung.",
+          "speaker": "女"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "认识你很高兴！",
+          "pinyin": "rènshi nǐ hěn gāoxìng!",
+          "vi": "Rất vui được làm quen với bạn!",
+          "speaker": "女"
+        }
+      ]
+    },
+    {
+      "id": "sh-tts-02",
+      "level": 1,
+      "title": "Ở cửa hàng",
+      "source": "tts",
+      "youtube": null,
+      "segments": [
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "你好，这个多少钱？",
+          "pinyin": "nǐ hǎo, zhège duōshao qián?",
+          "vi": "Chào bạn, cái này bao nhiêu tiền?",
+          "speaker": "男"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "十五块。",
+          "pinyin": "shí wǔ kuài.",
+          "vi": "Mười lăm tệ.",
+          "speaker": "女"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "太贵了，便宜一点儿吧。",
+          "pinyin": "tài guì le, piányi yìdiǎnr ba.",
+          "vi": "Đắt quá, rẻ hơn chút đi.",
+          "speaker": "男"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "好吧，十块。",
+          "pinyin": "hǎo ba, shí kuài.",
+          "vi": "Thôi được, mười tệ.",
+          "speaker": "女"
+        }
+      ]
+    },
+    {
+      "id": "sh-tts-03",
+      "level": 2,
+      "title": "Một ngày của tôi",
+      "source": "tts",
+      "youtube": null,
+      "segments": [
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "我每天早上六点半起床。",
+          "pinyin": "wǒ měitiān zǎoshang liù diǎn bàn qǐ chuáng.",
+          "vi": "Mỗi sáng tôi dậy lúc sáu rưỡi.",
+          "speaker": "女"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "吃完早饭以后，我坐地铁去公司。",
+          "pinyin": "chī wán zǎofàn yǐhòu, wǒ zuò dìtiě qù gōngsī.",
+          "vi": "Ăn sáng xong, tôi đi tàu điện ngầm đến công ty.",
+          "speaker": "女"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "中午我和同事一起吃饭。",
+          "pinyin": "zhōngwǔ wǒ hé tóngshì yìqǐ chīfàn.",
+          "vi": "Buổi trưa tôi ăn cơm cùng đồng nghiệp.",
+          "speaker": "女"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "晚上我常常在家看书或者看电视。",
+          "pinyin": "wǎnshang wǒ chángcháng zàijiā kàn shū huòzhě kàn diànshì.",
+          "vi": "Buổi tối tôi thường ở nhà đọc sách hoặc xem tivi.",
+          "speaker": "女"
+        }
+      ]
+    },
+    {
+      "id": "sh-tts-04",
+      "level": 2,
+      "title": "Hỏi đường",
+      "source": "tts",
+      "youtube": null,
+      "segments": [
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "请问，地铁站怎么走？",
+          "pinyin": "qǐngwèn, dìtiězhàn zěnme zǒu?",
+          "vi": "Xin hỏi, đi đến ga tàu điện ngầm thế nào?",
+          "speaker": "男"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "一直往前走，到了路口往右走。",
+          "pinyin": "yìzhí wǎng qián zǒu, dào le lùkǒu wǎng yòu zǒu.",
+          "vi": "Cứ đi thẳng, đến ngã tư thì rẽ phải.",
+          "speaker": "女"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "离这儿远吗？",
+          "pinyin": "lí zhèr yuǎn ma?",
+          "vi": "Có xa đây không?",
+          "speaker": "男"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "不远，走路五分钟就到了。",
+          "pinyin": "bù yuǎn, zǒulù wǔ fēnzhōng jiù dào le.",
+          "vi": "Không xa, đi bộ năm phút là đến.",
+          "speaker": "女"
+        }
+      ]
+    },
+    {
+      "id": "sh-tts-05",
+      "level": 3,
+      "title": "Kế hoạch cuối tuần",
+      "source": "tts",
+      "youtube": null,
+      "segments": [
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "这个周末你有什么打算？",
+          "pinyin": "zhège zhōumò nǐ yǒu shénme dǎsuàn?",
+          "vi": "Cuối tuần này bạn có dự định gì?",
+          "speaker": "男"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "我打算和朋友一起去爬山。",
+          "pinyin": "wǒ dǎsuàn hé péngyou yìqǐ qù páshān.",
+          "vi": "Tôi định đi leo núi cùng bạn bè.",
+          "speaker": "女"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "听说山上的风景特别美。",
+          "pinyin": "tīngshuō shān shàng de fēngjǐng tèbié měi.",
+          "vi": "Nghe nói phong cảnh trên núi đặc biệt đẹp.",
+          "speaker": "男"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "是啊，而且爬山还能锻炼身体。",
+          "pinyin": "shì a, érqiě páshān hái néng duànliàn shēntǐ.",
+          "vi": "Đúng vậy, hơn nữa leo núi còn rèn luyện sức khỏe.",
+          "speaker": "女"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "如果天气好的话，我也想去。",
+          "pinyin": "rúguǒ tiānqì hǎo dehuà, wǒ yě xiǎng qù.",
+          "vi": "Nếu thời tiết đẹp thì tôi cũng muốn đi.",
+          "speaker": "男"
+        }
+      ]
+    },
+    {
+      "id": "sh-tts-06",
+      "level": 3,
+      "title": "Học tiếng Trung",
+      "source": "tts",
+      "youtube": null,
+      "segments": [
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "刚开始学汉语的时候，我觉得声调特别难。",
+          "pinyin": "gāng kāishǐ xué Hànyǔ de shíhou, wǒ juéde shēng diào tèbié nán.",
+          "vi": "Lúc mới học tiếng Trung, tôi thấy thanh điệu đặc biệt khó.",
+          "speaker": "女"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "后来我每天跟着录音练习。",
+          "pinyin": "hòulái wǒ měitiān gēn zhe lùyīn liànxí.",
+          "vi": "Sau đó ngày nào tôi cũng luyện theo ghi âm.",
+          "speaker": "女"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "现在我已经能用汉语和中国朋友聊天了。",
+          "pinyin": "xiànzài wǒ yǐjing néng yòng Hànyǔ hé Zhōngguó péngyou liáotiān le.",
+          "vi": "Bây giờ tôi đã có thể nói chuyện với bạn Trung Quốc bằng tiếng Trung.",
+          "speaker": "女"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "只要坚持，你一定也能学好。",
+          "pinyin": "zhǐyào jiānchí, nǐ yídìng yě néng xué hǎo.",
+          "vi": "Chỉ cần kiên trì, bạn nhất định cũng học tốt.",
+          "speaker": "女"
+        }
+      ]
+    },
+    {
+      "id": "sh-tts-07",
+      "level": 4,
+      "title": "Áp lực công việc",
+      "source": "tts",
+      "youtube": null,
+      "segments": [
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "最近工作压力越来越大，经常要加班。",
+          "pinyin": "zuìjìn gōngzuò yālì yuè lái yuè dà, jīngcháng yào jiābān.",
+          "vi": "Dạo này áp lực công việc ngày càng lớn, thường xuyên phải tăng ca.",
+          "speaker": "男"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "为了放松，我开始每天下班后去跑步。",
+          "pinyin": "wèile fàngsōng, wǒ kāishǐ měitiān xiàbān hòu qù pǎobù.",
+          "vi": "Để thư giãn, tôi bắt đầu chạy bộ mỗi ngày sau giờ làm.",
+          "speaker": "男"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "跑完步以后，心情会好很多。",
+          "pinyin": "pǎo wán bù yǐhòu, xīnqíng huì hǎo hěn duō.",
+          "vi": "Chạy xong, tâm trạng tốt lên nhiều.",
+          "speaker": "男"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "我觉得工作和生活应该保持平衡。",
+          "pinyin": "wǒ juéde gōngzuò hé shēnghuó yīnggāi bǎochí pínghéng.",
+          "vi": "Tôi thấy công việc và cuộc sống nên giữ cân bằng.",
+          "speaker": "男"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "身体健康才是最重要的。",
+          "pinyin": "shēntǐ jiànkāng cái shì zuì zhòngyào de.",
+          "vi": "Sức khỏe mới là quan trọng nhất.",
+          "speaker": "男"
+        }
+      ]
+    },
+    {
+      "id": "sh-tts-08",
+      "level": 5,
+      "title": "Thói quen đọc sách",
+      "source": "tts",
+      "youtube": null,
+      "segments": [
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "随着智能手机的普及，人们的阅读习惯发生了很大变化。",
+          "pinyin": "suízhe zhìnéng shǒujī de pǔjí, rénmen de yuèdú xíguàn fāshēng le hěn dà biànhuà.",
+          "vi": "Cùng với sự phổ biến của điện thoại thông minh, thói quen đọc của mọi người đã thay đổi lớn.",
+          "speaker": "女"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "很多人更喜欢在手机上看短文章。",
+          "pinyin": "hěn duō rén gèng xǐhuan zài shǒujī shàng kàn duǎn wénzhāng.",
+          "vi": "Nhiều người thích đọc bài ngắn trên điện thoại hơn.",
+          "speaker": "女"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "这种阅读方式虽然方便，但是容易让人注意力不集中。",
+          "pinyin": "zhè zhǒng yuèdú fāngshì suīrán fāngbiàn, dànshì róngyì ràng rén zhùyì lì bù jízhōng.",
+          "vi": "Cách đọc này tuy tiện lợi nhưng dễ khiến người ta mất tập trung.",
+          "speaker": "女"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "我建议大家每天抽出半个小时读一本纸质书。",
+          "pinyin": "wǒ jiànyì dàjiā měitiān chōu chū bàn gè xiǎoshí dú yì běn zhǐ zhì shū.",
+          "vi": "Tôi khuyên mọi người mỗi ngày dành nửa tiếng đọc một cuốn sách giấy.",
+          "speaker": "女"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "坚持下去，你会发现自己的思考能力提高了。",
+          "pinyin": "jiānchí xiàqù, nǐ huì fāxiàn zìjǐ de sīkǎo nénglì tígāo le.",
+          "vi": "Kiên trì, bạn sẽ thấy khả năng tư duy của mình được nâng cao.",
+          "speaker": "女"
+        }
+      ]
+    },
+    {
+      "id": "sh-tts-09",
+      "level": 6,
+      "title": "Bảo tồn văn hóa truyền thống",
+      "source": "tts",
+      "youtube": null,
+      "segments": [
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "在全球化的背景下，传统文化面临着前所未有的挑战。",
+          "pinyin": "zài quánqiú huà de bèijǐng xià, chuántǒng wénhuà miànlín zhe qián suǒ wèi yǒu de tiǎozhàn.",
+          "vi": "Trong bối cảnh toàn cầu hóa, văn hóa truyền thống đối mặt với thách thức chưa từng có.",
+          "speaker": "男"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "一些古老的手艺因为缺少传承人而逐渐消失。",
+          "pinyin": "yìxiē gǔlǎo de shǒu yì yīnwèi quēshǎo chuán chéng rén ér zhújiàn xiāoshī.",
+          "vi": "Một số nghề thủ công cổ đang dần biến mất vì thiếu người kế thừa.",
+          "speaker": "男"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "然而，也有不少年轻人开始用新的方式重新诠释传统。",
+          "pinyin": "rán'ér, yě yǒu bù shǎo niánqīng rén kāishǐ yòng xīn de fāngshì chóngxīn quán shì chuántǒng.",
+          "vi": "Tuy nhiên, cũng có không ít người trẻ bắt đầu diễn giải lại truyền thống theo cách mới.",
+          "speaker": "男"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "他们借助互联网，让更多人了解并爱上了这些文化遗产。",
+          "pinyin": "tāmen jiè zhù hùliánwǎng, ràng gèng duō rén liǎojiě bìng ài shàng le zhèxiē wénhuà yíchǎn.",
+          "vi": "Họ nhờ internet giúp nhiều người hiểu và yêu những di sản văn hóa này.",
+          "speaker": "男"
+        },
+        {
+          "start": null,
+          "end": null,
+          "hanzi": "可见，保护传统并不意味着拒绝创新。",
+          "pinyin": "kějiàn, bǎohù chuántǒng bìng bú yìwèizhe jùjué chuàngxīn.",
+          "vi": "Có thể thấy, bảo tồn truyền thống không có nghĩa là từ chối đổi mới.",
+          "speaker": "男"
+        }
+      ]
+    }
+  ]
+}

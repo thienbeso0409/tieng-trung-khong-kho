@@ -1,0 +1,3321 @@
+{
+  "id": "hsk7-9-de1",
+  "level": "7-9",
+  "title_vi": "Đề thi thử HSK 7–9 – Đề 1",
+  "standard": "HSK3.0",
+  "duration_minutes": 200,
+  "total_score": null,
+  "pass_score": null,
+  "score_mode": "bands",
+  "band_rules": {
+    "basis": "average_section_score",
+    "official": false,
+    "bands": [
+      {
+        "min": 0,
+        "label_vi": "Dưới HSK 7"
+      },
+      {
+        "min": 60,
+        "label_vi": "HSK 7"
+      },
+      {
+        "min": 75,
+        "label_vi": "HSK 8"
+      },
+      {
+        "min": 90,
+        "label_vi": "HSK 9"
+      }
+    ]
+  },
+  "show_pinyin": false,
+  "repeat_default": 1,
+  "speaking_paper": "hsk7-9-de1-speaking",
+  "notes": "Đề tự soạn theo cấu trúc HSK 3.0 bậc 7–9 (91 mục: 86 câu trong file này + 5 mục nói ở speaking/hskk.json). Ngưỡng xếp bậc là ước lượng, không chính thức.",
+  "sections": [
+    {
+      "id": "listening",
+      "name_vi": "Nghe",
+      "name_zh": "听力",
+      "max_score": 100,
+      "parts": [
+        {
+          "code": "L1",
+          "type": "true_false_statement",
+          "expected_count": 10,
+          "instruction_vi": "Nghe từng đoạn ngắn (phát 1 lần), phán đoán câu ★ đúng hay sai.",
+          "instruction_zh": "第一部分：听后判断对错。",
+          "groups": [
+            {
+              "id": "hsk7-9-de1-L1-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk7-9-de1-01",
+                  "no": 1,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "近年来，越来越多的年轻人选择“断舍离”的生活方式。他们定期清理不常用的物品，只保留真正需要的东西。调查显示，这类人群对生活的满意度普遍高于平均水平，但也有专家提醒，简约不等于盲目丢弃。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ 专家认为简约生活就是把东西都扔掉。"
+                  },
+                  "answer": false,
+                  "explanation_vi": "Chuyên gia nhắc 简约不等于盲目丢弃 (tối giản không đồng nghĩa vứt bỏ mù quáng) → câu ★ sai."
+                },
+                {
+                  "id": "hsk7-9-de1-02",
+                  "no": 2,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "据气象部门预测，受冷空气影响，本周后期我市气温将明显下降，最低气温可能降至零下五度。气象专家提醒市民及时添加衣物，老人和儿童应尽量减少外出。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ 本周后期气温会大幅降低。"
+                  },
+                  "answer": true,
+                  "explanation_vi": "气温将明显下降, có thể xuống −5 °C → đúng."
+                },
+                {
+                  "id": "hsk7-9-de1-03",
+                  "no": 3,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "这家博物馆从下月起实行网上预约制度，参观者须提前一天在官方网站登记，现场不再出售门票。馆方表示，此举旨在控制客流，提升观展体验。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ 下个月起可以在博物馆门口直接买票。"
+                  },
+                  "answer": false,
+                  "explanation_vi": "现场不再出售门票 – tại chỗ không bán vé nữa → sai."
+                },
+                {
+                  "id": "hsk7-9-de1-04",
+                  "no": 4,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "一项针对上班族的研究发现，每天午休二十分钟左右的人，下午的工作效率比不午休的人高出近三成。不过，午睡时间超过一小时，反而容易让人感到头昏脑涨。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ 午睡时间越长，下午工作效率越高。"
+                  },
+                  "answer": false,
+                  "explanation_vi": "Ngủ trưa >1 tiếng lại gây choáng váng → không phải càng dài càng tốt → sai."
+                },
+                {
+                  "id": "hsk7-9-de1-05",
+                  "no": 5,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "这座有着六百年历史的古桥，在去年的洪水中受损严重。经过一年多的修复，古桥于本月重新开放。工程人员尽量使用传统工艺和原有材料，力求保持古桥原貌。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ 修复古桥时尽量采用了传统方法。"
+                  },
+                  "answer": true,
+                  "explanation_vi": "尽量使用传统工艺和原有材料 → đúng."
+                },
+                {
+                  "id": "hsk7-9-de1-06",
+                  "no": 6,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "很多人认为，学习外语越早越好。但语言学家指出，成年人虽然在发音上不如儿童，但在语法理解和学习策略方面往往具有优势，只要方法得当，同样可以学好外语。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ 语言学家认为成年人学外语也有自己的优势。"
+                  },
+                  "answer": true,
+                  "explanation_vi": "成年人在语法理解和学习策略方面具有优势 → đúng."
+                },
+                {
+                  "id": "hsk7-9-de1-07",
+                  "no": 7,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "共享单车刚出现时，曾因乱停乱放受到批评。如今，许多城市划定了专门的停车区域，并通过定位技术对违规停车的用户进行扣分处罚，城市面貌因此得到明显改善。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ 目前共享单车乱停乱放的问题比以前更严重了。"
+                  },
+                  "answer": false,
+                  "explanation_vi": "Nhờ khu đỗ riêng và trừ điểm, 城市面貌明显改善 → tình hình tốt lên → sai."
+                },
+                {
+                  "id": "hsk7-9-de1-08",
+                  "no": 8,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "这位作家年轻时当过工人、教师和记者，丰富的人生经历为他的创作提供了大量素材。他坦言，自己作品中的许多人物，都能在现实生活中找到原型。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ 作家的作品与他的生活经历密切相关。"
+                  },
+                  "answer": true,
+                  "explanation_vi": "人生经历为创作提供素材, nhân vật có nguyên mẫu ngoài đời → đúng."
+                },
+                {
+                  "id": "hsk7-9-de1-09",
+                  "no": 9,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "研究人员在这片海域发现了一种新的珊瑚。与普通珊瑚相比，它能在温度较高的海水中生存。科学家认为，这一发现对于研究气候变暖背景下珊瑚的保护具有重要意义。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ 这种新珊瑚只能生活在低温海水中。"
+                  },
+                  "answer": false,
+                  "explanation_vi": "Ngược lại: nó sống được ở nước biển nhiệt độ cao hơn → sai."
+                },
+                {
+                  "id": "hsk7-9-de1-10",
+                  "no": 10,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "本次招聘会共吸引了三百多家企业参加，提供岗位一万余个。与往年不同的是，人工智能、新能源等新兴行业的岗位数量大幅增加，成为求职者关注的焦点。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ 新兴行业的岗位比往年多了不少。"
+                  },
+                  "answer": true,
+                  "explanation_vi": "人工智能、新能源等新兴行业岗位数量大幅增加 → đúng."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "L2",
+          "type": "choose_option",
+          "expected_count": 12,
+          "instruction_vi": "Nghe các cuộc hội thoại/phỏng vấn dài, mỗi bài có 4 câu: chọn đáp án đúng (A–D) hoặc trả lời ngắn (≤ 10 chữ).",
+          "instruction_zh": "第二部分：听后选择正确答案或简短回答问题。",
+          "groups": [
+            {
+              "id": "hsk7-9-de1-L2-g1",
+              "shared_options": null,
+              "passage": null,
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "男",
+                    "text": "王教授，您好！您最近出版的新书《慢城市》引起了很大反响。能先给我们介绍一下“慢城市”是什么意思吗？"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "好的。“慢城市”并不是说城市发展要慢下来，而是强调城市建设要以人为本。比如，多建步行街和自行车道，保留老街区，让居民有更多交流的空间。"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "有人担心这样会影响经济发展，您怎么看？"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "我认为恰恰相反。一个让人愿意停下脚步的城市，会吸引更多游客和人才。意大利的一些小城就是很好的例子，它们靠特色文化和舒适的环境，旅游收入一直在增长。"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "那么，对于我们国内的大城市，您有什么具体建议？"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "首先要改变只看速度和规模的观念。我建议在城市规划中增加“居民满意度”这一指标，让老百姓真正参与到城市建设的决策中来。"
+                  }
+                ],
+                "repeat": 1
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de1-11",
+                  "no": 11,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "女的认为“慢城市”的核心是什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "女的认为“慢城市”的核心是什么？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "降低经济发展速度"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "以人为本进行城市建设"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "减少城市人口"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "大力发展旅游业"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "女: 而是强调城市建设要以人为本 → B. A là cách hiểu sai mà cô bác bỏ."
+                },
+                {
+                  "id": "hsk7-9-de1-12",
+                  "no": 12,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "女的提到意大利小城，是为了说明什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "女的提到意大利小城，是为了说明什么？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "意大利城市比中国城市漂亮"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "慢城市也能促进经济"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "旅游业是唯一的出路"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "小城市比大城市更好"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "Ví dụ Ý dùng để phản bác lo ngại 'ảnh hưởng kinh tế': thu nhập du lịch vẫn tăng → B."
+                },
+                {
+                  "id": "hsk7-9-de1-13",
+                  "no": 13,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "关于女的的建议，下列哪项正确？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "关于女的的建议，下列哪项正确？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "取消城市规划"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "只建设步行街"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "让居民参与城市建设决策"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "限制游客数量"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "让老百姓真正参与到城市建设的决策中来 → C."
+                },
+                {
+                  "id": "hsk7-9-de1-14",
+                  "no": 14,
+                  "type": "short_answer",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "女的建议在城市规划中增加什么指标？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "女的建议在城市规划中增加什么指标？"
+                  },
+                  "max_chars": 10,
+                  "answer": "居民满意度",
+                  "accepted_answers": [
+                    "居民的满意度",
+                    "老百姓满意度"
+                  ],
+                  "keywords": [
+                    "满意度"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "Cô nói: 增加“居民满意度”这一指标."
+                }
+              ]
+            },
+            {
+              "id": "hsk7-9-de1-L2-g2",
+              "shared_options": null,
+              "passage": null,
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "女",
+                    "text": "李经理，听说你们公司今年开始实行每周四天工作制，效果怎么样？"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "试行半年来，总体效果超出了我们的预期。员工请假的次数减少了近一半，工作效率也有明显提高。"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "工作时间少了，任务能按时完成吗？"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "这是我们一开始最担心的。后来我们发现，很多时间其实浪费在了不必要的会议上。我们把会议时间压缩到原来的三分之一，员工有了更多专注工作的时间。"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "那这种制度适合所有企业吗？"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "不一定。像医院、商场这种需要随时有人服务的单位，就很难照搬。我们的经验是，先在部分部门试点，根据实际情况再决定是否推广。"
+                  }
+                ],
+                "repeat": 1
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de1-15",
+                  "no": 15,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "实行四天工作制后，公司出现了什么变化？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "实行四天工作制后，公司出现了什么变化？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "员工请假减少了"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "员工工资降低了"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "会议次数增加了"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "客户投诉增多了"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "员工请假的次数减少了近一半 → A."
+                },
+                {
+                  "id": "hsk7-9-de1-16",
+                  "no": 16,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "男的认为原来浪费时间的主要原因是什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "男的认为原来浪费时间的主要原因是什么？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "员工迟到早退"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "不必要的会议太多"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "工作任务太重"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "部门之间不合作"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "很多时间浪费在了不必要的会议上 → B."
+                },
+                {
+                  "id": "hsk7-9-de1-17",
+                  "no": 17,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "男的对推广这种制度持什么态度？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "男的对推广这种制度持什么态度？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "应立即在全国推广"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "完全不赞成推广"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "应先试点再决定"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "只适合医院和商场"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "先在部分部门试点，根据实际情况再决定 → C; D sai vì bệnh viện, thương trường khó áp dụng."
+                },
+                {
+                  "id": "hsk7-9-de1-18",
+                  "no": 18,
+                  "type": "short_answer",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "公司把会议时间压缩到了原来的多少？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "公司把会议时间压缩到了原来的多少？"
+                  },
+                  "max_chars": 10,
+                  "answer": "三分之一",
+                  "accepted_answers": [
+                    "1/3",
+                    "原来的三分之一"
+                  ],
+                  "keywords": [
+                    "三分之一"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "把会议时间压缩到原来的三分之一."
+                }
+              ]
+            },
+            {
+              "id": "hsk7-9-de1-L2-g3",
+              "shared_options": null,
+              "passage": null,
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "男",
+                    "text": "张女士，您是怎么想到开一家专门修复旧书的工作室的？"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "我从小就喜欢逛旧书店。有一次买到一本清代的医书，可惜已经破损得很厉害。我到处找人修，才发现会这门手艺的人越来越少了，于是就自己拜师学了起来。"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "修复一本古书一般要多长时间？"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "短的几天，长的要好几个月。最难的是补纸，补上去的纸在颜色、厚度上都要和原书尽量一致，否则就会破坏书的整体感。"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "现在年轻人对这门手艺感兴趣吗？"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "比我想象的要多。我在网上分享修复过程的视频后，很多年轻人留言想来学习。我觉得，传统手艺要传下去，关键是让更多人看见它。"
+                  }
+                ],
+                "repeat": 1
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de1-19",
+                  "no": 19,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "女的开工作室的直接原因是什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "女的开工作室的直接原因是什么？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "发现会修书的人很少"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "想赚更多的钱"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "家里人都从事这一行"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "大学学的是这个专业"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "Tìm thợ sửa sách thì phát hiện 会这门手艺的人越来越少了 → A."
+                },
+                {
+                  "id": "hsk7-9-de1-20",
+                  "no": 20,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "女的认为修复古书最难的是哪个环节？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "女的认为修复古书最难的是哪个环节？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "清洗书页"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "装订成册"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "补纸"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "寻找古书"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "最难的是补纸 → C."
+                },
+                {
+                  "id": "hsk7-9-de1-21",
+                  "no": 21,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "关于年轻人，女的有什么发现？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "关于年轻人，女的有什么发现？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "对传统手艺毫无兴趣"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "感兴趣的人比预想的多"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "只喜欢在网上看视频"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "都不愿意吃苦"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "比我想象的要多 → B."
+                },
+                {
+                  "id": "hsk7-9-de1-22",
+                  "no": 22,
+                  "type": "short_answer",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "女的认为传统手艺传承的关键是什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "女的认为传统手艺传承的关键是什么？"
+                  },
+                  "max_chars": 10,
+                  "answer": "让更多人看见",
+                  "accepted_answers": [
+                    "让更多人看见它",
+                    "让更多的人看见"
+                  ],
+                  "keywords": [
+                    "看见"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "关键是让更多人看见它."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "L3",
+          "type": "choose_option",
+          "expected_count": 18,
+          "instruction_vi": "Nghe bài giảng/phỏng vấn dài, mỗi bài 6 câu: chọn đáp án đúng (A–D) hoặc trả lời ngắn (≤ 10 chữ).",
+          "instruction_zh": "第三部分：听后选择正确答案或简短回答问题。",
+          "groups": [
+            {
+              "id": "hsk7-9-de1-L3-g1",
+              "shared_options": null,
+              "passage": null,
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "女",
+                    "text": "各位同学，今天我们来谈谈“睡眠”这个话题。很多人以为睡眠只是让身体休息，其实，睡眠对大脑同样重要。科学研究发现，在深度睡眠阶段，大脑会对白天获取的信息进行整理，把重要的内容转化为长期记忆。所以，考试前熬夜复习往往事倍功半。另外，睡眠还承担着“清洁”大脑的功能。人在清醒时，大脑会产生一些代谢废物，而这些废物主要是在睡眠中被清除的。长期睡眠不足，废物在大脑中堆积，可能增加患某些神经系统疾病的风险。那么，怎样才能睡个好觉呢？首先，要尽量保持规律的作息，即使周末也不要睡得太晚。其次，睡前一小时最好不要看手机，因为屏幕发出的蓝光会抑制褪黑素的分泌，让人难以入睡。最后，卧室的温度不宜过高，一般以十八到二十二度为宜。值得一提的是，每个人需要的睡眠时间并不完全相同。对大多数成年人来说，每天七到九个小时比较合适。判断睡眠是否充足，最简单的方法是看白天是否精力充沛。"
+                  }
+                ],
+                "repeat": 1
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de1-23",
+                  "no": 23,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "根据讲座，深度睡眠时大脑在做什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "根据讲座，深度睡眠时大脑在做什么？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "完全停止工作"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "整理白天的信息"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "产生代谢废物"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "分泌大量蓝光"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "在深度睡眠阶段，大脑会对白天获取的信息进行整理 → B."
+                },
+                {
+                  "id": "hsk7-9-de1-24",
+                  "no": 24,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "说话人对考前熬夜复习的看法是什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "说话人对考前熬夜复习的看法是什么？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "效果很好"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "事倍功半"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "只适合成年人"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "可以提高记忆力"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "考试前熬夜复习往往事倍功半 → B."
+                },
+                {
+                  "id": "hsk7-9-de1-25",
+                  "no": 25,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "长期睡眠不足可能导致什么后果？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "长期睡眠不足可能导致什么后果？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "增加患神经系统疾病的风险"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "身高停止增长"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "视力迅速下降"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "体重明显减轻"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "废物堆积 → 可能增加患某些神经系统疾病的风险 → A."
+                },
+                {
+                  "id": "hsk7-9-de1-26",
+                  "no": 26,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "睡前不宜看手机的原因是什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "睡前不宜看手机的原因是什么？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "手机太重"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "会浪费时间"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "蓝光会抑制褪黑素分泌"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "会影响家人休息"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "屏幕发出的蓝光会抑制褪黑素的分泌 → C."
+                },
+                {
+                  "id": "hsk7-9-de1-27",
+                  "no": 27,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "判断睡眠是否充足最简单的方法是什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "判断睡眠是否充足最简单的方法是什么？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "计算睡眠时间"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "测量体温"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "看白天是否精力充沛"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "看是否做梦"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "最简单的方法是看白天是否精力充沛 → C."
+                },
+                {
+                  "id": "hsk7-9-de1-28",
+                  "no": 28,
+                  "type": "short_answer",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "说话人认为卧室温度一般以多少度为宜？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "说话人认为卧室温度一般以多少度为宜？"
+                  },
+                  "max_chars": 10,
+                  "answer": "十八到二十二度",
+                  "accepted_answers": [
+                    "18到22度",
+                    "18—22度",
+                    "18-22度",
+                    "十八至二十二度"
+                  ],
+                  "keywords": [
+                    "十八",
+                    "二十二"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "一般以十八到二十二度为宜."
+                }
+              ]
+            },
+            {
+              "id": "hsk7-9-de1-L3-g2",
+              "shared_options": null,
+              "passage": null,
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "男",
+                    "text": "今天我们请到了生态学家陈博士，和大家聊聊城市里的野生动物。陈博士，城市里真的有很多野生动物吗？"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "比大家想象的多得多。以我们市为例，近五年的调查共记录到鸟类两百多种，其中有不少是迁徙途中在城市公园和湿地停留的候鸟。"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "城市环境这么复杂，它们是怎么适应的？"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "有些动物改变了自己的习性。比如，有研究发现，城市里的鸟叫声频率比郊区的高，这样可以避免被交通噪音掩盖。还有一些鸟学会了在高楼的空调架上筑巢。"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "那人和野生动物之间会不会产生冲突？"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "会的。最常见的问题是有人随意投喂。很多人出于好心给野生动物喂食，结果让它们失去了自己觅食的能力，甚至因为吃了不合适的食物而生病。"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "普通市民能为保护它们做些什么呢？"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "最重要的是“不打扰”。另外，大家在阳台、小区里种一些本地植物，就能为昆虫和鸟类提供食物和栖息地。城市越来越绿，野生动物自然会越来越多。"
+                  }
+                ],
+                "repeat": 1
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de1-29",
+                  "no": 29,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "关于该市的鸟类，下列哪项正确？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "关于该市的鸟类，下列哪项正确？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "五年内记录到两百多种"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "全部是留鸟"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "只生活在郊区"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "数量在逐年减少"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "近五年的调查共记录到鸟类两百多种 → A."
+                },
+                {
+                  "id": "hsk7-9-de1-30",
+                  "no": 30,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "城市里的鸟叫声频率较高，是为了什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "城市里的鸟叫声频率较高，是为了什么？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "吸引异性"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "警告其他鸟类"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "适应高楼环境"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "避免被交通噪音掩盖"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "这样可以避免被交通噪音掩盖 → D."
+                },
+                {
+                  "id": "hsk7-9-de1-31",
+                  "no": 31,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "陈博士提到了哪种鸟类适应城市的行为？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "陈博士提到了哪种鸟类适应城市的行为？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "在地铁站里过冬"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "在空调架上筑巢"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "在垃圾桶里觅食"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "白天睡觉晚上活动"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "学会了在高楼的空调架上筑巢 → B."
+                },
+                {
+                  "id": "hsk7-9-de1-32",
+                  "no": 32,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "陈博士认为随意投喂会带来什么问题？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "陈博士认为随意投喂会带来什么问题？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "使动物失去觅食能力"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "使动物数量过多"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "使市民受伤"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "使公园变脏"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "让它们失去了自己觅食的能力 → A."
+                },
+                {
+                  "id": "hsk7-9-de1-33",
+                  "no": 33,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "陈博士建议市民在阳台种什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "陈博士建议市民在阳台种什么？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "进口花卉"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "蔬菜水果"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "本地植物"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "高大树木"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "种一些本地植物 → C."
+                },
+                {
+                  "id": "hsk7-9-de1-34",
+                  "no": 34,
+                  "type": "short_answer",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "陈博士认为市民保护野生动物最重要的是什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "陈博士认为市民保护野生动物最重要的是什么？"
+                  },
+                  "max_chars": 10,
+                  "answer": "不打扰",
+                  "accepted_answers": [
+                    "不去打扰",
+                    "不打扰它们"
+                  ],
+                  "keywords": [
+                    "不打扰"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "最重要的是“不打扰”."
+                }
+              ]
+            },
+            {
+              "id": "hsk7-9-de1-L3-g3",
+              "shared_options": null,
+              "passage": null,
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "男",
+                    "text": "各位听众，大家好。今天我想和大家讨论一个看似简单的问题：人为什么会拖延？很多人把拖延归结为懒惰，但心理学研究表明，拖延更多是一种情绪管理问题。当一项任务让我们感到焦虑、无聊或者害怕失败时，我们就会本能地逃避，转而去做那些能带来即时快乐的事情，比如刷手机。有意思的是，越是追求完美的人，越容易拖延。因为他们担心结果达不到自己的高标准，宁可迟迟不开始，也不愿面对可能的失败。那么，如何克服拖延呢？第一，把大任务拆分成小步骤。比如写一篇论文，可以先只要求自己写一个提纲。任务越具体，开始就越容易。第二，给自己设定一个短时间，比如“只做十分钟”。很多时候，一旦开始了，人就会自然地继续做下去。第三，学会原谅自己。研究发现，那些在拖延后严厉批评自己的人，下一次反而更容易拖延；而能够宽容对待自己的人，更快地回到了正轨。总之，战胜拖延的关键，不在于更强的意志力，而在于理解并管理好自己的情绪。"
+                  }
+                ],
+                "repeat": 1
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de1-35",
+                  "no": 35,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "根据心理学研究，拖延主要是什么问题？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "根据心理学研究，拖延主要是什么问题？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "懒惰问题"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "时间安排问题"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "情绪管理问题"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "能力不足问题"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "拖延更多是一种情绪管理问题 → C; A là quan niệm phổ biến bị bác bỏ."
+                },
+                {
+                  "id": "hsk7-9-de1-36",
+                  "no": 36,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "追求完美的人为什么容易拖延？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "追求完美的人为什么容易拖延？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "他们任务太多"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "他们害怕达不到高标准"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "他们缺乏计划"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "他们喜欢刷手机"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "担心结果达不到自己的高标准 → B."
+                },
+                {
+                  "id": "hsk7-9-de1-37",
+                  "no": 37,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "关于“只做十分钟”这个方法，说话人认为："
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "关于“只做十分钟”这个方法，说话人认为："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "一旦开始往往会继续做下去"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "十分钟足够完成任务"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "只适合写论文"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "效果不明显"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "一旦开始了，人就会自然地继续做下去 → A."
+                },
+                {
+                  "id": "hsk7-9-de1-38",
+                  "no": 38,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "严厉批评自己的人会怎么样？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "严厉批评自己的人会怎么样？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "更快回到正轨"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "下次更容易拖延"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "不再拖延"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "变得更加完美"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "下一次反而更容易拖延 → B."
+                },
+                {
+                  "id": "hsk7-9-de1-39",
+                  "no": 39,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "这段话主要谈的是："
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "这段话主要谈的是："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "拖延的原因和对策"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "完美主义的好处"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "如何写论文"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "手机对生活的影响"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "Toàn bài: nguyên nhân + 3 cách khắc phục trì hoãn → A."
+                },
+                {
+                  "id": "hsk7-9-de1-40",
+                  "no": 40,
+                  "type": "short_answer",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "说话人认为战胜拖延的关键在于什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "说话人认为战胜拖延的关键在于什么？"
+                  },
+                  "max_chars": 10,
+                  "answer": "管理好自己的情绪",
+                  "accepted_answers": [
+                    "理解并管理好自己的情绪",
+                    "管理情绪",
+                    "管理好情绪"
+                  ],
+                  "keywords": [
+                    "情绪"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "关键…在于理解并管理好自己的情绪."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "name_vi": "Đọc",
+      "name_zh": "阅读",
+      "max_score": 100,
+      "duration_minutes": 60,
+      "parts": [
+        {
+          "code": "R1",
+          "type": "choose_option",
+          "expected_count": 21,
+          "instruction_vi": "Đọc 3 bài văn dài, mỗi bài 7 câu hỏi, chọn đáp án đúng (A–D).",
+          "instruction_zh": "第一部分：阅读文章，选择正确答案。",
+          "groups": [
+            {
+              "id": "hsk7-9-de1-R1-g1",
+              "shared_options": null,
+              "passage": {
+                "zh": "“数字游民”是近年来兴起的一个新群体。他们依靠互联网远程工作，不必固定在某个城市或办公室，而是一边工作，一边在不同的地方旅居。程序员、设计师、翻译、自媒体从业者，是这一群体中最常见的职业。\n数字游民的出现，离不开技术的进步。高速网络、云端办公软件和移动支付，使得“随时随地工作”从口号变成了现实。新冠疫情期间，大量企业被迫尝试远程办公，结果发现，许多岗位并不需要员工每天坐在办公室里。这在客观上为数字游民的增长按下了“加速键”。\n对于个人而言，这种生活方式最大的吸引力在于自由。人们可以避开大城市高昂的房租，在风景优美、物价较低的小城生活，同时保留原有的收入水平。一些地方政府也看到了其中的机遇，纷纷推出“数字游民签证”或建设共享办公社区，希望借此吸引人才、带动当地消费。\n然而，自由的背后也有代价。首先是收入的不稳定。许多数字游民以自由职业者的身份接单，项目多时忙得昏天黑地，项目少时则可能连续几个月没有收入。其次是社会保障问题。由于没有固定的雇主，他们在医疗、养老等方面往往需要自己承担更多费用。此外，长期在陌生环境中独自工作，也容易产生孤独感。\n有学者指出，数字游民并不是对传统工作方式的全盘否定，而是一种补充。如何在保障劳动者权益的前提下，为这种灵活的就业形式提供制度支持，是摆在政府和企业面前的新课题。"
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de1-41",
+                  "no": 41,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "数字游民最主要的特点是什么？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "依靠互联网远程工作并四处旅居"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "收入特别高"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "只从事程序员工作"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "不需要任何技能"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "Đoạn 1: 依靠互联网远程工作…一边工作，一边在不同的地方旅居 → A."
+                },
+                {
+                  "id": "hsk7-9-de1-42",
+                  "no": 42,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "第二段中“按下了‘加速键’”的意思是："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "推迟了发展"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "改变了方向"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "加快了增长"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "停止了发展"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "Dịch bệnh buộc doanh nghiệp làm từ xa → thúc đẩy nhanh hơn sự tăng trưởng → C."
+                },
+                {
+                  "id": "hsk7-9-de1-43",
+                  "no": 43,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "根据第三段，地方政府为什么推出“数字游民签证”？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "为了限制外地人"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "为了提高房租"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "为了管理网络"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "为了吸引人才、带动消费"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "希望借此吸引人才、带动当地消费 → D."
+                },
+                {
+                  "id": "hsk7-9-de1-44",
+                  "no": 44,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "下列哪项不属于文中提到的数字游民面临的问题？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "收入不稳定"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "签证费用过高"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "容易感到孤独"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "社会保障不足"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "Đoạn 4 nêu: thu nhập bấp bênh, an sinh xã hội, cô đơn; không nhắc phí visa → B."
+                },
+                {
+                  "id": "hsk7-9-de1-45",
+                  "no": 45,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "“忙得昏天黑地”最可能的意思是："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "工作到天黑"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "忙得非常厉害"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "天气很不好"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "心情很糟糕"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "昏天黑地 nhấn mạnh mức độ bận cực kỳ → B."
+                },
+                {
+                  "id": "hsk7-9-de1-46",
+                  "no": 46,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "学者对数字游民持什么看法？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "应该全面禁止"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "只是一时的潮流"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "将完全取代传统工作"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "是对传统工作方式的补充"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "并不是全盘否定，而是一种补充 → D."
+                },
+                {
+                  "id": "hsk7-9-de1-47",
+                  "no": 47,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "最适合做本文标题的是："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "数字游民：自由与代价"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "远程办公软件介绍"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "如何申请签证"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "小城市的旅游业"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "Bài nói cả sức hút (tự do) lẫn cái giá phải trả → A."
+                }
+              ]
+            },
+            {
+              "id": "hsk7-9-de1-R1-g2",
+              "shared_options": null,
+              "passage": {
+                "zh": "在中国传统建筑中，有一种不用一根钉子就能把木头牢牢连接在一起的技术，叫做“榫卯”。凸出的部分叫“榫”，凹进去的部分叫“卯”，两者相互咬合，便构成了稳定的结构。这种技术至少已有七千年的历史，在浙江河姆渡遗址中，考古学家就发现了带有榫卯的木构件。\n榫卯结构最令人称道的，是它的抗震性能。与用钉子或胶水固定的方式不同，榫卯连接并非完全“死”的，而是允许构件之间有微小的活动。地震发生时，这种“以柔克刚”的结构可以吸收和分散能量，房屋虽然会摇晃，却不容易倒塌。山西应县木塔高六十多米，建成近千年，历经多次地震仍屹立不倒，就是一个有力的证明。\n除了建筑，榫卯也广泛用于家具制作。明代家具之所以被誉为中国古典家具的巅峰，很大程度上得益于精湛的榫卯工艺。一件好的明式家具，看不到一颗钉子，线条简洁流畅，几百年后依然坚固如初。\n进入工业时代后，由于榫卯制作费时费力，对工匠技术要求很高，逐渐被机器生产所取代，会这门手艺的人越来越少。不过近年来，随着人们对传统文化的重新重视，榫卯又以新的面貌回到了大众视野：设计师把它运用到现代家具和文创产品中，不少年轻人通过网络视频学习制作榫卯玩具，甚至有建筑师尝试把榫卯原理与现代材料相结合。\n可以说，榫卯不仅是一种技术，更体现了中国人追求和谐、讲究分寸的智慧。"
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de1-48",
+                  "no": 48,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "关于榫卯，下列哪项正确？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "需要用钉子固定"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "起源于明代"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "至少有七千年历史"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "只用于建筑"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "这种技术至少已有七千年的历史 → C; D sai vì còn dùng cho đồ nội thất."
+                },
+                {
+                  "id": "hsk7-9-de1-49",
+                  "no": 49,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "榫卯结构抗震性能好的原因是："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "木头特别硬"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "构件之间可以有微小的活动"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "使用了特殊胶水"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "房屋建得很矮"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "允许构件之间有微小的活动…吸收和分散能量 → B."
+                },
+                {
+                  "id": "hsk7-9-de1-50",
+                  "no": 50,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "文中提到应县木塔是为了说明："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "榫卯结构抗震能力强"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "木塔非常高"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "山西地震很多"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "古代人喜欢建塔"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "Tháp gỗ qua nhiều trận động đất vẫn đứng vững → chứng minh khả năng chống động đất → A."
+                },
+                {
+                  "id": "hsk7-9-de1-51",
+                  "no": 51,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "“以柔克刚”在文中指的是："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "工匠性格很温和"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "用软木头代替硬木头"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "建筑外形很柔美"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "用柔性结构化解强大的冲击"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "Kết cấu mềm dẻo hấp thụ, phân tán năng lượng động đất → D."
+                },
+                {
+                  "id": "hsk7-9-de1-52",
+                  "no": 52,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "明代家具被誉为古典家具的巅峰，主要得益于："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "使用了大量钉子"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "颜色鲜艳"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "精湛的榫卯工艺"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "价格便宜"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "很大程度上得益于精湛的榫卯工艺 → C."
+                },
+                {
+                  "id": "hsk7-9-de1-53",
+                  "no": 53,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "榫卯在工业时代逐渐被取代的原因不包括："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "制作费时费力"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "抗震性能太差"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "机器生产的普及"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "对工匠技术要求高"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "Văn bản nói khả năng chống động đất tốt; nguyên nhân bị thay thế là tốn công, đòi hỏi tay nghề, máy móc → B."
+                },
+                {
+                  "id": "hsk7-9-de1-54",
+                  "no": 54,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "作者认为榫卯体现了怎样的智慧？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "追求速度和效率"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "追求个性和自由"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "追求高大和华丽"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "追求和谐、讲究分寸"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "体现了中国人追求和谐、讲究分寸的智慧 → D."
+                }
+              ]
+            },
+            {
+              "id": "hsk7-9-de1-R1-g3",
+              "shared_options": null,
+              "passage": {
+                "zh": "“信息茧房”这一概念，最早由美国学者桑斯坦提出。它指的是，人们在获取信息时，往往只关注自己感兴趣或认同的内容，久而久之，就像蚕一样把自己包裹在由这些信息织成的“茧”里，与外界的不同观点隔绝开来。\n在算法推荐普及的今天，这一现象变得更加突出。各类新闻客户端和短视频平台会根据用户的浏览记录、点赞和停留时间，不断推送用户可能喜欢的内容。从商业角度看，这无疑提高了用户的使用时长；但从社会角度看，它可能使人们的视野越来越窄，甚至加剧不同群体之间的对立。\n不过，也有研究者对“信息茧房”的严重程度提出质疑。他们发现，现实中的大多数人并非只接触单一来源的信息，人们还会通过与朋友交流、阅读书籍、参加线下活动等方式获取多元观点。另外，一些平台也开始调整算法，有意识地向用户推荐一定比例的“意外内容”，以打破单调的信息环境。\n那么，作为普通用户，我们应当如何避免陷入信息茧房呢？关键在于保持主动。一方面，要有意识地接触与自己观点不同的信息，听一听“另一种声音”；另一方面，要培养独立思考的能力，对看到的信息多问几个“为什么”，而不是简单地接受或转发。技术本身是中性的，用户的选择才是决定性的。"
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de1-55",
+                  "no": 55,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "“信息茧房”中的“茧”比喻什么？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "蚕吐的丝"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "由自己感兴趣的信息形成的封闭空间"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "网络平台"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "算法程序"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "包裹在由这些信息织成的“茧”里 → không gian khép kín tạo bởi thông tin mình thích → B."
+                },
+                {
+                  "id": "hsk7-9-de1-56",
+                  "no": 56,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "算法推荐主要依据什么向用户推送内容？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "用户的浏览记录等行为"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "用户的年龄和性别"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "政府的规定"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "编辑的个人喜好"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "根据用户的浏览记录、点赞和停留时间 → A."
+                },
+                {
+                  "id": "hsk7-9-de1-57",
+                  "no": 57,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "从社会角度看，算法推荐可能带来什么问题？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "减少用户使用时长"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "降低平台收入"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "使用户视野变窄"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "让信息更加丰富"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "使人们的视野越来越窄 → C."
+                },
+                {
+                  "id": "hsk7-9-de1-58",
+                  "no": 58,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "第三段中研究者质疑的是："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "算法是否存在"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "朋友交流是否有用"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "平台是否赚钱"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "信息茧房的严重程度"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "对“信息茧房”的严重程度提出质疑 → D."
+                },
+                {
+                  "id": "hsk7-9-de1-59",
+                  "no": 59,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "一些平台推荐“意外内容”的目的是："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "打破单调的信息环境"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "增加广告"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "节省成本"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "收集用户信息"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "以打破单调的信息环境 → A."
+                },
+                {
+                  "id": "hsk7-9-de1-60",
+                  "no": 60,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "作者对避免信息茧房的建议是："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "完全不使用手机"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "只看官方新闻"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "主动接触不同观点并独立思考"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "多转发热门内容"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "关键在于保持主动…接触不同观点、独立思考 → C."
+                },
+                {
+                  "id": "hsk7-9-de1-61",
+                  "no": 61,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "最后一句“技术本身是中性的”意思是："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "技术已经过时"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "技术没有好坏之分，关键在于如何使用"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "技术非常危险"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "技术只对商人有利"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "技术本身是中性的，用户的选择才是决定性的 → B."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R2",
+          "type": "cloze_sentence",
+          "expected_count": 5,
+          "instruction_vi": "Chọn câu thích hợp (A–G) điền vào các chỗ trống (62)–(66). Có 2 câu thừa.",
+          "instruction_zh": "第二部分：选句填空。",
+          "groups": [
+            {
+              "id": "hsk7-9-de1-R2-g1",
+              "shared_options": [
+                {
+                  "key": "A",
+                  "text": {
+                    "zh": "剧中人物来来往往，他们的命运与时代紧密相连。"
+                  }
+                },
+                {
+                  "key": "B",
+                  "text": {
+                    "zh": "它的历史可以追溯到唐代，到了明清时期更是盛极一时。"
+                  }
+                },
+                {
+                  "key": "C",
+                  "text": {
+                    "zh": "很多老字号茶馆因此关门，只剩下少数还在勉强经营。"
+                  }
+                },
+                {
+                  "key": "D",
+                  "text": {
+                    "zh": "咖啡馆的价格普遍比茶馆便宜得多。"
+                  }
+                },
+                {
+                  "key": "E",
+                  "text": {
+                    "zh": "不过，新茶馆与老茶馆相比，已经有了很大的不同。"
+                  }
+                },
+                {
+                  "key": "F",
+                  "text": {
+                    "zh": "只要这种需要存在，茶馆就会以新的方式继续陪伴我们。"
+                  }
+                },
+                {
+                  "key": "G",
+                  "text": {
+                    "zh": "茶叶最早被当作药物使用。"
+                  }
+                }
+              ],
+              "passage": {
+                "zh": "茶馆的变迁\n\n茶馆是中国人生活中一个特殊的公共空间。（62）在清代的北京，大大小小的茶馆遍布街巷，商人在这里谈生意，文人在这里会朋友，普通百姓则在这里听书、下棋、打听消息。\n老舍先生的话剧《茶馆》，正是借一座茶馆的兴衰，展现了半个世纪的社会变迁。（63）这也说明，茶馆早已不只是喝茶的地方，而是观察社会的一扇窗口。\n二十世纪后期，随着生活节奏加快和娱乐方式增多，传统茶馆一度冷落下来。（64）年轻人更愿意去咖啡馆或者在家上网，坐在茶馆里慢慢喝一下午茶，似乎成了老年人的专利。\n然而，近十几年来，茶馆又悄悄“复活”了。（65）有的茶馆把传统茶艺与现代设计相结合，环境安静雅致；有的则推出新式茶饮，吸引了大批年轻顾客；还有的定期举办读书会、音乐会，成为城市里的文化客厅。\n从街头的大碗茶，到精致的茶空间，茶馆的形态在变，但人们对交流与休闲的需要始终没有变。（66）"
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de1-62",
+                  "no": 62,
+                  "type": "cloze_sentence",
+                  "blank_no": 62,
+                  "answer": "B",
+                  "explanation_vi": "Câu sau nói 'ở Bắc Kinh đời Thanh trà quán khắp phố' → cần câu nói lịch sử (từ đời Đường, thịnh vào Minh Thanh) → B."
+                },
+                {
+                  "id": "hsk7-9-de1-63",
+                  "no": 63,
+                  "type": "cloze_sentence",
+                  "blank_no": 63,
+                  "answer": "A",
+                  "explanation_vi": "Trước đó nhắc vở kịch 《茶馆》; A nói nhân vật trong kịch gắn với thời đại, nối với '这也说明…观察社会的窗口' → A."
+                },
+                {
+                  "id": "hsk7-9-de1-64",
+                  "no": 64,
+                  "type": "cloze_sentence",
+                  "blank_no": 64,
+                  "answer": "C",
+                  "explanation_vi": "Đoạn nói trà quán bị vắng vẻ → C '因此关门' là hệ quả hợp lý."
+                },
+                {
+                  "id": "hsk7-9-de1-65",
+                  "no": 65,
+                  "type": "cloze_sentence",
+                  "blank_no": 65,
+                  "answer": "E",
+                  "explanation_vi": "'复活' rồi liệt kê các kiểu trà quán mới → E 'quán mới khác quán cũ nhiều' làm câu dẫn."
+                },
+                {
+                  "id": "hsk7-9-de1-66",
+                  "no": 66,
+                  "type": "cloze_sentence",
+                  "blank_no": 66,
+                  "answer": "F",
+                  "explanation_vi": "Câu kết: nhu cầu giao lưu không đổi → F 'chỉ cần nhu cầu còn, trà quán sẽ tiếp tục'. D, G là phương án gây nhiễu."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R3",
+          "type": "short_answer",
+          "expected_count": 14,
+          "instruction_vi": "Đọc bài văn, trả lời ngắn gọn (không quá 10 chữ Hán), ưu tiên dùng từ ngữ trong bài.",
+          "instruction_zh": "第三部分：阅读文章，简短回答问题（不超过10个字）。",
+          "groups": [
+            {
+              "id": "hsk7-9-de1-R3-g1",
+              "shared_options": null,
+              "passage": {
+                "zh": "“城市更新”正在成为许多城市发展的关键词。与过去“大拆大建”的做法不同，如今的城市更新更强调“微改造”，即在保留原有建筑和街道格局的基础上，对老旧小区进行修缮，完善公共设施，提升居民的生活质量。\n以某市一个建于上世纪八十年代的老小区为例。改造前，小区没有电梯，管道老化，停车困难，居民怨声载道。改造工作开始前，街道办事处先后召开了二十多次居民议事会，挨家挨户征求意见。最终的方案没有拆除一栋楼，而是加装了电梯，更换了水电管道，并利用边角空地建了一个小花园和一个老年活动中心。\n改造完成后，小区的面貌焕然一新。更重要的是，居民们在参与改造的过程中加深了相互了解，邻里关系比以前更加和睦。一位在这里住了三十年的老人说：“楼还是那栋楼，可住着的感觉完全不一样了。”\n专家认为，城市更新的核心不是建筑，而是人。只有让居民真正参与进来，改造才能符合实际需要，也才能保留住一座城市的记忆。"
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de1-67",
+                  "no": 67,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "与“大拆大建”不同，如今的城市更新更强调什么？"
+                  },
+                  "max_chars": 10,
+                  "answer": "微改造",
+                  "accepted_answers": [
+                    "“微改造”"
+                  ],
+                  "keywords": [
+                    "微改造"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "Đoạn 1: 如今的城市更新更强调“微改造”."
+                },
+                {
+                  "id": "hsk7-9-de1-68",
+                  "no": 68,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "文中老小区建于什么年代？"
+                  },
+                  "max_chars": 10,
+                  "answer": "上世纪八十年代",
+                  "accepted_answers": [
+                    "八十年代",
+                    "20世纪80年代",
+                    "1980年代"
+                  ],
+                  "keywords": [
+                    "八十年代"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "建于上世纪八十年代."
+                },
+                {
+                  "id": "hsk7-9-de1-69",
+                  "no": 69,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "改造前，居民对小区的状况有什么反应？"
+                  },
+                  "max_chars": 10,
+                  "answer": "怨声载道",
+                  "accepted_answers": [
+                    "很不满意",
+                    "不满"
+                  ],
+                  "keywords": [
+                    "怨声载道"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "居民怨声载道 (oán thán khắp nơi)."
+                },
+                {
+                  "id": "hsk7-9-de1-70",
+                  "no": 70,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "改造前，街道办事处召开了多少次居民议事会？"
+                  },
+                  "max_chars": 10,
+                  "answer": "二十多次",
+                  "accepted_answers": [
+                    "20多次",
+                    "二十多"
+                  ],
+                  "keywords": [
+                    "二十多"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "先后召开了二十多次居民议事会."
+                },
+                {
+                  "id": "hsk7-9-de1-71",
+                  "no": 71,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "改造方案拆除了几栋楼？"
+                  },
+                  "max_chars": 10,
+                  "answer": "没有拆除",
+                  "accepted_answers": [
+                    "一栋也没拆",
+                    "零栋",
+                    "0栋",
+                    "没有"
+                  ],
+                  "keywords": [
+                    "没"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "没有拆除一栋楼."
+                },
+                {
+                  "id": "hsk7-9-de1-72",
+                  "no": 72,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "改造后，邻里关系有什么变化？"
+                  },
+                  "max_chars": 10,
+                  "answer": "更加和睦",
+                  "accepted_answers": [
+                    "更和睦",
+                    "比以前更加和睦"
+                  ],
+                  "keywords": [
+                    "和睦"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "邻里关系比以前更加和睦."
+                },
+                {
+                  "id": "hsk7-9-de1-73",
+                  "no": 73,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "专家认为，城市更新的核心是什么？"
+                  },
+                  "max_chars": 10,
+                  "answer": "人",
+                  "accepted_answers": [
+                    "是人",
+                    "居民"
+                  ],
+                  "keywords": [
+                    "人"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "城市更新的核心不是建筑，而是人."
+                }
+              ]
+            },
+            {
+              "id": "hsk7-9-de1-R3-g2",
+              "shared_options": null,
+              "passage": {
+                "zh": "你有没有过这样的经历：一首歌的旋律在脑子里反复出现，怎么也停不下来？心理学家把这种现象称为“耳虫”。调查显示，超过九成的人都曾被“耳虫”困扰过。\n研究发现，最容易成为“耳虫”的歌曲通常有几个共同特点：节奏较快，旋律简单，并且有一些出人意料的音程变化。此外，人们最近或者反复听过的歌，也更容易在脑中“循环播放”。\n为什么会产生“耳虫”呢？一种解释认为，大脑在处理未完成的信息时会更加活跃。当我们只听到一首歌的一部分时，大脑会不由自主地想要把它“补完整”，于是不断重复那段旋律。\n那么，怎样才能赶走“耳虫”？有趣的是，研究者发现，嚼口香糖是一个简单有效的办法，因为咀嚼动作会干扰大脑中与“默唱”有关的区域。另一种方法是把那首歌完整地听一遍，满足大脑“补完整”的需要。当然，如果“耳虫”并没有给你带来烦恼，那也不妨顺其自然——毕竟，它说明这首歌真的很动听。"
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de1-74",
+                  "no": 74,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "心理学家把脑中反复出现旋律的现象称为什么？"
+                  },
+                  "max_chars": 10,
+                  "answer": "耳虫",
+                  "accepted_answers": [
+                    "“耳虫”"
+                  ],
+                  "keywords": [
+                    "耳虫"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "心理学家把这种现象称为“耳虫”."
+                },
+                {
+                  "id": "hsk7-9-de1-75",
+                  "no": 75,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "曾被“耳虫”困扰过的人占多大比例？"
+                  },
+                  "max_chars": 10,
+                  "answer": "超过九成",
+                  "accepted_answers": [
+                    "九成以上",
+                    "90%以上",
+                    "超过90%"
+                  ],
+                  "keywords": [
+                    "九成"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "超过九成的人都曾被“耳虫”困扰过."
+                },
+                {
+                  "id": "hsk7-9-de1-76",
+                  "no": 76,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "容易成为“耳虫”的歌曲节奏有什么特点？"
+                  },
+                  "max_chars": 10,
+                  "answer": "节奏较快",
+                  "accepted_answers": [
+                    "较快",
+                    "快"
+                  ],
+                  "keywords": [
+                    "快"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "节奏较快."
+                },
+                {
+                  "id": "hsk7-9-de1-77",
+                  "no": 77,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "大脑在处理什么样的信息时会更加活跃？"
+                  },
+                  "max_chars": 10,
+                  "answer": "未完成的信息",
+                  "accepted_answers": [
+                    "未完成的",
+                    "不完整的信息"
+                  ],
+                  "keywords": [
+                    "未完成"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "大脑在处理未完成的信息时会更加活跃."
+                },
+                {
+                  "id": "hsk7-9-de1-78",
+                  "no": 78,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "研究者发现哪种简单有效的办法可以赶走“耳虫”？"
+                  },
+                  "max_chars": 10,
+                  "answer": "嚼口香糖",
+                  "accepted_answers": [
+                    "吃口香糖"
+                  ],
+                  "keywords": [
+                    "口香糖"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "嚼口香糖是一个简单有效的办法."
+                },
+                {
+                  "id": "hsk7-9-de1-79",
+                  "no": 79,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "咀嚼动作会干扰大脑中与什么有关的区域？"
+                  },
+                  "max_chars": 10,
+                  "answer": "默唱",
+                  "accepted_answers": [
+                    "与默唱有关",
+                    "“默唱”"
+                  ],
+                  "keywords": [
+                    "默唱"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "干扰大脑中与“默唱”有关的区域."
+                },
+                {
+                  "id": "hsk7-9-de1-80",
+                  "no": 80,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "如果“耳虫”没有带来烦恼，作者建议怎么做？"
+                  },
+                  "max_chars": 10,
+                  "answer": "顺其自然",
+                  "accepted_answers": [
+                    "不妨顺其自然"
+                  ],
+                  "keywords": [
+                    "顺其自然"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "那也不妨顺其自然."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "name_vi": "Viết",
+      "name_zh": "书写",
+      "max_score": 100,
+      "duration_minutes": 55,
+      "parts": [
+        {
+          "code": "W1",
+          "type": "chart_description",
+          "expected_count": 1,
+          "instruction_vi": "Mô tả và phân tích biểu đồ (≈ 15 phút).",
+          "instruction_zh": "第一部分：图表描述。",
+          "groups": [
+            {
+              "id": "hsk7-9-de1-W1-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk7-9-de1-81",
+                  "no": 81,
+                  "type": "chart_description",
+                  "chart": {
+                    "kind": "line",
+                    "title_zh": "2019—2024年某市居民平均每天使用手机时长与阅读纸质书时长",
+                    "unit": "分钟",
+                    "labels": [
+                      "2019",
+                      "2020",
+                      "2021",
+                      "2022",
+                      "2023",
+                      "2024"
+                    ],
+                    "series": [
+                      {
+                        "name": "使用手机",
+                        "values": [
+                          182,
+                          225,
+                          238,
+                          246,
+                          251,
+                          255
+                        ]
+                      },
+                      {
+                        "name": "阅读纸质书",
+                        "values": [
+                          24,
+                          21,
+                          19,
+                          18,
+                          18,
+                          20
+                        ]
+                      }
+                    ]
+                  },
+                  "prompt": {
+                    "zh": "请描述并分析上图，写一篇200字左右的短文。"
+                  },
+                  "prompt_vi": "Mô tả và phân tích biểu đồ (thời lượng dùng điện thoại và đọc sách giấy mỗi ngày của cư dân một thành phố, 2019–2024), viết khoảng 200 chữ (≥ 200).",
+                  "min_chars": 200,
+                  "time_minutes": 15,
+                  "sample_answers": [
+                    "上图显示了2019年至2024年某市居民平均每天使用手机和阅读纸质书的时长变化。总体来看，两者呈现出截然不同的发展趋势。首先，手机使用时长持续增长。2019年，居民每天使用手机约182分钟，2020年猛增至225分钟，一年内增加了43分钟，增幅最为明显；此后增速逐渐放缓，到2024年达到255分钟，相当于每天四个多小时。其次，纸质书阅读时长总体呈下降趋势，从2019年的24分钟降至2022年的18分钟，2023年保持不变，2024年小幅回升至20分钟。造成这种变化的原因可能有以下几点：一是2020年前后居家时间增加，网络学习、办公和娱乐需求大幅上升；二是短视频等碎片化内容占用了大量时间。而2024年纸质书阅读时长的回升，或许与近年来全民阅读活动的推广有关。由此可见，如何在数字时代保持深度阅读的习惯，值得每个人思考。"
+                  ],
+                  "outline_vi": [
+                    "Mở: giới thiệu biểu đồ và xu hướng chung",
+                    "Thân: mô tả số liệu nổi bật (tăng mạnh 2020, sách giấy giảm rồi hồi phục 2024)",
+                    "Phân tích nguyên nhân",
+                    "Kết: nhận xét/kiến nghị"
+                  ],
+                  "max_points": 40,
+                  "rubric_id": "rb-chart",
+                  "answer": null,
+                  "explanation_vi": "Cần nêu đúng số liệu (182→255 phút; 24→18→20 phút), so sánh hai xu hướng ngược nhau, dùng từ ngữ mô tả biểu đồ: 呈…趋势、增幅、回升、持平; có phân tích nguyên nhân hợp lý."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "W2",
+          "type": "write_essay",
+          "expected_count": 1,
+          "instruction_vi": "Viết bài nghị luận ≥ 600 chữ (≈ 40 phút).",
+          "instruction_zh": "第二部分：议论文写作。",
+          "groups": [
+            {
+              "id": "hsk7-9-de1-W2-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk7-9-de1-82",
+                  "no": 82,
+                  "type": "write_essay",
+                  "genre": "argumentative",
+                  "prompt": {
+                    "zh": "有人认为，人工智能可以帮助学生更高效地学习，学校应该鼓励学生使用；也有人认为，过度依赖人工智能会削弱学生独立思考的能力，学校应该加以限制。你怎么看？请写一篇不少于600字的议论文，阐述你的观点并加以论证。"
+                  },
+                  "prompt_vi": "Có người cho rằng AI giúp học sinh học hiệu quả hơn nên trường nên khuyến khích; người khác cho rằng phụ thuộc AI làm suy yếu tư duy độc lập nên cần hạn chế. Viết bài nghị luận ≥ 600 chữ nêu và lập luận quan điểm của bạn.",
+                  "keywords": [
+                    "人工智能",
+                    "独立思考"
+                  ],
+                  "image": null,
+                  "min_chars": 600,
+                  "max_chars": null,
+                  "time_minutes": 40,
+                  "sample_answers": [
+                    "人工智能走进课堂：拥抱还是设防？\n近年来，人工智能技术飞速发展，写作文、解数学题、翻译外文，几乎无所不能。面对这股潮流，学校究竟应该鼓励学生使用，还是加以限制？在我看来，人工智能本身并无好坏之分，关键在于引导学生“会用”而不是“依赖”。因此，学校既不应一禁了之，也不应放任自流，而应在规范中加以利用。\n首先，人工智能确实能够提高学习效率。传统课堂上，一位老师要面对几十名学生，很难照顾到每个人的需要。而人工智能可以根据学生的学习情况提供个性化练习，及时指出错误并给出解释。一个数学基础薄弱的学生，过去可能因为不好意思提问而越落越远，如今却可以随时向智能系统请教，反复练习直到弄懂为止。从这个意义上说，人工智能是“永不疲倦的辅导老师”，有助于促进教育公平。\n其次，熟练使用人工智能本身就是未来社会必备的能力。正如计算机和互联网曾经改变了我们的工作方式一样，人工智能也将深刻影响各行各业。如果学校因噎废食，一味禁止，学生走出校门后反而会无所适从。与其让学生在课下偷偷使用，不如在课堂上光明正大地教他们如何正确提问、如何判断答案的可靠性。\n当然，我们也必须正视过度依赖带来的风险。有的学生把作业直接交给人工智能完成，表面上按时交了作业，实际上什么也没有学到。长此以往，他们独立思考和解决问题的能力必然会退化。更值得警惕的是，人工智能生成的内容并非总是正确的，如果学生缺乏辨别能力，就可能被错误信息误导。\n那么，如何趋利避害呢？我认为可以从三个方面入手。第一，制定明确的使用规则，例如允许学生在查找资料、检查语法时使用人工智能，但要求论文的观点和结构必须由学生独立完成。第二，改革评价方式，减少简单的知识性作业，增加课堂讨论、实验报告和口头答辩，让“代写”无处藏身。第三，开设相关课程，培养学生的信息素养，使他们学会质疑、核实人工智能给出的答案。\n总而言之，人工智能是一把双刃剑。学校的任务不是把它挡在门外，而是教会学生驾驭它。只有当学生既能借助技术的力量，又保持独立思考的头脑时，人工智能才能真正成为学习的助手，而不是思考的替代品。"
+                  ],
+                  "outline_vi": [
+                    "Mở bài: nêu vấn đề, đưa luận điểm rõ ràng",
+                    "Thân bài 1–2: lập luận ủng hộ kèm dẫn chứng",
+                    "Thân bài 3: thừa nhận mặt trái (nhượng bộ)",
+                    "Thân bài 4: giải pháp cụ thể",
+                    "Kết bài: khẳng định lại quan điểm"
+                  ],
+                  "max_points": 60,
+                  "rubric_id": "rb-essay",
+                  "answer": null,
+                  "explanation_vi": "Bài đạt điểm cao: luận điểm rõ, ≥ 2 luận cứ có dẫn chứng, có phản biện/nhượng bộ, bố cục mạch lạc, dùng từ nối nghị luận (首先、其次、当然、总而言之), từ vựng cao cấp và thành ngữ phù hợp (因噎废食、趋利避害、双刃剑)."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "translation",
+      "name_vi": "Dịch",
+      "name_zh": "翻译",
+      "max_score": 100,
+      "duration_minutes": 41,
+      "parts": [
+        {
+          "code": "T1",
+          "type": "translate_written",
+          "expected_count": 2,
+          "instruction_vi": "Dịch viết đoạn văn tiếng Anh sang tiếng Trung.",
+          "instruction_zh": "第一部分：笔译。",
+          "groups": [
+            {
+              "id": "hsk7-9-de1-T1-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk7-9-de1-83",
+                  "no": 83,
+                  "type": "translate_written",
+                  "source": {
+                    "lang": "en",
+                    "text": "Over the past decade, the way people shop has changed dramatically. Online shopping, once seen as a convenient alternative, has become the first choice for millions of consumers. With just a few taps on a smartphone, people can compare prices, read reviews and have goods delivered to their door, often on the same day. However, this convenience comes at a cost. The huge amount of packaging waste has put pressure on the environment, and many small local shops are struggling to survive. Some experts suggest that the future of retail lies in combining the advantages of online and offline shopping, offering customers both efficiency and a real, personal experience."
+                  },
+                  "source_vi": "Trong mười năm qua, cách mọi người mua sắm đã thay đổi mạnh mẽ. Mua sắm trực tuyến, vốn từng được xem là lựa chọn thay thế tiện lợi, nay đã trở thành lựa chọn hàng đầu của hàng triệu người tiêu dùng... Một số chuyên gia cho rằng tương lai của bán lẻ nằm ở việc kết hợp ưu điểm của mua sắm trực tuyến và trực tiếp.",
+                  "reference_zh": "在过去的十年里，人们的购物方式发生了巨大的变化。网上购物曾经被看作一种便捷的替代方式，如今已成为数以百万计消费者的首选。只需在手机上轻点几下，人们就可以比较价格、阅读评价，并让商品送货上门，而且常常当天就能送达。然而，这种便利也是有代价的。大量的包装垃圾给环境带来了压力，许多当地小商店也在艰难求生。一些专家认为，零售业的未来在于把线上和线下购物的优势结合起来，为顾客同时提供效率和真实的个性化体验。",
+                  "time_minutes": 20,
+                  "max_points": 25,
+                  "rubric_id": "rb-translate",
+                  "answer": null,
+                  "explanation_vi": "Điểm chấm: 'once seen as … has become' → 曾经被看作…如今已成为; 'at a cost' → 是有代价的; 'struggling to survive' → 艰难求生/难以维持; 'lies in' → 在于. Tránh dịch từng chữ, câu tiếng Trung phải tự nhiên."
+                },
+                {
+                  "id": "hsk7-9-de1-84",
+                  "no": 84,
+                  "type": "translate_written",
+                  "source": {
+                    "lang": "en",
+                    "text": "Learning a second language does more than help us communicate with people from other countries. Research shows that bilingual people often perform better at tasks that require attention and switching between different activities. Some studies even suggest that speaking two languages may delay the symptoms of memory loss in old age. More importantly, a new language opens a window to another culture. When we learn how others express feelings, make jokes or show respect, we begin to see the world from a different point of view. In this sense, language learning is not only a skill, but also a way of understanding others and ourselves."
+                  },
+                  "source_vi": "Học một ngoại ngữ không chỉ giúp chúng ta giao tiếp với người nước khác... Theo nghĩa đó, học ngôn ngữ không chỉ là một kỹ năng mà còn là cách để hiểu người khác và hiểu chính mình.",
+                  "reference_zh": "学习第二语言不仅仅能帮助我们与其他国家的人交流。研究表明，会说两种语言的人在需要集中注意力和在不同活动之间切换的任务中，往往表现得更好。一些研究甚至认为，掌握两种语言可能会推迟老年时期记忆力衰退的症状。更重要的是，一门新的语言为我们打开了通往另一种文化的窗口。当我们了解别人如何表达情感、开玩笑或表示尊重时，就开始从不同的角度看待世界。从这个意义上说，学习语言不只是一种技能，更是一种理解他人、理解自己的方式。",
+                  "time_minutes": 20,
+                  "max_points": 25,
+                  "rubric_id": "rb-translate",
+                  "answer": null,
+                  "explanation_vi": "Điểm chấm: 'does more than' → 不仅仅; 'bilingual people' → 会说两种语言的人/双语者; 'delay the symptoms of memory loss' → 推迟记忆力衰退的症状; 'opens a window to' → 打开通往…的窗口; 'not only… but also' → 不只是…更是."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "T2",
+          "type": "translate_oral",
+          "expected_count": 2,
+          "instruction_vi": "Dịch nói (视译): đọc đoạn tiếng Anh, chuẩn bị 60 giây, nói bản dịch tiếng Trung trong 120 giây.",
+          "instruction_zh": "第二部分：视译。",
+          "groups": [
+            {
+              "id": "hsk7-9-de1-T2-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk7-9-de1-85",
+                  "no": 85,
+                  "type": "translate_oral",
+                  "source": {
+                    "lang": "en",
+                    "text": "Many cities are now encouraging residents to plant gardens on the roofs of their buildings. These green roofs can lower indoor temperatures in summer, reduce the amount of rainwater flowing into the streets, and provide homes for birds and insects. They also give people in crowded cities a quiet place to relax."
+                  },
+                  "source_vi": "Nhiều thành phố đang khuyến khích cư dân trồng vườn trên mái nhà...",
+                  "reference_zh": "现在，许多城市都在鼓励居民在楼顶种植花园。这些绿色屋顶在夏天可以降低室内温度，减少流到街道上的雨水，还能为鸟类和昆虫提供栖息地。它们也为拥挤城市里的人们提供了一个安静的休息场所。",
+                  "prep_seconds": 60,
+                  "answer_seconds": 120,
+                  "max_points": 25,
+                  "rubric_id": "rb-translate-oral",
+                  "answer": null,
+                  "explanation_vi": "Dịch nói: ưu tiên truyền đạt đủ ý, trôi chảy. Từ khóa: 楼顶/屋顶花园, 降低室内温度, 雨水, 栖息地, 拥挤."
+                },
+                {
+                  "id": "hsk7-9-de1-86",
+                  "no": 86,
+                  "type": "translate_oral",
+                  "source": {
+                    "lang": "en",
+                    "text": "Volunteering is becoming increasingly popular among young people. Besides helping others, volunteers often gain valuable experience, learn to work in a team and develop a stronger sense of responsibility. Many employers say they value volunteer experience when choosing new staff, because it shows a person's attitude and character."
+                  },
+                  "source_vi": "Hoạt động tình nguyện ngày càng phổ biến trong giới trẻ...",
+                  "reference_zh": "做志愿者在年轻人中越来越受欢迎。除了帮助他人以外，志愿者往往还能获得宝贵的经验，学会团队合作，并培养更强的责任感。许多雇主表示，他们在招聘新员工时很看重志愿服务经历，因为这能体现一个人的态度和品格。",
+                  "prep_seconds": 60,
+                  "answer_seconds": 120,
+                  "max_points": 25,
+                  "rubric_id": "rb-translate-oral",
+                  "answer": null,
+                  "explanation_vi": "Dịch nói: chú ý cấu trúc 除了…以外，还…; 'value' → 看重; 'sense of responsibility' → 责任感; 'character' → 品格/人品."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "rb-short",
+      "max_score": 1,
+      "criteria": [
+        {
+          "key": "accuracy",
+          "name_vi": "Đúng ý",
+          "weight": 0.8,
+          "description_vi": "Trả lời đúng thông tin trong bài nghe/đọc."
+        },
+        {
+          "key": "characters",
+          "name_vi": "Chữ viết",
+          "weight": 0.2,
+          "description_vi": "Viết đúng chữ Hán, ≤ 10 chữ."
+        }
+      ]
+    },
+    {
+      "id": "rb-chart",
+      "max_score": 40,
+      "criteria": [
+        {
+          "key": "content",
+          "name_vi": "Mô tả số liệu",
+          "weight": 0.35,
+          "description_vi": "Nêu đúng, đủ số liệu và xu hướng chính."
+        },
+        {
+          "key": "analysis",
+          "name_vi": "Phân tích",
+          "weight": 0.25,
+          "description_vi": "Giải thích nguyên nhân, so sánh hợp lý."
+        },
+        {
+          "key": "organization",
+          "name_vi": "Bố cục",
+          "weight": 0.15,
+          "description_vi": "Mạch lạc, có mở – thân – kết."
+        },
+        {
+          "key": "vocab_grammar",
+          "name_vi": "Từ vựng – ngữ pháp",
+          "weight": 0.25,
+          "description_vi": "Dùng chính xác từ ngữ mô tả biểu đồ, câu đa dạng."
+        }
+      ]
+    },
+    {
+      "id": "rb-essay",
+      "max_score": 60,
+      "criteria": [
+        {
+          "key": "content",
+          "name_vi": "Luận điểm – luận cứ",
+          "weight": 0.35,
+          "description_vi": "Quan điểm rõ, lập luận chặt chẽ, dẫn chứng thuyết phục."
+        },
+        {
+          "key": "organization",
+          "name_vi": "Bố cục",
+          "weight": 0.2,
+          "description_vi": "Kết cấu nghị luận hoàn chỉnh, liên kết tốt."
+        },
+        {
+          "key": "vocab_grammar",
+          "name_vi": "Từ vựng – ngữ pháp",
+          "weight": 0.35,
+          "description_vi": "Từ vựng cao cấp, thành ngữ, câu phức chính xác."
+        },
+        {
+          "key": "characters",
+          "name_vi": "Chữ viết – độ dài",
+          "weight": 0.1,
+          "description_vi": "Đủ 600 chữ, ít lỗi chữ."
+        }
+      ]
+    },
+    {
+      "id": "rb-translate",
+      "max_score": 25,
+      "criteria": [
+        {
+          "key": "accuracy",
+          "name_vi": "Chính xác",
+          "weight": 0.5,
+          "description_vi": "Truyền đạt đúng, đủ ý bản gốc."
+        },
+        {
+          "key": "fluency",
+          "name_vi": "Trôi chảy",
+          "weight": 0.3,
+          "description_vi": "Câu văn tiếng Trung tự nhiên, không dịch máy móc."
+        },
+        {
+          "key": "vocab_grammar",
+          "name_vi": "Từ vựng – ngữ pháp",
+          "weight": 0.2,
+          "description_vi": "Dùng từ đúng ngữ cảnh, đúng ngữ pháp."
+        }
+      ]
+    },
+    {
+      "id": "rb-translate-oral",
+      "max_score": 25,
+      "criteria": [
+        {
+          "key": "accuracy",
+          "name_vi": "Chính xác",
+          "weight": 0.5,
+          "description_vi": "Truyền đạt đúng, đủ ý."
+        },
+        {
+          "key": "fluency",
+          "name_vi": "Lưu loát",
+          "weight": 0.3,
+          "description_vi": "Nói liền mạch, ít ngắt quãng, đúng thời gian."
+        },
+        {
+          "key": "pronunciation",
+          "name_vi": "Phát âm",
+          "weight": 0.2,
+          "description_vi": "Phát âm, thanh điệu rõ ràng."
+        }
+      ]
+    }
+  ]
+}
