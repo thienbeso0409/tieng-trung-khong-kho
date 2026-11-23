@@ -1,0 +1,187 @@
+{
+  "level": 6,
+  "sets": [
+    {
+      "id": "wp6-practical",
+      "level": 6,
+      "type": "write_essay",
+      "title_vi": "Văn bản ứng dụng ≥ 150 chữ – HSK 6",
+      "questions": [
+        {
+          "id": "wp6-pr-01",
+          "type": "write_essay",
+          "genre": "practical",
+          "prompt": {
+            "zh": "你在一家公司的人事部工作。公司决定组织员工参加周末的公益植树活动，请你写一份通知，不少于150字。",
+            "vi": "Viết thông báo ≥ 150 chữ về hoạt động trồng cây thiện nguyện cuối tuần cho nhân viên."
+          },
+          "prompt_vi": "Viết thông báo ≥ 150 chữ về hoạt động trồng cây thiện nguyện cuối tuần cho nhân viên.",
+          "keywords": [],
+          "image": null,
+          "min_chars": 150,
+          "max_chars": null,
+          "time_minutes": null,
+          "sample_answers": [
+            "关于组织员工参加公益植树活动的通知\n全体员工：\n为了响应“绿色城市”的号召，增强大家的环保意识，公司决定组织员工参加本周末的公益植树活动。具体安排如下：\n一、时间：3月16日（星期六）上午8:30—11:30。\n二、地点：城北森林公园东门。公司将于7:45在大楼门口安排大巴统一接送。\n三、内容：在公园指定区域种植树苗，并为每棵树挂上写有员工名字的牌子。\n四、报名：请于3月13日下班前向本部门负责人报名，名额共80人。\n五、注意事项：请穿运动鞋和方便活动的衣服，自带水杯；工具和手套由公司统一提供。\n欢迎大家踊跃参加！\n人事部\n3月10日"
+          ],
+          "outline_vi": [
+            "Tiêu đề + xưng hô.",
+            "Mục đích (为了……).",
+            "Các mục: thời gian, địa điểm, nội dung, đăng ký, lưu ý.",
+            "Kêu gọi, ký tên, ngày."
+          ],
+          "max_points": 40,
+          "answer": null,
+          "explanation_vi": "Văn bản thông báo: đủ thông tin, thể thức chuẩn, văn phong trang trọng."
+        },
+        {
+          "id": "wp6-pr-02",
+          "type": "write_essay",
+          "genre": "practical",
+          "prompt": {
+            "zh": "你在网上买了一台洗衣机，收到后发现不能正常使用，联系客服也没有得到解决。请给这家网店写一封投诉信，不少于150字。",
+            "vi": "Viết thư khiếu nại ≥ 150 chữ gửi cửa hàng online về máy giặt bị lỗi."
+          },
+          "prompt_vi": "Viết thư khiếu nại ≥ 150 chữ gửi cửa hàng online về máy giặt bị lỗi.",
+          "keywords": [],
+          "image": null,
+          "min_chars": 150,
+          "max_chars": null,
+          "time_minutes": null,
+          "sample_answers": [
+            "尊敬的店铺负责人：\n您好！我是贵店的顾客张明，于11月2日在贵店购买了一台滚筒洗衣机，订单号为2025110287。洗衣机于11月5日送到，但安装后发现无法正常脱水，并且在工作时发出很大的噪音。\n11月6日，我已经通过网上客服说明了情况，并按照客服的要求上传了视频。可是，至今已经过去一个星期，客服只回复说“正在处理”，一直没有给出具体的解决办法。这不仅影响了我的正常生活，也让我对贵店的服务感到非常失望。\n根据相关规定，商品存在质量问题，消费者有权要求退换。因此，我希望贵店能在三天内上门检查，并为我更换一台新的洗衣机。如果问题仍得不到解决，我将向消费者协会投诉。\n期待您的答复。\n此致\n敬礼！\n张明\n11月13日"
+          ],
+          "outline_vi": [
+            "Xưng hô trang trọng (尊敬的……).",
+            "Trình bày sự việc: thời gian mua, mã đơn, lỗi.",
+            "Quá trình liên hệ chưa giải quyết + cảm xúc.",
+            "Yêu cầu cụ thể + thời hạn + biện pháp nếu không giải quyết.",
+            "此致敬礼 + ký tên + ngày."
+          ],
+          "max_points": 40,
+          "answer": null,
+          "explanation_vi": "Thư khiếu nại: sự việc rõ, yêu cầu cụ thể, lời lẽ lịch sự nhưng kiên quyết."
+        },
+        {
+          "id": "wp6-pr-03",
+          "type": "write_essay",
+          "genre": "practical",
+          "prompt": {
+            "zh": "你是学校留学生会的负责人，要在新学期开学时欢迎新同学。请写一封欢迎信，介绍学校生活的注意事项，不少于150字。",
+            "vi": "Viết thư chào mừng tân sinh viên quốc tế ≥ 150 chữ, giới thiệu những lưu ý trong cuộc sống ở trường."
+          },
+          "prompt_vi": "Viết thư chào mừng tân sinh viên quốc tế ≥ 150 chữ, giới thiệu những lưu ý trong cuộc sống ở trường.",
+          "keywords": [],
+          "image": null,
+          "min_chars": 150,
+          "max_chars": null,
+          "time_minutes": null,
+          "sample_answers": [
+            "亲爱的新同学们：\n你们好！欢迎来到我们学校。我是留学生会的负责人。在新学期开始之际，我代表留学生会向大家表示热烈的欢迎！\n刚到一个新的环境，大家可能会有些不习惯。在这里，我想提醒大家几件事：第一，请在报到后一周内到国际处办理居留手续，并及时购买医疗保险；第二，学校图书馆早上八点到晚上十点开放，凭学生证可以免费借书；第三，宿舍晚上十一点关门，请大家注意安全，按时回宿舍。\n此外，留学生会每个月都会组织文化活动，比如包饺子、参观博物馆等，欢迎大家积极参加。如果在学习和生活中遇到困难，可以随时到留学生会办公室找我们。\n祝大家学习顺利，生活愉快！\n留学生会\n9月1日"
+          ],
+          "outline_vi": [
+            "Xưng hô + lời chào mừng.",
+            "Các lưu ý đánh số (第一、第二、第三).",
+            "Giới thiệu hoạt động + nơi hỗ trợ.",
+            "Lời chúc + ký tên, ngày."
+          ],
+          "max_points": 40,
+          "answer": null,
+          "explanation_vi": "Thư chào mừng: thân thiện, thông tin rõ ràng theo mục."
+        }
+      ]
+    },
+    {
+      "id": "wp6-argument",
+      "level": 6,
+      "type": "write_essay",
+      "title_vi": "Nghị luận ≥ 300 chữ – HSK 6",
+      "questions": [
+        {
+          "id": "wp6-ar-01",
+          "type": "write_essay",
+          "genre": "argumentative",
+          "prompt": {
+            "zh": "有人说“兴趣是最好的老师”，也有人认为“坚持比兴趣更重要”。请谈谈你的看法，不少于300字。",
+            "vi": "“Hứng thú là người thầy tốt nhất” hay “kiên trì quan trọng hơn hứng thú”? Viết nghị luận ≥ 300 chữ."
+          },
+          "prompt_vi": "“Hứng thú là người thầy tốt nhất” hay “kiên trì quan trọng hơn hứng thú”? Viết nghị luận ≥ 300 chữ.",
+          "keywords": [],
+          "image": null,
+          "min_chars": 300,
+          "max_chars": null,
+          "time_minutes": null,
+          "sample_answers": [
+            "兴趣与坚持\n“兴趣是最好的老师”，这句话很多人都听过。但在我看来，兴趣只是开始，真正决定一个人能走多远的，是坚持。\n诚然，兴趣能给人带来动力。一个对音乐感兴趣的孩子，会主动去练琴，而不需要父母的催促。在兴趣的推动下，人们学习的效率往往更高。\n然而，任何事情做久了都会遇到困难和枯燥的时候。学钢琴的人都知道，一首曲子可能要重复练习上百遍，这时候最初的新鲜感早已消失。如果仅仅依靠兴趣，很多人就会半途而废。那些最终成为钢琴家的人，并不是一直都觉得练琴有趣，而是在没有兴趣的时候也能坚持下去。\n更重要的是，兴趣常常是在坚持中培养出来的。很多人一开始并不喜欢某件事，但随着不断练习，水平越来越高，从中获得了成就感，兴趣也就慢慢产生了。可见，坚持不仅能弥补兴趣的不足，还能创造新的兴趣。\n因此，我们既要珍惜自己的兴趣，更要培养坚持的品质。只有把兴趣和坚持结合起来，才能在自己选择的道路上走得更远。"
+          ],
+          "outline_vi": [
+            "Mở: dẫn câu nói, nêu quan điểm (坚持更重要).",
+            "诚然: thừa nhận vai trò của hứng thú.",
+            "然而: khi gặp khó khăn hứng thú không đủ — ví dụ piano.",
+            "更重要的是: hứng thú nảy sinh trong kiên trì.",
+            "因此: kết hợp cả hai."
+          ],
+          "max_points": 60,
+          "answer": null,
+          "explanation_vi": "Nghị luận có nhượng bộ – phản biện, từ nối cao cấp (诚然、然而、可见、因此)."
+        },
+        {
+          "id": "wp6-ar-02",
+          "type": "write_essay",
+          "genre": "argumentative",
+          "prompt": {
+            "zh": "越来越多的城市开始限制私家车的使用。你认为这种做法合理吗？请写一篇不少于300字的议论文。",
+            "vi": "Nhiều thành phố hạn chế xe ô tô cá nhân — có hợp lý không? Viết ≥ 300 chữ."
+          },
+          "prompt_vi": "Nhiều thành phố hạn chế xe ô tô cá nhân — có hợp lý không? Viết ≥ 300 chữ.",
+          "keywords": [],
+          "image": null,
+          "min_chars": 300,
+          "max_chars": null,
+          "time_minutes": null,
+          "sample_answers": [
+            "限制私家车是否合理？\n随着经济的发展，私家车已经走进了千家万户。与此同时，交通堵塞和空气污染也成了城市的“老大难”问题。为此，不少城市出台了限制私家车使用的政策。我认为，这种做法在现阶段是合理的，但需要配套措施的支持。\n首先，限制私家车能有效缓解交通压力。以北京为例，实行按车牌尾号限行以后，高峰时段的道路通行速度明显提高。其次，汽车尾气是城市空气污染的重要来源之一，减少私家车的使用，有利于改善空气质量，保护市民健康。\n不过，限制私家车并不能解决所有问题。如果公共交通不够方便，市民出行就会受到很大影响，政策也很难得到大家的支持。因此，政府在限制私家车的同时，必须加大对地铁、公交等公共交通的投入，增加线路，提高服务质量，并鼓励市民骑自行车或步行出行。\n总之，限制私家车是治理“城市病”的一种手段，而不是目的。只有“限”与“建”相结合，才能真正建设一个畅通、绿色、宜居的城市。"
+          ],
+          "outline_vi": [
+            "Mở: bối cảnh + quan điểm có điều kiện.",
+            "首先/其次: lợi ích (giảm tắc, giảm ô nhiễm) + ví dụ.",
+            "不过: hạn chế của chính sách.",
+            "因此: giải pháp đồng bộ.",
+            "总之: kết luận “限” + “建”."
+          ],
+          "max_points": 60,
+          "answer": null,
+          "explanation_vi": "Nghị luận chính sách: lợi – hạn chế – giải pháp – kết luận."
+        },
+        {
+          "id": "wp6-ar-03",
+          "type": "write_essay",
+          "genre": "argumentative",
+          "prompt": {
+            "zh": "“竞争”和“合作”哪个对个人的成长更重要？请结合实例，写一篇不少于300字的议论文。",
+            "vi": "Cạnh tranh hay hợp tác quan trọng hơn cho sự trưởng thành? Viết ≥ 300 chữ, có ví dụ."
+          },
+          "prompt_vi": "Cạnh tranh hay hợp tác quan trọng hơn cho sự trưởng thành? Viết ≥ 300 chữ, có ví dụ.",
+          "keywords": [],
+          "image": null,
+          "min_chars": 300,
+          "max_chars": null,
+          "time_minutes": null,
+          "sample_answers": [
+            "竞争与合作\n在现代社会，竞争无处不在：考试要竞争，求职要竞争，工作中也要竞争。于是有人认为，只有学会竞争，才能取得成功。但我认为，对个人成长来说，合作比竞争更重要。\n诚然，适度的竞争能激发人的潜力。运动员在比赛中往往能创造平时训练达不到的成绩，学生在竞争中也会更加努力。\n但是，一个人的能力总是有限的，很多事情单靠个人是无法完成的。一部电影的成功，离不开导演、演员、摄影师等几百人的共同努力；一项重大的科学发现，也往往是一个团队多年合作的结果。在合作中，我们能学习别人的长处，弥补自己的不足，这本身就是一种成长。\n更值得注意的是，过度的竞争容易让人变得自私和焦虑，甚至把身边的人都看作对手。而懂得合作的人，不仅能把事情做好，还能赢得别人的信任和尊重，获得更多的机会。\n当然，竞争与合作并不是对立的。最理想的状态是在合作中竞争，在竞争中合作。我们应该把对手当作伙伴，在互相学习中共同进步。"
+          ],
+          "outline_vi": [
+            "Mở: hiện tượng cạnh tranh + quan điểm (hợp tác quan trọng hơn).",
+            "诚然: mặt tích cực của cạnh tranh.",
+            "但是: giới hạn cá nhân, ví dụ phim/khoa học.",
+            "更值得注意的是: tác hại cạnh tranh quá mức.",
+            "当然: thống nhất hai mặt."
+          ],
+          "max_points": 60,
+          "answer": null,
+          "explanation_vi": "Nghị luận so sánh có ví dụ thực tế, kết luận biện chứng."
+        }
+      ]
+    }
+  ]
+}

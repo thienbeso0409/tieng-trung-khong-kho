@@ -1,0 +1,220 @@
+{
+  "level": 5,
+  "sets": [
+    {
+      "id": "wp5-picture",
+      "level": 5,
+      "type": "picture_story_writing",
+      "title_vi": "Kể chuyện theo tranh – HSK 5",
+      "questions": [
+        {
+          "id": "wp5-ps-01",
+          "type": "picture_story_writing",
+          "images": [
+            {
+              "emoji": "🧑‍💼⏰😴",
+              "alt_vi": "Tranh 1: Anh nhân viên ngủ quên, đồng hồ chỉ 8 giờ."
+            },
+            {
+              "emoji": "🏃‍♂️🚌💨",
+              "alt_vi": "Tranh 2: Anh chạy vội ra bến nhưng xe buýt vừa chạy mất."
+            },
+            {
+              "emoji": "🚲😅",
+              "alt_vi": "Tranh 3: Anh đạp xe công cộng đến công ty, mồ hôi nhễ nhại."
+            },
+            {
+              "emoji": "🏢🗓️😮",
+              "alt_vi": "Tranh 4: Đến nơi mới phát hiện hôm nay là thứ Bảy, công ty nghỉ."
+            }
+          ],
+          "prompt": {
+            "zh": "请根据下面四张图片，写一个不少于100字的故事。",
+            "vi": "Dựa vào các tranh, viết câu chuyện ≥ 100 chữ."
+          },
+          "prompt_vi": "Dựa vào các tranh, viết câu chuyện ≥ 100 chữ Hán.",
+          "min_chars": 100,
+          "sample_answers": [
+            "小李平时工作很忙，常常晚上加班到很晚。这天早上，他一睁开眼睛，发现已经八点了，吓得马上从床上跳了起来。他连早饭都顾不上吃，就急忙跑到车站，可是公共汽车刚刚开走。没办法，他只好扫了一辆共享单车，拼命地往公司骑。到了公司楼下，他已经满头大汗。奇怪的是，公司的大门关着，一个人也没有。他拿出手机一看，才发现今天是星期六。小李又好气又好笑，决定以后一定要好好休息。"
+          ],
+          "outline_vi": [
+            "Tranh 1: bối cảnh (平时……这天早上……) + ngủ quên.",
+            "Tranh 2–3: vội vàng, lỡ xe, đạp xe (只好、拼命).",
+            "Tranh 4: bất ngờ ở cuối (才发现) + cảm xúc/bài học."
+          ],
+          "max_points": 40,
+          "answer": null,
+          "explanation_vi": "Kể đủ các tranh theo trình tự, có mở đầu – diễn biến – kết thúc, dùng từ chỉ thời gian và từ nối."
+        },
+        {
+          "id": "wp5-ps-02",
+          "type": "picture_story_writing",
+          "images": [
+            {
+              "emoji": "👧🐶📦",
+              "alt_vi": "Tranh 1: Cô bé thấy một chú chó con trong thùng giấy bên đường."
+            },
+            {
+              "emoji": "👧🏠🐶🛁",
+              "alt_vi": "Tranh 2: Cô mang chó về nhà, tắm và cho ăn."
+            },
+            {
+              "emoji": "📄🔍",
+              "alt_vi": "Tranh 3: Cô dán thông báo tìm chủ."
+            },
+            {
+              "emoji": "👴🐶❤️",
+              "alt_vi": "Tranh 4: Một ông cụ đến nhận chó, cảm ơn cô bé."
+            }
+          ],
+          "prompt": {
+            "zh": "请根据下面四张图片，写一个不少于100字的故事。",
+            "vi": "Dựa vào các tranh, viết câu chuyện ≥ 100 chữ."
+          },
+          "prompt_vi": "Dựa vào các tranh, viết câu chuyện ≥ 100 chữ Hán.",
+          "min_chars": 100,
+          "sample_answers": [
+            "放学的路上，小红在路边发现了一个纸箱，里面有一只又脏又瘦的小狗，看起来很可怜。她犹豫了一下，还是把小狗抱回了家。回家后，她给小狗洗了澡，又喂了它一些牛奶。小红想，小狗的主人一定很着急，于是她写了一张寻找主人的启事，贴在小区门口。第二天，一位老爷爷找上门来，原来小狗是他的。老爷爷抱着小狗，激动地对小红说：“谢谢你，好孩子！”小红心里也特别高兴。"
+          ],
+          "outline_vi": [
+            "Tranh 1: phát hiện chó con (在……发现了……).",
+            "Tranh 2: chăm sóc (给……洗澡、喂……).",
+            "Tranh 3: dán thông báo (于是).",
+            "Tranh 4: chủ đến nhận, lời cảm ơn, cảm xúc."
+          ],
+          "max_points": 40,
+          "answer": null,
+          "explanation_vi": "Kể đủ các tranh theo trình tự, có mở đầu – diễn biến – kết thúc, dùng từ chỉ thời gian và từ nối."
+        },
+        {
+          "id": "wp5-ps-03",
+          "type": "picture_story_writing",
+          "images": [
+            {
+              "emoji": "👨‍👩‍👦🗺️🚗",
+              "alt_vi": "Tranh 1: Gia đình lên kế hoạch lái xe đi du lịch."
+            },
+            {
+              "emoji": "🚗🛞😟",
+              "alt_vi": "Tranh 2: Giữa đường xe bị thủng lốp."
+            },
+            {
+              "emoji": "🧑‍🔧🤝",
+              "alt_vi": "Tranh 3: Một người nông dân đi ngang giúp thay lốp."
+            },
+            {
+              "emoji": "🍎🎁😊",
+              "alt_vi": "Tranh 4: Gia đình mua táo của người nông dân để cảm ơn, mọi người cười vui."
+            }
+          ],
+          "prompt": {
+            "zh": "请根据下面四张图片，写一个不少于100字的故事。",
+            "vi": "Dựa vào các tranh, viết câu chuyện ≥ 100 chữ."
+          },
+          "prompt_vi": "Dựa vào các tranh, viết câu chuyện ≥ 100 chữ Hán.",
+          "min_chars": 100,
+          "sample_answers": [
+            "国庆节放假，爸爸决定开车带全家去郊区旅游。出发前，大家一起看地图，选好了路线，心情都很兴奋。没想到，车开到半路，轮胎突然坏了，四周又没有修车的地方，爸爸急得不知道怎么办。这时，一位开着拖拉机的农民路过，他二话不说就停下来帮忙，不到半个小时就把轮胎换好了。爸爸要给他钱，他怎么也不肯收。为了表示感谢，我们买了他果园里的两箱苹果。虽然旅行计划被打乱了，但是大家都觉得这是一次难忘的经历。"
+          ],
+          "outline_vi": [
+            "Tranh 1: dịp nghỉ, kế hoạch.",
+            "Tranh 2: sự cố (没想到).",
+            "Tranh 3: người giúp (这时、二话不说).",
+            "Tranh 4: cảm ơn + câu kết (虽然……但是……)."
+          ],
+          "max_points": 40,
+          "answer": null,
+          "explanation_vi": "Kể đủ các tranh theo trình tự, có mở đầu – diễn biến – kết thúc, dùng từ chỉ thời gian và từ nối."
+        }
+      ]
+    },
+    {
+      "id": "wp5-essay",
+      "level": 5,
+      "type": "write_essay",
+      "title_vi": "Viết bài văn ≥ 200 chữ – HSK 5",
+      "questions": [
+        {
+          "id": "wp5-es-01",
+          "type": "write_essay",
+          "genre": "argumentative",
+          "prompt": {
+            "zh": "“读万卷书，不如行万里路。”你同意这种说法吗？请写一篇不少于200字的短文。",
+            "vi": "Đọc vạn quyển sách không bằng đi vạn dặm đường — bạn có đồng ý? Viết ≥ 200 chữ."
+          },
+          "prompt_vi": "Đọc vạn quyển sách không bằng đi vạn dặm đường — bạn có đồng ý? Viết ≥ 200 chữ.",
+          "keywords": [],
+          "image": null,
+          "min_chars": 200,
+          "max_chars": null,
+          "time_minutes": null,
+          "sample_answers": [
+            "“读万卷书，不如行万里路”的意思是，亲身经历比读书更重要。我认为读书和旅行都很重要，二者不能互相代替。\n一方面，旅行确实能让我们学到书本上学不到的东西。比如，书上说长城很雄伟，可是只有站在长城上，你才能真正感受到它的伟大；在旅途中和当地人交流，也能让我们更深入地了解不同的文化。\n另一方面，读书是旅行的基础。如果出发前对一个地方的历史一点儿也不了解，那么看到的只是风景，很难理解风景背后的故事。而且，并不是每个人都有时间和金钱去远方，书本能让我们用很少的花费“去”世界各地。\n总之，读书让我们的旅行更有意义，旅行又让书本上的知识变得生动。我们应该边读书，边走路。"
+          ],
+          "outline_vi": [
+            "Mở: giải thích câu nói + nêu quan điểm.",
+            "Thân 1 (一方面): giá trị của trải nghiệm thực tế + ví dụ.",
+            "Thân 2 (另一方面): giá trị của đọc sách + ví dụ.",
+            "Kết (总之): kết hợp cả hai."
+          ],
+          "max_points": 60,
+          "answer": null,
+          "explanation_vi": "Nghị luận ≥ 200 chữ: giải thích – quan điểm – 2 luận cứ – kết luận."
+        },
+        {
+          "id": "wp5-es-02",
+          "type": "write_essay",
+          "genre": "narrative",
+          "prompt": {
+            "zh": "请以“一次失败的经历”为题，写一篇不少于200字的短文。",
+            "vi": "Viết bài ≥ 200 chữ: “Một lần thất bại”."
+          },
+          "prompt_vi": "Viết bài ≥ 200 chữ: “Một lần thất bại”.",
+          "keywords": [],
+          "image": null,
+          "min_chars": 200,
+          "max_chars": null,
+          "time_minutes": null,
+          "sample_answers": [
+            "我永远忘不了高二那年的演讲比赛。那是我第一次代表班级参加学校的比赛，我准备了整整一个月，把演讲稿背得滚瓜烂熟。可是，当我站在舞台上，看到台下几百双眼睛的时候，脑子里突然一片空白，连第一句话都想不起来了。我站在台上，紧张得手都在发抖，最后只好拿出稿子读完了。比赛结果可想而知，我连前十名都没进。\n回到教室，我难过得哭了。班主任走过来对我说：“失败不可怕，可怕的是因为失败而不敢再尝试。”从那以后，我开始利用每一个机会锻炼自己，主动在课堂上发言，参加各种活动。一年后，我又一次参加了演讲比赛，这一次，我获得了一等奖。\n这次失败让我明白，失败并不是终点，而是成功的起点。"
+          ],
+          "outline_vi": [
+            "Mở: thời gian, sự kiện.",
+            "Thân: chuẩn bị → sự cố (突然) → kết quả; lời thầy; thay đổi sau đó.",
+            "Kết: bài học (……不是……而是……)."
+          ],
+          "max_points": 60,
+          "answer": null,
+          "explanation_vi": "Kể chuyện ≥ 200 chữ, có cao trào, chi tiết tâm lý và bài học."
+        },
+        {
+          "id": "wp5-es-03",
+          "type": "write_essay",
+          "genre": "argumentative",
+          "prompt": {
+            "zh": "现在很多大学生毕业后选择自己创业。你怎么看待大学生创业？请写一篇不少于200字的短文。",
+            "vi": "Bạn nghĩ sao về việc sinh viên tốt nghiệp tự khởi nghiệp? Viết ≥ 200 chữ."
+          },
+          "prompt_vi": "Bạn nghĩ sao về việc sinh viên tốt nghiệp tự khởi nghiệp? Viết ≥ 200 chữ.",
+          "keywords": [],
+          "image": null,
+          "min_chars": 200,
+          "max_chars": null,
+          "time_minutes": null,
+          "sample_answers": [
+            "近年来，越来越多的大学生毕业后选择自己创业。我认为，大学生创业是一件好事，但一定要做好充分的准备。\n首先，创业能让年轻人实现自己的梦想。大学生思维活跃，敢想敢做，常常能发现新的机会。很多有名的公司都是年轻人在宿舍里创办的。\n其次，创业也能带动就业。一家小公司成功了，就能为社会提供更多的工作岗位。\n但是，创业的风险也很大。大学生缺乏工作经验和资金，对市场也不够了解，失败的可能性很高。所以，我建议大学生不要盲目创业，可以先到企业工作几年，积累经验和人脉，再考虑自己做老板。\n总的来说，只要有准备、有计划，大学生创业是值得鼓励的。"
+          ],
+          "outline_vi": [
+            "Mở: hiện tượng + quan điểm.",
+            "Thân: lợi ích (首先、其次) + rủi ro (但是).",
+            "Gợi ý giải pháp (所以，我建议).",
+            "Kết luận."
+          ],
+          "max_points": 60,
+          "answer": null,
+          "explanation_vi": "Nghị luận ≥ 200 chữ, có cả mặt lợi và hại, có đề xuất."
+        }
+      ]
+    }
+  ]
+}

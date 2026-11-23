@@ -1,0 +1,351 @@
+{
+  "level": 4,
+  "sets": [
+    {
+      "id": "wp4-sentence",
+      "level": 4,
+      "type": "write_sentence",
+      "title_vi": "Đặt câu với từ cho sẵn – HSK 4",
+      "questions": [
+        {
+          "id": "wp4-ws-01",
+          "type": "write_sentence",
+          "prompt_vi": "Đặt một câu hoàn chỉnh có dùng từ cho sẵn (HSK4 W1).",
+          "keyword": {
+            "zh": "干脆",
+            "pinyin": "gāncuì"
+          },
+          "image": null,
+          "min_chars": 8,
+          "sample_answers": [
+            "路上太堵了，我们干脆走过去吧。"
+          ],
+          "answer": null,
+          "outline_vi": [
+            "干脆 + động từ: “thôi thì cứ…”, dùng khi đưa ra quyết định dứt khoát.",
+            "Kiểm tra: chủ ngữ – trạng ngữ – động từ – tân ngữ; kết thúc bằng dấu câu."
+          ],
+          "max_points": 4,
+          "explanation_vi": "干脆 + động từ: “thôi thì cứ…”, dùng khi đưa ra quyết định dứt khoát."
+        },
+        {
+          "id": "wp4-ws-02",
+          "type": "write_sentence",
+          "prompt_vi": "Đặt một câu hoàn chỉnh có dùng từ cho sẵn (HSK4 W1).",
+          "keyword": {
+            "zh": "不管",
+            "pinyin": "bùguǎn"
+          },
+          "image": null,
+          "min_chars": 8,
+          "sample_answers": [
+            "不管天气好不好，他每天都去跑步。"
+          ],
+          "answer": null,
+          "outline_vi": [
+            "不管 + (A不A / 多…/ 疑问từ) …，都/也…",
+            "Kiểm tra: chủ ngữ – trạng ngữ – động từ – tân ngữ; kết thúc bằng dấu câu."
+          ],
+          "max_points": 4,
+          "explanation_vi": "不管 + (A不A / 多…/ 疑问từ) …，都/也…"
+        },
+        {
+          "id": "wp4-ws-03",
+          "type": "write_sentence",
+          "prompt_vi": "Đặt một câu hoàn chỉnh có dùng từ cho sẵn (HSK4 W1).",
+          "keyword": {
+            "zh": "竟然",
+            "pinyin": "jìngrán"
+          },
+          "image": null,
+          "min_chars": 8,
+          "sample_answers": [
+            "这么简单的问题，他竟然不知道。"
+          ],
+          "answer": null,
+          "outline_vi": [
+            "竟然 đặt trước vị ngữ, biểu thị ngoài dự đoán.",
+            "Kiểm tra: chủ ngữ – trạng ngữ – động từ – tân ngữ; kết thúc bằng dấu câu."
+          ],
+          "max_points": 4,
+          "explanation_vi": "竟然 đặt trước vị ngữ, biểu thị ngoài dự đoán."
+        },
+        {
+          "id": "wp4-ws-04",
+          "type": "write_sentence",
+          "prompt_vi": "Đặt một câu hoàn chỉnh có dùng từ cho sẵn (HSK4 W1).",
+          "keyword": {
+            "zh": "避免",
+            "pinyin": "bìmiǎn"
+          },
+          "image": null,
+          "min_chars": 8,
+          "sample_answers": [
+            "为了避免发生事故，开车时不要看手机。"
+          ],
+          "answer": null,
+          "outline_vi": [
+            "避免 + 发生/出现 + điều xấu.",
+            "Kiểm tra: chủ ngữ – trạng ngữ – động từ – tân ngữ; kết thúc bằng dấu câu."
+          ],
+          "max_points": 4,
+          "explanation_vi": "避免 + 发生/出现 + điều xấu."
+        },
+        {
+          "id": "wp4-ws-05",
+          "type": "write_sentence",
+          "prompt_vi": "Đặt một câu hoàn chỉnh có dùng từ cho sẵn (HSK4 W1).",
+          "keyword": {
+            "zh": "值得",
+            "pinyin": "zhíde"
+          },
+          "image": null,
+          "min_chars": 8,
+          "sample_answers": [
+            "这本书很有意思，值得一看。"
+          ],
+          "answer": null,
+          "outline_vi": [
+            "值得 + động từ: đáng để làm gì.",
+            "Kiểm tra: chủ ngữ – trạng ngữ – động từ – tân ngữ; kết thúc bằng dấu câu."
+          ],
+          "max_points": 4,
+          "explanation_vi": "值得 + động từ: đáng để làm gì."
+        },
+        {
+          "id": "wp4-ws-06",
+          "type": "write_sentence",
+          "prompt_vi": "Đặt một câu hoàn chỉnh có dùng từ cho sẵn (HSK4 W1).",
+          "keyword": {
+            "zh": "按时",
+            "pinyin": "ànshí"
+          },
+          "image": null,
+          "min_chars": 8,
+          "sample_answers": [
+            "医生让我每天按时吃药。"
+          ],
+          "answer": null,
+          "outline_vi": [
+            "按时 đặt trước động từ: 按时完成/按时吃药/按时上班.",
+            "Kiểm tra: chủ ngữ – trạng ngữ – động từ – tân ngữ; kết thúc bằng dấu câu."
+          ],
+          "max_points": 4,
+          "explanation_vi": "按时 đặt trước động từ: 按时完成/按时吃药/按时上班."
+        },
+        {
+          "id": "wp4-ws-07",
+          "type": "write_sentence",
+          "prompt_vi": "Đặt một câu hoàn chỉnh có dùng từ cho sẵn (HSK4 W1).",
+          "keyword": {
+            "zh": "难免",
+            "pinyin": "nánmiǎn"
+          },
+          "image": null,
+          "min_chars": 8,
+          "sample_answers": [
+            "第一次上台演讲，难免会有点儿紧张。"
+          ],
+          "answer": null,
+          "outline_vi": [
+            "难免 + 会 + V: khó tránh khỏi.",
+            "Kiểm tra: chủ ngữ – trạng ngữ – động từ – tân ngữ; kết thúc bằng dấu câu."
+          ],
+          "max_points": 4,
+          "explanation_vi": "难免 + 会 + V: khó tránh khỏi."
+        },
+        {
+          "id": "wp4-ws-08",
+          "type": "write_sentence",
+          "prompt_vi": "Đặt một câu hoàn chỉnh có dùng từ cho sẵn (HSK4 W1).",
+          "keyword": {
+            "zh": "否则",
+            "pinyin": "fǒuzé"
+          },
+          "image": null,
+          "min_chars": 8,
+          "sample_answers": [
+            "我们得早点儿出发，否则会赶不上飞机。"
+          ],
+          "answer": null,
+          "outline_vi": [
+            "Vế 1 (điều kiện/yêu cầu)，否则 + hậu quả.",
+            "Kiểm tra: chủ ngữ – trạng ngữ – động từ – tân ngữ; kết thúc bằng dấu câu."
+          ],
+          "max_points": 4,
+          "explanation_vi": "Vế 1 (điều kiện/yêu cầu)，否则 + hậu quả."
+        },
+        {
+          "id": "wp4-ws-09",
+          "type": "write_sentence",
+          "prompt_vi": "Đặt một câu hoàn chỉnh có dùng từ cho sẵn (HSK4 W1).",
+          "keyword": {
+            "zh": "吸引",
+            "pinyin": "xīyǐn"
+          },
+          "image": null,
+          "min_chars": 8,
+          "sample_answers": [
+            "这里美丽的风景吸引了很多游客。"
+          ],
+          "answer": null,
+          "outline_vi": [
+            "A 吸引 B / A 对 B 很有吸引力.",
+            "Kiểm tra: chủ ngữ – trạng ngữ – động từ – tân ngữ; kết thúc bằng dấu câu."
+          ],
+          "max_points": 4,
+          "explanation_vi": "A 吸引 B / A 对 B 很有吸引力."
+        },
+        {
+          "id": "wp4-ws-10",
+          "type": "write_sentence",
+          "prompt_vi": "Đặt một câu hoàn chỉnh có dùng từ cho sẵn (HSK4 W1).",
+          "keyword": {
+            "zh": "甚至",
+            "pinyin": "shènzhì"
+          },
+          "image": null,
+          "min_chars": 8,
+          "sample_answers": [
+            "他太忙了，甚至连周末都要加班。"
+          ],
+          "answer": null,
+          "outline_vi": [
+            "甚至 (连)…都/也… — nhấn mạnh mức độ cao nhất.",
+            "Kiểm tra: chủ ngữ – trạng ngữ – động từ – tân ngữ; kết thúc bằng dấu câu."
+          ],
+          "max_points": 4,
+          "explanation_vi": "甚至 (连)…都/也… — nhấn mạnh mức độ cao nhất."
+        },
+        {
+          "id": "wp4-ws-11",
+          "type": "write_sentence",
+          "prompt_vi": "Đặt một câu hoàn chỉnh có dùng từ cho sẵn (HSK4 W1).",
+          "keyword": {
+            "zh": "由于",
+            "pinyin": "yóuyú"
+          },
+          "image": null,
+          "min_chars": 8,
+          "sample_answers": [
+            "由于下大雨，运动会推迟了。"
+          ],
+          "answer": null,
+          "outline_vi": [
+            "由于 + nguyên nhân，(所以/因此) + kết quả.",
+            "Kiểm tra: chủ ngữ – trạng ngữ – động từ – tân ngữ; kết thúc bằng dấu câu."
+          ],
+          "max_points": 4,
+          "explanation_vi": "由于 + nguyên nhân，(所以/因此) + kết quả."
+        },
+        {
+          "id": "wp4-ws-12",
+          "type": "write_sentence",
+          "prompt_vi": "Đặt một câu hoàn chỉnh có dùng từ cho sẵn (HSK4 W1).",
+          "keyword": {
+            "zh": "逐渐",
+            "pinyin": "zhújiàn"
+          },
+          "image": null,
+          "min_chars": 8,
+          "sample_answers": [
+            "天气逐渐暖和起来了。"
+          ],
+          "answer": null,
+          "outline_vi": [
+            "逐渐 + V/Adj (起来/了): dần dần.",
+            "Kiểm tra: chủ ngữ – trạng ngữ – động từ – tân ngữ; kết thúc bằng dấu câu."
+          ],
+          "max_points": 4,
+          "explanation_vi": "逐渐 + V/Adj (起来/了): dần dần."
+        }
+      ]
+    },
+    {
+      "id": "wp4-essay",
+      "level": 4,
+      "type": "write_essay",
+      "title_vi": "Viết đoạn văn ≥ 80 chữ – HSK 4",
+      "questions": [
+        {
+          "id": "wp4-es-01",
+          "type": "write_essay",
+          "genre": "narrative",
+          "prompt": {
+            "zh": "请以“我的周末”为题，写一篇不少于80字的短文。",
+            "vi": "Viết đoạn ≥ 80 chữ: “Cuối tuần của tôi”."
+          },
+          "prompt_vi": "Viết đoạn ≥ 80 chữ: “Cuối tuần của tôi”.",
+          "keywords": [],
+          "image": null,
+          "min_chars": 80,
+          "max_chars": null,
+          "time_minutes": null,
+          "sample_answers": [
+            "我的周末过得很充实。星期六上午，我一般会先打扫房间，然后去附近的超市买一些水果和蔬菜。下午，我常常和朋友一起去公园打羽毛球，运动完以后感觉特别轻松。星期天我喜欢待在家里，看看书，学学汉语，有时候也会给远方的父母打个视频电话。虽然周末很短，但是它让我放松了心情，也让我有精神迎接新的一周。"
+          ],
+          "outline_vi": [
+            "Mở: nhận xét chung về cuối tuần.",
+            "Thân: thứ Bảy làm gì (先……然后……), Chủ nhật làm gì.",
+            "Kết: cảm nhận (虽然……但是……)."
+          ],
+          "max_points": 20,
+          "answer": null,
+          "explanation_vi": "Dùng từ chỉ trình tự 先、然后、有时候; ≥ 80 chữ."
+        },
+        {
+          "id": "wp4-es-02",
+          "type": "write_essay",
+          "genre": "descriptive",
+          "prompt": {
+            "zh": "请写一篇不少于80字的短文，介绍一位对你影响最大的人。",
+            "vi": "Viết đoạn ≥ 80 chữ giới thiệu người ảnh hưởng lớn nhất đến bạn."
+          },
+          "prompt_vi": "Viết đoạn ≥ 80 chữ giới thiệu người ảnh hưởng lớn nhất đến bạn.",
+          "keywords": [],
+          "image": null,
+          "min_chars": 80,
+          "max_chars": null,
+          "time_minutes": null,
+          "sample_answers": [
+            "对我影响最大的人是我的高中老师王老师。她四十多岁，个子不高，说话很温和。王老师对学生要求很严格，但是也非常关心我们。有一次我考试没考好，心情很差，她不但没有批评我，还耐心地帮我找原因。在她的鼓励下，我的成绩越来越好，最后考上了理想的大学。王老师让我明白了，遇到困难不要放弃。"
+          ],
+          "outline_vi": [
+            "Mở: người đó là ai.",
+            "Thân: ngoại hình/tính cách + một câu chuyện cụ thể.",
+            "Kết: ảnh hưởng, bài học."
+          ],
+          "max_points": 20,
+          "answer": null,
+          "explanation_vi": "Miêu tả + kể một sự việc cụ thể; dùng 不但……还……, 在……的鼓励下."
+        },
+        {
+          "id": "wp4-es-03",
+          "type": "write_essay",
+          "genre": "argumentative",
+          "prompt": {
+            "zh": "有人喜欢住在大城市，有人喜欢住在小城市。你呢？请写一篇不少于80字的短文说明理由。",
+            "vi": "Bạn thích sống ở thành phố lớn hay nhỏ? Viết ≥ 80 chữ nêu lý do."
+          },
+          "prompt_vi": "Bạn thích sống ở thành phố lớn hay nhỏ? Viết ≥ 80 chữ nêu lý do.",
+          "keywords": [],
+          "image": null,
+          "min_chars": 80,
+          "max_chars": null,
+          "time_minutes": null,
+          "sample_answers": [
+            "我更喜欢住在小城市。首先，小城市的生活节奏比较慢，人们没有那么大的压力。其次，小城市的房价和物价都比较低，生活成本不高。另外，小城市空气好，交通也不太堵，上下班很方便。当然，大城市的工作机会更多，但是对我来说，舒适、轻松的生活更重要。"
+          ],
+          "outline_vi": [
+            "Mở: nêu lựa chọn.",
+            "Thân: 首先/其次/另外 — 2–3 lý do.",
+            "Kết: thừa nhận mặt kia (当然……但是……)."
+          ],
+          "max_points": 20,
+          "answer": null,
+          "explanation_vi": "Bài nêu quan điểm ngắn: lựa chọn rõ + 2–3 lý do + câu kết."
+        }
+      ]
+    }
+  ]
+}
