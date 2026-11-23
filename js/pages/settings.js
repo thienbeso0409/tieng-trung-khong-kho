@@ -1,3 +1,4 @@
+import { SHARED_AI_URL } from '../config.js';
 import { h, clear, pageHead, toast, notice, confirmDialog } from '../ui.js';
 import { getSettings, setSettings } from '../settings.js';
 import { testKey } from '../gemini.js';
@@ -20,6 +21,7 @@ export async function render(root) {
   root.append(h('div', { class: 'grid c2' },
     h('div', { class: 'card' },
       h('h2', null, '🤖 Trí tuệ nhân tạo (Gemini)'),
+      SHARED_AI_URL ? h('div', { style: { marginBottom: '12px' } }, notice('ok', '✅', 'Web đã có AI dùng chung — bạn KHÔNG cần dán key, cứ dùng luôn. Chỉ dán key riêng nếu muốn dùng nhiều hơn giới hạn mỗi ngày.')) : null,
       h('label', { class: 'field' }, h('span', null, 'API key Gemini'),
         h('div', { class: 'row', style: { flexWrap: 'nowrap' } }, keyInput,
           h('button', { class: 'btn sm', type: 'button', onclick: (e) => { keyInput.type = keyInput.type === 'password' ? 'text' : 'password'; e.target.textContent = keyInput.type === 'password' ? 'Hiện' : 'Ẩn'; } }, 'Hiện')),

@@ -1,5 +1,6 @@
 // Gọi Google Gemini REST trực tiếp từ trình duyệt bằng API key của người dùng.
 import { getSettings } from './settings.js';
+import { SHARED_AI_URL } from './config.js';
 
 const API = 'https://generativelanguage.googleapis.com/v1beta/models/';
 
@@ -24,7 +25,8 @@ function friendlyError(status, body) {
 export async function generate({ system, contents, prompt, json = true, temperature = 0.7, maxTokens = 8192, signal, key, model } = {}) {
   const s = getSettings();
   const apiKey = (key ?? s.geminiKey ?? '').trim();
-  if (!apiKey) throw new GeminiError('Chưa có API key Gemini. Vào Cài đặt để dán key miễn phí.', 0, 'NO_KEY');
+  const useShared = !apiKey && !!SHARED_AI_URL;
+  if (!apiKey && !useShared) throw new GeminiError('Chưa có API key Gemini. Vào Cài đặt để dán key miễn phí.', 0, 'NO_KEY');
   const m = (model || s.geminiModel || 'gemini-2.5-flash').trim().replace(/^models\//, '');
   const body = {
     contents: contents || [{ role: 'user', parts: [{ text: prompt }] }],
@@ -34,19 +36,31 @@ export async function generate({ system, contents, prompt, json = true, temperat
   if (system) body.systemInstruction = { parts: [{ text: system }] };
   let res;
   try {
-    res = await fetch(API + encodeURIComponent(m) + ':generateContent', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey },
-      body: JSON.stringify(body),
-      signal,
-    });
+    res = useShared
+      ? await fetch(SHARED_AI_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ model: m, body }),
+          signal,
+        })
+      : await fetch(API + encodeURIComponent(m) + ':generateContent', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey },
+          body: JSON.stringify(body),
+          signal,
+        });
   } catch (e) {
     if (e.name === 'AbortError') throw e;
     throw new GeminiError('Không kết nối được tới Gemini. Kiểm tra mạng Internet.', 0, 'NETWORK');
   }
   let data = null;
   try { data = await res.json(); } catch { /* */ }
-  if (!res.ok) throw new GeminiError(friendlyError(res.status, data), res.status);
+  if (!res.ok) {
+    if (useShared && data?.error?.status === 'DAILY_LIMIT') throw new GeminiError(data.error.message, 429, 'DAILY_LIMIT');
+    if (useShared && res.status === 429) throw new GeminiError('AI chung đang quá tải vì nhiều người dùng cùng lúc. Đợi 1 phút rồi thử lại, hoặc dán key Gemini riêng trong Cài đặt.', 429);
+    if (useShared && (res.status === 400 || res.status === 403) && /API key/i.test(data?.error?.message || '')) throw new GeminiError('Máy chủ AI chung đang gặp sự cố cấu hình. Bạn có thể dán key Gemini riêng trong Cài đặt để dùng tạm.', res.status);
+    throw new GeminiError(friendlyError(res.status, data), res.status);
+  }
   const cand = data?.candidates?.[0];
   if (!cand) {
     const block = data?.promptFeedback?.blockReason;

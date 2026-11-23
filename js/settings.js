@@ -1,3 +1,4 @@
+import { SHARED_AI_URL } from './config.js';
 // Cài đặt người dùng (ttkk:settings).
 import { load, save } from './storage.js';
 
@@ -31,5 +32,6 @@ export function setSettings(patch) {
 
 export function onSettings(fn) { listeners.add(fn); return () => listeners.delete(fn); }
 
-export const hasKey = () => !!(getSettings().geminiKey || '').trim();
+export const hasPersonalKey = () => !!(getSettings().geminiKey || '').trim();
+export const hasKey = () => hasPersonalKey() || !!SHARED_AI_URL;
 export { DEFAULTS as SETTINGS_DEFAULTS };
