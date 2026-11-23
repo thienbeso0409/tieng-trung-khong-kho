@@ -99,10 +99,10 @@ export async function render(root) {
   } });
   root.append(h('div', { class: 'spacer' }), h('div', { class: 'card' },
     h('h2', null, '💾 Sao lưu dữ liệu'),
-    h('p', { class: 'muted' }, 'Xuất tiến độ ra file JSON để chuyển sang máy khác hoặc sao lưu. Nhập lại file để khôi phục.'),
+    h('p', { class: 'muted' }, 'Tiến độ chỉ nằm trên trình duyệt này. Bấm "Tải tệp sao lưu" để lưu về máy (dùng khi đổi điện thoại hoặc trình duyệt); sang máy mới, bấm "Khôi phục từ tệp" và chọn tệp đó.'),
     h('div', { class: 'row' },
-      h('button', { class: 'btn primary', onclick: downloadBackup }, '⬇ Xuất tiến độ (JSON)'),
-      h('button', { class: 'btn', onclick: () => file.click() }, '⬆ Nhập từ file'), file,
+      h('button', { class: 'btn primary', onclick: downloadBackup }, '⬇ Tải tệp sao lưu'),
+      h('button', { class: 'btn', onclick: () => file.click() }, '⬆ Khôi phục từ tệp'), file,
       h('span', { class: 'grow' }),
       h('button', { class: 'btn ghost danger', onclick: async () => {
         if (await confirmDialog('Xóa toàn bộ tiến độ?', 'Từ đã thuộc, lịch sử thi, bài shadowing tự thêm… sẽ bị xóa. Cài đặt và API key được giữ lại.', 'Xóa hết', true)) { clearAll({ keepSettings: true }); toast('Đã xóa tiến độ'); }

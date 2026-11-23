@@ -28,7 +28,7 @@ export async function render(root, params, ctx) {
       h('div', { class: 'card' },
         h('h3', null, 'Cấu trúc đề'),
         h('div', { class: 'tbl-wrap' }, h('table', { class: 'tbl' },
-          h('thead', null, h('tr', null, h('th', null, 'Phần'), h('th', null, 'Số part'), h('th', null, 'Số câu'), h('th', null, 'Điểm'))),
+          h('thead', null, h('tr', null, h('th', null, 'Phần'), h('th', null, 'Số dạng bài'), h('th', null, 'Số câu'), h('th', null, 'Điểm'))),
           h('tbody', null, secs.map((s) => h('tr', null, h('td', null, s.name_vi, ' ', h('span', { class: 'zh muted' }, s.name_zh || '')), h('td', null, (s.parts || []).length), h('td', null, qCount(s)), h('td', null, s.max_score ?? 100)))))),
         h('p', { class: 'small muted', style: { marginTop: '10px' } }, bands
           ? 'Mỗi kỹ năng chấm 0–100; kết quả xếp bậc HSK 7 / 8 / 9 (ước lượng, không chính thức).'

@@ -117,11 +117,17 @@ function makePractice(panel, onProgress) {
 function charGrid(list, practice, redraw, { showLevel = false } = {}) {
   const d = done();
   return h('div', { class: 'char-grid' }, list.map((c) =>
-    h('button', { class: `char-cell${practice.current?.hanzi === c.hanzi ? ' on' : ''}${d[c.hanzi] ? ' done' : ''}`, lang: 'zh-CN', 'aria-label': `${c.hanzi} ${c.pinyin}`, onclick: () => { practice.select(c); redraw(); } },
+    h('button', { class: `char-cell${practice.current?.hanzi === c.hanzi ? ' on' : ''}${d[c.hanzi] ? ' done' : ''}`, lang: 'zh-CN', 'aria-label': `${c.hanzi} ${c.pinyin}`, onclick: () => { practice.select(c); redraw(); scrollPanelOnMobile(); } },
       showLevel ? h('span', { class: 'lv' }, c.level) : null, c.hanzi, h('span', { class: 'py' }, c.pinyin))));
 }
 
 // ---------- Theo cấp ----------
+// Trên điện thoại khung luyện nằm dưới lưới chữ → cuộn tới để người học thấy ngay.
+function scrollPanelOnMobile() {
+  if (!window.matchMedia?.('(max-width: 860px)').matches) return;
+  setTimeout(() => document.querySelector('.char-panel')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);
+}
+
 async function levelView(root, ctx, lv) {
   root.append(levelChips(ctx, 'writing/chars', lv));
   let chars;
@@ -264,7 +270,7 @@ function radicalDetail(box, ctx, lv, r) {
           r.strokes ? h('span', { class: 'badge' }, `${r.strokes} nét`) : null,
           (r.variants || []).length ? h('span', { class: 'badge' }, 'Biến thể: ', h('span', { class: 'zh' }, r.variants.join(' '))) : null,
           h('span', { class: 'badge jade' }, `${r.chars.length} chữ HSK`))),
-      h('button', { class: 'btn ink', onclick: () => practiceRadical(r.radical) }, '✍️ Luyện viết bộ thủ')),
+      h('button', { class: 'btn ink', onclick: () => { practiceRadical(r.radical); scrollPanelOnMobile(); } }, '✍️ Luyện viết bộ thủ')),
     chips,
     h('div', { class: 'char-layout' }, gridBox, panel));
   const drawChips = () => {

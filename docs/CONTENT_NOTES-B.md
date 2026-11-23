@@ -47,3 +47,10 @@ Kiểm bằng jieba so với từ ≤ cấp trong hsk30: số token ngoài danh 
 
 ## Script (ngoài repo)
 `/home/claude/scripts-b/` (gen_vocab.py, gen_chars.py, gen_practice.py, exams/hsk4|5|6.py, oov.py). Nội dung thô nằm ở `/home/claude/scripts-b/content/`.
+
+## Bổ sung: đề 2 và đề 3 (HSK 4–6)
+- `exams/hsk4-de2.json`, `hsk4-de3.json` (mỗi đề 70 câu); `hsk5-de2.json`, `hsk5-de3.json` (72 câu); `hsk6-de2.json`, `hsk6-de3.json` (82 câu). Cấu trúc giống đề 1 (Phụ lục A.2), nội dung mới hoàn toàn: công việc, môi trường, khoa học, văn hóa, xã hội, giáo dục.
+- Mỗi đề: đáp án chia đều (không part nào có một chữ cái quá 40 %), `explanation_vi` cho từng câu, rubric và bài mẫu cho câu tự luận. Đã rà 25 câu ngẫu nhiên mỗi đề.
+- `speaking/hskk.json`: chỉ **thêm** 6 paper `hsk{4,5,6}-de{2,3}-speaking` vào mảng `papers`, ghép từ các item luyện tập có sẵn của A, không tạo item mới. `hsk4-de3` dùng lại item `hsk4-s-11` (cũng có trong đề 1).
+- Validator (chạy trên bản sao data có index đã thêm đề 2–3): 0 lỗi.
+- Script: `/home/claude/scripts-b/exams/assemble.py` cùng `hsk{4,5,6}_de{2,3}.py`.

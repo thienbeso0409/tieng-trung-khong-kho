@@ -8,7 +8,7 @@
   --card-2: #f9f1e3;
   --ink: #1f1a16;
   --ink-2: #4a4038;
-  --ink-3: #7a6d61;
+  --ink-3: #6e6256;
   --line: #e0d3bd;
   --line-2: #cdbb9f;
   --red: #b8322a;          /* son đỏ 朱砂 */
@@ -590,3 +590,10 @@ code { font-family: ui-monospace, Menlo, Consolas, monospace; background: var(--
 .rad-hero { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; margin-bottom: 14px; }
 .rad-hero .rz { font-family: var(--f-zh-serif); font-size: 4rem; font-weight: 900; color: var(--red); line-height: 1; }
 .char-cell .lv { position: absolute; top: 3px; left: 5px; font-size: .58rem; font-family: var(--f-ui); color: var(--ink-3); font-weight: 600; }
+
+/* QA: vùng chạm tối thiểu trên màn hình cảm ứng */
+@media (pointer: coarse) { .pager .btn, .btn.sm { min-height: 40px; min-width: 40px; } }
+.char-panel { scroll-margin-top: 72px; }
+
+/* QA: tương phản chữ trên nút chính ở chế độ tối (≥ 4.5:1) */
+[data-theme="dark"] .btn.primary { color: #1a0f0c; }

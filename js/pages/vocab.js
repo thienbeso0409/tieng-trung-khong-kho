@@ -119,8 +119,8 @@ function wordRow(w, st, onChange) {
     h('div', { class: 'hz', lang: 'zh-CN' }, w.hanzi, h('span', { class: 'py' }, w.pinyin)),
     h('div', null,
       h('div', { class: 'meaning' }, w.meaning_vi),
-      h('div', { class: 'meta' }, h('span', null, w.pos), w.han_viet ? h('span', null, `Hán Việt: ${w.han_viet}`) : null, w.topic ? h('span', null, `#${w.topic}`) : null, w.traditional ? h('span', { class: 'zh' }, `Phồn thể: ${w.traditional}`) : null),
-      w.example ? h('div', { class: 'ex' }, h('span', { class: 'zh' }, w.example.zh), ' ', h('button', { class: 'btn ghost sm', style: { minHeight: '26px', padding: '0 6px' }, 'aria-label': 'Nghe câu ví dụ', onclick: () => say(w.example.zh) }, icon('speaker')), h('div', { class: 'py' }, w.example.pinyin), h('div', { class: 'vi' }, w.example.vi)) : null),
+      h('div', { class: 'meta' }, h('span', null, w.pos), w.han_viet ? h('span', null, `Hán Việt: ${w.han_viet}`) : null, w.topic ? h('span', null, `#${w.topic}`) : null, w.traditional && w.traditional !== w.hanzi ? h('span', { class: 'zh' }, `Phồn thể: ${w.traditional}`) : null),
+      w.example ? h('div', { class: 'ex' }, h('span', { class: 'zh' }, w.example.zh), ' ', h('button', { class: 'btn ghost sm', style: { minHeight: '36px', minWidth: '36px', padding: '0 8px' }, 'aria-label': 'Nghe câu ví dụ', onclick: () => say(w.example.zh) }, icon('speaker')), h('div', { class: 'py' }, w.example.pinyin), h('div', { class: 'vi' }, w.example.vi)) : null),
     h('div', { class: 'acts' }, h('button', { class: 'btn sm round', 'aria-label': `Nghe ${w.hanzi}`, onclick: () => say(w.hanzi) }, icon('speaker')), kb));
   return row;
 }

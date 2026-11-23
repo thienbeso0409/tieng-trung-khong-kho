@@ -545,7 +545,10 @@ function checkHskk(rel) {
     if (!Array.isArray(pp.item_ids) || !pp.item_ids.length) err(f, `${where}: item_ids rỗng`);
     else pp.item_ids.forEach((id) => { if (!ids.has(id)) err(f, `${where}: item "${id}" không tồn tại`); });
   });
-  for (const r of refs.speakingPapers) if (!paperIds.has(r.id)) warn(r.file, `speaking_paper "${r.id}" chưa có trong ${rel}`);
+  // Đề tham chiếu paper không tồn tại → LỖI (người học bấm "Sang bài thi nói" sẽ gặp trang trống).
+  // Tạm hạ thành cảnh báo cho các paper đang được soạn (danh sách PENDING_PAPERS).
+  const PENDING_PAPERS = new Set(['hsk7-9-de2-speaking', 'hsk7-9-de3-speaking']);
+  for (const r of refs.speakingPapers) if (!paperIds.has(r.id)) (PENDING_PAPERS.has(r.id) ? warn : err)(r.file, `speaking_paper "${r.id}" không có trong papers của ${rel}`);
   for (const l of ['3', '4', '5', '6', '7-9']) if (!(d.papers || []).some((pp) => String(pp.level) === l)) warn(f, `chưa có paper đề nói cho level ${l}`);
   for (const [code] of parts) if ((perPart[code] || 0) < 2 && !/^hsk(4|5|6)-2$|^hsk7-9-(1|3)$/.test(code)) warn(f, `part ${code} có ${perPart[code] || 0} item (khuyến nghị ≥ 2)`);
 }

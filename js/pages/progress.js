@@ -8,7 +8,7 @@ import { settle } from './common.js';
 export async function render(root, params, ctx) {
   const p = getProgress();
   root.append(pageHead('Tiến độ', '进度', 'Tiến độ học tập', 'Lịch sử làm bài, từ đã thuộc và chữ đã tập viết.',
-    h('div', { class: 'row' }, h('button', { class: 'btn', onclick: downloadBackup }, '⬇ Xuất JSON'), h('a', { class: 'btn ghost', href: '#/settings' }, 'Nhập / xóa'))));
+    h('div', { class: 'row' }, h('button', { class: 'btn', onclick: downloadBackup }, '⬇ Sao lưu tiến độ (tải tệp)'), h('a', { class: 'btn ghost', href: '#/settings' }, 'Khôi phục / xóa dữ liệu'))));
   const chars = Object.keys(p.chars || {}).length;
   root.append(h('div', { class: 'card' }, h('div', { class: 'stats' },
     st(Object.values(p.vocab).filter((v) => v.known).length, 'từ đã thuộc (mọi cấp)'),
