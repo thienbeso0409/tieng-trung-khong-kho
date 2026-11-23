@@ -38,3 +38,9 @@
 - Ví dụ mới 27,7% (cần thêm ~1 260 câu để đạt 50%).
 - Nghĩa ~4 400 từ không viết tay là bản CVDICT đã lọc: chính xác về cơ bản nhưng cần hiệu đính thêm văn phong.
 - Script sinh dữ liệu: `/home/claude/scripts-c/` (s1–s5), dữ liệu nguồn `/home/claude/srcdata-c/`, override/ví dụ `/home/claude/work-c/`.
+
+## Bổ sung: đề 2 và đề 3
+- `data/exams/hsk7-9-de2.json`, `hsk7-9-de3.json`: mỗi đề 86 câu, cấu trúc như đề 1, nội dung mới hoàn toàn. Đề 2: nghe về du lịch ngược, livestream nông sản, phục chế cổ vật, vi nhựa, giả dược, đảo nhiệt đô thị, đường cong quên; đọc về rác vũ trụ, hệ vi sinh đường ruột, kinh tế bạc, 24 tiết khí, cây tre, cá heo; biểu đồ cột về cơ cấu điện; luận về "nhanh và chậm". Đề 3: nghe về "rừng thẳng đứng", dịch văn học, AI chẩn đoán, số Dunbar, chống sa mạc hóa, kinh tế học hành vi; đọc về nghề làm giấy, kinh tế đêm, ong mật, gấu trúc, hải đăng, chủ nghĩa tối giản; biểu đồ tròn về chi tiêu; luận về nhận diện khuôn mặt và quyền riêng tư.
+- Đã soát toàn bộ câu chọn đáp án ở L2, L3 và R1 của cả hai đề (24 + 21 câu mỗi đề); các câu đúng/sai, R2 và R3 soát lúc soạn.
+- `speaking/hskk.json`: chỉ thêm 10 item `hsk7-9-s-21..25`, `hsk7-9-s-31..35` và 2 paper `hsk7-9-de2-speaking`, `hsk7-9-de3-speaking`. Đọc file ngay trước khi ghi; không đụng mục khác.
+- Đề nghị A thêm vào `index.json` (level "7-9"): `{id:"hsk7-9-de2", file:"exams/hsk7-9-de2.json", title_vi:"Đề thi thử HSK 7–9 – Đề 2"}` và tương tự cho de3.

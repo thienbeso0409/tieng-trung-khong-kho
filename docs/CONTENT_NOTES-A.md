@@ -62,3 +62,8 @@ Cập nhật: 2026-11-23. Chuẩn: HSK 3.0 (Phụ lục A của DATA_SCHEMA). K�
 - `data/writing/radicals.json`: đủ 214 bộ Khang Hy (id, radical, variants, pinyin, han_viet, meaning_vi, strokes theo nhóm nét chuẩn, common = 72 bộ). `variant_to_radical` 306 khóa; đã kiểm: 100% giá trị `radical` trong mọi `characters-*.json` (cả cấp 4–9) map được. Quy ước 阝 → 阜, 15 chữ 阝 bên phải (都, 那, 部, 邮, 邻…) → 邑 qua `char_radical_override`. Đã thêm khóa `radicals` vào `index.json`, mô tả ở DATA_SCHEMA A.6.
 - `shadowing.json`: thêm 26 video YouTube (cấp 1–2: 8, 3–4: 8, 5–6: 5, 7–9: 5), tất cả xác minh bằng YouTube oEmbed ngày 2026-11-23 (title/channel lấy từ oEmbed). `segments: []`, `auto_segments: true` — không bịa mốc thời gian. Một số video có giải thích tiếng Anh hoặc giọng Đài Loan (ghi ở `description_vi`). Schema: DATA_SCHEMA A.7.
 - Validator hiện báo lỗi "segments rỗng" cho 26 item này → cần Agent Web cho phép `segments: []` khi `auto_segments: true`.
+
+## 7. Đề ôn bổ sung (2026-11-23)
+- Thêm `exams/hsk1-de2`, `hsk1-de3` (40 câu), `hsk2-de2`, `hsk2-de3` (60 câu), `hsk3-de2`, `hsk3-de3` (70 câu), cùng cấu trúc Phụ lục A.2 như đề 1, nội dung và tình huống mới. Đã khai báo trong `index.json`.
+- HSK3 đề 2, 3 có `speaking_paper` = `hsk3-de2-speaking`, `hsk3-de3-speaking` (mỗi đề 15 mục mới: 8 nhắc lại, 5 tả ảnh, 2 trả lời) trong `hskk.json`.
+- Kiểm tra tự động cho cả 6 đề: key nằm trong options, chữ cái nêu trong `explanation_vi` khớp `answer`, mỗi key dùng 1 lần trong group ghép; không part ≥5 câu nào có một chữ cái >40%; từ vựng ≤ cấp (GF0025-2021 ∪ đại cương 2025); rà tay pinyin các chữ đa âm. Logic đáp án được soát khi soạn (khoảng 30 câu mỗi đề có bẫy số/thời gian/phủ định được ghi rõ trong giải thích).

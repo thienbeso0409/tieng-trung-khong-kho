@@ -1,0 +1,3279 @@
+{
+  "id": "hsk7-9-de2",
+  "level": "7-9",
+  "title_vi": "Đề thi thử HSK 7–9 – Đề 2",
+  "standard": "HSK3.0",
+  "duration_minutes": 200,
+  "total_score": null,
+  "pass_score": null,
+  "score_mode": "bands",
+  "band_rules": {
+    "basis": "average_section_score",
+    "official": false,
+    "bands": [
+      {
+        "min": 0,
+        "label_vi": "Dưới HSK 7"
+      },
+      {
+        "min": 60,
+        "label_vi": "HSK 7"
+      },
+      {
+        "min": 75,
+        "label_vi": "HSK 8"
+      },
+      {
+        "min": 90,
+        "label_vi": "HSK 9"
+      }
+    ]
+  },
+  "show_pinyin": false,
+  "repeat_default": 1,
+  "speaking_paper": "hsk7-9-de2-speaking",
+  "notes": "Đề tự soạn theo cấu trúc HSK 3.0 bậc 7–9 (91 mục: 86 câu trong file này + 5 mục nói ở speaking/hskk.json, paper hsk7-9-de2-speaking). Ngưỡng xếp bậc là ước lượng, không chính thức.",
+  "sections": [
+    {
+      "id": "listening",
+      "name_vi": "Nghe",
+      "name_zh": "听力",
+      "max_score": 100,
+      "parts": [
+        {
+          "code": "L1",
+          "type": "true_false_statement",
+          "expected_count": 10,
+          "instruction_vi": "Nghe từng đoạn ngắn (phát 1 lần), phán đoán câu ★ đúng hay sai.",
+          "instruction_zh": "第一部分：听后判断对错。",
+          "groups": [
+            {
+              "id": "hsk7-9-de2-L1-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk7-9-de2-01",
+                  "no": 1,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "据统计，今年春节假期全国国内旅游出游人次比去年同期增长了一成以上。值得注意的是，“反向旅游”成为新趋势，不少游客避开热门景点，选择去人少、消费较低的小城市过节。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ 今年春节很多游客选择去热门大城市旅游。"
+                  },
+                  "answer": false,
+                  "explanation_vi": "“反向旅游”: tránh điểm nóng, chọn thành phố nhỏ ít người → câu ★ sai."
+                },
+                {
+                  "id": "hsk7-9-de2-02",
+                  "no": 2,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "这家餐厅推出了“半份菜”服务，顾客可以按半份点菜，价格也减半。餐厅经理表示，这样既能让顾客多尝几种口味，又能有效减少食物浪费。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ “半份菜”的目的之一是减少浪费。"
+                  },
+                  "answer": true,
+                  "explanation_vi": "又能有效减少食物浪费 → đúng."
+                },
+                {
+                  "id": "hsk7-9-de2-03",
+                  "no": 3,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "研究表明，在绿色植物较多的环境中工作，员工的压力水平明显降低，创造力也有所提升。因此，越来越多的公司开始在办公室里摆放绿植，甚至建设屋顶花园。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ 绿色植物能帮助员工减轻压力。"
+                  },
+                  "answer": true,
+                  "explanation_vi": "员工的压力水平明显降低 → đúng."
+                },
+                {
+                  "id": "hsk7-9-de2-04",
+                  "no": 4,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "这座城市的地铁从今天起延长运营时间，周五和周六的末班车推迟到凌晨一点。不过，地铁公司提醒乘客，部分换乘站的换乘通道将在零点关闭。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ 延长运营后，所有换乘通道都开到凌晨一点。"
+                  },
+                  "answer": false,
+                  "explanation_vi": "部分换乘站的换乘通道将在零点关闭 → sai."
+                },
+                {
+                  "id": "hsk7-9-de2-05",
+                  "no": 5,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "很多家长认为，孩子的零花钱越少越好。但教育专家建议，适当给孩子一些零花钱，并让他们自己记账、做计划，反而有助于培养孩子的理财能力和责任感。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ 专家反对给孩子零花钱。"
+                  },
+                  "answer": false,
+                  "explanation_vi": "Chuyên gia khuyên cho trẻ một ít tiền tiêu vặt → sai."
+                },
+                {
+                  "id": "hsk7-9-de2-06",
+                  "no": 6,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "我国自主研发的这款大型客机已经完成了首次商业飞行。业内人士认为，这标志着我国在民用航空领域取得了历史性突破，但要在国际市场上站稳脚跟，还需要较长时间。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ 业内人士认为这款客机已经完全占领了国际市场。"
+                  },
+                  "answer": false,
+                  "explanation_vi": "要在国际市场上站稳脚跟，还需要较长时间 → sai."
+                },
+                {
+                  "id": "hsk7-9-de2-07",
+                  "no": 7,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "古人很早就注意到了物候现象，比如“春江水暖鸭先知”。现代科学家通过长期观察发现，由于气候变暖，许多地方的植物开花时间比五十年前提前了一到两周。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ 气候变暖使一些植物提前开花。"
+                  },
+                  "answer": true,
+                  "explanation_vi": "开花时间提前了一到两周 → đúng."
+                },
+                {
+                  "id": "hsk7-9-de2-08",
+                  "no": 8,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "这项调查访问了五千名大学毕业生。结果显示，有近四成的人毕业后从事的工作与所学专业关系不大。不过，大多数人认为，大学教育培养的学习能力和思维方式对工作仍然很有帮助。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ 多数受访者认为大学教育对工作没有帮助。"
+                  },
+                  "answer": false,
+                  "explanation_vi": "大多数人认为…对工作仍然很有帮助 → sai."
+                },
+                {
+                  "id": "hsk7-9-de2-09",
+                  "no": 9,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "这款新型雨衣采用了可降解材料，使用后埋入土中，大约六个月就能自然分解。研发团队表示，下一步希望把这种材料用在快递包装上。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ 研发团队打算把这种材料用于快递包装。"
+                  },
+                  "answer": true,
+                  "explanation_vi": "下一步希望把这种材料用在快递包装上 → đúng."
+                },
+                {
+                  "id": "hsk7-9-de2-10",
+                  "no": 10,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "书法家告诉记者，练字最重要的不是每天写多少，而是能否坚持。他建议初学者每天练习二十分钟，先从楷书入手，打好基础后再学习行书和草书。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ 书法家建议初学者先学楷书。"
+                  },
+                  "answer": true,
+                  "explanation_vi": "先从楷书入手 → đúng."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "L2",
+          "type": "choose_option",
+          "expected_count": 12,
+          "instruction_vi": "Nghe các cuộc hội thoại/phỏng vấn dài, mỗi bài có 4 câu: chọn đáp án đúng (A–D) hoặc trả lời ngắn (≤ 10 chữ).",
+          "instruction_zh": "第二部分：听后选择正确答案或简短回答问题。",
+          "groups": [
+            {
+              "id": "hsk7-9-de2-L2-g1",
+              "shared_options": null,
+              "passage": null,
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "女",
+                    "text": "刘先生，您原来在大城市做金融工作，为什么会回到家乡做直播卖农产品？"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "其实一开始只是想帮村里的果农。我们这儿的苹果品质很好，可是交通不便，每年都有大量水果卖不出去，烂在地里。我就试着在网上直播，没想到第一场就卖出了两千多箱。"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "直播带货竞争很激烈，您靠什么吸引观众？"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "靠真实。我不在直播间里摆拍，而是直接带观众到果园，看苹果怎么种、怎么摘、怎么包装。观众看得见、信得过，回头客自然就多了。"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "现在您的团队规模有多大？"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "从最初我一个人，发展到现在三十多人，大部分是村里的年轻人。以前他们只能外出打工，现在在家门口就能就业。这是我最有成就感的地方。"
+                  }
+                ],
+                "repeat": 1
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de2-11",
+                  "no": 11,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "男的回乡做直播的最初原因是什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "男的回乡做直播的最初原因是什么？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "想成为网红"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "想帮助村里的果农卖水果"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "金融工作太累"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "想开一家工厂"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "一开始只是想帮村里的果农 → B."
+                },
+                {
+                  "id": "hsk7-9-de2-12",
+                  "no": 12,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "男的吸引观众的主要方法是什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "男的吸引观众的主要方法是什么？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "大幅降价"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "请明星代言"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "展示真实的种植和包装过程"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "每天直播十个小时"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "靠真实…直接带观众到果园 → C."
+                },
+                {
+                  "id": "hsk7-9-de2-13",
+                  "no": 13,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "男的最有成就感的是什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "男的最有成就感的是什么？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "村里年轻人能在家门口就业"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "自己赚了很多钱"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "直播间观众很多"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "苹果价格提高了"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "现在在家门口就能就业。这是我最有成就感的地方 → A."
+                },
+                {
+                  "id": "hsk7-9-de2-14",
+                  "no": 14,
+                  "type": "short_answer",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "男的第一场直播卖出了多少箱苹果？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "男的第一场直播卖出了多少箱苹果？"
+                  },
+                  "max_chars": 10,
+                  "answer": "两千多箱",
+                  "accepted_answers": [
+                    "2000多箱",
+                    "两千多"
+                  ],
+                  "keywords": [
+                    "两千"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "第一场就卖出了两千多箱."
+                }
+              ]
+            },
+            {
+              "id": "hsk7-9-de2-L2-g2",
+              "shared_options": null,
+              "passage": null,
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "男",
+                    "text": "赵馆长，听说贵馆的文物修复工作室向公众开放了，这在国内还不多见。"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "是的。过去修复工作都在幕后进行，观众只能看到修好的成品。我们把工作室改成了玻璃墙，观众可以隔着玻璃观看修复师工作，每周还有一次现场讲解。"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "修复师在别人的注视下工作，会不会受到影响？"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "刚开始确实有些不习惯，但时间长了，大家反而觉得这份工作更有意义了。很多观众看完以后才明白，一件青铜器的修复可能需要一两年，对文物也就多了一份敬畏。"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "这项举措带来了哪些变化？"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "最直接的是年轻观众增加了。去年我们还收到了四百多份报考文物修复专业的咨询，这在以前是想都不敢想的。"
+                  }
+                ],
+                "repeat": 1
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de2-15",
+                  "no": 15,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "该馆修复工作室有什么新做法？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "该馆修复工作室有什么新做法？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "只在夜间开放"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "取消了修复工作"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "让观众亲手修复文物"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "让观众隔着玻璃观看修复"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "改成了玻璃墙，观众可以隔着玻璃观看 → D."
+                },
+                {
+                  "id": "hsk7-9-de2-16",
+                  "no": 16,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "关于修复师，下列哪项正确？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "关于修复师，下列哪项正确？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "一直很反感被观看"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "后来觉得工作更有意义"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "要求停止开放"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "工作效率大大下降"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "大家反而觉得这份工作更有意义了 → B."
+                },
+                {
+                  "id": "hsk7-9-de2-17",
+                  "no": 17,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "观众看完修复过程后有什么变化？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "观众看完修复过程后有什么变化？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "对文物多了敬畏"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "觉得修复很简单"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "想购买文物"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "不再参观博物馆"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "对文物也就多了一份敬畏 → A."
+                },
+                {
+                  "id": "hsk7-9-de2-18",
+                  "no": 18,
+                  "type": "short_answer",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "去年该馆收到了多少份报考文物修复专业的咨询？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "去年该馆收到了多少份报考文物修复专业的咨询？"
+                  },
+                  "max_chars": 10,
+                  "answer": "四百多份",
+                  "accepted_answers": [
+                    "400多份",
+                    "四百多"
+                  ],
+                  "keywords": [
+                    "四百"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "收到了四百多份…咨询."
+                }
+              ]
+            },
+            {
+              "id": "hsk7-9-de2-L2-g3",
+              "shared_options": null,
+              "passage": null,
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "女",
+                    "text": "孙教授，您长期研究海洋塑料污染，目前情况严重到什么程度？"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "非常严重。据估计，每年有数百万吨塑料进入海洋。更麻烦的是微塑料，也就是直径小于五毫米的塑料颗粒，它们已经出现在深海、极地，甚至我们吃的海盐里。"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "微塑料对人体有什么影响？"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "目前科学界还没有定论，这正是我们要加紧研究的原因。但可以肯定的是，它对海洋生物已经造成了伤害，比如影响鱼类的生长和繁殖。"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "普通人能做些什么？"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "最有效的就是减少一次性塑料制品的使用。另外，垃圾分类也很关键。很多塑料并不是被故意扔进大海的，而是因为处理不当，被雨水冲进了河流，最后流入海洋。"
+                  }
+                ],
+                "repeat": 1
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de2-19",
+                  "no": 19,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "关于微塑料，下列哪项正确？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "关于微塑料，下列哪项正确？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "直径大于五毫米"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "只存在于近海"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "已出现在海盐中"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "对鱼类没有影响"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "甚至我们吃的海盐里 → C."
+                },
+                {
+                  "id": "hsk7-9-de2-20",
+                  "no": 20,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "微塑料对人体的影响，男的怎么说？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "微塑料对人体的影响，男的怎么说？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "已经证明危害极大"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "只影响儿童"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "完全没有影响"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "科学界还没有定论"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "目前科学界还没有定论 → D."
+                },
+                {
+                  "id": "hsk7-9-de2-21",
+                  "no": 21,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "男的认为普通人最有效的做法是什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "男的认为普通人最有效的做法是什么？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "不吃海鲜"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "减少使用一次性塑料制品"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "去海边捡垃圾"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "购买进口产品"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "最有效的就是减少一次性塑料制品的使用 → B."
+                },
+                {
+                  "id": "hsk7-9-de2-22",
+                  "no": 22,
+                  "type": "short_answer",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "许多塑料是被什么冲进河流的？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "许多塑料是被什么冲进河流的？"
+                  },
+                  "max_chars": 10,
+                  "answer": "雨水",
+                  "accepted_answers": [
+                    "被雨水"
+                  ],
+                  "keywords": [
+                    "雨水"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "被雨水冲进了河流."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "L3",
+          "type": "choose_option",
+          "expected_count": 18,
+          "instruction_vi": "Nghe bài giảng/phỏng vấn dài, mỗi bài 6 câu: chọn đáp án đúng (A–D) hoặc trả lời ngắn (≤ 10 chữ).",
+          "instruction_zh": "第三部分：听后选择正确答案或简短回答问题。",
+          "groups": [
+            {
+              "id": "hsk7-9-de2-L3-g1",
+              "shared_options": null,
+              "passage": null,
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "女",
+                    "text": "今天我们来讲一个有趣的医学现象——安慰剂效应。所谓安慰剂，是指没有任何药理作用的物质，比如淀粉做成的药片。奇妙的是，当病人相信自己服用的是真药时，症状往往真的会有所减轻。研究发现，安慰剂效应在缓解疼痛、改善睡眠和减轻焦虑方面表现得最为明显。有实验甚至表明，药片的颜色和价格都会影响效果：同样是安慰剂，价格贵的比便宜的“效果”更好，蓝色药片更容易让人感到放松。为什么会这样呢？科学家认为，人的期待会促使大脑释放一些天然的化学物质，比如内啡肽，从而起到止痛的作用。也就是说，安慰剂效应并不是“想象出来的”，而是有生理基础的。与安慰剂效应相对的，是“反安慰剂效应”：如果病人预期某种治疗会带来副作用，他就更可能真的出现不适。因此，医生在和病人沟通时，说话的方式非常重要。当然，安慰剂并不能治愈所有疾病，更不能代替正规治疗。但它提醒我们，心理状态在健康中扮演着不可忽视的角色。"
+                  }
+                ],
+                "repeat": 1
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de2-23",
+                  "no": 23,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "什么是安慰剂？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "什么是安慰剂？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "价格很贵的药"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "没有药理作用的物质"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "一种新型止痛药"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "专门治疗焦虑的药"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "没有任何药理作用的物质 → B."
+                },
+                {
+                  "id": "hsk7-9-de2-24",
+                  "no": 24,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "安慰剂效应在哪方面表现得最明显？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "安慰剂效应在哪方面表现得最明显？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "治疗骨折"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "治疗感染"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "降低血糖"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "缓解疼痛"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "在缓解疼痛、改善睡眠和减轻焦虑方面表现得最为明显 → D."
+                },
+                {
+                  "id": "hsk7-9-de2-25",
+                  "no": 25,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "根据实验，下列哪种安慰剂“效果”更好？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "根据实验，下列哪种安慰剂“效果”更好？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "价格贵的"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "价格便宜的"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "白色的"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "体积大的"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "价格贵的比便宜的“效果”更好 → A."
+                },
+                {
+                  "id": "hsk7-9-de2-26",
+                  "no": 26,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "科学家如何解释安慰剂效应？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "科学家如何解释安慰剂效应？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "完全是病人的想象"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "药片里含有少量真药"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "期待促使大脑释放天然化学物质"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "医生暗中换了药"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "人的期待会促使大脑释放…内啡肽…有生理基础 → C."
+                },
+                {
+                  "id": "hsk7-9-de2-27",
+                  "no": 27,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "说话人提到“反安慰剂效应”，是为了说明："
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "说话人提到“反安慰剂效应”，是为了说明："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "医生的沟通方式很重要"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "所有药都有副作用"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "病人不应相信医生"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "安慰剂可以治愈疾病"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "因此，医生在和病人沟通时，说话的方式非常重要 → A."
+                },
+                {
+                  "id": "hsk7-9-de2-28",
+                  "no": 28,
+                  "type": "short_answer",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "大脑释放的哪种物质能起到止痛作用？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "大脑释放的哪种物质能起到止痛作用？"
+                  },
+                  "max_chars": 10,
+                  "answer": "内啡肽",
+                  "accepted_answers": [
+                    "内啡肽等化学物质"
+                  ],
+                  "keywords": [
+                    "内啡肽"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "比如内啡肽，从而起到止痛的作用."
+                }
+              ]
+            },
+            {
+              "id": "hsk7-9-de2-L3-g2",
+              "shared_options": null,
+              "passage": null,
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "男",
+                    "text": "各位，夏天走在城市的柏油路上，你是否觉得比郊外热得多？这就是“城市热岛效应”。气象数据显示，大城市中心的气温有时比周边郊区高出三到五度。形成热岛效应的原因主要有三个。第一，城市里大量的水泥和柏油路面吸收太阳热量的能力强，晚上再慢慢释放出来；第二，高楼密集，阻挡了空气流通，热量难以散发；第三，汽车、空调和工厂排放出大量人为热量。热岛效应带来的危害不容小视。它不仅增加了夏季的用电量，形成“越热越开空调，越开空调越热”的恶性循环，还会加重空气污染，对老人和患有心脏病的人威胁尤其大。那么，怎样缓解热岛效应呢？增加绿地和水面是最直接的办法，一片面积较大的公园可以使周边气温降低一到两度。此外，建设“通风廊道”，让郊外的凉风吹进城市，以及在屋顶使用浅色、反光的材料，也都被证明是有效的。"
+                  }
+                ],
+                "repeat": 1
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de2-29",
+                  "no": 29,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "关于城市热岛效应，下列哪项正确？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "关于城市热岛效应，下列哪项正确？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "郊区比城市中心热"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "城市中心有时比郊区高三到五度"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "只在冬天出现"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "只出现在小城市"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "城市中心的气温有时比周边郊区高出三到五度 → B."
+                },
+                {
+                  "id": "hsk7-9-de2-30",
+                  "no": 30,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "下列哪项不是热岛效应形成的原因？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "下列哪项不是热岛效应形成的原因？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "路面吸收热量多"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "高楼阻挡空气流通"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "人为排放大量热量"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "城市降雨太多"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "Ba nguyên nhân: mặt đường hấp thụ nhiệt, nhà cao tầng cản gió, nhiệt do con người; không có mưa → D."
+                },
+                {
+                  "id": "hsk7-9-de2-31",
+                  "no": 31,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "“越热越开空调，越开空调越热”说明了什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "“越热越开空调，越开空调越热”说明了什么？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "空调质量差"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "电价太高"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "一种恶性循环"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "人们喜欢开空调"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "形成…恶性循环 → C."
+                },
+                {
+                  "id": "hsk7-9-de2-32",
+                  "no": 32,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "热岛效应对哪类人威胁尤其大？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "热岛效应对哪类人威胁尤其大？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "年轻人"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "老人和心脏病患者"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "运动员"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "司机"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "对老人和患有心脏病的人威胁尤其大 → B."
+                },
+                {
+                  "id": "hsk7-9-de2-33",
+                  "no": 33,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "说话人认为缓解热岛效应最直接的办法是："
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "说话人认为缓解热岛效应最直接的办法是："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "减少人口"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "禁止开空调"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "增加绿地和水面"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "拆除高楼"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "增加绿地和水面是最直接的办法 → C."
+                },
+                {
+                  "id": "hsk7-9-de2-34",
+                  "no": 34,
+                  "type": "short_answer",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "让郊外凉风吹进城市的建设叫做什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "让郊外凉风吹进城市的建设叫做什么？"
+                  },
+                  "max_chars": 10,
+                  "answer": "通风廊道",
+                  "accepted_answers": [
+                    "“通风廊道”"
+                  ],
+                  "keywords": [
+                    "通风廊道"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "建设“通风廊道”，让郊外的凉风吹进城市."
+                }
+              ]
+            },
+            {
+              "id": "hsk7-9-de2-L3-g3",
+              "shared_options": null,
+              "passage": null,
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "女",
+                    "text": "同学们，你们有没有发现，昨天背的单词今天就忘了一大半？一百多年前，德国心理学家艾宾浩斯就研究过这个问题。他用无意义的音节做实验，发现遗忘在学习之后立即开始，而且最初的速度最快：学完二十分钟后，大约就会忘掉四成；一天之后，能记住的只剩三成左右。之后，遗忘的速度会逐渐变慢。这就是著名的“遗忘曲线”。了解了遗忘的规律，我们就能更科学地安排复习。最重要的原则是“及时复习”，也就是在遗忘大量发生之前进行复习。比如，学完新内容后，当天晚上复习一次，第二天、第四天、一周后再分别复习，记忆就会越来越牢固。这种方法被称为“间隔重复”。另外，艾宾浩斯还发现，有意义的材料比无意义的材料遗忘得慢得多。所以，与其死记硬背，不如把新知识和已经掌握的知识联系起来，或者编成故事、画成图表，理解了的东西才更容易记住。最后提醒大家，睡眠对记忆巩固非常重要。临睡前复习一遍当天学的内容，往往会取得意想不到的效果。"
+                  }
+                ],
+                "repeat": 1
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de2-35",
+                  "no": 35,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "根据艾宾浩斯的研究，遗忘有什么特点？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "根据艾宾浩斯的研究，遗忘有什么特点？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "学习后很久才开始"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "越来越快"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "速度始终不变"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "开始时速度最快"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "遗忘在学习之后立即开始，而且最初的速度最快 → D."
+                },
+                {
+                  "id": "hsk7-9-de2-36",
+                  "no": 36,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "学完一天以后，大约还能记住多少？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "学完一天以后，大约还能记住多少？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "三成左右"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "一成"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "六成"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "全部"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "一天之后，能记住的只剩三成左右 → A."
+                },
+                {
+                  "id": "hsk7-9-de2-37",
+                  "no": 37,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "“间隔重复”指的是："
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "“间隔重复”指的是："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "每天只学一个单词"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "按一定时间间隔多次复习"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "考试前集中复习"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "学一遍就不再复习"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "当天、第二天、第四天、一周后分别复习 → B."
+                },
+                {
+                  "id": "hsk7-9-de2-38",
+                  "no": 38,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "说话人对“死记硬背”的态度是："
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "说话人对“死记硬背”的态度是："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "非常赞成"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "认为最有效"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "认为不如理解和联系"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "没有提到"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "与其死记硬背，不如把新知识和已经掌握的知识联系起来 → C."
+                },
+                {
+                  "id": "hsk7-9-de2-39",
+                  "no": 39,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "说话人建议什么时候复习效果往往出人意料？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "说话人建议什么时候复习效果往往出人意料？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "临睡前"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "早上起床后"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "吃饭时"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "运动后"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "临睡前复习一遍…往往会取得意想不到的效果 → A."
+                },
+                {
+                  "id": "hsk7-9-de2-40",
+                  "no": 40,
+                  "type": "short_answer",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "及时复习指的是在什么之前复习？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "question": {
+                    "zh": "及时复习指的是在什么之前复习？"
+                  },
+                  "max_chars": 10,
+                  "answer": "遗忘大量发生之前",
+                  "accepted_answers": [
+                    "大量遗忘之前",
+                    "遗忘大量发生前"
+                  ],
+                  "keywords": [
+                    "遗忘"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "在遗忘大量发生之前进行复习."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "name_vi": "Đọc",
+      "name_zh": "阅读",
+      "max_score": 100,
+      "duration_minutes": 60,
+      "parts": [
+        {
+          "code": "R1",
+          "type": "choose_option",
+          "expected_count": 21,
+          "instruction_vi": "Đọc 3 bài văn dài, mỗi bài 7 câu hỏi, chọn đáp án đúng (A–D).",
+          "instruction_zh": "第一部分：阅读文章，选择正确答案。",
+          "groups": [
+            {
+              "id": "hsk7-9-de2-R1-g1",
+              "shared_options": null,
+              "passage": {
+                "zh": "自1957年第一颗人造卫星发射以来，人类已向太空发射了上万颗航天器。随着它们陆续报废，以及火箭残骸、碰撞产生的碎片不断增加，地球周围的太空正变得越来越“拥挤”。这些围绕地球运行、却已失去功能的人造物体，被统称为“太空垃圾”。\n别看许多碎片只有指甲盖大小，由于运行速度高达每秒七八公里，它们一旦撞上航天器，破坏力不亚于一颗子弹。2009年，一颗报废的俄罗斯卫星与一颗美国商业卫星相撞，产生了两千多块可被追踪的碎片。科学家担心，如果碎片数量超过某个临界点，就会引发连锁碰撞，使某些轨道在几十年内无法使用，这被称为“凯斯勒效应”。\n目前，应对太空垃圾主要有“防”和“清”两条思路。所谓“防”，就是从源头减少新垃圾的产生，例如要求卫星在任务结束后自行降低轨道，在大气层中烧毁。所谓“清”，则是主动清除已有的垃圾。各国科学家提出了五花八门的方案：用巨大的网把碎片“兜”住，用机械臂抓取，甚至用激光改变碎片的运行轨道。不过，这些技术大多仍处于试验阶段，成本高昂，难以大规模推广。\n更棘手的是，太空垃圾治理还面临法律和政治难题。太空属于全人类，但每一块垃圾都有它的“主人”，未经允许清除别国的废弃卫星，可能引发外交纠纷。因此，许多专家呼吁，各国应尽快建立国际合作机制，共同守护这片“公共空间”。"
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de2-41",
+                  "no": 41,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "“太空垃圾”指的是："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "宇航员扔掉的生活垃圾"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "来自外星的陨石"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "绕地球运行但已失去功能的人造物体"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "正在工作的卫星"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "被统称为“太空垃圾” → vật thể nhân tạo mất chức năng → C."
+                },
+                {
+                  "id": "hsk7-9-de2-42",
+                  "no": 42,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "小碎片破坏力很大的主要原因是："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "运行速度极快"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "体积大"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "温度很高"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "材料坚硬"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "运行速度高达每秒七八公里 → A."
+                },
+                {
+                  "id": "hsk7-9-de2-43",
+                  "no": 43,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "“凯斯勒效应”指的是："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "卫星寿命延长"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "两颗卫星成功对接"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "碎片在大气层中烧毁"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "碎片引发连锁碰撞使轨道无法使用"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "引发连锁碰撞，使某些轨道…无法使用 → D."
+                },
+                {
+                  "id": "hsk7-9-de2-44",
+                  "no": 44,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "下列哪项属于“防”的措施？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "用大网兜住碎片"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "让卫星任务结束后降低轨道烧毁"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "用机械臂抓取碎片"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "用激光改变碎片轨道"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "从源头减少…卫星任务结束后自行降低轨道 → B; các phương án khác thuộc 'thanh lý'."
+                },
+                {
+                  "id": "hsk7-9-de2-45",
+                  "no": 45,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "关于清除太空垃圾的技术，下列哪项正确？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "已经大规模使用"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "只有一个国家掌握"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "成本很低"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "大多仍在试验阶段"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "大多仍处于试验阶段，成本高昂 → D."
+                },
+                {
+                  "id": "hsk7-9-de2-46",
+                  "no": 46,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "清除别国废弃卫星可能带来什么问题？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "增加卫星数量"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "引发外交纠纷"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "降低发射成本"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "污染大气层"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "可能引发外交纠纷 → B."
+                },
+                {
+                  "id": "hsk7-9-de2-47",
+                  "no": 47,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "作者最后呼吁什么？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "建立国际合作机制"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "停止发射卫星"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "由一个国家负责清理"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "放弃太空探索"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "各国应尽快建立国际合作机制 → A."
+                }
+              ]
+            },
+            {
+              "id": "hsk7-9-de2-R1-g2",
+              "shared_options": null,
+              "passage": {
+                "zh": "在人体肠道中，生活着数以万亿计的微生物，种类多达上千种，总重量可达一到两公斤。过去，人们只把它们看作帮助消化的“小助手”，但近二十年的研究彻底改变了这一认识。\n科学家发现，肠道菌群几乎参与了人体所有重要的生理过程。它们能帮助分解人体自身无法消化的膳食纤维，合成某些维生素，还能训练免疫系统，让它学会区分“敌人”和“朋友”。更令人惊讶的是，肠道和大脑之间存在着一条双向沟通的“高速公路”，即所谓的“肠脑轴”。一些研究表明，肠道菌群的变化可能与焦虑、抑郁等情绪问题有关，因此肠道也被一些学者称为人体的“第二大脑”。\n那么，什么因素会影响肠道菌群呢？饮食是最重要的因素之一。富含膳食纤维的蔬菜、水果和全谷物，能为有益菌提供“食物”；而长期高糖、高脂、低纤维的饮食，则会让菌群的多样性下降。此外，滥用抗生素也会“误伤”大量有益菌，使菌群失去平衡，恢复往往需要数月甚至更长时间。\n值得注意的是，市场上各种“益生菌”产品宣传得天花乱坠，但专家提醒，不同菌株的作用差异很大，健康人群并不一定需要额外补充。与其依赖保健品，不如从均衡饮食、规律作息做起，为肠道里的“居民”营造一个良好的生活环境。"
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de2-48",
+                  "no": 48,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "过去人们怎样看待肠道微生物？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "认为它们是有害的"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "只把它们看作帮助消化的助手"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "认为它们控制大脑"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "从未注意过它们"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "只把它们看作帮助消化的“小助手” → B."
+                },
+                {
+                  "id": "hsk7-9-de2-49",
+                  "no": 49,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "下列哪项不是文中提到的肠道菌群的作用？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "分解膳食纤维"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "合成某些维生素"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "训练免疫系统"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "制造血液"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "Bài không nhắc tạo máu → D."
+                },
+                {
+                  "id": "hsk7-9-de2-50",
+                  "no": 50,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "肠道被称为“第二大脑”的原因是："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "肠道形状像大脑"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "肠道能思考"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "肠道菌群可能与情绪有关"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "肠道比大脑重"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "菌群变化可能与焦虑、抑郁等情绪问题有关 → C."
+                },
+                {
+                  "id": "hsk7-9-de2-51",
+                  "no": 51,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "长期高糖高脂饮食会怎样？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "降低菌群多样性"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "增加有益菌"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "促进维生素合成"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "对菌群没有影响"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "让菌群的多样性下降 → A."
+                },
+                {
+                  "id": "hsk7-9-de2-52",
+                  "no": 52,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "关于抗生素，下列哪项正确？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "能增加有益菌"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "可以代替益生菌"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "滥用会伤害有益菌"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "对肠道没有影响"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "滥用抗生素也会“误伤”大量有益菌 → C."
+                },
+                {
+                  "id": "hsk7-9-de2-53",
+                  "no": 53,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "“宣传得天花乱坠”在文中的意思是："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "宣传得夸张动听"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "宣传得很少"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "宣传很真实"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "宣传很朴素"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "天花乱坠 = nói hoa mỹ, thổi phồng → A."
+                },
+                {
+                  "id": "hsk7-9-de2-54",
+                  "no": 54,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "专家对健康人群补充益生菌持什么态度？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "必须每天补充"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "完全有害"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "越多越好"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "不一定需要，应注重饮食作息"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "健康人群并不一定需要额外补充…从均衡饮食、规律作息做起 → D."
+                }
+              ]
+            },
+            {
+              "id": "hsk7-9-de2-R1-g3",
+              "shared_options": null,
+              "passage": {
+                "zh": "随着人口老龄化程度不断加深，“银发经济”正成为一个备受关注的新领域。所谓银发经济，是指为老年人提供产品和服务的各类经济活动，涵盖养老服务、健康医疗、文化旅游、适老化改造等多个方面。\n长期以来，社会上存在一种刻板印象：老年人消费能力弱，消费观念保守。然而，新一代老年人正在打破这种印象。他们中的许多人受过良好教育，有稳定的退休金，身体也相对健康，更愿意为提高生活品质花钱。在一些城市，老年旅游团常常“一票难求”，老年大学的热门课程需要“抢”名额，智能手表、助听器等产品的销量逐年攀升。\n不过，银发经济的发展也存在不少短板。一方面，市场上真正为老年人“量身定做”的产品还不够多。许多手机应用操作复杂、字体太小，让老年人望而却步；一些商家只是简单地把普通产品换个包装，就贴上“老年专用”的标签。另一方面，针对老年人的消费陷阱时有发生，一些不法分子以“免费体检”“高额回报”为诱饵，骗取老人的积蓄。\n专家指出，发展银发经济，不能只盯着老年人的钱包，更要真正理解他们的需求。企业应当深入调研，开发安全、易用、有温度的产品；政府则要加强市场监管，完善消费者权益保护。只有这样，银发经济才能真正成为“朝阳产业”，让老年人老有所养、老有所乐。"
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de2-55",
+                  "no": 55,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "下列哪项属于银发经济的范围？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "适老化改造"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "儿童教育"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "电子竞技"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "汽车制造"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "涵盖…适老化改造等 → A."
+                },
+                {
+                  "id": "hsk7-9-de2-56",
+                  "no": 56,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "第二段中“刻板印象”指的是："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "老年人受过良好教育"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "老年人喜欢旅游"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "老年人消费能力弱、观念保守"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "老年人身体健康"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "老年人消费能力弱，消费观念保守 → C."
+                },
+                {
+                  "id": "hsk7-9-de2-57",
+                  "no": 57,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "“一票难求”说明老年旅游团："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "价格很贵"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "非常受欢迎"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "很少有人参加"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "服务很差"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "Vé khó kiếm → rất được ưa chuộng → B."
+                },
+                {
+                  "id": "hsk7-9-de2-58",
+                  "no": 58,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "根据第三段，许多手机应用存在什么问题？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "价格太高"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "内容太少"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "没有网络"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "操作复杂、字体太小"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "操作复杂、字体太小 → D."
+                },
+                {
+                  "id": "hsk7-9-de2-59",
+                  "no": 59,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "不法分子常用什么手段骗取老人积蓄？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "上门推销手机"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "以免费体检、高额回报为诱饵"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "举办旅游团"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "开设老年大学"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "以“免费体检”“高额回报”为诱饵 → B."
+                },
+                {
+                  "id": "hsk7-9-de2-60",
+                  "no": 60,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "专家认为发展银发经济应该："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "只关注老年人的钱包"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "取消市场监管"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "减少老年产品"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "真正理解老年人的需求"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "不能只盯着老年人的钱包，更要真正理解他们的需求 → D."
+                },
+                {
+                  "id": "hsk7-9-de2-61",
+                  "no": 61,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "文中“朝阳产业”的意思是："
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "早上营业的产业"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "即将衰落的产业"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "有发展前景的新兴产业"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "农业"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "朝阳产业 = ngành đang lên, có triển vọng → C."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R2",
+          "type": "cloze_sentence",
+          "expected_count": 5,
+          "instruction_vi": "Chọn câu thích hợp (A–G) điền vào các chỗ trống (62)–(66). Có 2 câu thừa.",
+          "instruction_zh": "第二部分：选句填空。",
+          "groups": [
+            {
+              "id": "hsk7-9-de2-R2-g1",
+              "shared_options": [
+                {
+                  "key": "A",
+                  "text": {
+                    "zh": "有的反映季节变化，有的反映气候特征，还有的反映物候现象。"
+                  }
+                },
+                {
+                  "key": "B",
+                  "text": {
+                    "zh": "它起源于黄河流域，至今已有两千多年的历史。"
+                  }
+                },
+                {
+                  "key": "C",
+                  "text": {
+                    "zh": "这标志着它的文化价值得到了世界的认可。"
+                  }
+                },
+                {
+                  "key": "D",
+                  "text": {
+                    "zh": "农民们普遍认为节气已经没有任何用处。"
+                  }
+                },
+                {
+                  "key": "E",
+                  "text": {
+                    "zh": "围绕节气，形成了许多独具特色的饮食和民俗活动。"
+                  }
+                },
+                {
+                  "key": "F",
+                  "text": {
+                    "zh": "然而，节气所蕴含的顺应自然的理念并没有过时。"
+                  }
+                },
+                {
+                  "key": "G",
+                  "text": {
+                    "zh": "西方国家也有完全相同的二十四节气。"
+                  }
+                }
+              ],
+              "passage": {
+                "zh": "二十四节气\n\n二十四节气是中国古人认识自然、安排农事的智慧结晶。（62）它把太阳一年中在黄道上的运行轨迹平均分为二十四等份，每一份对应一个节气，如立春、清明、夏至、秋分、冬至等。\n节气的名称本身就包含着丰富的信息。（63）比如“惊蛰”，意思是春雷响起，惊醒了冬眠的昆虫；“芒种”则提醒农民，有芒的麦子要抓紧收割，稻子要及时播种。\n千百年来，节气不仅指导着农业生产，也渗透到人们的日常生活中。（64）在许多地方，立春要吃春饼，冬至要吃饺子或汤圆，清明则有踏青、扫墓的习俗。\n2016年，二十四节气被列入联合国教科文组织人类非物质文化遗产代表作名录。（65）\n如今，大多数人已不再从事农业，节气对生活的直接影响似乎在减弱。（66）它提醒生活在快节奏都市中的人们，放慢脚步，感受四季的更替，与自然和谐相处。"
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de2-62",
+                  "no": 62,
+                  "type": "cloze_sentence",
+                  "blank_no": 62,
+                  "answer": "B",
+                  "explanation_vi": "Câu đầu giới thiệu, câu (62) nói nguồn gốc lịch sử (lưu vực Hoàng Hà, hơn 2000 năm) trước khi giải thích cách chia → B."
+                },
+                {
+                  "id": "hsk7-9-de2-63",
+                  "no": 63,
+                  "type": "cloze_sentence",
+                  "blank_no": 63,
+                  "answer": "A",
+                  "explanation_vi": "Sau '名称包含丰富信息' cần câu phân loại thông tin (mùa, khí hậu, vật hậu), tiếp theo là ví dụ 惊蛰、芒种 → A."
+                },
+                {
+                  "id": "hsk7-9-de2-64",
+                  "no": 64,
+                  "type": "cloze_sentence",
+                  "blank_no": 64,
+                  "answer": "E",
+                  "explanation_vi": "Câu sau liệt kê món ăn, tập tục → E 'hình thành nhiều hoạt động ẩm thực, dân gian'."
+                },
+                {
+                  "id": "hsk7-9-de2-65",
+                  "no": 65,
+                  "type": "cloze_sentence",
+                  "blank_no": 65,
+                  "answer": "C",
+                  "explanation_vi": "Sau khi được UNESCO công nhận → C 'giá trị văn hóa được thế giới thừa nhận'."
+                },
+                {
+                  "id": "hsk7-9-de2-66",
+                  "no": 66,
+                  "type": "cloze_sentence",
+                  "blank_no": 66,
+                  "answer": "F",
+                  "explanation_vi": "'似乎在减弱' + (66) + '它提醒…' → cần câu chuyển ý 然而…并没有过时 → F. D, G là gây nhiễu (sai nội dung)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R3",
+          "type": "short_answer",
+          "expected_count": 14,
+          "instruction_vi": "Đọc bài văn, trả lời ngắn gọn (không quá 10 chữ Hán), ưu tiên dùng từ ngữ trong bài.",
+          "instruction_zh": "第三部分：阅读文章，简短回答问题（不超过10个字）。",
+          "groups": [
+            {
+              "id": "hsk7-9-de2-R3-g1",
+              "shared_options": null,
+              "passage": {
+                "zh": "竹子是世界上生长最快的植物之一。有的竹子在生长旺季一天能长高一米左右，几周之内就能长到十几米高。可很少有人知道，在破土而出之前，竹子要在地下默默生长好几年。\n在最初的几年里，竹笋几乎看不出任何变化，因为它把全部的能量都用来发展根系。竹子的根在地下纵横交错，可以延伸到几百平方米的范围。正是有了这样发达的根系，竹子才能在短时间内迅速长高，并且在狂风暴雨中屹立不倒。\n竹子的用途极其广泛。在中国，人们用竹子建房、造纸、做家具和乐器，竹笋还是餐桌上的美味。近年来，随着“以竹代塑”理念的提出，竹制的吸管、餐具和包装材料逐渐走进人们的生活，成为替代塑料的环保选择。\n竹子还在中国文化中占有特殊地位，与梅、兰、菊并称“四君子”。因为竹子中空有节，人们常用它来比喻谦虚和有气节的品格。"
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de2-67",
+                  "no": 67,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "有的竹子在生长旺季一天能长高多少？"
+                  },
+                  "max_chars": 10,
+                  "answer": "一米左右",
+                  "accepted_answers": [
+                    "约一米",
+                    "一米"
+                  ],
+                  "keywords": [
+                    "一米"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "一天能长高一米左右."
+                },
+                {
+                  "id": "hsk7-9-de2-68",
+                  "no": 68,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "破土之前，竹子要在地下生长多长时间？"
+                  },
+                  "max_chars": 10,
+                  "answer": "好几年",
+                  "accepted_answers": [
+                    "几年"
+                  ],
+                  "keywords": [
+                    "几年"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "要在地下默默生长好几年."
+                },
+                {
+                  "id": "hsk7-9-de2-69",
+                  "no": 69,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "最初几年竹笋把能量主要用来做什么？"
+                  },
+                  "max_chars": 10,
+                  "answer": "发展根系",
+                  "accepted_answers": [
+                    "发展根"
+                  ],
+                  "keywords": [
+                    "根系"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "把全部的能量都用来发展根系."
+                },
+                {
+                  "id": "hsk7-9-de2-70",
+                  "no": 70,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "竹子能在狂风暴雨中屹立不倒，靠的是什么？"
+                  },
+                  "max_chars": 10,
+                  "answer": "发达的根系",
+                  "accepted_answers": [
+                    "根系",
+                    "发达根系"
+                  ],
+                  "keywords": [
+                    "根系"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "正是有了这样发达的根系."
+                },
+                {
+                  "id": "hsk7-9-de2-71",
+                  "no": 71,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "竹制吸管、餐具流行，与哪种理念有关？"
+                  },
+                  "max_chars": 10,
+                  "answer": "以竹代塑",
+                  "accepted_answers": [
+                    "“以竹代塑”"
+                  ],
+                  "keywords": [
+                    "以竹代塑"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "随着“以竹代塑”理念的提出."
+                },
+                {
+                  "id": "hsk7-9-de2-72",
+                  "no": 72,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "竹子与梅、兰、菊并称什么？"
+                  },
+                  "max_chars": 10,
+                  "answer": "四君子",
+                  "accepted_answers": [
+                    "“四君子”"
+                  ],
+                  "keywords": [
+                    "四君子"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "并称“四君子”."
+                },
+                {
+                  "id": "hsk7-9-de2-73",
+                  "no": 73,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "人们常用竹子比喻什么样的品格？"
+                  },
+                  "max_chars": 10,
+                  "answer": "谦虚和有气节",
+                  "accepted_answers": [
+                    "谦虚、有气节",
+                    "谦虚和有气节的品格"
+                  ],
+                  "keywords": [
+                    "谦虚",
+                    "气节"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "比喻谦虚和有气节的品格."
+                }
+              ]
+            },
+            {
+              "id": "hsk7-9-de2-R3-g2",
+              "shared_options": null,
+              "passage": {
+                "zh": "海豚是一种十分聪明的海洋哺乳动物。和人类一样，它们需要呼吸空气，也需要睡眠。可是，如果在海里完全睡着，它们就可能因为无法浮出水面呼吸而窒息。那么，海豚是怎么睡觉的呢？\n科学家通过监测海豚的脑电波发现，海豚采用的是一种特殊的“半脑睡眠”方式：睡觉时，它们大脑的一半处于休息状态，另一半则保持清醒，负责控制呼吸和观察周围的环境。大约每隔两个小时，左右两半大脑就会“换班”一次。睡觉时，海豚通常会闭上一只眼睛，而睁着的那只眼睛对应的正是清醒的那一半大脑。\n这种睡眠方式让海豚在休息的同时，还能躲避鲨鱼等天敌，并与同伴保持联系。研究还发现，刚出生的小海豚和它们的妈妈在出生后的头一个月里几乎不进入深度睡眠，以便随时照顾和保护对方。\n除了海豚，一些鸟类在长途迁徙时也能进行半脑睡眠。这一发现为研究人类睡眠的机制提供了新的启发。"
+              },
+              "questions": [
+                {
+                  "id": "hsk7-9-de2-74",
+                  "no": 74,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "海豚在海里完全睡着可能有什么危险？"
+                  },
+                  "max_chars": 10,
+                  "answer": "窒息",
+                  "accepted_answers": [
+                    "因无法呼吸而窒息",
+                    "无法呼吸"
+                  ],
+                  "keywords": [
+                    "窒息"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "可能因为无法浮出水面呼吸而窒息."
+                },
+                {
+                  "id": "hsk7-9-de2-75",
+                  "no": 75,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "科学家通过监测什么发现了海豚的睡眠方式？"
+                  },
+                  "max_chars": 10,
+                  "answer": "脑电波",
+                  "accepted_answers": [
+                    "海豚的脑电波"
+                  ],
+                  "keywords": [
+                    "脑电波"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "通过监测海豚的脑电波发现."
+                },
+                {
+                  "id": "hsk7-9-de2-76",
+                  "no": 76,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "海豚的睡眠方式叫做什么？"
+                  },
+                  "max_chars": 10,
+                  "answer": "半脑睡眠",
+                  "accepted_answers": [
+                    "“半脑睡眠”"
+                  ],
+                  "keywords": [
+                    "半脑睡眠"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "一种特殊的“半脑睡眠”方式."
+                },
+                {
+                  "id": "hsk7-9-de2-77",
+                  "no": 77,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "左右两半大脑大约每隔多久换班一次？"
+                  },
+                  "max_chars": 10,
+                  "answer": "两个小时",
+                  "accepted_answers": [
+                    "2小时",
+                    "两小时",
+                    "大约两个小时"
+                  ],
+                  "keywords": [
+                    "两"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "大约每隔两个小时…“换班”一次."
+                },
+                {
+                  "id": "hsk7-9-de2-78",
+                  "no": 78,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "睡觉时海豚通常会怎样做？"
+                  },
+                  "max_chars": 10,
+                  "answer": "闭上一只眼睛",
+                  "accepted_answers": [
+                    "闭一只眼",
+                    "闭上一只眼"
+                  ],
+                  "keywords": [
+                    "一只眼"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "通常会闭上一只眼睛."
+                },
+                {
+                  "id": "hsk7-9-de2-79",
+                  "no": 79,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "小海豚出生后的头一个月里有什么特点？"
+                  },
+                  "max_chars": 10,
+                  "answer": "几乎不进入深度睡眠",
+                  "accepted_answers": [
+                    "不进入深度睡眠",
+                    "几乎不深睡"
+                  ],
+                  "keywords": [
+                    "深度睡眠"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "头一个月里几乎不进入深度睡眠."
+                },
+                {
+                  "id": "hsk7-9-de2-80",
+                  "no": 80,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "除了海豚，还有什么动物能半脑睡眠？"
+                  },
+                  "max_chars": 10,
+                  "answer": "一些鸟类",
+                  "accepted_answers": [
+                    "鸟类",
+                    "迁徙的鸟"
+                  ],
+                  "keywords": [
+                    "鸟"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "一些鸟类在长途迁徙时也能进行半脑睡眠."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "name_vi": "Viết",
+      "name_zh": "书写",
+      "max_score": 100,
+      "duration_minutes": 55,
+      "parts": [
+        {
+          "code": "W1",
+          "type": "chart_description",
+          "expected_count": 1,
+          "instruction_vi": "Mô tả và phân tích biểu đồ (≈ 15 phút).",
+          "instruction_zh": "第一部分：图表描述。",
+          "groups": [
+            {
+              "id": "hsk7-9-de2-W1-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk7-9-de2-81",
+                  "no": 81,
+                  "type": "chart_description",
+                  "chart": {
+                    "kind": "bar",
+                    "title_zh": "2015年与2024年某国发电量构成（%）",
+                    "unit": "%",
+                    "labels": [
+                      "煤电",
+                      "水电",
+                      "风电",
+                      "太阳能发电",
+                      "核电及其他"
+                    ],
+                    "series": [
+                      {
+                        "name": "2015年",
+                        "values": [
+                          70,
+                          19,
+                          3,
+                          1,
+                          7
+                        ]
+                      },
+                      {
+                        "name": "2024年",
+                        "values": [
+                          55,
+                          15,
+                          12,
+                          10,
+                          8
+                        ]
+                      }
+                    ]
+                  },
+                  "prompt": {
+                    "zh": "请描述并分析上图，写一篇200字左右的短文。"
+                  },
+                  "prompt_vi": "Mô tả và phân tích biểu đồ cơ cấu sản lượng điện (%) của một nước năm 2015 và 2024; viết khoảng 200 chữ (≥ 200).",
+                  "min_chars": 200,
+                  "time_minutes": 15,
+                  "sample_answers": [
+                    "上图比较了某国2015年和2024年发电量的构成情况。从图中可以看出，近十年来，该国的能源结构发生了明显变化。首先，煤电所占比重大幅下降，从2015年的70%降至2024年的55%，减少了15个百分点，但仍占据一半以上，依然是最主要的电力来源。其次，新能源发电增长迅速：风电的比重从3%上升到12%，增长了三倍；太阳能发电更是从1%猛增至10%，增长了九倍。相比之下，水电的比重由19%降至15%，核电及其他发电方式则基本保持稳定，从7%小幅上升到8%。出现这种变化，主要有以下原因：一是国家大力推进节能减排，限制高污染的煤电项目；二是风电、光伏技术不断进步，发电成本明显降低。总的来看，该国正在由以煤炭为主的能源结构向清洁、多元的方向转型，但要彻底摆脱对煤电的依赖，仍需长期努力。"
+                  ],
+                  "outline_vi": [
+                    "Mở: giới thiệu biểu đồ",
+                    "Thân: điện than giảm 70%→55%; gió 3%→12%, mặt trời 1%→10%; thủy điện giảm nhẹ",
+                    "Phân tích nguyên nhân (chính sách, công nghệ, chi phí)",
+                    "Kết: xu hướng chuyển đổi năng lượng"
+                  ],
+                  "max_points": 40,
+                  "rubric_id": "rb-chart",
+                  "answer": null,
+                  "explanation_vi": "Cần nêu đúng: than 70→55 (giảm 15 điểm %), gió 3→12 (gấp 4), mặt trời 1→10 (gấp 10), thủy điện 19→15, hạt nhân & khác 7→8; nhận xét than vẫn chiếm hơn một nửa; dùng 占、比重、下降…个百分点、增长到…倍."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "W2",
+          "type": "write_essay",
+          "expected_count": 1,
+          "instruction_vi": "Viết bài nghị luận ≥ 600 chữ (≈ 40 phút).",
+          "instruction_zh": "第二部分：议论文写作。",
+          "groups": [
+            {
+              "id": "hsk7-9-de2-W2-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk7-9-de2-82",
+                  "no": 82,
+                  "type": "write_essay",
+                  "genre": "argumentative",
+                  "prompt": {
+                    "zh": "有人认为，在竞争激烈的社会中，“效率就是生命”，做事要追求速度；也有人认为，“慢工出细活”，只有沉下心来才能做出好成果。请以“快与慢”为话题，写一篇不少于600字的议论文，阐述你的观点。"
+                  },
+                  "prompt_vi": "Có người cho rằng trong xã hội cạnh tranh 'hiệu quả là sinh mệnh', làm gì cũng phải nhanh; người khác cho rằng 'chậm mà chắc', phải tĩnh tâm mới làm ra thành quả tốt. Viết bài nghị luận ≥ 600 chữ với chủ đề 'Nhanh và chậm'.",
+                  "keywords": [
+                    "效率",
+                    "慢工出细活"
+                  ],
+                  "image": null,
+                  "min_chars": 600,
+                  "max_chars": null,
+                  "time_minutes": 40,
+                  "sample_answers": [
+                    "快与慢的辩证法\n在这个讲求效率的时代，“快”似乎成了成功的代名词：外卖要“三十分钟送达”，学习要“七天速成”，创业要“一年上市”。然而，也有越来越多的人开始怀念“慢工出细活”的传统。快与慢，究竟孰优孰劣？我认为，二者并不对立，关键在于该快时快，该慢时慢。\n首先，必须承认，“快”是时代发展的必然要求。在激烈的市场竞争中，谁能更快地把握机遇、推出产品，谁就能抢占先机。疫情期间，疫苗研发的速度直接关系到无数人的生命；突发灾害面前，救援队伍的反应速度更是分秒必争。在这些场合，“效率就是生命”绝非夸张。\n但是，一味求快往往会适得其反。古人说“欲速则不达”。有的企业急功近利，为了赶工期偷工减料，结果造成质量事故；有的学生热衷于“速成班”，看似学了很多，实际上基础不牢，经不起考验。真正有价值的成果，往往需要时间的沉淀。故宫的文物修复师，修复一件青铜器常常需要一两年；屠呦呦团队研究青蒿素，经历了数百次失败。正是这种不慌不忙、精益求精的“慢”，才成就了经得起历史检验的“好”。\n再看科技发展，也是快与慢交织的过程。手机更新换代的速度越来越快，但支撑这些产品的芯片技术，却是科学家们几十年如一日埋头钻研的结果。没有基础研究的“慢”，就不会有应用创新的“快”。如果只追求短期见效，不愿意在基础领域长期投入，就很容易在关键技术上受制于人。\n那么，如何把握快与慢的分寸呢？我认为，在决策和执行层面要快，在积累和思考层面要慢。面对机遇，要果断行动，不能犹豫不决；而在打基础、做研究、培养人才时，则要耐得住寂寞，厚积薄发。对个人而言，也是如此：日常事务可以讲求效率，但读书、思考和学习一门技艺，却需要慢下来，用心体会。\n总而言之，快是一种能力，慢是一种智慧。只有懂得在快与慢之间找到平衡，我们才能既跟上时代的步伐，又不迷失前进的方向。"
+                  ],
+                  "outline_vi": [
+                    "Mở bài: nêu vấn đề, đưa luận điểm rõ ràng",
+                    "Thân bài 1–2: lập luận ủng hộ kèm dẫn chứng",
+                    "Thân bài 3: thừa nhận mặt trái (nhượng bộ)",
+                    "Thân bài 4: giải pháp cụ thể",
+                    "Kết bài: khẳng định lại quan điểm"
+                  ],
+                  "max_points": 60,
+                  "rubric_id": "rb-essay",
+                  "answer": null,
+                  "explanation_vi": "Bài tốt nên có quan điểm biện chứng (nhanh – chậm tùy việc, kết hợp), dẫn chứng cụ thể (nghề thủ công, khoa học, công nghệ), có nhượng bộ, kết luận rõ; từ vựng: 急功近利、欲速则不达、精益求精、厚积薄发."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "translation",
+      "name_vi": "Dịch",
+      "name_zh": "翻译",
+      "max_score": 100,
+      "duration_minutes": 41,
+      "parts": [
+        {
+          "code": "T1",
+          "type": "translate_written",
+          "expected_count": 2,
+          "instruction_vi": "Dịch viết đoạn văn tiếng Anh sang tiếng Trung.",
+          "instruction_zh": "第一部分：笔译。",
+          "groups": [
+            {
+              "id": "hsk7-9-de2-T1-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk7-9-de2-83",
+                  "no": 83,
+                  "type": "translate_written",
+                  "source": {
+                    "lang": "en",
+                    "text": "Urban farming is no longer a strange idea. In many big cities, people are growing vegetables on rooftops, balconies and even inside old factories. Supporters say that urban farms shorten the distance between farm and table, so food is fresher and less energy is used for transport. They also help city residents, especially children, understand where their food comes from. Critics, however, point out that land in cities is expensive and that urban farms can only produce a small share of the food a city needs. Perhaps the true value of urban farming lies not in how much it produces, but in how it reconnects people with nature."
+                  },
+                  "source_vi": "Nông nghiệp đô thị không còn là ý tưởng xa lạ... Có lẽ giá trị thật sự của nông nghiệp đô thị không nằm ở sản lượng mà ở việc kết nối lại con người với thiên nhiên.",
+                  "reference_zh": "城市农业已不再是一个陌生的概念。在许多大城市，人们在楼顶、阳台，甚至旧厂房里种植蔬菜。支持者认为，城市农场缩短了从农田到餐桌的距离，因此食物更加新鲜，运输所消耗的能源也更少。城市农场还能帮助城市居民，尤其是孩子们，了解食物从哪里来。然而，批评者指出，城市土地价格昂贵，城市农场只能生产一座城市所需食物的一小部分。也许，城市农业真正的价值并不在于产量有多少，而在于它让人们重新与自然建立了联系。",
+                  "time_minutes": 20,
+                  "max_points": 25,
+                  "rubric_id": "rb-translate",
+                  "answer": null,
+                  "explanation_vi": "Điểm chấm: 'no longer a strange idea' → 不再是陌生的概念; 'shorten the distance between farm and table' → 缩短从农田到餐桌的距离; 'critics point out' → 批评者指出; 'lies not in… but in…' → 不在于…而在于…"
+                },
+                {
+                  "id": "hsk7-9-de2-84",
+                  "no": 84,
+                  "type": "translate_written",
+                  "source": {
+                    "lang": "en",
+                    "text": "Museums around the world are turning to digital technology to attract visitors. With virtual tours, people can explore famous collections from their own homes, zooming in on details that are hard to see even in person. Some museums use augmented reality to bring ancient objects back to life, showing how they were made and used. Digital technology has also made it possible to preserve fragile treasures that cannot be displayed for long. Yet many experts believe that nothing can fully replace the experience of standing in front of a real work of art. The best approach may be to use technology as a bridge, not as a replacement."
+                  },
+                  "source_vi": "Các bảo tàng trên thế giới đang chuyển sang công nghệ số để thu hút khách tham quan... Cách tốt nhất có lẽ là dùng công nghệ như một cây cầu chứ không phải vật thay thế.",
+                  "reference_zh": "世界各地的博物馆正借助数字技术吸引观众。通过虚拟参观，人们足不出户就能欣赏著名的藏品，还可以放大观看那些即使身临其境也难以看清的细节。一些博物馆利用增强现实技术让古代文物“活”起来，展示它们是如何制作和使用的。数字技术还使保护那些无法长期展出的珍贵文物成为可能。然而，许多专家认为，没有什么能完全取代站在真正艺术品面前的体验。最好的办法或许是把技术当作一座桥梁，而不是替代品。",
+                  "time_minutes": 20,
+                  "max_points": 25,
+                  "rubric_id": "rb-translate",
+                  "answer": null,
+                  "explanation_vi": "Điểm chấm: 'from their own homes' → 足不出户; 'bring … back to life' → 让…“活”起来; 'made it possible to' → 使…成为可能; 'as a bridge, not as a replacement' → 当作桥梁，而不是替代品."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "T2",
+          "type": "translate_oral",
+          "expected_count": 2,
+          "instruction_vi": "Dịch nói (视译): đọc đoạn tiếng Anh, chuẩn bị 60 giây, nói bản dịch tiếng Trung trong 120 giây.",
+          "instruction_zh": "第二部分：视译。",
+          "groups": [
+            {
+              "id": "hsk7-9-de2-T2-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk7-9-de2-85",
+                  "no": 85,
+                  "type": "translate_oral",
+                  "source": {
+                    "lang": "en",
+                    "text": "Electric cars are becoming more common on our roads. They produce no exhaust while driving and are cheaper to run than petrol cars. However, drivers still worry about the limited number of charging stations and the time it takes to charge a battery."
+                  },
+                  "source_vi": "Ô tô điện ngày càng phổ biến trên đường phố...",
+                  "reference_zh": "电动汽车在我们的道路上越来越常见。它们在行驶过程中不排放尾气，使用成本也比汽油车低。不过，司机们仍然担心充电桩数量有限，以及给电池充电所需的时间较长。",
+                  "prep_seconds": 60,
+                  "answer_seconds": 120,
+                  "max_points": 25,
+                  "rubric_id": "rb-translate-oral",
+                  "answer": null,
+                  "explanation_vi": "Dịch nói: 'exhaust' → 尾气; 'cheaper to run' → 使用成本低; 'charging stations' → 充电桩/充电站."
+                },
+                {
+                  "id": "hsk7-9-de2-86",
+                  "no": 86,
+                  "type": "translate_oral",
+                  "source": {
+                    "lang": "en",
+                    "text": "Public libraries are changing. Besides lending books, many libraries now offer free courses, quiet spaces for study and even rooms where people can use 3D printers. They are becoming community centres where people of all ages can learn and meet each other."
+                  },
+                  "source_vi": "Thư viện công cộng đang thay đổi...",
+                  "reference_zh": "公共图书馆正在发生变化。除了借阅图书以外，许多图书馆现在还提供免费课程、安静的学习空间，甚至还有可以使用3D打印机的房间。它们正在成为各个年龄段的人都能学习和交流的社区中心。",
+                  "prep_seconds": 60,
+                  "answer_seconds": 120,
+                  "max_points": 25,
+                  "rubric_id": "rb-translate-oral",
+                  "answer": null,
+                  "explanation_vi": "Dịch nói: 'besides' → 除了…以外，还…; 'community centres' → 社区中心; 'people of all ages' → 各个年龄段的人."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "rb-short",
+      "max_score": 1,
+      "criteria": [
+        {
+          "key": "accuracy",
+          "name_vi": "Đúng ý",
+          "weight": 0.8,
+          "description_vi": "Trả lời đúng thông tin trong bài nghe/đọc."
+        },
+        {
+          "key": "characters",
+          "name_vi": "Chữ viết",
+          "weight": 0.2,
+          "description_vi": "Viết đúng chữ Hán, ≤ 10 chữ."
+        }
+      ]
+    },
+    {
+      "id": "rb-chart",
+      "max_score": 40,
+      "criteria": [
+        {
+          "key": "content",
+          "name_vi": "Mô tả số liệu",
+          "weight": 0.35,
+          "description_vi": "Nêu đúng, đủ số liệu và xu hướng chính."
+        },
+        {
+          "key": "analysis",
+          "name_vi": "Phân tích",
+          "weight": 0.25,
+          "description_vi": "Giải thích nguyên nhân, so sánh hợp lý."
+        },
+        {
+          "key": "organization",
+          "name_vi": "Bố cục",
+          "weight": 0.15,
+          "description_vi": "Mạch lạc, có mở – thân – kết."
+        },
+        {
+          "key": "vocab_grammar",
+          "name_vi": "Từ vựng – ngữ pháp",
+          "weight": 0.25,
+          "description_vi": "Dùng chính xác từ ngữ mô tả biểu đồ, câu đa dạng."
+        }
+      ]
+    },
+    {
+      "id": "rb-essay",
+      "max_score": 60,
+      "criteria": [
+        {
+          "key": "content",
+          "name_vi": "Luận điểm – luận cứ",
+          "weight": 0.35,
+          "description_vi": "Quan điểm rõ, lập luận chặt chẽ, dẫn chứng thuyết phục."
+        },
+        {
+          "key": "organization",
+          "name_vi": "Bố cục",
+          "weight": 0.2,
+          "description_vi": "Kết cấu nghị luận hoàn chỉnh, liên kết tốt."
+        },
+        {
+          "key": "vocab_grammar",
+          "name_vi": "Từ vựng – ngữ pháp",
+          "weight": 0.35,
+          "description_vi": "Từ vựng cao cấp, thành ngữ, câu phức chính xác."
+        },
+        {
+          "key": "characters",
+          "name_vi": "Chữ viết – độ dài",
+          "weight": 0.1,
+          "description_vi": "Đủ 600 chữ, ít lỗi chữ."
+        }
+      ]
+    },
+    {
+      "id": "rb-translate",
+      "max_score": 25,
+      "criteria": [
+        {
+          "key": "accuracy",
+          "name_vi": "Chính xác",
+          "weight": 0.5,
+          "description_vi": "Truyền đạt đúng, đủ ý bản gốc."
+        },
+        {
+          "key": "fluency",
+          "name_vi": "Trôi chảy",
+          "weight": 0.3,
+          "description_vi": "Câu văn tiếng Trung tự nhiên, không dịch máy móc."
+        },
+        {
+          "key": "vocab_grammar",
+          "name_vi": "Từ vựng – ngữ pháp",
+          "weight": 0.2,
+          "description_vi": "Dùng từ đúng ngữ cảnh, đúng ngữ pháp."
+        }
+      ]
+    },
+    {
+      "id": "rb-translate-oral",
+      "max_score": 25,
+      "criteria": [
+        {
+          "key": "accuracy",
+          "name_vi": "Chính xác",
+          "weight": 0.5,
+          "description_vi": "Truyền đạt đúng, đủ ý."
+        },
+        {
+          "key": "fluency",
+          "name_vi": "Lưu loát",
+          "weight": 0.3,
+          "description_vi": "Nói liền mạch, ít ngắt quãng, đúng thời gian."
+        },
+        {
+          "key": "pronunciation",
+          "name_vi": "Phát âm",
+          "weight": 0.2,
+          "description_vi": "Phát âm, thanh điệu rõ ràng."
+        }
+      ]
+    }
+  ]
+}

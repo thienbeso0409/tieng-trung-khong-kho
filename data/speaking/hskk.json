@@ -369,6 +369,54 @@
       ]
     },
     {
+      "id": "hsk3-de2-speaking",
+      "level": 3,
+      "title_vi": "Đề nói HSK 3 – Đề 2",
+      "warmup": true,
+      "prep_total_seconds": 360,
+      "item_ids": [
+        "hsk3-s-27",
+        "hsk3-s-28",
+        "hsk3-s-29",
+        "hsk3-s-30",
+        "hsk3-s-31",
+        "hsk3-s-32",
+        "hsk3-s-33",
+        "hsk3-s-34",
+        "hsk3-s-35",
+        "hsk3-s-36",
+        "hsk3-s-37",
+        "hsk3-s-38",
+        "hsk3-s-39",
+        "hsk3-s-40",
+        "hsk3-s-41"
+      ]
+    },
+    {
+      "id": "hsk3-de3-speaking",
+      "level": 3,
+      "title_vi": "Đề nói HSK 3 – Đề 3",
+      "warmup": true,
+      "prep_total_seconds": 360,
+      "item_ids": [
+        "hsk3-s-42",
+        "hsk3-s-43",
+        "hsk3-s-44",
+        "hsk3-s-45",
+        "hsk3-s-46",
+        "hsk3-s-47",
+        "hsk3-s-48",
+        "hsk3-s-49",
+        "hsk3-s-50",
+        "hsk3-s-51",
+        "hsk3-s-52",
+        "hsk3-s-53",
+        "hsk3-s-54",
+        "hsk3-s-55",
+        "hsk3-s-56"
+      ]
+    },
+    {
       "id": "hsk4-de1-speaking",
       "level": 4,
       "title_vi": "Đề nói HSK 4 – Đề 1",
@@ -1257,6 +1305,960 @@
       ],
       "rubric_id": "rb-speech",
       "in_paper": false
+    },
+    {
+      "id": "hsk3-s-27",
+      "level": 3,
+      "part": "hsk3-1",
+      "type": "repeat",
+      "prompt": {
+        "zh": "我明天要去机场接朋友。",
+        "pinyin": "wǒ míngtiān yào qù jīchǎng jiē péngyou.",
+        "vi": "Ngày mai tôi phải ra sân bay đón bạn."
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "男",
+            "text": "我明天要去机场接朋友。"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 10,
+      "sample_answer": {
+        "zh": "我明天要去机场接朋友。",
+        "pinyin": "wǒ míngtiān yào qù jīchǎng jiē péngyou.",
+        "vi": "Ngày mai tôi phải ra sân bay đón bạn."
+      },
+      "keywords": [
+        "明天",
+        "去",
+        "机场",
+        "朋友"
+      ],
+      "rubric_id": "rb-repeat",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-28",
+      "level": 3,
+      "part": "hsk3-1",
+      "type": "repeat",
+      "prompt": {
+        "zh": "这个房间又大又干净。",
+        "pinyin": "zhège fángjiān yòu dà yòu gānjìng.",
+        "vi": "Căn phòng này vừa to vừa sạch."
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "女",
+            "text": "这个房间又大又干净。"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 10,
+      "sample_answer": {
+        "zh": "这个房间又大又干净。",
+        "pinyin": "zhège fángjiān yòu dà yòu gānjìng.",
+        "vi": "Căn phòng này vừa to vừa sạch."
+      },
+      "keywords": [
+        "这个",
+        "房间",
+        "干净"
+      ],
+      "rubric_id": "rb-repeat",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-29",
+      "level": 3,
+      "part": "hsk3-1",
+      "type": "repeat",
+      "prompt": {
+        "zh": "她每天都坐地铁上班。",
+        "pinyin": "tā měitiān dōu zuò dìtiě shàngbān.",
+        "vi": "Ngày nào cô ấy cũng đi tàu điện ngầm đi làm."
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "男",
+            "text": "她每天都坐地铁上班。"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 10,
+      "sample_answer": {
+        "zh": "她每天都坐地铁上班。",
+        "pinyin": "tā měitiān dōu zuò dìtiě shàngbān.",
+        "vi": "Ngày nào cô ấy cũng đi tàu điện ngầm đi làm."
+      },
+      "keywords": [
+        "每天",
+        "坐",
+        "地铁",
+        "上班"
+      ],
+      "rubric_id": "rb-repeat",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-30",
+      "level": 3,
+      "part": "hsk3-1",
+      "type": "repeat",
+      "prompt": {
+        "zh": "我们下个星期有考试。",
+        "pinyin": "wǒmen xià ge xīngqī yǒu kǎoshì.",
+        "vi": "Tuần sau chúng tôi có bài thi."
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "女",
+            "text": "我们下个星期有考试。"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 10,
+      "sample_answer": {
+        "zh": "我们下个星期有考试。",
+        "pinyin": "wǒmen xià ge xīngqī yǒu kǎoshì.",
+        "vi": "Tuần sau chúng tôi có bài thi."
+      },
+      "keywords": [
+        "下个",
+        "星期",
+        "考试"
+      ],
+      "rubric_id": "rb-repeat",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-31",
+      "level": 3,
+      "part": "hsk3-1",
+      "type": "repeat",
+      "prompt": {
+        "zh": "请你说得慢一点儿。",
+        "pinyin": "qǐng nǐ shuō de màn yìdiǎnr.",
+        "vi": "Bạn nói chậm một chút nhé."
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "男",
+            "text": "请你说得慢一点儿。"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 10,
+      "sample_answer": {
+        "zh": "请你说得慢一点儿。",
+        "pinyin": "qǐng nǐ shuō de màn yìdiǎnr.",
+        "vi": "Bạn nói chậm một chút nhé."
+      },
+      "keywords": [
+        "说得",
+        "慢",
+        "一点儿"
+      ],
+      "rubric_id": "rb-repeat",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-32",
+      "level": 3,
+      "part": "hsk3-1",
+      "type": "repeat",
+      "prompt": {
+        "zh": "这件衣服有点儿贵。",
+        "pinyin": "zhè jiàn yīfu yǒudiǎnr guì.",
+        "vi": "Chiếc áo này hơi đắt."
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "女",
+            "text": "这件衣服有点儿贵。"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 10,
+      "sample_answer": {
+        "zh": "这件衣服有点儿贵。",
+        "pinyin": "zhè jiàn yīfu yǒudiǎnr guì.",
+        "vi": "Chiếc áo này hơi đắt."
+      },
+      "keywords": [
+        "这件",
+        "衣服",
+        "有点儿"
+      ],
+      "rubric_id": "rb-repeat",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-33",
+      "level": 3,
+      "part": "hsk3-1",
+      "type": "repeat",
+      "prompt": {
+        "zh": "他昨天晚上没睡好。",
+        "pinyin": "tā zuótiān wǎnshang méi shuì hǎo.",
+        "vi": "Tối qua anh ấy ngủ không ngon."
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "男",
+            "text": "他昨天晚上没睡好。"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 10,
+      "sample_answer": {
+        "zh": "他昨天晚上没睡好。",
+        "pinyin": "tā zuótiān wǎnshang méi shuì hǎo.",
+        "vi": "Tối qua anh ấy ngủ không ngon."
+      },
+      "keywords": [
+        "昨天",
+        "晚上",
+        "没睡"
+      ],
+      "rubric_id": "rb-repeat",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-34",
+      "level": 3,
+      "part": "hsk3-1",
+      "type": "repeat",
+      "prompt": {
+        "zh": "我对这个城市很满意。",
+        "pinyin": "wǒ duì zhège chéngshì hěn mǎnyì.",
+        "vi": "Tôi rất hài lòng với thành phố này."
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "女",
+            "text": "我对这个城市很满意。"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 10,
+      "sample_answer": {
+        "zh": "我对这个城市很满意。",
+        "pinyin": "wǒ duì zhège chéngshì hěn mǎnyì.",
+        "vi": "Tôi rất hài lòng với thành phố này."
+      },
+      "keywords": [
+        "对",
+        "这个",
+        "城市",
+        "满意"
+      ],
+      "rubric_id": "rb-repeat",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-35",
+      "level": 3,
+      "part": "hsk3-2",
+      "type": "describe_picture",
+      "prompt": {
+        "zh": "请用一句话说说图片的内容。",
+        "pinyin": "qǐng yòng yí jù huà shuō shuō túpiàn de nèiróng.",
+        "vi": "Hãy dùng một câu nói nội dung bức ảnh."
+      },
+      "audio": null,
+      "image": {
+        "emoji": "👩‍🍳🥟",
+        "alt_vi": "Hai mẹ con đang gói sủi cảo"
+      },
+      "prep_seconds": 0,
+      "answer_seconds": 15,
+      "sample_answer": {
+        "zh": "妈妈和孩子在包饺子。",
+        "pinyin": "māma hé háizi zài bāo jiǎozi."
+      },
+      "keywords": [
+        "包饺子",
+        "妈妈"
+      ],
+      "rubric_id": "rb-describe",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-36",
+      "level": 3,
+      "part": "hsk3-2",
+      "type": "describe_picture",
+      "prompt": {
+        "zh": "请用一句话说说图片的内容。",
+        "pinyin": "qǐng yòng yí jù huà shuō shuō túpiàn de nèiróng.",
+        "vi": "Hãy dùng một câu nói nội dung bức ảnh."
+      },
+      "audio": null,
+      "image": {
+        "emoji": "🧑‍💼💻",
+        "alt_vi": "Người đàn ông làm việc với máy tính ở văn phòng"
+      },
+      "prep_seconds": 0,
+      "answer_seconds": 15,
+      "sample_answer": {
+        "zh": "他正在办公室用电脑工作。",
+        "pinyin": "tā zhèngzài bàngōngshì yòng diànnǎo gōngzuò."
+      },
+      "keywords": [
+        "电脑",
+        "工作"
+      ],
+      "rubric_id": "rb-describe",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-37",
+      "level": 3,
+      "part": "hsk3-2",
+      "type": "describe_picture",
+      "prompt": {
+        "zh": "请用一句话说说图片的内容。",
+        "pinyin": "qǐng yòng yí jù huà shuō shuō túpiàn de nèiróng.",
+        "vi": "Hãy dùng một câu nói nội dung bức ảnh."
+      },
+      "audio": null,
+      "image": {
+        "emoji": "👫🎬",
+        "alt_vi": "Đôi bạn đang xem phim ở rạp"
+      },
+      "prep_seconds": 0,
+      "answer_seconds": 15,
+      "sample_answer": {
+        "zh": "他们在电影院看电影。",
+        "pinyin": "tāmen zài diànyǐngyuàn kàn diànyǐng."
+      },
+      "keywords": [
+        "看电影",
+        "电影院"
+      ],
+      "rubric_id": "rb-describe",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-38",
+      "level": 3,
+      "part": "hsk3-2",
+      "type": "describe_picture",
+      "prompt": {
+        "zh": "请用一句话说说图片的内容。",
+        "pinyin": "qǐng yòng yí jù huà shuō shuō túpiàn de nèiróng.",
+        "vi": "Hãy dùng một câu nói nội dung bức ảnh."
+      },
+      "audio": null,
+      "image": {
+        "emoji": "👵🌸",
+        "alt_vi": "Bà cụ đang tưới hoa trong vườn"
+      },
+      "prep_seconds": 0,
+      "answer_seconds": 15,
+      "sample_answer": {
+        "zh": "奶奶在花园里给花浇水。",
+        "pinyin": "nǎinai zài huāyuán lǐ gěi huā jiāo shuǐ."
+      },
+      "keywords": [
+        "奶奶",
+        "花"
+      ],
+      "rubric_id": "rb-describe",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-39",
+      "level": 3,
+      "part": "hsk3-2",
+      "type": "describe_picture",
+      "prompt": {
+        "zh": "请用一句话说说图片的内容。",
+        "pinyin": "qǐng yòng yí jù huà shuō shuō túpiàn de nèiróng.",
+        "vi": "Hãy dùng một câu nói nội dung bức ảnh."
+      },
+      "audio": null,
+      "image": {
+        "emoji": "🧒📚",
+        "alt_vi": "Cậu bé đang làm bài tập"
+      },
+      "prep_seconds": 0,
+      "answer_seconds": 15,
+      "sample_answer": {
+        "zh": "孩子正在认真地写作业。",
+        "pinyin": "háizi zhèngzài rènzhēn de xiě zuòyè."
+      },
+      "keywords": [
+        "写作业",
+        "认真"
+      ],
+      "rubric_id": "rb-describe",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-40",
+      "level": 3,
+      "part": "hsk3-3",
+      "type": "answer_question",
+      "prompt": {
+        "zh": "你最喜欢的季节是什么？为什么？",
+        "pinyin": "nǐ zuì xǐhuan de jìjié shì shénme? wèishénme?",
+        "vi": "Mùa bạn thích nhất là gì? Tại sao?"
+      },
+      "audio": null,
+      "image": null,
+      "prep_seconds": 180,
+      "answer_seconds": 90,
+      "sample_answer": {
+        "zh": "我最喜欢秋天。秋天的天气不冷也不热，非常舒服。而且秋天的时候，树叶变成了黄色和红色，特别漂亮。周末我常常和朋友去公园散步、照相。秋天也有很多好吃的水果，所以我觉得秋天是最好的季节。",
+        "pinyin": "wǒ zuì xǐhuan qiūtiān. qiūtiān de tiānqì bù lěng yě bú rè, fēicháng shūfu. érqiě qiūtiān de shíhou, shùyè biànchéng le huángsè hé hóngsè, tèbié piàoliang. zhōumò wǒ chángcháng hé péngyou qù gōngyuán sànbù, zhàoxiàng. qiūtiān yě yǒu hěn duō hǎochī de shuǐguǒ, suǒyǐ wǒ juéde qiūtiān shì zuìhǎo de jìjié."
+      },
+      "keywords": [
+        "秋天",
+        "天气",
+        "舒服",
+        "因为"
+      ],
+      "rubric_id": "rb-speech",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-41",
+      "level": 3,
+      "part": "hsk3-3",
+      "type": "answer_question",
+      "prompt": {
+        "zh": "请介绍一下你的一位老师。",
+        "pinyin": "qǐng jièshào yíxià nǐ de yí wèi lǎoshī.",
+        "vi": "Hãy giới thiệu một người thầy/cô của bạn."
+      },
+      "audio": null,
+      "image": null,
+      "prep_seconds": 180,
+      "answer_seconds": 90,
+      "sample_answer": {
+        "zh": "我想介绍我的中学汉语老师。她姓王，个子不高，总是笑着跟我们说话。她上课很认真，也很有意思，常常用游戏帮我们记生词。我遇到问题的时候，她总是很耐心地帮助我。因为她，我开始喜欢学习汉语。",
+        "pinyin": "wǒ xiǎng jièshào wǒ de zhōngxué Hànyǔ lǎoshī. tā xìng wáng, gèzi bù gāo, zǒngshì xiào zhe gēn wǒmen shuōhuà. tā shàngkè hěn rènzhēn, yě hěn yǒu yìsi, chángcháng yòng yóuxì bāng wǒmen jì shēngcí. wǒ yùdào wèntí de shíhou, tā zǒngshì hěn nàixīn de bāngzhù wǒ. yīnwèi tā, wǒ kāishǐ xǐhuan xuéxí Hànyǔ."
+      },
+      "keywords": [
+        "老师",
+        "认真",
+        "帮助",
+        "喜欢"
+      ],
+      "rubric_id": "rb-speech",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-42",
+      "level": 3,
+      "part": "hsk3-1",
+      "type": "repeat",
+      "prompt": {
+        "zh": "周末我常常去公园散步。",
+        "pinyin": "zhōumò wǒ chángcháng qù gōngyuán sànbù.",
+        "vi": "Cuối tuần tôi thường đi dạo công viên."
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "男",
+            "text": "周末我常常去公园散步。"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 10,
+      "sample_answer": {
+        "zh": "周末我常常去公园散步。",
+        "pinyin": "zhōumò wǒ chángcháng qù gōngyuán sànbù.",
+        "vi": "Cuối tuần tôi thường đi dạo công viên."
+      },
+      "keywords": [
+        "周末",
+        "常常",
+        "公园",
+        "散步"
+      ],
+      "rubric_id": "rb-repeat",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-43",
+      "level": 3,
+      "part": "hsk3-1",
+      "type": "repeat",
+      "prompt": {
+        "zh": "你的手机号码是多少？",
+        "pinyin": "nǐ de shǒujī hàomǎ shì duōshao?",
+        "vi": "Số điện thoại của bạn là bao nhiêu?"
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "女",
+            "text": "你的手机号码是多少？"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 10,
+      "sample_answer": {
+        "zh": "你的手机号码是多少？",
+        "pinyin": "nǐ de shǒujī hàomǎ shì duōshao?",
+        "vi": "Số điện thoại của bạn là bao nhiêu?"
+      },
+      "keywords": [
+        "手机",
+        "号码",
+        "多少"
+      ],
+      "rubric_id": "rb-repeat",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-44",
+      "level": 3,
+      "part": "hsk3-1",
+      "type": "repeat",
+      "prompt": {
+        "zh": "今天的作业我已经写完了。",
+        "pinyin": "jīntiān de zuòyè wǒ yǐjing xiě wánle.",
+        "vi": "Bài tập hôm nay tôi đã làm xong rồi."
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "男",
+            "text": "今天的作业我已经写完了。"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 10,
+      "sample_answer": {
+        "zh": "今天的作业我已经写完了。",
+        "pinyin": "jīntiān de zuòyè wǒ yǐjing xiě wánle.",
+        "vi": "Bài tập hôm nay tôi đã làm xong rồi."
+      },
+      "keywords": [
+        "今天",
+        "作业",
+        "已经",
+        "完了"
+      ],
+      "rubric_id": "rb-repeat",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-45",
+      "level": 3,
+      "part": "hsk3-1",
+      "type": "repeat",
+      "prompt": {
+        "zh": "他比我早到了十分钟。",
+        "pinyin": "tā bǐ wǒ zǎo dào le shí fēnzhōng.",
+        "vi": "Anh ấy đến sớm hơn tôi mười phút."
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "女",
+            "text": "他比我早到了十分钟。"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 10,
+      "sample_answer": {
+        "zh": "他比我早到了十分钟。",
+        "pinyin": "tā bǐ wǒ zǎo dào le shí fēnzhōng.",
+        "vi": "Anh ấy đến sớm hơn tôi mười phút."
+      },
+      "keywords": [
+        "比",
+        "早",
+        "十分钟"
+      ],
+      "rubric_id": "rb-repeat",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-46",
+      "level": 3,
+      "part": "hsk3-1",
+      "type": "repeat",
+      "prompt": {
+        "zh": "这家饭馆的服务很好。",
+        "pinyin": "zhè jiā fànguǎn de fúwù hěn hǎo.",
+        "vi": "Quán ăn này phục vụ rất tốt."
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "男",
+            "text": "这家饭馆的服务很好。"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 10,
+      "sample_answer": {
+        "zh": "这家饭馆的服务很好。",
+        "pinyin": "zhè jiā fànguǎn de fúwù hěn hǎo.",
+        "vi": "Quán ăn này phục vụ rất tốt."
+      },
+      "keywords": [
+        "这家",
+        "饭馆",
+        "服务"
+      ],
+      "rubric_id": "rb-repeat",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-47",
+      "level": 3,
+      "part": "hsk3-1",
+      "type": "repeat",
+      "prompt": {
+        "zh": "我想把这本书借给你。",
+        "pinyin": "wǒ xiǎng bǎ zhè běn shū jiè gěi nǐ.",
+        "vi": "Tôi muốn cho bạn mượn quyển sách này."
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "女",
+            "text": "我想把这本书借给你。"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 10,
+      "sample_answer": {
+        "zh": "我想把这本书借给你。",
+        "pinyin": "wǒ xiǎng bǎ zhè běn shū jiè gěi nǐ.",
+        "vi": "Tôi muốn cho bạn mượn quyển sách này."
+      },
+      "keywords": [
+        "想",
+        "本书",
+        "借给"
+      ],
+      "rubric_id": "rb-repeat",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-48",
+      "level": 3,
+      "part": "hsk3-1",
+      "type": "repeat",
+      "prompt": {
+        "zh": "外边下雨了，带上伞吧。",
+        "pinyin": "wàibian xiàyǔ le, dài shàng sǎn ba.",
+        "vi": "Bên ngoài mưa rồi, mang ô theo nhé."
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "男",
+            "text": "外边下雨了，带上伞吧。"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 10,
+      "sample_answer": {
+        "zh": "外边下雨了，带上伞吧。",
+        "pinyin": "wàibian xiàyǔ le, dài shàng sǎn ba.",
+        "vi": "Bên ngoài mưa rồi, mang ô theo nhé."
+      },
+      "keywords": [
+        "外边",
+        "下雨",
+        "带上"
+      ],
+      "rubric_id": "rb-repeat",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-49",
+      "level": 3,
+      "part": "hsk3-1",
+      "type": "repeat",
+      "prompt": {
+        "zh": "我们一起去超市买东西。",
+        "pinyin": "wǒmen yìqǐ qù chāoshì mǎi dōngxi.",
+        "vi": "Chúng ta cùng đi siêu thị mua đồ."
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "女",
+            "text": "我们一起去超市买东西。"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 10,
+      "sample_answer": {
+        "zh": "我们一起去超市买东西。",
+        "pinyin": "wǒmen yìqǐ qù chāoshì mǎi dōngxi.",
+        "vi": "Chúng ta cùng đi siêu thị mua đồ."
+      },
+      "keywords": [
+        "一起",
+        "去",
+        "超市",
+        "东西"
+      ],
+      "rubric_id": "rb-repeat",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-50",
+      "level": 3,
+      "part": "hsk3-2",
+      "type": "describe_picture",
+      "prompt": {
+        "zh": "请用一句话说说图片的内容。",
+        "pinyin": "qǐng yòng yí jù huà shuō shuō túpiàn de nèiróng.",
+        "vi": "Hãy dùng một câu nói nội dung bức ảnh."
+      },
+      "audio": null,
+      "image": {
+        "emoji": "🧑‍🎤🎤",
+        "alt_vi": "Cô gái đang hát trên sân khấu"
+      },
+      "prep_seconds": 0,
+      "answer_seconds": 15,
+      "sample_answer": {
+        "zh": "她在台上唱歌。",
+        "pinyin": "tā zài táishàng chànggē."
+      },
+      "keywords": [
+        "唱歌",
+        "台上"
+      ],
+      "rubric_id": "rb-describe",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-51",
+      "level": 3,
+      "part": "hsk3-2",
+      "type": "describe_picture",
+      "prompt": {
+        "zh": "请用一句话说说图片的内容。",
+        "pinyin": "qǐng yòng yí jù huà shuō shuō túpiàn de nèiróng.",
+        "vi": "Hãy dùng một câu nói nội dung bức ảnh."
+      },
+      "audio": null,
+      "image": {
+        "emoji": "👨‍⚕️🧒",
+        "alt_vi": "Bác sĩ đang khám cho một em bé"
+      },
+      "prep_seconds": 0,
+      "answer_seconds": 15,
+      "sample_answer": {
+        "zh": "医生正在给孩子检查身体。",
+        "pinyin": "yīshēng zhèngzài gěi háizi jiǎnchá shēntǐ."
+      },
+      "keywords": [
+        "医生",
+        "检查"
+      ],
+      "rubric_id": "rb-describe",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-52",
+      "level": 3,
+      "part": "hsk3-2",
+      "type": "describe_picture",
+      "prompt": {
+        "zh": "请用一句话说说图片的内容。",
+        "pinyin": "qǐng yòng yí jù huà shuō shuō túpiàn de nèiróng.",
+        "vi": "Hãy dùng một câu nói nội dung bức ảnh."
+      },
+      "audio": null,
+      "image": {
+        "emoji": "🚌👥",
+        "alt_vi": "Nhiều người xếp hàng lên xe buýt"
+      },
+      "prep_seconds": 0,
+      "answer_seconds": 15,
+      "sample_answer": {
+        "zh": "大家在排队上公共汽车。",
+        "pinyin": "dàjiā zài páiduì shàng gōnggòng qìchē."
+      },
+      "keywords": [
+        "排队",
+        "公共汽车"
+      ],
+      "rubric_id": "rb-describe",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-53",
+      "level": 3,
+      "part": "hsk3-2",
+      "type": "describe_picture",
+      "prompt": {
+        "zh": "请用一句话说说图片的内容。",
+        "pinyin": "qǐng yòng yí jù huà shuō shuō túpiàn de nèiróng.",
+        "vi": "Hãy dùng một câu nói nội dung bức ảnh."
+      },
+      "audio": null,
+      "image": {
+        "emoji": "🎁👧😊",
+        "alt_vi": "Cô bé vui vẻ nhận quà"
+      },
+      "prep_seconds": 0,
+      "answer_seconds": 15,
+      "sample_answer": {
+        "zh": "她收到了一个礼物，非常高兴。",
+        "pinyin": "tā shōudào le yí ge lǐwù, fēicháng gāoxìng."
+      },
+      "keywords": [
+        "礼物",
+        "高兴"
+      ],
+      "rubric_id": "rb-describe",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-54",
+      "level": 3,
+      "part": "hsk3-2",
+      "type": "describe_picture",
+      "prompt": {
+        "zh": "请用一句话说说图片的内容。",
+        "pinyin": "qǐng yòng yí jù huà shuō shuō túpiàn de nèiróng.",
+        "vi": "Hãy dùng một câu nói nội dung bức ảnh."
+      },
+      "audio": null,
+      "image": {
+        "emoji": "🏃‍♂️🏃‍♀️🌅",
+        "alt_vi": "Hai người chạy bộ lúc bình minh"
+      },
+      "prep_seconds": 0,
+      "answer_seconds": 15,
+      "sample_answer": {
+        "zh": "他们每天早上一起跑步。",
+        "pinyin": "tāmen měitiān zǎoshang yìqǐ pǎobù."
+      },
+      "keywords": [
+        "跑步",
+        "早上"
+      ],
+      "rubric_id": "rb-describe",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-55",
+      "level": 3,
+      "part": "hsk3-3",
+      "type": "answer_question",
+      "prompt": {
+        "zh": "你觉得在网上买东西好不好？为什么？",
+        "pinyin": "nǐ juéde zài wǎng shang mǎi dōngxi hǎo bu hǎo? wèishénme?",
+        "vi": "Bạn thấy mua đồ trên mạng có tốt không? Tại sao?"
+      },
+      "audio": null,
+      "image": null,
+      "prep_seconds": 180,
+      "answer_seconds": 90,
+      "sample_answer": {
+        "zh": "我觉得在网上买东西有好处，也有问题。好处是很方便，不用出门，东西也比较便宜。但是有时候买到的东西和照片上的不一样，质量也不太好。所以我买衣服、鞋的时候喜欢去商店，买书和日常用品的时候就在网上买。",
+        "pinyin": "wǒ juéde zài wǎng shang mǎi dōngxi yǒu hǎochù, yě yǒu wèntí. hǎochù shì hěn fāngbiàn, bú yòng chūmén, dōngxi yě bǐjiào piányi. dànshì yǒushíhou mǎi dào de dōngxi hé zhàopiàn shàng de bù yíyàng, zhìliàng yě bú tài hǎo. suǒyǐ wǒ mǎi yīfu, xié de shíhou xǐhuan qù shāngdiàn, mǎi shū hé rìcháng yòngpǐn de shíhou jiù zài wǎng shang mǎi."
+      },
+      "keywords": [
+        "方便",
+        "便宜",
+        "但是",
+        "所以"
+      ],
+      "rubric_id": "rb-speech",
+      "in_paper": true
+    },
+    {
+      "id": "hsk3-s-56",
+      "level": 3,
+      "part": "hsk3-3",
+      "type": "answer_question",
+      "prompt": {
+        "zh": "请说一说你的一个好习惯。",
+        "pinyin": "qǐng shuō yì shuō nǐ de yí ge hǎo xíguàn.",
+        "vi": "Hãy nói về một thói quen tốt của bạn."
+      },
+      "audio": null,
+      "image": null,
+      "prep_seconds": 180,
+      "answer_seconds": 90,
+      "sample_answer": {
+        "zh": "我的一个好习惯是每天早上起床以后先喝一杯水，然后跑步半个小时。这个习惯我已经坚持了三年。以前我常常感冒，现在身体好多了，上班的时候也更有精神。我希望以后能一直坚持下去。",
+        "pinyin": "wǒ de yí ge hǎo xíguàn shì měitiān zǎoshang qǐ chuáng yǐhòu xiān hē yì bēi shuǐ, ránhòu pǎobù bàn gè xiǎoshí. zhège xíguàn wǒ yǐjing jiānchí le sān nián. yǐqián wǒ chángcháng gǎnmào, xiànzài shēntǐ hǎoduō le, shàngbān de shíhou yě gèng yǒu jīngshén. wǒ xīwàng yǐhòu néng yìzhí jiānchí xiàqù."
+      },
+      "keywords": [
+        "习惯",
+        "坚持",
+        "身体",
+        "每天"
+      ],
+      "rubric_id": "rb-speech",
+      "in_paper": true
     },
     {
       "id": "hsk4-s-01",
