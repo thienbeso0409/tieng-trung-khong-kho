@@ -533,7 +533,7 @@
                       {
                         "speaker": "男",
                         "text": "好，路上车不多，四十分钟就能到。",
-                        "pinyin": "hǎo, lù shàng chē bù duō, sì shífēn zhōng jiù néng dào."
+                        "pinyin": "hǎo, lù shàng chē bù duō, sìshí fēnzhōng jiù néng dào."
                       }
                     ],
                     "repeat": 2
@@ -1388,7 +1388,7 @@
                   "type": "fill_blank_wordbank",
                   "stem": {
                     "zh": "我家（ ）学校很近，走路十分钟。",
-                    "pinyin": "wǒ jiā ( ) xuéxiào hěn jìn, zǒulù shífēn zhōng."
+                    "pinyin": "wǒ jiā ( ) xuéxiào hěn jìn, zǒulù shí fēnzhōng."
                   },
                   "answer": "D",
                   "explanation_vi": "A 离 B 很近 = A cách B rất gần → 离 (D)."
@@ -1578,7 +1578,7 @@
                   "key": "E",
                   "text": {
                     "zh": "不远，坐公交车二十分钟。",
-                    "pinyin": "bù yuǎn, zuò gōngjiāochē èr shífēn zhōng."
+                    "pinyin": "bù yuǎn, zuò gōngjiāochē èrshí fēnzhōng."
                   }
                 }
               ],

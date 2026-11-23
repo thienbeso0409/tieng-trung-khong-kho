@@ -454,7 +454,10 @@
         "vi": "Mỗi sáng tôi dậy lúc bảy giờ."
       },
       "keywords": [
-        "起床"
+        "起床",
+        "每天",
+        "早上",
+        "七点"
       ],
       "rubric_id": "rb-repeat",
       "in_paper": true
@@ -487,7 +490,9 @@
         "vi": "Món ăn ở quán này rất ngon."
       },
       "keywords": [
-        "好吃"
+        "好吃",
+        "这家",
+        "饭馆"
       ],
       "rubric_id": "rb-repeat",
       "in_paper": true
@@ -520,7 +525,9 @@
         "vi": "Chiều mai chúng ta đi leo núi nhé."
       },
       "keywords": [
-        "爬山"
+        "爬山",
+        "明天",
+        "下午"
       ],
       "rubric_id": "rb-repeat",
       "in_paper": true
@@ -553,7 +560,9 @@
         "vi": "Anh ấy nói tiếng Trung rất lưu loát."
       },
       "keywords": [
-        "流利"
+        "流利",
+        "汉语",
+        "说得"
       ],
       "rubric_id": "rb-repeat",
       "in_paper": true
@@ -586,7 +595,9 @@
         "vi": "Làm ơn đóng cửa giúp tôi."
       },
       "keywords": [
-        "关上"
+        "关上",
+        "帮",
+        "把门"
       ],
       "rubric_id": "rb-repeat",
       "in_paper": true
@@ -619,7 +630,9 @@
         "vi": "Thư viện cuối tuần cũng mở cửa."
       },
       "keywords": [
-        "开门"
+        "开门",
+        "图书馆",
+        "周末"
       ],
       "rubric_id": "rb-repeat",
       "in_paper": true
@@ -652,7 +665,10 @@
         "vi": "Tôi đã quen với thời tiết ở đây rồi."
       },
       "keywords": [
-        "习惯"
+        "习惯",
+        "已经",
+        "这里",
+        "天气"
       ],
       "rubric_id": "rb-repeat",
       "in_paper": true
@@ -685,7 +701,10 @@
         "vi": "Dạo này công việc bạn có bận không?"
       },
       "keywords": [
-        "忙"
+        "忙",
+        "最近",
+        "工作",
+        "不忙"
       ],
       "rubric_id": "rb-repeat",
       "in_paper": true
@@ -718,7 +737,9 @@
         "vi": "Em gái tôi nhỏ hơn tôi ba tuổi."
       },
       "keywords": [
-        "小"
+        "小",
+        "妹妹",
+        "三岁"
       ],
       "rubric_id": "rb-repeat",
       "in_paper": false
@@ -751,7 +772,10 @@
         "vi": "Cuối tuần này tôi muốn nghỉ ở nhà."
       },
       "keywords": [
-        "休息"
+        "休息",
+        "这个",
+        "周末",
+        "在家"
       ],
       "rubric_id": "rb-repeat",
       "in_paper": false
@@ -784,7 +808,9 @@
         "vi": "Đừng lo, anh ấy đến ngay."
       },
       "keywords": [
-        "担心"
+        "担心",
+        "别",
+        "马上"
       ],
       "rubric_id": "rb-repeat",
       "in_paper": false
@@ -817,7 +843,10 @@
         "vi": "Tôi rất hứng thú với văn hóa Trung Quốc."
       },
       "keywords": [
-        "感兴趣"
+        "感兴趣",
+        "对",
+        "中国",
+        "文化"
       ],
       "rubric_id": "rb-repeat",
       "in_paper": false
@@ -850,7 +879,10 @@
         "vi": "Chiếc áo sơ mi này rẻ hơn chiếc kia."
       },
       "keywords": [
-        "便宜"
+        "便宜",
+        "这件",
+        "衬衫",
+        "那件"
       ],
       "rubric_id": "rb-repeat",
       "in_paper": false
@@ -883,7 +915,10 @@
         "vi": "Bên ngoài lạnh quá, đừng ra ngoài nữa."
       },
       "keywords": [
-        "冷"
+        "冷",
+        "外边",
+        "太冷",
+        "出去"
       ],
       "rubric_id": "rb-repeat",
       "in_paper": false
@@ -938,7 +973,10 @@
         "pinyin": "māma zhèngzài chúfáng zuòfàn."
       },
       "keywords": [
-        "做饭"
+        "做饭",
+        "妈妈",
+        "正在",
+        "厨房"
       ],
       "rubric_id": "rb-describe",
       "in_paper": true
@@ -1077,7 +1115,9 @@
         "pinyin": "quánjiā rén zài yìqǐ guo shēngrì."
       },
       "keywords": [
-        "生日"
+        "生日",
+        "全家人",
+        "一起"
       ],
       "rubric_id": "rb-describe",
       "in_paper": false

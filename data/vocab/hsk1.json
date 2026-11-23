@@ -965,7 +965,8 @@
         "vi": "Trên mặt đất có một quyển sách."
       },
       "syllabus2025": true,
-      "syllabus2025_level": 2
+      "syllabus2025_level": 2,
+      "notes": "Cùng mặt chữ với hsk1-0065 (de: (trợ từ, đứng trước động từ: một cách…)) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk1-0070",
@@ -1586,7 +1587,8 @@
       },
       "traditional": "幹",
       "syllabus2025": true,
-      "syllabus2025_level": 3
+      "syllabus2025_level": 3,
+      "notes": "Cùng mặt chữ với hsk1-0111 (gān: khô) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk1-0113",
@@ -2164,7 +2166,8 @@
       },
       "traditional": "還",
       "syllabus2025": true,
-      "syllabus2025_level": 1
+      "syllabus2025_level": 1,
+      "notes": "Cùng mặt chữ với hsk1-0132 (hái: còn, vẫn) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk1-0154",

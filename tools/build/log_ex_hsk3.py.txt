@@ -1,0 +1,9 @@
+hsk3-de1 questions: 70
+  L1 match_image 10 {'E': 2, 'C': 2, 'A': 2, 'B': 2, 'D': 2}
+  L2 choose_option 10 {'A': 4, 'B': 4, 'C': 2}
+  L3 choose_option 10 {'C': 3, 'B': 4, 'A': 3}
+  R1 match_sentence 10 {'C': 2, 'A': 2, 'B': 2, 'D': 2, 'E': 2}
+  R2 fill_blank_wordbank 10 {'C': 2, 'A': 2, 'B': 2, 'D': 2, 'F': 1, 'E': 1}
+  R3 choose_option 10 {'B': 4, 'C': 2, 'A': 4}
+  W1 write_hanzi_from_pinyin 5 {'完': 1, '单': 1, '史': 1, '护': 1, '越': 1}
+  W2 write_sentence 5 {'None': 5}

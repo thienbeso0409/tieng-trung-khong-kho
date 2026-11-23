@@ -361,7 +361,7 @@
                       {
                         "speaker": "女",
                         "text": "下个星期就要考试了，你复习得怎么样？",
-                        "pinyin": "xià gè xīngqī jiùyào kǎoshì le, nǐ fùxí de zěnmeyàng?"
+                        "pinyin": "xià ge xīngqī jiùyào kǎoshì le, nǐ fùxí de zěnmeyàng?"
                       },
                       {
                         "speaker": "男",
@@ -593,7 +593,7 @@
                       {
                         "speaker": "女",
                         "text": "对不起，我的手表慢了十分钟。",
-                        "pinyin": "duìbuqǐ, wǒ de shǒubiǎo màn le shífēn zhōng."
+                        "pinyin": "duìbuqǐ, wǒ de shǒubiǎo màn le shí fēnzhōng."
                       },
                       {
                         "speaker": "旁白",
@@ -923,7 +923,7 @@
                       {
                         "speaker": "女",
                         "text": "好多了，医生说下个星期就能出院了。",
-                        "pinyin": "hǎoduō le, yīshēng shuō xià gè xīngqī jiù néng chūyuàn le."
+                        "pinyin": "hǎoduō le, yīshēng shuō xià ge xīngqī jiù néng chūyuàn le."
                       },
                       {
                         "speaker": "旁白",
@@ -1373,7 +1373,7 @@
                       "key": "C",
                       "text": {
                         "zh": "她已经还了",
-                        "pinyin": "tā yǐjing hái le"
+                        "pinyin": "tā yǐjing huán le"
                       }
                     }
                   ],
@@ -1535,7 +1535,7 @@
                   "key": "E",
                   "text": {
                     "zh": "他去上海了，下个星期回来。",
-                    "pinyin": "tā qù Shànghǎi le, xià gè xīngqī huílái."
+                    "pinyin": "tā qù Shànghǎi le, xià ge xīngqī huílái."
                   }
                 },
                 {
@@ -2152,7 +2152,7 @@
               "shared_options": null,
               "passage": {
                 "zh": "我家附近新开了一家超市，东西很多，价格也比较便宜。超市晚上十点才关门，所以我下班以后常常去那儿买东西。上个星期，我在那儿还遇到了我的老同学。",
-                "pinyin": "wǒ jiā fùjìn xīn kāi le yì jiā chāoshì, dōngxi hěn duō, jiàgé yě bǐjiào piányi. chāoshì wǎnshang shí diǎn cái guān mén, suǒyǐ wǒ xiàbān yǐhòu chángcháng qù nàr mǎi dōngxi. shàng gè xīngqī, wǒ zài nàr hái yùdào le wǒ de lǎo tóngxué."
+                "pinyin": "wǒ jiā fùjìn xīn kāi le yì jiā chāoshì, dōngxi hěn duō, jiàgé yě bǐjiào piányi. chāoshì wǎnshang shí diǎn cái guān mén, suǒyǐ wǒ xiàbān yǐhòu chángcháng qù nàr mǎi dōngxi. shàng ge xīngqī, wǒ zài nàr hái yùdào le wǒ de lǎo tóngxué."
               },
               "questions": [
                 {
@@ -2197,7 +2197,7 @@
                   "passage": null,
                   "question": {
                     "zh": "★ 上个星期，他在超市：",
-                    "pinyin": "★ shàng gè xīngqī, tā zài chāoshì:"
+                    "pinyin": "★ shàng ge xīngqī, tā zài chāoshì:"
                   },
                   "options": [
                     {

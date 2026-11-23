@@ -1,0 +1,3 @@
+hsk1: 500 words, 468 examples (93%)
+hsk2: 772 words, 485 examples (62%)
+hsk3: 973 words, 578 examples (59%)

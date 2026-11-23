@@ -1,0 +1,8 @@
+1 wp1-reorder 12
+1 wp1-hanzi 10
+2 wp2-component 12
+2 wp2-hanzi 10
+2 wp2-reorder 10
+3 wp3-hanzi 16
+3 wp3-sentence 11
+3 wp3-reorder 15

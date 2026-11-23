@@ -1329,7 +1329,8 @@
         "zh": "我给你倒一杯茶。",
         "pinyin": "wǒ gěi nǐ dào yì bēi chá.",
         "vi": "Tôi rót cho bạn một cốc trà."
-      }
+      },
+      "notes": "Cùng mặt chữ với hsk2-0101 (dǎo: đổ, ngã) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk2-0103",
@@ -1499,7 +1500,8 @@
         "vi": "Cô ấy nói tiếng Trung rất giỏi."
       },
       "syllabus2025": true,
-      "syllabus2025_level": 2
+      "syllabus2025_level": 2,
+      "notes": "Cùng mặt chữ với hsk2-0115 (dé: được, đạt được) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk2-0117",
@@ -1545,7 +1547,8 @@
       "pos": "trợ từ, danh từ",
       "meaning_vi": "vân vân; v.v.",
       "syllabus2025": true,
-      "syllabus2025_level": 2
+      "syllabus2025_level": 2,
+      "notes": "Cùng mặt chữ với hsk1-0068 (děng: đợi, chờ) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk2-0121",
@@ -1810,7 +1813,8 @@
       "meaning_vi": "đôi, cặp; đối với",
       "traditional": "對",
       "syllabus2025": true,
-      "syllabus2025_level": 1
+      "syllabus2025_level": 1,
+      "notes": "Cùng mặt chữ với hsk1-0091 (duì: đúng; đối với) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk2-0143",
@@ -1878,7 +1882,8 @@
         "vi": "Anh ấy hơn ba mươi tuổi."
       },
       "syllabus2025": true,
-      "syllabus2025_level": 1
+      "syllabus2025_level": 1,
+      "notes": "Cùng mặt chữ với hsk1-0093 (duō: nhiều) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk2-0148",
@@ -2095,7 +2100,8 @@
         "vi": "Chúng ta chia thành hai nhóm."
       },
       "syllabus2025": true,
-      "syllabus2025_level": 1
+      "syllabus2025_level": 1,
+      "notes": "Cùng mặt chữ với hsk1-0109 (fēn: phút; điểm; xu (1/100 tệ)) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk2-0165",
@@ -2154,7 +2160,7 @@
       "meaning_vi": "phút",
       "example": {
         "zh": "我等了你二十分钟。",
-        "pinyin": "wǒ děng le nǐ èr shífēn zhōng.",
+        "pinyin": "wǒ děng le nǐ èrshí fēnzhōng.",
         "vi": "Tôi đã đợi bạn hai mươi phút."
       },
       "traditional": "分鐘",
@@ -2625,7 +2631,8 @@
       },
       "traditional": "過",
       "syllabus2025": true,
-      "syllabus2025_level": 2
+      "syllabus2025_level": 2,
+      "notes": "Cùng mặt chữ với hsk1-0129 (guò: qua, trải qua; sống) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk2-0205",
@@ -2757,7 +2764,8 @@
         "vi": "Câu hỏi này rất dễ trả lời."
       },
       "syllabus2025": true,
-      "syllabus2025_level": 1
+      "syllabus2025_level": 1,
+      "notes": "Cùng mặt chữ với hsk1-0138 (hǎo: tốt, hay, ngon) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk2-0215",
@@ -2974,7 +2982,8 @@
         "vi": "Tôi đã tiêu một trăm tệ."
       },
       "syllabus2025": true,
-      "syllabus2025_level": 2
+      "syllabus2025_level": 2,
+      "notes": "Cùng mặt chữ với hsk1-0150 (huā: hoa; tiêu (tiền)) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk2-0231",
@@ -3115,7 +3124,8 @@
         "vi": "Anh ấy vẫn chưa trả lời tin nhắn của tôi."
       },
       "syllabus2025": true,
-      "syllabus2025_level": 1
+      "syllabus2025_level": 1,
+      "notes": "Cùng mặt chữ với hsk1-0154 (huí: về; quay lại; lần (lượng từ)) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk2-0242",
@@ -3130,7 +3140,8 @@
       },
       "traditional": "會",
       "syllabus2025": true,
-      "syllabus2025_level": 1
+      "syllabus2025_level": 1,
+      "notes": "Cùng mặt chữ với hsk1-0155 (huì: biết (làm gì); sẽ) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk2-0243",
@@ -3265,7 +3276,7 @@
       "pinyin": "jiā",
       "pos": "trợ từ",
       "meaning_vi": "nhà (chuyên gia: 科学家, 画家)",
-      "notes": "Ví dụ dùng: 科学家; Phụ tố (词缀)",
+      "notes": "Ví dụ dùng: 科学家; Phụ tố (词缀); Cùng mặt chữ với hsk1-0164 (jiā: nhà, gia đình) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng).",
       "syllabus2025": true,
       "syllabus2025_level": 1
     },
@@ -4322,7 +4333,8 @@
       "pos": "phó từ",
       "meaning_vi": "luôn, cứ; lão (tiền tố)",
       "syllabus2025": true,
-      "syllabus2025_level": 3
+      "syllabus2025_level": 3,
+      "notes": "Cùng mặt chữ với hsk1-0207 (lǎo: già, cũ) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk2-0340",
@@ -4332,10 +4344,10 @@
       "meaning_vi": "lão (đặt trước họ để gọi thân mật: 老王)",
       "example": {
         "zh": "老王是我的同事。",
-        "pinyin": "lǎo wáng shì wǒ de tóngshì.",
+        "pinyin": "Lǎo Wáng shì wǒ de tóngshì.",
         "vi": "Lão Vương là đồng nghiệp của tôi."
       },
-      "notes": "Ví dụ dùng: 老王; Phụ tố (词缀)",
+      "notes": "Ví dụ dùng: 老王; Phụ tố (词缀); Cùng mặt chữ với hsk1-0207 (lǎo: già, cũ) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng).",
       "syllabus2025": true,
       "syllabus2025_level": 3
     },
@@ -4426,7 +4438,8 @@
       "meaning_vi": "lạng (50 gam)",
       "traditional": "兩",
       "syllabus2025": true,
-      "syllabus2025_level": 1
+      "syllabus2025_level": 1,
+      "notes": "Cùng mặt chữ với hsk1-0214 (liǎng: hai (dùng trước lượng từ)) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk2-0349",
@@ -4776,7 +4789,8 @@
         "vi": "Tôi muốn ăn một bát mì."
       },
       "syllabus2025": true,
-      "syllabus2025_level": 2
+      "syllabus2025_level": 2,
+      "notes": "Cùng mặt chữ với hsk2-0377 (miàn: mặt; phía) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk2-0379",
@@ -4850,7 +4864,8 @@
         "vi": "Vậy thì mai gặp nhé."
       },
       "syllabus2025": true,
-      "syllabus2025_level": 1
+      "syllabus2025_level": 1,
+      "notes": "Cùng mặt chữ với hsk1-0251 (nà: kia, đó) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk2-0386",
@@ -5827,7 +5842,8 @@
       "hanzi": "省",
       "pinyin": "shěng",
       "pos": "động từ",
-      "meaning_vi": "tiết kiệm"
+      "meaning_vi": "tiết kiệm",
+      "notes": "Cùng mặt chữ với hsk2-0477 (shěng: tỉnh) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk2-0479",
@@ -5976,7 +5992,8 @@
         "pinyin": "wǒ shízài tài lèi le.",
         "vi": "Tôi thật sự mệt quá."
       },
-      "traditional": "實在"
+      "traditional": "實在",
+      "notes": "Cùng mặt chữ với hsk2-0491 (shízai: thật thà, chân thật) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk2-0493",
@@ -6625,7 +6642,7 @@
       "pinyin": "tou",
       "pos": "trợ từ",
       "meaning_vi": "(hậu tố, đọc nhẹ: 里头, 外头)",
-      "notes": "Ví dụ dùng: 里头; Phụ tố (词缀)",
+      "notes": "Ví dụ dùng: 里头; Phụ tố (词缀); Cùng mặt chữ với hsk2-0549 (tóu: đầu) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng).",
       "syllabus2025": true,
       "syllabus2025_level": 2
     },
@@ -6965,7 +6982,8 @@
       "pos": "lượng từ",
       "meaning_vi": "lần, cái (lượng từ chỉ động tác)",
       "syllabus2025": true,
-      "syllabus2025_level": 1
+      "syllabus2025_level": 1,
+      "notes": "Cùng mặt chữ với hsk1-0386 (xià: dưới; xuống; sau, tới) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk2-0582",
@@ -7076,7 +7094,7 @@
         "pinyin": "Xiǎo Wáng, nǐ lái yíxià.",
         "vi": "Tiểu Vương, cậu lại đây một chút."
       },
-      "notes": "Ví dụ dùng: 小王; Phụ tố (词缀)",
+      "notes": "Ví dụ dùng: 小王; Phụ tố (词缀); Cùng mặt chữ với hsk1-0396 (xiǎo: nhỏ, bé) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng).",
       "syllabus2025": true,
       "syllabus2025_level": 1
     },
@@ -7746,7 +7764,8 @@
       "meaning_vi": "một lát (nữa)",
       "traditional": "一會兒",
       "syllabus2025": true,
-      "syllabus2025_level": 2
+      "syllabus2025_level": 2,
+      "notes": "Cùng mặt chữ với hsk1-0432 (yīhuìr: một lát, một chút) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk2-0654",
@@ -8403,7 +8422,8 @@
         "vi": "Ga tiếp theo là ga Bắc Kinh."
       },
       "syllabus2025": true,
-      "syllabus2025_level": 2
+      "syllabus2025_level": 2,
+      "notes": "Cùng mặt chữ với hsk1-0461 (zhàn: đứng; trạm, ga) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk2-0714",
@@ -8413,7 +8433,8 @@
       "meaning_vi": "lớn lên; mọc",
       "traditional": "長",
       "syllabus2025": true,
-      "syllabus2025_level": 2
+      "syllabus2025_level": 2,
+      "notes": "Cùng mặt chữ với hsk2-0055 (cháng: dài) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk2-0715",

@@ -89,7 +89,8 @@
         "vi": "Tôi đã mua một cái ghế."
       },
       "syllabus2025": true,
-      "syllabus2025_level": 3
+      "syllabus2025_level": 3,
+      "notes": "Cùng mặt chữ với hsk3-0006 (bǎ: (giới từ đưa tân ngữ lên trước động từ)) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0008",
@@ -101,7 +102,8 @@
         "zh": "我白等了一个小时。",
         "pinyin": "wǒ bái děng le yí ge xiǎoshí.",
         "vi": "Tôi đợi uổng công một tiếng."
-      }
+      },
+      "notes": "Cùng mặt chữ với hsk1-0006 (bái: trắng) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0009",
@@ -341,14 +343,16 @@
         "zh": "他背着一个大包。",
         "pinyin": "tā bèizhe yí ge dà bāo.",
         "vi": "Anh ấy đeo một cái ba lô to."
-      }
+      },
+      "notes": "Cùng mặt chữ với hsk2-0016 (bèi: học thuộc lòng; lưng) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0029",
       "hanzi": "背",
       "pinyin": "bèi",
       "pos": "danh từ",
-      "meaning_vi": "mặt sau; lưng"
+      "meaning_vi": "mặt sau; lưng",
+      "notes": "Cùng mặt chữ với hsk2-0016 (bèi: học thuộc lòng; lưng) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0030",
@@ -1101,7 +1105,8 @@
       "hanzi": "重",
       "pinyin": "chóng",
       "pos": "phó từ",
-      "meaning_vi": "lại, lần nữa (chóng)"
+      "meaning_vi": "lại, lần nữa (chóng)",
+      "notes": "Cùng mặt chữ với hsk1-0477 (zhòng: nặng) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0101",
@@ -1134,7 +1139,7 @@
         "pinyin": "jīntiān shì zhèng yuè chū yī.",
         "vi": "Hôm nay là mùng một tháng Giêng."
       },
-      "notes": "Ví dụ dùng: 初一; Phụ tố (词缀)"
+      "notes": "Ví dụ dùng: 初一; Phụ tố (词缀); Cùng mặt chữ với hsk3-0102 (chū: đầu (thời kỳ); sơ) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0104",
@@ -2970,7 +2975,8 @@
       "meaning_vi": "(bổ ngữ xu hướng) qua đó",
       "traditional": "過去",
       "syllabus2025": true,
-      "syllabus2025_level": 2
+      "syllabus2025_level": 2,
+      "notes": "Cùng mặt chữ với hsk2-0208 (guòqù: đi qua; trước đây, quá khứ) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0277",
@@ -3045,7 +3051,8 @@
       "pos": "lượng từ",
       "meaning_vi": "hàng, dòng; nghề",
       "syllabus2025": true,
-      "syllabus2025_level": 3
+      "syllabus2025_level": 3,
+      "notes": "Cùng mặt chữ với hsk1-0411 (xíng: được, ổn) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0284",
@@ -3539,7 +3546,8 @@
         "vi": "Mẹ bảo tôi đi mua đồ."
       },
       "syllabus2025": true,
-      "syllabus2025_level": 1
+      "syllabus2025_level": 1,
+      "notes": "Cùng mặt chữ với hsk1-0170 (jiào: gọi; tên là) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0330",
@@ -3986,7 +3994,8 @@
       "hanzi": "精神",
       "pinyin": "jīngshén",
       "pos": "danh từ",
-      "meaning_vi": "tinh thần"
+      "meaning_vi": "tinh thần",
+      "notes": "Cùng mặt chữ với hsk3-0370 (jīngshen: tỉnh táo, sảng khoái) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0372",
@@ -4837,7 +4846,8 @@
         "vi": "Nhiều món thế này tôi ăn không hết."
       },
       "syllabus2025": true,
-      "syllabus2025_level": 1
+      "syllabus2025_level": 1,
+      "notes": "Cùng mặt chữ với hsk1-0210 (le: rồi, đã (trợ từ)) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0447",
@@ -5169,7 +5179,8 @@
       "pos": "danh từ",
       "meaning_vi": "lông",
       "syllabus2025": true,
-      "syllabus2025_level": 3
+      "syllabus2025_level": 3,
+      "notes": "Cùng mặt chữ với hsk1-0230 (máo: hào (1/10 tệ, khẩu ngữ); lông) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0476",
@@ -5286,7 +5297,8 @@
       "pos": "danh từ",
       "meaning_vi": "gạo",
       "syllabus2025": true,
-      "syllabus2025_level": 3
+      "syllabus2025_level": 3,
+      "notes": "Cùng mặt chữ với hsk2-0376 (mǐ: mét; gạo) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0488",
@@ -5643,7 +5655,8 @@
       "pos": "phó từ",
       "meaning_vi": "e là, sợ rằng",
       "syllabus2025": true,
-      "syllabus2025_level": 3
+      "syllabus2025_level": 3,
+      "notes": "Cùng mặt chữ với hsk2-0405 (pà: sợ) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0522",
@@ -5662,7 +5675,8 @@
       "hanzi": "排",
       "pinyin": "pái",
       "pos": "động từ",
-      "meaning_vi": "xếp (theo thứ tự)"
+      "meaning_vi": "xếp (theo thứ tự)",
+      "notes": "Cùng mặt chữ với hsk2-0406 (pái: xếp hàng; hàng) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0524",
@@ -6376,7 +6390,8 @@
       "hanzi": "任",
       "pinyin": "rèn",
       "pos": "liên từ",
-      "meaning_vi": "mặc cho, tùy"
+      "meaning_vi": "mặc cho, tùy",
+      "notes": "Cùng mặt chữ với hsk3-0587 (rèn: đảm nhiệm) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0589",
@@ -6773,7 +6788,8 @@
       "hanzi": "生",
       "pinyin": "shēng",
       "pos": "tính từ",
-      "meaning_vi": "sinh, đẻ"
+      "meaning_vi": "sinh, đẻ",
+      "notes": "Cùng mặt chữ với hsk2-0476 (shēng: sinh ra; sống; sống (chưa chín)) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0627",
@@ -7585,7 +7601,8 @@
       "pinyin": "tiáo",
       "pos": "động từ",
       "meaning_vi": "điều chỉnh; pha",
-      "traditional": "調"
+      "traditional": "調",
+      "notes": "Cùng mặt chữ với hsk3-0151 (diào: điều chuyển; giọng điệu) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0703",
@@ -7721,7 +7738,7 @@
       "meaning_vi": "đưa lên sớm hơn, trước",
       "example": {
         "zh": "我们提前十分钟到了。",
-        "pinyin": "wǒmen tíqián shífēn zhōng dào le.",
+        "pinyin": "wǒmen tíqián shí fēnzhōng dào le.",
         "vi": "Chúng tôi đến sớm mười phút."
       }
     },
@@ -7819,7 +7836,8 @@
       "meaning_vi": "đầu tiên; con (lượng từ cho gia súc)",
       "traditional": "頭",
       "syllabus2025": true,
-      "syllabus2025_level": 2
+      "syllabus2025_level": 2,
+      "notes": "Cùng mặt chữ với hsk2-0549 (tóu: đầu) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0725",
@@ -8071,7 +8089,8 @@
       "meaning_vi": "làm, là (wéi)",
       "traditional": "為",
       "syllabus2025": true,
-      "syllabus2025_level": 3
+      "syllabus2025_level": 3,
+      "notes": "Cùng mặt chữ với hsk2-0570 (wèi: vì, cho) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0750",
@@ -8081,7 +8100,8 @@
       "meaning_vi": "được (bị động: 为……所)",
       "traditional": "為",
       "syllabus2025": true,
-      "syllabus2025_level": 3
+      "syllabus2025_level": 3,
+      "notes": "Cùng mặt chữ với hsk2-0570 (wèi: vì, cho) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0751",
@@ -8617,7 +8637,8 @@
       "pos": "động từ",
       "meaning_vi": "tin, tin tưởng",
       "syllabus2025": true,
-      "syllabus2025_level": 3
+      "syllabus2025_level": 3,
+      "notes": "Cùng mặt chữ với hsk2-0609 (xìn: thư; tin) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0800",
@@ -9559,7 +9580,8 @@
       "pos": "tính từ",
       "meaning_vi": "chính, ngay ngắn",
       "syllabus2025": true,
-      "syllabus2025_level": 2
+      "syllabus2025_level": 2,
+      "notes": "Cùng mặt chữ với hsk1-0470 (zhèng: đúng; đang) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0889",
@@ -9714,7 +9736,8 @@
       },
       "traditional": "隻",
       "syllabus2025": true,
-      "syllabus2025_level": 1
+      "syllabus2025_level": 1,
+      "notes": "Cùng mặt chữ với hsk2-0729 (zhǐ: chỉ) nhưng là mục từ riêng trong danh sách chính thức (khác nghĩa/cách đọc/cách dùng)."
     },
     {
       "id": "hsk3-0903",

@@ -1,0 +1,6 @@
+items 78 Counter({('3', True): 15, ('3', False): 11, ('4', False): 10, ('5', False): 10, ('6', False): 10, ('4', True): 5, ('5', True): 5, ('6', True): 5, ('7-9', True): 5, ('7-9', False): 2})
+hsk3-de1-speaking 15
+hsk4-de1-speaking 5
+hsk5-de1-speaking 5
+hsk6-de1-speaking 5
+hsk7-9-de1-speaking 5
