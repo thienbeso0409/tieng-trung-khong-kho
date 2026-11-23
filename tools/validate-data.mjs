@@ -567,7 +567,11 @@ function checkShadowing(rel) {
         if (typeof it.youtube.verified !== 'boolean') err(f, `${where}: youtube.verified phải là boolean`);
       }
     } else if (it.youtube != null) err(f, `${where}: tts phải có youtube: null`);
-    if (!Array.isArray(it.segments) || !it.segments.length) return err(f, `${where}: segments rỗng`);
+    if (!Array.isArray(it.segments)) return err(f, `${where}: segments phải là mảng`);
+    if (!it.segments.length) {
+      if (it.source === 'youtube' && it.auto_segments === true) return; // web tạo câu bằng AI (A.7)
+      return err(f, `${where}: segments rỗng (YouTube chưa có mốc thời gian thì đặt auto_segments: true)`);
+    }
     it.segments.forEach((s, i) => {
       const sw = `${where} seg[${i}]`;
       if (!isStr(s.hanzi) || !isStr(s.pinyin) || !isStr(s.vi)) err(f, `${sw}: thiếu hanzi/pinyin/vi`);
@@ -630,6 +634,23 @@ function checkPractice(rel, level) {
   });
 }
 
+function checkRadicals(rel) {
+  const d = loadJSON(rel, rel, true); if (!d) return;
+  const f = rel;
+  if (!Array.isArray(d.radicals) || !d.radicals.length) return err(f, 'radicals rỗng');
+  const set = new Set();
+  d.radicals.forEach((r, i) => {
+    const w = `bộ #${i + 1} (${r?.radical})`;
+    if (!isStr(r.radical)) err(f, `${w}: thiếu radical`);
+    if (set.has(r.radical)) err(f, `${w}: trùng`); set.add(r.radical);
+    if (!Number.isInteger(r.strokes)) err(f, `${w}: strokes phải là số nguyên`);
+    if (!isStr(r.meaning_vi)) warn(f, `${w}: thiếu meaning_vi`);
+    if (r.variants != null && !Array.isArray(r.variants)) err(f, `${w}: variants phải là mảng`);
+  });
+  for (const [k, v] of Object.entries(d.variant_to_radical || {})) if (!set.has(v)) err(f, `variant_to_radical["${k}"] = "${v}" không có trong radicals`);
+  for (const [k, v] of Object.entries(d.char_radical_override || {})) if (!set.has(v)) err(f, `char_radical_override["${k}"] = "${v}" không có trong radicals`);
+}
+
 // ---------- Main ----------
 console.log(`Kiểm tra dữ liệu: ${DATA_DIR}`);
 const idx = loadJSON('index.json');
@@ -662,6 +683,7 @@ if (idx) {
       checkExam(ex.file, ex, lv.level);
     }
   }
+  if (idx.radicals) checkRadicals(idx.radicals);
   const sp = idx.speaking || {};
   if (sp.topics) checkTopics(sp.topics); else warn('index.json', 'thiếu speaking.topics');
   if (sp.hskk) checkHskk(sp.hskk); else warn('index.json', 'thiếu speaking.hskk');

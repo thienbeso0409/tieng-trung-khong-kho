@@ -1,5 +1,6 @@
 // Shadowing: nghe mẫu (TTS hoặc YouTube) → nhại theo → ghi âm, nhận dạng, tô màu chữ đúng/sai.
 import { h, clear, pageHead, notice, toast, icon, emptyState, confirmDialog, loadScript } from '../ui.js';
+import { generate, aiAvailable, sharedAvailable, ytSearch } from '../gemini.js';
 import { getSpeaking, sameLevel, levelKey } from '../data.js';
 import { load, save, updateProgress, pushLimited } from '../storage.js';
 import { speak, stopSpeaking, ttsSupported } from '../tts.js';
@@ -11,6 +12,54 @@ import { dataProblem } from './common.js';
 const USER_KEY = 'shadowing:user';
 export const loadUser = () => { const v = load(USER_KEY, []); return Array.isArray(v) ? v : []; };
 const saveUser = (items) => save(USER_KEY, items);
+// Câu do AI tạo cho từng video (theo videoId) — không gọi AI lại lần sau
+const AI_KEY = 'shadowing:ai';
+const loadAI = () => { const v = load(AI_KEY, {}); return v && typeof v === 'object' && !Array.isArray(v) ? v : {}; };
+const saveAI = (m) => save(AI_KEY, m);
+
+export function parseClock(s) {
+  const t = String(s || '').trim();
+  if (/^\d+(\.\d+)?$/.test(t)) return Number(t);
+  const m = /^(?:(\d+):)?(\d{1,2}):(\d{1,2}(?:\.\d+)?)$/.exec(t);
+  return m ? (Number(m[1] || 0) * 3600 + Number(m[2]) * 60 + Number(m[3])) : null;
+}
+export const fmtClock = (sec) => { sec = Math.max(0, Math.round(sec)); const m = Math.floor(sec / 60), s = sec % 60; return `${m}:${String(s).padStart(2, '0')}`; };
+
+// Gemini nghe video YouTube (file_data) và chia câu shadowing
+export function cleanSegments(raw, from, to) {
+  let segs = (Array.isArray(raw) ? raw : []).map((x) => ({ start: Number(x.start), end: Number(x.end), hanzi: String(x.hanzi || '').trim(), pinyin: String(x.pinyin || '').trim(), vi: String(x.vi || '').trim() }))
+    .filter((x) => x.hanzi && /[\u3400-\u9fff]/.test(x.hanzi) && Number.isFinite(x.start) && Number.isFinite(x.end) && x.end > x.start);
+  // Một số model trả mốc tính từ đầu đoạn cắt → cộng thêm `from`
+  if (from > 0 && segs.length && segs.every((x) => x.end <= to - from + 3) && Math.min(...segs.map((x) => x.start)) < from - 1) segs = segs.map((x) => ({ ...x, start: x.start + from, end: x.end + from }));
+  segs = segs.map((x) => ({ ...x, start: Math.round(x.start * 10) / 10, end: Math.round(Math.min(x.end, x.start + 20) * 10) / 10 })).sort((a, b) => a.start - b.start).slice(0, 40);
+  return segs;
+}
+
+async function aiSegments(videoId, from, to) {
+  const prompt = [
+    `Đây là một video YouTube. Hãy nghe phần lời nói tiếng Trung (Quan thoại) từ giây ${from} đến giây ${to}.`,
+    'Chia lời nói thành các câu ngắn, mỗi câu dài 3–12 giây, phù hợp để người Việt luyện shadowing (nhại theo). Tối đa 40 câu.',
+    'Với mỗi câu ghi: start, end = số giây (số thực) TÍNH TỪ ĐẦU VIDEO; hanzi = đúng lời nói, chữ giản thể, có dấu câu; pinyin = pinyin có dấu thanh; vi = dịch tiếng Việt tự nhiên.',
+    'Mốc thời gian phải khớp chính xác lúc câu bắt đầu và kết thúc được nói. Không bịa nội dung không có trong video.',
+    'Nếu đoạn video không có lời nói tiếng Trung hoặc bạn không xem được video, trả về segments rỗng và giải thích ngắn bằng tiếng Việt trong error_vi.',
+    'Trả về DUY NHẤT JSON: {"title": "tiêu đề ngắn tiếng Việt", "segments": [{"start": 12.3, "end": 16.8, "hanzi": "…", "pinyin": "…", "vi": "…"}], "error_vi": null}',
+  ].join('\n');
+  const contents = [{ role: 'user', parts: [
+    { fileData: { fileUri: `https://www.youtube.com/watch?v=${videoId}` }, videoMetadata: { startOffset: `${Math.floor(from)}s`, endOffset: `${Math.ceil(to)}s` } },
+    { text: prompt },
+  ] }];
+  let r;
+  try { r = await generate({ contents, temperature: 0.2, maxTokens: 16384 }); }
+  catch (e) {
+    const m = e.message || '';
+    if (/private|not found|unavailable|could not|cannot access|invalid.*(url|uri)|INVALID_ARGUMENT.*(file|uri)/i.test(m)) throw new Error('AI không mở được video này (video riêng tư, bị giới hạn hoặc không tồn tại). Hãy thử video công khai khác.');
+    if (/token|too (long|large)|exceed|limit/i.test(m) && e.status !== 429) throw new Error('Đoạn video quá dài so với hạn mức AI. Hãy chọn đoạn ngắn hơn (khoảng 1–3 phút).');
+    throw e;
+  }
+  const segs = cleanSegments(Array.isArray(r) ? r : r?.segments, from, to);
+  if (!segs.length) throw new Error(r?.error_vi || 'AI không tìm thấy lời nói tiếng Trung trong đoạn này. Hãy chọn đoạn khác hoặc video khác.');
+  return { segments: segs, title: r?.title };
+}
 
 export function parseYouTube(input) {
   const s = String(input || '').trim();
@@ -45,42 +94,159 @@ export async function render(root, params, ctx) {
   let showUnverified = false;
   let cleanup = null;
 
+  const ytItem = (meta) => ({ id: 'yt-' + meta.videoId, level: meta.level ?? (/^\d+$/.test(String(ctx.level)) ? Number(ctx.level) : ctx.level), title: meta.title || 'Video YouTube', source: 'youtube', youtube: { videoId: meta.videoId, verified: false, channel: meta.channel || '', url: `https://www.youtube.com/watch?v=${meta.videoId}` }, segments: [] });
+  const openItem = (it) => {
+    cleanup?.(); cleanup = null;
+    if (it.source === 'youtube' && !(it.segments || []).length) { const cached = loadAI()[it.youtube.videoId]; if (cached?.segments?.length) it = cached; else { workspace(it); return; } }
+    cleanup = player(body, it, listView, { onEdit: (x) => editor(x, true), onRegen: it.source === 'youtube' ? () => workspace(it, true) : null });
+  };
+
   const listView = () => {
     cleanup?.(); cleanup = null;
     clear(body);
     if (err) body.append(h('div', { style: { marginBottom: '14px' } }, dataProblem(err, 'Bài shadowing có sẵn')));
-    const builtIn = (data.items || []).filter((it) => it.source !== 'youtube' || it.youtube?.verified === true || showUnverified);
-    const levels = [...new Set((data.items || []).map((i) => String(i.level)))];
+    const all = data.items || [];
+    const levels = [...new Set(all.map((i) => String(i.level)))];
     body.append(h('div', { class: 'row between', style: { marginBottom: '12px' } },
       h('div', { class: 'level-strip', style: { margin: 0 } },
         h('button', { class: `level-chip${filterLevel === 'all' ? ' on' : ''}`, onclick: () => { filterLevel = 'all'; listView(); } }, 'Tất cả'),
         ctx.levels.filter((l) => levels.some((x) => sameLevel(x, levelKey(l)))).map((l) => h('button', { class: `level-chip${filterLevel === levelKey(l) ? ' on' : ''}`, onclick: () => { filterLevel = levelKey(l); listView(); } }, l.name_vi))),
-      h('button', { class: 'btn primary', onclick: () => editor(null) }, '+ Thêm bài của tôi')));
-    body.append(h('label', { class: 'small', style: { display: 'block', marginBottom: '12px' } }, h('input', { type: 'checkbox', checked: showUnverified, onchange: (e) => { showUnverified = e.target.checked; listView(); } }), ' Hiện cả video YouTube chưa xác minh'));
+      h('button', { class: 'btn primary', onclick: () => editor(null) }, '+ Tự soạn bài')));
+    const byLevel = (it) => filterLevel === 'all' || sameLevel(it.level, filterLevel);
+
+    // 1) Tìm / dán video
+    body.append(searchCard());
+
+    // 2) Thư viện video
+    const vids = all.filter((it) => it.source === 'youtube' && it.youtube?.videoId && (it.youtube.verified === true || showUnverified)).filter(byLevel);
+    body.append(h('div', { class: 'section-title' }, h('h2', null, 'Thư viện video')));
+    body.append(h('label', { class: 'small', style: { display: 'block', marginBottom: '12px' } }, h('input', { type: 'checkbox', checked: showUnverified, onchange: (e) => { showUnverified = e.target.checked; listView(); } }), ' Hiện cả video chưa xác minh'));
+    body.append(vids.length ? h('div', { class: 'grid c3' }, vids.map((it) => videoCard({ videoId: it.youtube.videoId, title: it.title, channel: it.youtube.channel, level: it.level, count: (it.segments || []).length, unverified: it.youtube.verified === false }, () => openItem(it))))
+      : h('p', { class: 'muted' }, 'Chưa có video cho bộ lọc này — hãy tìm hoặc dán link YouTube ở trên.'));
+
+    // 3) Bài của tôi + video đã tạo câu bằng AI
     const mine = loadUser();
-    if (mine.length) {
+    const ai = Object.values(loadAI());
+    if (mine.length || ai.length) {
       body.append(h('div', { class: 'section-title' }, h('h2', null, 'Bài của tôi')));
-      body.append(h('div', { class: 'grid c3' }, mine.map((it) => itemCard(it, true))));
+      body.append(h('div', { class: 'grid c3' }, mine.map((it) => itemCard(it, 'mine')), ai.map((it) => itemCard(it, 'ai'))));
     }
-    body.append(h('div', { class: 'section-title' }, h('h2', null, 'Bài có sẵn')));
-    const shown = builtIn.filter((it) => filterLevel === 'all' || sameLevel(it.level, filterLevel));
-    body.append(shown.length ? h('div', { class: 'grid c3' }, shown.map((it) => itemCard(it, false))) : emptyState('影', 'Chưa có bài cho bộ lọc này.'));
+    // 4) Bài giọng máy
+    const tts = all.filter((it) => it.source !== 'youtube').filter(byLevel);
+    body.append(h('div', { class: 'section-title' }, h('h2', null, 'Bài giọng máy đọc')));
+    body.append(tts.length ? h('div', { class: 'grid c3' }, tts.map((it) => itemCard(it, null))) : emptyState('影', 'Chưa có bài cho bộ lọc này.'));
   };
 
-  const itemCard = (it, mine) => h('div', { class: 'card topic-card', style: { cursor: 'default' } },
+  const videoCard = (v, onOpen) => h('button', { class: 'card vcard', onclick: onOpen },
+    h('div', { class: 'thumb' }, h('img', { src: `https://i.ytimg.com/vi/${v.videoId}/mqdefault.jpg`, alt: '', loading: 'lazy', onerror: (e) => { e.target.style.visibility = 'hidden'; } }), h('span', { class: 'play' }, '▶')),
+    h('div', { class: 'vbody' },
+      h('div', { class: 'row', style: { gap: '6px' } }, v.level != null ? h('span', { class: 'badge red' }, `HSK ${v.level}`) : null, v.count ? h('span', { class: 'badge' }, `${v.count} câu`) : h('span', { class: 'badge gold' }, 'chưa có câu'), v.unverified ? h('span', { class: 'badge gold' }, 'chưa xác minh') : null),
+      h('div', { class: 'vtitle' }, v.title),
+      v.channel ? h('div', { class: 'small muted' }, v.channel) : null));
+
+  const SUGGEST = { 1: ['HSK 1 听力', '中文 慢速 对话 初级', '学中文 儿歌'], 2: ['HSK 2 听力', '中文 慢速 对话', '学中文 日常用语'], 3: ['HSK 3 听力', '中文 慢速 对话', '中文 日常 口语'], 4: ['HSK 4 听力', '中文 日常 对话', '中文 vlog 字幕'], 5: ['HSK 5 听力', '中文 新闻 慢速', '中文 播客'], 6: ['HSK 6 听力', '中文 新闻', '中文 访谈'], '7-9': ['中文 新闻联播', '中文 演讲', '中文 纪录片'] };
+  let lastQuery = ''; let lastResults = null; let lastErr = null;
+  function searchCard() {
+    const lv = filterLevel === 'all' ? String(ctx.level) : filterLevel;
+    const sugg = SUGGEST[lv] || SUGGEST[3];
+    const input = h('input', { class: 'input', type: 'search', value: lastQuery, placeholder: 'Tìm video tiếng Trung, vd: HSK 3 听力', 'aria-label': 'Tìm video YouTube' });
+    const results = h('div');
+    const ytLink = (q) => h('a', { class: 'btn', href: `https://www.youtube.com/results?search_query=${encodeURIComponent(q || sugg[0])}`, target: '_blank', rel: 'noopener' }, '↗ Mở tìm kiếm trên YouTube');
+    const fallback = (msg) => { clear(results).append(notice('warn', '🔎', h('div', null, msg, ' Bạn vẫn có thể tìm trên YouTube rồi dán link vào ô bên dưới.', h('div', { style: { marginTop: '8px' } }, ytLink(input.value.trim()))))); };
+    const drawResults = () => {
+      clear(results);
+      if (lastErr) return fallback(lastErr);
+      if (!lastResults) return;
+      if (!lastResults.length) { results.append(h('p', { class: 'muted' }, 'Không tìm thấy video phù hợp.')); return; }
+      results.append(h('div', { class: 'grid c3', style: { marginTop: '12px' } }, lastResults.map((r) => videoCard({ videoId: r.videoId, title: r.title, channel: r.channel }, () => openItem(ytItem(r))))));
+    };
+    const run = async (q) => {
+      q = (q || input.value).trim(); if (!q) return;
+      input.value = q; lastQuery = q;
+      if (!sharedAvailable()) { lastErr = null; fallback('Tìm video ngay trong web cần máy trung gian AI của chủ web (chưa cấu hình).'); return; }
+      clear(results).append(h('p', { class: 'small' }, h('span', { class: 'spinner' }), ' Đang tìm…'));
+      try { lastResults = await ytSearch(q, 12); lastErr = null; }
+      catch (e) { lastResults = null; lastErr = e.code === 'NO_YOUTUBE_KEY' ? 'Máy trung gian chưa bật tìm video YouTube.' : e.message; }
+      drawResults();
+    };
+    input.addEventListener('keydown', (e) => { if (e.key === 'Enter') run(); });
+    const paste = h('input', { class: 'input', placeholder: 'Dán link: youtube.com/watch?v=…, youtu.be/…, /shorts/…', 'aria-label': 'Dán link YouTube' });
+    const openPaste = () => {
+      const id = parseYouTube(paste.value);
+      if (!id) { toast('Không đọc được mã video từ link này', 'err'); return; }
+      const lib = (data.items || []).find((x) => x.youtube?.videoId === id);
+      openItem(lib || ytItem({ videoId: id }));
+    };
+    paste.addEventListener('keydown', (e) => { if (e.key === 'Enter') openPaste(); });
+    drawResults();
+    return h('div', { class: 'card' },
+      h('h2', { style: { marginBottom: '10px' } }, '🔎 Chọn video YouTube'),
+      h('div', { class: 'row', style: { flexWrap: 'nowrap' } }, input, h('button', { class: 'btn primary', onclick: () => run() }, 'Tìm')),
+      h('div', { class: 'vocab-chips', style: { marginTop: '8px' } }, h('span', { class: 'small muted', style: { alignSelf: 'center' } }, 'Gợi ý:'), sugg.map((q) => h('button', { class: 'vchip', onclick: () => run(q) }, h('span', { class: 'zh' }, q)))),
+      results,
+      h('div', { class: 'row', style: { flexWrap: 'nowrap', marginTop: '14px' } }, paste, h('button', { class: 'btn', onclick: openPaste }, 'Mở video')),
+      h('p', { class: 'hint' }, 'Video chưa có câu luyện? Web sẽ giúp bạn tạo câu shadowing bằng AI từ lời nói trong video.'));
+  }
+
+  const itemCard = (it, kind) => h('div', { class: 'card topic-card', style: { cursor: 'default' } },
     h('div', { class: 'row between' }, h('div', { class: 'row', style: { gap: '6px' } },
       h('span', { class: `badge ${it.source === 'youtube' ? 'red' : 'blue'}` }, it.source === 'youtube' ? '▶ YouTube' : '🔊 Giọng đọc'),
       it.level ? h('span', { class: 'badge' }, `HSK ${it.level}`) : null,
-      it.source === 'youtube' && it.youtube?.verified === false ? h('span', { class: 'badge gold' }, 'chưa xác minh') : null)),
+      kind === 'ai' ? h('span', { class: 'badge gold' }, '🤖 AI tạo câu') : null)),
     h('h3', { style: { margin: '10px 0 4px' } }, it.title),
     h('div', { class: 'small muted' }, `${(it.segments || []).length} câu${it.youtube?.channel ? ' · ' + it.youtube.channel : ''}`),
     h('div', { class: 'zh small', style: { margin: '6px 0 10px', color: 'var(--ink-2)' } }, it.segments?.[0]?.hanzi || ''),
-    h('div', { class: 'row' }, h('button', { class: 'btn primary sm', onclick: () => { cleanup = player(body, it, listView); } }, 'Luyện'),
-      mine ? h('button', { class: 'btn sm', onclick: () => editor(it) }, 'Sửa') : null,
-      mine ? h('button', { class: 'btn sm ghost danger', onclick: async () => { if (await confirmDialog('Xóa bài này?', it.title, 'Xóa', true)) { saveUser(loadUser().filter((x) => x.id !== it.id)); listView(); } } }, 'Xóa') : null));
+    h('div', { class: 'row' }, h('button', { class: 'btn primary sm', onclick: () => openItem(it) }, 'Luyện'),
+      kind ? h('button', { class: 'btn sm', onclick: () => editor(it, kind === 'ai') }, 'Sửa') : null,
+      kind ? h('button', { class: 'btn sm ghost danger', onclick: async () => {
+        if (!(await confirmDialog('Xóa bài này?', it.title, 'Xóa', true))) return;
+        if (kind === 'ai') { const a = loadAI(); delete a[it.youtube.videoId]; saveAI(a); } else saveUser(loadUser().filter((x) => x.id !== it.id));
+        listView();
+      } }, 'Xóa') : null));
+
+  // ---------- Video chưa có câu → tạo bằng AI ----------
+  const workspace = (it, regen = false) => {
+    cleanup?.(); cleanup = null;
+    clear(body);
+    const id = it.youtube.videoId;
+    const holder = h('div');
+    const status = h('div', { 'aria-live': 'polite' });
+    let yt = null;
+    const fromIn = h('input', { class: 'input', value: '0:00', style: { width: '90px' }, 'aria-label': 'Bắt đầu' });
+    const toIn = h('input', { class: 'input', value: '3:00', style: { width: '90px' }, 'aria-label': 'Kết thúc' });
+    const now = (inp) => { try { inp.value = fmtClock(yt.getCurrentTime()); } catch { toast('Trình phát chưa sẵn sàng'); } };
+    const go = async (btn) => {
+      const a = parseClock(fromIn.value), b = parseClock(toIn.value);
+      if (a == null || b == null || b <= a) { toast('Thời gian không hợp lệ (dạng phút:giây, kết thúc > bắt đầu)', 'err'); return; }
+      if (b - a > 600) { toast('Hãy chọn đoạn tối đa 10 phút (khuyến nghị 2–5 phút).', 'err'); return; }
+      btn.disabled = true;
+      clear(status).append(h('p', null, h('span', { class: 'spinner' }), ` AI đang nghe video (${fmtClock(a)}–${fmtClock(b)}) và chia câu… có thể mất 20–60 giây.`));
+      try {
+        const res = await aiSegments(id, a, b);
+        const item = { ...it, id: 'ai-' + id, title: it.title && it.title !== 'Video YouTube' ? it.title : (res.title || 'Video YouTube'), segments: res.segments, ai: { from: a, to: b, date: new Date().toISOString() } };
+        const all = loadAI(); all[id] = item; saveAI(all);
+        toast(`Đã tạo ${res.segments.length} câu`, 'ok');
+        cleanup?.(); cleanup = player(body, item, listView, { onEdit: (x) => editor(x, true), onRegen: () => workspace(item, true) });
+      } catch (e) { clear(status).append(notice('err', '⚠️', e.message)); btn.disabled = false; }
+    };
+    body.append(h('div', { class: 'row', style: { marginBottom: '12px' } }, h('button', { class: 'btn sm ghost', onclick: listView }, '‹ Quay lại'), h('strong', null, it.title)),
+      h('div', { class: 'grid c2' },
+        h('div', null, h('div', { class: 'yt-wrap' }, holder), it.youtube.channel ? h('p', { class: 'small muted' }, it.youtube.channel) : null),
+        h('div', { class: 'card stack' },
+          h('h3', null, regen ? '🤖 Tạo lại câu bằng AI' : '🤖 Video này chưa có câu luyện'),
+          h('p', { class: 'small', style: { margin: 0 } }, 'AI sẽ nghe lời nói tiếng Trung trong video, chia thành câu ngắn 3–12 giây kèm chữ Hán, pinyin, nghĩa tiếng Việt và mốc thời gian. Video dài: hãy chọn một đoạn 2–5 phút.'),
+          h('div', { class: 'row' }, h('label', { class: 'small' }, 'Từ ', fromIn), h('button', { class: 'btn sm', title: 'Lấy thời điểm đang phát', onclick: () => now(fromIn) }, '⏱'), h('label', { class: 'small' }, 'đến ', toIn), h('button', { class: 'btn sm', title: 'Lấy thời điểm đang phát', onclick: () => now(toIn) }, '⏱')),
+          aiAvailable() ? h('button', { class: 'btn primary', onclick: (e) => go(e.currentTarget) }, '🤖 Tạo câu shadowing bằng AI')
+            : notice('warn', '🔑', 'Cần AI (API key Gemini hoặc máy trung gian) để tạo câu. ', h('a', { href: '#/settings' }, 'Vào Cài đặt')),
+          status,
+          h('div', { class: 'small muted' }, 'Hoặc ', h('button', { class: 'btn sm ghost', onclick: () => editor({ ...it, segments: [] }) }, 'tự nhập câu và mốc thời gian'), '.'))));
+    loadYT().then((YT) => { yt = new YT.Player(holder, { videoId: id, playerVars: { playsinline: 1, rel: 0 }, events: { onError: (e) => status.append(notice('err', '⚠️', YT_ERR[e.data] || 'Video lỗi.')) } }); })
+      .catch(() => status.append(notice('err', '⚠️', 'Không tải được trình phát YouTube (cần Internet).')));
+    cleanup = () => { try { yt?.destroy(); } catch { /* */ } };
+  };
 
   // ---------- Trình soạn bài người dùng ----------
-  const editor = (item) => {
+  const editor = (item, fromAI = false) => {
     cleanup?.(); cleanup = null;
     clear(body);
     const it = item ? JSON.parse(JSON.stringify(item)) : { id: 'user-' + Date.now().toString(36), level: Number(ctx.level) || ctx.level, title: '', source: 'youtube', youtube: { videoId: '', verified: true, channel: '', url: '' }, segments: [] };
@@ -120,7 +286,7 @@ export async function render(root, params, ctx) {
       segBox.append(h('button', { class: 'btn', onclick: () => { const last = it.segments[it.segments.length - 1]; it.segments.push({ start: isYT ? (last?.end ?? 0) : null, end: null, hanzi: '', pinyin: '', vi: '' }); drawSegs(); } }, '+ Thêm câu'));
     };
     body.append(h('div', { class: 'card' },
-      h('div', { class: 'row between' }, h('h2', { style: { margin: 0 } }, item ? 'Sửa bài' : 'Thêm bài shadowing'), h('button', { class: 'btn ghost sm', onclick: listView }, '‹ Quay lại')),
+      h('div', { class: 'row between' }, h('h2', { style: { margin: 0 } }, item?.segments?.length ? 'Sửa bài / mốc thời gian' : 'Soạn bài shadowing'), h('button', { class: 'btn ghost sm', onclick: listView }, '‹ Quay lại')),
       h('div', { class: 'grid c2', style: { marginTop: '14px' } },
         h('label', { class: 'field' }, h('span', null, 'Tên bài'), title),
         h('div', { class: 'row' }, h('label', { class: 'field grow' }, h('span', null, 'Nguồn'), src), h('label', { class: 'field grow' }, h('span', null, 'Cấp'), lvl))),
@@ -140,8 +306,13 @@ export async function render(root, params, ctx) {
           it.segments = it.segments.filter((s) => (s.hanzi || '').trim()).map((s) => ({ ...s, hanzi: s.hanzi.trim(), start: it.source === 'youtube' ? Number(s.start) || 0 : null, end: it.source === 'youtube' ? Number(s.end) || null : null }));
           if (!it.segments.length) { toast('Cần ít nhất 1 câu có chữ Hán', 'err'); return; }
           if (it.source === 'youtube' && it.segments.some((s) => !(s.end > s.start))) { toast('Mỗi câu cần thời điểm kết thúc lớn hơn bắt đầu', 'err'); return; }
-          const all = loadUser().filter((x) => x.id !== it.id);
-          all.unshift(it); saveUser(all);
+          if (fromAI && it.source === 'youtube') {
+            const a = loadAI(); a[it.youtube.videoId] = { ...it, id: 'ai-' + it.youtube.videoId }; saveAI(a);
+          } else {
+            if (!String(it.id).startsWith('user-')) it.id = 'user-' + Date.now().toString(36);
+            const all = loadUser().filter((x) => x.id !== it.id);
+            all.unshift(it); saveUser(all);
+          }
           toast('Đã lưu bài', 'ok'); listView();
         } }, 'Lưu bài'))));
     if (!it.segments.length) it.segments.push({ start: it.source === 'youtube' ? 0 : null, end: null, hanzi: '', pinyin: '', vi: '' });
@@ -154,7 +325,7 @@ export async function render(root, params, ctx) {
 }
 
 // ---------- Trình luyện ----------
-function player(root, item, back) {
+function player(root, item, back, { onEdit, onRegen } = {}) {
   clear(root);
   const segs = item.segments || [];
   let idx = 0;
@@ -171,7 +342,9 @@ function player(root, item, back) {
   const stage = h('div', { class: 'card shadow-stage' });
   const list = h('div', { class: 'seg-list' });
   const ytBox = h('div', { style: { marginBottom: '16px' } });
-  root.append(h('div', { class: 'row', style: { marginBottom: '12px' } }, h('button', { class: 'btn sm ghost', onclick: back }, '‹ Danh sách bài'), h('strong', null, item.title)),
+  root.append(h('div', { class: 'row', style: { marginBottom: '12px' } }, h('button', { class: 'btn sm ghost', onclick: back }, '‹ Danh sách bài'), h('strong', { class: 'grow' }, item.title),
+      onEdit && item.source === 'youtube' ? h('button', { class: 'btn sm', onclick: () => { stopAll(); onEdit(item); } }, '✏️ Sửa mốc thời gian') : null,
+      onRegen ? h('button', { class: 'btn sm ghost', onclick: () => { stopAll(); onRegen(); } }, '🤖 Tạo lại bằng AI') : null),
     isYT ? ytBox : null,
     h('div', { class: 'char-layout' }, stage, h('div', null, h('div', { class: 'small muted', style: { marginBottom: '8px' } }, 'Các câu'), list)));
 

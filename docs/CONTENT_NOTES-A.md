@@ -57,3 +57,8 @@ Cập nhật: 2026-11-23. Chuẩn: HSK 3.0 (Phụ lục A của DATA_SCHEMA). K�
 - Cho phép `shared_options` ở cấp set trong `practice-*.json` (cho `choose_component`).
 - Chính thức hóa `in_paper` (hskk items), `system_prompt` (topics), `syllabus2025`/`syllabus2025_level` (vocab).
 - `target_count` của file chữ: nên ghi rõ theo chuẩn nào (2021 = 300/300/300, đại cương 2025 = 246/125/284).
+
+## 6. Bổ sung 2026-11-23 (yêu cầu mới)
+- `data/writing/radicals.json`: đủ 214 bộ Khang Hy (id, radical, variants, pinyin, han_viet, meaning_vi, strokes theo nhóm nét chuẩn, common = 72 bộ). `variant_to_radical` 306 khóa; đã kiểm: 100% giá trị `radical` trong mọi `characters-*.json` (cả cấp 4–9) map được. Quy ước 阝 → 阜, 15 chữ 阝 bên phải (都, 那, 部, 邮, 邻…) → 邑 qua `char_radical_override`. Đã thêm khóa `radicals` vào `index.json`, mô tả ở DATA_SCHEMA A.6.
+- `shadowing.json`: thêm 26 video YouTube (cấp 1–2: 8, 3–4: 8, 5–6: 5, 7–9: 5), tất cả xác minh bằng YouTube oEmbed ngày 2026-11-23 (title/channel lấy từ oEmbed). `segments: []`, `auto_segments: true` — không bịa mốc thời gian. Một số video có giải thích tiếng Anh hoặc giọng Đài Loan (ghi ở `description_vi`). Schema: DATA_SCHEMA A.7.
+- Validator hiện báo lỗi "segments rỗng" cho 26 item này → cần Agent Web cho phép `segments: []` khi `auto_segments: true`.

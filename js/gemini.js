@@ -77,6 +77,8 @@ export function parseJSONLoose(text) {
   try { return JSON.parse(t); } catch { /* thử cắt đoạn {...} */ }
   const a = t.indexOf('{'), b = t.lastIndexOf('}');
   if (a >= 0 && b > a) { try { return JSON.parse(t.slice(a, b + 1)); } catch { /* */ } }
+  const c = t.indexOf('['), d = t.lastIndexOf(']');
+  if (c >= 0 && d > c) { try { return JSON.parse(t.slice(c, d + 1)); } catch { /* */ } }
   throw new GeminiError('AI trả về dữ liệu không đúng định dạng. Hãy thử lại.', 200, 'BAD_JSON');
 }
 
@@ -101,4 +103,24 @@ export function chatSystemPrompt(topic, levelName) {
 
 export function rubricText(rubric) {
   return (rubric?.criteria || []).map((c) => `- ${c.key} (${c.name_vi}, trọng số ${c.weight}): ${c.description_vi || ''}`).join('\n');
+}
+
+// Có dùng được AI không (key riêng hoặc máy trung gian chung)
+export const aiAvailable = () => !!(getSettings().geminiKey || '').trim() || !!SHARED_AI_URL;
+export const sharedAvailable = () => !!SHARED_AI_URL;
+
+// Tìm video YouTube qua máy trung gian (route yt_search). Lỗi code NO_SHARED / NO_YOUTUBE_KEY → web dùng phương án mở YouTube.
+export async function ytSearch(q, maxResults = 12, { signal } = {}) {
+  if (!SHARED_AI_URL) throw new GeminiError('Chưa cấu hình máy trung gian để tìm video.', 0, 'NO_SHARED');
+  let res;
+  try {
+    res = await fetch(SHARED_AI_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ action: 'yt_search', q, maxResults }), signal });
+  } catch (e) {
+    if (e.name === 'AbortError') throw e;
+    throw new GeminiError('Không kết nối được máy trung gian.', 0, 'NETWORK');
+  }
+  let d = null;
+  try { d = await res.json(); } catch { /* */ }
+  if (!res.ok) throw new GeminiError(d?.error?.message || `Lỗi tìm kiếm (${res.status})`, res.status, d?.error?.status || 'YT_ERROR');
+  return Array.isArray(d?.items) ? d.items : [];
 }

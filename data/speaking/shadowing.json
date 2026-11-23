@@ -1,5 +1,5 @@
 {
-  "notes": "Chỉ gồm bài nguồn TTS. Không đưa video YouTube vì chưa xác minh được videoId và mốc thời gian chính xác; người dùng có thể tự thêm bài YouTube trong web.",
+  "notes": "Bài TTS (sh-tts-*) có sẵn đoạn câu. Bài YouTube (sh-yt-*) đã xác minh videoId qua YouTube oEmbed ngày 2026-11-23 (tồn tại, cho phép nhúng); chưa có mốc thời gian nên segments = [] và auto_segments = true (web tạo đoạn bằng AI hoặc người dùng tự thêm). Không bịa mốc thời gian.",
   "items": [
     {
       "id": "sh-tts-01",
@@ -401,6 +401,474 @@
           "speaker": "男"
         }
       ]
+    },
+    {
+      "id": "sh-yt-01",
+      "level": 1,
+      "title": "Truyện chậm: Một tuần của tôi (HSK1–2)",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "PcergOJuC1M",
+        "verified": true,
+        "title": "一周的生活 | Slow Chinese Stories Newcomer | Chinese Listening Practice HSK 1/2",
+        "channel": "Mandarin Click",
+        "url": "https://www.youtube.com/watch?v=PcergOJuC1M",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Truyện kể chậm, có chữ Hán + pinyin, từ vựng HSK1–2.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-02",
+      "level": 1,
+      "title": "Luyện nghe HSK1 cho người mới (giải thích tiếng Việt)",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "npWrnshjsIY",
+        "verified": true,
+        "title": "Luyện nghe tiếng trung cho người mới bắt đầu - Luyện nghe HSK1.1",
+        "channel": "Tiếng Trung Thư Mẫn",
+        "url": "https://www.youtube.com/watch?v=npWrnshjsIY",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Kênh tiếng Việt, câu HSK1 đọc chậm.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-03",
+      "level": 1,
+      "title": "Lý Huệ bị ốm – luyện nghe HSK1",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "TRiChVLCpOQ",
+        "verified": true,
+        "title": "Li Hui Got Sick | Chinese Listening Practice (HSK1)",
+        "channel": "Learn Chinese with Litao",
+        "url": "https://www.youtube.com/watch?v=TRiChVLCpOQ",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Câu chuyện ngắn HSK1, đọc chậm, có phụ đề.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-04",
+      "level": 1,
+      "title": "Chúc mừng sinh nhật bằng tiếng Trung",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "5Q4UqWpe04M",
+        "verified": true,
+        "title": "How to wish someone a happy birthday in Mandarin Chinese",
+        "channel": "Chinese with Mandarin HQ",
+        "url": "https://www.youtube.com/watch?v=5Q4UqWpe04M",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Mẫu câu chúc sinh nhật; có giải thích tiếng Anh.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-05",
+      "level": 1,
+      "title": "Nói \"Tôi biết / Tôi không biết\"",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "CkXMeSyVJyI",
+        "verified": true,
+        "title": "How to say \"I know\" and \"I don't know\" in Mandarin Chinese",
+        "channel": "Chinese with Mandarin HQ",
+        "url": "https://www.youtube.com/watch?v=CkXMeSyVJyI",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Mẫu câu 知道 / 不知道; có giải thích tiếng Anh.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-06",
+      "level": 2,
+      "title": "35 phút luyện nghe hiểu cho người mới",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "jZeLL3_Doz0",
+        "verified": true,
+        "title": "35 Minutes of Chinese Listening Comprehension for Beginners",
+        "channel": "Learn Chinese with ChineseClass101.com",
+        "url": "https://www.youtube.com/watch?v=jZeLL3_Doz0",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Hội thoại ngắn trình độ sơ cấp; có giải thích tiếng Anh.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-07",
+      "level": 2,
+      "title": "5 cách chào bạn lâu ngày không gặp",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "mW14wq4NLNU",
+        "verified": true,
+        "title": "5 ways to greet a friend you haven't seen for a long time in Mandarin Chinese I Easy Mandarin",
+        "channel": "Chinese with Mandarin HQ",
+        "url": "https://www.youtube.com/watch?v=mW14wq4NLNU",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Mẫu câu chào hỏi khẩu ngữ; có giải thích tiếng Anh.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-08",
+      "level": 2,
+      "title": "Gọi thanh toán ở nhà hàng",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "Rts9VHQhSZQ",
+        "verified": true,
+        "title": "How to ask for the restaurant bill in China",
+        "channel": "Chinese with Mandarin HQ",
+        "url": "https://www.youtube.com/watch?v=Rts9VHQhSZQ",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Mẫu câu 买单/结账; có giải thích tiếng Anh.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-09",
+      "level": 3,
+      "title": "Tiểu Vương và gia đình (HSK3)",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "1QU8T87DHuw",
+        "verified": true,
+        "title": "HSK3 | 小王和他的家人 Xiao Wang and his Family | Comprehensible Input Practice Bundle 4/7 Beginner Chinese",
+        "channel": "Mandarin Click",
+        "url": "https://www.youtube.com/watch?v=1QU8T87DHuw",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Nội dung dễ hiểu (comprehensible input) cấp HSK3.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-10",
+      "level": 3,
+      "title": "Đi chợ nông sản cùng người bản ngữ (HSK3)",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "CnAlUa96zfI",
+        "verified": true,
+        "title": "Chinese Lessons with Native Speakers | 🥕🥒🥬 Chinese Farmersʻ Markets 🍅🥑🥦 - Pt. 1 | HSK3",
+        "channel": "Yoyo Chinese",
+        "url": "https://www.youtube.com/watch?v=CnAlUa96zfI",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Hội thoại thật ở chợ, có phụ đề.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-11",
+      "level": 3,
+      "title": "Gọi món ăn đường phố như người bản địa",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "cKvCvxLOamc",
+        "verified": true,
+        "title": "Ordering Chinese street food like a local in Mandarin Chinese",
+        "channel": "Chinese with Mandarin HQ",
+        "url": "https://www.youtube.com/watch?v=cKvCvxLOamc",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Hội thoại gọi món; có giải thích tiếng Anh.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-12",
+      "level": 3,
+      "title": "Nói về sở thích",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "ONgjFcz6858",
+        "verified": true,
+        "title": "Talking about hobbies in Mandarin Chinese",
+        "channel": "Chinese with Mandarin HQ",
+        "url": "https://www.youtube.com/watch?v=ONgjFcz6858",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Mẫu câu về sở thích; có giải thích tiếng Anh.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-13",
+      "level": 4,
+      "title": "Phỏng vấn đường phố: \"Có món gì bạn không ăn?\"",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "p0jFSceGkcE",
+        "verified": true,
+        "title": "Mandarin Chinese Street Interviews: \"Is There Anything You Don't Eat?\" I Easy Mandarin I Pinyin",
+        "channel": "Chinese with Mandarin HQ",
+        "url": "https://www.youtube.com/watch?v=p0jFSceGkcE",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Người bản ngữ trả lời tự nhiên, tốc độ thật; có pinyin.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-14",
+      "level": 4,
+      "title": "Vì sao con gái Trung Quốc che ô khi trời nắng?",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "pRm-jba8520",
+        "verified": true,
+        "title": "Why do so many Chinese girls use umbrellas when it's sunny? I Easy Mandarin I learn from the streets",
+        "channel": "Chinese with Mandarin HQ",
+        "url": "https://www.youtube.com/watch?v=pRm-jba8520",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Phỏng vấn đường phố, khẩu ngữ tự nhiên.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-15",
+      "level": 4,
+      "title": "Tiếng Trung khi đi taxi – dùng Alipay",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "1TnFtQGgrPM",
+        "verified": true,
+        "title": "Taxi Chinese - How To Use Alipay In China In A Taxi",
+        "channel": "Elementary Chinese",
+        "url": "https://www.youtube.com/watch?v=1TnFtQGgrPM",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Tình huống thực tế trên taxi.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-16",
+      "level": 4,
+      "title": "42 mẫu câu ngữ pháp trung cấp – luyện nghe",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "PULnJUnQbac",
+        "verified": true,
+        "title": "42 Essential Sentence Patterns - Intermediate Chinese Listening Practice | HSK Grammar",
+        "channel": "Mandarin Corner",
+        "url": "https://www.youtube.com/watch?v=PULnJUnQbac",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Mẫu câu ngữ pháp HSK trung cấp, đọc rõ.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-17",
+      "level": 5,
+      "title": "Vì sao nhiều cô gái Trung Quốc không muốn kết hôn? (podcast)",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "onnks2FRdYs",
+        "verified": true,
+        "title": "Why Chinese Girls Don't Want to Get Married Anymore? - Intermediate Chinese - Audio Podcast",
+        "channel": "Mandarin Corner",
+        "url": "https://www.youtube.com/watch?v=onnks2FRdYs",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Podcast trung cấp, nói hoàn toàn tiếng Trung.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-18",
+      "level": 5,
+      "title": "Câu chuyện Lý Tiểu Long – luyện nghe",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "1-D91bQCinE",
+        "verified": true,
+        "title": "The Story of Bruce Lee (李小龙的故事) | Mandarin Chinese Listening Practice",
+        "channel": "Everyday Chinese",
+        "url": "https://www.youtube.com/watch?v=1-D91bQCinE",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Kể chuyện tiểu sử bằng tiếng Trung.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-19",
+      "level": 5,
+      "title": "Đón Tết Trung Quốc như thế nào?",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "oS6rj4IIFIQ",
+        "verified": true,
+        "title": "带你过中国新年 How Is Chinese New Year Celebrated? Daily Guide to Chinese New Year! All in One Video | C031",
+        "channel": "每日中文课Free To Learn Chinese",
+        "url": "https://www.youtube.com/watch?v=oS6rj4IIFIQ",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Giới thiệu phong tục Tết bằng tiếng Trung.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-20",
+      "level": 6,
+      "title": "Thử thách giọng: Bắc hay Nam?",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "zfNbq3s_51o",
+        "verified": true,
+        "title": "Mandarin Chinese Accent Challenge: \"North or South?\" (Chinese Accents) I Learn from the streets",
+        "channel": "Chinese with Mandarin HQ",
+        "url": "https://www.youtube.com/watch?v=zfNbq3s_51o",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Người bản ngữ nhiều vùng, luyện nghe giọng địa phương.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-21",
+      "level": 6,
+      "title": "Từ vựng nâng cao về thời tiết",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "fUjzhlFuwPU",
+        "verified": true,
+        "title": "Let's Talk about Weather in Advanced Chinese Vocabulary - Learn Mandarin Chinese",
+        "channel": "Everyday Chinese",
+        "url": "https://www.youtube.com/watch?v=fUjzhlFuwPU",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Bài giảng từ vựng cao cấp.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-22",
+      "level": "7-9",
+      "title": "Sống ở Trung Quốc vs sống ở phương Tây",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "wLSlkwvFvRw",
+        "verified": true,
+        "title": "在中国生活VS在西方生活(出国前后)",
+        "channel": "Kevin in Shanghai",
+        "url": "https://www.youtube.com/watch?v=wLSlkwvFvRw",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Vlog/thảo luận của người bản ngữ, tốc độ tự nhiên.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-23",
+      "level": "7-9",
+      "title": "Người nước ngoài \"tiếng Trung cấp 10\" lần đầu sang Mỹ",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "o8esWShSqIo",
+        "verified": true,
+        "title": "中文十级的老外第一次去美国…只想吃中餐",
+        "channel": "Fulinfang拂菻坊",
+        "url": "https://www.youtube.com/watch?v=o8esWShSqIo",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Vlog hoàn toàn tiếng Trung, khẩu ngữ tự nhiên.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-24",
+      "level": "7-9",
+      "title": "Phụ huynh ngày xưa và ngày nay (hài kịch ngắn)",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "3Om3WLnrsYo",
+        "verified": true,
+        "title": "這群人 TGOP │以前家長跟現代家長的差別  ft.大蛇丸、黑龍 Parents Then Vs Now",
+        "channel": "這群人TGOP",
+        "url": "https://www.youtube.com/watch?v=3Om3WLnrsYo",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Tiểu phẩm Đài Loan, phụ đề phồn thể, giọng Đài Loan.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-25",
+      "level": "7-9",
+      "title": "Vlog Đài Loan: 48 giờ ở Đài Trung",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "9rljGujTVsE",
+        "verified": true,
+        "title": "【台湾Vlog】姐妹第一次去台中玩! 48小时玩遍全台中!",
+        "channel": "TiffwithMi",
+        "url": "https://www.youtube.com/watch?v=9rljGujTVsE",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Vlog du lịch, tốc độ nhanh, giọng Đài Loan.",
+      "segments": [],
+      "auto_segments": true
+    },
+    {
+      "id": "sh-yt-26",
+      "level": "7-9",
+      "title": "Vlog chia sẻ đồ dùng mùa hè",
+      "source": "youtube",
+      "youtube": {
+        "videoId": "5ubrPlMAK8E",
+        "verified": true,
+        "title": "夏季好物报告｜居家睡衣&超疗愈床上用品 . 抗老级护肤护发 . 防晒帽 . 烂脸急救面膜",
+        "channel": "Krysti Naaa",
+        "url": "https://www.youtube.com/watch?v=5ubrPlMAK8E",
+        "verified_method": "oembed",
+        "verified_at": "2026-11-23"
+      },
+      "description_vi": "Vlog đời sống, khẩu ngữ nhanh tự nhiên.",
+      "segments": [],
+      "auto_segments": true
     }
   ]
 }

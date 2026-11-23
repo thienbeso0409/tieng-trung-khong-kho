@@ -2,7 +2,7 @@
 import { h, clear, pageHead, notice, fmtTime } from '../ui.js';
 import { getExam } from '../data.js';
 import { updateProgress, pushLimited } from '../storage.js';
-import { hasKey } from '../settings.js';
+import { hasKey, setSettings } from '../settings.js';
 import { createRunner } from '../exam/runner.js';
 import { isOpen, handlerFor } from '../exam/types.js';
 import { dataProblem } from './common.js';
@@ -11,6 +11,8 @@ export async function render(root, params, ctx) {
   let exam;
   try { exam = await getExam(params.id); } catch (e) { root.append(pageHead('Thi thử', '模拟考试', 'Đề thi thử', null), dataProblem(e, 'Đề thi')); return; }
   if (!ctx.isCurrent()) return;
+  // Đồng bộ ô chọn cấp ở thanh trên theo đề đang mở
+  if (ctx.levels.some((l) => String(l.level) === String(exam.level))) setSettings({ level: String(exam.level) });
   let runner = null;
   const unload = (e) => { if (runner && !runner.submitted) { e.preventDefault(); e.returnValue = ''; } };
   window.addEventListener('beforeunload', unload);

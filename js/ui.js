@@ -1,4 +1,19 @@
 // Tiện ích DOM nhỏ gọn.
+
+// append()/replaceChildren() gốc biến null/false/mảng thành chữ ("null", "[object …]").
+// Trong app luôn muốn bỏ qua giá trị rỗng và trải mảng → vá một lần cho Element & DocumentFragment.
+(() => {
+  const clean = (xs) => xs.flat(Infinity).filter((x) => x != null && x !== false && x !== true);
+  for (const P of [Element.prototype, DocumentFragment.prototype]) {
+    for (const m of ['append', 'prepend', 'replaceChildren']) {
+      const orig = P[m];
+      if (!orig || orig.__ttkk) continue;
+      const f = function (...xs) { return orig.apply(this, clean(xs)); };
+      f.__ttkk = true;
+      P[m] = f;
+    }
+  }
+})();
 export function h(tag, attrs, ...children) {
   const el = document.createElement(tag);
   if (attrs) {

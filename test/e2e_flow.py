@@ -1,7 +1,7 @@
 # Kiểm thử luồng: làm đề, nộp, xem điểm; chụp màn hình desktop + mobile.
 import sys
 from playwright.sync_api import sync_playwright
-BASE = 'http://localhost:8765/tieng-trung-khong-kho/?data=test/data/'
+BASE = 'http://localhost:8766/?data=test/data/'
 SHOT = 'test/screenshots/'
 errs = []
 def watch(pg):

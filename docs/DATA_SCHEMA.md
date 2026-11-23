@@ -684,3 +684,30 @@ Item id: `hsk{L}-s-{stt:02}`. Rubric gợi ý: `rb-repeat`, `rb-speech` (dùng c
 - HSK1–6: `data/exams/hsk{n}-de1.json` (`id` `hsk{n}-de1`). Đề gộp: `data/exams/hsk7-9-de1.json` (`id` `hsk7-9-de1`, `level: "7-9"`). Đề thứ k: `-de{k}`.
 - Field mới của exam: `"score_mode": "pass" | "bands"`, `"speaking_paper": "<paper id>" | null`, `"rubrics": [...]` (cho câu chủ quan), `"band_rules"` (chỉ 7-9), `"repeat_default"` (2 cho HSK1–3, 1 cho HSK4+). `"standard": "HSK3.0"`.
 - `show_pinyin`: `true` cho HSK1–2, `false` từ HSK3.
+
+## A.6 `data/writing/radicals.json` — 214 bộ thủ Khang Hy (bổ sung 2026-11-23)
+
+Manifest: khóa cấp cao nhất `"radicals": "writing/radicals.json"` trong `data/index.json`.
+
+```json
+{
+  "count": 214,
+  "radicals": [
+    { "id": 9, "radical": "人", "variants": ["亻"], "pinyin": "rén", "han_viet": "nhân",
+      "meaning_vi": "người", "strokes": 2, "common": true }
+  ],
+  "variant_to_radical": { "亻": "人", "氵": "水", "讠": "言", "阝": "阜", "人": "人" },
+  "char_radical_override": { "都": "邑", "那": "邑" }
+}
+```
+- `id` 1–214 theo thứ tự Khang Hy; `radical` = dạng chuẩn Khang Hy (NFKC của khối Unicode Kangxi Radicals, có thể là dạng phồn thể như 見, 言, 貝); `variants` = biến thể bộ thủ và dạng giản thể (见, 讠, 贝…); `strokes` = số nét của dạng chuẩn; `common: true` cho ~70 bộ hay gặp.
+- `variant_to_radical`: chuẩn hóa MỌI giá trị `radical` xuất hiện trong `characters-*.json` (kể cả dạng chuẩn tự map về chính nó). Web tra: `R = char_radical_override[hanzi] ?? variant_to_radical[c.radical] ?? c.radical`.
+- Quy ước 阝: `variant_to_radical["阝"] = "阜"` (bộ phụ, 阝 bên trái: 院, 阳…). Chữ có 阝 bên phải (bộ ấp 邑: 都, 那, 部, 邮…) nằm trong `char_radical_override` (sinh tự động từ cấu trúc chữ của Make Me a Hanzi).
+
+## A.7 Shadowing YouTube (bổ sung 2026-11-23)
+
+Item `source: "youtube"` trong `speaking/shadowing.json` có thêm:
+- `youtube.title`, `youtube.channel` (lấy từ oEmbed), `youtube.verified_method: "oembed"`, `youtube.verified_at` (ngày). `verified: true` chỉ khi `https://www.youtube.com/oembed?url=…&format=json` trả về title/author (video tồn tại, cho phép nhúng).
+- `description_vi` (tùy chọn): mô tả ngắn, nêu nếu video có giải thích tiếng Anh/giọng Đài Loan.
+- `auto_segments: true` + `segments: []`: chưa có mốc thời gian; web hiển thị nút "Tạo phụ đề bằng AI" (Gemini đọc video) hoặc cho người dùng tự thêm đoạn. Khi đã có `segments` (start/end thật) thì `auto_segments` có thể bỏ hoặc `false`.
+- `level` của item YouTube là cấp gợi ý (1–6 hoặc "7-9").
