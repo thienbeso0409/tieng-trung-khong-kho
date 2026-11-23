@@ -1,0 +1,2989 @@
+{
+  "id": "hsk4-de3",
+  "level": 4,
+  "title_vi": "Đề thi thử HSK 4 – Đề 3",
+  "standard": "HSK3.0",
+  "score_mode": "pass",
+  "duration_minutes": 85,
+  "total_score": 300,
+  "pass_score": 180,
+  "show_pinyin": false,
+  "repeat_default": 1,
+  "speaking_paper": "hsk4-de3-speaking",
+  "sections": [
+    {
+      "id": "listening",
+      "name_vi": "Nghe",
+      "name_zh": "听力",
+      "max_score": 100,
+      "duration_minutes": 25,
+      "parts": [
+        {
+          "code": "L1",
+          "type": "choose_option",
+          "expected_count": 14,
+          "instruction_vi": "Nghe đoạn hội thoại ngắn và câu hỏi, chọn đáp án đúng (A–D). Mỗi đoạn phát 1 lần.",
+          "instruction_zh": "第一部分：请选出正确答案。",
+          "groups": [
+            {
+              "id": "hsk4-de3-L1-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk4-de3-01",
+                  "no": 1,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "你昨天怎么没来参加同学聚会？"
+                      },
+                      {
+                        "speaker": "女",
+                        "text": "别提了，我在去的路上发现钱包丢了，只好回去找。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：女的为什么没参加聚会？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "女的为什么没参加聚会？",
+                    "vi": "Vì sao người nữ không đi họp lớp?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "生病了"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "忘记时间了"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "要加班"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "回去找钱包"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“发现钱包丢了，只好回去找” → D."
+                },
+                {
+                  "id": "hsk4-de3-02",
+                  "no": 2,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "这条裙子你穿着真好看，多少钱买的？"
+                      },
+                      {
+                        "speaker": "男",
+                        "text": "这是我姐姐从国外给我带回来的礼物，我也不知道价格。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：这条裙子是从哪儿来的？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "这条裙子是从哪儿来的？",
+                    "vi": "Chiếc váy từ đâu mà có?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "姐姐送的"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "自己买的"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "网上买的"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "朋友借的"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“我姐姐从国外给我带回来的礼物” → A."
+                },
+                {
+                  "id": "hsk4-de3-03",
+                  "no": 3,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "我想学游泳，你能推荐一个好教练吗？"
+                      },
+                      {
+                        "speaker": "女",
+                        "text": "我的教练就很不错，特别有耐心。我把他的电话发给你。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：女的觉得她的教练怎么样？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "女的觉得她的教练怎么样？",
+                    "vi": "Người nữ thấy huấn luyện viên của cô thế nào?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "很严格"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "很有耐心"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "很年轻"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "收费很贵"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“特别有耐心” → B."
+                },
+                {
+                  "id": "hsk4-de3-04",
+                  "no": 4,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "你的手怎么了？"
+                      },
+                      {
+                        "speaker": "男",
+                        "text": "切菜的时候不小心切到了，没什么大问题，已经贴了创可贴。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：男的手怎么受伤的？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "男的手怎么受伤的？",
+                    "vi": "Tay người nam bị thương thế nào?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "切菜时切到了"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "打球时摔伤了"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "被狗咬了"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "开门时夹到了"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“切菜的时候不小心切到了” → A."
+                },
+                {
+                  "id": "hsk4-de3-05",
+                  "no": 5,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "这次考试你考得怎么样？"
+                      },
+                      {
+                        "speaker": "女",
+                        "text": "比上次进步了十几分，不过离我的目标还差一点儿。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：关于女的的考试，可以知道什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "关于女的的考试，可以知道什么？",
+                    "vi": "Về kỳ thi của người nữ có thể biết gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "没有及格"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "考了满分"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "比上次差"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "比上次有进步"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“比上次进步了十几分” → D."
+                },
+                {
+                  "id": "hsk4-de3-06",
+                  "no": 6,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "今天的会议几点结束？我想早点儿去接孩子。"
+                      },
+                      {
+                        "speaker": "男",
+                        "text": "按计划是五点，不过可能会推迟半个小时。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：会议可能几点结束？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "会议可能几点结束？",
+                    "vi": "Cuộc họp có thể kết thúc lúc mấy giờ?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "五点半"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "五点"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "四点半"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "六点"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "Dự kiến 5 giờ nhưng có thể hoãn nửa tiếng → A."
+                },
+                {
+                  "id": "hsk4-de3-07",
+                  "no": 7,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "你最近怎么不开车了？"
+                      },
+                      {
+                        "speaker": "女",
+                        "text": "油价越来越贵，停车也不方便，我就改坐地铁了，又快又省钱。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：女的为什么不开车了？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "女的为什么不开车了？",
+                    "vi": "Vì sao người nữ không lái xe nữa?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "车坏了"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "没有驾照"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "坐地铁快又省钱"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "搬家了"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "Giá xăng đắt, đỗ xe bất tiện, “又快又省钱” → C."
+                },
+                {
+                  "id": "hsk4-de3-08",
+                  "no": 8,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "你在看什么书？这么认真。"
+                      },
+                      {
+                        "speaker": "男",
+                        "text": "一本介绍中国历史的书，写得很有意思，一点儿也不枯燥。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：男的觉得这本书怎么样？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "男的觉得这本书怎么样？",
+                    "vi": "Người nam thấy cuốn sách thế nào?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "很枯燥"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "太难懂"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "太厚了"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "很有意思"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“写得很有意思，一点儿也不枯燥” → D."
+                },
+                {
+                  "id": "hsk4-de3-09",
+                  "no": 9,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "我们点的菜怎么还没上来？已经等了四十分钟了。"
+                      },
+                      {
+                        "speaker": "女",
+                        "text": "今天是周末，客人太多了，我去问问服务员。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：他们现在最可能在哪儿？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "他们现在最可能在哪儿？",
+                    "vi": "Họ có thể đang ở đâu?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "医院"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "书店"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "饭馆"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "银行"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "Gọi món, hỏi phục vụ → nhà hàng: C."
+                },
+                {
+                  "id": "hsk4-de3-10",
+                  "no": 10,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "你明天能帮我搬家吗？"
+                      },
+                      {
+                        "speaker": "男",
+                        "text": "没问题，不过我上午要去银行办事，下午才有空。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：男的什么时候能帮忙？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "男的什么时候能帮忙？",
+                    "vi": "Khi nào người nam giúp được?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "明天下午"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "明天上午"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "今天晚上"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "后天"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“上午要去银行办事，下午才有空” → A."
+                },
+                {
+                  "id": "hsk4-de3-11",
+                  "no": 11,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "听说你养了一只猫？"
+                      },
+                      {
+                        "speaker": "女",
+                        "text": "对，是从动物保护中心领养的，它以前没有家，现在可乖了。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：女的的猫是从哪儿来的？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "女的的猫是从哪儿来的？",
+                    "vi": "Con mèo của người nữ từ đâu?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "朋友送的"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "宠物店买的"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "从保护中心领养的"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "在路上捡的"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "“是从动物保护中心领养的” → C."
+                },
+                {
+                  "id": "hsk4-de3-12",
+                  "no": 12,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "今年夏天我们去哪儿旅游？"
+                      },
+                      {
+                        "speaker": "男",
+                        "text": "去年去了海边，今年我们去山里吧，那儿凉快，空气也好。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：男的建议今年去哪儿？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "男的建议今年去哪儿？",
+                    "vi": "Người nam đề nghị năm nay đi đâu?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "海边"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "山里"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "国外"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "大城市"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“今年我们去山里吧” → B; biển là năm ngoái."
+                },
+                {
+                  "id": "hsk4-de3-13",
+                  "no": 13,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "你的论文写完了吗？"
+                      },
+                      {
+                        "speaker": "女",
+                        "text": "初稿写完了，教授看了以后让我再补充一些数据。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：教授让女的做什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "教授让女的做什么？",
+                    "vi": "Giáo sư bảo người nữ làm gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "重新选题目"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "缩短论文"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "翻译论文"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "补充数据"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“让我再补充一些数据” → D."
+                },
+                {
+                  "id": "hsk4-de3-14",
+                  "no": 14,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "这个小区环境真好，到处都是花和树。"
+                      },
+                      {
+                        "speaker": "男",
+                        "text": "是啊，物业管理得很好，就是离市中心有点儿远。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：男的认为这个小区有什么缺点？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "男的认为这个小区有什么缺点？",
+                    "vi": "Người nam cho rằng khu này có nhược điểm gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "环境不好"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "离市中心远"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "管理不好"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "房子太旧"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“就是离市中心有点儿远” → B."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "L2",
+          "type": "choose_option",
+          "expected_count": 18,
+          "instruction_vi": "Nghe đoạn độc thoại/thông báo; một số đoạn có 2 câu hỏi. Chọn đáp án đúng.",
+          "instruction_zh": "第二部分：请选出正确答案。",
+          "groups": [
+            {
+              "id": "hsk4-de3-L2-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk4-de3-15",
+                  "no": 15,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "各位同学，明天的春游因为天气原因取消了，改到下周三。请大家明天按照平时的课程表上课。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：春游为什么取消了？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "春游为什么取消了？",
+                    "vi": "Vì sao chuyến dã ngoại bị hủy?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "老师生病"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "天气原因"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "车坏了"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "学生太少"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“因为天气原因取消了” → B."
+                },
+                {
+                  "id": "hsk4-de3-16",
+                  "no": 16,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "很多人买东西时只看价格，其实，质量和售后服务也很重要。便宜的东西如果很快就坏了，最后反而花了更多的钱。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：说话人的意思是："
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "说话人的意思是：",
+                    "vi": "Ý người nói là:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "买东西不能只看价格"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "越便宜越好"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "质量不重要"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "不要买东西"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "Không chỉ nhìn giá, chất lượng và hậu mãi cũng quan trọng → A."
+                },
+                {
+                  "id": "hsk4-de3-17",
+                  "no": 17,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "我是一名公交车司机，每天早上五点就要起床。虽然工作很辛苦，但是能把乘客安全地送到目的地，我觉得很骄傲。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：说话人对自己的工作有什么感觉？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "说话人对自己的工作有什么感觉？",
+                    "vi": "Người nói cảm thấy gì về công việc?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "很骄傲"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "很无聊"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "很后悔"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "很轻松"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“我觉得很骄傲” → A."
+                },
+                {
+                  "id": "hsk4-de3-18",
+                  "no": 18,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "蜜蜂是人类的好朋友。它们在采花的时候，会帮助植物传播花粉，让植物结出果实。如果没有蜜蜂，很多水果和蔬菜的产量都会大大减少。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：蜜蜂对植物有什么帮助？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "蜜蜂对植物有什么帮助？",
+                    "vi": "Ong giúp gì cho thực vật?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "保护叶子"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "吃掉害虫"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "帮助传播花粉"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "给植物浇水"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "“帮助植物传播花粉” → C."
+                },
+                {
+                  "id": "hsk4-de3-19",
+                  "no": 19,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "我刚来公司时，常常因为说错话而紧张。后来一位老同事告诉我，说话之前先想三秒钟。这个办法很简单，但真的很有用。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：老同事给了什么建议？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "老同事给了什么建议？",
+                    "vi": "Đồng nghiệp cũ khuyên gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "少说话"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "说话前先想三秒"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "多看书"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "换一份工作"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“说话之前先想三秒钟” → B."
+                },
+                {
+                  "id": "hsk4-de3-20",
+                  "no": 20,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "京剧是中国的传统艺术，已经有两百多年的历史了。京剧演员的脸上画着不同颜色的图案，叫做“脸谱”，不同的颜色代表不同的性格。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：京剧的“脸谱”有什么作用？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "京剧的“脸谱”有什么作用？",
+                    "vi": "“Mặt nạ vẽ” của Kinh kịch có tác dụng gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "让演员更漂亮"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "保护演员的脸"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "告诉观众时间"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "表示人物的性格"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“不同的颜色代表不同的性格” → D."
+                },
+                {
+                  "id": "hsk4-de3-21",
+                  "no": 21,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "我觉得年轻人应该多出去走走。旅行不只是看风景，更重要的是可以认识不同的人，了解不同的生活方式，让自己的眼光变得更宽。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：说话人认为旅行最重要的是什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "说话人认为旅行最重要的是什么？",
+                    "vi": "Người nói cho rằng điều quan trọng nhất khi du lịch là gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "看风景"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "买东西"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "了解不同的人和生活"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "拍照片"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "“不只是看风景，更重要的是可以认识不同的人，了解不同的生活方式” → C."
+                },
+                {
+                  "id": "hsk4-de3-22",
+                  "no": 22,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "请大家注意，本楼明天上午九点到十二点停水，请提前做好准备。给您带来的不便，敬请谅解。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：明天上午会发生什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "明天上午会发生什么？",
+                    "vi": "Sáng mai sẽ xảy ra chuyện gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "停电"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "开会"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "打扫楼道"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "停水"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“明天上午九点到十二点停水” → D."
+                }
+              ]
+            },
+            {
+              "id": "hsk4-de3-L2-g2",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk4-de3-23",
+                  "no": 23,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "“家庭开放日”那天，员工可以做什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "“家庭开放日”那天，员工可以做什么？",
+                    "vi": "Ngày “mở cửa cho gia đình”, nhân viên được làm gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "带家人来公司参观"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "在家休息"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "去别的公司"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "带孩子去公园"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“员工可以带家人来公司参观” → A."
+                },
+                {
+                  "id": "hsk4-de3-24",
+                  "no": 24,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "这个活动有什么作用？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "这个活动有什么作用？",
+                    "vi": "Hoạt động này có tác dụng gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "提高工资"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "招聘新员工"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "卖公司的产品"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "让家人更理解员工的工作"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“这个活动让家人更理解自己的工作了” → D."
+                }
+              ],
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "男",
+                    "text": "我们公司每年都会组织一次“家庭开放日”。那天，员工可以带家人来公司参观，看看自己平时工作的地方。孩子们最喜欢这个活动了，他们可以坐在爸爸妈妈的位置上，还能吃到公司准备的点心。很多同事说，这个活动让家人更理解自己的工作了。"
+                  }
+                ],
+                "repeat": 1
+              }
+            },
+            {
+              "id": "hsk4-de3-L2-g3",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk4-de3-25",
+                  "no": 25,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "睡前看手机为什么不好？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "睡前看手机为什么不好？",
+                    "vi": "Vì sao xem điện thoại trước khi ngủ không tốt?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "费电"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "伤害耳朵"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "会让人难以入睡"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "浪费钱"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "Ánh sáng màn hình làm não hưng phấn, “让人更难睡着” → C."
+                },
+                {
+                  "id": "hsk4-de3-26",
+                  "no": 26,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "专家建议睡前可以做什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "专家建议睡前可以做什么？",
+                    "vi": "Chuyên gia khuyên trước khi ngủ có thể làm gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "玩游戏"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "喝咖啡"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "看纸质书"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "跑步"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "“可以看看纸质书或者听听轻松的音乐” → C."
+                }
+              ],
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "女",
+                    "text": "很多人喜欢在睡觉前看手机，但是手机屏幕的光会让大脑保持兴奋，让人更难睡着。专家建议，睡前一小时最好把手机放下，可以看看纸质书或者听听轻松的音乐。"
+                  }
+                ],
+                "repeat": 1
+              }
+            },
+            {
+              "id": "hsk4-de3-L2-g4",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk4-de3-27",
+                  "no": 27,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "说话人小时候秋天常做什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "说话人小时候秋天常做什么？",
+                    "vi": "Hồi nhỏ mùa thu người nói thường làm gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "去城里上学"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "帮忙收玉米"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "去海边玩"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "在家看电视"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“我们小孩子就帮忙把玉米运回家” → B."
+                },
+                {
+                  "id": "hsk4-de3-28",
+                  "no": 28,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "说话人现在的心情怎么样？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "说话人现在的心情怎么样？",
+                    "vi": "Tâm trạng hiện tại của người nói thế nào?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "很后悔"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "很生气"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "很无聊"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "怀念过去"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“常常怀念那段时光” → D."
+                }
+              ],
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "男",
+                    "text": "我小时候住在农村，每到秋天，全村的人都会一起收玉米。大人们在地里干活，我们小孩子就帮忙把玉米运回家。虽然很累，但是大家一边干活一边聊天，特别热闹。现在我在城市工作，常常怀念那段时光。"
+                  }
+                ],
+                "repeat": 1
+              }
+            },
+            {
+              "id": "hsk4-de3-L2-g5",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk4-de3-29",
+                  "no": 29,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "关于大象，下列哪项正确？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "关于大象，下列哪项正确？",
+                    "vi": "Về voi, câu nào đúng?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "能记住以前去过的地方"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "不认识镜子里的自己"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "记性很差"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "不和同伴在一起"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“还能记住很多年前去过的地方” → A."
+                },
+                {
+                  "id": "hsk4-de3-30",
+                  "no": 30,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "同伴死去时，大象会怎么样？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "同伴死去时，大象会怎么样？",
+                    "vi": "Khi đồng loại chết, voi sẽ thế nào?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "马上离开"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "大声叫"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "吃很多东西"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "在旁边站很久"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“大象会在旁边站很久” → D."
+                }
+              ],
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "女",
+                    "text": "你知道吗？大象是一种非常聪明的动物。它们能认出镜子里的自己，还能记住很多年前去过的地方。更让人吃惊的是，当同伴死去的时候，大象会在旁边站很久，好像在表达自己的难过。"
+                  }
+                ],
+                "repeat": 1
+              }
+            },
+            {
+              "id": "hsk4-de3-L2-g6",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk4-de3-31",
+                  "no": 31,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "“十五分钟生活圈”是什么意思？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "“十五分钟生活圈”是什么意思？",
+                    "vi": "“Vòng sinh hoạt 15 phút” nghĩa là gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "开车十五分钟到公司"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "走路十五分钟能到生活场所"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "每天运动十五分钟"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "十五分钟坐一次车"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“走路十五分钟以内，就能到达超市、医院……” → B."
+                },
+                {
+                  "id": "hsk4-de3-32",
+                  "no": 32,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "这种建设带来了什么好处？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "这种建设带来了什么好处？",
+                    "vi": "Việc xây dựng này mang lại lợi ích gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "交通和空气变好了"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "房价降低了"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "人口增加了"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "工资提高了"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“开车的人少了，城市的交通和空气也变好了” → A."
+                }
+              ],
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "男",
+                    "text": "现在很多城市都在建设“十五分钟生活圈”，意思是居民走路十五分钟以内，就能到达超市、医院、学校和公园。这样，人们的生活更方便了，开车的人少了，城市的交通和空气也变好了。"
+                  }
+                ],
+                "repeat": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "name_vi": "Đọc",
+      "name_zh": "阅读",
+      "max_score": 100,
+      "duration_minutes": 35,
+      "parts": [
+        {
+          "code": "R1",
+          "type": "fill_blank_wordbank",
+          "expected_count": 10,
+          "instruction_vi": "Chọn từ thích hợp (A–E) điền vào chỗ trống. Mỗi từ dùng một lần.",
+          "instruction_zh": "第一部分：选词填空。",
+          "groups": [
+            {
+              "id": "hsk4-de3-R1-g1",
+              "shared_options": [
+                {
+                  "key": "A",
+                  "text": {
+                    "zh": "联系",
+                    "vi": "liên lạc"
+                  }
+                },
+                {
+                  "key": "B",
+                  "text": {
+                    "zh": "耐心",
+                    "vi": "kiên nhẫn"
+                  }
+                },
+                {
+                  "key": "C",
+                  "text": {
+                    "zh": "仔细",
+                    "vi": "cẩn thận"
+                  }
+                },
+                {
+                  "key": "D",
+                  "text": {
+                    "zh": "主动",
+                    "vi": "chủ động"
+                  }
+                },
+                {
+                  "key": "E",
+                  "text": {
+                    "zh": "普遍",
+                    "vi": "phổ biến"
+                  }
+                }
+              ],
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk4-de3-33",
+                  "no": 33,
+                  "type": "fill_blank_wordbank",
+                  "stem": {
+                    "zh": "教小孩子学习一定要有（ ），不能着急。"
+                  },
+                  "answer": "B",
+                  "explanation_vi": "Dạy trẻ phải có “kiên nhẫn”, không được vội → 耐心 B."
+                },
+                {
+                  "id": "hsk4-de3-34",
+                  "no": 34,
+                  "type": "fill_blank_wordbank",
+                  "stem": {
+                    "zh": "到了北京以后，记得跟我（ ），我去车站接你。"
+                  },
+                  "answer": "A",
+                  "explanation_vi": "“Nhớ liên lạc với tôi” → 跟我联系 A."
+                },
+                {
+                  "id": "hsk4-de3-35",
+                  "no": 35,
+                  "type": "fill_blank_wordbank",
+                  "stem": {
+                    "zh": "现在用手机付款的情况已经非常（ ）了。"
+                  },
+                  "answer": "E",
+                  "explanation_vi": "Thanh toán bằng điện thoại đã rất “phổ biến” → 普遍 E."
+                },
+                {
+                  "id": "hsk4-de3-36",
+                  "no": 36,
+                  "type": "fill_blank_wordbank",
+                  "stem": {
+                    "zh": "他工作很积极，经常（ ）帮助新同事。"
+                  },
+                  "answer": "D",
+                  "explanation_vi": "“Chủ động giúp đồng nghiệp mới” → 主动 D."
+                },
+                {
+                  "id": "hsk4-de3-37",
+                  "no": 37,
+                  "type": "fill_blank_wordbank",
+                  "stem": {
+                    "zh": "考试的时候要（ ）检查，不要写错字。"
+                  },
+                  "answer": "C",
+                  "explanation_vi": "“Kiểm tra cẩn thận” → 仔细 C."
+                }
+              ]
+            },
+            {
+              "id": "hsk4-de3-R1-g2",
+              "shared_options": [
+                {
+                  "key": "A",
+                  "text": {
+                    "zh": "后悔",
+                    "vi": "hối hận"
+                  }
+                },
+                {
+                  "key": "B",
+                  "text": {
+                    "zh": "打扰",
+                    "vi": "làm phiền"
+                  }
+                },
+                {
+                  "key": "C",
+                  "text": {
+                    "zh": "至于",
+                    "vi": "còn về"
+                  }
+                },
+                {
+                  "key": "D",
+                  "text": {
+                    "zh": "来得及",
+                    "vi": "kịp"
+                  }
+                },
+                {
+                  "key": "E",
+                  "text": {
+                    "zh": "平时",
+                    "vi": "ngày thường"
+                  }
+                }
+              ],
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk4-de3-38",
+                  "no": 38,
+                  "type": "fill_blank_wordbank",
+                  "stem": {
+                    "zh": "A：电影还有十分钟就开始了，我们走过去吧？\nB：别着急，电影院就在旁边，（ ）。"
+                  },
+                  "answer": "D",
+                  "explanation_vi": "Rạp ở ngay bên cạnh → vẫn “kịp” → 来得及 D."
+                },
+                {
+                  "id": "hsk4-de3-39",
+                  "no": 39,
+                  "type": "fill_blank_wordbank",
+                  "stem": {
+                    "zh": "A：对不起，（ ）一下，请问去火车站怎么走？\nB：一直往前走就到了。"
+                  },
+                  "answer": "B",
+                  "explanation_vi": "Câu mở đầu khi hỏi đường: “xin lỗi, làm phiền một chút” → 打扰 B."
+                },
+                {
+                  "id": "hsk4-de3-40",
+                  "no": 40,
+                  "type": "fill_blank_wordbank",
+                  "stem": {
+                    "zh": "A：你周末一般做什么？\nB：（ ）工作太忙，周末我就在家好好休息。"
+                  },
+                  "answer": "E",
+                  "explanation_vi": "“Ngày thường bận nên cuối tuần nghỉ” → 平时 E."
+                },
+                {
+                  "id": "hsk4-de3-41",
+                  "no": 41,
+                  "type": "fill_blank_wordbank",
+                  "stem": {
+                    "zh": "A：那件衣服你最后买了吗？\nB：没买，现在有点儿（ ），那么便宜的东西不多。"
+                  },
+                  "answer": "A",
+                  "explanation_vi": "Không mua giờ thấy “hối hận” → 后悔 A."
+                },
+                {
+                  "id": "hsk4-de3-42",
+                  "no": 42,
+                  "type": "fill_blank_wordbank",
+                  "stem": {
+                    "zh": "A：我们去哪儿吃饭？\nB：我们先去看电影，（ ）吃饭的地方，看完再决定吧。"
+                  },
+                  "answer": "C",
+                  "explanation_vi": "“Còn về chỗ ăn thì xem xong quyết” → 至于 C."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R2",
+          "type": "choose_option",
+          "expected_count": 15,
+          "instruction_vi": "Đọc đoạn văn và chọn đáp án đúng. Câu 51–57: mỗi đoạn có 2–3 câu hỏi.",
+          "instruction_zh": "第二部分：请选出正确答案。",
+          "groups": [
+            {
+              "id": "hsk4-de3-R2-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk4-de3-43",
+                  "no": 43,
+                  "type": "choose_option",
+                  "passage": {
+                    "zh": "我们小区门口新开了一家早餐店，老板是一对年轻夫妻。他们每天四点就起床包包子，包子又大又好吃，价格也很便宜，所以每天早上门口都排着长队。"
+                  },
+                  "question": {
+                    "zh": "★ 这家早餐店：",
+                    "vi": "★ Quán ăn sáng này:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "老板是老人"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "价格很贵"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "生意很好"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "包子很小"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "Sáng nào cũng xếp hàng dài → làm ăn tốt: C."
+                },
+                {
+                  "id": "hsk4-de3-44",
+                  "no": 44,
+                  "type": "choose_option",
+                  "passage": {
+                    "zh": "有人说，“读书是最便宜的旅行”。通过读书，我们不用出门，就能了解世界各地的风景、历史和文化，还能认识书中各种各样的人。"
+                  },
+                  "question": {
+                    "zh": "★ 为什么说“读书是最便宜的旅行”？",
+                    "vi": "★ Vì sao nói “đọc sách là chuyến du lịch rẻ nhất”?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "书比车票便宜"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "读书时可以旅行"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "不出门就能了解世界"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "旅行时要带书"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "“我们不用出门，就能了解世界各地……” → C."
+                },
+                {
+                  "id": "hsk4-de3-45",
+                  "no": 45,
+                  "type": "choose_option",
+                  "passage": {
+                    "zh": "最近，很多公司开始允许员工带宠物上班。他们认为，宠物能让员工心情放松，减少工作压力，公司的气氛也会更好。不过，对动物过敏的人可能不太喜欢这个规定。"
+                  },
+                  "question": {
+                    "zh": "★ 公司为什么允许员工带宠物上班？",
+                    "vi": "★ Vì sao công ty cho mang thú cưng đi làm?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "宠物能帮忙工作"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "让员工放松心情"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "为了卖宠物"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "员工家里没人"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“宠物能让员工心情放松，减少工作压力” → B."
+                },
+                {
+                  "id": "hsk4-de3-46",
+                  "no": 46,
+                  "type": "choose_option",
+                  "passage": {
+                    "zh": "我妹妹今年上大学了，第一次离开家。刚开始，她每天都给妈妈打电话，说想家。现在两个月过去了，她交了很多新朋友，打电话的次数也越来越少了。"
+                  },
+                  "question": {
+                    "zh": "★ 妹妹现在怎么样？",
+                    "vi": "★ Em gái hiện giờ thế nào?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "每天都想家"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "不想上大学了"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "没有朋友"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "已经适应了大学生活"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "Kết bạn mới, gọi điện ít dần → đã thích nghi: D."
+                },
+                {
+                  "id": "hsk4-de3-47",
+                  "no": 47,
+                  "type": "choose_option",
+                  "passage": {
+                    "zh": "科学家发现，猫一天要睡十二到十六个小时。它们睡这么长时间，是为了保存体力，因为在野外，猫需要很多能量去抓东西吃。"
+                  },
+                  "question": {
+                    "zh": "★ 猫为什么睡很长时间？",
+                    "vi": "★ Vì sao mèo ngủ lâu?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "为了保存体力"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "因为太懒"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "因为生病"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "因为天气冷"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“是为了保存体力” → A."
+                },
+                {
+                  "id": "hsk4-de3-48",
+                  "no": 48,
+                  "type": "choose_option",
+                  "passage": {
+                    "zh": "这家博物馆周一闭馆，周二到周日上午九点开门，下午五点停止入场。参观免费，但需要提前在网上预约，每天限两千人。"
+                  },
+                  "question": {
+                    "zh": "★ 关于这家博物馆，下列哪项正确？",
+                    "vi": "★ Về bảo tàng này, câu nào đúng?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "需要提前预约"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "周一开放"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "参观要买票"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "人数没有限制"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“需要提前在网上预约” → A."
+                },
+                {
+                  "id": "hsk4-de3-49",
+                  "no": 49,
+                  "type": "choose_option",
+                  "passage": {
+                    "zh": "我们常说“饭后百步走，活到九十九”。不过医生提醒，吃完饭马上运动对消化不好，最好休息半个小时以后再出去散步。"
+                  },
+                  "question": {
+                    "zh": "★ 医生建议什么时候散步？",
+                    "vi": "★ Bác sĩ khuyên khi nào đi dạo?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "吃饭前"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "吃完饭马上"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "睡觉以后"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "饭后半小时"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“最好休息半个小时以后再出去散步” → D."
+                },
+                {
+                  "id": "hsk4-de3-50",
+                  "no": 50,
+                  "type": "choose_option",
+                  "passage": {
+                    "zh": "面试的时候，除了回答问题，穿着也很重要。衣服不一定要贵，但要干净、整齐，这样会给面试官留下好印象。"
+                  },
+                  "question": {
+                    "zh": "★ 关于面试的穿着，作者认为：",
+                    "vi": "★ Về trang phục khi phỏng vấn, tác giả cho rằng:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "越贵越好"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "干净整齐最重要"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "穿什么都可以"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "一定要穿西装"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“不一定要贵，但要干净、整齐” → B."
+                }
+              ]
+            },
+            {
+              "id": "hsk4-de3-R2-g2",
+              "shared_options": null,
+              "passage": {
+                "zh": "茶馆是中国人喝茶、聊天的地方，在四川成都尤其多。成都人喜欢慢生活，很多人一大早就来到茶馆，点一杯茶，一坐就是半天。在茶馆里，有人看报纸，有人打牌，还有人听传统的川剧。对成都人来说，茶馆不仅是喝茶的地方，更是生活的一部分。"
+              },
+              "questions": [
+                {
+                  "id": "hsk4-de3-51",
+                  "no": 51,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "★ 关于成都人，可以知道：",
+                    "vi": "★ Về người Thành Đô có thể biết:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "不喜欢喝茶"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "工作很忙"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "喜欢慢生活"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "很少聊天"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "“成都人喜欢慢生活” → C."
+                },
+                {
+                  "id": "hsk4-de3-52",
+                  "no": 52,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "★ 对成都人来说，茶馆：",
+                    "vi": "★ Với người Thành Đô, quán trà:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "是生活的一部分"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "只能喝茶"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "太贵了"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "只有老人去"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“茶馆不仅是喝茶的地方，更是生活的一部分” → A."
+                }
+              ]
+            },
+            {
+              "id": "hsk4-de3-R2-g3",
+              "shared_options": null,
+              "passage": {
+                "zh": "现在，很多城市都在推广垃圾分类。垃圾一般分为四类：可回收物、厨余垃圾、有害垃圾和其他垃圾。比如，旧报纸和塑料瓶属于可回收物，剩饭剩菜属于厨余垃圾，旧电池属于有害垃圾。垃圾分类做好了，不但能减少污染，还能节约资源。"
+              },
+              "questions": [
+                {
+                  "id": "hsk4-de3-53",
+                  "no": 53,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "★ 旧电池属于哪一类垃圾？",
+                    "vi": "★ Pin cũ thuộc loại rác nào?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "可回收物"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "有害垃圾"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "厨余垃圾"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "其他垃圾"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“旧电池属于有害垃圾” → B."
+                },
+                {
+                  "id": "hsk4-de3-54",
+                  "no": 54,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "★ 垃圾分类有什么好处？",
+                    "vi": "★ Phân loại rác có lợi gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "让垃圾变多"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "让城市变大"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "提高房价"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "减少污染，节约资源"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“不但能减少污染，还能节约资源” → D."
+                }
+              ]
+            },
+            {
+              "id": "hsk4-de3-R2-g4",
+              "shared_options": null,
+              "passage": {
+                "zh": "张明是一名乡村医生，在山区工作了二十年。村子离县城很远，以前村民看病很不方便。张明每天背着药箱，走山路到各家各户给老人检查身体。前几年，他还教会了村民用手机和城里的医生视频看病。如今，村里的年轻人都叫他“张爸爸”，因为他就像家人一样照顾着大家。"
+              },
+              "questions": [
+                {
+                  "id": "hsk4-de3-55",
+                  "no": 55,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "★ 以前村民为什么看病不方便？",
+                    "vi": "★ Vì sao trước đây dân làng khám bệnh bất tiện?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "没有钱"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "不相信医生"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "村子离县城远"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "路上有河"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "“村子离县城很远” → C."
+                },
+                {
+                  "id": "hsk4-de3-56",
+                  "no": 56,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "★ 张明教会了村民什么？",
+                    "vi": "★ Trương Minh dạy dân làng điều gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "用手机视频看病"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "种药材"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "开车"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "做饭"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“教会了村民用手机和城里的医生视频看病” → A."
+                },
+                {
+                  "id": "hsk4-de3-57",
+                  "no": 57,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "★ 年轻人为什么叫他“张爸爸”？",
+                    "vi": "★ Vì sao thanh niên gọi ông là “bố Trương”?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "他是大家的爸爸"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "他像家人一样照顾大家"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "他年龄很大"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "他是村长"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“因为他就像家人一样照顾着大家” → B."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R3",
+          "type": "cloze_sentence",
+          "expected_count": 7,
+          "instruction_vi": "Chọn câu thích hợp điền vào chỗ trống đánh số (mỗi câu dùng một lần, có câu thừa).",
+          "instruction_zh": "第三部分：选句填空。",
+          "groups": [
+            {
+              "id": "hsk4-de3-R3-g1",
+              "shared_options": [
+                {
+                  "key": "A",
+                  "text": {
+                    "zh": "所以，当你觉得累的时候，不妨听一听音乐。",
+                    "vi": "Vì vậy, khi thấy mệt, bạn hãy thử nghe nhạc."
+                  }
+                },
+                {
+                  "key": "B",
+                  "text": {
+                    "zh": "听一首喜欢的歌，人的心跳会慢下来，身体也会放松。",
+                    "vi": "Nghe một bài hát yêu thích, nhịp tim chậm lại, cơ thể thả lỏng."
+                  }
+                },
+                {
+                  "key": "C",
+                  "text": {
+                    "zh": "这是因为音乐和人的情绪有很密切的关系。",
+                    "vi": "Đó là vì âm nhạc và cảm xúc con người có quan hệ mật thiết."
+                  }
+                },
+                {
+                  "key": "D",
+                  "text": {
+                    "zh": "这首歌是去年最受欢迎的歌。",
+                    "vi": "Bài hát này là bài được yêu thích nhất năm ngoái."
+                  }
+                },
+                {
+                  "key": "E",
+                  "text": {
+                    "zh": "而难过的时候听悲伤的歌，可能会让人更想哭。",
+                    "vi": "Còn khi buồn nghe nhạc buồn có thể khiến người ta muốn khóc hơn."
+                  }
+                }
+              ],
+              "passage": {
+                "zh": "你有没有发现，同一首歌，在不同的心情下听，感觉完全不一样？（58）比如，开心的时候听快乐的歌，会让人更加兴奋。（59）研究发现，音乐不仅能影响心情，还能帮助人们减轻压力。（60）因此，现在有些医院会用音乐来帮助病人放松。（61）"
+              },
+              "questions": [
+                {
+                  "id": "hsk4-de3-58",
+                  "no": 58,
+                  "type": "cloze_sentence",
+                  "blank_no": 58,
+                  "answer": "C",
+                  "explanation_vi": "Giải thích hiện tượng (这是因为……) → C."
+                },
+                {
+                  "id": "hsk4-de3-59",
+                  "no": 59,
+                  "type": "cloze_sentence",
+                  "blank_no": 59,
+                  "answer": "E",
+                  "explanation_vi": "Đối lập với “开心的时候……” là “而难过的时候……” → E."
+                },
+                {
+                  "id": "hsk4-de3-60",
+                  "no": 60,
+                  "type": "cloze_sentence",
+                  "blank_no": 60,
+                  "answer": "B",
+                  "explanation_vi": "Minh họa cho “giảm áp lực”: tim chậm lại, cơ thể thả lỏng → B."
+                },
+                {
+                  "id": "hsk4-de3-61",
+                  "no": 61,
+                  "type": "cloze_sentence",
+                  "blank_no": 61,
+                  "answer": "A",
+                  "explanation_vi": "Kết bài là lời khuyên (所以……不妨……) → A. Câu “这首歌……” là câu thừa."
+                }
+              ]
+            },
+            {
+              "id": "hsk4-de3-R3-g2",
+              "shared_options": [
+                {
+                  "key": "A",
+                  "text": {
+                    "zh": "他还把容易出错的地方写在本子上，提醒自己。",
+                    "vi": "Cậu còn ghi những chỗ dễ sai vào sổ để nhắc mình."
+                  }
+                },
+                {
+                  "key": "B",
+                  "text": {
+                    "zh": "但他特别愿意学习，有不懂的问题就马上问。",
+                    "vi": "Nhưng cậu rất chịu học, có gì không hiểu là hỏi ngay."
+                  }
+                },
+                {
+                  "key": "C",
+                  "text": {
+                    "zh": "小王没有找理由，而是马上向经理道歉，并想办法弥补。",
+                    "vi": "Tiểu Vương không bao biện mà xin lỗi giám đốc ngay và tìm cách khắc phục."
+                  }
+                },
+                {
+                  "key": "D",
+                  "text": {
+                    "zh": "经理是一个很有经验的人。",
+                    "vi": "Giám đốc là người rất có kinh nghiệm."
+                  }
+                }
+              ],
+              "passage": {
+                "zh": "上个月，我们公司来了一位新同事小王。他刚从大学毕业，什么都不懂。（62）有一次，他把重要的文件发错了人，经理很生气。（63）从那以后，他每次发邮件前都会认真检查。（64）现在，小王已经成了我们部门最可靠的人之一。"
+              },
+              "questions": [
+                {
+                  "id": "hsk4-de3-62",
+                  "no": 62,
+                  "type": "cloze_sentence",
+                  "blank_no": 62,
+                  "answer": "B",
+                  "explanation_vi": "“什么都不懂。但他特别愿意学习” — chuyển ý bằng 但 → B."
+                },
+                {
+                  "id": "hsk4-de3-63",
+                  "no": 63,
+                  "type": "cloze_sentence",
+                  "blank_no": 63,
+                  "answer": "C",
+                  "explanation_vi": "Sau khi giám đốc tức giận → phản ứng của Tiểu Vương: xin lỗi, khắc phục → C."
+                },
+                {
+                  "id": "hsk4-de3-64",
+                  "no": 64,
+                  "type": "cloze_sentence",
+                  "blank_no": 64,
+                  "answer": "A",
+                  "explanation_vi": "Bổ sung hành động sửa thói quen (还……提醒自己) → A. Câu về giám đốc là câu thừa."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "name_vi": "Viết",
+      "name_zh": "书写",
+      "max_score": 100,
+      "duration_minutes": 25,
+      "parts": [
+        {
+          "code": "W1",
+          "type": "write_sentence",
+          "expected_count": 5,
+          "instruction_vi": "Dùng từ cho sẵn đặt một câu hoàn chỉnh (mỗi câu 4 điểm).",
+          "instruction_zh": "第一部分：用所给的词语造句。",
+          "groups": [
+            {
+              "id": "hsk4-de3-W1-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk4-de3-65",
+                  "no": 65,
+                  "type": "write_sentence",
+                  "prompt_vi": "Đặt một câu hoàn chỉnh có dùng từ cho sẵn.",
+                  "keyword": {
+                    "zh": "果然",
+                    "pinyin": "guǒrán"
+                  },
+                  "image": null,
+                  "min_chars": 8,
+                  "sample_answers": [
+                    "天气预报说今天有雨，果然下雨了。"
+                  ],
+                  "max_points": 4,
+                  "rubric_id": "rb-sentence-4",
+                  "answer": null,
+                  "explanation_vi": "果然: quả nhiên (đúng như dự đoán)."
+                },
+                {
+                  "id": "hsk4-de3-66",
+                  "no": 66,
+                  "type": "write_sentence",
+                  "prompt_vi": "Đặt một câu hoàn chỉnh có dùng từ cho sẵn.",
+                  "keyword": {
+                    "zh": "另外",
+                    "pinyin": "lìngwài"
+                  },
+                  "image": null,
+                  "min_chars": 8,
+                  "sample_answers": [
+                    "我买了一些水果，另外还买了一瓶牛奶。"
+                  ],
+                  "max_points": 4,
+                  "rubric_id": "rb-sentence-4",
+                  "answer": null,
+                  "explanation_vi": "另外: ngoài ra, bổ sung thông tin."
+                },
+                {
+                  "id": "hsk4-de3-67",
+                  "no": 67,
+                  "type": "write_sentence",
+                  "prompt_vi": "Đặt một câu hoàn chỉnh có dùng từ cho sẵn.",
+                  "keyword": {
+                    "zh": "难免",
+                    "pinyin": "nánmiǎn"
+                  },
+                  "image": null,
+                  "min_chars": 8,
+                  "sample_answers": [
+                    "刚到一个新地方，难免会觉得不习惯。"
+                  ],
+                  "max_points": 4,
+                  "rubric_id": "rb-sentence-4",
+                  "answer": null,
+                  "explanation_vi": "难免 + 会 + V: khó tránh khỏi."
+                },
+                {
+                  "id": "hsk4-de3-68",
+                  "no": 68,
+                  "type": "write_sentence",
+                  "prompt_vi": "Đặt một câu hoàn chỉnh có dùng từ cho sẵn.",
+                  "keyword": {
+                    "zh": "原来",
+                    "pinyin": "yuánlái"
+                  },
+                  "image": null,
+                  "min_chars": 8,
+                  "sample_answers": [
+                    "我以为他是老师，原来他是医生。"
+                  ],
+                  "max_points": 4,
+                  "rubric_id": "rb-sentence-4",
+                  "answer": null,
+                  "explanation_vi": "原来: hóa ra (phát hiện sự thật)."
+                },
+                {
+                  "id": "hsk4-de3-69",
+                  "no": 69,
+                  "type": "write_sentence",
+                  "prompt_vi": "Đặt một câu hoàn chỉnh có dùng từ cho sẵn.",
+                  "keyword": {
+                    "zh": "提醒",
+                    "pinyin": "tíxǐng"
+                  },
+                  "image": null,
+                  "min_chars": 8,
+                  "sample_answers": [
+                    "妈妈提醒我出门要带伞。"
+                  ],
+                  "max_points": 4,
+                  "rubric_id": "rb-sentence-4",
+                  "answer": null,
+                  "explanation_vi": "提醒 + 人 + V: nhắc ai làm gì."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "W2",
+          "type": "write_essay",
+          "expected_count": 1,
+          "instruction_vi": "Viết đoạn văn theo đề (≥ 80 chữ, 20 điểm).",
+          "instruction_zh": "第二部分：写短文。",
+          "groups": [
+            {
+              "id": "hsk4-de3-W2-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk4-de3-70",
+                  "no": 70,
+                  "type": "write_essay",
+                  "genre": "descriptive",
+                  "prompt": {
+                    "zh": "请写一篇不少于80字的短文，介绍你最喜欢的一个地方。",
+                    "vi": "Viết đoạn ≥ 80 chữ giới thiệu nơi bạn thích nhất."
+                  },
+                  "prompt_vi": "Viết đoạn văn ≥ 80 chữ Hán giới thiệu một nơi bạn thích (công viên, thư viện, quê…): ở đâu, có gì, bạn làm gì ở đó, vì sao thích.",
+                  "keywords": [
+                    "地方",
+                    "喜欢"
+                  ],
+                  "image": null,
+                  "min_chars": 80,
+                  "max_chars": null,
+                  "time_minutes": 15,
+                  "sample_answers": [
+                    "我最喜欢的地方是我家附近的一个小公园。公园不大，但是环境很好，里面有一个小湖，湖边种着很多柳树。每天早上，很多老人在那里打太极拳，孩子们在草地上跑来跑去。下班以后，我常常去那里散步，看看湖水，听听鸟叫，一天的疲劳很快就没有了。对我来说，这个小公园就像一个安静的朋友，总是让我感到放松。"
+                  ],
+                  "outline_vi": [
+                    "Mở: nơi đó là đâu.",
+                    "Thân: cảnh vật + con người + việc bạn làm ở đó.",
+                    "Kết: cảm nhận, vì sao thích."
+                  ],
+                  "max_points": 20,
+                  "rubric_id": "rb-essay-20",
+                  "answer": null,
+                  "explanation_vi": "Bài đạt yêu cầu: đúng đề, ≥ 80 chữ, bố cục mở–thân–kết, có từ nối, câu đúng ngữ pháp HSK4."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "rb-sentence-4",
+      "max_score": 4,
+      "criteria": [
+        {
+          "key": "keyword",
+          "name_vi": "Dùng đúng từ cho sẵn",
+          "weight": 0.4,
+          "description_vi": "Có từ khóa, dùng đúng nghĩa và vị trí ngữ pháp."
+        },
+        {
+          "key": "grammar",
+          "name_vi": "Ngữ pháp",
+          "weight": 0.4,
+          "description_vi": "Câu hoàn chỉnh, đúng trật tự từ."
+        },
+        {
+          "key": "characters",
+          "name_vi": "Chữ Hán & dấu câu",
+          "weight": 0.2,
+          "description_vi": "Viết đúng chữ, có dấu câu."
+        }
+      ]
+    },
+    {
+      "id": "rb-essay-20",
+      "max_score": 20,
+      "criteria": [
+        {
+          "key": "content",
+          "name_vi": "Nội dung",
+          "weight": 0.35,
+          "description_vi": "Đúng yêu cầu đề/tranh, đủ ý, có chi tiết, lập luận rõ."
+        },
+        {
+          "key": "organization",
+          "name_vi": "Bố cục, mạch lạc",
+          "weight": 0.2,
+          "description_vi": "Trình tự hợp lý, có từ nối, đoạn rõ ràng."
+        },
+        {
+          "key": "vocab_grammar",
+          "name_vi": "Từ vựng & ngữ pháp",
+          "weight": 0.3,
+          "description_vi": "Từ vựng phong phú đúng cấp, câu đúng ngữ pháp."
+        },
+        {
+          "key": "characters",
+          "name_vi": "Chữ Hán & độ dài",
+          "weight": 0.15,
+          "description_vi": "Đủ số chữ tối thiểu, ít lỗi chữ, dấu câu đúng."
+        }
+      ]
+    }
+  ],
+  "notes": "Đề tự soạn theo cấu trúc HSK 3.0 (Phụ lục A.2); nội dung mới, không lặp đề 1. repeat 1, pass 180 là giả định."
+}

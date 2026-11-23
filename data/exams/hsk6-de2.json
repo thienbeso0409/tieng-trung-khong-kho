@@ -1,0 +1,3656 @@
+{
+  "id": "hsk6-de2",
+  "level": 6,
+  "title_vi": "Đề thi thử HSK 6 – Đề 2",
+  "standard": "HSK3.0",
+  "score_mode": "pass",
+  "duration_minutes": 125,
+  "total_score": 300,
+  "pass_score": 180,
+  "show_pinyin": false,
+  "repeat_default": 1,
+  "speaking_paper": "hsk6-de2-speaking",
+  "sections": [
+    {
+      "id": "listening",
+      "name_vi": "Nghe",
+      "name_zh": "听力",
+      "max_score": 100,
+      "duration_minutes": 35,
+      "parts": [
+        {
+          "code": "L1",
+          "type": "choose_option",
+          "expected_count": 8,
+          "instruction_vi": "Nghe một đoạn ngắn, chọn câu có nội dung khớp với đoạn nghe.",
+          "instruction_zh": "第一部分：请选出与所听内容一致的一项。",
+          "groups": [
+            {
+              "id": "hsk6-de2-L1-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk6-de2-01",
+                  "no": 1,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "据统计，我国城市居民人均每天通勤时间已超过一个小时。通勤时间过长，不仅降低了人们的生活质量，也间接影响了工作效率和家庭关系。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": null,
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "通勤时间过长会带来负面影响"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "城市居民不需要上班"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "通勤时间越长越好"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "通勤时间只有十分钟"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "Đi lại quá lâu làm giảm chất lượng sống, hiệu suất, quan hệ gia đình → A."
+                },
+                {
+                  "id": "hsk6-de2-02",
+                  "no": 2,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "这家老字号饺子馆已经营业七十多年了。它坚持手工包饺子，从不使用机器。虽然价格比别的店贵一些，但每天依然有很多食客排队。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": null,
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "这家店刚开业不久"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "这家店坚持手工包饺子"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "饺子是机器做的"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "这家店价格很便宜"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“坚持手工包饺子，从不使用机器” → B."
+                },
+                {
+                  "id": "hsk6-de2-03",
+                  "no": 3,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "研究发现，适度的无聊对孩子是有好处的。当孩子无事可做时，他们会主动寻找乐趣，这个过程能激发他们的想象力和创造力。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": null,
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "无聊可以激发孩子的创造力"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "孩子应该一直很忙"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "无聊对孩子有害"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "孩子不会感到无聊"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "Nhàm chán vừa phải giúp trẻ tự tìm niềm vui, “激发……想象力和创造力” → A."
+                },
+                {
+                  "id": "hsk6-de2-04",
+                  "no": 4,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "候鸟每年都会在固定的季节进行长距离迁徙。科学家认为，它们是依靠太阳、星星的位置以及地球磁场来判断方向的。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": null,
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "候鸟一年四季都在一个地方"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "候鸟只在晚上飞"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "候鸟能利用多种方式判断方向"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "科学家不知道候鸟怎么认路"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "Dựa vào mặt trời, sao và từ trường → nhiều cách định hướng: C."
+                },
+                {
+                  "id": "hsk6-de2-05",
+                  "no": 5,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "这家公司规定，员工每工作一个小时，就要离开座位活动五分钟。公司认为，这样做能减少久坐对健康的危害，还能让员工保持清醒的头脑。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": null,
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "员工不能离开座位"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "公司鼓励员工定时活动"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "员工每天只工作一小时"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "公司不关心员工健康"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "Mỗi giờ phải rời chỗ vận động 5 phút → B."
+                },
+                {
+                  "id": "hsk6-de2-06",
+                  "no": 6,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "所谓“情绪劳动”，是指员工在工作中需要控制自己的真实情绪，表现出符合要求的态度，比如服务员即使心情不好，也要对顾客微笑。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": null,
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "情绪劳动是体力劳动"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "服务员可以随便发脾气"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "情绪劳动需要控制真实情绪"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "情绪劳动只存在于工厂"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "Định nghĩa: kiểm soát cảm xúc thật, biểu hiện thái độ phù hợp → C."
+                },
+                {
+                  "id": "hsk6-de2-07",
+                  "no": 7,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "成语“画蛇添足”讲的是一个人画蛇时给蛇加上了脚，结果输掉了比赛。后来人们用它来比喻做了多余的事，反而把事情弄糟了。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": null,
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "“画蛇添足”说明画画很难"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "蛇本来有脚"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "这个人赢了比赛"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "“画蛇添足”比喻做多余的事"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“比喻做了多余的事，反而把事情弄糟了” → D."
+                },
+                {
+                  "id": "hsk6-de2-08",
+                  "no": 8,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "这座跨海大桥全长五十五公里，是目前世界上最长的跨海大桥之一。大桥建成后，两地之间的交通时间从三个小时缩短到了四十五分钟。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": null,
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "大桥长五公里"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "大桥还没有建成"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "交通时间变长了"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "大桥大大缩短了交通时间"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "Từ 3 tiếng xuống 45 phút → D."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "L2",
+          "type": "choose_option",
+          "expected_count": 20,
+          "instruction_vi": "Nghe 5 đoạn độc thoại, mỗi đoạn 4 câu hỏi.",
+          "instruction_zh": "第二部分：请选出正确答案。",
+          "groups": [
+            {
+              "id": "hsk6-de2-L2-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk6-de2-09",
+                  "no": 9,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "“慢城”运动起源于哪里？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "“慢城”运动起源于哪里？",
+                    "vi": "Phong trào “thành phố chậm” bắt nguồn từ đâu?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "中国的一个城市"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "美国的大城市"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "意大利的一个小镇"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "日本的乡村"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "“最早起源于意大利的一个小镇” → C."
+                },
+                {
+                  "id": "hsk6-de2-10",
+                  "no": 10,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "“慢城”运动提倡什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "“慢城”运动提倡什么？",
+                    "vi": "Phong trào “thành phố chậm” đề xướng gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "发展工业"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "多开汽车"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "放慢生活节奏"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "建高楼大厦"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "“提倡人们放慢生活节奏” → C."
+                },
+                {
+                  "id": "hsk6-de2-11",
+                  "no": 11,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "要成为“慢城”，人口一般不能超过多少？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "要成为“慢城”，人口一般不能超过多少？",
+                    "vi": "Muốn thành “thành phố chậm”, dân số thường không quá bao nhiêu?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "五万"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "五千"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "五十万"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "两百万"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“人口一般不能超过五万” → A."
+                },
+                {
+                  "id": "hsk6-de2-12",
+                  "no": 12,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "关于“慢城”，下列哪项正确？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "关于“慢城”，下列哪项正确？",
+                    "vi": "Về “thành phố chậm”, câu nào đúng?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "只有意大利有"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "鼓励使用汽车"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "中国也有城镇入选"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "要拆除传统建筑"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "“中国也有好几个小城镇入选” → C."
+                }
+              ],
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "男",
+                    "text": "各位听众，今天我们聊一聊“慢城”运动。这个运动最早起源于意大利的一个小镇，提倡人们放慢生活节奏，享受当地的美食、手工艺和自然环境。要成为“慢城”，城市的人口一般不能超过五万，还要限制汽车的使用，保护传统建筑，支持本地的农产品。目前，全世界已经有两百多个城市加入了“慢城”组织，中国也有好几个小城镇入选。有人认为，在节奏越来越快的现代社会，“慢城”给人们提供了另一种生活的可能。"
+                  }
+                ],
+                "repeat": 1
+              }
+            },
+            {
+              "id": "hsk6-de2-L2-g2",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk6-de2-13",
+                  "no": 13,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "根据最新研究，打哈欠的主要作用是："
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "根据最新研究，打哈欠的主要作用是：",
+                    "vi": "Theo nghiên cứu mới, tác dụng chính của ngáp là:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "给大脑降温"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "表示困了"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "锻炼面部肌肉"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "吸引别人注意"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“打哈欠的主要作用是给大脑‘降温’” → A."
+                },
+                {
+                  "id": "hsk6-de2-14",
+                  "no": 14,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "打哈欠时会发生什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "打哈欠时会发生什么？",
+                    "vi": "Khi ngáp xảy ra điều gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "心跳停止"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "体温升高"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "吸入大量冷空气"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "呼吸变慢"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "“会吸入大量的冷空气” → C."
+                },
+                {
+                  "id": "hsk6-de2-15",
+                  "no": 15,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "人们为什么夏天打哈欠比冬天少？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "人们为什么夏天打哈欠比冬天少？",
+                    "vi": "Vì sao mùa hè người ta ngáp ít hơn mùa đông?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "夏天睡得多"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "夏天降温效果不明显"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "夏天心情好"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "夏天工作少"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“夏天的空气温度高，打哈欠的降温效果并不明显” → B."
+                },
+                {
+                  "id": "hsk6-de2-16",
+                  "no": 16,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "“打哈欠有传染性”是指："
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "“打哈欠有传染性”是指：",
+                    "vi": "“Ngáp có tính lây” nghĩa là:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "打哈欠会传播疾病"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "打哈欠对别人有害"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "只有家人会一起打哈欠"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "看到别人打哈欠自己也会打"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“看到别人打哈欠，自己也很容易跟着打” → D."
+                }
+              ],
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "女",
+                    "text": "很多人以为，打哈欠是因为困了或者累了。但最新研究提出了一种新的解释：打哈欠的主要作用是给大脑“降温”。当我们打哈欠时，会吸入大量的冷空气，同时加快面部的血液循环，从而降低大脑的温度，让大脑保持最佳的工作状态。这也解释了为什么人们在夏天打哈欠的次数比冬天少，因为夏天的空气温度高，打哈欠的降温效果并不明显。另外，打哈欠还具有“传染性”，看到别人打哈欠，自己也很容易跟着打。"
+                  }
+                ],
+                "repeat": 1
+              }
+            },
+            {
+              "id": "hsk6-de2-L2-g3",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk6-de2-17",
+                  "no": 17,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "说话人从事什么工作？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "说话人从事什么工作？",
+                    "vi": "Người nói làm công việc gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "卖书"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "修复古籍"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "写书"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "翻译"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“我是一名古籍修复师” → B."
+                },
+                {
+                  "id": "hsk6-de2-18",
+                  "no": 18,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "古籍常常存在什么问题？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "古籍常常存在什么问题？",
+                    "vi": "Sách cổ thường gặp vấn đề gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "纸张发脆、被虫咬"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "字太小"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "内容太难"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "价格太贵"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“纸张发黄、发脆，甚至被虫子咬坏” → A."
+                },
+                {
+                  "id": "hsk6-de2-19",
+                  "no": 19,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "关于这项工作，可以知道："
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "关于这项工作，可以知道：",
+                    "vi": "Về công việc này có thể biết:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "工作时间很短"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "收入非常高"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "很轻松有趣"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "很少有年轻人愿意做"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“这项工作非常枯燥，年轻人很少愿意做” → D."
+                },
+                {
+                  "id": "hsk6-de2-20",
+                  "no": 20,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "说话人觉得修好一本书像什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "说话人觉得修好一本书像什么？",
+                    "vi": "Người nói thấy sửa xong một cuốn sách giống gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "完成一次考试"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "买了一件新衣服"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "赢了一场比赛"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "让老人重获生命"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“就像让一位老人重新获得了生命” → D."
+                }
+              ],
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "男",
+                    "text": "我是一名古籍修复师，在图书馆工作了二十多年。古籍就是古代留下来的书，很多已经有几百年的历史，纸张发黄、发脆，甚至被虫子咬坏。修复一本古籍，往往需要几个月甚至几年的时间，每一页都要小心地清洗、补洞、压平。这项工作非常枯燥，年轻人很少愿意做。但是我觉得，每修好一本书，就像让一位老人重新获得了生命，这种成就感是别的工作给不了的。"
+                  }
+                ],
+                "repeat": 1
+              }
+            },
+            {
+              "id": "hsk6-de2-L2-g4",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk6-de2-21",
+                  "no": 21,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "现在的城市更新更强调什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "现在的城市更新更强调什么？",
+                    "vi": "Đổi mới đô thị hiện nay nhấn mạnh điều gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "保留城市的历史和记忆"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "大规模拆除旧房"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "建更多的工厂"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "增加人口"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“更强调保留城市的历史和记忆” → A."
+                },
+                {
+                  "id": "hsk6-de2-22",
+                  "no": 22,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "废弃的老工厂被改造成了什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "废弃的老工厂被改造成了什么？",
+                    "vi": "Nhà máy cũ bỏ hoang được cải tạo thành gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "住宅小区"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "停车场"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "购物中心"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "艺术中心和创意园区"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“改造成了艺术中心和创意园区” → D."
+                },
+                {
+                  "id": "hsk6-de2-23",
+                  "no": 23,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "改造老工厂有什么好处？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "改造老工厂有什么好处？",
+                    "vi": "Cải tạo nhà máy cũ có lợi gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "降低房价"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "减少游客"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "增加污染"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "为年轻人提供空间"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“为年轻人提供了工作和交流的空间” → D."
+                },
+                {
+                  "id": "hsk6-de2-24",
+                  "no": 24,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "专家认为城市更新应该注意什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "专家认为城市更新应该注意什么？",
+                    "vi": "Chuyên gia cho rằng đổi mới đô thị nên chú ý gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "尊重居民的意见"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "越快越好"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "只考虑经济利益"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "让老居民搬走"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“更要尊重居民的意见，让老居民能够‘留得下、住得好’” → A."
+                }
+              ],
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "女",
+                    "text": "近年来，“城市更新”成为很多城市发展的重点。和过去大规模拆旧建新不同，现在的城市更新更强调保留城市的历史和记忆。比如，有的城市把废弃的老工厂改造成了艺术中心和创意园区，既保留了工业时代的建筑风格，又为年轻人提供了工作和交流的空间。专家指出，城市更新不仅要改善居住条件，更要尊重居民的意见，让老居民能够“留得下、住得好”。"
+                  }
+                ],
+                "repeat": 1
+              }
+            },
+            {
+              "id": "hsk6-de2-L2-g5",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk6-de2-25",
+                  "no": 25,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "“信息过载”是指什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "“信息过载”是指什么？",
+                    "vi": "“Quá tải thông tin” là gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "网速太慢"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "接收的信息太多，大脑处理不过来"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "信息太少"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "手机没有电"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "Lượng thông tin quá lớn, “大脑来不及处理” → B."
+                },
+                {
+                  "id": "hsk6-de2-26",
+                  "no": 26,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "现代人接收的信息量和几十年前相比："
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "现代人接收的信息量和几十年前相比：",
+                    "vi": "Lượng thông tin hiện nay so với mấy chục năm trước:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "差不多"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "少了很多"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "多了好几倍"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "多了一点儿"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "“是几十年前的好几倍” → C."
+                },
+                {
+                  "id": "hsk6-de2-27",
+                  "no": 27,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "信息过载会带来什么后果？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "信息过载会带来什么后果？",
+                    "vi": "Quá tải thông tin dẫn đến hậu quả gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "记忆力提高"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "注意力下降"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "睡眠变好"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "视力变好"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“容易感到疲劳、注意力下降” → B."
+                },
+                {
+                  "id": "hsk6-de2-28",
+                  "no": 28,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "下列哪项不是专家的建议？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "下列哪项不是专家的建议？",
+                    "vi": "Điều nào KHÔNG phải lời khuyên chuyên gia?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "明确上网目的"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "多看各种视频"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "学会筛选信息"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "安排无屏幕时间"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "Chuyên gia khuyên ba điều còn lại; “多看各种视频” trái ngược → B."
+                }
+              ],
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "男",
+                    "text": "你有没有过这样的经历：明明只是想上网查一个资料，结果一个小时过去了，你还在看各种无关的视频和新闻。这种现象叫做“信息过载”。现代人每天接收的信息量是几十年前的好几倍，大脑来不及处理，就容易感到疲劳、注意力下降。要应对信息过载，专家建议，首先要明确上网的目的，其次要学会筛选信息，只关注真正有价值的内容，另外，还应该定期给自己安排“无屏幕时间”。"
+                  }
+                ],
+                "repeat": 1
+              }
+            }
+          ]
+        },
+        {
+          "code": "L3",
+          "type": "choose_option",
+          "expected_count": 12,
+          "instruction_vi": "Nghe 3 cuộc phỏng vấn/hội thoại nam–nữ, mỗi bài 4 câu hỏi.",
+          "instruction_zh": "第三部分：请选出正确答案。",
+          "groups": [
+            {
+              "id": "hsk6-de2-L3-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk6-de2-29",
+                  "no": 29,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "小陈为什么选择学习剪纸？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "小陈为什么选择学习剪纸？",
+                    "vi": "Vì sao Tiểu Trần chọn học cắt giấy?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "受奶奶的影响"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "大学学的是剪纸"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "为了赚钱"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "老师要求的"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "Bà là nghệ nhân cắt giấy, từ nhỏ xem bà cắt → A."
+                },
+                {
+                  "id": "hsk6-de2-30",
+                  "no": 30,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "小陈大学学的是什么专业？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "小陈大学学的是什么专业？",
+                    "vi": "Tiểu Trần học chuyên ngành gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "历史"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "美术教育"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "经济"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "设计"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“大学学的是设计专业” → D."
+                },
+                {
+                  "id": "hsk6-de2-31",
+                  "no": 31,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "小陈是怎样让剪纸受到欢迎的？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "小陈是怎样让剪纸受到欢迎的？",
+                    "vi": "Tiểu Trần làm cắt giấy được ưa chuộng bằng cách nào?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "降低价格"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "和现代设计结合"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "开培训班"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "参加电视节目"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“把剪纸和现代设计结合起来，做成了……日常用品” → B."
+                },
+                {
+                  "id": "hsk6-de2-32",
+                  "no": 32,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "小陈认为做非遗传承最大的困难是什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "小陈认为做非遗传承最大的困难是什么？",
+                    "vi": "Khó khăn lớn nhất khi truyền thừa di sản phi vật thể là gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "缺少资金"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "没有市场"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "材料太贵"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "坚持"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“是坚持” → D."
+                }
+              ],
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "女",
+                    "text": "今天我们请到了一位“95后”的非遗传承人小陈。小陈，你为什么会选择学习剪纸这门传统手艺？"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "我奶奶就是剪纸艺人，我从小看着她剪，觉得特别神奇。大学学的是设计专业，毕业后我决定回家跟奶奶系统地学习。"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "很多人觉得传统手艺太老了，年轻人不喜欢，你怎么看？"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "关键是要创新。我把剪纸和现代设计结合起来，做成了手机壳、书签、灯具这些日常用品，在网上卖得特别好。"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "你觉得做非遗传承最大的困难是什么？"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "是坚持。剪纸需要大量的练习，一幅复杂的作品可能要剪好几天，很多人学着学着就放弃了。"
+                  }
+                ],
+                "repeat": 1
+              }
+            },
+            {
+              "id": "hsk6-de2-L3-g2",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk6-de2-33",
+                  "no": 33,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "每年大约有多少塑料垃圾进入海洋？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "每年大约有多少塑料垃圾进入海洋？",
+                    "vi": "Mỗi năm khoảng bao nhiêu rác nhựa vào biển?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "八十万吨"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "八百多万吨"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "八千吨"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "八亿吨"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“每年有八百多万吨塑料垃圾进入海洋” → B."
+                },
+                {
+                  "id": "hsk6-de2-34",
+                  "no": 34,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "微塑料是怎样进入人体的？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "微塑料是怎样进入人体的？",
+                    "vi": "Vi nhựa vào cơ thể người bằng cách nào?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "通过空气"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "通过皮肤"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "通过食物链"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "通过饮用水管"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "“被鱼类吃掉，最后通过食物链进入人体” → C."
+                },
+                {
+                  "id": "hsk6-de2-35",
+                  "no": 35,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "女的建议普通人怎么做？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "女的建议普通人怎么做？",
+                    "vi": "Người nữ khuyên người bình thường làm gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "不吃海鲜"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "减少使用一次性塑料制品"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "去海边捡垃圾"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "买更多塑料袋"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“减少使用一次性塑料制品” → B."
+                },
+                {
+                  "id": "hsk6-de2-36",
+                  "no": 36,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "关于能“吃”塑料的细菌，可以知道："
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "关于能“吃”塑料的细菌，可以知道：",
+                    "vi": "Về vi khuẩn “ăn” nhựa có thể biết:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "已经广泛使用"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "对人体有害"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "还没有大规模应用"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "研究已经失败"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "“离大规模应用还有一段距离” → C."
+                }
+              ],
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "男",
+                    "text": "刘博士，您一直在研究海洋塑料污染，现在问题有多严重？"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "非常严重。据估计，每年有八百多万吨塑料垃圾进入海洋。更可怕的是，这些塑料会分解成非常小的“微塑料”，被鱼类吃掉，最后通过食物链进入人体。"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "那我们普通人能做些什么呢？"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "最简单的就是减少使用一次性塑料制品，比如自带水杯和购物袋。另外，做好垃圾分类也很重要。"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "在技术方面有没有新的进展？"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "有。我们实验室正在研究一种能“吃”塑料的细菌，虽然离大规模应用还有一段距离，但前景是很乐观的。"
+                  }
+                ],
+                "repeat": 1
+              }
+            },
+            {
+              "id": "hsk6-de2-L3-g3",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk6-de2-37",
+                  "no": 37,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "王老师为什么决定留在山区？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "王老师为什么决定留在山区？",
+                    "vi": "Vì sao thầy Vương quyết định ở lại vùng núi?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "被孩子们渴望知识的眼神打动"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "城里找不到工作"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "学校工资高"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "家在山区"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“孩子们渴望知识的眼神深深打动了我” → A."
+                },
+                {
+                  "id": "hsk6-de2-38",
+                  "no": 38,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "以前的教室是什么样的？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "以前的教室是什么样的？",
+                    "vi": "Lớp học trước đây thế nào?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "下雨就漏水"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "有空调"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "有网络"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "很宽敞"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“以前教室是土房子，下雨就漏水” → A."
+                },
+                {
+                  "id": "hsk6-de2-39",
+                  "no": 39,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "现在孩子们可以做什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "现在孩子们可以做什么？",
+                    "vi": "Bây giờ trẻ em có thể làm gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "去城里上学"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "出国旅游"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "不用上课"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "和城里学生一起上网课"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“孩子们可以和城里的学生一起上网课” → D."
+                },
+                {
+                  "id": "hsk6-de2-40",
+                  "no": 40,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "王老师最自豪的是什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "王老师最自豪的是什么？",
+                    "vi": "Thầy Vương tự hào nhất điều gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "新教学楼"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "自己的工资"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "他的学生"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "获得的奖"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "“是我的学生” → C."
+                }
+              ],
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "女",
+                    "text": "王老师，您在山区小学教了十五年书，当初为什么会选择来这里？"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "大学毕业那年，我参加了一次支教活动，在这里待了一个月。孩子们渴望知识的眼神深深打动了我，所以我决定留下来。"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "这十五年来，学校有了哪些变化？"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "变化太大了。以前教室是土房子，下雨就漏水；现在有了新教学楼，还通了网络，孩子们可以和城里的学生一起上网课。"
+                  },
+                  {
+                    "speaker": "女",
+                    "text": "您最自豪的是什么？"
+                  },
+                  {
+                    "speaker": "男",
+                    "text": "是我的学生。他们中已经有十几个考上了大学，还有两个毕业后回到山区当了老师。"
+                  }
+                ],
+                "repeat": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "name_vi": "Đọc",
+      "name_zh": "阅读",
+      "max_score": 100,
+      "duration_minutes": 50,
+      "parts": [
+        {
+          "code": "R1",
+          "type": "cloze_option",
+          "expected_count": 10,
+          "instruction_vi": "Mỗi đoạn văn có 5 chỗ trống, chọn phương án thích hợp (A–D).",
+          "instruction_zh": "第一部分：选词填空。",
+          "groups": [
+            {
+              "id": "hsk6-de2-R1-g1",
+              "shared_options": null,
+              "passage": {
+                "zh": "中国是茶的故乡，也是世界上最早（41）茶树的国家。在漫长的历史中，中国人不仅发明了多种制茶方法，还形成了独特的茶文化。根据制作方法的不同，中国茶可以（42）为绿茶、红茶、乌龙茶、白茶等几大类。不同的茶，泡法也有所区别。比如，绿茶适合用八十度左右的水泡，水温太高会（43）茶叶的香味。在中国人看来，喝茶不仅仅是为了（44），更是一种修身养性的方式。朋友相聚，泡上一壶好茶，边喝边聊，（45）。"
+              },
+              "questions": [
+                {
+                  "id": "hsk6-de2-41",
+                  "no": 41,
+                  "type": "cloze_option",
+                  "blank_no": 41,
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "种类"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "种植"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "植物"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "种子"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“最早种植茶树的国家” = nước trồng cây chè sớm nhất; cần động từ → 种植 B."
+                },
+                {
+                  "id": "hsk6-de2-42",
+                  "no": 42,
+                  "type": "cloze_option",
+                  "blank_no": 42,
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "分配"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "分享"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "分开"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "分"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "Cấu trúc “可以分为……几大类” → D."
+                },
+                {
+                  "id": "hsk6-de2-43",
+                  "no": 43,
+                  "type": "cloze_option",
+                  "blank_no": 43,
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "破坏"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "损坏"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "毁坏"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "打破"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“破坏茶叶的香味” — 破坏 dùng với vật trừu tượng (hương vị); 损坏/毁坏 dùng với đồ vật → A."
+                },
+                {
+                  "id": "hsk6-de2-44",
+                  "no": 44,
+                  "type": "cloze_option",
+                  "blank_no": 44,
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "解决"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "解释"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "解放"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "解渴"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“喝茶不仅仅是为了解渴” = không chỉ để giải khát → D."
+                },
+                {
+                  "id": "hsk6-de2-45",
+                  "no": 45,
+                  "type": "cloze_option",
+                  "blank_no": 45,
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "一模一样"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "半途而废"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "其乐融融"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "人山人海"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "Bạn bè quây quần uống trà trò chuyện → “vui vẻ hòa thuận” 其乐融融 → C."
+                }
+              ]
+            },
+            {
+              "id": "hsk6-de2-R1-g2",
+              "shared_options": null,
+              "passage": {
+                "zh": "在职场中，很多人都希望得到领导的（46），因此拼命表现自己。然而，心理学家发现，真正受欢迎的员工，往往不是能力最强的，而是最懂得（47）的。他们在别人遇到困难时愿意伸出援手，在团队取得成绩时不会独占功劳。这样的人更容易获得同事的信任，在关键时刻也会得到更多的（48）。当然，这并不是说能力不重要，而是说在能力相差不大的情况下，人际关系往往会起到（49）作用。因此，与其整天想着怎么表现自己，不如把精力放在（50）工作能力和改善人际关系上。"
+              },
+              "questions": [
+                {
+                  "id": "hsk6-de2-46",
+                  "no": 46,
+                  "type": "cloze_option",
+                  "blank_no": 46,
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "重量"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "重复"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "重点"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "重视"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“得到领导的重视” = được lãnh đạo coi trọng → D."
+                },
+                {
+                  "id": "hsk6-de2-47",
+                  "no": 47,
+                  "type": "cloze_option",
+                  "blank_no": 47,
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "合格"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "合同"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "合作"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "合法"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "Người được yêu thích là người hiểu cách “hợp tác” (giúp người khác, không giành công) → C."
+                },
+                {
+                  "id": "hsk6-de2-48",
+                  "no": 48,
+                  "type": "cloze_option",
+                  "blank_no": 48,
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "支付"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "支持"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "支出"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "坚持"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“得到更多的支持” = được ủng hộ nhiều hơn → B."
+                },
+                {
+                  "id": "hsk6-de2-49",
+                  "no": 49,
+                  "type": "cloze_option",
+                  "blank_no": 49,
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "决定性"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "决心"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "决赛"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "决策者"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“起到决定性作用” = đóng vai trò quyết định → A."
+                },
+                {
+                  "id": "hsk6-de2-50",
+                  "no": 50,
+                  "type": "cloze_option",
+                  "blank_no": 50,
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "提出"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "提醒"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "提前"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "提高"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“提高工作能力” = nâng cao năng lực làm việc → D."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R2",
+          "type": "cloze_sentence",
+          "expected_count": 10,
+          "instruction_vi": "Chọn câu thích hợp (A–F) điền vào chỗ trống; mỗi đoạn có 1 câu thừa.",
+          "instruction_zh": "第二部分：选句填空。",
+          "groups": [
+            {
+              "id": "hsk6-de2-R2-g1",
+              "shared_options": [
+                {
+                  "key": "A",
+                  "text": {
+                    "zh": "为了节省能量，它们吃饱了以后大部分时间都在睡觉。",
+                    "vi": "Để tiết kiệm năng lượng, ăn no xong phần lớn thời gian chúng ngủ."
+                  }
+                },
+                {
+                  "key": "B",
+                  "text": {
+                    "zh": "它们的保护等级也因此从“濒危”降为了“易危”。",
+                    "vi": "Cấp độ bảo tồn của chúng vì vậy đã hạ từ “nguy cấp” xuống “sắp nguy cấp”."
+                  }
+                },
+                {
+                  "key": "C",
+                  "text": {
+                    "zh": "熊猫的性格非常温和，很少主动攻击别人。",
+                    "vi": "Gấu trúc tính rất hiền, hiếm khi chủ động tấn công."
+                  }
+                },
+                {
+                  "key": "D",
+                  "text": {
+                    "zh": "然而，竹子的营养价值很低，而且熊猫的消化能力有限。",
+                    "vi": "Tuy nhiên, giá trị dinh dưỡng của tre rất thấp và khả năng tiêu hóa của gấu trúc có hạn."
+                  }
+                },
+                {
+                  "key": "E",
+                  "text": {
+                    "zh": "同时，科学家们还在人工繁殖方面取得了重大突破。",
+                    "vi": "Đồng thời các nhà khoa học còn đạt đột phá lớn về nhân giống nhân tạo."
+                  }
+                },
+                {
+                  "key": "F",
+                  "text": {
+                    "zh": "野生熊猫主要生活在四川、陕西和甘肃的山区。",
+                    "vi": "Gấu trúc hoang dã chủ yếu sống ở vùng núi Tứ Xuyên, Thiểm Tây và Cam Túc."
+                  }
+                }
+              ],
+              "passage": {
+                "zh": "熊猫是中国的国宝，也是世界上最受欢迎的动物之一。（51）它们的祖先原本是吃肉的，但在漫长的进化过程中，逐渐改为以竹子为主要食物。（52）因此，熊猫每天要花十几个小时进食，吃下的竹子可达二十公斤。（53）过去，由于森林被砍伐，熊猫的数量曾经大幅减少。为了保护熊猫，中国建立了几十个自然保护区。（54）经过几十年的努力，野生熊猫的数量已经增加到了一千八百多只。（55）"
+              },
+              "questions": [
+                {
+                  "id": "hsk6-de2-51",
+                  "no": 51,
+                  "type": "cloze_sentence",
+                  "blank_no": 51,
+                  "answer": "F",
+                  "explanation_vi": "Sau câu giới thiệu chung là nơi sinh sống → F."
+                },
+                {
+                  "id": "hsk6-de2-52",
+                  "no": 52,
+                  "type": "cloze_sentence",
+                  "blank_no": 52,
+                  "answer": "D",
+                  "explanation_vi": "Câu sau “因此……每天要花十几个小时进食” cần nguyên nhân: tre ít dinh dưỡng, tiêu hóa kém → D."
+                },
+                {
+                  "id": "hsk6-de2-53",
+                  "no": 53,
+                  "type": "cloze_sentence",
+                  "blank_no": 53,
+                  "answer": "A",
+                  "explanation_vi": "Tiếp tục ý về năng lượng: ăn no rồi ngủ để tiết kiệm năng lượng → A."
+                },
+                {
+                  "id": "hsk6-de2-54",
+                  "no": 54,
+                  "type": "cloze_sentence",
+                  "blank_no": 54,
+                  "answer": "E",
+                  "explanation_vi": "Sau biện pháp lập khu bảo tồn, bổ sung “同时……人工繁殖” → E."
+                },
+                {
+                  "id": "hsk6-de2-55",
+                  "no": 55,
+                  "type": "cloze_sentence",
+                  "blank_no": 55,
+                  "answer": "B",
+                  "explanation_vi": "Số lượng tăng → “因此” cấp độ bảo tồn được hạ → B. Câu về tính hiền là câu thừa."
+                }
+              ]
+            },
+            {
+              "id": "hsk6-de2-R2-g2",
+              "shared_options": [
+                {
+                  "key": "A",
+                  "text": {
+                    "zh": "日本是一个非常重视礼仪的国家。",
+                    "vi": "Nhật Bản là một đất nước rất coi trọng lễ nghi."
+                  }
+                },
+                {
+                  "key": "B",
+                  "text": {
+                    "zh": "这样不仅浪费了空间，也浪费了时间和精力。",
+                    "vi": "Như vậy không chỉ lãng phí không gian mà còn lãng phí thời gian và sức lực."
+                  }
+                },
+                {
+                  "key": "C",
+                  "text": {
+                    "zh": "简单地说，就是减少物品，让生活回归简单。",
+                    "vi": "Nói đơn giản là giảm bớt đồ đạc, đưa cuộc sống về sự giản đơn."
+                  }
+                },
+                {
+                  "key": "D",
+                  "text": {
+                    "zh": "真正的“断舍离”，应该是学会珍惜和选择真正需要的东西。",
+                    "vi": "“Đoạn xả ly” thật sự là học cách trân trọng và chọn những thứ thực sự cần."
+                  }
+                },
+                {
+                  "key": "E",
+                  "text": {
+                    "zh": "它最早来自日本的一本畅销书。",
+                    "vi": "Nó bắt nguồn từ một cuốn sách bán chạy của Nhật Bản."
+                  }
+                },
+                {
+                  "key": "F",
+                  "text": {
+                    "zh": "更重要的是，他们在买东西时变得更加理性了。",
+                    "vi": "Quan trọng hơn, khi mua sắm họ trở nên lý trí hơn."
+                  }
+                }
+              ],
+              "passage": {
+                "zh": "“断舍离”是近年来很流行的一种生活理念。（56）“断”是指不买不需要的东西，“舍”是指扔掉家里没用的东西，“离”是指摆脱对物品的执着。（57）很多人家里堆满了各种东西，却常常找不到想用的那一件。（58）有人尝试了“断舍离”之后发现，房间变得宽敞整洁了，心情也随之轻松了许多。（59）不过，也有人提出不同意见，认为“断舍离”不应该变成盲目地扔东西。（60）"
+              },
+              "questions": [
+                {
+                  "id": "hsk6-de2-56",
+                  "no": 56,
+                  "type": "cloze_sentence",
+                  "blank_no": 56,
+                  "answer": "E",
+                  "explanation_vi": "Giới thiệu nguồn gốc khái niệm ngay sau câu mở đầu → E."
+                },
+                {
+                  "id": "hsk6-de2-57",
+                  "no": 57,
+                  "type": "cloze_sentence",
+                  "blank_no": 57,
+                  "answer": "C",
+                  "explanation_vi": "Sau khi giải thích từng chữ 断/舍/离, tóm lại “简单地说……” → C."
+                },
+                {
+                  "id": "hsk6-de2-58",
+                  "no": 58,
+                  "type": "cloze_sentence",
+                  "blank_no": 58,
+                  "answer": "B",
+                  "explanation_vi": "Nhà chất đầy đồ mà không tìm được thứ cần → “这样不仅浪费了空间……” → B."
+                },
+                {
+                  "id": "hsk6-de2-59",
+                  "no": 59,
+                  "type": "cloze_sentence",
+                  "blank_no": 59,
+                  "answer": "F",
+                  "explanation_vi": "Bổ sung lợi ích (更重要的是) sau lợi ích về phòng và tâm trạng → F."
+                },
+                {
+                  "id": "hsk6-de2-60",
+                  "no": 60,
+                  "type": "cloze_sentence",
+                  "blank_no": 60,
+                  "answer": "D",
+                  "explanation_vi": "Sau ý kiến phản đối vứt bừa, kết luận “真正的断舍离应该是……” → D. Câu về lễ nghi Nhật là câu thừa."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R3",
+          "type": "choose_option",
+          "expected_count": 20,
+          "instruction_vi": "Đọc 5 bài văn, mỗi bài 4 câu hỏi, chọn đáp án đúng.",
+          "instruction_zh": "第三部分：请选出正确答案。",
+          "groups": [
+            {
+              "id": "hsk6-de2-R3-g1",
+              "shared_options": null,
+              "passage": {
+                "zh": "人们常说“眼见为实”，但心理学研究表明，我们的眼睛并不总是可靠的。所谓“视觉错觉”，就是指人们看到的东西与实际情况不一致的现象。比如，两条长度完全相同的线段，如果在两端加上方向不同的箭头，看起来就会一长一短。产生错觉的原因在于，大脑在处理视觉信息时，会根据过去的经验进行“补充”和“判断”，而这些判断有时是错误的。有趣的是，设计师们常常利用视觉错觉来达到特殊的效果。比如，小房间刷上浅色的墙漆，会显得更加宽敞；穿竖条纹的衣服，会让人看起来更瘦。"
+              },
+              "questions": [
+                {
+                  "id": "hsk6-de2-61",
+                  "no": 61,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "“视觉错觉”是指：",
+                    "vi": "“Ảo giác thị giác” là chỉ:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "眼睛生病了"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "看到的与实际不一致"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "看不清远处的东西"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "看东西很快"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“人们看到的东西与实际情况不一致的现象” → B."
+                },
+                {
+                  "id": "hsk6-de2-62",
+                  "no": 62,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "文中两条线段的例子说明：",
+                    "vi": "Ví dụ hai đoạn thẳng cho thấy:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "长度相同的线看起来可能不同"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "箭头越多线越长"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "线段长度不同"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "人的眼睛看得很准"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "Hai đoạn bằng nhau nhưng thêm mũi tên thì “看起来就会一长一短” → A."
+                },
+                {
+                  "id": "hsk6-de2-63",
+                  "no": 63,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "产生错觉的原因是：",
+                    "vi": "Nguyên nhân gây ảo giác:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "光线太暗"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "眼睛太累"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "大脑根据经验进行判断"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "距离太远"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "“大脑……会根据过去的经验进行‘补充’和‘判断’” → C."
+                },
+                {
+                  "id": "hsk6-de2-64",
+                  "no": 64,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "根据上文，小房间刷浅色墙漆会：",
+                    "vi": "Theo bài, phòng nhỏ sơn màu sáng sẽ:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "显得更小"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "更暖和"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "显得更宽敞"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "更安静"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "“小房间刷上浅色的墙漆，会显得更加宽敞” → C."
+                }
+              ]
+            },
+            {
+              "id": "hsk6-de2-R3-g2",
+              "shared_options": null,
+              "passage": {
+                "zh": "二十多年前，张女士开了一家小小的面包店。当时，面包在当地还不太流行，生意很不好，最困难的时候，一天只卖出了三个面包。很多人劝她关门，但她没有放弃。她发现当地人更喜欢吃软一点儿、甜一点儿的口味，于是她不断改进配方，还推出了用本地水果做的面包。慢慢地，面包店有了一批忠实的顾客。如今，她的面包店已经发展成了拥有五十多家分店的连锁品牌。在谈到成功的经验时，张女士说：“了解顾客真正的需要，比什么都重要。”"
+              },
+              "questions": [
+                {
+                  "id": "hsk6-de2-65",
+                  "no": 65,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "面包店刚开张时生意怎么样？",
+                    "vi": "Lúc mới mở tiệm bánh làm ăn thế nào?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "非常好"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "一般"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "很快就赚钱了"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "很不好"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“生意很不好，最困难的时候，一天只卖出了三个面包” → D."
+                },
+                {
+                  "id": "hsk6-de2-66",
+                  "no": 66,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "张女士是怎样改进面包的？",
+                    "vi": "Bà Trương cải tiến bánh mì thế nào?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "降低价格"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "请外国师傅"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "只做一种面包"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "根据当地人的口味调整配方"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "Người địa phương thích mềm và ngọt, bà “不断改进配方” → D."
+                },
+                {
+                  "id": "hsk6-de2-67",
+                  "no": 67,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "面包店现在的情况是：",
+                    "vi": "Tình hình hiện tại của tiệm:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "已经关门了"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "有五十多家分店"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "只有一家店"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "卖到了国外"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“拥有五十多家分店的连锁品牌” → B."
+                },
+                {
+                  "id": "hsk6-de2-68",
+                  "no": 68,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "张女士认为成功最重要的是：",
+                    "vi": "Bà Trương cho rằng điều quan trọng nhất để thành công:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "运气好"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "了解顾客的需要"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "有很多资金"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "店面位置好"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“了解顾客真正的需要，比什么都重要” → B."
+                }
+              ]
+            },
+            {
+              "id": "hsk6-de2-R3-g3",
+              "shared_options": null,
+              "passage": {
+                "zh": "近年来，“银发族”学习热在中国兴起。所谓“银发族”，指的是六十岁以上的老年人。与过去退休后在家带孙子、看电视不同，越来越多的老人走进了老年大学，学习书法、摄影、外语，甚至是短视频制作。有的老年大学报名第一天，热门课程就被“秒杀”。专家认为，这一现象的出现，一方面是因为老年人的健康状况和经济条件普遍改善了，另一方面也反映了他们对精神生活有了更高的追求。学习不仅让老人们的退休生活更加丰富，还能延缓大脑衰老，降低患老年痴呆的风险。"
+              },
+              "questions": [
+                {
+                  "id": "hsk6-de2-69",
+                  "no": 69,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "“银发族”指的是：",
+                    "vi": "“Tộc tóc bạc” là chỉ:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "六十岁以上的老年人"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "头发染成银色的年轻人"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "退休的老师"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "在银行工作的人"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“指的是六十岁以上的老年人” → A."
+                },
+                {
+                  "id": "hsk6-de2-70",
+                  "no": 70,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "“热门课程就被‘秒杀’”是什么意思？",
+                    "vi": "“Khóa học hot bị ‘giây sát’” nghĩa là gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "热门课程很快就报满了"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "课程被取消了"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "课程时间很短"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "课程很难"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "Ngày đầu đăng ký khóa hot hết chỗ ngay → A."
+                },
+                {
+                  "id": "hsk6-de2-71",
+                  "no": 71,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "这一现象出现的原因不包括：",
+                    "vi": "Nguyên nhân của hiện tượng KHÔNG bao gồm:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "老年人健康状况改善"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "经济条件变好"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "追求精神生活"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "子女要求父母学习"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "Bài nêu sức khỏe, kinh tế, nhu cầu tinh thần; không nhắc con cái yêu cầu → D."
+                },
+                {
+                  "id": "hsk6-de2-72",
+                  "no": 72,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "学习对老年人有什么好处？",
+                    "vi": "Học tập có lợi gì cho người già?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "延缓大脑衰老"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "增加收入"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "找到新工作"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "不用带孙子"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "“还能延缓大脑衰老，降低患老年痴呆的风险” → A."
+                }
+              ]
+            },
+            {
+              "id": "hsk6-de2-R3-g4",
+              "shared_options": null,
+              "passage": {
+                "zh": "中国古代有一位著名的医生叫华佗。有一次，两个病人同时来找他看病，他们都说自己头疼、发热。华佗看了以后，给一个人开了让人出汗的药，给另一个人开了帮助消化的药。旁边的人很奇怪，问他为什么同样的病要用不同的药。华佗解释说：“第一个人是因为受了风寒，第二个人是因为吃坏了肚子，病因不同，治法当然也不同。”结果，两个人吃了药，病都好了。这就是中医讲究的“同病异治”，即要根据病人的具体情况来决定治疗方法。"
+              },
+              "questions": [
+                {
+                  "id": "hsk6-de2-73",
+                  "no": 73,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "两个病人有什么相同的症状？",
+                    "vi": "Hai bệnh nhân có triệu chứng chung gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "肚子疼"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "咳嗽"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "头疼、发热"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "腿疼"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "“他们都说自己头疼、发热” → C."
+                },
+                {
+                  "id": "hsk6-de2-74",
+                  "no": 74,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "第二个病人生病的原因是：",
+                    "vi": "Nguyên nhân bệnh nhân thứ hai bị bệnh:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "受了风寒"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "太累了"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "吃坏了肚子"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "晚上没睡好"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "“第二个人是因为吃坏了肚子” → C."
+                },
+                {
+                  "id": "hsk6-de2-75",
+                  "no": 75,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "华佗为什么给两个人开不同的药？",
+                    "vi": "Vì sao Hoa Đà kê thuốc khác nhau?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "药不够"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "病人要求"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "病因不同"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "价格不同"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "“病因不同，治法当然也不同” → C."
+                },
+                {
+                  "id": "hsk6-de2-76",
+                  "no": 76,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "“同病异治”的意思是：",
+                    "vi": "“Đồng bệnh dị trị” nghĩa là:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "同样的病用同样的药"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "所有病都用一种药"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "不同的医生治同一个病"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "根据具体情况决定治疗方法"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“即要根据病人的具体情况来决定治疗方法” → D."
+                }
+              ]
+            },
+            {
+              "id": "hsk6-de2-R3-g5",
+              "shared_options": null,
+              "passage": {
+                "zh": "随着人工智能技术的发展，“数字人”开始出现在我们的生活中。数字人是利用计算机技术创造出来的虚拟人物，它们能说话、会表情，甚至可以和人进行简单的交流。目前，数字人已经被应用在新闻播报、银行客服、博物馆讲解等领域。与真人相比，数字人可以二十四小时不间断工作，而且不会出错。不过，也有人担心，数字人的普及会取代一部分人的工作，而且如果被不法分子利用，还可能用于诈骗。因此，如何规范数字人的使用，成为社会关注的新问题。"
+              },
+              "questions": [
+                {
+                  "id": "hsk6-de2-77",
+                  "no": 77,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "数字人是什么？",
+                    "vi": "Người số là gì?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "会说话的机器人玩具"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "计算机创造的虚拟人物"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "网上的真人主播"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "科学家的名字"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“利用计算机技术创造出来的虚拟人物” → B."
+                },
+                {
+                  "id": "hsk6-de2-78",
+                  "no": 78,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "数字人目前没有被提到用于哪个领域？",
+                    "vi": "Lĩnh vực nào KHÔNG được nhắc tới?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "医院手术"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "新闻播报"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "银行客服"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "博物馆讲解"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "Bài nêu bản tin, CSKH ngân hàng, thuyết minh bảo tàng; không có phẫu thuật → A."
+                },
+                {
+                  "id": "hsk6-de2-79",
+                  "no": 79,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "与真人相比，数字人的优点是：",
+                    "vi": "So với người thật, ưu điểm của người số:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "更有感情"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "能二十四小时工作"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "价格更便宜"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "更会聊天"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "“可以二十四小时不间断工作” → B."
+                },
+                {
+                  "id": "hsk6-de2-80",
+                  "no": 80,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "人们对数字人有什么担心？",
+                    "vi": "Người ta lo ngại gì về người số?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "长得不好看"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "说话太慢"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "耗电太多"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "可能被用于诈骗"
+                      }
+                    }
+                  ],
+                  "answer": "D",
+                  "explanation_vi": "“如果被不法分子利用，还可能用于诈骗” → D."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "name_vi": "Viết",
+      "name_zh": "书写",
+      "max_score": 100,
+      "duration_minutes": 55,
+      "parts": [
+        {
+          "code": "W1",
+          "type": "write_essay",
+          "expected_count": 1,
+          "instruction_vi": "Viết văn bản ứng dụng (≥ 150 chữ, 40 điểm).",
+          "instruction_zh": "第一部分：应用文写作。",
+          "groups": [
+            {
+              "id": "hsk6-de2-W1-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk6-de2-81",
+                  "no": 81,
+                  "type": "write_essay",
+                  "genre": "practical",
+                  "prompt": {
+                    "zh": "你所在的公司下个月将举办“员工运动会”，你是行政部的负责人。请写一份通知，内容包括：举办时间和地点、比赛项目、报名方式和截止日期、注意事项。不少于150字。",
+                    "vi": "Viết thông báo ≥ 150 chữ về “Hội thao nhân viên”: thời gian, địa điểm, môn thi, cách đăng ký, hạn chót, lưu ý."
+                  },
+                  "prompt_vi": "Viết văn bản ứng dụng (thông báo) ≥ 150 chữ: tiêu đề, xưng hô, mục đích, các mục thông tin, lời kêu gọi, ký tên, ngày tháng.",
+                  "keywords": [
+                    "通知",
+                    "运动会",
+                    "报名"
+                  ],
+                  "image": null,
+                  "min_chars": 150,
+                  "max_chars": null,
+                  "time_minutes": 20,
+                  "sample_answers": [
+                    "关于举办2026年员工运动会的通知\n全体员工：\n为丰富员工的业余生活，增强团队凝聚力，公司决定举办2026年员工运动会。现将有关事项通知如下：\n一、时间：12月12日（星期六）上午8:30至下午4:00。\n二、地点：市体育中心田径场。\n三、比赛项目：100米跑、4×100米接力、拔河、跳绳、羽毛球。\n四、报名方式：以部门为单位报名，每人最多参加两个项目。请各部门于12月5日下午5点前将报名表发送至行政部邮箱。\n五、注意事项：请参赛人员穿运动服和运动鞋，提前做好准备活动；身体不适者请勿参加剧烈项目。公司将为所有参与者提供午餐和纪念品。\n欢迎大家踊跃报名！\n行政部\n11月25日"
+                  ],
+                  "outline_vi": [
+                    "Tiêu đề 关于……的通知 + xưng hô.",
+                    "Mục đích (为……) + 现将有关事项通知如下.",
+                    "Đánh số các mục: thời gian, địa điểm, môn thi, đăng ký, lưu ý.",
+                    "Lời kêu gọi + đơn vị + ngày tháng."
+                  ],
+                  "max_points": 40,
+                  "rubric_id": "rb-practical-40",
+                  "answer": null,
+                  "explanation_vi": "Văn bản ứng dụng: đủ thông tin đề yêu cầu, đúng thể thức (tiêu đề/xưng hô, ký tên, ngày), văn phong trang trọng, ≥ 150 chữ."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "W2",
+          "type": "write_essay",
+          "expected_count": 1,
+          "instruction_vi": "Viết bài nghị luận (≥ 300 chữ, 60 điểm).",
+          "instruction_zh": "第二部分：议论文写作。",
+          "groups": [
+            {
+              "id": "hsk6-de2-W2-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk6-de2-82",
+                  "no": 82,
+                  "type": "write_essay",
+                  "genre": "argumentative",
+                  "prompt": {
+                    "zh": "有人说：“年轻时应该去大城市闯一闯。”也有人认为：“在小城市生活更幸福。”请写一篇不少于300字的议论文，谈谈你的观点。",
+                    "vi": "Tuổi trẻ nên đến thành phố lớn lập nghiệp hay sống ở thành phố nhỏ hạnh phúc hơn? Viết nghị luận ≥ 300 chữ."
+                  },
+                  "prompt_vi": "Viết bài nghị luận ≥ 300 chữ Hán: nêu quan điểm, ít nhất 2 luận cứ có ví dụ, phản biện, kết luận.",
+                  "keywords": [
+                    "大城市",
+                    "小城市",
+                    "幸福"
+                  ],
+                  "image": null,
+                  "min_chars": 300,
+                  "max_chars": null,
+                  "time_minutes": 35,
+                  "sample_answers": [
+                    "年轻人该去大城市还是留在小城市？\n每年毕业季，“去大城市闯荡还是回小城市安稳生活”都是很多年轻人纠结的问题。我认为，年轻时去大城市闯一闯是值得的。\n首先，大城市能提供更多的发展机会。大城市集中了大量的企业、高校和科研机构，行业种类齐全，年轻人更容易找到与自己专业相符的工作，也有更多机会接触前沿的知识和技术。\n其次，大城市的经历能让人快速成长。在竞争激烈的环境中，年轻人必须不断学习、提高自己，这种压力本身就是一种锻炼。即使将来回到小城市，这些经验和眼界也会成为宝贵的财富。\n诚然，大城市的生活成本高，节奏快，很多人每天要花几个小时在路上，住在狭小的出租屋里，幸福感并不高。而小城市生活安逸，离家近，压力小。但是，年轻正是敢于拼搏的年纪，如果一开始就选择安逸，可能会错过很多可能性。\n总之，选择在哪里生活，并没有绝对的对错。但我建议年轻人趁着年轻，到更大的世界看一看。至于最后留在哪里，等积累了足够的经验，再根据自己的情况做出选择也不迟。"
+                  ],
+                  "outline_vi": [
+                    "Mở: nêu vấn đề + quan điểm (nên đi thành phố lớn).",
+                    "首先: cơ hội phát triển.",
+                    "其次: trưởng thành nhanh, kinh nghiệm quý.",
+                    "诚然……但是……: thừa nhận mặt trái, phản biện.",
+                    "总之: kết luận mở, lời khuyên."
+                  ],
+                  "max_points": 60,
+                  "rubric_id": "rb-argument-60",
+                  "answer": null,
+                  "explanation_vi": "Nghị luận HSK6: luận điểm rõ, luận cứ có ví dụ, có phản biện, từ nối logic, ≥ 300 chữ."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "rb-practical-40",
+      "max_score": 40,
+      "criteria": [
+        {
+          "key": "content",
+          "name_vi": "Nội dung đầy đủ",
+          "weight": 0.4,
+          "description_vi": "Đủ các thông tin đề yêu cầu, chính xác, rõ ràng."
+        },
+        {
+          "key": "format",
+          "name_vi": "Thể thức văn bản",
+          "weight": 0.2,
+          "description_vi": "Có tiêu đề/xưng hô, ký tên, ngày tháng; trình bày theo mục."
+        },
+        {
+          "key": "vocab_grammar",
+          "name_vi": "Ngôn ngữ",
+          "weight": 0.25,
+          "description_vi": "Văn phong trang trọng, đúng ngữ pháp."
+        },
+        {
+          "key": "characters",
+          "name_vi": "Chữ Hán & độ dài",
+          "weight": 0.15,
+          "description_vi": "≥ 150 chữ, ít lỗi chữ."
+        }
+      ]
+    },
+    {
+      "id": "rb-argument-60",
+      "max_score": 60,
+      "criteria": [
+        {
+          "key": "content",
+          "name_vi": "Luận điểm & luận cứ",
+          "weight": 0.35,
+          "description_vi": "Quan điểm rõ, luận cứ thuyết phục, có ví dụ, có phản biện."
+        },
+        {
+          "key": "organization",
+          "name_vi": "Bố cục, lập luận",
+          "weight": 0.25,
+          "description_vi": "Mở–thân–kết rõ, liên kết logic."
+        },
+        {
+          "key": "vocab_grammar",
+          "name_vi": "Từ vựng & ngữ pháp",
+          "weight": 0.25,
+          "description_vi": "Từ vựng phong phú cấp 6, ít lỗi."
+        },
+        {
+          "key": "characters",
+          "name_vi": "Chữ Hán & độ dài",
+          "weight": 0.15,
+          "description_vi": "≥ 300 chữ, ít lỗi chữ."
+        }
+      ]
+    }
+  ],
+  "notes": "Đề tự soạn theo cấu trúc HSK 3.0 (Phụ lục A.2); nội dung mới, không lặp đề 1. repeat 1, pass 180 là giả định."
+}

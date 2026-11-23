@@ -471,6 +471,124 @@
         "hsk7-9-s-05",
         "hsk7-9-s-06"
       ]
+    },
+    {
+      "id": "hsk4-de2-speaking",
+      "level": 4,
+      "title_vi": "Đề nói HSK 4 – Đề 2",
+      "warmup": true,
+      "prep_total_seconds": 600,
+      "item_ids": [
+        "hsk4-s-03",
+        "hsk4-s-04",
+        "hsk4-s-08",
+        "hsk4-s-13",
+        "hsk4-s-14"
+      ],
+      "notes": "Ghép từ ngân hàng item luyện tập (agent B thêm)."
+    },
+    {
+      "id": "hsk4-de3-speaking",
+      "level": 4,
+      "title_vi": "Đề nói HSK 4 – Đề 3",
+      "warmup": true,
+      "prep_total_seconds": 600,
+      "item_ids": [
+        "hsk4-s-05",
+        "hsk4-s-06",
+        "hsk4-s-09",
+        "hsk4-s-15",
+        "hsk4-s-11"
+      ],
+      "notes": "Ghép từ ngân hàng item luyện tập (agent B thêm)."
+    },
+    {
+      "id": "hsk5-de2-speaking",
+      "level": 5,
+      "title_vi": "Đề nói HSK 5 – Đề 2",
+      "warmup": true,
+      "prep_total_seconds": 600,
+      "item_ids": [
+        "hsk5-s-03",
+        "hsk5-s-04",
+        "hsk5-s-08",
+        "hsk5-s-12",
+        "hsk5-s-13"
+      ],
+      "notes": "Ghép từ ngân hàng item luyện tập (agent B thêm)."
+    },
+    {
+      "id": "hsk5-de3-speaking",
+      "level": 5,
+      "title_vi": "Đề nói HSK 5 – Đề 3",
+      "warmup": true,
+      "prep_total_seconds": 600,
+      "item_ids": [
+        "hsk5-s-05",
+        "hsk5-s-06",
+        "hsk5-s-09",
+        "hsk5-s-14",
+        "hsk5-s-15"
+      ],
+      "notes": "Ghép từ ngân hàng item luyện tập (agent B thêm)."
+    },
+    {
+      "id": "hsk6-de2-speaking",
+      "level": 6,
+      "title_vi": "Đề nói HSK 6 – Đề 2",
+      "warmup": true,
+      "prep_total_seconds": 600,
+      "item_ids": [
+        "hsk6-s-03",
+        "hsk6-s-04",
+        "hsk6-s-08",
+        "hsk6-s-12",
+        "hsk6-s-13"
+      ],
+      "notes": "Ghép từ ngân hàng item luyện tập (agent B thêm)."
+    },
+    {
+      "id": "hsk6-de3-speaking",
+      "level": 6,
+      "title_vi": "Đề nói HSK 6 – Đề 3",
+      "warmup": true,
+      "prep_total_seconds": 600,
+      "item_ids": [
+        "hsk6-s-05",
+        "hsk6-s-06",
+        "hsk6-s-09",
+        "hsk6-s-14",
+        "hsk6-s-15"
+      ],
+      "notes": "Ghép từ ngân hàng item luyện tập (agent B thêm)."
+    },
+    {
+      "id": "hsk7-9-de2-speaking",
+      "level": "7-9",
+      "title_vi": "Đề nói HSK 7–9 – Đề 2",
+      "warmup": true,
+      "prep_total_seconds": 300,
+      "item_ids": [
+        "hsk7-9-s-21",
+        "hsk7-9-s-22",
+        "hsk7-9-s-23",
+        "hsk7-9-s-24",
+        "hsk7-9-s-25"
+      ]
+    },
+    {
+      "id": "hsk7-9-de3-speaking",
+      "level": "7-9",
+      "title_vi": "Đề nói HSK 7–9 – Đề 3",
+      "warmup": true,
+      "prep_total_seconds": 300,
+      "item_ids": [
+        "hsk7-9-s-31",
+        "hsk7-9-s-32",
+        "hsk7-9-s-33",
+        "hsk7-9-s-34",
+        "hsk7-9-s-35"
+      ]
     }
   ],
   "items": [
@@ -3918,6 +4036,314 @@
       ],
       "rubric_id": "rb-speech",
       "in_paper": false
+    },
+    {
+      "id": "hsk7-9-s-21",
+      "level": "7-9",
+      "part": "hsk7-9-1",
+      "type": "present_material",
+      "prompt": {
+        "zh": "材料：某市调查显示，2024年该市外卖订单量比2019年增长了一倍多，其中约四成订单来自18至30岁的年轻人；同时，一次性餐盒的使用量也大幅增加，给垃圾处理带来很大压力。请根据材料，谈谈外卖行业快速发展的原因和带来的问题，并提出你的建议。"
+      },
+      "audio": null,
+      "image": null,
+      "prep_seconds": 120,
+      "answer_seconds": 180,
+      "sample_answer": {
+        "zh": "各位考官好。这份材料反映了外卖行业的快速发展及其带来的环境问题。外卖订单五年增长一倍多，主要原因有三：一是年轻人工作节奏快，没有时间做饭；二是手机支付和配送网络十分便利；三是外卖选择多样，满足了不同口味。但问题也很明显，大量一次性餐盒造成了严重的垃圾压力，长期吃外卖也不利于健康。对此，我建议：第一，平台应推广可循环餐盒，并对不需要餐具的顾客给予优惠；第二，政府要完善垃圾分类和回收体系；第三，年轻人也应适当减少点外卖，偶尔自己下厨。总之，便利与环保并不矛盾，关键在于多方共同努力。"
+      },
+      "keywords": [
+        "外卖",
+        "一次性餐盒",
+        "原因",
+        "建议"
+      ],
+      "rubric_id": "rb-present",
+      "in_paper": true
+    },
+    {
+      "id": "hsk7-9-s-22",
+      "level": "7-9",
+      "part": "hsk7-9-2",
+      "type": "listen_answer",
+      "prompt": {
+        "zh": "请问：这项研究有什么发现？研究者怎样解释？"
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "男",
+            "text": "一项研究跟踪了两千名退休老人，发现每周参加两次以上社区活动的老人，记忆力衰退的速度比很少参加活动的老人慢了约三成。研究者认为，社会交往能够刺激大脑，同时减少孤独感。"
+          },
+          {
+            "speaker": "旁白",
+            "text": "请问：这项研究有什么发现？研究者怎样解释？"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 60,
+      "sample_answer": {
+        "zh": "研究发现，每周参加两次以上社区活动的老人，记忆力衰退的速度比很少参加的老人慢三成左右。研究者认为，社会交往能刺激大脑，还能减少孤独感。"
+      },
+      "keywords": [
+        "社区活动",
+        "记忆力",
+        "孤独"
+      ],
+      "rubric_id": "rb-speech",
+      "in_paper": true
+    },
+    {
+      "id": "hsk7-9-s-23",
+      "level": "7-9",
+      "part": "hsk7-9-2",
+      "type": "listen_answer",
+      "prompt": {
+        "zh": "请问：“课后服务”是什么？各方有什么反应？"
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "女",
+            "text": "某市从去年开始在中小学推行“课后服务”，学生放学后可以留在学校参加兴趣小组或完成作业，直到家长下班来接。调查显示，八成以上的家长对此表示满意，但也有老师反映，工作时间延长，压力增加了。"
+          },
+          {
+            "speaker": "旁白",
+            "text": "请问：“课后服务”是什么？各方有什么反应？"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 60,
+      "sample_answer": {
+        "zh": "“课后服务”就是学生放学后可以留在学校参加兴趣小组或写作业，等家长下班来接。八成以上家长很满意，但一些老师觉得工作时间变长，压力增加了。"
+      },
+      "keywords": [
+        "课后服务",
+        "家长",
+        "老师",
+        "压力"
+      ],
+      "rubric_id": "rb-speech",
+      "in_paper": true
+    },
+    {
+      "id": "hsk7-9-s-24",
+      "level": "7-9",
+      "part": "hsk7-9-2",
+      "type": "listen_answer",
+      "prompt": {
+        "zh": "请问：露营为什么受到年轻人欢迎？出现了什么问题？"
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "男",
+            "text": "近年来，“露营热”在年轻人中持续升温。与传统旅游相比，露营花费较低，又能亲近自然。不过，一些热门露营地出现了垃圾遍地、破坏植被的现象，有关部门正在研究制定露营地管理办法。"
+          },
+          {
+            "speaker": "旁白",
+            "text": "请问：露营为什么受到年轻人欢迎？出现了什么问题？"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 60,
+      "sample_answer": {
+        "zh": "露营受欢迎是因为花费比较低，又能亲近自然。但一些热门露营地出现了垃圾遍地、破坏植被的问题，有关部门正在制定管理办法。"
+      },
+      "keywords": [
+        "露营",
+        "亲近自然",
+        "垃圾",
+        "管理"
+      ],
+      "rubric_id": "rb-speech",
+      "in_paper": true
+    },
+    {
+      "id": "hsk7-9-s-25",
+      "level": "7-9",
+      "part": "hsk7-9-3",
+      "type": "answer_question",
+      "prompt": {
+        "zh": "有人认为，年轻人应该趁年轻多换几份工作，积累不同的经验；也有人认为，应该在一个领域长期坚持，才能成为专家。你怎么看？请说明理由。"
+      },
+      "audio": null,
+      "image": null,
+      "prep_seconds": 180,
+      "answer_seconds": 180,
+      "sample_answer": {
+        "zh": "我认为两种选择各有道理，但关键是要有清晰的方向。年轻时适当尝试不同的工作，可以帮助我们发现自己的兴趣和优势，避免选错行业。但如果频繁跳槽，每份工作都浅尝辄止，就很难积累真正的专业能力。所以我的看法是：工作的前两三年可以多探索，一旦找到适合自己的领域，就应该沉下心来深耕。比如我的一位朋友，大学毕业后做过销售和编辑，最后发现自己最喜欢数据分析，现在已经在这个领域工作了六年，成了公司的骨干。总之，探索是为了更好地坚持。"
+      },
+      "keywords": [
+        "跳槽",
+        "经验",
+        "专业",
+        "坚持"
+      ],
+      "rubric_id": "rb-speech",
+      "in_paper": true
+    },
+    {
+      "id": "hsk7-9-s-31",
+      "level": "7-9",
+      "part": "hsk7-9-1",
+      "type": "present_material",
+      "prompt": {
+        "zh": "材料：2024年，某省乡村旅游接待游客超过一亿人次，比五年前增长了60%；乡村民宿数量从三千家增加到一万两千家。但调查也发现，部分民宿设施简陋、服务不规范，游客的重复到访率不足两成。请根据材料，分析乡村旅游的发展现状，并谈谈如何促进其健康发展。"
+      },
+      "audio": null,
+      "image": null,
+      "prep_seconds": 120,
+      "answer_seconds": 180,
+      "sample_answer": {
+        "zh": "各位考官好。材料显示，该省乡村旅游发展迅速，五年间游客增长了六成，民宿数量增加到原来的四倍，这说明城市居民对田园生活的需求越来越大，乡村旅游也成为农民增收的重要途径。不过，重复到访率不足两成，说明质量问题已经成为发展的瓶颈。我认为，促进乡村旅游健康发展，可以从三个方面入手：第一，制定民宿服务标准，加强培训和监管；第二，挖掘本地文化特色，避免千村一面；第三，完善交通、卫生等基础设施。只有提升品质，乡村旅游才能留住游客，实现可持续发展。"
+      },
+      "keywords": [
+        "乡村旅游",
+        "民宿",
+        "重复到访率",
+        "特色"
+      ],
+      "rubric_id": "rb-present",
+      "in_paper": true
+    },
+    {
+      "id": "hsk7-9-s-32",
+      "level": "7-9",
+      "part": "hsk7-9-2",
+      "type": "listen_answer",
+      "prompt": {
+        "zh": "请问：研究有什么发现？原因是什么？"
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "女",
+            "text": "研究人员发现，在开放式办公室工作的员工，面对面交流反而比在独立办公室时减少了约七成，而电子邮件和即时消息却明显增加。研究者认为，开放空间让人感到缺乏隐私，于是人们更倾向于“躲”到屏幕后面沟通。"
+          },
+          {
+            "speaker": "旁白",
+            "text": "请问：研究有什么发现？原因是什么？"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 60,
+      "sample_answer": {
+        "zh": "研究发现，开放式办公室里面对面交流反而减少了七成左右，邮件和即时消息增加了。原因是开放空间让人觉得没有隐私，所以人们更愿意通过屏幕沟通。"
+      },
+      "keywords": [
+        "开放式办公室",
+        "面对面",
+        "隐私"
+      ],
+      "rubric_id": "rb-speech",
+      "in_paper": true
+    },
+    {
+      "id": "hsk7-9-s-33",
+      "level": "7-9",
+      "part": "hsk7-9-2",
+      "type": "listen_answer",
+      "prompt": {
+        "zh": "请问：“临期食品专区”是什么？有什么好处？"
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "男",
+            "text": "为了减少食物浪费，一些超市推出了“临期食品专区”，把快到保质期但仍可安全食用的食品打折出售，价格一般只有原价的三到五折。这种做法既帮助商家减少了损失，也受到了精打细算的年轻人的欢迎。"
+          },
+          {
+            "speaker": "旁白",
+            "text": "请问：“临期食品专区”是什么？有什么好处？"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 60,
+      "sample_answer": {
+        "zh": "“临期食品专区”就是把快到保质期但还能安全食用的食品打折出售，一般是原价的三到五折。它既减少了商家的损失和食物浪费，也受到年轻人的欢迎。"
+      },
+      "keywords": [
+        "临期食品",
+        "打折",
+        "浪费"
+      ],
+      "rubric_id": "rb-speech",
+      "in_paper": true
+    },
+    {
+      "id": "hsk7-9-s-34",
+      "level": "7-9",
+      "part": "hsk7-9-2",
+      "type": "listen_answer",
+      "prompt": {
+        "zh": "请问：“文物认养”项目是怎样运作的？效果如何？"
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "女",
+            "text": "这家博物馆推出了“文物认养”项目，市民每年捐出一定费用，就可以“认养”一件待修复的文物，并定期收到修复进展的报告。项目上线半年，已有三百多件文物找到了“认养人”。"
+          },
+          {
+            "speaker": "旁白",
+            "text": "请问：“文物认养”项目是怎样运作的？效果如何？"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 60,
+      "sample_answer": {
+        "zh": "市民每年捐一定的费用，就能“认养”一件待修复的文物，还会定期收到修复报告。项目上线半年，已经有三百多件文物找到了认养人。"
+      },
+      "keywords": [
+        "认养",
+        "修复",
+        "三百多件"
+      ],
+      "rubric_id": "rb-speech",
+      "in_paper": true
+    },
+    {
+      "id": "hsk7-9-s-35",
+      "level": "7-9",
+      "part": "hsk7-9-3",
+      "type": "answer_question",
+      "prompt": {
+        "zh": "有人认为，城市应该大力发展地铁等公共交通，限制私家车；也有人认为，拥有私家车是个人的权利，不应过多限制。你怎么看？请说明理由。"
+      },
+      "audio": null,
+      "image": null,
+      "prep_seconds": 180,
+      "answer_seconds": 180,
+      "sample_answer": {
+        "zh": "我认为城市应该优先发展公共交通，同时对私家车进行合理引导，而不是简单禁止。首先，大城市人口密集、道路资源有限，如果人人开车，交通拥堵和空气污染会越来越严重，最终每个人都受害。其次，地铁、公交运量大、能耗低，是解决城市交通问题最有效的方式。当然，拥有私家车确实是个人的权利，对于老人、带孩子出行或者公共交通不便的地区，私家车仍然必要。所以，政府可以通过提高中心城区停车费、发展“停车换乘”等方式，鼓励人们多坐公共交通。总之，只有在个人便利和公共利益之间找到平衡，城市才能更加宜居。"
+      },
+      "keywords": [
+        "公共交通",
+        "私家车",
+        "拥堵",
+        "平衡"
+      ],
+      "rubric_id": "rb-speech",
+      "in_paper": true
     }
   ]
 }

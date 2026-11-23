@@ -32,7 +32,7 @@
   "show_pinyin": false,
   "repeat_default": 1,
   "speaking_paper": "hsk7-9-de1-speaking",
-  "notes": "Đề tự soạn theo cấu trúc HSK 3.0 bậc 7–9 (91 mục: 86 câu trong file này + 5 mục nói ở speaking/hskk.json). Ngưỡng xếp bậc là ước lượng, không chính thức.",
+  "notes": "Đề tự soạn theo cấu trúc HSK 3.0 bậc 7–9 (91 mục: 86 câu trong file này + 5 mục nói ở speaking/hskk.json, paper hsk7-9-de1-speaking). Ngưỡng xếp bậc là ước lượng, không chính thức.",
   "sections": [
     {
       "id": "listening",

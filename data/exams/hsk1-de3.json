@@ -572,8 +572,8 @@
                     "lines": [
                       {
                         "speaker": "女",
-                        "text": "我想买这个衣服。",
-                        "pinyin": "wǒ xiǎng mǎi zhège yīfu."
+                        "text": "我想买这件衣服。",
+                        "pinyin": "wǒ xiǎng mǎi zhè jiàn yīfu."
                       },
                       {
                         "speaker": "男",

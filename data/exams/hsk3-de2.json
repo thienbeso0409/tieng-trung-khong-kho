@@ -1598,8 +1598,8 @@
                   "no": 34,
                   "type": "match_sentence",
                   "stem": {
-                    "zh": "王经理，这些文件请今天发给客人。",
-                    "pinyin": "Wáng jīnglǐ, zhèxiē wénjiàn qǐng jīntiān fā gěi kèrén."
+                    "zh": "小王，这些文件请今天发给客人。",
+                    "pinyin": "Xiǎo Wáng, zhèxiē wénjiàn qǐng jīntiān fā gěi kèrén."
                   },
                   "answer": "D",
                   "explanation_vi": "Giao việc → 好，我马上去办 (D)."

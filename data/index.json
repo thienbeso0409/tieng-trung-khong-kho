@@ -86,6 +86,16 @@
           "id": "hsk4-de1",
           "file": "exams/hsk4-de1.json",
           "title_vi": "Đề thi thử HSK 4 – Đề 1"
+        },
+        {
+          "id": "hsk4-de2",
+          "file": "exams/hsk4-de2.json",
+          "title_vi": "Đề thi thử HSK 4 – Đề 2"
+        },
+        {
+          "id": "hsk4-de3",
+          "file": "exams/hsk4-de3.json",
+          "title_vi": "Đề thi thử HSK 4 – Đề 3"
         }
       ]
     },
@@ -100,6 +110,16 @@
           "id": "hsk5-de1",
           "file": "exams/hsk5-de1.json",
           "title_vi": "Đề thi thử HSK 5 – Đề 1"
+        },
+        {
+          "id": "hsk5-de2",
+          "file": "exams/hsk5-de2.json",
+          "title_vi": "Đề thi thử HSK 5 – Đề 2"
+        },
+        {
+          "id": "hsk5-de3",
+          "file": "exams/hsk5-de3.json",
+          "title_vi": "Đề thi thử HSK 5 – Đề 3"
         }
       ]
     },
@@ -114,6 +134,16 @@
           "id": "hsk6-de1",
           "file": "exams/hsk6-de1.json",
           "title_vi": "Đề thi thử HSK 6 – Đề 1"
+        },
+        {
+          "id": "hsk6-de2",
+          "file": "exams/hsk6-de2.json",
+          "title_vi": "Đề thi thử HSK 6 – Đề 2"
+        },
+        {
+          "id": "hsk6-de3",
+          "file": "exams/hsk6-de3.json",
+          "title_vi": "Đề thi thử HSK 6 – Đề 3"
         }
       ]
     },
