@@ -1,0 +1,293 @@
+{
+  "level": 1,
+  "sets": [
+    {
+      "id": "wp1-reorder",
+      "level": 1,
+      "type": "reorder_words",
+      "title_vi": "Sắp xếp từ thành câu – HSK 1",
+      "questions": [
+        {
+          "id": "wp1-ro-01",
+          "type": "reorder_words",
+          "words": [
+            "我",
+            "是",
+            "学生"
+          ],
+          "answer": "我是学生。",
+          "pinyin": "wǒ shì xuésheng.",
+          "explanation_vi": "Câu \"是\": 主语 + 是 + danh từ."
+        },
+        {
+          "id": "wp1-ro-02",
+          "type": "reorder_words",
+          "words": [
+            "你",
+            "叫",
+            "名字",
+            "什么"
+          ],
+          "answer": "你叫什么名字？",
+          "pinyin": "nǐ jiào shénme míngzi?",
+          "explanation_vi": "Từ để hỏi 什么 đứng ở vị trí của thông tin cần hỏi: 叫什么名字."
+        },
+        {
+          "id": "wp1-ro-03",
+          "type": "reorder_words",
+          "words": [
+            "我",
+            "喝",
+            "想",
+            "水"
+          ],
+          "answer": "我想喝水。",
+          "pinyin": "wǒ xiǎng hē shuǐ.",
+          "explanation_vi": "Động từ năng nguyện 想 đứng trước động từ chính 喝."
+        },
+        {
+          "id": "wp1-ro-04",
+          "type": "reorder_words",
+          "words": [
+            "他",
+            "医院",
+            "在",
+            "工作"
+          ],
+          "answer": "他在医院工作。",
+          "pinyin": "tā zài yīyuàn gōngzuò.",
+          "explanation_vi": "Giới từ chỉ nơi chốn 在 + địa điểm đứng TRƯỚC động từ (khác tiếng Việt)."
+        },
+        {
+          "id": "wp1-ro-05",
+          "type": "reorder_words",
+          "words": [
+            "明天",
+            "去",
+            "我",
+            "北京"
+          ],
+          "answer": "我明天去北京。",
+          "accepted_answers": [
+            "明天我去北京。"
+          ],
+          "pinyin": "wǒ míngtiān qù Běijīng.",
+          "explanation_vi": "Trạng ngữ thời gian (明天) đứng trước động từ, có thể đứng đầu câu."
+        },
+        {
+          "id": "wp1-ro-06",
+          "type": "reorder_words",
+          "words": [
+            "很",
+            "今天",
+            "热",
+            "天气"
+          ],
+          "answer": "今天天气很热。",
+          "pinyin": "jīntiān tiānqì hěn rè.",
+          "explanation_vi": "Câu vị ngữ tính từ: 主语 + 很 + tính từ, không dùng 是."
+        },
+        {
+          "id": "wp1-ro-07",
+          "type": "reorder_words",
+          "words": [
+            "我",
+            "一个",
+            "有",
+            "哥哥"
+          ],
+          "answer": "我有一个哥哥。",
+          "pinyin": "wǒ yǒu yí ge gēge.",
+          "explanation_vi": "Số từ + lượng từ (一个) đứng trước danh từ."
+        },
+        {
+          "id": "wp1-ro-08",
+          "type": "reorder_words",
+          "words": [
+            "你",
+            "吗",
+            "中国人",
+            "是"
+          ],
+          "answer": "你是中国人吗？",
+          "pinyin": "nǐ shì Zhōngguó rén ma?",
+          "explanation_vi": "Câu hỏi có/không: thêm 吗 ở cuối câu trần thuật."
+        },
+        {
+          "id": "wp1-ro-09",
+          "type": "reorder_words",
+          "words": [
+            "桌子上",
+            "书",
+            "有",
+            "三本"
+          ],
+          "answer": "桌子上有三本书。",
+          "pinyin": "zhuōzi shàng yǒu sān běn shū.",
+          "explanation_vi": "Câu tồn tại: nơi chốn + 有 + số lượng + vật."
+        },
+        {
+          "id": "wp1-ro-10",
+          "type": "reorder_words",
+          "words": [
+            "我们",
+            "吃饭",
+            "一起",
+            "吧"
+          ],
+          "answer": "我们一起吃饭吧。",
+          "pinyin": "wǒmen yìqǐ chīfàn ba.",
+          "explanation_vi": "Phó từ 一起 đứng trước động từ; 吧 cuối câu là lời rủ."
+        },
+        {
+          "id": "wp1-ro-11",
+          "type": "reorder_words",
+          "words": [
+            "商店",
+            "去",
+            "下午",
+            "我",
+            "买东西"
+          ],
+          "answer": "我下午去商店买东西。",
+          "accepted_answers": [
+            "下午我去商店买东西。"
+          ],
+          "pinyin": "wǒ xiàwǔ qù shāngdiàn mǎi dōngxi.",
+          "explanation_vi": "Liên động: 去 + nơi chốn + mục đích (买东西)."
+        },
+        {
+          "id": "wp1-ro-12",
+          "type": "reorder_words",
+          "words": [
+            "妈妈",
+            "做饭",
+            "在",
+            "正"
+          ],
+          "answer": "妈妈正在做饭。",
+          "pinyin": "māma zhèngzài zuòfàn.",
+          "explanation_vi": "正在 + động từ = đang làm gì."
+        }
+      ]
+    },
+    {
+      "id": "wp1-hanzi",
+      "level": 1,
+      "type": "write_hanzi_from_pinyin",
+      "title_vi": "Viết chữ Hán theo pinyin – HSK 1",
+      "questions": [
+        {
+          "id": "wp1-wh-01",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "我（ ）中国人。",
+            "pinyin": "wǒ ( ) Zhōngguó rén."
+          },
+          "blank_pinyin": "shì",
+          "answer": "是",
+          "explanation_vi": "是 = là."
+        },
+        {
+          "id": "wp1-wh-02",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "你好！我（ ）王明。",
+            "pinyin": "nǐ hǎo! wǒ ( ) Wáng Míng."
+          },
+          "blank_pinyin": "jiào",
+          "answer": "叫",
+          "explanation_vi": "叫 = tên là."
+        },
+        {
+          "id": "wp1-wh-03",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "我想（ ）茶。",
+            "pinyin": "wǒ xiǎng ( ) chá."
+          },
+          "blank_pinyin": "hē",
+          "answer": "喝",
+          "explanation_vi": "喝 = uống, bộ 口."
+        },
+        {
+          "id": "wp1-wh-04",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "今天星期（ ）？",
+            "pinyin": "jīntiān xīngqī ( )?"
+          },
+          "blank_pinyin": "jǐ",
+          "answer": "几",
+          "explanation_vi": "星期几 = thứ mấy."
+        },
+        {
+          "id": "wp1-wh-05",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "这是我的好朋（ ）。",
+            "pinyin": "zhè shì wǒ de hǎo péng ( )."
+          },
+          "blank_pinyin": "yǒu",
+          "answer": "友",
+          "explanation_vi": "朋友 = bạn bè."
+        },
+        {
+          "id": "wp1-wh-06",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "我（ ）你一起去。",
+            "pinyin": "wǒ ( ) nǐ yìqǐ qù."
+          },
+          "blank_pinyin": "hé",
+          "answer": "和",
+          "explanation_vi": "和 = và, cùng với."
+        },
+        {
+          "id": "wp1-wh-07",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "他（ ）在看书。",
+            "pinyin": "tā ( ) zài kàn shū."
+          },
+          "blank_pinyin": "zhèng",
+          "answer": "正",
+          "explanation_vi": "正在 = đang."
+        },
+        {
+          "id": "wp1-wh-08",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "明天（ ）！",
+            "pinyin": "míngtiān ( )!"
+          },
+          "blank_pinyin": "jiàn",
+          "answer": "见",
+          "explanation_vi": "明天见 = mai gặp."
+        },
+        {
+          "id": "wp1-wh-09",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "我不（ ）道。",
+            "pinyin": "wǒ bù ( ) dào."
+          },
+          "blank_pinyin": "zhī",
+          "answer": "知",
+          "explanation_vi": "知道 = biết."
+        },
+        {
+          "id": "wp1-wh-10",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "你（ ）哪儿？",
+            "pinyin": "nǐ ( ) nǎr?"
+          },
+          "blank_pinyin": "qù",
+          "answer": "去",
+          "explanation_vi": "去 = đi."
+        }
+      ]
+    }
+  ]
+}

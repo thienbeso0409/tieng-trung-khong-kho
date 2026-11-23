@@ -159,3 +159,7 @@ Quy tắc chung cho A, B, C:
 1. Bốn agent (Web, A, B, C) làm song song, chỉ dựa vào DATA_SCHEMA.md (Phụ lục A).
 2. Agent Web làm trước `tools/validate-data.mjs` + `test/data/` mẫu.
 3. Khi xong: chạy validator trên `data/` thật, mở web kiểm thử với dữ liệu thật, sửa lỗi theo phân quyền (lỗi dữ liệu → A/B/C theo vùng; lỗi code → Agent Web).
+
+## 8. Trạng thái Agent Web (23/11/2026)
+- Xong: SPA đủ route §4; renderer + chấm mọi type §5.3 & Phụ lục A.3 (type lạ → "Dạng câu chưa hỗ trợ"); `group.audio`, `group.passage`, chỗ trống `（n）`, `score_mode: bands` + cảnh báo không chính thức, `speaking_paper`, `exam.rubrics`; file 404 → "Đang soạn"; `tools/validate-data.mjs` theo HSK 3.0; `test/data/` có ≥ 1 câu mỗi type; README.
+- Kiểm thử: `python3 test/e2e_routes.py <url> [data]`, `python3 test/e2e_flow.py` (Playwright); ảnh ở `test/screenshots/`.

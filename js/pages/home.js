@@ -57,7 +57,7 @@ export async function render(root, params, ctx) {
 
   if (!hasKey()) root.append(h('div', { class: 'card flat', style: { marginTop: '16px', display: 'flex', gap: '14px', alignItems: 'center', flexWrap: 'wrap' } },
     h('span', { style: { fontSize: '1.8rem' } }, '🤖'),
-    h('div', { class: 'grow' }, h('strong', null, 'Bật tính năng AI miễn phí'), h('div', { class: 'small muted' }, 'Dán API key Gemini (lấy miễn phí trong 1 phút) để trò chuyện với AI, được chấm bài nói và bài viết.')),
+    h('div', { class: 'grow', style: { minWidth: '220px' } }, h('strong', null, 'Bật tính năng AI miễn phí'), h('div', { class: 'small muted' }, 'Dán API key Gemini (lấy miễn phí trong 1 phút) để trò chuyện với AI, được chấm bài nói và bài viết.')),
     h('a', { class: 'btn', href: '#/settings' }, 'Hướng dẫn lấy key')));
 
   root.append(h('div', { class: 'section-title' }, h('h2', null, 'Đề thi thử')));

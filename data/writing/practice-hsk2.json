@@ -1,0 +1,1013 @@
+{
+  "level": 2,
+  "sets": [
+    {
+      "id": "wp2-component",
+      "level": 2,
+      "type": "choose_component",
+      "title_vi": "Chọn bộ kiện hoàn thành chữ – HSK 2",
+      "shared_options": [
+        {
+          "key": "A",
+          "text": {
+            "zh": "口",
+            "pinyin": "kǒu"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "zh": "亻",
+            "pinyin": "rén"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "zh": "氵",
+            "pinyin": "shuǐ"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "zh": "日",
+            "pinyin": "rì"
+          }
+        },
+        {
+          "key": "E",
+          "text": {
+            "zh": "女",
+            "pinyin": "nǚ"
+          }
+        },
+        {
+          "key": "F",
+          "text": {
+            "zh": "讠",
+            "pinyin": "yán"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "wp2-cc-01",
+          "type": "choose_component",
+          "word": {
+            "zh": "喝水",
+            "pinyin": "hē shuǐ"
+          },
+          "target_char": "喝",
+          "target_index": 0,
+          "shown_part": "曷",
+          "layout": "left-right",
+          "options": [
+            {
+              "key": "A",
+              "text": {
+                "zh": "口",
+                "pinyin": "kǒu"
+              }
+            },
+            {
+              "key": "B",
+              "text": {
+                "zh": "亻",
+                "pinyin": "rén"
+              }
+            },
+            {
+              "key": "C",
+              "text": {
+                "zh": "氵",
+                "pinyin": "shuǐ"
+              }
+            },
+            {
+              "key": "D",
+              "text": {
+                "zh": "日",
+                "pinyin": "rì"
+              }
+            },
+            {
+              "key": "E",
+              "text": {
+                "zh": "女",
+                "pinyin": "nǚ"
+              }
+            },
+            {
+              "key": "F",
+              "text": {
+                "zh": "讠",
+                "pinyin": "yán"
+              }
+            }
+          ],
+          "answer": "A",
+          "explanation_vi": "喝 = 口 + 曷: uống bằng miệng → 口 (A)."
+        },
+        {
+          "id": "wp2-cc-02",
+          "type": "choose_component",
+          "word": {
+            "zh": "休息",
+            "pinyin": "xiūxi"
+          },
+          "target_char": "休",
+          "target_index": 0,
+          "shown_part": "木",
+          "layout": "left-right",
+          "options": [
+            {
+              "key": "A",
+              "text": {
+                "zh": "口",
+                "pinyin": "kǒu"
+              }
+            },
+            {
+              "key": "B",
+              "text": {
+                "zh": "亻",
+                "pinyin": "rén"
+              }
+            },
+            {
+              "key": "C",
+              "text": {
+                "zh": "氵",
+                "pinyin": "shuǐ"
+              }
+            },
+            {
+              "key": "D",
+              "text": {
+                "zh": "日",
+                "pinyin": "rì"
+              }
+            },
+            {
+              "key": "E",
+              "text": {
+                "zh": "女",
+                "pinyin": "nǚ"
+              }
+            },
+            {
+              "key": "F",
+              "text": {
+                "zh": "讠",
+                "pinyin": "yán"
+              }
+            }
+          ],
+          "answer": "B",
+          "explanation_vi": "休 = 亻 + 木 → 亻 (B)."
+        },
+        {
+          "id": "wp2-cc-03",
+          "type": "choose_component",
+          "word": {
+            "zh": "洗手",
+            "pinyin": "xǐ shǒu"
+          },
+          "target_char": "洗",
+          "target_index": 0,
+          "shown_part": "先",
+          "layout": "left-right",
+          "options": [
+            {
+              "key": "A",
+              "text": {
+                "zh": "口",
+                "pinyin": "kǒu"
+              }
+            },
+            {
+              "key": "B",
+              "text": {
+                "zh": "亻",
+                "pinyin": "rén"
+              }
+            },
+            {
+              "key": "C",
+              "text": {
+                "zh": "氵",
+                "pinyin": "shuǐ"
+              }
+            },
+            {
+              "key": "D",
+              "text": {
+                "zh": "日",
+                "pinyin": "rì"
+              }
+            },
+            {
+              "key": "E",
+              "text": {
+                "zh": "女",
+                "pinyin": "nǚ"
+              }
+            },
+            {
+              "key": "F",
+              "text": {
+                "zh": "讠",
+                "pinyin": "yán"
+              }
+            }
+          ],
+          "answer": "C",
+          "explanation_vi": "洗 = 氵 + 先: rửa cần nước → 氵 (C)."
+        },
+        {
+          "id": "wp2-cc-04",
+          "type": "choose_component",
+          "word": {
+            "zh": "晚上",
+            "pinyin": "wǎnshang"
+          },
+          "target_char": "晚",
+          "target_index": 0,
+          "shown_part": "免",
+          "layout": "left-right",
+          "options": [
+            {
+              "key": "A",
+              "text": {
+                "zh": "口",
+                "pinyin": "kǒu"
+              }
+            },
+            {
+              "key": "B",
+              "text": {
+                "zh": "亻",
+                "pinyin": "rén"
+              }
+            },
+            {
+              "key": "C",
+              "text": {
+                "zh": "氵",
+                "pinyin": "shuǐ"
+              }
+            },
+            {
+              "key": "D",
+              "text": {
+                "zh": "日",
+                "pinyin": "rì"
+              }
+            },
+            {
+              "key": "E",
+              "text": {
+                "zh": "女",
+                "pinyin": "nǚ"
+              }
+            },
+            {
+              "key": "F",
+              "text": {
+                "zh": "讠",
+                "pinyin": "yán"
+              }
+            }
+          ],
+          "answer": "D",
+          "explanation_vi": "晚 = 日 + 免: liên quan thời gian, mặt trời → 日 (D)."
+        },
+        {
+          "id": "wp2-cc-05",
+          "type": "choose_component",
+          "word": {
+            "zh": "姐姐",
+            "pinyin": "jiějie"
+          },
+          "target_char": "姐",
+          "target_index": 0,
+          "shown_part": "且",
+          "layout": "left-right",
+          "options": [
+            {
+              "key": "A",
+              "text": {
+                "zh": "口",
+                "pinyin": "kǒu"
+              }
+            },
+            {
+              "key": "B",
+              "text": {
+                "zh": "亻",
+                "pinyin": "rén"
+              }
+            },
+            {
+              "key": "C",
+              "text": {
+                "zh": "氵",
+                "pinyin": "shuǐ"
+              }
+            },
+            {
+              "key": "D",
+              "text": {
+                "zh": "日",
+                "pinyin": "rì"
+              }
+            },
+            {
+              "key": "E",
+              "text": {
+                "zh": "女",
+                "pinyin": "nǚ"
+              }
+            },
+            {
+              "key": "F",
+              "text": {
+                "zh": "讠",
+                "pinyin": "yán"
+              }
+            }
+          ],
+          "answer": "E",
+          "explanation_vi": "姐 = 女 + 且: chị gái là nữ → 女 (E)."
+        },
+        {
+          "id": "wp2-cc-06",
+          "type": "choose_component",
+          "word": {
+            "zh": "说话",
+            "pinyin": "shuōhuà"
+          },
+          "target_char": "说",
+          "target_index": 0,
+          "shown_part": "兑",
+          "layout": "left-right",
+          "options": [
+            {
+              "key": "A",
+              "text": {
+                "zh": "口",
+                "pinyin": "kǒu"
+              }
+            },
+            {
+              "key": "B",
+              "text": {
+                "zh": "亻",
+                "pinyin": "rén"
+              }
+            },
+            {
+              "key": "C",
+              "text": {
+                "zh": "氵",
+                "pinyin": "shuǐ"
+              }
+            },
+            {
+              "key": "D",
+              "text": {
+                "zh": "日",
+                "pinyin": "rì"
+              }
+            },
+            {
+              "key": "E",
+              "text": {
+                "zh": "女",
+                "pinyin": "nǚ"
+              }
+            },
+            {
+              "key": "F",
+              "text": {
+                "zh": "讠",
+                "pinyin": "yán"
+              }
+            }
+          ],
+          "answer": "F",
+          "explanation_vi": "说 = 讠 + 兑: liên quan lời nói → 讠 (F)."
+        },
+        {
+          "id": "wp2-cc-07",
+          "type": "choose_component",
+          "word": {
+            "zh": "你们",
+            "pinyin": "nǐmen"
+          },
+          "target_char": "们",
+          "target_index": 1,
+          "shown_part": "门",
+          "layout": "left-right",
+          "options": [
+            {
+              "key": "A",
+              "text": {
+                "zh": "口",
+                "pinyin": "kǒu"
+              }
+            },
+            {
+              "key": "B",
+              "text": {
+                "zh": "亻",
+                "pinyin": "rén"
+              }
+            },
+            {
+              "key": "C",
+              "text": {
+                "zh": "氵",
+                "pinyin": "shuǐ"
+              }
+            },
+            {
+              "key": "D",
+              "text": {
+                "zh": "日",
+                "pinyin": "rì"
+              }
+            },
+            {
+              "key": "E",
+              "text": {
+                "zh": "女",
+                "pinyin": "nǚ"
+              }
+            },
+            {
+              "key": "F",
+              "text": {
+                "zh": "讠",
+                "pinyin": "yán"
+              }
+            }
+          ],
+          "answer": "B",
+          "explanation_vi": "们 = 亻 + 门 → 亻 (B)."
+        },
+        {
+          "id": "wp2-cc-08",
+          "type": "choose_component",
+          "word": {
+            "zh": "汉语",
+            "pinyin": "Hànyǔ"
+          },
+          "target_char": "汉",
+          "target_index": 0,
+          "shown_part": "又",
+          "layout": "left-right",
+          "options": [
+            {
+              "key": "A",
+              "text": {
+                "zh": "口",
+                "pinyin": "kǒu"
+              }
+            },
+            {
+              "key": "B",
+              "text": {
+                "zh": "亻",
+                "pinyin": "rén"
+              }
+            },
+            {
+              "key": "C",
+              "text": {
+                "zh": "氵",
+                "pinyin": "shuǐ"
+              }
+            },
+            {
+              "key": "D",
+              "text": {
+                "zh": "日",
+                "pinyin": "rì"
+              }
+            },
+            {
+              "key": "E",
+              "text": {
+                "zh": "女",
+                "pinyin": "nǚ"
+              }
+            },
+            {
+              "key": "F",
+              "text": {
+                "zh": "讠",
+                "pinyin": "yán"
+              }
+            }
+          ],
+          "answer": "C",
+          "explanation_vi": "汉 = 氵 + 又 → 氵 (C)."
+        },
+        {
+          "id": "wp2-cc-09",
+          "type": "choose_component",
+          "word": {
+            "zh": "问题",
+            "pinyin": "wèntí"
+          },
+          "target_char": "问",
+          "target_index": 0,
+          "shown_part": "门",
+          "layout": "enclosure",
+          "options": [
+            {
+              "key": "A",
+              "text": {
+                "zh": "口",
+                "pinyin": "kǒu"
+              }
+            },
+            {
+              "key": "B",
+              "text": {
+                "zh": "亻",
+                "pinyin": "rén"
+              }
+            },
+            {
+              "key": "C",
+              "text": {
+                "zh": "氵",
+                "pinyin": "shuǐ"
+              }
+            },
+            {
+              "key": "D",
+              "text": {
+                "zh": "日",
+                "pinyin": "rì"
+              }
+            },
+            {
+              "key": "E",
+              "text": {
+                "zh": "女",
+                "pinyin": "nǚ"
+              }
+            },
+            {
+              "key": "F",
+              "text": {
+                "zh": "讠",
+                "pinyin": "yán"
+              }
+            }
+          ],
+          "answer": "A",
+          "explanation_vi": "问 = 门 + 口 bên trong → 口 (A)."
+        },
+        {
+          "id": "wp2-cc-10",
+          "type": "choose_component",
+          "word": {
+            "zh": "时间",
+            "pinyin": "shíjiān"
+          },
+          "target_char": "时",
+          "target_index": 0,
+          "shown_part": "寸",
+          "layout": "left-right",
+          "options": [
+            {
+              "key": "A",
+              "text": {
+                "zh": "口",
+                "pinyin": "kǒu"
+              }
+            },
+            {
+              "key": "B",
+              "text": {
+                "zh": "亻",
+                "pinyin": "rén"
+              }
+            },
+            {
+              "key": "C",
+              "text": {
+                "zh": "氵",
+                "pinyin": "shuǐ"
+              }
+            },
+            {
+              "key": "D",
+              "text": {
+                "zh": "日",
+                "pinyin": "rì"
+              }
+            },
+            {
+              "key": "E",
+              "text": {
+                "zh": "女",
+                "pinyin": "nǚ"
+              }
+            },
+            {
+              "key": "F",
+              "text": {
+                "zh": "讠",
+                "pinyin": "yán"
+              }
+            }
+          ],
+          "answer": "D",
+          "explanation_vi": "时 = 日 + 寸 → 日 (D)."
+        },
+        {
+          "id": "wp2-cc-11",
+          "type": "choose_component",
+          "word": {
+            "zh": "妹妹",
+            "pinyin": "mèimei"
+          },
+          "target_char": "妹",
+          "target_index": 0,
+          "shown_part": "未",
+          "layout": "left-right",
+          "options": [
+            {
+              "key": "A",
+              "text": {
+                "zh": "口",
+                "pinyin": "kǒu"
+              }
+            },
+            {
+              "key": "B",
+              "text": {
+                "zh": "亻",
+                "pinyin": "rén"
+              }
+            },
+            {
+              "key": "C",
+              "text": {
+                "zh": "氵",
+                "pinyin": "shuǐ"
+              }
+            },
+            {
+              "key": "D",
+              "text": {
+                "zh": "日",
+                "pinyin": "rì"
+              }
+            },
+            {
+              "key": "E",
+              "text": {
+                "zh": "女",
+                "pinyin": "nǚ"
+              }
+            },
+            {
+              "key": "F",
+              "text": {
+                "zh": "讠",
+                "pinyin": "yán"
+              }
+            }
+          ],
+          "answer": "E",
+          "explanation_vi": "妹 = 女 + 未 → 女 (E)."
+        },
+        {
+          "id": "wp2-cc-12",
+          "type": "choose_component",
+          "word": {
+            "zh": "请问",
+            "pinyin": "qǐngwèn"
+          },
+          "target_char": "请",
+          "target_index": 0,
+          "shown_part": "青",
+          "layout": "left-right",
+          "options": [
+            {
+              "key": "A",
+              "text": {
+                "zh": "口",
+                "pinyin": "kǒu"
+              }
+            },
+            {
+              "key": "B",
+              "text": {
+                "zh": "亻",
+                "pinyin": "rén"
+              }
+            },
+            {
+              "key": "C",
+              "text": {
+                "zh": "氵",
+                "pinyin": "shuǐ"
+              }
+            },
+            {
+              "key": "D",
+              "text": {
+                "zh": "日",
+                "pinyin": "rì"
+              }
+            },
+            {
+              "key": "E",
+              "text": {
+                "zh": "女",
+                "pinyin": "nǚ"
+              }
+            },
+            {
+              "key": "F",
+              "text": {
+                "zh": "讠",
+                "pinyin": "yán"
+              }
+            }
+          ],
+          "answer": "F",
+          "explanation_vi": "请 = 讠 + 青 → 讠 (F)."
+        }
+      ]
+    },
+    {
+      "id": "wp2-hanzi",
+      "level": 2,
+      "type": "write_hanzi_from_pinyin",
+      "title_vi": "Viết chữ Hán theo pinyin – HSK 2",
+      "questions": [
+        {
+          "id": "wp2-wh-01",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "我（ ）天早上跑步。",
+            "pinyin": "wǒ ( ) tiān zǎoshang pǎobù."
+          },
+          "blank_pinyin": "měi",
+          "answer": "每",
+          "explanation_vi": "每天 = mỗi ngày."
+        },
+        {
+          "id": "wp2-wh-02",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "这件衣服太（ ）了。",
+            "pinyin": "zhè jiàn yīfu tài ( ) le."
+          },
+          "blank_pinyin": "guì",
+          "answer": "贵",
+          "explanation_vi": "贵 = đắt."
+        },
+        {
+          "id": "wp2-wh-03",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "我家（ ）公司很近。",
+            "pinyin": "wǒ jiā ( ) gōngsī hěn jìn."
+          },
+          "blank_pinyin": "lí",
+          "answer": "离",
+          "explanation_vi": "A 离 B 近 = A gần B."
+        },
+        {
+          "id": "wp2-wh-04",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "他（ ）我高。",
+            "pinyin": "tā ( ) wǒ gāo."
+          },
+          "blank_pinyin": "bǐ",
+          "answer": "比",
+          "explanation_vi": "A 比 B + tính từ = A hơn B."
+        },
+        {
+          "id": "wp2-wh-05",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "请（ ）诉我你的名字。",
+            "pinyin": "qǐng ( ) sù wǒ nǐ de míngzi."
+          },
+          "blank_pinyin": "gào",
+          "answer": "告",
+          "explanation_vi": "告诉 = nói cho biết."
+        },
+        {
+          "id": "wp2-wh-06",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "我已（ ）吃饭了。",
+            "pinyin": "wǒ yǐ ( ) chīfàn le."
+          },
+          "blank_pinyin": "jīng",
+          "answer": "经",
+          "explanation_vi": "已经 = đã."
+        },
+        {
+          "id": "wp2-wh-07",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "外边下（ ）了，很冷。",
+            "pinyin": "wàibian xià ( ) le, hěn lěng."
+          },
+          "blank_pinyin": "xuě",
+          "answer": "雪",
+          "explanation_vi": "下雪 = tuyết rơi."
+        },
+        {
+          "id": "wp2-wh-08",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "你的眼（ ）真漂亮。",
+            "pinyin": "nǐ de yǎn ( ) zhēn piàoliang."
+          },
+          "blank_pinyin": "jing",
+          "answer": "睛",
+          "explanation_vi": "眼睛 = mắt (睛 đọc nhẹ jing)."
+        },
+        {
+          "id": "wp2-wh-09",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "我（ ）为生病，没去上课。",
+            "pinyin": "wǒ ( ) wèi shēngbìng, méi qù shàngkè."
+          },
+          "blank_pinyin": "yīn",
+          "answer": "因",
+          "explanation_vi": "因为 = bởi vì."
+        },
+        {
+          "id": "wp2-wh-10",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "欢迎你来我家（ ）！",
+            "pinyin": "huānyíng nǐ lái wǒ jiā ( )!"
+          },
+          "blank_pinyin": "wán",
+          "answer": "玩",
+          "explanation_vi": "来……玩 = đến … chơi."
+        }
+      ]
+    },
+    {
+      "id": "wp2-reorder",
+      "level": 2,
+      "type": "reorder_words",
+      "title_vi": "Sắp xếp từ thành câu – HSK 2",
+      "questions": [
+        {
+          "id": "wp2-ro-01",
+          "type": "reorder_words",
+          "words": [
+            "比",
+            "我",
+            "哥哥",
+            "高"
+          ],
+          "answer": "哥哥比我高。",
+          "pinyin": "gēge bǐ wǒ gāo.",
+          "explanation_vi": "So sánh: A + 比 + B + tính từ."
+        },
+        {
+          "id": "wp2-ro-02",
+          "type": "reorder_words",
+          "words": [
+            "已经",
+            "我",
+            "了",
+            "吃饭"
+          ],
+          "answer": "我已经吃饭了。",
+          "pinyin": "wǒ yǐjing chīfàn le.",
+          "explanation_vi": "已经 + động từ + 了: đã làm xong."
+        },
+        {
+          "id": "wp2-ro-03",
+          "type": "reorder_words",
+          "words": [
+            "离",
+            "学校",
+            "我家",
+            "很远"
+          ],
+          "answer": "我家离学校很远。",
+          "pinyin": "wǒ jiā lí xuéxiào hěn yuǎn.",
+          "explanation_vi": "A + 离 + B + 远/近."
+        },
+        {
+          "id": "wp2-ro-04",
+          "type": "reorder_words",
+          "words": [
+            "跑",
+            "他",
+            "得",
+            "很快"
+          ],
+          "answer": "他跑得很快。",
+          "pinyin": "tā pǎo de hěn kuài.",
+          "explanation_vi": "Bổ ngữ trình độ: động từ + 得 + 很 + tính từ."
+        },
+        {
+          "id": "wp2-ro-05",
+          "type": "reorder_words",
+          "words": [
+            "过",
+            "我",
+            "中国",
+            "去"
+          ],
+          "answer": "我去过中国。",
+          "pinyin": "wǒ qù guo Zhōngguó.",
+          "explanation_vi": "Động từ + 过: đã từng."
+        },
+        {
+          "id": "wp2-ro-06",
+          "type": "reorder_words",
+          "words": [
+            "请",
+            "告诉",
+            "我",
+            "你的手机号"
+          ],
+          "answer": "请告诉我你的手机号。",
+          "pinyin": "qǐng gàosu wǒ nǐ de shǒujīhào.",
+          "explanation_vi": "告诉 + người + việc (hai tân ngữ)."
+        },
+        {
+          "id": "wp2-ro-07",
+          "type": "reorder_words",
+          "words": [
+            "给",
+            "妈妈",
+            "我",
+            "打电话"
+          ],
+          "answer": "我给妈妈打电话。",
+          "pinyin": "wǒ gěi māma dǎ diànhuà.",
+          "explanation_vi": "给 + người + động từ: làm gì cho ai."
+        },
+        {
+          "id": "wp2-ro-08",
+          "type": "reorder_words",
+          "words": [
+            "因为",
+            "下雨",
+            "所以",
+            "我",
+            "没去"
+          ],
+          "answer": "因为下雨，所以我没去。",
+          "pinyin": "yīnwèi xiàyǔ, suǒyǐ wǒ méi qù.",
+          "explanation_vi": "Cặp liên từ 因为……所以…… (vì… nên…)."
+        },
+        {
+          "id": "wp2-ro-09",
+          "type": "reorder_words",
+          "words": [
+            "从",
+            "他",
+            "回来",
+            "北京"
+          ],
+          "answer": "他从北京回来。",
+          "pinyin": "tā cóng Běijīng huílái.",
+          "explanation_vi": "从 + nơi chốn + 来/回来: từ đâu đến."
+        },
+        {
+          "id": "wp2-ro-10",
+          "type": "reorder_words",
+          "words": [
+            "准备",
+            "你",
+            "好了吗",
+            "明天的考试"
+          ],
+          "answer": "明天的考试你准备好了吗？",
+          "accepted_answers": [
+            "你准备好明天的考试了吗？"
+          ],
+          "pinyin": "míngtiān de kǎoshì nǐ zhǔnbèi hǎo le ma?",
+          "explanation_vi": "Chủ đề (明天的考试) có thể đặt đầu câu; 准备好 = chuẩn bị xong."
+        }
+      ]
+    }
+  ]
+}

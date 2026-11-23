@@ -292,7 +292,7 @@ label.field > span { display: block; font-weight: 600; font-size: .9rem; margin-
 .hero .row { margin-top: 18px; position: relative; }
 .hero .btn:not(.primary) { background: rgba(255, 255, 255, .08); color: #f3e9d8; border-color: rgba(255, 255, 255, .18); }
 .level-strip { display: flex; gap: 8px; flex-wrap: wrap; margin: 6px 0 24px; }
-.level-chip { border: 1px solid var(--line-2); background: var(--card); padding: 8px 16px; border-radius: 99px; cursor: pointer; font-weight: 600; display: inline-flex; gap: 8px; align-items: baseline; }
+.level-chip { text-decoration: none; color: var(--ink); border: 1px solid var(--line-2); background: var(--card); padding: 8px 16px; border-radius: 99px; cursor: pointer; font-weight: 600; display: inline-flex; gap: 8px; align-items: baseline; }
 .level-chip small { color: var(--ink-3); font-weight: 500; }
 .level-chip.on { background: var(--red); color: #fff; border-color: var(--red); }
 .level-chip.on small { color: #ffe3da; }
@@ -561,3 +561,10 @@ details.more summary { cursor: pointer; font-weight: 600; color: var(--ink-2); p
 .big-prompt .zh { font-family: var(--f-zh-serif); font-size: clamp(1.25rem, 3.4vw, 1.6rem); }
 .shadow-stage .vi { margin-top: 4px; }
 code { font-family: ui-monospace, Menlo, Consolas, monospace; background: var(--paper-2); padding: 1px 5px; border-radius: 5px; font-size: .88em; }
+@media (max-width: 600px) {
+  .exam-bar { gap: 6px; padding: 8px 10px; }
+  .exam-bar .sec-tabs { display: none; }
+  .exam-bar .btn.sm { padding: 4px 10px; font-size: .8rem; }
+  .exam-bar .btn.primary { min-height: 36px; padding: 6px 14px; }
+  .q { scroll-margin-top: 120px; }
+}

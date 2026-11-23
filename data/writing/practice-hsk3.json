@@ -1,0 +1,669 @@
+{
+  "level": 3,
+  "sets": [
+    {
+      "id": "wp3-hanzi",
+      "level": 3,
+      "type": "write_hanzi_from_pinyin",
+      "title_vi": "Viết chữ Hán theo pinyin – HSK 3",
+      "questions": [
+        {
+          "id": "wp3-wh-01",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "我们要（ ）护环境。"
+          },
+          "blank_pinyin": "bǎo",
+          "answer": "保",
+          "explanation_vi": "保护 = bảo vệ."
+        },
+        {
+          "id": "wp3-wh-02",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "他终（ ）找到了工作。"
+          },
+          "blank_pinyin": "yú",
+          "answer": "于",
+          "explanation_vi": "终于 = cuối cùng."
+        },
+        {
+          "id": "wp3-wh-03",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "你（ ）心，我一定准时到。"
+          },
+          "blank_pinyin": "fàng",
+          "answer": "放",
+          "explanation_vi": "放心 = yên tâm."
+        },
+        {
+          "id": "wp3-wh-04",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "这件事很重（ ）。"
+          },
+          "blank_pinyin": "yào",
+          "answer": "要",
+          "explanation_vi": "重要 = quan trọng."
+        },
+        {
+          "id": "wp3-wh-05",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "请把门（ ）上。"
+          },
+          "blank_pinyin": "guān",
+          "answer": "关",
+          "explanation_vi": "关上 = đóng lại."
+        },
+        {
+          "id": "wp3-wh-06",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "我对音乐很感兴（ ）。"
+          },
+          "blank_pinyin": "qù",
+          "answer": "趣",
+          "explanation_vi": "感兴趣 = hứng thú."
+        },
+        {
+          "id": "wp3-wh-07",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "明天的会（ ）几点开始？"
+          },
+          "blank_pinyin": "yì",
+          "answer": "议",
+          "explanation_vi": "会议 = cuộc họp."
+        },
+        {
+          "id": "wp3-wh-08",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "他的汉语水（ ）很高。"
+          },
+          "blank_pinyin": "píng",
+          "answer": "平",
+          "explanation_vi": "水平 = trình độ."
+        },
+        {
+          "id": "wp3-wh-09",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "别（ ）心，问题不大。"
+          },
+          "blank_pinyin": "dān",
+          "answer": "担",
+          "explanation_vi": "担心 = lo lắng."
+        },
+        {
+          "id": "wp3-wh-10",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "我每天都（ ）炼身体。"
+          },
+          "blank_pinyin": "duàn",
+          "answer": "锻",
+          "explanation_vi": "锻炼 = rèn luyện."
+        },
+        {
+          "id": "wp3-wh-11",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "这个菜的（ ）道很好。"
+          },
+          "blank_pinyin": "wèi",
+          "answer": "味",
+          "explanation_vi": "味道 = mùi vị."
+        },
+        {
+          "id": "wp3-wh-12",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "我想（ ）一本书给你。"
+          },
+          "blank_pinyin": "jiè",
+          "answer": "借",
+          "explanation_vi": "借 = mượn/cho mượn."
+        },
+        {
+          "id": "wp3-wh-13",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "他（ ）然没来。"
+          },
+          "blank_pinyin": "guǒ",
+          "answer": "果",
+          "explanation_vi": "果然 = quả nhiên."
+        },
+        {
+          "id": "wp3-wh-14",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "请大家（ ）意安全。"
+          },
+          "blank_pinyin": "zhù",
+          "answer": "注",
+          "explanation_vi": "注意 = chú ý."
+        },
+        {
+          "id": "wp3-wh-15",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "这次比（ ）我们赢了。"
+          },
+          "blank_pinyin": "sài",
+          "answer": "赛",
+          "explanation_vi": "比赛 = trận đấu."
+        },
+        {
+          "id": "wp3-wh-16",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "冬天北方很冷，南方比（ ）暖和。"
+          },
+          "blank_pinyin": "jiào",
+          "answer": "较",
+          "explanation_vi": "比较 = tương đối."
+        }
+      ]
+    },
+    {
+      "id": "wp3-sentence",
+      "level": 3,
+      "type": "write_sentence",
+      "title_vi": "Nhìn hình đặt câu – HSK 3",
+      "questions": [
+        {
+          "id": "wp3-ws-01",
+          "type": "write_sentence",
+          "prompt_vi": "Nhìn hình, dùng từ cho sẵn viết một câu hoàn chỉnh.",
+          "keyword": {
+            "zh": "搬家",
+            "pinyin": "bānjiā"
+          },
+          "image": {
+            "emoji": "📦🚚",
+            "alt_vi": "Một gia đình đang khiêng thùng đồ lên xe tải"
+          },
+          "min_chars": 5,
+          "sample_answers": [
+            "他们今天搬家。",
+            "我们下个月要搬家了。"
+          ],
+          "max_points": 2,
+          "rubric_id": "rb-w-sentence",
+          "answer": null,
+          "explanation_vi": "Chủ ngữ + thời gian + 搬家."
+        },
+        {
+          "id": "wp3-ws-02",
+          "type": "write_sentence",
+          "prompt_vi": "Nhìn hình, dùng từ cho sẵn viết một câu hoàn chỉnh.",
+          "keyword": {
+            "zh": "生气",
+            "pinyin": "shēngqì"
+          },
+          "image": {
+            "emoji": "😠",
+            "alt_vi": "Người mẹ đang tức giận nhìn đứa con"
+          },
+          "min_chars": 5,
+          "sample_answers": [
+            "妈妈很生气。",
+            "孩子没做作业，妈妈生气了。"
+          ],
+          "max_points": 2,
+          "rubric_id": "rb-w-sentence",
+          "answer": null,
+          "explanation_vi": "生气 là động từ/tính từ: 很生气, 生气了."
+        },
+        {
+          "id": "wp3-ws-03",
+          "type": "write_sentence",
+          "prompt_vi": "Nhìn hình, dùng từ cho sẵn viết một câu hoàn chỉnh.",
+          "keyword": {
+            "zh": "认真",
+            "pinyin": "rènzhēn"
+          },
+          "image": {
+            "emoji": "✍️📖",
+            "alt_vi": "Học sinh đang chăm chú làm bài"
+          },
+          "min_chars": 5,
+          "sample_answers": [
+            "他学习很认真。",
+            "她在认真地写作业。"
+          ],
+          "max_points": 2,
+          "rubric_id": "rb-w-sentence",
+          "answer": null,
+          "explanation_vi": "认真 làm tính từ (很认真) hoặc trạng ngữ (认真地 + động từ)."
+        },
+        {
+          "id": "wp3-ws-04",
+          "type": "write_sentence",
+          "prompt_vi": "Nhìn hình, dùng từ cho sẵn viết một câu hoàn chỉnh.",
+          "keyword": {
+            "zh": "参加",
+            "pinyin": "cānjiā"
+          },
+          "image": {
+            "emoji": "🏃‍♀️🏁",
+            "alt_vi": "Nhiều người tham gia cuộc thi chạy"
+          },
+          "min_chars": 5,
+          "sample_answers": [
+            "很多人参加了这次比赛。",
+            "我想参加明天的比赛。"
+          ],
+          "max_points": 2,
+          "rubric_id": "rb-w-sentence",
+          "answer": null,
+          "explanation_vi": "参加 + hoạt động (比赛, 会议, 晚会)."
+        },
+        {
+          "id": "wp3-ws-05",
+          "type": "write_sentence",
+          "prompt_vi": "Nhìn hình, dùng từ cho sẵn viết một câu hoàn chỉnh.",
+          "keyword": {
+            "zh": "感冒",
+            "pinyin": "gǎnmào"
+          },
+          "image": {
+            "emoji": "🤧",
+            "alt_vi": "Một cô gái đang hắt hơi, cầm khăn giấy"
+          },
+          "min_chars": 5,
+          "sample_answers": [
+            "她感冒了。",
+            "天气太冷，她感冒了。"
+          ],
+          "max_points": 2,
+          "rubric_id": "rb-w-sentence",
+          "answer": null,
+          "explanation_vi": "感冒了 = bị cảm rồi."
+        },
+        {
+          "id": "wp3-ws-06",
+          "type": "write_sentence",
+          "prompt_vi": "Nhìn hình, dùng từ cho sẵn viết một câu hoàn chỉnh.",
+          "keyword": {
+            "zh": "旅游",
+            "pinyin": "lǚyóu"
+          },
+          "image": {
+            "emoji": "🧳🗺️",
+            "alt_vi": "Hai người cầm bản đồ đi du lịch"
+          },
+          "min_chars": 5,
+          "sample_answers": [
+            "他们去中国旅游。",
+            "放假的时候我想去旅游。"
+          ],
+          "max_points": 2,
+          "rubric_id": "rb-w-sentence",
+          "answer": null,
+          "explanation_vi": "去 + nơi chốn + 旅游."
+        },
+        {
+          "id": "wp3-ws-07",
+          "type": "write_sentence",
+          "prompt_vi": "Nhìn hình, dùng từ cho sẵn viết một câu hoàn chỉnh.",
+          "keyword": {
+            "zh": "送",
+            "pinyin": "sòng"
+          },
+          "image": {
+            "emoji": "🎁",
+            "alt_vi": "Cậu bé tặng quà cho bạn gái"
+          },
+          "min_chars": 5,
+          "sample_answers": [
+            "他送了她一个礼物。",
+            "这是我送给你的礼物。"
+          ],
+          "max_points": 2,
+          "rubric_id": "rb-w-sentence",
+          "answer": null,
+          "explanation_vi": "送 + người + vật / 送给 + người."
+        },
+        {
+          "id": "wp3-ws-08",
+          "type": "write_sentence",
+          "prompt_vi": "Nhìn hình, dùng từ cho sẵn viết một câu hoàn chỉnh.",
+          "keyword": {
+            "zh": "爬山",
+            "pinyin": "páshān"
+          },
+          "image": {
+            "emoji": "🧗⛰️",
+            "alt_vi": "Một nhóm bạn đang leo núi"
+          },
+          "min_chars": 5,
+          "sample_answers": [
+            "周末我们去爬山。",
+            "他们正在爬山。"
+          ],
+          "max_points": 2,
+          "rubric_id": "rb-w-sentence",
+          "answer": null,
+          "explanation_vi": "爬山 là động từ li hợp, không thêm tân ngữ."
+        },
+        {
+          "id": "wp3-ws-09",
+          "type": "write_sentence",
+          "prompt_vi": "Nhìn hình, dùng từ cho sẵn viết một câu hoàn chỉnh.",
+          "keyword": {
+            "zh": "终于",
+            "pinyin": "zhōngyú"
+          },
+          "image": {
+            "emoji": "🏁🎉",
+            "alt_vi": "Vận động viên vượt qua vạch đích, rất vui"
+          },
+          "min_chars": 5,
+          "sample_answers": [
+            "他终于跑到了。",
+            "我终于完成了作业。"
+          ],
+          "max_points": 2,
+          "rubric_id": "rb-w-sentence",
+          "answer": null,
+          "explanation_vi": "终于 đứng trước động từ, thường đi với 了."
+        },
+        {
+          "id": "wp3-ws-10",
+          "type": "write_sentence",
+          "prompt_vi": "Nhìn hình, dùng từ cho sẵn viết một câu hoàn chỉnh.",
+          "keyword": {
+            "zh": "干净",
+            "pinyin": "gānjìng"
+          },
+          "image": {
+            "emoji": "🧼✨",
+            "alt_vi": "Căn bếp sạch bóng sau khi lau dọn"
+          },
+          "min_chars": 5,
+          "sample_answers": [
+            "厨房非常干净。",
+            "她把房间打扫得很干净。"
+          ],
+          "max_points": 2,
+          "rubric_id": "rb-w-sentence",
+          "answer": null,
+          "explanation_vi": "干净 là tính từ: 很干净; bổ ngữ: 打扫得很干净."
+        },
+        {
+          "id": "wp3-ws-11",
+          "type": "write_sentence",
+          "prompt_vi": "Nhìn hình, dùng từ cho sẵn viết một câu hoàn chỉnh.",
+          "keyword": {
+            "zh": "害怕",
+            "pinyin": "hàipà"
+          },
+          "image": {
+            "emoji": "😨🐕",
+            "alt_vi": "Bé gái sợ hãi khi thấy con chó to"
+          },
+          "min_chars": 5,
+          "sample_answers": [
+            "她很害怕那只狗。",
+            "小女孩儿害怕大狗。"
+          ],
+          "max_points": 2,
+          "rubric_id": "rb-w-sentence",
+          "answer": null,
+          "explanation_vi": "害怕 + đối tượng."
+        }
+      ]
+    },
+    {
+      "id": "wp3-reorder",
+      "level": 3,
+      "type": "reorder_words",
+      "title_vi": "Sắp xếp từ thành câu – HSK 3 (luyện ngữ pháp)",
+      "questions": [
+        {
+          "id": "wp3-ro-01",
+          "type": "reorder_words",
+          "words": [
+            "把",
+            "请",
+            "门",
+            "关上"
+          ],
+          "answer": "请把门关上。",
+          "pinyin": "qǐng bǎ mén guānshang.",
+          "explanation_vi": "Câu 把: 把 + tân ngữ + động từ + thành phần khác."
+        },
+        {
+          "id": "wp3-ro-02",
+          "type": "reorder_words",
+          "words": [
+            "被",
+            "我的自行车",
+            "骑走了",
+            "弟弟"
+          ],
+          "answer": "我的自行车被弟弟骑走了。",
+          "pinyin": "wǒ de zìxíngchē bèi dìdi qí zǒu le.",
+          "explanation_vi": "Câu bị động 被: vật + 被 + người + động từ + kết quả."
+        },
+        {
+          "id": "wp3-ro-03",
+          "type": "reorder_words",
+          "words": [
+            "越来越",
+            "天气",
+            "冷",
+            "了"
+          ],
+          "answer": "天气越来越冷了。",
+          "pinyin": "tiānqì yuè lái yuè lěng le.",
+          "explanation_vi": "越来越 + tính từ = càng ngày càng."
+        },
+        {
+          "id": "wp3-ro-04",
+          "type": "reorder_words",
+          "words": [
+            "除了",
+            "都",
+            "小王",
+            "大家",
+            "来了"
+          ],
+          "answer": "除了小王，大家都来了。",
+          "pinyin": "chúle Xiǎo Wáng, dàjiā dōu lái le.",
+          "explanation_vi": "除了……，都……: ngoài … ra, đều …."
+        },
+        {
+          "id": "wp3-ro-05",
+          "type": "reorder_words",
+          "words": [
+            "不但",
+            "而且",
+            "他",
+            "会说汉语",
+            "会写汉字"
+          ],
+          "answer": "他不但会说汉语，而且会写汉字。",
+          "pinyin": "tā búdàn huì shuō Hànyǔ, érqiě huì xiě Hànzì.",
+          "explanation_vi": "不但……而且……: không những … mà còn …."
+        },
+        {
+          "id": "wp3-ro-06",
+          "type": "reorder_words",
+          "words": [
+            "得",
+            "她",
+            "流利",
+            "说",
+            "汉语",
+            "很"
+          ],
+          "answer": "她汉语说得很流利。",
+          "pinyin": "tā Hànyǔ shuō de hěn liúlì.",
+          "explanation_vi": "Bổ ngữ trình độ có tân ngữ: (说)汉语 + 说得 + 很流利; động từ thứ nhất có thể lược."
+        },
+        {
+          "id": "wp3-ro-07",
+          "type": "reorder_words",
+          "words": [
+            "一边",
+            "一边",
+            "他",
+            "吃饭",
+            "看电视"
+          ],
+          "answer": "他一边吃饭一边看电视。",
+          "pinyin": "tā yìbiān chīfàn yìbiān kàn diànshì.",
+          "explanation_vi": "一边……一边……: vừa … vừa …."
+        },
+        {
+          "id": "wp3-ro-08",
+          "type": "reorder_words",
+          "words": [
+            "如果",
+            "就",
+            "明天下雨",
+            "我们",
+            "不去了"
+          ],
+          "answer": "如果明天下雨，我们就不去了。",
+          "pinyin": "rúguǒ míngtiān xiàyǔ, wǒmen jiù bú qù le.",
+          "explanation_vi": "如果……就……: nếu … thì …."
+        },
+        {
+          "id": "wp3-ro-09",
+          "type": "reorder_words",
+          "words": [
+            "对",
+            "感兴趣",
+            "我",
+            "中国文化",
+            "很"
+          ],
+          "answer": "我对中国文化很感兴趣。",
+          "pinyin": "wǒ duì Zhōngguó wénhuà hěn gǎn xìngqù.",
+          "explanation_vi": "对 + đối tượng + 感兴趣."
+        },
+        {
+          "id": "wp3-ro-10",
+          "type": "reorder_words",
+          "words": [
+            "比",
+            "多了",
+            "今天",
+            "昨天",
+            "冷"
+          ],
+          "answer": "今天比昨天冷多了。",
+          "pinyin": "jīntiān bǐ zuótiān lěng duō le.",
+          "explanation_vi": "So sánh mức độ: A 比 B + tính từ + 多了."
+        },
+        {
+          "id": "wp3-ro-11",
+          "type": "reorder_words",
+          "words": [
+            "已经",
+            "三年",
+            "了",
+            "我",
+            "学汉语",
+            "学了"
+          ],
+          "answer": "我学汉语已经学了三年了。",
+          "pinyin": "wǒ xué Hànyǔ yǐjing xué le sān nián le.",
+          "explanation_vi": "Bổ ngữ thời lượng: động từ + 了 + thời gian."
+        },
+        {
+          "id": "wp3-ro-12",
+          "type": "reorder_words",
+          "words": [
+            "给",
+            "介绍",
+            "一下",
+            "我",
+            "你"
+          ],
+          "answer": "我给你介绍一下。",
+          "pinyin": "wǒ gěi nǐ jièshào yíxià.",
+          "explanation_vi": "给 + người + 介绍: giới thiệu cho ai."
+        },
+        {
+          "id": "wp3-ro-13",
+          "type": "reorder_words",
+          "words": [
+            "才",
+            "他",
+            "十点",
+            "起床",
+            "今天"
+          ],
+          "answer": "他今天十点才起床。",
+          "accepted_answers": [
+            "今天他十点才起床。"
+          ],
+          "pinyin": "tā jīntiān shí diǎn cái qǐ chuáng.",
+          "explanation_vi": "才 = mới (muộn hơn dự kiến), đứng trước động từ."
+        },
+        {
+          "id": "wp3-ro-14",
+          "type": "reorder_words",
+          "words": [
+            "把",
+            "作业",
+            "完成了",
+            "我",
+            "已经"
+          ],
+          "answer": "我已经把作业完成了。",
+          "pinyin": "wǒ yǐjing bǎ zuòyè wánchéng le.",
+          "explanation_vi": "Phó từ (已经) đứng trước 把."
+        },
+        {
+          "id": "wp3-ro-15",
+          "type": "reorder_words",
+          "words": [
+            "只要",
+            "就",
+            "你",
+            "努力",
+            "能学好"
+          ],
+          "answer": "只要你努力，就能学好。",
+          "pinyin": "zhǐyào nǐ nǔlì, jiù néng xué hǎo.",
+          "explanation_vi": "只要……就……: chỉ cần … thì …."
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "rb-w-sentence",
+      "max_score": 2,
+      "criteria": [
+        {
+          "key": "vocab_grammar",
+          "name_vi": "Từ khóa & ngữ pháp",
+          "weight": 0.5,
+          "description_vi": "Dùng đúng từ cho sẵn, câu đúng ngữ pháp."
+        },
+        {
+          "key": "content",
+          "name_vi": "Phù hợp hình",
+          "weight": 0.3,
+          "description_vi": "Câu đúng nội dung hình, ý trọn vẹn."
+        },
+        {
+          "key": "characters",
+          "name_vi": "Chữ Hán",
+          "weight": 0.2,
+          "description_vi": "Viết đúng chữ, có dấu câu."
+        }
+      ]
+    }
+  ]
+}
