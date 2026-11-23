@@ -6434,7 +6434,7 @@
       "id": "hsk2-0532",
       "hanzi": "提高",
       "pinyin": "tígāo",
-      "pos": "cụm từ",
+      "pos": "động từ",
       "meaning_vi": "nâng cao",
       "example": {
         "zh": "我想提高我的汉语水平。",
@@ -7264,8 +7264,8 @@
       "pos": "danh từ",
       "meaning_vi": "giày",
       "example": {
-        "zh": "这个鞋很舒服。",
-        "pinyin": "zhège xié hěn shūfu.",
+        "zh": "这双鞋很舒服。",
+        "pinyin": "zhè shuāng xié hěn shūfu.",
         "vi": "Đôi giày này rất thoải mái."
       },
       "syllabus2025": true,

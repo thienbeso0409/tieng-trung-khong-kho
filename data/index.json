@@ -106,5 +106,6 @@
     "topics": "speaking/topics.json",
     "hskk": "speaking/hskk.json",
     "shadowing": "speaking/shadowing.json"
-  }
+  },
+  "radicals": "writing/radicals.json"
 }

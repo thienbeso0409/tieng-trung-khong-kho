@@ -334,7 +334,8 @@ export function createRunner(root, opts) {
     });
     const total = secs.reduce((s, x) => s + x.score, 0);
     const maxTotal = secs.reduce((s, x) => s + x.max, 0);
-    const correctAll = scorable().filter((e) => grades.get(e.q.id)?.correct === true).length;
+    const objective = scorable().filter((e) => !isOpen(e.handler));
+    const correctAll = objective.filter((e) => grades.get(e.q.id)?.correct === true).length;
     let band = null;
     if (opts.scoreMode === 'bands') {
       const avg = secs.length ? secs.reduce((s, x) => s + (100 * x.score) / (x.max || 100), 0) / secs.length : 0;
@@ -345,7 +346,7 @@ export function createRunner(root, opts) {
     return {
       date: new Date().toISOString(),
       durationSec: Math.round((Date.now() - startedAt) / 1000),
-      sections: secs, total, maxTotal, correct: correctAll, count: scorable().length,
+      sections: secs, total, maxTotal, correct: correctAll, count: objective.length,
       pass: opts.scoreMode !== 'bands' && opts.passScore != null ? total >= opts.passScore : null,
       passScore: opts.passScore ?? null,
       band,
@@ -365,7 +366,7 @@ export function createRunner(root, opts) {
       : r.pass != null
         ? h('div', { class: `result-stamp ${r.pass ? 'pass' : 'fail'}` }, r.pass ? '合格 ĐẠT' : '不合格 CHƯA ĐẠT')
         : h('div', { class: 'muted' }, `Đúng ${r.correct}/${r.count} câu · ${pct}%`),
-      r.pass != null ? h('p', { class: 'muted' }, `Điểm đạt: ${r.passScore} · Đúng ${r.correct}/${r.count} câu · Thời gian ${fmtTime(r.durationSec)}`) : h('p', { class: 'muted' }, `Thời gian ${fmtTime(r.durationSec)}`),
+      r.pass != null ? h('p', { class: 'muted' }, `Điểm đạt: ${r.passScore} · Đúng ${r.correct}/${r.count} câu trắc nghiệm · Thời gian ${fmtTime(r.durationSec)}`) : h('p', { class: 'muted' }, `Thời gian ${fmtTime(r.durationSec)}`),
       r.sections.length > 1 || r.pass != null || r.band ? h('div', { class: 'sec-scores' }, r.sections.map((s) => h('div', { class: 'sec-score' },
         h('div', { class: 'small muted' }, s.name), h('b', null, s.score), h('span', { class: 'muted' }, ` / ${s.max}`),
         h('div', { class: 'progress', style: { marginTop: '6px' } }, h('i', { style: { width: `${(100 * s.score) / (s.max || 1)}%` } })),

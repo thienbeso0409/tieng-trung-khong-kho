@@ -146,7 +146,7 @@
       "meaning_vi": "lớp học (tập thể lớp)",
       "example": {
         "zh": "我们班级有四十个学生。",
-        "pinyin": "wǒmen bānjí yǒu sì shí ge xuésheng.",
+        "pinyin": "wǒmen bānjí yǒu sìshí ge xuésheng.",
         "vi": "Lớp chúng tôi có bốn mươi học sinh."
       },
       "traditional": "班級",
@@ -629,7 +629,7 @@
       "id": "hsk3-0054",
       "hanzi": "播出",
       "pinyin": "bōchū",
-      "pos": "cụm từ",
+      "pos": "động từ",
       "meaning_vi": "phát sóng"
     },
     {
@@ -6994,7 +6994,7 @@
       "meaning_vi": "thế kỷ",
       "example": {
         "zh": "现在是二十一世纪。",
-        "pinyin": "xiànzài shì èr shíyī shìjì.",
+        "pinyin": "xiànzài shì èrshíyī shìjì.",
         "vi": "Bây giờ là thế kỷ hai mươi mốt."
       },
       "traditional": "世紀"
@@ -7832,8 +7832,8 @@
       "id": "hsk3-0724",
       "hanzi": "头",
       "pinyin": "tóu",
-      "pos": "tính từ",
-      "meaning_vi": "đầu tiên; con (lượng từ cho gia súc)",
+      "pos": "danh từ, lượng từ, tính từ",
+      "meaning_vi": "đầu; đầu tiên; con (lượng từ cho gia súc)",
       "traditional": "頭",
       "syllabus2025": true,
       "syllabus2025_level": 2,

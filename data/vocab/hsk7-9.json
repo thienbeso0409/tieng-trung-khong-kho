@@ -1648,7 +1648,7 @@
       "hanzi": "便饭",
       "pinyin": "biànfàn",
       "pos": "danh từ",
-      "meaning_vi": "bữa ăn thường; nấu ăn đơn giản ở nhà",
+      "meaning_vi": "bữa cơm thường ngày; cơm nhà đơn giản",
       "traditional": "便飯"
     },
     {
@@ -7963,7 +7963,7 @@
       "hanzi": "东奔西走",
       "pinyin": "dōngbēn-xīzǒu",
       "pos": "cụm từ",
-      "meaning_vi": "chạy đông chạy tây; bận rộn chạy đi chạy lại; bận tối mắt tối mũi; nhảy lò cò",
+      "meaning_vi": "chạy ngược chạy xuôi; bôn ba khắp nơi",
       "traditional": "東奔西走"
     },
     {
@@ -10055,7 +10055,7 @@
       "hanzi": "丰厚",
       "pinyin": "fēnghòu",
       "pos": "tính từ",
-      "meaning_vi": "hào phóng; dồi dào",
+      "meaning_vi": "dồi dào; hậu hĩnh",
       "traditional": "豐厚"
     },
     {
@@ -11424,7 +11424,7 @@
       "traditional": "高血壓",
       "example": {
         "zh": "他有高血压，不能吃太咸的东西。",
-        "pinyin": "tā yǒu gāoxuèyā, bùnéng chī tài xián de dōngxī.",
+        "pinyin": "tā yǒu gāoxuèyā, bùnéng chī tài xián de dōngxi.",
         "vi": "Ông ấy bị cao huyết áp, không được ăn đồ quá mặn."
       }
     },
@@ -11684,7 +11684,7 @@
       "hanzi": "隔阂",
       "pinyin": "géhé",
       "pos": "danh từ",
-      "meaning_vi": "hiểu lầm; tách biệt; rào cản (ngôn ngữ, v.v.)",
+      "meaning_vi": "ngăn cách; khoảng cách (tình cảm, hiểu biết)",
       "traditional": "隔閡"
     },
     {
@@ -13620,7 +13620,7 @@
       "hanzi": "过日子",
       "pinyin": "guò rìzi",
       "pos": "cụm từ",
-      "meaning_vi": "sống cuộc sống của mình; trải qua ngày tháng; sống chung",
+      "meaning_vi": "sống; sinh sống qua ngày",
       "traditional": "過日子"
     },
     {
@@ -14394,7 +14394,7 @@
       "hanzi": "和睦",
       "pinyin": "hémù",
       "pos": "tính từ",
-      "meaning_vi": "quan hệ hòa bình; hài hòa"
+      "meaning_vi": "hòa thuận; êm ấm"
     },
     {
       "id": "hsk7-9-1624",
@@ -15938,7 +15938,7 @@
       "hanzi": "回归",
       "pinyin": "huíguī",
       "pos": "động từ",
-      "meaning_vi": "trở về; rút lui; hồi quy (thống kê)",
+      "meaning_vi": "trở về; quay về; hồi quy (thống kê)",
       "traditional": "回歸",
       "example": {
         "zh": "退休以后，他回归了平静的生活。",
@@ -16828,7 +16828,7 @@
       "hanzi": "即便",
       "pinyin": "jíbiàn",
       "pos": "liên từ",
-      "meaning_vi": "dù cho; mặc dù; ngay lập tức",
+      "meaning_vi": "dù cho; ngay cả khi",
       "example": {
         "zh": "即便明天下雨，比赛也照常进行。",
         "pinyin": "jíbiàn míngtiān xiàyǔ, bǐsài yě zhàocháng jìnxíng.",
@@ -16865,7 +16865,7 @@
       "hanzi": "急迫",
       "pinyin": "jípò",
       "pos": "tính từ",
-      "meaning_vi": "khẩn cấp; cấp bách; bắt buộc"
+      "meaning_vi": "cấp bách; gấp gáp"
     },
     {
       "id": "hsk7-9-1890",
@@ -17103,7 +17103,7 @@
       "meaning_vi": "kiêng, kiêng kỵ; ghen ghét (妒忌)",
       "example": {
         "zh": "医生说他最近忌吃辣的东西。",
-        "pinyin": "yīshēng shuō tā zuìjìn jì chī là de dōngxī.",
+        "pinyin": "yīshēng shuō tā zuìjìn jì chī là de dōngxi.",
         "vi": "Bác sĩ nói dạo này anh ấy phải kiêng đồ cay."
       }
     },
@@ -17718,7 +17718,7 @@
       "traditional": "監獄",
       "example": {
         "zh": "他因为偷东西被关进了监狱。",
-        "pinyin": "tā yīnwèi tōudōngxī bèi guānjìn le jiānyù.",
+        "pinyin": "tā yīnwèi tōudōngxi bèi guānjìn le jiānyù.",
         "vi": "Anh ta bị tống vào tù vì tội trộm cắp."
       }
     },
@@ -27406,7 +27406,7 @@
       "hanzi": "旁观",
       "pinyin": "pángguān",
       "pos": "động từ",
-      "meaning_vi": "khán giả; không tham gia",
+      "meaning_vi": "đứng ngoài quan sát; bàng quan",
       "traditional": "旁觀"
     },
     {
@@ -36900,7 +36900,7 @@
       "hanzi": "通告",
       "pinyin": "tōnggào",
       "pos": "động từ, danh từ",
-      "meaning_vi": "thông báo; đưa thông báo; thông báo"
+      "meaning_vi": "thông báo; đưa thông báo"
     },
     {
       "id": "hsk7-9-4120",
@@ -41211,7 +41211,7 @@
       "hanzi": "卸",
       "pinyin": "xiè",
       "pos": "động từ",
-      "meaning_vi": "dỡ; xuống; phá bỏ",
+      "meaning_vi": "dỡ (hàng); tháo; trút bỏ (trách nhiệm)",
       "example": {
         "zh": "工人们正在从车上卸货。",
         "pinyin": "gōngrén men zhèngzài cóng chēshàng xièhuò.",
@@ -43210,7 +43210,7 @@
       "hanzi": "养殖",
       "pinyin": "yǎngzhí",
       "pos": "động từ",
-      "meaning_vi": "nuôi trồng; sự nuôi trồng; phát triển",
+      "meaning_vi": "nuôi trồng (thủy sản, gia súc)",
       "traditional": "養殖",
       "example": {
         "zh": "这个村子的人主要靠养殖为生。",
@@ -44049,7 +44049,7 @@
       "hanzi": "以至于",
       "pinyin": "yǐzhìyú",
       "pos": "liên từ",
-      "meaning_vi": "xuống đến; lên đến; đến mức độ mà ...",
+      "meaning_vi": "đến nỗi; đến mức",
       "traditional": "以至於"
     },
     {
@@ -44495,7 +44495,7 @@
       "hanzi": "异性",
       "pinyin": "yìxìng",
       "pos": "tính từ, danh từ",
-      "meaning_vi": "khác giới; tính dục khác giới; khác biệt về bản chất",
+      "meaning_vi": "người khác giới; khác tính chất",
       "traditional": "異性"
     },
     {
@@ -44669,7 +44669,7 @@
       "hanzi": "殷勤",
       "pinyin": "yīnqín",
       "pos": "tính từ",
-      "meaning_vi": "lịch sự; một cách ân cần; chăm chú"
+      "meaning_vi": "ân cần; niềm nở"
     },
     {
       "id": "hsk7-9-4983",
@@ -46608,7 +46608,7 @@
       "hanzi": "赞不绝口",
       "pinyin": "zànbùjuékǒu",
       "pos": "cụm từ",
-      "meaning_vi": "khen ngợi không ngớt; khen ngợi đến tận mây xanh; khen ngợi không ngớt",
+      "meaning_vi": "khen ngợi không ngớt; khen ngợi đến tận mây xanh",
       "traditional": "讚不絕口"
     },
     {
@@ -47940,7 +47940,7 @@
       "hanzi": "支票",
       "pinyin": "zhīpiào",
       "pos": "danh từ",
-      "meaning_vi": "séc (ngân hàng); séc"
+      "meaning_vi": "séc (ngân hàng)"
     },
     {
       "id": "hsk7-9-5343",
@@ -49022,7 +49022,7 @@
       "hanzi": "主演",
       "pinyin": "zhǔyǎn",
       "pos": "động từ, danh từ",
-      "meaning_vi": "đóng vai chính; đóng vai trò quan trọng; diễn viên chính",
+      "meaning_vi": "đóng vai chính; diễn viên chính",
       "example": {
         "zh": "这部电影由一位著名演员主演。",
         "pinyin": "zhèbù diànyǐng yóu yīwèi zhùmíng yǎnyuán zhǔyǎn.",
@@ -49368,7 +49368,7 @@
       "hanzi": "转眼",
       "pinyin": "zhuǎnyǎn",
       "pos": "động từ",
-      "meaning_vi": "trong nháy mắt; trong chớp mắt; nhìn thoáng qua",
+      "meaning_vi": "chớp mắt; trong nháy mắt",
       "traditional": "轉眼"
     },
     {
@@ -50422,7 +50422,7 @@
       "meaning_vi": "tổ tiên; tổ tông",
       "example": {
         "zh": "祖宗留下来的东西不能丢。",
-        "pinyin": "zǔzōng liúxiàlái de dōngxī bùnéng diū.",
+        "pinyin": "zǔzōng liúxiàlái de dōngxi bùnéng diū.",
         "vi": "Những thứ tổ tiên để lại không được đánh mất."
       }
     },

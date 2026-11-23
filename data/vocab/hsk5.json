@@ -802,7 +802,7 @@
       "meaning_vi": "thỉnh thoảng, chốc chốc",
       "example": {
         "zh": "他不时地看看手表。",
-        "pinyin": "tā bùshí dì kànkàn shǒubiǎo.",
+        "pinyin": "tā bùshí de kànkàn shǒubiǎo.",
         "vi": "Anh ấy chốc chốc lại nhìn đồng hồ."
       },
       "traditional": "不時"
@@ -1836,7 +1836,7 @@
       "meaning_vi": "từ trong đó",
       "example": {
         "zh": "我从中学到了很多东西。",
-        "pinyin": "wǒ cóngzhōng xuédào le hěnduō dōngxī.",
+        "pinyin": "wǒ cóngzhōng xuédào le hěnduō dōngxi.",
         "vi": "Tôi đã học được rất nhiều điều từ đó."
       },
       "traditional": "從中"
@@ -3126,7 +3126,7 @@
       "meaning_vi": "điên cuồng, cuồng nhiệt",
       "example": {
         "zh": "球迷们疯狂地喊着。",
-        "pinyin": "qiúmí men fēngkuáng dìhǎn zhe.",
+        "pinyin": "qiúmí men fēngkuáng dehǎn zhe.",
         "vi": "Người hâm mộ hò hét cuồng nhiệt."
       },
       "traditional": "瘋狂"
@@ -4232,7 +4232,7 @@
       "meaning_vi": "vội vàng, hấp tấp",
       "example": {
         "zh": "他慌忙地跑了出去。",
-        "pinyin": "tā huāngmáng dì pǎo le chūqù.",
+        "pinyin": "tā huāngmáng de pǎo le chūqù.",
         "vi": "Anh ấy vội vàng chạy ra ngoài."
       }
     },
@@ -5101,7 +5101,7 @@
       "meaning_vi": "chặt, chặt chẽ",
       "example": {
         "zh": "妈妈紧紧地抱着孩子。",
-        "pinyin": "māma jǐnjǐn dì bào zhe háizi.",
+        "pinyin": "māma jǐnjǐn de bào zhe háizi.",
         "vi": "Mẹ ôm chặt đứa con."
       },
       "traditional": "緊緊"
@@ -6523,7 +6523,7 @@
       "meaning_vi": "kiên nhẫn; lòng kiên nhẫn",
       "example": {
         "zh": "老师很耐心地给我讲题。",
-        "pinyin": "lǎoshī hěn nàixīn dì gěi wǒ jiǎngtí.",
+        "pinyin": "lǎoshī hěn nàixīn de gěi wǒ jiǎngtí.",
         "vi": "Thầy giáo kiên nhẫn giảng bài cho tôi."
       }
     },
@@ -7011,7 +7011,7 @@
       "meaning_vi": "thường xuyên, dày đặc",
       "example": {
         "zh": "最近他频繁地出差。",
-        "pinyin": "zuìjìn tā pínfán dì chūchāi.",
+        "pinyin": "zuìjìn tā pínfán de chūchāi.",
         "vi": "Gần đây anh ấy thường xuyên đi công tác."
       },
       "traditional": "頻繁"
@@ -10070,7 +10070,7 @@
       "meaning_vi": "bất lực, đành chịu; nhưng đành",
       "example": {
         "zh": "他很无奈地摇了摇头。",
-        "pinyin": "tā hěn wúnài dìyáo le yáotóu.",
+        "pinyin": "tā hěn wúnài deyáo le yáotóu.",
         "vi": "Anh ấy bất lực lắc đầu."
       },
       "traditional": "無奈"
@@ -10973,7 +10973,7 @@
       "meaning_vi": "nghiêm khắc, nghiêm nghị",
       "example": {
         "zh": "爸爸严厉地批评了我。",
-        "pinyin": "bàba yánlì dì pīpíng le wǒ.",
+        "pinyin": "bàba yánlì de pīpíng le wǒ.",
         "vi": "Bố nghiêm khắc phê bình tôi."
       },
       "traditional": "嚴厲"
@@ -12948,7 +12948,7 @@
       "meaning_vi": "trúng độc, ngộ độc",
       "example": {
         "zh": "他吃了不干净的东西，食物中毒了。",
-        "pinyin": "tā chī le bù gānjìng de dōngxī, shíwù zhòngdú le.",
+        "pinyin": "tā chī le bù gānjìng de dōngxi, shíwù zhòngdú le.",
         "vi": "Anh ấy ăn đồ không sạch nên bị ngộ độc thực phẩm."
       }
     },

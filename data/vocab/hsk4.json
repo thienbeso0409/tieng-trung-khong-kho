@@ -162,7 +162,7 @@
       "meaning_vi": "bách hóa, hàng hóa các loại",
       "example": {
         "zh": "这家百货商店东西很全。",
-        "pinyin": "zhèjiā bǎihuò shāngdiàn dōngxī hěnquán.",
+        "pinyin": "zhèjiā bǎihuò shāngdiàn dōngxi hěnquán.",
         "vi": "Cửa hàng bách hóa này có đủ mọi thứ."
       },
       "traditional": "百貨"
@@ -865,7 +865,7 @@
       "meaning_vi": "đo lường, đo đạc",
       "example": {
         "zh": "工人正在测量这块地。",
-        "pinyin": "gōngrén zhèngzài cèliáng zhèkuài dì.",
+        "pinyin": "gōngrén zhèngzài cèliáng zhèkuài de.",
         "vi": "Công nhân đang đo đạc mảnh đất này."
       },
       "traditional": "測量"
@@ -2766,7 +2766,7 @@
       "meaning_vi": "hóa đơn",
       "example": {
         "zh": "买东西时请要发票。",
-        "pinyin": "mǎi dōngxī shíqǐng yào fāpiào.",
+        "pinyin": "mǎi dōngxi shíqǐng yào fāpiào.",
         "vi": "Khi mua hàng hãy lấy hóa đơn."
       },
       "traditional": "發票"
@@ -6081,7 +6081,7 @@
       "meaning_vi": "xếp, liệt kê; (lượng từ) đoàn (tàu), hàng",
       "example": {
         "zh": "请把要买的东西列出来。",
-        "pinyin": "qǐng bǎ yào mǎi de dōngxī liè chūlái.",
+        "pinyin": "qǐng bǎ yào mǎi de dōngxi liè chūlái.",
         "vi": "Hãy liệt kê những thứ cần mua ra."
       }
     },
@@ -7089,7 +7089,7 @@
       "meaning_vi": "bức thiết, cấp bách",
       "example": {
         "zh": "他迫切地希望找到工作。",
-        "pinyin": "tā pòqiè dì xīwàng zhǎodào gōngzuò.",
+        "pinyin": "tā pòqiè de xīwàng zhǎodào gōngzuò.",
         "vi": "Anh ấy mong muốn tìm được việc một cách bức thiết."
       }
     },
@@ -9487,7 +9487,7 @@
       "meaning_vi": "cái đuôi",
       "example": {
         "zh": "小狗高兴地摇着尾巴。",
-        "pinyin": "xiǎogǒu gāoxìng dìyáozhe wěiba.",
+        "pinyin": "xiǎogǒu gāoxìng deyáozhe wěiba.",
         "vi": "Chú chó con vui vẻ vẫy đuôi."
       }
     },
@@ -9499,7 +9499,7 @@
       "meaning_vi": "chưa chắc, không hẳn",
       "example": {
         "zh": "贵的东西未必好。",
-        "pinyin": "guì de dōngxī wèibì hǎo.",
+        "pinyin": "guì de dōngxi wèibì hǎo.",
         "vi": "Đồ đắt chưa chắc đã tốt."
       }
     },
@@ -9907,7 +9907,7 @@
       "meaning_vi": "xuống lầu",
       "example": {
         "zh": "我下楼去买点儿东西。",
-        "pinyin": "wǒ xiàlóu qù mǎidiǎnr dōngxī.",
+        "pinyin": "wǒ xiàlóu qù mǎidiǎnr dōngxi.",
         "vi": "Tôi xuống lầu mua chút đồ."
       },
       "traditional": "下樓"
@@ -10961,7 +10961,7 @@
       "meaning_vi": "di động, di chuyển",
       "example": {
         "zh": "请不要移动这些东西。",
-        "pinyin": "qǐng búyào yídòng zhèxiē dōngxī.",
+        "pinyin": "qǐng búyào yídòng zhèxiē dōngxi.",
         "vi": "Xin đừng di chuyển những đồ này."
       },
       "traditional": "移動"
@@ -11202,7 +11202,7 @@
       "meaning_vi": "dũng cảm",
       "example": {
         "zh": "他勇敢地救了落水的孩子。",
-        "pinyin": "tā yǒnggǎn dìjiù le luòshuǐ de háizi.",
+        "pinyin": "tā yǒnggǎn dejiù le luòshuǐ de háizi.",
         "vi": "Anh ấy dũng cảm cứu đứa trẻ bị rơi xuống nước."
       }
     },
@@ -12013,7 +12013,7 @@
       "meaning_vi": "chỉ huy; nhạc trưởng",
       "example": {
         "zh": "他指挥大家搬东西。",
-        "pinyin": "tā zhǐhuī dàjiā bāndōngxī.",
+        "pinyin": "tā zhǐhuī dàjiā bāndōngxi.",
         "vi": "Anh ấy chỉ huy mọi người chuyển đồ."
       },
       "traditional": "指揮"
@@ -12481,7 +12481,7 @@
       "meaning_vi": "tổng cộng",
       "example": {
         "zh": "这些东西总共多少钱？",
-        "pinyin": "zhèxiē dōngxī zǒnggòng duōshǎo qián?",
+        "pinyin": "zhèxiē dōngxi zǒnggòng duōshǎo qián?",
         "vi": "Những thứ này tổng cộng bao nhiêu tiền?"
       },
       "traditional": "總共"
