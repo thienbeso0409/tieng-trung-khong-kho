@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-23",
+  "levels": [
+    {
+      "level": 1,
+      "name_vi": "HSK 1",
+      "vocab": "vocab/hsk1.json",
+      "characters": "writing/characters-hsk1.json",
+      "practice": "writing/practice-hsk1.json",
+      "exams": [
+        {
+          "id": "test-de1",
+          "file": "exams/test-de1.json",
+          "title_vi": "Đề kiểm thử – mọi dạng câu"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name_vi": "HSK 4",
+      "vocab": "vocab/hsk4.json",
+      "characters": "writing/characters-hsk4.json",
+      "practice": "writing/practice-hsk4.json",
+      "exams": [
+        {
+          "id": "hsk4-de1",
+          "file": "exams/hsk4-de1.json",
+          "title_vi": "Đề thi thử HSK 4 – Đề 1 (chưa có file)"
+        }
+      ]
+    },
+    {
+      "level": "7-9",
+      "name_vi": "HSK 7–9",
+      "vocab": "vocab/hsk7-9.json",
+      "characters": "writing/characters-hsk7-9.json",
+      "practice": null,
+      "exams": [
+        {
+          "id": "test-79",
+          "file": "exams/test-79.json",
+          "title_vi": "Đề kiểm thử HSK 7–9 (xếp bậc)"
+        }
+      ]
+    }
+  ],
+  "speaking": {
+    "topics": "speaking/topics.json",
+    "hskk": "speaking/hskk.json",
+    "shadowing": "speaking/shadowing.json"
+  }
+}

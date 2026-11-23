@@ -1,0 +1,124 @@
+{
+  "topics": [
+    {
+      "id": "t1-chao-hoi",
+      "level": 1,
+      "title_vi": "Chào hỏi, giới thiệu bản thân",
+      "title_zh": "打招呼",
+      "scenario_vi": "Bạn gặp một bạn học mới người Trung Quốc ở trường.",
+      "ai_role_zh": "你是一个中国大学生，叫李明，第一次见到越南同学。",
+      "ai_role_vi": "Lý Minh, sinh viên Trung Quốc",
+      "goals_vi": [
+        "Chào hỏi",
+        "Nói tên, quốc tịch",
+        "Hỏi tuổi"
+      ],
+      "starter": {
+        "zh": "你好！你叫什么名字？",
+        "pinyin": "nǐ hǎo! nǐ jiào shénme míngzi?",
+        "vi": "Xin chào! Bạn tên là gì?"
+      },
+      "key_vocab": [
+        {
+          "hanzi": "名字",
+          "pinyin": "míngzi",
+          "vi": "tên"
+        },
+        {
+          "hanzi": "越南",
+          "pinyin": "Yuènán",
+          "vi": "Việt Nam"
+        },
+        {
+          "hanzi": "岁",
+          "pinyin": "suì",
+          "vi": "tuổi"
+        },
+        {
+          "hanzi": "认识",
+          "pinyin": "rènshi",
+          "vi": "quen biết"
+        }
+      ],
+      "max_turns": 8
+    },
+    {
+      "id": "t1-an-uong",
+      "level": 1,
+      "title_vi": "Gọi món ở quán ăn",
+      "title_zh": "在饭馆",
+      "scenario_vi": "Bạn vào một quán ăn nhỏ ở Bắc Kinh.",
+      "ai_role_zh": "你是饭馆的服务员，很热情。",
+      "goals_vi": [
+        "Gọi món",
+        "Hỏi giá"
+      ],
+      "starter": {
+        "zh": "你好！你想吃什么？",
+        "pinyin": "nǐ hǎo! nǐ xiǎng chī shénme?",
+        "vi": "Xin chào! Bạn muốn ăn gì?"
+      },
+      "key_vocab": [
+        {
+          "hanzi": "米饭",
+          "pinyin": "mǐfàn",
+          "vi": "cơm"
+        },
+        {
+          "hanzi": "茶",
+          "pinyin": "chá",
+          "vi": "trà"
+        },
+        {
+          "hanzi": "多少钱",
+          "pinyin": "duōshao qián",
+          "vi": "bao nhiêu tiền"
+        },
+        {
+          "hanzi": "想",
+          "pinyin": "xiǎng",
+          "vi": "muốn"
+        }
+      ]
+    },
+    {
+      "id": "t79-tranh-luan",
+      "level": "7-9",
+      "title_vi": "Tranh luận về công nghệ",
+      "title_zh": "科技与生活",
+      "scenario_vi": "Bạn tham gia tọa đàm về tác động của AI.",
+      "ai_role_zh": "你是一位大学教授，正在主持关于人工智能的讨论。",
+      "goals_vi": [
+        "Nêu quan điểm",
+        "Phản biện"
+      ],
+      "starter": {
+        "zh": "你认为人工智能会取代人类的工作吗？",
+        "pinyin": "nǐ rènwéi réngōng zhìnéng huì qǔdài rénlèi de gōngzuò ma?",
+        "vi": "Bạn có cho rằng AI sẽ thay thế công việc của con người?"
+      },
+      "key_vocab": [
+        {
+          "hanzi": "取代",
+          "pinyin": "qǔdài",
+          "vi": "thay thế"
+        },
+        {
+          "hanzi": "效率",
+          "pinyin": "xiàolǜ",
+          "vi": "hiệu suất"
+        },
+        {
+          "hanzi": "担忧",
+          "pinyin": "dānyōu",
+          "vi": "lo ngại"
+        },
+        {
+          "hanzi": "观点",
+          "pinyin": "guāndiǎn",
+          "vi": "quan điểm"
+        }
+      ]
+    }
+  ]
+}

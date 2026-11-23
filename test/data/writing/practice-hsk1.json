@@ -1,0 +1,127 @@
+{
+  "sets": [
+    {
+      "id": "wp1-reorder",
+      "level": 1,
+      "type": "reorder_words",
+      "title_vi": "Sắp xếp từ thành câu – HSK 1",
+      "questions": [
+        {
+          "id": "wp1-ro-01",
+          "type": "reorder_words",
+          "words": [
+            "喜欢",
+            "我",
+            "茶",
+            "喝"
+          ],
+          "answer": "我喜欢喝茶。",
+          "pinyin": "wǒ xǐhuan hē chá.",
+          "explanation_vi": "Chủ ngữ + 喜欢 + động từ + tân ngữ."
+        },
+        {
+          "id": "wp1-ro-02",
+          "type": "reorder_words",
+          "words": [
+            "是",
+            "老师",
+            "她"
+          ],
+          "answer": "她是老师。",
+          "explanation_vi": "A 是 B."
+        }
+      ]
+    },
+    {
+      "id": "wp1-pinyin",
+      "level": 1,
+      "type": "write_hanzi_from_pinyin",
+      "title_vi": "Viết chữ theo pinyin – HSK 1",
+      "questions": [
+        {
+          "id": "wp1-wh-01",
+          "type": "write_hanzi_from_pinyin",
+          "stem": {
+            "zh": "你（ ）！",
+            "pinyin": "nǐ hǎo!"
+          },
+          "blank_pinyin": "hǎo",
+          "answer": "好",
+          "explanation_vi": "你好 = xin chào."
+        }
+      ]
+    },
+    {
+      "id": "wp1-sentence",
+      "level": 1,
+      "type": "write_sentence",
+      "title_vi": "Đặt câu – HSK 1",
+      "questions": [
+        {
+          "id": "wp1-ws-01",
+          "type": "write_sentence",
+          "prompt_vi": "Đặt một câu có dùng từ cho sẵn.",
+          "keyword": {
+            "zh": "喝茶",
+            "pinyin": "hē chá"
+          },
+          "image": {
+            "emoji": "🍵",
+            "alt_vi": "Tách trà"
+          },
+          "min_chars": 4,
+          "sample_answers": [
+            "我喜欢喝茶。"
+          ],
+          "answer": null,
+          "explanation_vi": "主语 + 喜欢 + 喝茶."
+        }
+      ]
+    },
+    {
+      "id": "wp1-component",
+      "level": 1,
+      "type": "choose_component",
+      "title_vi": "Chọn bộ kiện – thử",
+      "shared_options": [
+        {
+          "key": "A",
+          "text": {
+            "zh": "马",
+            "pinyin": "mǎ"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "zh": "子",
+            "pinyin": "zǐ"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "zh": "木",
+            "pinyin": "mù"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "wp1-cc-01",
+          "type": "choose_component",
+          "word": {
+            "zh": "妈妈",
+            "pinyin": "māma"
+          },
+          "target_char": "妈",
+          "target_index": 0,
+          "shown_part": "女",
+          "layout": "left-right",
+          "answer": "A",
+          "explanation_vi": "妈 = 女 + 马."
+        }
+      ]
+    }
+  ]
+}

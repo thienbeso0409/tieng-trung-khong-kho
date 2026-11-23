@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-23",
+  "standard": "HSK3.0",
+  "levels": [
+    {
+      "level": 1,
+      "name_vi": "HSK 1",
+      "vocab": "vocab/hsk1.json",
+      "characters": "writing/characters-hsk1.json",
+      "practice": "writing/practice-hsk1.json",
+      "exams": [
+        {
+          "id": "hsk1-de1",
+          "file": "exams/hsk1-de1.json",
+          "title_vi": "Đề thi thử HSK 1 – Đề 1"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name_vi": "HSK 2",
+      "vocab": "vocab/hsk2.json",
+      "characters": "writing/characters-hsk2.json",
+      "practice": "writing/practice-hsk2.json",
+      "exams": [
+        {
+          "id": "hsk2-de1",
+          "file": "exams/hsk2-de1.json",
+          "title_vi": "Đề thi thử HSK 2 – Đề 1"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name_vi": "HSK 3",
+      "vocab": "vocab/hsk3.json",
+      "characters": "writing/characters-hsk3.json",
+      "practice": "writing/practice-hsk3.json",
+      "exams": [
+        {
+          "id": "hsk3-de1",
+          "file": "exams/hsk3-de1.json",
+          "title_vi": "Đề thi thử HSK 3 – Đề 1"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name_vi": "HSK 4",
+      "vocab": "vocab/hsk4.json",
+      "characters": "writing/characters-hsk4.json",
+      "practice": "writing/practice-hsk4.json",
+      "exams": [
+        {
+          "id": "hsk4-de1",
+          "file": "exams/hsk4-de1.json",
+          "title_vi": "Đề thi thử HSK 4 – Đề 1"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "name_vi": "HSK 5",
+      "vocab": "vocab/hsk5.json",
+      "characters": "writing/characters-hsk5.json",
+      "practice": "writing/practice-hsk5.json",
+      "exams": [
+        {
+          "id": "hsk5-de1",
+          "file": "exams/hsk5-de1.json",
+          "title_vi": "Đề thi thử HSK 5 – Đề 1"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "name_vi": "HSK 6",
+      "vocab": "vocab/hsk6.json",
+      "characters": "writing/characters-hsk6.json",
+      "practice": "writing/practice-hsk6.json",
+      "exams": [
+        {
+          "id": "hsk6-de1",
+          "file": "exams/hsk6-de1.json",
+          "title_vi": "Đề thi thử HSK 6 – Đề 1"
+        }
+      ]
+    },
+    {
+      "level": "7-9",
+      "name_vi": "HSK 7–9",
+      "vocab": "vocab/hsk7-9.json",
+      "characters": "writing/characters-hsk7-9.json",
+      "practice": null,
+      "exams": [
+        {
+          "id": "hsk7-9-de1",
+          "file": "exams/hsk7-9-de1.json",
+          "title_vi": "Đề thi thử HSK 7–9 – Đề 1"
+        }
+      ]
+    }
+  ],
+  "speaking": {
+    "topics": "speaking/topics.json",
+    "hskk": "speaking/hskk.json",
+    "shadowing": "speaking/shadowing.json"
+  }
+}

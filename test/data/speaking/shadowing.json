@@ -1,0 +1,13 @@
+{
+  "items": [
+    { "id": "sh-tts-01", "level": 1, "title": "Giới thiệu bản thân", "source": "tts", "youtube": null,
+      "segments": [
+        { "start": null, "end": null, "hanzi": "你好，我叫小月。", "pinyin": "nǐ hǎo, wǒ jiào Xiǎoyuè.", "vi": "Xin chào, tôi tên Tiểu Nguyệt.", "speaker": "女" },
+        { "start": null, "end": null, "hanzi": "我是越南人。", "pinyin": "wǒ shì Yuènán rén.", "vi": "Tôi là người Việt Nam.", "speaker": "女" },
+        { "start": null, "end": null, "hanzi": "认识你很高兴。", "pinyin": "rènshi nǐ hěn gāoxìng.", "vi": "Rất vui được quen bạn.", "speaker": "男" }
+      ] },
+    { "id": "sh-yt-01", "level": 2, "title": "Video chưa xác minh (test)", "source": "youtube",
+      "youtube": { "videoId": "aaaaaaaaaaa", "verified": false, "channel": "test", "url": "https://www.youtube.com/watch?v=aaaaaaaaaaa" },
+      "segments": [ { "start": 1.5, "end": 4.0, "hanzi": "大家好。", "pinyin": "dàjiā hǎo.", "vi": "Chào mọi người." } ] }
+  ]
+}

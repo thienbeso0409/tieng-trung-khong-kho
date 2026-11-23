@@ -1,0 +1,720 @@
+{
+  "id": "test-79",
+  "level": "7-9",
+  "test": true,
+  "title_vi": "Đề kiểm thử HSK 7–9 (xếp bậc)",
+  "standard": "HSK3.0",
+  "duration_minutes": 30,
+  "total_score": null,
+  "pass_score": null,
+  "show_pinyin": false,
+  "score_mode": "bands",
+  "speaking_paper": "hsk7-9-de1-speaking",
+  "repeat_default": 1,
+  "band_rules": {
+    "basis": "average_section_score",
+    "official": false,
+    "bands": [
+      {
+        "min": 0,
+        "label_vi": "Dưới HSK 7"
+      },
+      {
+        "min": 60,
+        "label_vi": "HSK 7"
+      },
+      {
+        "min": 75,
+        "label_vi": "HSK 8"
+      },
+      {
+        "min": 90,
+        "label_vi": "HSK 9"
+      }
+    ]
+  },
+  "rubrics": [
+    {
+      "id": "rb-short",
+      "max_score": 1,
+      "criteria": [
+        {
+          "key": "accuracy",
+          "name_vi": "Chính xác",
+          "weight": 1,
+          "description_vi": "Đúng ý."
+        }
+      ]
+    },
+    {
+      "id": "rb-chart",
+      "max_score": 30,
+      "criteria": [
+        {
+          "key": "content",
+          "name_vi": "Nội dung",
+          "weight": 0.4,
+          "description_vi": "Mô tả đúng số liệu, có phân tích."
+        },
+        {
+          "key": "organization",
+          "name_vi": "Bố cục",
+          "weight": 0.2,
+          "description_vi": "Mạch lạc."
+        },
+        {
+          "key": "vocab_grammar",
+          "name_vi": "Từ vựng & ngữ pháp",
+          "weight": 0.4,
+          "description_vi": "Phong phú, chính xác."
+        }
+      ]
+    },
+    {
+      "id": "rb-essay",
+      "max_score": 30,
+      "criteria": [
+        {
+          "key": "content",
+          "name_vi": "Nội dung",
+          "weight": 0.4,
+          "description_vi": "Lập luận."
+        },
+        {
+          "key": "organization",
+          "name_vi": "Bố cục",
+          "weight": 0.3,
+          "description_vi": "Mạch lạc."
+        },
+        {
+          "key": "vocab_grammar",
+          "name_vi": "Ngôn ngữ",
+          "weight": 0.3,
+          "description_vi": "Chính xác."
+        }
+      ]
+    },
+    {
+      "id": "rb-translate",
+      "max_score": 25,
+      "criteria": [
+        {
+          "key": "accuracy",
+          "name_vi": "Chính xác",
+          "weight": 0.6,
+          "description_vi": "Đúng nghĩa."
+        },
+        {
+          "key": "fluency",
+          "name_vi": "Trôi chảy",
+          "weight": 0.4,
+          "description_vi": "Tự nhiên."
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "listening",
+      "name_vi": "Nghe",
+      "name_zh": "听力",
+      "max_score": 100,
+      "parts": [
+        {
+          "code": "L1",
+          "type": "true_false_statement",
+          "expected_count": 1,
+          "instruction_vi": "Nghe và phán đoán đúng/sai.",
+          "groups": [
+            {
+              "id": "t79-L1-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "test-79-01",
+                  "no": 1,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "近年来，越来越多的年轻人选择在网上购物。"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ 年轻人越来越少在网上购物。"
+                  },
+                  "answer": false,
+                  "explanation_vi": "越来越多 → nhiều hơn, câu ★ sai."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "L2",
+          "type": "choose_option",
+          "expected_count": 2,
+          "instruction_vi": "Nghe đoạn dài, trả lời câu hỏi.",
+          "groups": [
+            {
+              "id": "t79-L2-g1",
+              "shared_options": null,
+              "passage": null,
+              "audio": {
+                "lines": [
+                  {
+                    "speaker": "男",
+                    "text": "各位听众，今天我们谈谈城市绿化。城市绿化不仅能美化环境，更重要的是能改善空气质量。"
+                  }
+                ],
+                "repeat": 1
+              },
+              "questions": [
+                {
+                  "id": "test-79-02",
+                  "no": 2,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "问：这段话主要谈什么？"
+                      }
+                    ],
+                    "repeat": 1
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "这段话主要谈什么？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "城市绿化"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "交通问题"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "网上购物"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "教育改革"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "Chủ đề: 城市绿化."
+                },
+                {
+                  "id": "test-79-03",
+                  "no": 3,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "城市绿化最重要的作用是什么？"
+                  },
+                  "max_chars": 10,
+                  "answer": "改善空气质量",
+                  "accepted_answers": [
+                    "提高空气质量"
+                  ],
+                  "keywords": [
+                    "空气"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "更重要的是能改善空气质量."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "name_vi": "Đọc",
+      "name_zh": "阅读",
+      "max_score": 100,
+      "parts": [
+        {
+          "code": "R1",
+          "type": "choose_option",
+          "expected_count": 1,
+          "instruction_vi": "Đọc bài và chọn đáp án.",
+          "groups": [
+            {
+              "id": "t79-R1-g1",
+              "shared_options": null,
+              "passage": {
+                "zh": "人工智能的发展给社会带来了巨大的变化。一方面，它提高了工作效率；另一方面，它也引发了人们对就业的担忧。"
+              },
+              "questions": [
+                {
+                  "id": "test-79-04",
+                  "no": 4,
+                  "type": "choose_option",
+                  "passage": null,
+                  "question": {
+                    "zh": "人们对人工智能有什么担忧？"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "效率太低"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "影响就业"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "价格太贵"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "不够安全"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "引发了人们对就业的担忧."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R1b",
+          "type": "cloze_option",
+          "expected_count": 2,
+          "instruction_vi": "Chọn từ thích hợp cho mỗi chỗ trống.",
+          "groups": [
+            {
+              "id": "t79-R1b-g1",
+              "shared_options": null,
+              "passage": {
+                "zh": "这家餐厅交通很（5），离地铁站只有五分钟。我下班后经常（6）去那儿吃饭。"
+              },
+              "questions": [
+                {
+                  "id": "test-79-05",
+                  "no": 5,
+                  "type": "cloze_option",
+                  "blank_no": 5,
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "方便"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "随便"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "顺便"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "轻便"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "交通方便 = giao thông thuận tiện."
+                },
+                {
+                  "id": "test-79-06",
+                  "no": 6,
+                  "type": "cloze_option",
+                  "blank_no": 6,
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "方便"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "随便"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "顺便"
+                      }
+                    },
+                    {
+                      "key": "D",
+                      "text": {
+                        "zh": "轻便"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "顺便 = tiện thể."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R2",
+          "type": "cloze_sentence",
+          "expected_count": 2,
+          "instruction_vi": "Chọn câu thích hợp điền vào chỗ trống.",
+          "groups": [
+            {
+              "id": "t79-R2-g1",
+              "passage": {
+                "zh": "读书是一种享受。（7）有人喜欢在安静的图书馆里读书，（8）"
+              },
+              "shared_options": [
+                {
+                  "key": "A",
+                  "text": {
+                    "zh": "也有人喜欢在咖啡馆里读书。"
+                  }
+                },
+                {
+                  "key": "B",
+                  "text": {
+                    "zh": "它能让人忘记烦恼。"
+                  }
+                },
+                {
+                  "key": "C",
+                  "text": {
+                    "zh": "今天下雨了。"
+                  }
+                }
+              ],
+              "questions": [
+                {
+                  "id": "test-79-07",
+                  "no": 7,
+                  "type": "cloze_sentence",
+                  "blank_no": 7,
+                  "answer": "B",
+                  "explanation_vi": "Giải thích vì sao là享受."
+                },
+                {
+                  "id": "test-79-08",
+                  "no": 8,
+                  "type": "cloze_sentence",
+                  "blank_no": 8,
+                  "answer": "A",
+                  "explanation_vi": "有人…也有人…."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R2b",
+          "type": "order_position",
+          "expected_count": 3,
+          "instruction_vi": "Sắp xếp các câu thành đoạn văn hợp lý.",
+          "groups": [
+            {
+              "id": "t79-R2b-g1",
+              "passage": {
+                "zh": "小王的一天"
+              },
+              "shared_options": [
+                {
+                  "key": "A",
+                  "text": {
+                    "zh": "下午他去公司开会。"
+                  }
+                },
+                {
+                  "key": "B",
+                  "text": {
+                    "zh": "小王每天早上六点起床。"
+                  }
+                },
+                {
+                  "key": "C",
+                  "text": {
+                    "zh": "晚上他回家做饭。"
+                  }
+                }
+              ],
+              "questions": [
+                {
+                  "id": "test-79-09",
+                  "no": 9,
+                  "type": "order_position",
+                  "position": 1,
+                  "answer": "B",
+                  "explanation_vi": "Mở đầu: buổi sáng."
+                },
+                {
+                  "id": "test-79-10",
+                  "no": 10,
+                  "type": "order_position",
+                  "position": 2,
+                  "answer": "A",
+                  "explanation_vi": "Buổi chiều."
+                },
+                {
+                  "id": "test-79-11",
+                  "no": 11,
+                  "type": "order_position",
+                  "position": 3,
+                  "answer": "C",
+                  "explanation_vi": "Buổi tối."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R3",
+          "type": "short_answer",
+          "expected_count": 1,
+          "instruction_vi": "Trả lời ngắn (≤ 10 chữ).",
+          "groups": [
+            {
+              "id": "t79-R3-g1",
+              "shared_options": null,
+              "passage": {
+                "zh": "熊猫主要生活在中国四川的山区，以竹子为主要食物。"
+              },
+              "questions": [
+                {
+                  "id": "test-79-12",
+                  "no": 12,
+                  "type": "short_answer",
+                  "question": {
+                    "zh": "熊猫主要吃什么？"
+                  },
+                  "max_chars": 10,
+                  "answer": "竹子",
+                  "keywords": [
+                    "竹子"
+                  ],
+                  "max_points": 1,
+                  "rubric_id": "rb-short",
+                  "explanation_vi": "以竹子为主要食物."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "name_vi": "Viết",
+      "name_zh": "书写",
+      "max_score": 100,
+      "parts": [
+        {
+          "code": "W1",
+          "type": "chart_description",
+          "expected_count": 1,
+          "instruction_vi": "Mô tả và phân tích biểu đồ.",
+          "groups": [
+            {
+              "id": "t79-W1-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "test-79-13",
+                  "no": 13,
+                  "type": "chart_description",
+                  "chart": {
+                    "kind": "bar",
+                    "title_zh": "2020—2024年某市电动汽车销量",
+                    "unit": "万辆",
+                    "labels": [
+                      "2020",
+                      "2021",
+                      "2022",
+                      "2023",
+                      "2024"
+                    ],
+                    "series": [
+                      {
+                        "name": "销量",
+                        "values": [
+                          3.2,
+                          4.8,
+                          7.1,
+                          9.6,
+                          12.3
+                        ]
+                      }
+                    ]
+                  },
+                  "prompt": {
+                    "zh": "请描述并分析上图，写一篇200字左右的短文。"
+                  },
+                  "prompt_vi": "Mô tả, phân tích biểu đồ (~200 chữ).",
+                  "min_chars": 200,
+                  "time_minutes": 15,
+                  "sample_answers": [
+                    "从图中可以看出，2020年到2024年，该市电动汽车销量持续增长……"
+                  ],
+                  "max_points": 30,
+                  "rubric_id": "rb-chart",
+                  "answer": null,
+                  "explanation_vi": "Nêu xu hướng tăng, số liệu đầu–cuối, nguyên nhân."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "W2",
+          "type": "write_essay",
+          "expected_count": 1,
+          "instruction_vi": "Viết bài nghị luận.",
+          "groups": [
+            {
+              "id": "t79-W2-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "test-79-14",
+                  "no": 14,
+                  "type": "write_essay",
+                  "genre": "argumentative",
+                  "prompt": {
+                    "zh": "有人认为科技让人更孤独，你怎么看？"
+                  },
+                  "prompt_vi": "Có người cho rằng công nghệ khiến con người cô đơn hơn. Bạn nghĩ sao?",
+                  "keywords": [],
+                  "image": null,
+                  "min_chars": 600,
+                  "max_chars": null,
+                  "time_minutes": 40,
+                  "sample_answers": [
+                    "科技是一把双刃剑……"
+                  ],
+                  "outline_vi": [
+                    "Mở: nêu quan điểm",
+                    "Thân: 2–3 luận điểm",
+                    "Kết: tổng kết"
+                  ],
+                  "max_points": 30,
+                  "rubric_id": "rb-essay",
+                  "answer": null,
+                  "explanation_vi": "Nêu rõ quan điểm, lập luận có ví dụ."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "translation",
+      "name_vi": "Dịch",
+      "name_zh": "翻译",
+      "max_score": 100,
+      "parts": [
+        {
+          "code": "T1",
+          "type": "translate_written",
+          "expected_count": 1,
+          "instruction_vi": "Dịch đoạn văn sang tiếng Trung.",
+          "groups": [
+            {
+              "id": "t79-T1-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "test-79-15",
+                  "no": 15,
+                  "type": "translate_written",
+                  "source": {
+                    "lang": "en",
+                    "text": "Reading helps us understand the world and ourselves."
+                  },
+                  "source_vi": "Đọc sách giúp chúng ta hiểu thế giới và chính mình.",
+                  "reference_zh": "阅读帮助我们了解世界，也了解自己。",
+                  "time_minutes": 20,
+                  "max_points": 25,
+                  "rubric_id": "rb-translate",
+                  "answer": null,
+                  "explanation_vi": "帮助…了解…."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "T2",
+          "type": "translate_oral",
+          "expected_count": 1,
+          "instruction_vi": "Dịch nói (视译): đọc đoạn văn rồi nói bản dịch tiếng Trung.",
+          "groups": [
+            {
+              "id": "t79-T2-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "test-79-16",
+                  "no": 16,
+                  "type": "translate_oral",
+                  "source": {
+                    "lang": "en",
+                    "text": "Protecting the environment is everyone's responsibility."
+                  },
+                  "source_vi": "Bảo vệ môi trường là trách nhiệm của mọi người.",
+                  "reference_zh": "保护环境是每个人的责任。",
+                  "prep_seconds": 60,
+                  "answer_seconds": 120,
+                  "max_points": 25,
+                  "rubric_id": "rb-translate",
+                  "answer": null,
+                  "explanation_vi": "保护环境 + 是 + 每个人的责任."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

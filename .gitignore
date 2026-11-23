@@ -1,0 +1,4 @@
+node_modules/
+*.whl
+test/screenshots/
+__pycache__/

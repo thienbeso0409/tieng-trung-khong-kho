@@ -1,0 +1,2118 @@
+{
+  "id": "hsk2-de1",
+  "level": 2,
+  "title_vi": "Đề thi thử HSK 2 – Đề 1",
+  "standard": "HSK3.0",
+  "duration_minutes": 60,
+  "total_score": 300,
+  "pass_score": 180,
+  "show_pinyin": true,
+  "score_mode": "pass",
+  "speaking_paper": null,
+  "repeat_default": 2,
+  "rubrics": [],
+  "notes": "Đề tự soạn theo cấu trúc HSK 3.0 cấp 2 (Phụ lục A.2): nghe 25, đọc 25, viết 10. Từ vựng trong phạm vi HSK 1–2.",
+  "sections": [
+    {
+      "id": "listening",
+      "name_vi": "Nghe",
+      "name_zh": "听力",
+      "max_score": 100,
+      "duration_minutes": 20,
+      "parts": [
+        {
+          "code": "L1",
+          "type": "choose_image",
+          "expected_count": 5,
+          "instruction_vi": "Nghe câu nói, chọn hình đúng (A, B hoặc C).",
+          "instruction_zh": "第一部分：听录音，选择正确的图片。",
+          "groups": [
+            {
+              "id": "hsk2-de1-L1-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk2-de1-01",
+                  "no": 1,
+                  "type": "choose_image",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "我每天骑自行车去公司。",
+                        "pinyin": "wǒ měitiān qí zìxíngchē qù gōngsī."
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "image": {
+                        "emoji": "🚌",
+                        "alt_vi": "Xe buýt"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "image": {
+                        "emoji": "🚗",
+                        "alt_vi": "Ô tô con"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "image": {
+                        "emoji": "🚲",
+                        "alt_vi": "Xe đạp"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "骑自行车 = đi xe đạp → hình C."
+                },
+                {
+                  "id": "hsk2-de1-02",
+                  "no": 2,
+                  "type": "choose_image",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "妈妈在做饭呢。",
+                        "pinyin": "māma zài zuòfàn ne."
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "image": {
+                        "emoji": "👩‍🍳",
+                        "alt_vi": "Người mẹ đang nấu ăn"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "image": {
+                        "emoji": "👩🧺",
+                        "alt_vi": "Người mẹ đang giặt quần áo"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "image": {
+                        "emoji": "👩📺",
+                        "alt_vi": "Người mẹ đang xem tivi"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "做饭 = nấu cơm → hình A."
+                },
+                {
+                  "id": "hsk2-de1-03",
+                  "no": 3,
+                  "type": "choose_image",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "外边下雪了，你多穿点儿衣服。",
+                        "pinyin": "wàibian xià xuě le, nǐ duō chuān diǎnr yīfu."
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "image": {
+                        "emoji": "☀️",
+                        "alt_vi": "Trời nắng"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "image": {
+                        "emoji": "❄️⛄",
+                        "alt_vi": "Tuyết rơi, có người tuyết"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "image": {
+                        "emoji": "🌧️",
+                        "alt_vi": "Trời mưa"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "下雪 = tuyết rơi → hình B. Đừng nhầm với 下雨 (mưa)."
+                },
+                {
+                  "id": "hsk2-de1-04",
+                  "no": 4,
+                  "type": "choose_image",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "我的眼睛有点儿疼。",
+                        "pinyin": "wǒ de yǎnjing yǒudiǎnr téng."
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "image": {
+                        "emoji": "🦷",
+                        "alt_vi": "Răng bị đau"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "image": {
+                        "emoji": "🦵",
+                        "alt_vi": "Chân bị đau"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "image": {
+                        "emoji": "👁️",
+                        "alt_vi": "Mắt bị đau"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "眼睛 = mắt; 疼 = đau → hình C."
+                },
+                {
+                  "id": "hsk2-de1-05",
+                  "no": 5,
+                  "type": "choose_image",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "天气太热了，我们一起去游泳吧！",
+                        "pinyin": "tiānqì tài rè le, wǒmen yìqǐ qù yóuyǒng ba!"
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "image": {
+                        "emoji": "🏊",
+                        "alt_vi": "Người đang bơi"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "image": {
+                        "emoji": "⚽",
+                        "alt_vi": "Người đang đá bóng"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "image": {
+                        "emoji": "🏀",
+                        "alt_vi": "Người đang chơi bóng rổ"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "游泳 = bơi → hình A."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "L2",
+          "type": "match_image",
+          "expected_count": 10,
+          "instruction_vi": "Nghe hội thoại, chọn hình phù hợp. Mỗi hình dùng một lần.",
+          "instruction_zh": "第二部分：听对话，选择对应的图片。",
+          "groups": [
+            {
+              "id": "hsk2-de1-L2-g1",
+              "shared_options": [
+                {
+                  "key": "A",
+                  "image": {
+                    "emoji": "🧑‍💻",
+                    "alt_vi": "Một người đang làm việc với máy tính"
+                  }
+                },
+                {
+                  "key": "B",
+                  "image": {
+                    "emoji": "🎁🎂",
+                    "alt_vi": "Món quà và bánh sinh nhật"
+                  }
+                },
+                {
+                  "key": "C",
+                  "image": {
+                    "emoji": "🏃‍♂️🌳",
+                    "alt_vi": "Người đang chạy bộ trong công viên"
+                  }
+                },
+                {
+                  "key": "D",
+                  "image": {
+                    "emoji": "👧📖",
+                    "alt_vi": "Cô gái đang đọc sách trong thư viện yên tĩnh"
+                  }
+                },
+                {
+                  "key": "E",
+                  "image": {
+                    "emoji": "🎤",
+                    "alt_vi": "Một người đang hát"
+                  }
+                },
+                {
+                  "key": "F",
+                  "image": {
+                    "emoji": "👕🛍️",
+                    "alt_vi": "Hai người đang mua quần áo"
+                  }
+                }
+              ],
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk2-de1-L2-ex",
+                  "no": 0,
+                  "is_example": true,
+                  "type": "match_image",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "这件衣服怎么样？",
+                        "pinyin": "zhè jiàn yīfu zěnmeyàng?"
+                      },
+                      {
+                        "speaker": "男",
+                        "text": "很好看，买吧。",
+                        "pinyin": "hěn hǎokàn, mǎi ba."
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "stem": null,
+                  "answer": "F",
+                  "explanation_vi": "Ví dụ: nói về mua áo (衣服, 买) → hình F."
+                },
+                {
+                  "id": "hsk2-de1-06",
+                  "no": 6,
+                  "type": "match_image",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "你怎么还在用电脑？",
+                        "pinyin": "nǐ zěnme hái zài yòng diànnǎo?"
+                      },
+                      {
+                        "speaker": "女",
+                        "text": "今天工作太多了，还没做完。",
+                        "pinyin": "jīntiān gōngzuò tài duō le, hái méi zuò wán."
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "stem": null,
+                  "answer": "A",
+                  "explanation_vi": "Đang dùng máy tính (用电脑) vì nhiều việc → hình A."
+                },
+                {
+                  "id": "hsk2-de1-07",
+                  "no": 7,
+                  "type": "match_image",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "生日快乐！这是送你的礼物。",
+                        "pinyin": "shēngrì kuàilè! zhè shì sòng nǐ de lǐwù."
+                      },
+                      {
+                        "speaker": "男",
+                        "text": "谢谢，真漂亮！",
+                        "pinyin": "xièxie, zhēn piàoliang!"
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "stem": null,
+                  "answer": "B",
+                  "explanation_vi": "生日快乐 + 礼物 = sinh nhật, quà → hình B."
+                },
+                {
+                  "id": "hsk2-de1-08",
+                  "no": 8,
+                  "type": "match_image",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "你早上常常跑步吗？",
+                        "pinyin": "nǐ zǎoshang chángcháng pǎobù ma?"
+                      },
+                      {
+                        "speaker": "女",
+                        "text": "是啊，我常常在公园跑步。",
+                        "pinyin": "shì a, wǒ chángcháng zài gōngyuán pǎobù."
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "stem": null,
+                  "answer": "C",
+                  "explanation_vi": "在公园跑步 = chạy bộ ở công viên → hình C."
+                },
+                {
+                  "id": "hsk2-de1-09",
+                  "no": 9,
+                  "type": "match_image",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "你唱得真好听！",
+                        "pinyin": "nǐ chàng de zhēn hǎotīng!"
+                      },
+                      {
+                        "speaker": "男",
+                        "text": "谢谢，我从小就喜欢唱歌。",
+                        "pinyin": "xièxie, wǒ cóngxiǎo jiù xǐhuan chànggē."
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "stem": null,
+                  "answer": "E",
+                  "explanation_vi": "唱歌 = hát → hình E."
+                },
+                {
+                  "id": "hsk2-de1-10",
+                  "no": 10,
+                  "type": "match_image",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "图书馆里人多吗？",
+                        "pinyin": "túshūguǎn lǐ rén duō ma?"
+                      },
+                      {
+                        "speaker": "女",
+                        "text": "不多，很安静，我在这儿看书呢。",
+                        "pinyin": "bù duō, hěn ānjìng, wǒ zài zhèr kàn shū ne."
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "stem": null,
+                  "answer": "D",
+                  "explanation_vi": "Thư viện yên tĩnh (安静), đang đọc sách → hình D."
+                }
+              ]
+            },
+            {
+              "id": "hsk2-de1-L2-g2",
+              "shared_options": [
+                {
+                  "key": "A",
+                  "image": {
+                    "emoji": "🚕✈️",
+                    "alt_vi": "Taxi chở khách ra sân bay"
+                  }
+                },
+                {
+                  "key": "B",
+                  "image": {
+                    "emoji": "🤒💊",
+                    "alt_vi": "Người bị ốm nằm trên giường, bên cạnh có thuốc"
+                  }
+                },
+                {
+                  "key": "C",
+                  "image": {
+                    "emoji": "🐕🚶",
+                    "alt_vi": "Người đang dắt chó đi dạo"
+                  }
+                },
+                {
+                  "key": "D",
+                  "image": {
+                    "emoji": "🍜🥢",
+                    "alt_vi": "Người đang ăn bằng đũa"
+                  }
+                },
+                {
+                  "key": "E",
+                  "image": {
+                    "emoji": "📱💬",
+                    "alt_vi": "Điện thoại đang nhắn tin"
+                  }
+                }
+              ],
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk2-de1-11",
+                  "no": 11,
+                  "type": "match_image",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "你生病了？吃药了吗？",
+                        "pinyin": "nǐ shēngbìng le? chīyào le ma?"
+                      },
+                      {
+                        "speaker": "男",
+                        "text": "吃了，我想睡一会儿。",
+                        "pinyin": "chī le, wǒ xiǎng shuì yíhuìr."
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "stem": null,
+                  "answer": "B",
+                  "explanation_vi": "生病 + 吃药 = bị ốm, uống thuốc → hình B."
+                },
+                {
+                  "id": "hsk2-de1-12",
+                  "no": 12,
+                  "type": "match_image",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "你会用筷子吗？",
+                        "pinyin": "nǐ huì yòng kuàizi ma?"
+                      },
+                      {
+                        "speaker": "女",
+                        "text": "会一点儿，我正在学。",
+                        "pinyin": "huì yìdiǎnr, wǒ zhèngzài xué."
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "stem": null,
+                  "answer": "D",
+                  "explanation_vi": "用筷子 = dùng đũa → hình D."
+                },
+                {
+                  "id": "hsk2-de1-13",
+                  "no": 13,
+                  "type": "match_image",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "我们打车去机场吧。",
+                        "pinyin": "wǒmen dǎchē qù jīchǎng ba."
+                      },
+                      {
+                        "speaker": "男",
+                        "text": "好，路上车不多，四十分钟就能到。",
+                        "pinyin": "hǎo, lù shàng chē bù duō, sì shífēn zhōng jiù néng dào."
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "stem": null,
+                  "answer": "A",
+                  "explanation_vi": "打车去机场 = bắt taxi ra sân bay → hình A."
+                },
+                {
+                  "id": "hsk2-de1-14",
+                  "no": 14,
+                  "type": "match_image",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "你的狗真可爱！它几岁了？",
+                        "pinyin": "nǐ de gǒu zhēn kě'ài! tā jǐ suì le?"
+                      },
+                      {
+                        "speaker": "女",
+                        "text": "两岁了，我每天带它出去走走。",
+                        "pinyin": "liǎng suì le, wǒ měitiān dài tā chūqù zǒu zǒu."
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "stem": null,
+                  "answer": "C",
+                  "explanation_vi": "狗 + 带它出去走走 = dắt chó đi dạo → hình C."
+                },
+                {
+                  "id": "hsk2-de1-15",
+                  "no": 15,
+                  "type": "match_image",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "喂，你到了吗？",
+                        "pinyin": "wèi, nǐ dào le ma?"
+                      },
+                      {
+                        "speaker": "男",
+                        "text": "快到了，我一会儿给你发短信。",
+                        "pinyin": "kuài dào le, wǒ yíhuìr gěi nǐ fā duǎnxìn."
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "stem": null,
+                  "answer": "E",
+                  "explanation_vi": "发短信 = gửi tin nhắn → hình E."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "L3",
+          "type": "choose_option",
+          "expected_count": 10,
+          "instruction_vi": "Nghe hội thoại và câu hỏi, chọn đáp án đúng.",
+          "instruction_zh": "第三部分：听对话，回答问题。",
+          "groups": [
+            {
+              "id": "hsk2-de1-L3-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk2-de1-16",
+                  "no": 16,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "你今天怎么来得这么晚？",
+                        "pinyin": "nǐ jīntiān zěnme lái de zhème wǎn?"
+                      },
+                      {
+                        "speaker": "男",
+                        "text": "路上车太多了，公交车走得很慢。",
+                        "pinyin": "lù shàng chē tài duō le, gōngjiāochē zǒu de hěn màn."
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：男的为什么来晚了？",
+                        "pinyin": "wèn: nán de wèishénme lái wǎn le?"
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "男的为什么来晚了？",
+                    "pinyin": "nán de wèishénme lái wǎn le?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "起床晚了",
+                        "pinyin": "qǐ chuáng wǎn le"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "路上车多",
+                        "pinyin": "lù shàng chē duō"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "生病了",
+                        "pinyin": "shēngbìng le"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "路上车太多了 → đường đông xe (B)."
+                },
+                {
+                  "id": "hsk2-de1-17",
+                  "no": 17,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "这件衣服多少钱？",
+                        "pinyin": "zhè jiàn yīfu duōshao qián?"
+                      },
+                      {
+                        "speaker": "女",
+                        "text": "三百块，现在便宜一百。",
+                        "pinyin": "sān bǎi kuài, xiànzài piányi yìbǎi."
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：这件衣服现在多少钱？",
+                        "pinyin": "wèn: zhè jiàn yīfu xiànzài duōshao qián?"
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "这件衣服现在多少钱？",
+                    "pinyin": "zhè jiàn yīfu xiànzài duōshao qián?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "一百块",
+                        "pinyin": "yìbǎi kuài"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "三百块",
+                        "pinyin": "sān bǎi kuài"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "两百块",
+                        "pinyin": "liǎng bǎi kuài"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "Giá gốc 300, giảm (便宜) 100 → còn 200 tệ (C). Bẫy: 300 là giá cũ."
+                },
+                {
+                  "id": "hsk2-de1-18",
+                  "no": 18,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "你喜欢什么运动？",
+                        "pinyin": "nǐ xǐhuan shénme yùndòng?"
+                      },
+                      {
+                        "speaker": "男",
+                        "text": "我喜欢打篮球，也喜欢游泳。",
+                        "pinyin": "wǒ xǐhuan dǎ lánqiú, yě xǐhuan yóuyǒng."
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：男的喜欢什么？",
+                        "pinyin": "wèn: nán de xǐhuan shénme?"
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "男的喜欢什么？",
+                    "pinyin": "nán de xǐhuan shénme?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "打篮球",
+                        "pinyin": "dǎ lánqiú"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "踢足球",
+                        "pinyin": "tīzúqiú"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "跑步",
+                        "pinyin": "pǎobù"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "我喜欢打篮球 → A. Bóng đá và chạy bộ không được nhắc tới."
+                },
+                {
+                  "id": "hsk2-de1-19",
+                  "no": 19,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "明天的考试你准备好了吗？",
+                        "pinyin": "míngtiān de kǎoshì nǐ zhǔnbèi hǎo le ma?"
+                      },
+                      {
+                        "speaker": "女",
+                        "text": "还没有，今天晚上我要去图书馆复习。",
+                        "pinyin": "hái méiyǒu, jīntiān wǎnshang wǒ yào qù túshūguǎn fùxí."
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：女的今天晚上做什么？",
+                        "pinyin": "wèn: nǚ de jīntiān wǎnshang zuò shénme?"
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "女的今天晚上做什么？",
+                    "pinyin": "nǚ de jīntiān wǎnshang zuò shénme?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "去图书馆",
+                        "pinyin": "qù túshūguǎn"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "考试",
+                        "pinyin": "kǎoshì"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "看电影",
+                        "pinyin": "kàn diànyǐng"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "今天晚上我要去图书馆复习 → A. Thi là ngày mai."
+                },
+                {
+                  "id": "hsk2-de1-20",
+                  "no": 20,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "你哥哥是做什么工作的？",
+                        "pinyin": "nǐ gēge shì zuò shénme gōngzuò de?"
+                      },
+                      {
+                        "speaker": "男",
+                        "text": "他是医生，在北京的一家医院工作。",
+                        "pinyin": "tā shì yīshēng, zài Běijīng de yì jiā yīyuàn gōngzuò."
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：男的哥哥在哪儿工作？",
+                        "pinyin": "wèn: nán de gēge zài nǎr gōngzuò?"
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "男的哥哥在哪儿工作？",
+                    "pinyin": "nán de gēge zài nǎr gōngzuò?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "学校",
+                        "pinyin": "xuéxiào"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "医院",
+                        "pinyin": "yīyuàn"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "公司",
+                        "pinyin": "gōngsī"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "在……医院工作 → bệnh viện (B)."
+                },
+                {
+                  "id": "hsk2-de1-21",
+                  "no": 21,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "我们几点出发？",
+                        "pinyin": "wǒmen jǐ diǎn chūfā?"
+                      },
+                      {
+                        "speaker": "女",
+                        "text": "火车九点半开，我们八点出发吧。",
+                        "pinyin": "huǒchē jiǔ diǎn bàn kāi, wǒmen bā diǎn chūfā ba."
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：火车几点开？",
+                        "pinyin": "wèn: huǒchē jǐ diǎn kāi?"
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "火车几点开？",
+                    "pinyin": "huǒchē jǐ diǎn kāi?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "八点",
+                        "pinyin": "bā diǎn"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "八点半",
+                        "pinyin": "bā diǎn bàn"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "九点半",
+                        "pinyin": "jiǔ diǎn bàn"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "Tàu chạy (开) lúc 九点半; 八点 là giờ xuất phát → C."
+                },
+                {
+                  "id": "hsk2-de1-22",
+                  "no": 22,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "你看到我的手机了吗？",
+                        "pinyin": "nǐ kàndào wǒ de shǒujī le ma?"
+                      },
+                      {
+                        "speaker": "男",
+                        "text": "在桌子上，你的包旁边。",
+                        "pinyin": "zài zhuōzi shàng, nǐ de bāo pángbiān."
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：手机在哪儿？",
+                        "pinyin": "wèn: shǒujī zài nǎr?"
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "手机在哪儿？",
+                    "pinyin": "shǒujī zài nǎr?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "桌子上",
+                        "pinyin": "zhuōzi shàng"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "包里",
+                        "pinyin": "bāo lǐ"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "床上",
+                        "pinyin": "chuáng shàng"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "在桌子上 = trên bàn (A). Bẫy: 包旁边 là bên cạnh túi, không phải trong túi."
+                },
+                {
+                  "id": "hsk2-de1-23",
+                  "no": 23,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "这个房间怎么样？",
+                        "pinyin": "zhège fángjiān zěnmeyàng?"
+                      },
+                      {
+                        "speaker": "女",
+                        "text": "很大，也很干净，就是离公司有点儿远。",
+                        "pinyin": "hěn dà, yě hěn gānjìng, jiùshì lí gōngsī yǒudiǎnr yuǎn."
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：女的觉得房间怎么样？",
+                        "pinyin": "wèn: nǚ de juéde fángjiān zěnmeyàng?"
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "女的觉得房间怎么样？",
+                    "pinyin": "nǚ de juéde fángjiān zěnmeyàng?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "太小",
+                        "pinyin": "tài xiǎo"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "离公司远",
+                        "pinyin": "lí gōngsī yuǎn"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "不干净",
+                        "pinyin": "bù gānjìng"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "就是离公司有点儿远 = chỉ có điều hơi xa công ty (B)."
+                },
+                {
+                  "id": "hsk2-de1-24",
+                  "no": 24,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "外边天气怎么样？",
+                        "pinyin": "wàibian tiānqì zěnmeyàng?"
+                      },
+                      {
+                        "speaker": "男",
+                        "text": "阴天，好像要下雨，你别出去了。",
+                        "pinyin": "yīntiān, hǎoxiàng yào xiàyǔ, nǐ bié chūqù le."
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：现在天气怎么样？",
+                        "pinyin": "wèn: xiànzài tiānqì zěnmeyàng?"
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "现在天气怎么样？",
+                    "pinyin": "xiànzài tiānqì zěnmeyàng?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "阴天",
+                        "pinyin": "yīntiān"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "下雪",
+                        "pinyin": "xià xuě"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "晴天",
+                        "pinyin": "qíngtiān"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "阴天 = trời âm u (A). 要下雨 = sắp mưa, chưa mưa."
+                },
+                {
+                  "id": "hsk2-de1-25",
+                  "no": 25,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "你妹妹多大了？",
+                        "pinyin": "nǐ mèimei duō dà le?"
+                      },
+                      {
+                        "speaker": "女",
+                        "text": "她比我小三岁，今年十八岁。",
+                        "pinyin": "tā bǐ wǒ xiǎo sān suì, jīnnián shí bā suì."
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：女的今年多大？",
+                        "pinyin": "wèn: nǚ de jīnnián duō dà?"
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "女的今年多大？",
+                    "pinyin": "nǚ de jīnnián duō dà?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "十五岁",
+                        "pinyin": "shí wǔ suì"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "十八岁",
+                        "pinyin": "shí bā suì"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "二十一岁",
+                        "pinyin": "èr shíyī suì"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "Em gái 18 tuổi, nhỏ hơn chị 3 tuổi → chị 21 tuổi (C)."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "name_vi": "Đọc",
+      "name_zh": "阅读",
+      "max_score": 100,
+      "duration_minutes": 25,
+      "parts": [
+        {
+          "code": "R1",
+          "type": "match_image",
+          "expected_count": 5,
+          "instruction_vi": "Đọc câu, chọn hình phù hợp (A–F).",
+          "instruction_zh": "第一部分：选择与句子对应的图片。",
+          "groups": [
+            {
+              "id": "hsk2-de1-R1-g1",
+              "shared_options": [
+                {
+                  "key": "A",
+                  "image": {
+                    "emoji": "🚗🚫",
+                    "alt_vi": "Biển cấm đỗ xe, cạnh có ô tô"
+                  }
+                },
+                {
+                  "key": "B",
+                  "image": {
+                    "emoji": "🎁",
+                    "alt_vi": "Một hộp quà"
+                  }
+                },
+                {
+                  "key": "C",
+                  "image": {
+                    "emoji": "🧒🎒",
+                    "alt_vi": "Cậu bé đeo cặp đi học"
+                  }
+                },
+                {
+                  "key": "D",
+                  "image": {
+                    "emoji": "🪑😴",
+                    "alt_vi": "Người đàn ông ngồi trên ghế ngủ gật"
+                  }
+                },
+                {
+                  "key": "E",
+                  "image": {
+                    "emoji": "🥚🥚",
+                    "alt_vi": "Hai quả trứng gà"
+                  }
+                },
+                {
+                  "key": "F",
+                  "image": {
+                    "emoji": "⚽🧒🧒",
+                    "alt_vi": "Mấy bạn nhỏ đang đá bóng"
+                  }
+                }
+              ],
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk2-de1-R1-ex",
+                  "no": 0,
+                  "is_example": true,
+                  "type": "match_image",
+                  "stem": {
+                    "zh": "他们在踢足球。",
+                    "pinyin": "tāmen zài tīzúqiú."
+                  },
+                  "answer": "F",
+                  "explanation_vi": "Ví dụ: 踢足球 = đá bóng → hình F."
+                },
+                {
+                  "id": "hsk2-de1-26",
+                  "no": 26,
+                  "type": "match_image",
+                  "stem": {
+                    "zh": "早上七点，孩子背着书包去上学。",
+                    "pinyin": "zǎoshang qī diǎn, háizi bèizhe shūbāo qù shàngxué."
+                  },
+                  "answer": "C",
+                  "explanation_vi": "背着书包去上学 = đeo cặp đi học → hình C."
+                },
+                {
+                  "id": "hsk2-de1-27",
+                  "no": 27,
+                  "type": "match_image",
+                  "stem": {
+                    "zh": "我早饭一般吃两个鸡蛋。",
+                    "pinyin": "wǒ zǎofàn yìbān chī liǎng ge jīdàn."
+                  },
+                  "answer": "E",
+                  "explanation_vi": "两个鸡蛋 = hai quả trứng → hình E."
+                },
+                {
+                  "id": "hsk2-de1-28",
+                  "no": 28,
+                  "type": "match_image",
+                  "stem": {
+                    "zh": "对不起，这里不能停车。",
+                    "pinyin": "duìbuqǐ, zhèlǐ bù néng tíngchē."
+                  },
+                  "answer": "A",
+                  "explanation_vi": "不能停车 = không được đỗ xe → hình A."
+                },
+                {
+                  "id": "hsk2-de1-29",
+                  "no": 29,
+                  "type": "match_image",
+                  "stem": {
+                    "zh": "这是朋友送给我的生日礼物。",
+                    "pinyin": "zhè shì péngyou sòng gěi wǒ de shēngrì lǐwù."
+                  },
+                  "answer": "B",
+                  "explanation_vi": "礼物 = quà → hình B."
+                },
+                {
+                  "id": "hsk2-de1-30",
+                  "no": 30,
+                  "type": "match_image",
+                  "stem": {
+                    "zh": "他太累了，坐在椅子上睡着了。",
+                    "pinyin": "tā tài lèi le, zuò zài yǐzi shàng shuìzháo le."
+                  },
+                  "answer": "D",
+                  "explanation_vi": "坐在椅子上睡着了 = ngồi trên ghế ngủ thiếp đi → hình D."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R2",
+          "type": "fill_blank_wordbank",
+          "expected_count": 5,
+          "instruction_vi": "Chọn từ thích hợp điền vào chỗ trống (A–F).",
+          "instruction_zh": "第二部分：选词填空。",
+          "groups": [
+            {
+              "id": "hsk2-de1-R2-g1",
+              "shared_options": [
+                {
+                  "key": "A",
+                  "text": {
+                    "zh": "告诉",
+                    "pinyin": "gàosu"
+                  }
+                },
+                {
+                  "key": "B",
+                  "text": {
+                    "zh": "便宜",
+                    "pinyin": "piányi"
+                  }
+                },
+                {
+                  "key": "C",
+                  "text": {
+                    "zh": "正在",
+                    "pinyin": "zhèngzài"
+                  }
+                },
+                {
+                  "key": "D",
+                  "text": {
+                    "zh": "离",
+                    "pinyin": "lí"
+                  }
+                },
+                {
+                  "key": "E",
+                  "text": {
+                    "zh": "题",
+                    "pinyin": "tí"
+                  }
+                },
+                {
+                  "key": "F",
+                  "text": {
+                    "zh": "准备",
+                    "pinyin": "zhǔnbèi"
+                  }
+                }
+              ],
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk2-de1-R2-ex",
+                  "no": 0,
+                  "is_example": true,
+                  "type": "fill_blank_wordbank",
+                  "stem": {
+                    "zh": "这件衣服太贵了，有（ ）一点儿的吗？",
+                    "pinyin": "zhè jiàn yīfu tài guì le, yǒu ( ) yìdiǎnr de ma?"
+                  },
+                  "answer": "B",
+                  "explanation_vi": "Ví dụ: đắt quá → hỏi cái rẻ hơn: 便宜 (B)."
+                },
+                {
+                  "id": "hsk2-de1-31",
+                  "no": 31,
+                  "type": "fill_blank_wordbank",
+                  "stem": {
+                    "zh": "请你（ ）我你的手机号。",
+                    "pinyin": "qǐng nǐ ( ) wǒ nǐ de shǒujīhào."
+                  },
+                  "answer": "A",
+                  "explanation_vi": "告诉 + người + việc: cho ai biết điều gì → 告诉 (A)."
+                },
+                {
+                  "id": "hsk2-de1-32",
+                  "no": 32,
+                  "type": "fill_blank_wordbank",
+                  "stem": {
+                    "zh": "我（ ）吃饭，等一下给你打电话。",
+                    "pinyin": "wǒ ( ) chīfàn, děng yíxià gěi nǐ dǎ diànhuà."
+                  },
+                  "answer": "C",
+                  "explanation_vi": "正在 + động từ = đang làm gì → 正在吃饭 (C)."
+                },
+                {
+                  "id": "hsk2-de1-33",
+                  "no": 33,
+                  "type": "fill_blank_wordbank",
+                  "stem": {
+                    "zh": "我家（ ）学校很近，走路十分钟。",
+                    "pinyin": "wǒ jiā ( ) xuéxiào hěn jìn, zǒulù shífēn zhōng."
+                  },
+                  "answer": "D",
+                  "explanation_vi": "A 离 B 很近 = A cách B rất gần → 离 (D)."
+                },
+                {
+                  "id": "hsk2-de1-34",
+                  "no": 34,
+                  "type": "fill_blank_wordbank",
+                  "stem": {
+                    "zh": "这道（ ）太难了，我不会做。",
+                    "pinyin": "zhè dào ( ) tài nán le, wǒ bú huì zuò."
+                  },
+                  "answer": "E",
+                  "explanation_vi": "道 là lượng từ của 题 (câu hỏi, bài tập) → 题 (E)."
+                },
+                {
+                  "id": "hsk2-de1-35",
+                  "no": 35,
+                  "type": "fill_blank_wordbank",
+                  "stem": {
+                    "zh": "明天考试，你（ ）好了吗？",
+                    "pinyin": "míngtiān kǎoshì, nǐ ( ) hǎo le ma?"
+                  },
+                  "answer": "F",
+                  "explanation_vi": "准备好 = chuẩn bị xong → 准备 (F)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R3",
+          "type": "match_sentence",
+          "expected_count": 10,
+          "instruction_vi": "Chọn câu đáp lại phù hợp. Mỗi câu dùng một lần.",
+          "instruction_zh": "第三部分：选择正确的回答。",
+          "groups": [
+            {
+              "id": "hsk2-de1-R3-g1",
+              "shared_options": [
+                {
+                  "key": "A",
+                  "text": {
+                    "zh": "没关系，我也刚到。",
+                    "pinyin": "méi guānxi, wǒ yě gāng dào."
+                  }
+                },
+                {
+                  "key": "B",
+                  "text": {
+                    "zh": "好的，我们下午三点见。",
+                    "pinyin": "hǎo de, wǒmen xiàwǔ sān diǎn jiàn."
+                  }
+                },
+                {
+                  "key": "C",
+                  "text": {
+                    "zh": "我是坐地铁来的。",
+                    "pinyin": "wǒ shì zuò dìtiě lái de."
+                  }
+                },
+                {
+                  "key": "D",
+                  "text": {
+                    "zh": "对，她是我们班的新同学。",
+                    "pinyin": "duì, tā shì wǒmen bān de xīn tóngxué."
+                  }
+                },
+                {
+                  "key": "E",
+                  "text": {
+                    "zh": "我不太舒服，想休息一下。",
+                    "pinyin": "wǒ bú tài shūfu, xiǎng xiūxi yíxià."
+                  }
+                },
+                {
+                  "key": "F",
+                  "text": {
+                    "zh": "不用谢，这是我应该做的。",
+                    "pinyin": "bú yòng xiè, zhè shì wǒ yīnggāi zuò de."
+                  }
+                }
+              ],
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk2-de1-R3-ex",
+                  "no": 0,
+                  "is_example": true,
+                  "type": "match_sentence",
+                  "stem": {
+                    "zh": "谢谢你帮助我！",
+                    "pinyin": "xièxie nǐ bāngzhù wǒ!"
+                  },
+                  "answer": "F",
+                  "explanation_vi": "Ví dụ: đáp lời cảm ơn → 不用谢 (F)."
+                },
+                {
+                  "id": "hsk2-de1-36",
+                  "no": 36,
+                  "type": "match_sentence",
+                  "stem": {
+                    "zh": "对不起，我来晚了。",
+                    "pinyin": "duìbuqǐ, wǒ lái wǎn le."
+                  },
+                  "answer": "A",
+                  "explanation_vi": "Đáp lời xin lỗi → 没关系，我也刚到 (A)."
+                },
+                {
+                  "id": "hsk2-de1-37",
+                  "no": 37,
+                  "type": "match_sentence",
+                  "stem": {
+                    "zh": "你今天怎么不去打球？",
+                    "pinyin": "nǐ jīntiān zěnme bú qù dǎ qiú?"
+                  },
+                  "answer": "E",
+                  "explanation_vi": "Hỏi lý do không đi chơi bóng → vì không khỏe (E)."
+                },
+                {
+                  "id": "hsk2-de1-38",
+                  "no": 38,
+                  "type": "match_sentence",
+                  "stem": {
+                    "zh": "你是怎么来的？",
+                    "pinyin": "nǐ shì zěnme lái de?"
+                  },
+                  "answer": "C",
+                  "explanation_vi": "Hỏi phương tiện (怎么来) → 坐地铁来的 (C)."
+                },
+                {
+                  "id": "hsk2-de1-39",
+                  "no": 39,
+                  "type": "match_sentence",
+                  "stem": {
+                    "zh": "那个女孩儿是谁？是新来的吗？",
+                    "pinyin": "nàge nǚháir shì shéi? shì xīn lái de ma?"
+                  },
+                  "answer": "D",
+                  "explanation_vi": "Hỏi người mới → 她是我们班的新同学 (D)."
+                },
+                {
+                  "id": "hsk2-de1-40",
+                  "no": 40,
+                  "type": "match_sentence",
+                  "stem": {
+                    "zh": "明天下午我们一起去看电影吧。",
+                    "pinyin": "míngtiān xiàwǔ wǒmen yìqǐ qù kàn diànyǐng ba."
+                  },
+                  "answer": "B",
+                  "explanation_vi": "Lời rủ → đồng ý và hẹn giờ (B)."
+                }
+              ]
+            },
+            {
+              "id": "hsk2-de1-R3-g2",
+              "shared_options": [
+                {
+                  "key": "A",
+                  "text": {
+                    "zh": "我也想去，我们一起去吧。",
+                    "pinyin": "wǒ yě xiǎng qù, wǒmen yìqǐ qù ba."
+                  }
+                },
+                {
+                  "key": "B",
+                  "text": {
+                    "zh": "已经吃过了，谢谢。",
+                    "pinyin": "yǐjing chī guo le, xièxie."
+                  }
+                },
+                {
+                  "key": "C",
+                  "text": {
+                    "zh": "因为今天是我的生日。",
+                    "pinyin": "yīnwèi jīntiān shì wǒ de shēngrì."
+                  }
+                },
+                {
+                  "key": "D",
+                  "text": {
+                    "zh": "我觉得红色的更好看。",
+                    "pinyin": "wǒ juéde hóngsè de gèng hǎokàn."
+                  }
+                },
+                {
+                  "key": "E",
+                  "text": {
+                    "zh": "不远，坐公交车二十分钟。",
+                    "pinyin": "bù yuǎn, zuò gōngjiāochē èr shífēn zhōng."
+                  }
+                }
+              ],
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk2-de1-41",
+                  "no": 41,
+                  "type": "match_sentence",
+                  "stem": {
+                    "zh": "你家离这儿远吗？",
+                    "pinyin": "nǐ jiā lí zhèr yuǎn ma?"
+                  },
+                  "answer": "E",
+                  "explanation_vi": "Hỏi xa không (远吗) → 不远，二十分钟 (E)."
+                },
+                {
+                  "id": "hsk2-de1-42",
+                  "no": 42,
+                  "type": "match_sentence",
+                  "stem": {
+                    "zh": "你今天为什么这么高兴？",
+                    "pinyin": "nǐ jīntiān wèishénme zhème gāoxìng?"
+                  },
+                  "answer": "C",
+                  "explanation_vi": "Hỏi tại sao (为什么) → 因为…… (C)."
+                },
+                {
+                  "id": "hsk2-de1-43",
+                  "no": 43,
+                  "type": "match_sentence",
+                  "stem": {
+                    "zh": "你吃饭了吗？一起去吃吧。",
+                    "pinyin": "nǐ chīfàn le ma? yìqǐ qù chī ba."
+                  },
+                  "answer": "B",
+                  "explanation_vi": "Hỏi ăn chưa → 已经吃过了 (B)."
+                },
+                {
+                  "id": "hsk2-de1-44",
+                  "no": 44,
+                  "type": "match_sentence",
+                  "stem": {
+                    "zh": "这两件衣服，你觉得哪件好？",
+                    "pinyin": "zhè liǎng jiàn yīfu, nǐ juéde nǎ jiàn hǎo?"
+                  },
+                  "answer": "D",
+                  "explanation_vi": "Hỏi ý kiến chọn cái nào → 红色的更好看 (D)."
+                },
+                {
+                  "id": "hsk2-de1-45",
+                  "no": 45,
+                  "type": "match_sentence",
+                  "stem": {
+                    "zh": "我想去书店买几本书。",
+                    "pinyin": "wǒ xiǎng qù shūdiàn mǎi jǐ běn shū."
+                  },
+                  "answer": "A",
+                  "explanation_vi": "Nói ý định → 我也想去，一起去吧 (A)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R4",
+          "type": "choose_option",
+          "expected_count": 5,
+          "instruction_vi": "Đọc đoạn văn, chọn đáp án đúng cho câu ★.",
+          "instruction_zh": "第四部分：阅读短文，选择正确答案。",
+          "groups": [
+            {
+              "id": "hsk2-de1-R4-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk2-de1-46",
+                  "no": 46,
+                  "type": "choose_option",
+                  "passage": {
+                    "zh": "我叫小林，是越南人。去年九月我来北京学习汉语。我有很多中国朋友，他们常常帮助我。",
+                    "pinyin": "wǒ jiào Xiǎo Lín, shì Yuènán rén. qùnián jiǔ yuè wǒ lái Běijīng xuéxí Hànyǔ. wǒ yǒu hěn duō Zhōngguó péngyou, tāmen chángcháng bāngzhù wǒ."
+                  },
+                  "question": {
+                    "zh": "★ 小林：",
+                    "pinyin": "★ Xiǎo Lín:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "是中国人",
+                        "pinyin": "shì Zhōngguó rén"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "在北京学习",
+                        "pinyin": "zài Běijīng xuéxí"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "没有朋友",
+                        "pinyin": "méiyǒu péngyou"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "我来北京学习汉语 → B. Tiểu Lâm là người Việt Nam và có nhiều bạn Trung Quốc."
+                }
+              ]
+            },
+            {
+              "id": "hsk2-de1-R4-g2",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk2-de1-47",
+                  "no": 47,
+                  "type": "choose_option",
+                  "passage": {
+                    "zh": "我每天早上六点半起床，先跑步，然后吃早饭。七点半坐地铁去公司，八点半开始工作。",
+                    "pinyin": "wǒ měitiān zǎoshang liù diǎn bàn qǐ chuáng, xiān pǎobù, ránhòu chī zǎofàn. qī diǎn bàn zuò dìtiě qù gōngsī, bā diǎn bàn kāishǐ gōngzuò."
+                  },
+                  "question": {
+                    "zh": "★ 他几点开始工作？",
+                    "pinyin": "★ tā jǐ diǎn kāishǐ gōngzuò?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "六点半",
+                        "pinyin": "liù diǎn bàn"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "七点半",
+                        "pinyin": "qī diǎn bàn"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "八点半",
+                        "pinyin": "bā diǎn bàn"
+                      }
+                    }
+                  ],
+                  "answer": "C",
+                  "explanation_vi": "八点半开始工作 → C. 六点半 dậy, 七点半 đi tàu điện ngầm."
+                }
+              ]
+            },
+            {
+              "id": "hsk2-de1-R4-g3",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk2-de1-48",
+                  "no": 48,
+                  "type": "choose_option",
+                  "passage": {
+                    "zh": "今天是星期六，天气很好。爸爸妈妈带我去公园玩儿。公园里人很多，有的人在跑步，有的人在唱歌。",
+                    "pinyin": "jīntiān shì xīngqīliù, tiānqì hěn hǎo. bàba māma dài wǒ qù gōngyuán wánr. gōngyuán lǐ rén hěn duō, yǒude rén zài pǎobù, yǒude rén zài chànggē."
+                  },
+                  "question": {
+                    "zh": "★ 他们今天去了哪儿？",
+                    "pinyin": "★ tāmen jīntiān qù le nǎr?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "公园",
+                        "pinyin": "gōngyuán"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "商店",
+                        "pinyin": "shāngdiàn"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "学校",
+                        "pinyin": "xuéxiào"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "带我去公园玩儿 → A."
+                }
+              ]
+            },
+            {
+              "id": "hsk2-de1-R4-g4",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk2-de1-49",
+                  "no": 49,
+                  "type": "choose_option",
+                  "passage": {
+                    "zh": "这家饭馆的菜很好吃，也不贵，所以中午有很多人来这儿吃饭。我和同事也常常来。",
+                    "pinyin": "zhè jiā fànguǎn de cài hěn hǎochī, yě bú guì, suǒyǐ zhōngwǔ yǒu hěn duō rén lái zhèr chīfàn. wǒ hé tóngshì yě chángcháng lái."
+                  },
+                  "question": {
+                    "zh": "★ 这家饭馆：",
+                    "pinyin": "★ zhè jiā fànguǎn:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "很贵",
+                        "pinyin": "hěn guì"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "中午人很多",
+                        "pinyin": "zhōngwǔ rén hěn duō"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "菜不好吃",
+                        "pinyin": "cài bù hǎochī"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "中午有很多人来这儿吃饭 → B. Quán không đắt (不贵) và ngon."
+                }
+              ]
+            },
+            {
+              "id": "hsk2-de1-R4-g5",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk2-de1-50",
+                  "no": 50,
+                  "type": "choose_option",
+                  "passage": {
+                    "zh": "王老师，您好！我是李明的妈妈。李明今天生病了，不能去学校上课，想请一天假。谢谢您！",
+                    "pinyin": "Wáng lǎoshī, nín hǎo! wǒ shì Lǐ Míng de māma. Lǐ Míng jīntiān shēngbìng le, bù néng qù xuéxiào shàngkè, xiǎng qǐng yì tiān jià. xièxie nín!"
+                  },
+                  "question": {
+                    "zh": "★ 李明今天：",
+                    "pinyin": "★ Lǐ Míng jīntiān:"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "生病了",
+                        "pinyin": "shēngbìng le"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "去上课了",
+                        "pinyin": "qù shàngkè le"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "在学校",
+                        "pinyin": "zài xuéxiào"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "李明今天生病了，不能去学校 → A."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "name_vi": "Viết",
+      "name_zh": "书写",
+      "max_score": 100,
+      "duration_minutes": 15,
+      "parts": [
+        {
+          "code": "W1",
+          "type": "choose_component",
+          "expected_count": 5,
+          "instruction_vi": "Chọn bộ phận (A–F) để hoàn thành chữ còn thiếu trong từ.",
+          "instruction_zh": "第一部分：选择正确的部件，组成汉字。",
+          "groups": [
+            {
+              "id": "hsk2-de1-W1-g1",
+              "shared_options": [
+                {
+                  "key": "A",
+                  "text": {
+                    "zh": "寸",
+                    "pinyin": "cùn"
+                  }
+                },
+                {
+                  "key": "B",
+                  "text": {
+                    "zh": "木",
+                    "pinyin": "mù"
+                  }
+                },
+                {
+                  "key": "C",
+                  "text": {
+                    "zh": "马",
+                    "pinyin": "mǎ"
+                  }
+                },
+                {
+                  "key": "D",
+                  "text": {
+                    "zh": "口",
+                    "pinyin": "kǒu"
+                  }
+                },
+                {
+                  "key": "E",
+                  "text": {
+                    "zh": "门",
+                    "pinyin": "mén"
+                  }
+                },
+                {
+                  "key": "F",
+                  "text": {
+                    "zh": "青",
+                    "pinyin": "qīng"
+                  }
+                }
+              ],
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk2-de1-W1-ex",
+                  "no": 0,
+                  "is_example": true,
+                  "type": "choose_component",
+                  "word": {
+                    "zh": "妈妈",
+                    "pinyin": "māma"
+                  },
+                  "target_char": "妈",
+                  "target_index": 0,
+                  "shown_part": "女",
+                  "layout": "left-right",
+                  "answer": "C",
+                  "explanation_vi": "Ví dụ: 妈 = 女 + 马 (C)."
+                },
+                {
+                  "id": "hsk2-de1-51",
+                  "no": 51,
+                  "type": "choose_component",
+                  "word": {
+                    "zh": "吃饭",
+                    "pinyin": "chīfàn"
+                  },
+                  "target_char": "吃",
+                  "target_index": 0,
+                  "shown_part": "乞",
+                  "layout": "left-right",
+                  "answer": "D",
+                  "explanation_vi": "吃 = 口 + 乞: việc ăn liên quan đến miệng (口) → D."
+                },
+                {
+                  "id": "hsk2-de1-52",
+                  "no": 52,
+                  "type": "choose_component",
+                  "word": {
+                    "zh": "晴天",
+                    "pinyin": "qíngtiān"
+                  },
+                  "target_char": "晴",
+                  "target_index": 0,
+                  "shown_part": "日",
+                  "layout": "left-right",
+                  "answer": "F",
+                  "explanation_vi": "晴 = 日 + 青 (青 gợi âm qíng) → F."
+                },
+                {
+                  "id": "hsk2-de1-53",
+                  "no": 53,
+                  "type": "choose_component",
+                  "word": {
+                    "zh": "时间",
+                    "pinyin": "shíjiān"
+                  },
+                  "target_char": "时",
+                  "target_index": 0,
+                  "shown_part": "日",
+                  "layout": "left-right",
+                  "answer": "A",
+                  "explanation_vi": "时 = 日 + 寸 → A."
+                },
+                {
+                  "id": "hsk2-de1-54",
+                  "no": 54,
+                  "type": "choose_component",
+                  "word": {
+                    "zh": "休息",
+                    "pinyin": "xiūxi"
+                  },
+                  "target_char": "休",
+                  "target_index": 0,
+                  "shown_part": "亻",
+                  "layout": "left-right",
+                  "answer": "B",
+                  "explanation_vi": "休 = 亻 (người) + 木 (cây): người tựa gốc cây nghỉ ngơi → B."
+                },
+                {
+                  "id": "hsk2-de1-55",
+                  "no": 55,
+                  "type": "choose_component",
+                  "word": {
+                    "zh": "问题",
+                    "pinyin": "wèntí"
+                  },
+                  "target_char": "问",
+                  "target_index": 0,
+                  "shown_part": "口",
+                  "layout": "enclosure",
+                  "answer": "E",
+                  "explanation_vi": "问 = 门 bao ngoài + 口 bên trong: hỏi ở cửa → E."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "W2",
+          "type": "write_hanzi_from_pinyin",
+          "expected_count": 5,
+          "instruction_vi": "Viết chữ Hán còn thiếu theo pinyin cho sẵn.",
+          "instruction_zh": "第二部分：看拼音，写汉字。",
+          "groups": [
+            {
+              "id": "hsk2-de1-W2-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "hsk2-de1-56",
+                  "no": 56,
+                  "type": "write_hanzi_from_pinyin",
+                  "stem": {
+                    "zh": "我（ ）天早上喝牛奶。",
+                    "pinyin": "wǒ ( ) tiān zǎoshang hē niúnǎi."
+                  },
+                  "blank_pinyin": "měi",
+                  "answer": "每",
+                  "explanation_vi": "每天 = mỗi ngày. 每 (měi) gồm 𠂉 + 母."
+                },
+                {
+                  "id": "hsk2-de1-57",
+                  "no": 57,
+                  "type": "write_hanzi_from_pinyin",
+                  "stem": {
+                    "zh": "他是我的好朋（ ）。",
+                    "pinyin": "tā shì wǒ de hǎo péng ( )."
+                  },
+                  "blank_pinyin": "yǒu",
+                  "answer": "友",
+                  "explanation_vi": "朋友 = bạn bè. 友 (yǒu) khác 有 (yǒu = có)."
+                },
+                {
+                  "id": "hsk2-de1-58",
+                  "no": 58,
+                  "type": "write_hanzi_from_pinyin",
+                  "stem": {
+                    "zh": "你（ ）在做什么？",
+                    "pinyin": "nǐ ( ) zài zuò shénme?"
+                  },
+                  "blank_pinyin": "xiàn",
+                  "answer": "现",
+                  "explanation_vi": "现在 = bây giờ. 现 = 王 + 见."
+                },
+                {
+                  "id": "hsk2-de1-59",
+                  "no": 59,
+                  "type": "write_hanzi_from_pinyin",
+                  "stem": {
+                    "zh": "我家（ ）学校不远。",
+                    "pinyin": "wǒ jiā ( ) xuéxiào bù yuǎn."
+                  },
+                  "blank_pinyin": "lí",
+                  "answer": "离",
+                  "explanation_vi": "A 离 B 远/近: khoảng cách. 离 (lí) = cách."
+                },
+                {
+                  "id": "hsk2-de1-60",
+                  "no": 60,
+                  "type": "write_hanzi_from_pinyin",
+                  "stem": {
+                    "zh": "请（ ）一下，你叫什么名字？",
+                    "pinyin": "qǐng ( ) yíxià, nǐ jiào shénme míngzi?"
+                  },
+                  "blank_pinyin": "wèn",
+                  "answer": "问",
+                  "explanation_vi": "请问 = xin hỏi. 问 = 门 + 口."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

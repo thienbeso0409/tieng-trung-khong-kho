@@ -1,0 +1,103 @@
+{
+  "level": 1,
+  "count": 8,
+  "words": [
+    {
+      "id": "hsk1-0001",
+      "hanzi": "爱",
+      "pinyin": "ài",
+      "pos": "động từ",
+      "meaning_vi": "yêu, thích",
+      "han_viet": "ái",
+      "example": {
+        "zh": "我爱我的妈妈。",
+        "pinyin": "wǒ ài wǒ de māma.",
+        "vi": "Tôi yêu mẹ tôi."
+      },
+      "topic": "cảm xúc"
+    },
+    {
+      "id": "hsk1-0002",
+      "hanzi": "八",
+      "pinyin": "bā",
+      "pos": "số từ",
+      "meaning_vi": "số tám",
+      "han_viet": "bát",
+      "topic": "số đếm"
+    },
+    {
+      "id": "hsk1-0003",
+      "hanzi": "爸爸",
+      "pinyin": "bàba",
+      "pos": "danh từ",
+      "meaning_vi": "bố",
+      "example": {
+        "zh": "我爸爸是医生。",
+        "pinyin": "wǒ bàba shì yīshēng.",
+        "vi": "Bố tôi là bác sĩ."
+      },
+      "topic": "gia đình"
+    },
+    {
+      "id": "hsk1-0004",
+      "hanzi": "杯子",
+      "pinyin": "bēizi",
+      "pos": "danh từ",
+      "meaning_vi": "cái cốc",
+      "han_viet": "bôi tử",
+      "topic": "đồ vật"
+    },
+    {
+      "id": "hsk1-0005",
+      "hanzi": "北京",
+      "pinyin": "Běijīng",
+      "pos": "danh từ riêng",
+      "meaning_vi": "Bắc Kinh",
+      "han_viet": "Bắc Kinh",
+      "example": {
+        "zh": "我想去北京。",
+        "pinyin": "wǒ xiǎng qù Běijīng.",
+        "vi": "Tôi muốn đi Bắc Kinh."
+      },
+      "topic": "địa danh"
+    },
+    {
+      "id": "hsk1-0006",
+      "hanzi": "好",
+      "pinyin": "hǎo",
+      "pos": "tính từ",
+      "meaning_vi": "tốt, hay",
+      "han_viet": "hảo",
+      "example": {
+        "zh": "你好！",
+        "pinyin": "nǐ hǎo!",
+        "vi": "Xin chào!"
+      }
+    },
+    {
+      "id": "hsk1-0007",
+      "hanzi": "你",
+      "pinyin": "nǐ",
+      "pos": "đại từ",
+      "meaning_vi": "bạn, anh, chị",
+      "han_viet": "nhĩ"
+    },
+    {
+      "id": "hsk1-0008",
+      "hanzi": "喝",
+      "pinyin": "hē",
+      "pos": "động từ",
+      "meaning_vi": "uống",
+      "han_viet": "hát",
+      "example": {
+        "zh": "我喜欢喝茶。",
+        "pinyin": "wǒ xǐhuan hē chá.",
+        "vi": "Tôi thích uống trà."
+      },
+      "topic": "ăn uống"
+    }
+  ],
+  "standard": "HSK3.0-2025",
+  "target_count": 500,
+  "complete": false
+}

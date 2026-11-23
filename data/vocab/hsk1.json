@@ -1,0 +1,6978 @@
+{
+  "level": 1,
+  "standard": "HSK3.0-2021",
+  "target_count": 500,
+  "count": 500,
+  "complete": true,
+  "notes": "Danh sách từ theo 国际中文教育中文水平等级标准 GF0025-2021 (nguồn mở ivankra/hsk30). Field syllabus2025/syllabus2025_level: từ có trong đại cương thi HSK 2025 (cấp 1–3), theo danh sách công bố trên hsklord.com.",
+  "words": [
+    {
+      "id": "hsk1-0001",
+      "hanzi": "爱",
+      "pinyin": "ài",
+      "pos": "động từ",
+      "meaning_vi": "yêu, thích",
+      "example": {
+        "zh": "我爱我的家人。",
+        "pinyin": "wǒ ài wǒ de jiārén.",
+        "vi": "Tôi yêu gia đình tôi."
+      },
+      "traditional": "愛",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0002",
+      "hanzi": "爱好",
+      "pinyin": "àihào",
+      "pos": "động từ, danh từ",
+      "meaning_vi": "sở thích; thích",
+      "example": {
+        "zh": "你有什么爱好？",
+        "pinyin": "nǐ yǒu shénme àihào?",
+        "vi": "Bạn có sở thích gì?"
+      },
+      "traditional": "愛好",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0003",
+      "hanzi": "八",
+      "pinyin": "bā",
+      "pos": "số từ",
+      "meaning_vi": "tám (8)",
+      "example": {
+        "zh": "我家有八口人。",
+        "pinyin": "wǒ jiā yǒu bā kǒu rén.",
+        "vi": "Nhà tôi có tám người."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0004",
+      "hanzi": "吧",
+      "pinyin": "ba",
+      "pos": "trợ từ",
+      "meaning_vi": "nhé, đi, chứ (trợ từ ngữ khí: đề nghị, phỏng đoán)",
+      "example": {
+        "zh": "我们走吧！",
+        "pinyin": "wǒmen zǒu ba!",
+        "vi": "Chúng ta đi thôi!"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0005",
+      "hanzi": "爸爸",
+      "pinyin": "bàba",
+      "pos": "danh từ",
+      "meaning_vi": "bố, ba",
+      "example": {
+        "zh": "我爸爸是医生。",
+        "pinyin": "wǒ bàba shì yīshēng.",
+        "vi": "Bố tôi là bác sĩ."
+      },
+      "notes": "Dạng khác: 爸 (bà)",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0006",
+      "hanzi": "白",
+      "pinyin": "bái",
+      "pos": "tính từ",
+      "meaning_vi": "trắng",
+      "example": {
+        "zh": "我的书包是白的。",
+        "pinyin": "wǒ de shūbāo shì bái de.",
+        "vi": "Cặp sách của tôi màu trắng."
+      }
+    },
+    {
+      "id": "hsk1-0007",
+      "hanzi": "百",
+      "pinyin": "bǎi",
+      "pos": "số từ",
+      "meaning_vi": "trăm",
+      "example": {
+        "zh": "这本书一百块。",
+        "pinyin": "zhè běn shū yìbǎi kuài.",
+        "vi": "Quyển sách này một trăm tệ."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0008",
+      "hanzi": "白天",
+      "pinyin": "báitiān",
+      "pos": "danh từ",
+      "meaning_vi": "ban ngày",
+      "example": {
+        "zh": "白天我在学校学习。",
+        "pinyin": "báitiān wǒ zài xuéxiào xuéxí.",
+        "vi": "Ban ngày tôi học ở trường."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0009",
+      "hanzi": "班",
+      "pinyin": "bān",
+      "pos": "danh từ, lượng từ",
+      "meaning_vi": "lớp; ca",
+      "example": {
+        "zh": "我们班有三十个学生。",
+        "pinyin": "wǒmen bān yǒu sān shí ge xuésheng.",
+        "vi": "Lớp chúng tôi có ba mươi học sinh."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0010",
+      "hanzi": "半",
+      "pinyin": "bàn",
+      "pos": "số từ",
+      "meaning_vi": "nửa, rưỡi",
+      "example": {
+        "zh": "现在七点半。",
+        "pinyin": "xiànzài qī diǎn bàn.",
+        "vi": "Bây giờ là bảy giờ rưỡi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0011",
+      "hanzi": "帮",
+      "pinyin": "bāng",
+      "pos": "động từ",
+      "meaning_vi": "giúp",
+      "example": {
+        "zh": "你能帮我吗？",
+        "pinyin": "nǐ néng bāng wǒ ma?",
+        "vi": "Bạn có thể giúp tôi không?"
+      },
+      "traditional": "幫",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0012",
+      "hanzi": "帮忙",
+      "pinyin": "bāngmáng",
+      "pos": "cụm từ",
+      "meaning_vi": "giúp đỡ, giúp một tay",
+      "example": {
+        "zh": "谢谢你帮忙！",
+        "pinyin": "xièxie nǐ bāngmáng!",
+        "vi": "Cảm ơn bạn đã giúp!"
+      },
+      "traditional": "幫忙",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0013",
+      "hanzi": "半年",
+      "pinyin": "bàn nián",
+      "pos": "cụm từ",
+      "meaning_vi": "nửa năm",
+      "example": {
+        "zh": "我在北京住了半年。",
+        "pinyin": "wǒ zài Běijīng zhù le bàn nián.",
+        "vi": "Tôi đã sống ở Bắc Kinh nửa năm."
+      }
+    },
+    {
+      "id": "hsk1-0014",
+      "hanzi": "半天",
+      "pinyin": "bàntiān",
+      "pos": "cụm từ",
+      "meaning_vi": "nửa ngày; mãi, rất lâu",
+      "example": {
+        "zh": "我等了你半天。",
+        "pinyin": "wǒ děng le nǐ bàntiān.",
+        "vi": "Tôi đợi bạn mãi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0015",
+      "hanzi": "包",
+      "pinyin": "bāo",
+      "pos": "danh từ, lượng từ, động từ",
+      "meaning_vi": "túi, bao; gói",
+      "example": {
+        "zh": "这是我的包。",
+        "pinyin": "zhè shì wǒ de bāo.",
+        "vi": "Đây là túi của tôi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0016",
+      "hanzi": "包子",
+      "pinyin": "bāozi",
+      "pos": "danh từ",
+      "meaning_vi": "bánh bao",
+      "example": {
+        "zh": "早上我吃了两个包子。",
+        "pinyin": "zǎoshang wǒ chī le liǎng ge bāozi.",
+        "vi": "Sáng nay tôi ăn hai cái bánh bao."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0017",
+      "hanzi": "杯",
+      "pinyin": "bēi",
+      "pos": "lượng từ",
+      "meaning_vi": "cốc, ly (lượng từ)",
+      "example": {
+        "zh": "我想喝一杯茶。",
+        "pinyin": "wǒ xiǎng hē yì bēi chá.",
+        "vi": "Tôi muốn uống một tách trà."
+      }
+    },
+    {
+      "id": "hsk1-0018",
+      "hanzi": "北",
+      "pinyin": "běi",
+      "pos": "danh từ",
+      "meaning_vi": "phía bắc",
+      "example": {
+        "zh": "北京在中国的北边。",
+        "pinyin": "Běijīng zài Zhōngguó de běibian.",
+        "vi": "Bắc Kinh ở phía bắc Trung Quốc."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0019",
+      "hanzi": "北边",
+      "pinyin": "běibian",
+      "pos": "danh từ",
+      "meaning_vi": "phía bắc, bên bắc",
+      "example": {
+        "zh": "学校的北边有一个商店。",
+        "pinyin": "xuéxiào de běibian yǒu yí ge shāngdiàn.",
+        "vi": "Phía bắc trường có một cửa hàng."
+      },
+      "traditional": "北邊"
+    },
+    {
+      "id": "hsk1-0020",
+      "hanzi": "北京",
+      "pinyin": "Běijīng",
+      "pos": "danh từ",
+      "meaning_vi": "Bắc Kinh",
+      "example": {
+        "zh": "我想去北京。",
+        "pinyin": "wǒ xiǎng qù Běijīng.",
+        "vi": "Tôi muốn đi Bắc Kinh."
+      }
+    },
+    {
+      "id": "hsk1-0021",
+      "hanzi": "杯子",
+      "pinyin": "bēizi",
+      "pos": "danh từ",
+      "meaning_vi": "cái cốc, cái ly",
+      "example": {
+        "zh": "这个杯子是我的。",
+        "pinyin": "zhège bēizi shì wǒ de.",
+        "vi": "Cái cốc này là của tôi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0022",
+      "hanzi": "本",
+      "pinyin": "běn",
+      "pos": "lượng từ",
+      "meaning_vi": "quyển, cuốn (lượng từ)",
+      "example": {
+        "zh": "我买了三本书。",
+        "pinyin": "wǒ mǎi le sān běn shū.",
+        "vi": "Tôi đã mua ba quyển sách."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0023",
+      "hanzi": "本子",
+      "pinyin": "běnzi",
+      "pos": "danh từ",
+      "meaning_vi": "quyển vở",
+      "example": {
+        "zh": "这个本子多少钱？",
+        "pinyin": "zhège běnzi duōshao qián?",
+        "vi": "Quyển vở này bao nhiêu tiền?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0024",
+      "hanzi": "比",
+      "pinyin": "bǐ",
+      "pos": "giới từ, động từ",
+      "meaning_vi": "so với, hơn",
+      "example": {
+        "zh": "哥哥比我高。",
+        "pinyin": "gēge bǐ wǒ gāo.",
+        "vi": "Anh trai cao hơn tôi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0025",
+      "hanzi": "别",
+      "pinyin": "bié",
+      "pos": "phó từ",
+      "meaning_vi": "đừng",
+      "example": {
+        "zh": "别说话！",
+        "pinyin": "bié shuōhuà!",
+        "vi": "Đừng nói chuyện!"
+      },
+      "traditional": "別",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0026",
+      "hanzi": "别的",
+      "pinyin": "biéde",
+      "pos": "đại từ",
+      "meaning_vi": "cái khác, khác",
+      "example": {
+        "zh": "你还要别的吗？",
+        "pinyin": "nǐ hái yào biéde ma?",
+        "vi": "Bạn còn cần gì khác không?"
+      },
+      "traditional": "別的",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0027",
+      "hanzi": "别人",
+      "pinyin": "biérén",
+      "pos": "đại từ",
+      "meaning_vi": "người khác",
+      "example": {
+        "zh": "这是别人的书。",
+        "pinyin": "zhè shì biéren de shū.",
+        "vi": "Đây là sách của người khác."
+      },
+      "traditional": "別人",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0028",
+      "hanzi": "病",
+      "pinyin": "bìng",
+      "pos": "danh từ, động từ",
+      "meaning_vi": "bệnh; bị ốm",
+      "example": {
+        "zh": "他病了，没来上课。",
+        "pinyin": "tā bìng le, méi lái shàngkè.",
+        "vi": "Cậu ấy bị ốm, không đến lớp."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0029",
+      "hanzi": "病人",
+      "pinyin": "bìngrén",
+      "pos": "danh từ",
+      "meaning_vi": "người bệnh, bệnh nhân",
+      "example": {
+        "zh": "医院里有很多病人。",
+        "pinyin": "yīyuàn lǐ yǒu hěn duō bìngrén.",
+        "vi": "Trong bệnh viện có rất nhiều bệnh nhân."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0030",
+      "hanzi": "不",
+      "pinyin": "bù",
+      "pos": "phó từ",
+      "meaning_vi": "không",
+      "example": {
+        "zh": "我不喝茶。",
+        "pinyin": "wǒ bù hē chá.",
+        "vi": "Tôi không uống trà."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0031",
+      "hanzi": "不大",
+      "pinyin": "bù dà",
+      "pos": "cụm từ",
+      "meaning_vi": "không lớn; không mấy",
+      "example": {
+        "zh": "这个房间不大。",
+        "pinyin": "zhège fángjiān bú dà.",
+        "vi": "Căn phòng này không lớn."
+      }
+    },
+    {
+      "id": "hsk1-0032",
+      "hanzi": "不对",
+      "pinyin": "bùduì",
+      "pos": "tính từ",
+      "meaning_vi": "không đúng, sai",
+      "example": {
+        "zh": "这个字写得不对。",
+        "pinyin": "zhège zì xiě de bú duì.",
+        "vi": "Chữ này viết không đúng."
+      },
+      "traditional": "不對"
+    },
+    {
+      "id": "hsk1-0033",
+      "hanzi": "不客气",
+      "pinyin": "bù kèqì",
+      "pos": "cụm từ",
+      "meaning_vi": "đừng khách sáo, không có gì",
+      "example": {
+        "zh": "A：谢谢！B：不客气。",
+        "pinyin": "A: xièxie! B: bú kèqi.",
+        "vi": "A: Cảm ơn! B: Không có gì."
+      },
+      "traditional": "不客氣",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0034",
+      "hanzi": "不用",
+      "pinyin": "bùyòng",
+      "pos": "phó từ",
+      "meaning_vi": "không cần",
+      "example": {
+        "zh": "你不用等我。",
+        "pinyin": "nǐ bú yòng děng wǒ.",
+        "vi": "Bạn không cần đợi tôi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0035",
+      "hanzi": "菜",
+      "pinyin": "cài",
+      "pos": "danh từ",
+      "meaning_vi": "món ăn; rau",
+      "example": {
+        "zh": "妈妈做的菜很好吃。",
+        "pinyin": "māma zuò de cài hěn hǎochī.",
+        "vi": "Món mẹ nấu rất ngon."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0036",
+      "hanzi": "茶",
+      "pinyin": "chá",
+      "pos": "danh từ",
+      "meaning_vi": "trà",
+      "example": {
+        "zh": "你喝茶吗？",
+        "pinyin": "nǐ hē chá ma?",
+        "vi": "Bạn uống trà không?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0037",
+      "hanzi": "差",
+      "pinyin": "chà",
+      "pos": "động từ, tính từ",
+      "meaning_vi": "kém; thiếu",
+      "example": {
+        "zh": "现在差五分八点。",
+        "pinyin": "xiànzài chà wǔ fēn bā diǎn.",
+        "vi": "Bây giờ là tám giờ kém năm phút."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0038",
+      "hanzi": "常",
+      "pinyin": "cháng",
+      "pos": "phó từ",
+      "meaning_vi": "thường",
+      "example": {
+        "zh": "我常去图书馆。",
+        "pinyin": "wǒ cháng qù túshūguǎn.",
+        "vi": "Tôi thường đến thư viện."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0039",
+      "hanzi": "唱",
+      "pinyin": "chàng",
+      "pos": "động từ",
+      "meaning_vi": "hát",
+      "example": {
+        "zh": "她唱得很好听。",
+        "pinyin": "tā chàng de hěn hǎotīng.",
+        "vi": "Cô ấy hát rất hay."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0040",
+      "hanzi": "常常",
+      "pinyin": "chángcháng",
+      "pos": "phó từ",
+      "meaning_vi": "thường thường, hay",
+      "example": {
+        "zh": "他常常跟朋友打球。",
+        "pinyin": "tā chángcháng gēn péngyou dǎ qiú.",
+        "vi": "Anh ấy hay chơi bóng với bạn bè."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0041",
+      "hanzi": "唱歌",
+      "pinyin": "chànggē",
+      "pos": "cụm từ",
+      "meaning_vi": "hát (bài hát)",
+      "example": {
+        "zh": "我们一起唱歌吧。",
+        "pinyin": "wǒmen yìqǐ chànggē ba.",
+        "vi": "Chúng ta cùng hát nhé."
+      }
+    },
+    {
+      "id": "hsk1-0042",
+      "hanzi": "车",
+      "pinyin": "chē",
+      "pos": "danh từ",
+      "meaning_vi": "xe",
+      "example": {
+        "zh": "你的车在哪儿？",
+        "pinyin": "nǐ de chē zài nǎr?",
+        "vi": "Xe của bạn ở đâu?"
+      },
+      "traditional": "車",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0043",
+      "hanzi": "车票",
+      "pinyin": "chēpiào",
+      "pos": "danh từ",
+      "meaning_vi": "vé xe, vé tàu",
+      "example": {
+        "zh": "我买了两张车票。",
+        "pinyin": "wǒ mǎi le liǎng zhāng chēpiào.",
+        "vi": "Tôi đã mua hai vé xe."
+      },
+      "traditional": "車票"
+    },
+    {
+      "id": "hsk1-0044",
+      "hanzi": "车上",
+      "pinyin": "chē shang",
+      "pos": "cụm từ",
+      "meaning_vi": "trên xe",
+      "example": {
+        "zh": "车上人很多。",
+        "pinyin": "chē shang rén hěn duō.",
+        "vi": "Trên xe rất đông người."
+      },
+      "traditional": "車上"
+    },
+    {
+      "id": "hsk1-0045",
+      "hanzi": "车站",
+      "pinyin": "chēzhàn",
+      "pos": "danh từ",
+      "meaning_vi": "bến xe, nhà ga",
+      "example": {
+        "zh": "车站就在前边。",
+        "pinyin": "chēzhàn jiù zài qiánbian.",
+        "vi": "Bến xe ở ngay phía trước."
+      },
+      "traditional": "車站",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0046",
+      "hanzi": "吃",
+      "pinyin": "chī",
+      "pos": "động từ",
+      "meaning_vi": "ăn",
+      "example": {
+        "zh": "你想吃什么？",
+        "pinyin": "nǐ xiǎng chī shénme?",
+        "vi": "Bạn muốn ăn gì?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0047",
+      "hanzi": "吃饭",
+      "pinyin": "chīfàn",
+      "pos": "cụm từ",
+      "meaning_vi": "ăn cơm",
+      "example": {
+        "zh": "我们去吃饭吧。",
+        "pinyin": "wǒmen qù chīfàn ba.",
+        "vi": "Chúng ta đi ăn cơm nhé."
+      },
+      "traditional": "吃飯"
+    },
+    {
+      "id": "hsk1-0048",
+      "hanzi": "出",
+      "pinyin": "chū",
+      "pos": "động từ",
+      "meaning_vi": "ra",
+      "example": {
+        "zh": "他出门了。",
+        "pinyin": "tā chūmén le.",
+        "vi": "Anh ấy ra ngoài rồi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0049",
+      "hanzi": "穿",
+      "pinyin": "chuān",
+      "pos": "động từ",
+      "meaning_vi": "mặc, mang (quần áo, giày)",
+      "example": {
+        "zh": "今天很冷，多穿点儿衣服。",
+        "pinyin": "jīntiān hěn lěng, duō chuān diǎnr yīfu.",
+        "vi": "Hôm nay lạnh, mặc thêm áo nhé."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0050",
+      "hanzi": "床",
+      "pinyin": "chuáng",
+      "pos": "danh từ",
+      "meaning_vi": "giường",
+      "example": {
+        "zh": "我的床很大。",
+        "pinyin": "wǒ de chuáng hěn dà.",
+        "vi": "Giường của tôi rất to."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0051",
+      "hanzi": "出来",
+      "pinyin": "chūlái",
+      "pos": "cụm từ",
+      "meaning_vi": "đi ra, ra (hướng về người nói)",
+      "example": {
+        "zh": "你快出来吧！",
+        "pinyin": "nǐ kuài chūlái ba!",
+        "vi": "Bạn mau ra đây đi!"
+      },
+      "traditional": "出來",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0052",
+      "hanzi": "出去",
+      "pinyin": "chūqù",
+      "pos": "cụm từ",
+      "meaning_vi": "đi ra ngoài",
+      "example": {
+        "zh": "我出去一下。",
+        "pinyin": "wǒ chūqù yíxià.",
+        "vi": "Tôi ra ngoài một lát."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0053",
+      "hanzi": "次",
+      "pinyin": "cì",
+      "pos": "lượng từ",
+      "meaning_vi": "lần (lượng từ)",
+      "example": {
+        "zh": "我去过两次北京。",
+        "pinyin": "wǒ qù guo liǎng cì Běijīng.",
+        "vi": "Tôi đã đến Bắc Kinh hai lần."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0054",
+      "hanzi": "从",
+      "pinyin": "cóng",
+      "pos": "giới từ",
+      "meaning_vi": "từ",
+      "example": {
+        "zh": "我从学校回家。",
+        "pinyin": "wǒ cóng xuéxiào huí jiā.",
+        "vi": "Tôi từ trường về nhà."
+      },
+      "traditional": "從",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0055",
+      "hanzi": "错",
+      "pinyin": "cuò",
+      "pos": "tính từ, danh từ",
+      "meaning_vi": "sai; lỗi",
+      "example": {
+        "zh": "对不起，是我错了。",
+        "pinyin": "duìbuqǐ, shì wǒ cuò le.",
+        "vi": "Xin lỗi, là tôi sai."
+      },
+      "traditional": "錯",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0056",
+      "hanzi": "打",
+      "pinyin": "dǎ",
+      "pos": "động từ",
+      "meaning_vi": "đánh; chơi (bóng); gọi (điện)",
+      "example": {
+        "zh": "晚上我给妈妈打电话。",
+        "pinyin": "wǎnshang wǒ gěi māma dǎ diànhuà.",
+        "vi": "Buổi tối tôi gọi điện cho mẹ."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0057",
+      "hanzi": "大",
+      "pinyin": "dà",
+      "pos": "tính từ",
+      "meaning_vi": "to, lớn",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0058",
+      "hanzi": "打车",
+      "pinyin": "dǎchē",
+      "pos": "cụm từ",
+      "meaning_vi": "bắt taxi",
+      "example": {
+        "zh": "太晚了，我们打车回去吧。",
+        "pinyin": "tài wǎn le, wǒmen dǎchē huíqù ba.",
+        "vi": "Muộn quá rồi, chúng ta bắt taxi về nhé."
+      },
+      "traditional": "打車",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0059",
+      "hanzi": "打电话",
+      "pinyin": "dǎ diànhuà",
+      "pos": "cụm từ",
+      "meaning_vi": "gọi điện thoại",
+      "example": {
+        "zh": "他在打电话。",
+        "pinyin": "tā zài dǎ diànhuà.",
+        "vi": "Anh ấy đang gọi điện thoại."
+      },
+      "traditional": "打電話",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0060",
+      "hanzi": "打开",
+      "pinyin": "dǎkāi",
+      "pos": "cụm từ",
+      "meaning_vi": "mở ra; bật",
+      "example": {
+        "zh": "请打开书。",
+        "pinyin": "qǐng dǎkāi shū.",
+        "vi": "Mời mở sách ra."
+      },
+      "traditional": "打開",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0061",
+      "hanzi": "到",
+      "pinyin": "dào",
+      "pos": "động từ",
+      "meaning_vi": "đến, tới",
+      "example": {
+        "zh": "我到学校了。",
+        "pinyin": "wǒ dào xuéxiào le.",
+        "vi": "Tôi đến trường rồi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0062",
+      "hanzi": "打球",
+      "pinyin": "dǎ qiú",
+      "pos": "cụm từ",
+      "meaning_vi": "chơi bóng",
+      "example": {
+        "zh": "下午我们去打球。",
+        "pinyin": "xiàwǔ wǒmen qù dǎ qiú.",
+        "vi": "Buổi chiều chúng tôi đi chơi bóng."
+      }
+    },
+    {
+      "id": "hsk1-0063",
+      "hanzi": "大学",
+      "pinyin": "dàxué",
+      "pos": "danh từ",
+      "meaning_vi": "đại học",
+      "example": {
+        "zh": "我姐姐在大学学习汉语。",
+        "pinyin": "wǒ jiějie zài dàxué xuéxí Hànyǔ.",
+        "vi": "Chị tôi học tiếng Trung ở đại học."
+      },
+      "traditional": "大學",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0064",
+      "hanzi": "大学生",
+      "pinyin": "dàxuéshēng",
+      "pos": "danh từ",
+      "meaning_vi": "sinh viên",
+      "example": {
+        "zh": "他是大学生。",
+        "pinyin": "tā shì dàxuéshēng.",
+        "vi": "Anh ấy là sinh viên."
+      },
+      "traditional": "大學生",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0065",
+      "hanzi": "地",
+      "pinyin": "de",
+      "pos": "trợ từ",
+      "meaning_vi": "(trợ từ, đứng trước động từ: một cách…)",
+      "example": {
+        "zh": "他高兴地说：“谢谢！”",
+        "pinyin": "tā gāoxìng de shuō: \"xièxie!\"",
+        "vi": "Anh ấy vui vẻ nói: \"Cảm ơn!\""
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0066",
+      "hanzi": "的",
+      "pinyin": "de",
+      "pos": "trợ từ",
+      "meaning_vi": "của; (trợ từ kết cấu)",
+      "example": {
+        "zh": "这是我的手机。",
+        "pinyin": "zhè shì wǒ de shǒujī.",
+        "vi": "Đây là điện thoại của tôi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0067",
+      "hanzi": "得到",
+      "pinyin": "dédào",
+      "pos": "cụm từ",
+      "meaning_vi": "nhận được, đạt được",
+      "example": {
+        "zh": "他得到了一个新手机。",
+        "pinyin": "tā dédào le yí ge xīn shǒujī.",
+        "vi": "Cậu ấy nhận được một chiếc điện thoại mới."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0068",
+      "hanzi": "等",
+      "pinyin": "děng",
+      "pos": "động từ",
+      "meaning_vi": "đợi, chờ",
+      "example": {
+        "zh": "请等一下儿。",
+        "pinyin": "qǐng děng yíxiàr.",
+        "vi": "Xin đợi một chút."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0069",
+      "hanzi": "地",
+      "pinyin": "dì",
+      "pos": "danh từ",
+      "meaning_vi": "đất, mặt đất",
+      "example": {
+        "zh": "地上有一本书。",
+        "pinyin": "dìshàng yǒu yì běn shū.",
+        "vi": "Trên mặt đất có một quyển sách."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0070",
+      "hanzi": "第",
+      "pinyin": "dì",
+      "pos": "trợ từ",
+      "meaning_vi": "thứ (đứng trước số chỉ thứ tự)",
+      "example": {
+        "zh": "这是我第一次来中国。",
+        "pinyin": "zhè shì wǒ dì-yī cì lái Zhōngguó.",
+        "vi": "Đây là lần đầu tiên tôi đến Trung Quốc."
+      },
+      "notes": "Ví dụ dùng: 第二; Phụ tố (词缀)",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0071",
+      "hanzi": "点",
+      "pinyin": "diǎn",
+      "pos": "lượng từ, động từ, danh từ",
+      "meaning_vi": "giờ; điểm; một chút",
+      "example": {
+        "zh": "现在几点？",
+        "pinyin": "xiànzài jǐ diǎn?",
+        "vi": "Bây giờ mấy giờ?"
+      },
+      "traditional": "點",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0072",
+      "hanzi": "电",
+      "pinyin": "diàn",
+      "pos": "danh từ",
+      "meaning_vi": "điện",
+      "example": {
+        "zh": "没有电了。",
+        "pinyin": "méiyǒu diàn le.",
+        "vi": "Mất điện rồi."
+      },
+      "traditional": "電",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0073",
+      "hanzi": "电话",
+      "pinyin": "diànhuà",
+      "pos": "danh từ",
+      "meaning_vi": "điện thoại",
+      "example": {
+        "zh": "你的电话号是多少？",
+        "pinyin": "nǐ de diànhuà hào shì duōshao?",
+        "vi": "Số điện thoại của bạn là bao nhiêu?"
+      },
+      "traditional": "電話",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0074",
+      "hanzi": "电脑",
+      "pinyin": "diànnǎo",
+      "pos": "danh từ",
+      "meaning_vi": "máy tính",
+      "example": {
+        "zh": "我用电脑工作。",
+        "pinyin": "wǒ yòng diànnǎo gōngzuò.",
+        "vi": "Tôi làm việc bằng máy tính."
+      },
+      "traditional": "電腦",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0075",
+      "hanzi": "电视",
+      "pinyin": "diànshì",
+      "pos": "danh từ",
+      "meaning_vi": "tivi; chương trình truyền hình",
+      "example": {
+        "zh": "爷爷在看电视。",
+        "pinyin": "yéye zài kàn diànshì.",
+        "vi": "Ông đang xem tivi."
+      },
+      "traditional": "電視",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0076",
+      "hanzi": "电视机",
+      "pinyin": "diànshìjī",
+      "pos": "danh từ",
+      "meaning_vi": "máy thu hình, tivi",
+      "example": {
+        "zh": "我家的电视机很大。",
+        "pinyin": "wǒ jiā de diànshìjī hěn dà.",
+        "vi": "Tivi nhà tôi rất to."
+      },
+      "traditional": "電視機"
+    },
+    {
+      "id": "hsk1-0077",
+      "hanzi": "电影",
+      "pinyin": "diànyǐng",
+      "pos": "danh từ",
+      "meaning_vi": "phim, điện ảnh",
+      "example": {
+        "zh": "我们去看电影吧。",
+        "pinyin": "wǒmen qù kàn diànyǐng ba.",
+        "vi": "Chúng ta đi xem phim nhé."
+      },
+      "traditional": "電影",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0078",
+      "hanzi": "电影院",
+      "pinyin": "diànyǐngyuàn",
+      "pos": "danh từ",
+      "meaning_vi": "rạp chiếu phim",
+      "example": {
+        "zh": "电影院在商场里边。",
+        "pinyin": "diànyǐngyuàn zài shāngchǎng lǐbian.",
+        "vi": "Rạp chiếu phim ở trong trung tâm thương mại."
+      },
+      "traditional": "電影院",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0079",
+      "hanzi": "弟弟",
+      "pinyin": "dìdi",
+      "pos": "danh từ",
+      "meaning_vi": "em trai",
+      "example": {
+        "zh": "我弟弟八岁。",
+        "pinyin": "wǒ dìdi bā suì.",
+        "vi": "Em trai tôi tám tuổi."
+      },
+      "notes": "Dạng khác: 弟 (dì)",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0080",
+      "hanzi": "地点",
+      "pinyin": "dìdiǎn",
+      "pos": "danh từ",
+      "meaning_vi": "địa điểm",
+      "example": {
+        "zh": "考试的地点在哪儿？",
+        "pinyin": "kǎoshì de dìdiǎn zài nǎr?",
+        "vi": "Địa điểm thi ở đâu?"
+      },
+      "traditional": "地點",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0081",
+      "hanzi": "地方",
+      "pinyin": "dìfang",
+      "pos": "danh từ",
+      "meaning_vi": "nơi, chỗ",
+      "example": {
+        "zh": "这个地方很好看。",
+        "pinyin": "zhège dìfang hěn hǎokàn.",
+        "vi": "Nơi này rất đẹp."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0082",
+      "hanzi": "地上",
+      "pinyin": "dìshang",
+      "pos": "cụm từ",
+      "meaning_vi": "trên mặt đất, dưới sàn",
+      "example": {
+        "zh": "别坐在地上。",
+        "pinyin": "bié zuò zài dìshang.",
+        "vi": "Đừng ngồi dưới đất."
+      }
+    },
+    {
+      "id": "hsk1-0083",
+      "hanzi": "地图",
+      "pinyin": "dìtú",
+      "pos": "danh từ",
+      "meaning_vi": "bản đồ",
+      "example": {
+        "zh": "我看看地图。",
+        "pinyin": "wǒ kàn kàn dìtú.",
+        "vi": "Để tôi xem bản đồ."
+      },
+      "traditional": "地圖",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0084",
+      "hanzi": "东",
+      "pinyin": "dōng",
+      "pos": "danh từ",
+      "meaning_vi": "phía đông",
+      "example": {
+        "zh": "学校在东边。",
+        "pinyin": "xuéxiào zài dōngbian.",
+        "vi": "Trường học ở phía đông."
+      },
+      "traditional": "東",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0085",
+      "hanzi": "动",
+      "pinyin": "dòng",
+      "pos": "động từ",
+      "meaning_vi": "động, cử động",
+      "example": {
+        "zh": "别动！",
+        "pinyin": "bié dòng!",
+        "vi": "Đừng cử động!"
+      },
+      "traditional": "動",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0086",
+      "hanzi": "东边",
+      "pinyin": "dōngbian",
+      "pos": "danh từ",
+      "meaning_vi": "phía đông",
+      "example": {
+        "zh": "医院在学校的东边。",
+        "pinyin": "yīyuàn zài xuéxiào de dōngbian.",
+        "vi": "Bệnh viện ở phía đông trường học."
+      },
+      "traditional": "東邊"
+    },
+    {
+      "id": "hsk1-0087",
+      "hanzi": "东西",
+      "pinyin": "dōngxi",
+      "pos": "danh từ",
+      "meaning_vi": "đồ, đồ vật",
+      "example": {
+        "zh": "我去商店买东西。",
+        "pinyin": "wǒ qù shāngdiàn mǎi dōngxi.",
+        "vi": "Tôi đi cửa hàng mua đồ."
+      },
+      "traditional": "東西",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0088",
+      "hanzi": "动作",
+      "pinyin": "dòngzuò",
+      "pos": "danh từ",
+      "meaning_vi": "động tác",
+      "example": {
+        "zh": "这个动作很难。",
+        "pinyin": "zhège dòngzuò hěn nán.",
+        "vi": "Động tác này rất khó."
+      },
+      "traditional": "動作"
+    },
+    {
+      "id": "hsk1-0089",
+      "hanzi": "都",
+      "pinyin": "dōu",
+      "pos": "phó từ",
+      "meaning_vi": "đều, tất cả",
+      "example": {
+        "zh": "我们都是学生。",
+        "pinyin": "wǒmen dōu shì xuésheng.",
+        "vi": "Chúng tôi đều là học sinh."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0090",
+      "hanzi": "读",
+      "pinyin": "dú",
+      "pos": "động từ",
+      "meaning_vi": "đọc",
+      "example": {
+        "zh": "请读一下课文。",
+        "pinyin": "qǐng dú yíxià kèwén.",
+        "vi": "Mời đọc bài khóa."
+      },
+      "traditional": "讀",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0091",
+      "hanzi": "对",
+      "pinyin": "duì",
+      "pos": "tính từ",
+      "meaning_vi": "đúng; đối với",
+      "example": {
+        "zh": "你说得对。",
+        "pinyin": "nǐ shuō de duì.",
+        "vi": "Bạn nói đúng."
+      },
+      "traditional": "對",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0092",
+      "hanzi": "对不起",
+      "pinyin": "duìbuqǐ",
+      "pos": "động từ",
+      "meaning_vi": "xin lỗi",
+      "example": {
+        "zh": "对不起，我来晚了。",
+        "pinyin": "duìbuqǐ, wǒ lái wǎn le.",
+        "vi": "Xin lỗi, tôi đến muộn."
+      },
+      "traditional": "對不起",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0093",
+      "hanzi": "多",
+      "pinyin": "duō",
+      "pos": "tính từ, đại từ",
+      "meaning_vi": "nhiều",
+      "example": {
+        "zh": "他的朋友很多。",
+        "pinyin": "tā de péngyou hěn duō.",
+        "vi": "Anh ấy có rất nhiều bạn."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0094",
+      "hanzi": "多少",
+      "pinyin": "duōshao",
+      "pos": "đại từ",
+      "meaning_vi": "bao nhiêu",
+      "example": {
+        "zh": "这个多少钱？",
+        "pinyin": "zhège duōshao qián?",
+        "vi": "Cái này bao nhiêu tiền?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0095",
+      "hanzi": "读书",
+      "pinyin": "dúshū",
+      "pos": "cụm từ",
+      "meaning_vi": "đọc sách; đi học",
+      "example": {
+        "zh": "我喜欢读书。",
+        "pinyin": "wǒ xǐhuan dúshū.",
+        "vi": "Tôi thích đọc sách."
+      },
+      "traditional": "讀書",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0096",
+      "hanzi": "饿",
+      "pinyin": "è",
+      "pos": "tính từ, động từ",
+      "meaning_vi": "đói",
+      "example": {
+        "zh": "我饿了，我们去吃饭吧。",
+        "pinyin": "wǒ è le, wǒmen qù chīfàn ba.",
+        "vi": "Tôi đói rồi, chúng ta đi ăn nhé."
+      },
+      "traditional": "餓",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0097",
+      "hanzi": "二",
+      "pinyin": "èr",
+      "pos": "số từ",
+      "meaning_vi": "hai (2)",
+      "example": {
+        "zh": "我有二十块钱。",
+        "pinyin": "wǒ yǒu èr shí kuài qián.",
+        "vi": "Tôi có hai mươi tệ."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0098",
+      "hanzi": "儿子",
+      "pinyin": "érzi",
+      "pos": "danh từ",
+      "meaning_vi": "con trai",
+      "example": {
+        "zh": "他儿子是大学生。",
+        "pinyin": "tā érzi shì dàxuéshēng.",
+        "vi": "Con trai ông ấy là sinh viên."
+      },
+      "traditional": "兒子",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0099",
+      "hanzi": "饭",
+      "pinyin": "fàn",
+      "pos": "danh từ",
+      "meaning_vi": "cơm; bữa ăn",
+      "example": {
+        "zh": "你吃饭了吗？",
+        "pinyin": "nǐ chīfàn le ma?",
+        "vi": "Bạn ăn cơm chưa?"
+      },
+      "traditional": "飯",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0100",
+      "hanzi": "饭店",
+      "pinyin": "fàndiàn",
+      "pos": "danh từ",
+      "meaning_vi": "nhà hàng; khách sạn",
+      "example": {
+        "zh": "这个饭店的菜很好吃。",
+        "pinyin": "zhège fàndiàn de cài hěn hǎochī.",
+        "vi": "Món ăn ở nhà hàng này rất ngon."
+      },
+      "traditional": "飯店",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0101",
+      "hanzi": "放",
+      "pinyin": "fàng",
+      "pos": "động từ",
+      "meaning_vi": "đặt, để; thả; nghỉ",
+      "example": {
+        "zh": "书放在桌子上。",
+        "pinyin": "shū fàng zài zhuōzi shàng.",
+        "vi": "Sách để ở trên bàn."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0102",
+      "hanzi": "放假",
+      "pinyin": "fàngjià",
+      "pos": "cụm từ",
+      "meaning_vi": "nghỉ (lễ, hè)",
+      "example": {
+        "zh": "明天放假。",
+        "pinyin": "míngtiān fàngjià.",
+        "vi": "Ngày mai được nghỉ."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0103",
+      "hanzi": "房间",
+      "pinyin": "fángjiān",
+      "pos": "danh từ",
+      "meaning_vi": "căn phòng",
+      "example": {
+        "zh": "我的房间不大。",
+        "pinyin": "wǒ de fángjiān bú dà.",
+        "vi": "Phòng của tôi không lớn."
+      },
+      "traditional": "房間",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0104",
+      "hanzi": "放学",
+      "pinyin": "fàngxué",
+      "pos": "cụm từ",
+      "meaning_vi": "tan học",
+      "example": {
+        "zh": "放学了，我们去打球吧。",
+        "pinyin": "fàngxué le, wǒmen qù dǎ qiú ba.",
+        "vi": "Tan học rồi, chúng ta đi chơi bóng nhé."
+      },
+      "traditional": "放學",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0105",
+      "hanzi": "房子",
+      "pinyin": "fángzi",
+      "pos": "danh từ",
+      "meaning_vi": "ngôi nhà",
+      "example": {
+        "zh": "他们家的房子很大。",
+        "pinyin": "tāmen jiā de fángzi hěn dà.",
+        "vi": "Nhà của họ rất to."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0106",
+      "hanzi": "飞",
+      "pinyin": "fēi",
+      "pos": "động từ",
+      "meaning_vi": "bay",
+      "traditional": "飛",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0107",
+      "hanzi": "非常",
+      "pinyin": "fēicháng",
+      "pos": "phó từ",
+      "meaning_vi": "vô cùng, rất",
+      "example": {
+        "zh": "今天非常热。",
+        "pinyin": "jīntiān fēicháng rè.",
+        "vi": "Hôm nay cực kỳ nóng."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0108",
+      "hanzi": "飞机",
+      "pinyin": "fēijī",
+      "pos": "danh từ",
+      "meaning_vi": "máy bay",
+      "example": {
+        "zh": "我坐飞机去北京。",
+        "pinyin": "wǒ zuò fēijī qù Běijīng.",
+        "vi": "Tôi đi máy bay đến Bắc Kinh."
+      },
+      "traditional": "飛機",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0109",
+      "hanzi": "分",
+      "pinyin": "fēn",
+      "pos": "danh từ, lượng từ",
+      "meaning_vi": "phút; điểm; xu (1/100 tệ)",
+      "example": {
+        "zh": "现在八点十分。",
+        "pinyin": "xiànzài bā diǎn shífēn.",
+        "vi": "Bây giờ là tám giờ mười phút."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0110",
+      "hanzi": "风",
+      "pinyin": "fēng",
+      "pos": "danh từ",
+      "meaning_vi": "gió",
+      "example": {
+        "zh": "今天风很大。",
+        "pinyin": "jīntiān fēng hěn dà.",
+        "vi": "Hôm nay gió rất to."
+      },
+      "traditional": "風",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0111",
+      "hanzi": "干",
+      "pinyin": "gān",
+      "pos": "tính từ",
+      "meaning_vi": "khô",
+      "example": {
+        "zh": "衣服干了。",
+        "pinyin": "yīfu gān le.",
+        "vi": "Quần áo khô rồi."
+      },
+      "traditional": "乾",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0112",
+      "hanzi": "干",
+      "pinyin": "gàn",
+      "pos": "động từ",
+      "meaning_vi": "làm",
+      "example": {
+        "zh": "你在干什么？",
+        "pinyin": "nǐ zài gàn shénme?",
+        "vi": "Bạn đang làm gì thế?"
+      },
+      "traditional": "幹",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0113",
+      "hanzi": "干净",
+      "pinyin": "gānjìng",
+      "pos": "tính từ",
+      "meaning_vi": "sạch sẽ",
+      "example": {
+        "zh": "我的房间很干净。",
+        "pinyin": "wǒ de fángjiān hěn gānjìng.",
+        "vi": "Phòng tôi rất sạch."
+      },
+      "traditional": "乾淨",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0114",
+      "hanzi": "干什么",
+      "pinyin": "gàn shénme",
+      "pos": "cụm từ",
+      "meaning_vi": "làm gì",
+      "example": {
+        "zh": "明天你干什么？",
+        "pinyin": "míngtiān nǐ gàn shénme?",
+        "vi": "Ngày mai bạn làm gì?"
+      },
+      "traditional": "幹什麼"
+    },
+    {
+      "id": "hsk1-0115",
+      "hanzi": "高",
+      "pinyin": "gāo",
+      "pos": "tính từ",
+      "meaning_vi": "cao",
+      "example": {
+        "zh": "我哥哥很高。",
+        "pinyin": "wǒ gēge hěn gāo.",
+        "vi": "Anh trai tôi rất cao."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0116",
+      "hanzi": "告诉",
+      "pinyin": "gàosu",
+      "pos": "động từ",
+      "meaning_vi": "nói cho biết, bảo",
+      "example": {
+        "zh": "请告诉我你的名字。",
+        "pinyin": "qǐng gàosu wǒ nǐ de míngzi.",
+        "vi": "Hãy cho tôi biết tên của bạn."
+      },
+      "traditional": "告訴",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0117",
+      "hanzi": "高兴",
+      "pinyin": "gāoxìng",
+      "pos": "tính từ",
+      "meaning_vi": "vui vẻ, vui mừng",
+      "example": {
+        "zh": "认识你很高兴。",
+        "pinyin": "rènshi nǐ hěn gāoxìng.",
+        "vi": "Rất vui được quen bạn."
+      },
+      "traditional": "高興",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0118",
+      "hanzi": "歌",
+      "pinyin": "gē",
+      "pos": "danh từ",
+      "meaning_vi": "bài hát",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0119",
+      "hanzi": "个",
+      "pinyin": "gè",
+      "pos": "lượng từ",
+      "meaning_vi": "cái, chiếc (lượng từ chung)",
+      "example": {
+        "zh": "我有一个妹妹。",
+        "pinyin": "wǒ yǒu yí ge mèimei.",
+        "vi": "Tôi có một em gái."
+      },
+      "traditional": "個",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0120",
+      "hanzi": "哥哥",
+      "pinyin": "gēge",
+      "pos": "danh từ",
+      "meaning_vi": "anh trai",
+      "example": {
+        "zh": "我哥哥在医院工作。",
+        "pinyin": "wǒ gēge zài yīyuàn gōngzuò.",
+        "vi": "Anh trai tôi làm việc ở bệnh viện."
+      },
+      "notes": "Dạng khác: 哥 (gē)",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0121",
+      "hanzi": "给",
+      "pinyin": "gěi",
+      "pos": "động từ, giới từ",
+      "meaning_vi": "cho, đưa; cho (ai)",
+      "example": {
+        "zh": "请给我一杯水。",
+        "pinyin": "qǐng gěi wǒ yì bēi shuǐ.",
+        "vi": "Xin cho tôi một cốc nước."
+      },
+      "traditional": "給",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0122",
+      "hanzi": "跟",
+      "pinyin": "gēn",
+      "pos": "giới từ, liên từ, động từ",
+      "meaning_vi": "với, cùng",
+      "example": {
+        "zh": "我跟朋友去看电影。",
+        "pinyin": "wǒ gēn péngyou qù kàn diànyǐng.",
+        "vi": "Tôi đi xem phim với bạn."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0123",
+      "hanzi": "工人",
+      "pinyin": "gōngrén",
+      "pos": "danh từ",
+      "meaning_vi": "công nhân",
+      "example": {
+        "zh": "他爸爸是工人。",
+        "pinyin": "tā bàba shì gōngrén.",
+        "vi": "Bố cậu ấy là công nhân."
+      }
+    },
+    {
+      "id": "hsk1-0124",
+      "hanzi": "工作",
+      "pinyin": "gōngzuò",
+      "pos": "động từ, danh từ",
+      "meaning_vi": "công việc; làm việc",
+      "example": {
+        "zh": "你在哪儿工作？",
+        "pinyin": "nǐ zài nǎr gōngzuò?",
+        "vi": "Bạn làm việc ở đâu?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0125",
+      "hanzi": "关",
+      "pinyin": "guān",
+      "pos": "động từ",
+      "meaning_vi": "đóng; tắt",
+      "example": {
+        "zh": "请关门。",
+        "pinyin": "qǐng guān mén.",
+        "vi": "Làm ơn đóng cửa."
+      },
+      "traditional": "關",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0126",
+      "hanzi": "关上",
+      "pinyin": "guānshang",
+      "pos": "cụm từ",
+      "meaning_vi": "đóng lại",
+      "example": {
+        "zh": "请关上电视。",
+        "pinyin": "qǐng guānshang diànshì.",
+        "vi": "Hãy tắt tivi đi."
+      },
+      "traditional": "關上"
+    },
+    {
+      "id": "hsk1-0127",
+      "hanzi": "贵",
+      "pinyin": "guì",
+      "pos": "tính từ",
+      "meaning_vi": "đắt",
+      "example": {
+        "zh": "这个手机太贵了。",
+        "pinyin": "zhège shǒujī tài guì le.",
+        "vi": "Chiếc điện thoại này đắt quá."
+      },
+      "traditional": "貴",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0128",
+      "hanzi": "国",
+      "pinyin": "guó",
+      "pos": "danh từ",
+      "meaning_vi": "nước, quốc gia",
+      "example": {
+        "zh": "你是哪国人？",
+        "pinyin": "nǐ shì nǎ guó rén?",
+        "vi": "Bạn là người nước nào?"
+      },
+      "traditional": "國",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0129",
+      "hanzi": "过",
+      "pinyin": "guò",
+      "pos": "động từ",
+      "meaning_vi": "qua, trải qua; sống",
+      "example": {
+        "zh": "你生日怎么过？",
+        "pinyin": "nǐ shēngrì zěnme guò?",
+        "vi": "Sinh nhật bạn định đón thế nào?"
+      },
+      "traditional": "過",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0130",
+      "hanzi": "国家",
+      "pinyin": "guójiā",
+      "pos": "danh từ",
+      "meaning_vi": "quốc gia, đất nước",
+      "example": {
+        "zh": "中国是一个大国家。",
+        "pinyin": "Zhōngguó shì yí ge dà guójiā.",
+        "vi": "Trung Quốc là một đất nước lớn."
+      },
+      "traditional": "國家",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0131",
+      "hanzi": "国外",
+      "pinyin": "guó wài",
+      "pos": "cụm từ",
+      "meaning_vi": "nước ngoài",
+      "example": {
+        "zh": "他在国外工作。",
+        "pinyin": "tā zài guó wài gōngzuò.",
+        "vi": "Anh ấy làm việc ở nước ngoài."
+      },
+      "traditional": "國外"
+    },
+    {
+      "id": "hsk1-0132",
+      "hanzi": "还",
+      "pinyin": "hái",
+      "pos": "phó từ",
+      "meaning_vi": "còn, vẫn",
+      "example": {
+        "zh": "他还在睡觉。",
+        "pinyin": "tā hái zài shuìjiào.",
+        "vi": "Cậu ấy vẫn đang ngủ."
+      },
+      "traditional": "還",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0133",
+      "hanzi": "还是",
+      "pinyin": "háishi",
+      "pos": "phó từ, liên từ",
+      "meaning_vi": "hay là; vẫn",
+      "example": {
+        "zh": "你喝茶还是喝水？",
+        "pinyin": "nǐ hē chá háishi hē shuǐ?",
+        "vi": "Bạn uống trà hay uống nước?"
+      },
+      "traditional": "還是",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0134",
+      "hanzi": "还有",
+      "pinyin": "hái yǒu",
+      "pos": "cụm từ",
+      "meaning_vi": "còn có; ngoài ra",
+      "example": {
+        "zh": "我有一个哥哥，还有一个妹妹。",
+        "pinyin": "wǒ yǒu yí ge gēge, hái yǒu yí ge mèimei.",
+        "vi": "Tôi có một anh trai, còn có một em gái."
+      },
+      "traditional": "還有"
+    },
+    {
+      "id": "hsk1-0135",
+      "hanzi": "孩子",
+      "pinyin": "háizi",
+      "pos": "danh từ",
+      "meaning_vi": "đứa trẻ; con cái",
+      "example": {
+        "zh": "他们有两个孩子。",
+        "pinyin": "tāmen yǒu liǎng ge háizi.",
+        "vi": "Họ có hai đứa con."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0136",
+      "hanzi": "汉语",
+      "pinyin": "Hànyǔ",
+      "pos": "danh từ",
+      "meaning_vi": "tiếng Hán, tiếng Trung",
+      "example": {
+        "zh": "我在学汉语。",
+        "pinyin": "wǒ zài xué Hànyǔ.",
+        "vi": "Tôi đang học tiếng Trung."
+      },
+      "traditional": "漢語",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0137",
+      "hanzi": "汉字",
+      "pinyin": "Hànzì",
+      "pos": "danh từ",
+      "meaning_vi": "chữ Hán",
+      "example": {
+        "zh": "汉字不太难。",
+        "pinyin": "Hànzì bú tài nán.",
+        "vi": "Chữ Hán không khó lắm."
+      },
+      "traditional": "漢字",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0138",
+      "hanzi": "好",
+      "pinyin": "hǎo",
+      "pos": "tính từ",
+      "meaning_vi": "tốt, hay, ngon",
+      "example": {
+        "zh": "今天天气很好。",
+        "pinyin": "jīntiān tiānqì hěn hǎo.",
+        "vi": "Hôm nay thời tiết rất đẹp."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0139",
+      "hanzi": "号",
+      "pinyin": "hào",
+      "pos": "danh từ, lượng từ",
+      "meaning_vi": "ngày (trong tháng); số",
+      "example": {
+        "zh": "今天几号？",
+        "pinyin": "jīntiān jǐ hào?",
+        "vi": "Hôm nay ngày bao nhiêu?"
+      },
+      "traditional": "號",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0140",
+      "hanzi": "好吃",
+      "pinyin": "hǎochī",
+      "pos": "tính từ",
+      "meaning_vi": "ngon",
+      "example": {
+        "zh": "这个包子很好吃。",
+        "pinyin": "zhège bāozi hěn hǎochī.",
+        "vi": "Cái bánh bao này rất ngon."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0141",
+      "hanzi": "好看",
+      "pinyin": "hǎokàn",
+      "pos": "tính từ",
+      "meaning_vi": "đẹp, hay (để xem)",
+      "example": {
+        "zh": "这个电影很好看。",
+        "pinyin": "zhège diànyǐng hěn hǎokàn.",
+        "vi": "Bộ phim này rất hay."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0142",
+      "hanzi": "好听",
+      "pinyin": "hǎotīng",
+      "pos": "tính từ",
+      "meaning_vi": "hay (nghe), êm tai",
+      "example": {
+        "zh": "你的名字很好听。",
+        "pinyin": "nǐ de míngzi hěn hǎotīng.",
+        "vi": "Tên của bạn rất hay."
+      },
+      "traditional": "好聽",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0143",
+      "hanzi": "好玩儿",
+      "pinyin": "hǎowánr",
+      "pos": "tính từ",
+      "meaning_vi": "vui, thú vị",
+      "example": {
+        "zh": "北京很好玩儿。",
+        "pinyin": "Běijīng hěn hǎowánr.",
+        "vi": "Bắc Kinh rất vui."
+      },
+      "traditional": "好玩兒",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0144",
+      "hanzi": "喝",
+      "pinyin": "hē",
+      "pos": "động từ",
+      "meaning_vi": "uống",
+      "example": {
+        "zh": "我想喝水。",
+        "pinyin": "wǒ xiǎng hē shuǐ.",
+        "vi": "Tôi muốn uống nước."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0145",
+      "hanzi": "和",
+      "pinyin": "hé",
+      "pos": "giới từ, liên từ",
+      "meaning_vi": "và, với",
+      "example": {
+        "zh": "我和妈妈去商店。",
+        "pinyin": "wǒ hé māma qù shāngdiàn.",
+        "vi": "Tôi và mẹ đi cửa hàng."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0146",
+      "hanzi": "很",
+      "pinyin": "hěn",
+      "pos": "phó từ",
+      "meaning_vi": "rất",
+      "example": {
+        "zh": "我很好。",
+        "pinyin": "wǒ hěn hǎo.",
+        "vi": "Tôi rất khỏe."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0147",
+      "hanzi": "后",
+      "pinyin": "hòu",
+      "pos": "danh từ",
+      "meaning_vi": "sau",
+      "example": {
+        "zh": "下课后我去吃饭。",
+        "pinyin": "xiàkè hòu wǒ qù chīfàn.",
+        "vi": "Tan học xong tôi đi ăn."
+      },
+      "traditional": "後",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0148",
+      "hanzi": "后边",
+      "pinyin": "hòubian",
+      "pos": "danh từ",
+      "meaning_vi": "phía sau",
+      "example": {
+        "zh": "学校后边有一个山。",
+        "pinyin": "xuéxiào hòubian yǒu yí ge shān.",
+        "vi": "Phía sau trường có một ngọn núi."
+      },
+      "traditional": "後邊"
+    },
+    {
+      "id": "hsk1-0149",
+      "hanzi": "后天",
+      "pinyin": "hòutiān",
+      "pos": "danh từ",
+      "meaning_vi": "ngày kia",
+      "example": {
+        "zh": "后天是我的生日。",
+        "pinyin": "hòutiān shì wǒ de shēngrì.",
+        "vi": "Ngày kia là sinh nhật tôi."
+      },
+      "traditional": "後天",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0150",
+      "hanzi": "花",
+      "pinyin": "huā",
+      "pos": "danh từ",
+      "meaning_vi": "hoa; tiêu (tiền)",
+      "example": {
+        "zh": "这些花真好看！",
+        "pinyin": "zhèxiē huā zhēn hǎokàn!",
+        "vi": "Những bông hoa này đẹp quá!"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0151",
+      "hanzi": "话",
+      "pinyin": "huà",
+      "pos": "danh từ",
+      "meaning_vi": "lời nói",
+      "traditional": "話"
+    },
+    {
+      "id": "hsk1-0152",
+      "hanzi": "坏",
+      "pinyin": "huài",
+      "pos": "tính từ",
+      "meaning_vi": "hỏng, xấu",
+      "example": {
+        "zh": "我的手机坏了。",
+        "pinyin": "wǒ de shǒujī huài le.",
+        "vi": "Điện thoại của tôi hỏng rồi."
+      },
+      "traditional": "壞",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0153",
+      "hanzi": "还",
+      "pinyin": "huán",
+      "pos": "động từ",
+      "meaning_vi": "trả lại",
+      "example": {
+        "zh": "明天我还你钱。",
+        "pinyin": "míngtiān wǒ huán nǐ qián.",
+        "vi": "Ngày mai tôi trả tiền bạn."
+      },
+      "traditional": "還",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0154",
+      "hanzi": "回",
+      "pinyin": "huí",
+      "pos": "động từ",
+      "meaning_vi": "về; quay lại; lần (lượng từ)",
+      "example": {
+        "zh": "我回家了。",
+        "pinyin": "wǒ huí jiā le.",
+        "vi": "Tôi về nhà rồi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0155",
+      "hanzi": "会",
+      "pinyin": "huì",
+      "pos": "động từ",
+      "meaning_vi": "biết (làm gì); sẽ",
+      "example": {
+        "zh": "我会说汉语。",
+        "pinyin": "wǒ huì shuō Hànyǔ.",
+        "vi": "Tôi biết nói tiếng Trung."
+      },
+      "traditional": "會",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0156",
+      "hanzi": "回答",
+      "pinyin": "huídá",
+      "pos": "động từ, danh từ",
+      "meaning_vi": "trả lời",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0157",
+      "hanzi": "回到",
+      "pinyin": "huídào",
+      "pos": "động từ",
+      "meaning_vi": "trở về (đến)",
+      "example": {
+        "zh": "他晚上十点回到家。",
+        "pinyin": "tā wǎnshang shí diǎn huídào jiā.",
+        "vi": "Anh ấy mười giờ tối về đến nhà."
+      }
+    },
+    {
+      "id": "hsk1-0158",
+      "hanzi": "回家",
+      "pinyin": "huí jiā",
+      "pos": "cụm từ",
+      "meaning_vi": "về nhà",
+      "example": {
+        "zh": "你几点回家？",
+        "pinyin": "nǐ jǐ diǎn huí jiā?",
+        "vi": "Mấy giờ bạn về nhà?"
+      }
+    },
+    {
+      "id": "hsk1-0159",
+      "hanzi": "回来",
+      "pinyin": "huílái",
+      "pos": "cụm từ",
+      "meaning_vi": "trở về, quay về",
+      "example": {
+        "zh": "爸爸回来了！",
+        "pinyin": "bàba huílái le!",
+        "vi": "Bố về rồi!"
+      },
+      "traditional": "回來",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0160",
+      "hanzi": "回去",
+      "pinyin": "huíqù",
+      "pos": "cụm từ",
+      "meaning_vi": "trở về (đó), quay về",
+      "example": {
+        "zh": "我想回去休息。",
+        "pinyin": "wǒ xiǎng huíqù xiūxi.",
+        "vi": "Tôi muốn về nghỉ ngơi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0161",
+      "hanzi": "火车",
+      "pinyin": "huǒchē",
+      "pos": "danh từ",
+      "meaning_vi": "tàu hỏa",
+      "example": {
+        "zh": "我们坐火车去吧。",
+        "pinyin": "wǒmen zuò huǒchē qù ba.",
+        "vi": "Chúng ta đi tàu hỏa nhé."
+      },
+      "traditional": "火車",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0162",
+      "hanzi": "几",
+      "pinyin": "jǐ",
+      "pos": "số từ, đại từ",
+      "meaning_vi": "mấy",
+      "example": {
+        "zh": "你家有几口人？",
+        "pinyin": "nǐ jiā yǒu jǐ kǒu rén?",
+        "vi": "Nhà bạn có mấy người?"
+      },
+      "traditional": "幾",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0163",
+      "hanzi": "记",
+      "pinyin": "jì",
+      "pos": "động từ",
+      "meaning_vi": "ghi nhớ; ghi chép",
+      "example": {
+        "zh": "我记不住这个字。",
+        "pinyin": "wǒ jì bú zhù zhège zì.",
+        "vi": "Tôi không nhớ được chữ này."
+      },
+      "traditional": "記",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0164",
+      "hanzi": "家",
+      "pinyin": "jiā",
+      "pos": "danh từ, lượng từ",
+      "meaning_vi": "nhà, gia đình",
+      "example": {
+        "zh": "我家在北京。",
+        "pinyin": "wǒ jiā zài Běijīng.",
+        "vi": "Nhà tôi ở Bắc Kinh."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0165",
+      "hanzi": "家里",
+      "pinyin": "jiā li",
+      "pos": "cụm từ",
+      "meaning_vi": "trong nhà, ở nhà",
+      "example": {
+        "zh": "家里没有人。",
+        "pinyin": "jiā li méiyǒu rén.",
+        "vi": "Trong nhà không có ai."
+      },
+      "traditional": "家裡"
+    },
+    {
+      "id": "hsk1-0166",
+      "hanzi": "间",
+      "pinyin": "jiān",
+      "pos": "lượng từ",
+      "meaning_vi": "gian, phòng (lượng từ)",
+      "example": {
+        "zh": "这间房间很干净。",
+        "pinyin": "zhè jiān fángjiān hěn gānjìng.",
+        "vi": "Căn phòng này rất sạch."
+      },
+      "traditional": "間",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0167",
+      "hanzi": "见",
+      "pinyin": "jiàn",
+      "pos": "động từ",
+      "meaning_vi": "gặp; thấy",
+      "example": {
+        "zh": "明天见！",
+        "pinyin": "míngtiān jiàn!",
+        "vi": "Mai gặp nhé!"
+      },
+      "traditional": "見",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0168",
+      "hanzi": "见面",
+      "pinyin": "jiànmiàn",
+      "pos": "cụm từ",
+      "meaning_vi": "gặp mặt",
+      "example": {
+        "zh": "我们在哪儿见面？",
+        "pinyin": "wǒmen zài nǎr jiànmiàn?",
+        "vi": "Chúng ta gặp nhau ở đâu?"
+      },
+      "traditional": "見面",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0169",
+      "hanzi": "教",
+      "pinyin": "jiāo",
+      "pos": "động từ",
+      "meaning_vi": "dạy",
+      "example": {
+        "zh": "王老师教我们汉语。",
+        "pinyin": "Wáng lǎoshī jiāo wǒmen Hànyǔ.",
+        "vi": "Thầy Vương dạy chúng tôi tiếng Trung."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0170",
+      "hanzi": "叫",
+      "pinyin": "jiào",
+      "pos": "động từ",
+      "meaning_vi": "gọi; tên là",
+      "example": {
+        "zh": "你叫什么名字？",
+        "pinyin": "nǐ jiào shénme míngzi?",
+        "vi": "Bạn tên là gì?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0171",
+      "hanzi": "教学楼",
+      "pinyin": "jiàoxuélóu",
+      "pos": "danh từ",
+      "meaning_vi": "tòa nhà giảng đường",
+      "example": {
+        "zh": "教学楼在图书馆旁边。",
+        "pinyin": "jiàoxuélóu zài túshūguǎn pángbiān.",
+        "vi": "Tòa giảng đường ở cạnh thư viện."
+      },
+      "traditional": "教學樓"
+    },
+    {
+      "id": "hsk1-0172",
+      "hanzi": "家人",
+      "pinyin": "jiārén",
+      "pos": "danh từ",
+      "meaning_vi": "người nhà",
+      "example": {
+        "zh": "我很想我的家人。",
+        "pinyin": "wǒ hěn xiǎng wǒ de jiārén.",
+        "vi": "Tôi rất nhớ gia đình."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0173",
+      "hanzi": "机场",
+      "pinyin": "jīchǎng",
+      "pos": "danh từ",
+      "meaning_vi": "sân bay",
+      "example": {
+        "zh": "我去机场送朋友。",
+        "pinyin": "wǒ qù jīchǎng sòng péngyou.",
+        "vi": "Tôi ra sân bay tiễn bạn."
+      },
+      "traditional": "機場",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0174",
+      "hanzi": "鸡蛋",
+      "pinyin": "jīdàn",
+      "pos": "danh từ",
+      "meaning_vi": "trứng gà",
+      "example": {
+        "zh": "我早饭吃了一个鸡蛋。",
+        "pinyin": "wǒ zǎofàn chī le yí ge jīdàn.",
+        "vi": "Bữa sáng tôi ăn một quả trứng gà."
+      },
+      "traditional": "雞蛋",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0175",
+      "hanzi": "记得",
+      "pinyin": "jìde",
+      "pos": "động từ",
+      "meaning_vi": "nhớ",
+      "example": {
+        "zh": "你还记得我吗？",
+        "pinyin": "nǐ hái jìde wǒ ma?",
+        "vi": "Bạn còn nhớ tôi không?"
+      },
+      "traditional": "記得",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0176",
+      "hanzi": "姐姐",
+      "pinyin": "jiějie",
+      "pos": "danh từ",
+      "meaning_vi": "chị gái",
+      "notes": "Dạng khác: 姐 (jiě)",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0177",
+      "hanzi": "介绍",
+      "pinyin": "jièshào",
+      "pos": "động từ",
+      "meaning_vi": "giới thiệu",
+      "example": {
+        "zh": "我来介绍一下儿。",
+        "pinyin": "wǒ lái jièshào yíxiàr.",
+        "vi": "Để tôi giới thiệu một chút."
+      },
+      "traditional": "介紹",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0178",
+      "hanzi": "进",
+      "pinyin": "jìn",
+      "pos": "động từ",
+      "meaning_vi": "vào",
+      "example": {
+        "zh": "请进！",
+        "pinyin": "qǐng jìn!",
+        "vi": "Mời vào!"
+      },
+      "traditional": "進",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0179",
+      "hanzi": "进来",
+      "pinyin": "jìnlái",
+      "pos": "cụm từ",
+      "meaning_vi": "đi vào (hướng về người nói)",
+      "example": {
+        "zh": "外边很冷，快进来吧。",
+        "pinyin": "wàibian hěn lěng, kuài jìnlái ba.",
+        "vi": "Bên ngoài lạnh lắm, mau vào đi."
+      },
+      "traditional": "進來",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0180",
+      "hanzi": "今年",
+      "pinyin": "jīnnián",
+      "pos": "danh từ",
+      "meaning_vi": "năm nay",
+      "example": {
+        "zh": "我今年二十岁。",
+        "pinyin": "wǒ jīnnián èr shí suì.",
+        "vi": "Năm nay tôi hai mươi tuổi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0181",
+      "hanzi": "进去",
+      "pinyin": "jìnqù",
+      "pos": "cụm từ",
+      "meaning_vi": "đi vào (trong đó)",
+      "example": {
+        "zh": "我们进去看看。",
+        "pinyin": "wǒmen jìnqù kàn kàn.",
+        "vi": "Chúng ta vào trong xem thử."
+      },
+      "traditional": "進去",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0182",
+      "hanzi": "今天",
+      "pinyin": "jīntiān",
+      "pos": "danh từ",
+      "meaning_vi": "hôm nay",
+      "example": {
+        "zh": "今天星期一。",
+        "pinyin": "jīntiān xīngqīyī.",
+        "vi": "Hôm nay là thứ hai."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0183",
+      "hanzi": "机票",
+      "pinyin": "jīpiào",
+      "pos": "danh từ",
+      "meaning_vi": "vé máy bay",
+      "example": {
+        "zh": "机票很贵。",
+        "pinyin": "jīpiào hěn guì.",
+        "vi": "Vé máy bay rất đắt."
+      },
+      "traditional": "機票",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0184",
+      "hanzi": "九",
+      "pinyin": "jiǔ",
+      "pos": "số từ",
+      "meaning_vi": "chín (9)",
+      "example": {
+        "zh": "我九点上课。",
+        "pinyin": "wǒ jiǔ diǎn shàngkè.",
+        "vi": "Chín giờ tôi vào học."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0185",
+      "hanzi": "就",
+      "pinyin": "jiù",
+      "pos": "phó từ",
+      "meaning_vi": "thì; liền, ngay",
+      "example": {
+        "zh": "我马上就来。",
+        "pinyin": "wǒ mǎshàng jiù lái.",
+        "vi": "Tôi đến ngay đây."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0186",
+      "hanzi": "记住",
+      "pinyin": "jìzhù",
+      "pos": "cụm từ",
+      "meaning_vi": "nhớ kỹ, ghi nhớ",
+      "example": {
+        "zh": "请记住我的电话。",
+        "pinyin": "qǐng jìzhù wǒ de diànhuà.",
+        "vi": "Hãy nhớ số điện thoại của tôi."
+      },
+      "traditional": "記住"
+    },
+    {
+      "id": "hsk1-0187",
+      "hanzi": "觉得",
+      "pinyin": "juéde",
+      "pos": "động từ",
+      "meaning_vi": "cảm thấy, thấy",
+      "traditional": "覺得",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0188",
+      "hanzi": "开",
+      "pinyin": "kāi",
+      "pos": "động từ",
+      "meaning_vi": "mở; lái (xe)",
+      "example": {
+        "zh": "请开门。",
+        "pinyin": "qǐng kāi mén.",
+        "vi": "Làm ơn mở cửa."
+      },
+      "traditional": "開",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0189",
+      "hanzi": "开车",
+      "pinyin": "kāichē",
+      "pos": "cụm từ",
+      "meaning_vi": "lái xe",
+      "example": {
+        "zh": "我爸爸开车去上班。",
+        "pinyin": "wǒ bàba kāichē qù shàngbān.",
+        "vi": "Bố tôi lái xe đi làm."
+      },
+      "traditional": "開車",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0190",
+      "hanzi": "开会",
+      "pinyin": "kāihuì",
+      "pos": "cụm từ",
+      "meaning_vi": "họp",
+      "example": {
+        "zh": "老师们在开会。",
+        "pinyin": "lǎoshī men zài kāihuì.",
+        "vi": "Các thầy cô đang họp."
+      },
+      "traditional": "開會",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0191",
+      "hanzi": "开玩笑",
+      "pinyin": "kāi wánxiào",
+      "pos": "cụm từ",
+      "meaning_vi": "nói đùa",
+      "example": {
+        "zh": "别开玩笑了！",
+        "pinyin": "bié kāi wánxiào le!",
+        "vi": "Đừng đùa nữa!"
+      },
+      "traditional": "開玩笑"
+    },
+    {
+      "id": "hsk1-0192",
+      "hanzi": "看",
+      "pinyin": "kàn",
+      "pos": "động từ",
+      "meaning_vi": "xem, nhìn; đọc",
+      "example": {
+        "zh": "我在看书。",
+        "pinyin": "wǒ zài kàn shū.",
+        "vi": "Tôi đang đọc sách."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0193",
+      "hanzi": "看病",
+      "pinyin": "kànbìng",
+      "pos": "cụm từ",
+      "meaning_vi": "khám bệnh",
+      "example": {
+        "zh": "我去医院看病。",
+        "pinyin": "wǒ qù yīyuàn kànbìng.",
+        "vi": "Tôi đi bệnh viện khám bệnh."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0194",
+      "hanzi": "看到",
+      "pinyin": "kàndào",
+      "pos": "cụm từ",
+      "meaning_vi": "nhìn thấy",
+      "example": {
+        "zh": "我看到他了。",
+        "pinyin": "wǒ kàndào tā le.",
+        "vi": "Tôi nhìn thấy anh ấy rồi."
+      }
+    },
+    {
+      "id": "hsk1-0195",
+      "hanzi": "看见",
+      "pinyin": "kànjiàn",
+      "pos": "cụm từ",
+      "meaning_vi": "trông thấy",
+      "example": {
+        "zh": "你看见我的手机了吗？",
+        "pinyin": "nǐ kànjiàn wǒ de shǒujī le ma?",
+        "vi": "Bạn có thấy điện thoại của tôi không?"
+      },
+      "traditional": "看見",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0196",
+      "hanzi": "考",
+      "pinyin": "kǎo",
+      "pos": "động từ",
+      "meaning_vi": "thi",
+      "example": {
+        "zh": "他考得很好。",
+        "pinyin": "tā kǎo de hěn hǎo.",
+        "vi": "Cậu ấy thi rất tốt."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0197",
+      "hanzi": "考试",
+      "pinyin": "kǎoshì",
+      "pos": "cụm từ",
+      "meaning_vi": "kỳ thi; thi",
+      "example": {
+        "zh": "明天有汉语考试。",
+        "pinyin": "míngtiān yǒu Hànyǔ kǎoshì.",
+        "vi": "Ngày mai có bài thi tiếng Trung."
+      },
+      "traditional": "考試",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0198",
+      "hanzi": "渴",
+      "pinyin": "kě",
+      "pos": "tính từ",
+      "meaning_vi": "khát",
+      "example": {
+        "zh": "我渴了，想喝水。",
+        "pinyin": "wǒ kě le, xiǎng hē shuǐ.",
+        "vi": "Tôi khát, muốn uống nước."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0199",
+      "hanzi": "课",
+      "pinyin": "kè",
+      "pos": "danh từ",
+      "meaning_vi": "bài học; tiết học",
+      "example": {
+        "zh": "今天下午没有课。",
+        "pinyin": "jīntiān xiàwǔ méiyǒu kè.",
+        "vi": "Chiều nay không có tiết học."
+      },
+      "traditional": "課",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0200",
+      "hanzi": "课本",
+      "pinyin": "kèběn",
+      "pos": "danh từ",
+      "meaning_vi": "sách giáo khoa",
+      "example": {
+        "zh": "请打开课本。",
+        "pinyin": "qǐng dǎkāi kèběn.",
+        "vi": "Mời mở sách giáo khoa."
+      },
+      "traditional": "課本",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0201",
+      "hanzi": "课文",
+      "pinyin": "kèwén",
+      "pos": "danh từ",
+      "meaning_vi": "bài khóa",
+      "traditional": "課文",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0202",
+      "hanzi": "口",
+      "pinyin": "kǒu",
+      "pos": "lượng từ, danh từ",
+      "meaning_vi": "miệng; người (lượng từ cho thành viên gia đình)",
+      "example": {
+        "zh": "我家有四口人。",
+        "pinyin": "wǒ jiā yǒu sì kǒu rén.",
+        "vi": "Nhà tôi có bốn người."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0203",
+      "hanzi": "块",
+      "pinyin": "kuài",
+      "pos": "danh từ, lượng từ",
+      "meaning_vi": "đồng, tệ (khẩu ngữ); miếng",
+      "example": {
+        "zh": "一杯茶五块钱。",
+        "pinyin": "yì bēi chá wǔ kuài qián.",
+        "vi": "Một cốc trà năm tệ."
+      },
+      "traditional": "塊",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0204",
+      "hanzi": "快",
+      "pinyin": "kuài",
+      "pos": "tính từ, phó từ",
+      "meaning_vi": "nhanh",
+      "example": {
+        "zh": "他跑得很快。",
+        "pinyin": "tā pǎo de hěn kuài.",
+        "vi": "Anh ấy chạy rất nhanh."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0205",
+      "hanzi": "来",
+      "pinyin": "lái",
+      "pos": "động từ",
+      "meaning_vi": "đến, tới",
+      "example": {
+        "zh": "你什么时候来？",
+        "pinyin": "nǐ shénme shíhou lái?",
+        "vi": "Khi nào bạn đến?"
+      },
+      "traditional": "來",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0206",
+      "hanzi": "来到",
+      "pinyin": "láidào",
+      "pos": "động từ",
+      "meaning_vi": "đến (nơi nào)",
+      "traditional": "來到"
+    },
+    {
+      "id": "hsk1-0207",
+      "hanzi": "老",
+      "pinyin": "lǎo",
+      "pos": "tính từ",
+      "meaning_vi": "già, cũ",
+      "example": {
+        "zh": "爷爷老了。",
+        "pinyin": "yéye lǎo le.",
+        "vi": "Ông đã già rồi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0208",
+      "hanzi": "老人",
+      "pinyin": "lǎorén",
+      "pos": "danh từ",
+      "meaning_vi": "người già",
+      "example": {
+        "zh": "老人走得很慢。",
+        "pinyin": "lǎorén zǒu de hěn màn.",
+        "vi": "Người già đi rất chậm."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0209",
+      "hanzi": "老师",
+      "pinyin": "lǎoshī",
+      "pos": "danh từ",
+      "meaning_vi": "thầy giáo, cô giáo",
+      "example": {
+        "zh": "她是我们的汉语老师。",
+        "pinyin": "tā shì wǒmen de Hànyǔ lǎoshī.",
+        "vi": "Cô ấy là giáo viên tiếng Trung của chúng tôi."
+      },
+      "traditional": "老師",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0210",
+      "hanzi": "了",
+      "pinyin": "le",
+      "pos": "trợ từ",
+      "meaning_vi": "rồi, đã (trợ từ)",
+      "example": {
+        "zh": "我吃饭了。",
+        "pinyin": "wǒ chīfàn le.",
+        "vi": "Tôi ăn cơm rồi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0211",
+      "hanzi": "累",
+      "pinyin": "lèi",
+      "pos": "tính từ",
+      "meaning_vi": "mệt",
+      "example": {
+        "zh": "今天工作很多，我很累。",
+        "pinyin": "jīntiān gōngzuò hěn duō, wǒ hěn lèi.",
+        "vi": "Hôm nay nhiều việc, tôi rất mệt."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0212",
+      "hanzi": "冷",
+      "pinyin": "lěng",
+      "pos": "tính từ",
+      "meaning_vi": "lạnh",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0213",
+      "hanzi": "里",
+      "pinyin": "lǐ",
+      "pos": "danh từ",
+      "meaning_vi": "trong",
+      "example": {
+        "zh": "书在包里。",
+        "pinyin": "shū zài bāo lǐ.",
+        "vi": "Sách ở trong túi."
+      },
+      "traditional": "裡",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0214",
+      "hanzi": "两",
+      "pinyin": "liǎng",
+      "pos": "số từ",
+      "meaning_vi": "hai (dùng trước lượng từ)",
+      "example": {
+        "zh": "我有两个哥哥。",
+        "pinyin": "wǒ yǒu liǎng ge gēge.",
+        "vi": "Tôi có hai anh trai."
+      },
+      "traditional": "兩",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0215",
+      "hanzi": "里边",
+      "pinyin": "lǐbian",
+      "pos": "danh từ",
+      "meaning_vi": "bên trong",
+      "example": {
+        "zh": "房间里边有人吗？",
+        "pinyin": "fángjiān lǐbian yǒu rén ma?",
+        "vi": "Trong phòng có ai không?"
+      },
+      "traditional": "裡邊"
+    },
+    {
+      "id": "hsk1-0216",
+      "hanzi": "零",
+      "pinyin": "líng",
+      "pos": "số từ",
+      "meaning_vi": "số không (0)",
+      "notes": "Dạng khác: 〇 (líng)",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0217",
+      "hanzi": "六",
+      "pinyin": "liù",
+      "pos": "số từ",
+      "meaning_vi": "sáu (6)",
+      "example": {
+        "zh": "我早上六点起床。",
+        "pinyin": "wǒ zǎoshang liù diǎn qǐ chuáng.",
+        "vi": "Tôi dậy lúc sáu giờ sáng."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0218",
+      "hanzi": "楼",
+      "pinyin": "lóu",
+      "pos": "danh từ",
+      "meaning_vi": "tòa nhà; tầng",
+      "example": {
+        "zh": "我住在三楼。",
+        "pinyin": "wǒ zhù zài sān lóu.",
+        "vi": "Tôi sống ở tầng ba."
+      },
+      "traditional": "樓",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0219",
+      "hanzi": "楼上",
+      "pinyin": "lóu shàng",
+      "pos": "cụm từ",
+      "meaning_vi": "tầng trên",
+      "example": {
+        "zh": "洗手间在楼上。",
+        "pinyin": "xǐshǒujiān zài lóu shàng.",
+        "vi": "Nhà vệ sinh ở tầng trên."
+      },
+      "traditional": "樓上"
+    },
+    {
+      "id": "hsk1-0220",
+      "hanzi": "楼下",
+      "pinyin": "lóu xià",
+      "pos": "cụm từ",
+      "meaning_vi": "tầng dưới",
+      "example": {
+        "zh": "我在楼下等你。",
+        "pinyin": "wǒ zài lóu xià děng nǐ.",
+        "vi": "Tôi đợi bạn ở dưới nhà."
+      },
+      "traditional": "樓下"
+    },
+    {
+      "id": "hsk1-0221",
+      "hanzi": "路",
+      "pinyin": "lù",
+      "pos": "danh từ, lượng từ",
+      "meaning_vi": "đường; tuyến (xe buýt)",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0222",
+      "hanzi": "路口",
+      "pinyin": "lùkǒu",
+      "pos": "danh từ",
+      "meaning_vi": "ngã tư, giao lộ",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0223",
+      "hanzi": "路上",
+      "pinyin": "lùshang",
+      "pos": "danh từ",
+      "meaning_vi": "trên đường",
+      "example": {
+        "zh": "路上车很多。",
+        "pinyin": "lù shàng chē hěn duō.",
+        "vi": "Trên đường rất nhiều xe."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0224",
+      "hanzi": "吗",
+      "pinyin": "ma",
+      "pos": "trợ từ",
+      "meaning_vi": "không? (trợ từ nghi vấn)",
+      "example": {
+        "zh": "你是老师吗？",
+        "pinyin": "nǐ shì lǎoshī ma?",
+        "vi": "Bạn là giáo viên phải không?"
+      },
+      "traditional": "嗎",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0225",
+      "hanzi": "买",
+      "pinyin": "mǎi",
+      "pos": "động từ",
+      "meaning_vi": "mua",
+      "example": {
+        "zh": "我想买一个手机。",
+        "pinyin": "wǒ xiǎng mǎi yí ge shǒujī.",
+        "vi": "Tôi muốn mua một chiếc điện thoại."
+      },
+      "traditional": "買",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0226",
+      "hanzi": "马路",
+      "pinyin": "mǎlù",
+      "pos": "danh từ",
+      "meaning_vi": "đường cái, đường phố",
+      "traditional": "馬路",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0227",
+      "hanzi": "妈妈",
+      "pinyin": "māma",
+      "pos": "danh từ",
+      "meaning_vi": "mẹ",
+      "example": {
+        "zh": "妈妈在做饭。",
+        "pinyin": "māma zài zuòfàn.",
+        "vi": "Mẹ đang nấu cơm."
+      },
+      "traditional": "媽媽",
+      "notes": "Dạng khác: 妈 (mā)",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0228",
+      "hanzi": "慢",
+      "pinyin": "màn",
+      "pos": "tính từ",
+      "meaning_vi": "chậm",
+      "example": {
+        "zh": "请说慢一点儿。",
+        "pinyin": "qǐng shuō màn yìdiǎnr.",
+        "vi": "Xin nói chậm một chút."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0229",
+      "hanzi": "忙",
+      "pinyin": "máng",
+      "pos": "tính từ",
+      "meaning_vi": "bận",
+      "example": {
+        "zh": "爸爸工作很忙。",
+        "pinyin": "bàba gōngzuò hěn máng.",
+        "vi": "Bố làm việc rất bận."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0230",
+      "hanzi": "毛",
+      "pinyin": "máo",
+      "pos": "lượng từ",
+      "meaning_vi": "hào (1/10 tệ, khẩu ngữ); lông",
+      "example": {
+        "zh": "这个本子三块五毛。",
+        "pinyin": "zhège běnzi sān kuài wǔ máo.",
+        "vi": "Quyển vở này ba tệ năm hào."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0231",
+      "hanzi": "马上",
+      "pinyin": "mǎshàng",
+      "pos": "phó từ",
+      "meaning_vi": "ngay, lập tức",
+      "example": {
+        "zh": "我马上回来。",
+        "pinyin": "wǒ mǎshàng huílái.",
+        "vi": "Tôi quay lại ngay."
+      },
+      "traditional": "馬上",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0232",
+      "hanzi": "没",
+      "pinyin": "méi",
+      "pos": "phó từ, động từ",
+      "meaning_vi": "không, chưa (có)",
+      "example": {
+        "zh": "我没去学校。",
+        "pinyin": "wǒ méi qù xuéxiào.",
+        "vi": "Tôi không đi học."
+      },
+      "traditional": "沒"
+    },
+    {
+      "id": "hsk1-0233",
+      "hanzi": "没关系",
+      "pinyin": "méi guānxi",
+      "pos": "cụm từ",
+      "meaning_vi": "không sao",
+      "example": {
+        "zh": "A：对不起！B：没关系。",
+        "pinyin": "A: duìbuqǐ! B: méi guānxi.",
+        "vi": "A: Xin lỗi! B: Không sao."
+      },
+      "traditional": "沒關係",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0234",
+      "hanzi": "妹妹",
+      "pinyin": "mèimei",
+      "pos": "danh từ",
+      "meaning_vi": "em gái",
+      "example": {
+        "zh": "我妹妹是小学生。",
+        "pinyin": "wǒ mèimei shì xiǎoxuéshēng.",
+        "vi": "Em gái tôi là học sinh tiểu học."
+      },
+      "notes": "Dạng khác: 妹 (mèi)",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0235",
+      "hanzi": "没什么",
+      "pinyin": "méi shénme",
+      "pos": "cụm từ",
+      "meaning_vi": "không có gì",
+      "traditional": "沒什麼"
+    },
+    {
+      "id": "hsk1-0236",
+      "hanzi": "没事儿",
+      "pinyin": "méishìr",
+      "pos": "cụm từ",
+      "meaning_vi": "không sao; không có việc gì",
+      "traditional": "沒事兒"
+    },
+    {
+      "id": "hsk1-0237",
+      "hanzi": "没有",
+      "pinyin": "méiyǒu",
+      "pos": "động từ, phó từ",
+      "meaning_vi": "không có; chưa",
+      "example": {
+        "zh": "我没有电脑。",
+        "pinyin": "wǒ méiyǒu diànnǎo.",
+        "vi": "Tôi không có máy tính."
+      },
+      "traditional": "沒有",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0238",
+      "hanzi": "门",
+      "pinyin": "mén",
+      "pos": "danh từ, lượng từ",
+      "meaning_vi": "cửa",
+      "example": {
+        "zh": "门开着。",
+        "pinyin": "mén kāi zhe.",
+        "vi": "Cửa đang mở."
+      },
+      "traditional": "門",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0239",
+      "hanzi": "们",
+      "pinyin": "men",
+      "pos": "trợ từ",
+      "meaning_vi": "(hậu tố số nhiều: các, những)",
+      "example": {
+        "zh": "同学们，早上好！",
+        "pinyin": "tóngxué men, zǎoshang hǎo!",
+        "vi": "Chào các em buổi sáng!"
+      },
+      "notes": "Ví dụ dùng: 朋友们; Phụ tố (词缀)",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0240",
+      "hanzi": "门口",
+      "pinyin": "ménkǒu",
+      "pos": "danh từ",
+      "meaning_vi": "cửa ra vào, trước cửa",
+      "example": {
+        "zh": "我在学校门口等你。",
+        "pinyin": "wǒ zài xuéxiào ménkǒu děng nǐ.",
+        "vi": "Tôi đợi bạn ở cổng trường."
+      },
+      "traditional": "門口",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0241",
+      "hanzi": "门票",
+      "pinyin": "ménpiào",
+      "pos": "danh từ",
+      "meaning_vi": "vé vào cửa",
+      "example": {
+        "zh": "门票多少钱？",
+        "pinyin": "ménpiào duōshao qián?",
+        "vi": "Vé vào cửa bao nhiêu tiền?"
+      },
+      "traditional": "門票",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0242",
+      "hanzi": "面包",
+      "pinyin": "miànbāo",
+      "pos": "danh từ",
+      "meaning_vi": "bánh mì",
+      "example": {
+        "zh": "早上我吃面包，喝牛奶。",
+        "pinyin": "zǎoshang wǒ chī miànbāo, hē niúnǎi.",
+        "vi": "Buổi sáng tôi ăn bánh mì, uống sữa."
+      },
+      "traditional": "麵包",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0243",
+      "hanzi": "面条儿",
+      "pinyin": "miàntiáor",
+      "pos": "danh từ",
+      "meaning_vi": "mì sợi",
+      "example": {
+        "zh": "中午我想吃面条儿。",
+        "pinyin": "zhōngwǔ wǒ xiǎng chī miàntiáor.",
+        "vi": "Trưa nay tôi muốn ăn mì."
+      },
+      "traditional": "麵條兒",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0244",
+      "hanzi": "米饭",
+      "pinyin": "mǐfàn",
+      "pos": "danh từ",
+      "meaning_vi": "cơm (gạo)",
+      "traditional": "米飯",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0245",
+      "hanzi": "明白",
+      "pinyin": "míngbai",
+      "pos": "tính từ, động từ",
+      "meaning_vi": "hiểu; rõ ràng",
+      "example": {
+        "zh": "我明白了，谢谢！",
+        "pinyin": "wǒ míngbai le, xièxie!",
+        "vi": "Tôi hiểu rồi, cảm ơn!"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0246",
+      "hanzi": "明年",
+      "pinyin": "míngnián",
+      "pos": "danh từ",
+      "meaning_vi": "năm sau",
+      "example": {
+        "zh": "明年我想去中国。",
+        "pinyin": "míngnián wǒ xiǎng qù Zhōngguó.",
+        "vi": "Năm sau tôi muốn đi Trung Quốc."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0247",
+      "hanzi": "明天",
+      "pinyin": "míngtiān",
+      "pos": "danh từ",
+      "meaning_vi": "ngày mai",
+      "example": {
+        "zh": "明天见！",
+        "pinyin": "míngtiān jiàn!",
+        "vi": "Mai gặp lại!"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0248",
+      "hanzi": "名字",
+      "pinyin": "míngzi",
+      "pos": "danh từ",
+      "meaning_vi": "tên",
+      "example": {
+        "zh": "他的名字叫什么？",
+        "pinyin": "tā de míngzi jiào shénme?",
+        "vi": "Anh ấy tên là gì?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0249",
+      "hanzi": "拿",
+      "pinyin": "ná",
+      "pos": "động từ",
+      "meaning_vi": "cầm, lấy",
+      "example": {
+        "zh": "你手里拿着什么？",
+        "pinyin": "nǐ shǒu li ná zhe shénme?",
+        "vi": "Bạn đang cầm gì trong tay?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0250",
+      "hanzi": "哪",
+      "pinyin": "nǎ",
+      "pos": "đại từ",
+      "meaning_vi": "nào",
+      "example": {
+        "zh": "你是哪国人？",
+        "pinyin": "nǐ shì nǎ guó rén?",
+        "vi": "Bạn là người nước nào?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0251",
+      "hanzi": "那",
+      "pinyin": "nà",
+      "pos": "đại từ",
+      "meaning_vi": "kia, đó",
+      "example": {
+        "zh": "那是谁？",
+        "pinyin": "nà shì shéi?",
+        "vi": "Kia là ai?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0252",
+      "hanzi": "那边",
+      "pinyin": "nàbiān",
+      "pos": "đại từ",
+      "meaning_vi": "bên kia, đằng kia",
+      "example": {
+        "zh": "车站在那边。",
+        "pinyin": "chēzhàn zài nàbiān.",
+        "vi": "Bến xe ở đằng kia."
+      },
+      "traditional": "那邊",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0253",
+      "hanzi": "奶",
+      "pinyin": "nǎi",
+      "pos": "danh từ",
+      "meaning_vi": "sữa",
+      "example": {
+        "zh": "孩子在喝奶。",
+        "pinyin": "háizi zài hē nǎi.",
+        "vi": "Em bé đang uống sữa."
+      }
+    },
+    {
+      "id": "hsk1-0254",
+      "hanzi": "奶奶",
+      "pinyin": "nǎinai",
+      "pos": "danh từ",
+      "meaning_vi": "bà nội",
+      "example": {
+        "zh": "我奶奶七十岁了。",
+        "pinyin": "wǒ nǎinai qī shí suì le.",
+        "vi": "Bà nội tôi bảy mươi tuổi rồi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0255",
+      "hanzi": "哪里",
+      "pinyin": "nǎlǐ",
+      "pos": "đại từ",
+      "meaning_vi": "ở đâu",
+      "example": {
+        "zh": "你住在哪里？",
+        "pinyin": "nǐ zhù zài nǎlǐ?",
+        "vi": "Bạn sống ở đâu?"
+      },
+      "traditional": "哪裡",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0256",
+      "hanzi": "那里",
+      "pinyin": "nàlǐ",
+      "pos": "đại từ",
+      "meaning_vi": "ở đó, chỗ đó",
+      "example": {
+        "zh": "那里的天气很热。",
+        "pinyin": "nàlǐ de tiānqì hěn rè.",
+        "vi": "Thời tiết ở đó rất nóng."
+      },
+      "traditional": "那裡",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0257",
+      "hanzi": "南",
+      "pinyin": "nán",
+      "pos": "danh từ",
+      "meaning_vi": "phía nam",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0258",
+      "hanzi": "男",
+      "pinyin": "nán",
+      "pos": "tính từ",
+      "meaning_vi": "nam",
+      "example": {
+        "zh": "我们班男学生多。",
+        "pinyin": "wǒmen bān nán xuésheng duō.",
+        "vi": "Lớp chúng tôi nhiều học sinh nam."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0259",
+      "hanzi": "难",
+      "pinyin": "nán",
+      "pos": "tính từ",
+      "meaning_vi": "khó",
+      "example": {
+        "zh": "汉字难不难？",
+        "pinyin": "Hànzì nán bu nán?",
+        "vi": "Chữ Hán có khó không?"
+      },
+      "traditional": "難",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0260",
+      "hanzi": "南边",
+      "pinyin": "nánbian",
+      "pos": "danh từ",
+      "meaning_vi": "phía nam",
+      "example": {
+        "zh": "商店在学校南边。",
+        "pinyin": "shāngdiàn zài xuéxiào nánbian.",
+        "vi": "Cửa hàng ở phía nam trường học."
+      },
+      "traditional": "南邊"
+    },
+    {
+      "id": "hsk1-0261",
+      "hanzi": "男孩儿",
+      "pinyin": "nánháir",
+      "pos": "danh từ",
+      "meaning_vi": "bé trai, cậu bé",
+      "example": {
+        "zh": "那个男孩儿是我弟弟。",
+        "pinyin": "nàge nánháir shì wǒ dìdi.",
+        "vi": "Cậu bé kia là em trai tôi."
+      },
+      "traditional": "男孩兒",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0262",
+      "hanzi": "男朋友",
+      "pinyin": "nánpéngyou",
+      "pos": "danh từ",
+      "meaning_vi": "bạn trai",
+      "example": {
+        "zh": "她有男朋友了。",
+        "pinyin": "tā yǒu nánpéngyou le.",
+        "vi": "Cô ấy có bạn trai rồi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0263",
+      "hanzi": "男人",
+      "pinyin": "nánrén",
+      "pos": "danh từ",
+      "meaning_vi": "đàn ông",
+      "example": {
+        "zh": "那个男人是谁？",
+        "pinyin": "nàge nánrén shì shéi?",
+        "vi": "Người đàn ông kia là ai?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0264",
+      "hanzi": "男生",
+      "pinyin": "nánshēng",
+      "pos": "danh từ",
+      "meaning_vi": "nam sinh, con trai",
+      "example": {
+        "zh": "男生在打球。",
+        "pinyin": "nánshēng zài dǎ qiú.",
+        "vi": "Các bạn nam đang chơi bóng."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0265",
+      "hanzi": "哪儿",
+      "pinyin": "nǎr",
+      "pos": "đại từ",
+      "meaning_vi": "đâu, ở đâu",
+      "example": {
+        "zh": "洗手间在哪儿？",
+        "pinyin": "xǐshǒujiān zài nǎr?",
+        "vi": "Nhà vệ sinh ở đâu?"
+      },
+      "traditional": "哪兒",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0266",
+      "hanzi": "那儿",
+      "pinyin": "nàr",
+      "pos": "đại từ",
+      "meaning_vi": "chỗ đó, ở đó",
+      "example": {
+        "zh": "你在那儿等我。",
+        "pinyin": "nǐ zài nàr děng wǒ.",
+        "vi": "Bạn đợi tôi ở đó nhé."
+      },
+      "traditional": "那兒",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0267",
+      "hanzi": "哪些",
+      "pinyin": "nǎxiē",
+      "pos": "đại từ",
+      "meaning_vi": "những … nào",
+      "example": {
+        "zh": "你去过哪些地方？",
+        "pinyin": "nǐ qù guo nǎxiē dìfang?",
+        "vi": "Bạn đã đến những nơi nào?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0268",
+      "hanzi": "那些",
+      "pinyin": "nàxiē",
+      "pos": "đại từ",
+      "meaning_vi": "những … kia",
+      "example": {
+        "zh": "那些书是谁的？",
+        "pinyin": "nàxiē shū shì shéi de?",
+        "vi": "Những quyển sách kia là của ai?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0269",
+      "hanzi": "呢",
+      "pinyin": "ne",
+      "pos": "trợ từ",
+      "meaning_vi": "thì sao? còn …? (trợ từ)",
+      "example": {
+        "zh": "我很好，你呢？",
+        "pinyin": "wǒ hěn hǎo, nǐ ne?",
+        "vi": "Tôi khỏe, còn bạn?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0270",
+      "hanzi": "能",
+      "pinyin": "néng",
+      "pos": "động từ",
+      "meaning_vi": "có thể",
+      "example": {
+        "zh": "你明天能来吗？",
+        "pinyin": "nǐ míngtiān néng lái ma?",
+        "vi": "Ngày mai bạn đến được không?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0271",
+      "hanzi": "你",
+      "pinyin": "nǐ",
+      "pos": "đại từ",
+      "meaning_vi": "bạn, anh, chị (ngôi thứ hai)",
+      "example": {
+        "zh": "你好！",
+        "pinyin": "nǐ hǎo!",
+        "vi": "Xin chào!"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0272",
+      "hanzi": "年",
+      "pinyin": "nián",
+      "pos": "lượng từ",
+      "meaning_vi": "năm",
+      "example": {
+        "zh": "我学了一年汉语。",
+        "pinyin": "wǒ xué le yì nián Hànyǔ.",
+        "vi": "Tôi đã học tiếng Trung một năm."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0273",
+      "hanzi": "你们",
+      "pinyin": "nǐmen",
+      "pos": "đại từ",
+      "meaning_vi": "các bạn",
+      "example": {
+        "zh": "你们是学生吗？",
+        "pinyin": "nǐmen shì xuésheng ma?",
+        "vi": "Các bạn là học sinh phải không?"
+      },
+      "traditional": "你們",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0274",
+      "hanzi": "您",
+      "pinyin": "nín",
+      "pos": "đại từ",
+      "meaning_vi": "ông, bà, ngài (kính trọng)",
+      "example": {
+        "zh": "您好，请坐！",
+        "pinyin": "nín hǎo, qǐng zuò!",
+        "vi": "Chào ông/bà, mời ngồi!"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0275",
+      "hanzi": "牛奶",
+      "pinyin": "niúnǎi",
+      "pos": "danh từ",
+      "meaning_vi": "sữa bò",
+      "example": {
+        "zh": "我早上喝牛奶。",
+        "pinyin": "wǒ zǎoshang hē niúnǎi.",
+        "vi": "Buổi sáng tôi uống sữa bò."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0276",
+      "hanzi": "女",
+      "pinyin": "nǚ",
+      "pos": "tính từ",
+      "meaning_vi": "nữ",
+      "example": {
+        "zh": "我们老师是女的。",
+        "pinyin": "wǒmen lǎoshī shì nǚ de.",
+        "vi": "Giáo viên của chúng tôi là nữ."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0277",
+      "hanzi": "女儿",
+      "pinyin": "nǚ'ér",
+      "pos": "danh từ",
+      "meaning_vi": "con gái",
+      "example": {
+        "zh": "他有一个女儿。",
+        "pinyin": "tā yǒu yí ge nǚ'ér.",
+        "vi": "Anh ấy có một cô con gái."
+      },
+      "traditional": "女兒",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0278",
+      "hanzi": "女孩儿",
+      "pinyin": "nǚháir",
+      "pos": "danh từ",
+      "meaning_vi": "bé gái, cô bé",
+      "example": {
+        "zh": "那个女孩儿很爱笑。",
+        "pinyin": "nàge nǚháir hěn ài xiào.",
+        "vi": "Cô bé đó rất hay cười."
+      },
+      "traditional": "女孩兒",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0279",
+      "hanzi": "女朋友",
+      "pinyin": "nǚpéngyou",
+      "pos": "danh từ",
+      "meaning_vi": "bạn gái",
+      "example": {
+        "zh": "他女朋友是中国人。",
+        "pinyin": "tā nǚpéngyou shì Zhōngguó rén.",
+        "vi": "Bạn gái anh ấy là người Trung Quốc."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0280",
+      "hanzi": "女人",
+      "pinyin": "nǚrén",
+      "pos": "danh từ",
+      "meaning_vi": "phụ nữ",
+      "example": {
+        "zh": "那个女人是医生。",
+        "pinyin": "nàge nǚrén shì yīshēng.",
+        "vi": "Người phụ nữ kia là bác sĩ."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0281",
+      "hanzi": "女生",
+      "pinyin": "nǚshēng",
+      "pos": "danh từ",
+      "meaning_vi": "nữ sinh, con gái",
+      "example": {
+        "zh": "我们班女生多。",
+        "pinyin": "wǒmen bān nǚshēng duō.",
+        "vi": "Lớp tôi nhiều bạn nữ."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0282",
+      "hanzi": "旁边",
+      "pinyin": "pángbiān",
+      "pos": "danh từ",
+      "meaning_vi": "bên cạnh",
+      "example": {
+        "zh": "商店在医院旁边。",
+        "pinyin": "shāngdiàn zài yīyuàn pángbiān.",
+        "vi": "Cửa hàng ở cạnh bệnh viện."
+      },
+      "traditional": "旁邊",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0283",
+      "hanzi": "跑",
+      "pinyin": "pǎo",
+      "pos": "động từ",
+      "meaning_vi": "chạy",
+      "example": {
+        "zh": "别跑！",
+        "pinyin": "bié pǎo!",
+        "vi": "Đừng chạy!"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0284",
+      "hanzi": "朋友",
+      "pinyin": "péngyou",
+      "pos": "danh từ",
+      "meaning_vi": "bạn bè",
+      "example": {
+        "zh": "他是我的好朋友。",
+        "pinyin": "tā shì wǒ de hǎo péngyou.",
+        "vi": "Cậu ấy là bạn thân của tôi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0285",
+      "hanzi": "票",
+      "pinyin": "piào",
+      "pos": "danh từ",
+      "meaning_vi": "vé",
+      "example": {
+        "zh": "我买了两张票。",
+        "pinyin": "wǒ mǎi le liǎng zhāng piào.",
+        "vi": "Tôi đã mua hai tấm vé."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0286",
+      "hanzi": "七",
+      "pinyin": "qī",
+      "pos": "số từ",
+      "meaning_vi": "bảy (7)",
+      "example": {
+        "zh": "一个星期有七天。",
+        "pinyin": "yí ge xīngqī yǒu qī tiān.",
+        "vi": "Một tuần có bảy ngày."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0287",
+      "hanzi": "起",
+      "pinyin": "qǐ",
+      "pos": "động từ",
+      "meaning_vi": "dậy; lên",
+      "example": {
+        "zh": "我今天起得很早。",
+        "pinyin": "wǒ jīntiān qǐ de hěn zǎo.",
+        "vi": "Hôm nay tôi dậy rất sớm."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0288",
+      "hanzi": "前",
+      "pinyin": "qián",
+      "pos": "danh từ",
+      "meaning_vi": "trước",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0289",
+      "hanzi": "钱",
+      "pinyin": "qián",
+      "pos": "danh từ",
+      "meaning_vi": "tiền",
+      "example": {
+        "zh": "我没有钱了。",
+        "pinyin": "wǒ méiyǒu qián le.",
+        "vi": "Tôi hết tiền rồi."
+      },
+      "traditional": "錢",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0290",
+      "hanzi": "钱包",
+      "pinyin": "qiánbāo",
+      "pos": "danh từ",
+      "meaning_vi": "ví tiền",
+      "example": {
+        "zh": "我的钱包不见了。",
+        "pinyin": "wǒ de qiánbāo bújiàn le.",
+        "vi": "Ví của tôi mất rồi."
+      },
+      "traditional": "錢包"
+    },
+    {
+      "id": "hsk1-0291",
+      "hanzi": "前边",
+      "pinyin": "qiánbian",
+      "pos": "danh từ",
+      "meaning_vi": "phía trước",
+      "example": {
+        "zh": "前边有一个书店。",
+        "pinyin": "qiánbian yǒu yí ge shūdiàn.",
+        "vi": "Phía trước có một hiệu sách."
+      },
+      "traditional": "前邊"
+    },
+    {
+      "id": "hsk1-0292",
+      "hanzi": "前天",
+      "pinyin": "qiántiān",
+      "pos": "danh từ",
+      "meaning_vi": "hôm kia",
+      "example": {
+        "zh": "前天我去了医院。",
+        "pinyin": "qiántiān wǒ qù le yīyuàn.",
+        "vi": "Hôm kia tôi đã đi bệnh viện."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0293",
+      "hanzi": "汽车",
+      "pinyin": "qìchē",
+      "pos": "danh từ",
+      "meaning_vi": "ô tô",
+      "traditional": "汽車",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0294",
+      "hanzi": "起床",
+      "pinyin": "qǐchuáng",
+      "pos": "cụm từ",
+      "meaning_vi": "thức dậy (rời giường)",
+      "example": {
+        "zh": "你几点起床？",
+        "pinyin": "nǐ jǐ diǎn qǐ chuáng?",
+        "vi": "Bạn dậy lúc mấy giờ?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0295",
+      "hanzi": "起来",
+      "pinyin": "qǐlái",
+      "pos": "cụm từ",
+      "meaning_vi": "đứng dậy; dậy",
+      "example": {
+        "zh": "快起来！",
+        "pinyin": "kuài qǐlai!",
+        "vi": "Mau dậy đi!"
+      },
+      "traditional": "起來",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0296",
+      "hanzi": "请",
+      "pinyin": "qǐng",
+      "pos": "động từ",
+      "meaning_vi": "mời; xin, làm ơn",
+      "example": {
+        "zh": "请坐！",
+        "pinyin": "qǐng zuò!",
+        "vi": "Mời ngồi!"
+      },
+      "traditional": "請",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0297",
+      "hanzi": "请假",
+      "pinyin": "qǐngjià",
+      "pos": "cụm từ",
+      "meaning_vi": "xin nghỉ phép",
+      "example": {
+        "zh": "我病了，想请假。",
+        "pinyin": "wǒ bìng le, xiǎng qǐngjià.",
+        "vi": "Tôi bị ốm, muốn xin nghỉ."
+      },
+      "traditional": "請假",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0298",
+      "hanzi": "请进",
+      "pinyin": "qǐng jìn",
+      "pos": "cụm từ",
+      "meaning_vi": "mời vào",
+      "example": {
+        "zh": "请进，请坐。",
+        "pinyin": "qǐng jìn, qǐng zuò.",
+        "vi": "Mời vào, mời ngồi."
+      },
+      "traditional": "請進"
+    },
+    {
+      "id": "hsk1-0299",
+      "hanzi": "请问",
+      "pinyin": "qǐngwèn",
+      "pos": "động từ",
+      "meaning_vi": "xin hỏi",
+      "example": {
+        "zh": "请问，车站在哪儿？",
+        "pinyin": "qǐngwèn, chēzhàn zài nǎr?",
+        "vi": "Xin hỏi, bến xe ở đâu?"
+      },
+      "traditional": "請問",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0300",
+      "hanzi": "请坐",
+      "pinyin": "qǐng zuò",
+      "pos": "cụm từ",
+      "meaning_vi": "mời ngồi",
+      "example": {
+        "zh": "您好，请坐。",
+        "pinyin": "nín hǎo, qǐng zuò.",
+        "vi": "Xin chào, mời ngồi."
+      },
+      "traditional": "請坐"
+    },
+    {
+      "id": "hsk1-0301",
+      "hanzi": "球",
+      "pinyin": "qiú",
+      "pos": "danh từ",
+      "meaning_vi": "quả bóng",
+      "example": {
+        "zh": "这个球是谁的？",
+        "pinyin": "zhège qiú shì shéi de?",
+        "vi": "Quả bóng này của ai?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0302",
+      "hanzi": "去",
+      "pinyin": "qù",
+      "pos": "động từ",
+      "meaning_vi": "đi",
+      "example": {
+        "zh": "你去哪儿？",
+        "pinyin": "nǐ qù nǎr?",
+        "vi": "Bạn đi đâu?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0303",
+      "hanzi": "去年",
+      "pinyin": "qùnián",
+      "pos": "danh từ",
+      "meaning_vi": "năm ngoái",
+      "example": {
+        "zh": "去年我在北京学习。",
+        "pinyin": "qùnián wǒ zài Běijīng xuéxí.",
+        "vi": "Năm ngoái tôi học ở Bắc Kinh."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0304",
+      "hanzi": "热",
+      "pinyin": "rè",
+      "pos": "tính từ, động từ",
+      "meaning_vi": "nóng",
+      "example": {
+        "zh": "今天太热了！",
+        "pinyin": "jīntiān tài rè le!",
+        "vi": "Hôm nay nóng quá!"
+      },
+      "traditional": "熱",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0305",
+      "hanzi": "人",
+      "pinyin": "rén",
+      "pos": "danh từ",
+      "meaning_vi": "người",
+      "example": {
+        "zh": "这儿人很多。",
+        "pinyin": "zhèr rén hěn duō.",
+        "vi": "Ở đây rất đông người."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0306",
+      "hanzi": "认识",
+      "pinyin": "rènshi",
+      "pos": "động từ, danh từ",
+      "meaning_vi": "quen biết",
+      "example": {
+        "zh": "认识你很高兴。",
+        "pinyin": "rènshi nǐ hěn gāoxìng.",
+        "vi": "Rất vui được làm quen với bạn."
+      },
+      "traditional": "認識",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0307",
+      "hanzi": "认真",
+      "pinyin": "rènzhēn",
+      "pos": "tính từ",
+      "meaning_vi": "nghiêm túc, chăm chỉ",
+      "example": {
+        "zh": "他学习很认真。",
+        "pinyin": "tā xuéxí hěn rènzhēn.",
+        "vi": "Cậu ấy học rất chăm chỉ."
+      },
+      "traditional": "認真",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0308",
+      "hanzi": "日",
+      "pinyin": "rì",
+      "pos": "danh từ",
+      "meaning_vi": "ngày",
+      "example": {
+        "zh": "五月一日放假。",
+        "pinyin": "wǔ yuè yī rì fàngjià.",
+        "vi": "Ngày 1 tháng 5 được nghỉ."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0309",
+      "hanzi": "日期",
+      "pinyin": "rìqī",
+      "pos": "danh từ",
+      "meaning_vi": "ngày tháng",
+      "example": {
+        "zh": "今天的日期是多少？",
+        "pinyin": "jīntiān de rìqī shì duōshao?",
+        "vi": "Hôm nay là ngày bao nhiêu?"
+      }
+    },
+    {
+      "id": "hsk1-0310",
+      "hanzi": "肉",
+      "pinyin": "ròu",
+      "pos": "danh từ",
+      "meaning_vi": "thịt",
+      "example": {
+        "zh": "我不吃肉。",
+        "pinyin": "wǒ bù chī ròu.",
+        "vi": "Tôi không ăn thịt."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0311",
+      "hanzi": "三",
+      "pinyin": "sān",
+      "pos": "số từ",
+      "meaning_vi": "ba (3)",
+      "example": {
+        "zh": "我有三个朋友。",
+        "pinyin": "wǒ yǒu sān ge péngyou.",
+        "vi": "Tôi có ba người bạn."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0312",
+      "hanzi": "山",
+      "pinyin": "shān",
+      "pos": "danh từ",
+      "meaning_vi": "núi",
+      "example": {
+        "zh": "那个山很高。",
+        "pinyin": "nàge shān hěn gāo.",
+        "vi": "Ngọn núi đó rất cao."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0313",
+      "hanzi": "上",
+      "pinyin": "shàng",
+      "pos": "danh từ, động từ",
+      "meaning_vi": "trên; lên; trước",
+      "example": {
+        "zh": "书在桌子上。",
+        "pinyin": "shū zài zhuōzi shàng.",
+        "vi": "Sách ở trên bàn."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0314",
+      "hanzi": "上班",
+      "pinyin": "shàngbān",
+      "pos": "cụm từ",
+      "meaning_vi": "đi làm",
+      "example": {
+        "zh": "妈妈八点上班。",
+        "pinyin": "māma bā diǎn shàngbān.",
+        "vi": "Mẹ đi làm lúc tám giờ."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0315",
+      "hanzi": "上边",
+      "pinyin": "shàngbian",
+      "pos": "danh từ",
+      "meaning_vi": "phía trên",
+      "example": {
+        "zh": "上边有什么？",
+        "pinyin": "shàngbian yǒu shénme?",
+        "vi": "Ở trên có gì?"
+      },
+      "traditional": "上邊"
+    },
+    {
+      "id": "hsk1-0316",
+      "hanzi": "商场",
+      "pinyin": "shāngchǎng",
+      "pos": "danh từ",
+      "meaning_vi": "trung tâm thương mại",
+      "traditional": "商場",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0317",
+      "hanzi": "上车",
+      "pinyin": "shàng chē",
+      "pos": "cụm từ",
+      "meaning_vi": "lên xe",
+      "example": {
+        "zh": "快上车吧！",
+        "pinyin": "kuài shàng chē ba!",
+        "vi": "Mau lên xe đi!"
+      },
+      "traditional": "上車"
+    },
+    {
+      "id": "hsk1-0318",
+      "hanzi": "上次",
+      "pinyin": "shàng cì",
+      "pos": "cụm từ",
+      "meaning_vi": "lần trước"
+    },
+    {
+      "id": "hsk1-0319",
+      "hanzi": "商店",
+      "pinyin": "shāngdiàn",
+      "pos": "danh từ",
+      "meaning_vi": "cửa hàng",
+      "example": {
+        "zh": "商店几点开门？",
+        "pinyin": "shāngdiàn jǐ diǎn kāi mén?",
+        "vi": "Cửa hàng mấy giờ mở cửa?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0320",
+      "hanzi": "上课",
+      "pinyin": "shàngkè",
+      "pos": "cụm từ",
+      "meaning_vi": "lên lớp, vào học",
+      "example": {
+        "zh": "我们八点上课。",
+        "pinyin": "wǒmen bā diǎn shàngkè.",
+        "vi": "Chúng tôi vào học lúc tám giờ."
+      },
+      "traditional": "上課",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0321",
+      "hanzi": "上网",
+      "pinyin": "shàngwǎng",
+      "pos": "cụm từ",
+      "meaning_vi": "lên mạng",
+      "example": {
+        "zh": "我晚上常上网。",
+        "pinyin": "wǒ wǎnshang cháng shàngwǎng.",
+        "vi": "Buổi tối tôi hay lên mạng."
+      },
+      "traditional": "上網",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0322",
+      "hanzi": "上午",
+      "pinyin": "shàngwǔ",
+      "pos": "danh từ",
+      "meaning_vi": "buổi sáng",
+      "example": {
+        "zh": "上午我在家。",
+        "pinyin": "shàngwǔ wǒ zàijiā.",
+        "vi": "Buổi sáng tôi ở nhà."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0323",
+      "hanzi": "上学",
+      "pinyin": "shàngxué",
+      "pos": "cụm từ",
+      "meaning_vi": "đi học",
+      "example": {
+        "zh": "弟弟走路上学。",
+        "pinyin": "dìdi zǒulù shàngxué.",
+        "vi": "Em trai đi bộ đến trường."
+      },
+      "traditional": "上學",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0324",
+      "hanzi": "少",
+      "pinyin": "shǎo",
+      "pos": "tính từ, động từ",
+      "meaning_vi": "ít",
+      "example": {
+        "zh": "今天学校里人很少。",
+        "pinyin": "jīntiān xuéxiào lǐ rén hěn shǎo.",
+        "vi": "Hôm nay trong trường rất ít người."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0325",
+      "hanzi": "谁",
+      "pinyin": "shéi",
+      "pos": "đại từ",
+      "meaning_vi": "ai",
+      "example": {
+        "zh": "他是谁？",
+        "pinyin": "tā shì shéi?",
+        "vi": "Anh ấy là ai?"
+      },
+      "traditional": "誰",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0326",
+      "hanzi": "生病",
+      "pinyin": "shēngbìng",
+      "pos": "cụm từ",
+      "meaning_vi": "bị ốm",
+      "example": {
+        "zh": "他生病了，在医院。",
+        "pinyin": "tā shēngbìng le, zài yīyuàn.",
+        "vi": "Anh ấy ốm rồi, đang ở bệnh viện."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0327",
+      "hanzi": "生气",
+      "pinyin": "shēngqì",
+      "pos": "cụm từ",
+      "meaning_vi": "tức giận",
+      "example": {
+        "zh": "别生气了。",
+        "pinyin": "bié shēngqì le.",
+        "vi": "Đừng giận nữa."
+      },
+      "traditional": "生氣",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0328",
+      "hanzi": "生日",
+      "pinyin": "shēngrì",
+      "pos": "danh từ",
+      "meaning_vi": "sinh nhật",
+      "example": {
+        "zh": "你的生日是几月几号？",
+        "pinyin": "nǐ de shēngrì shì jǐ yuè jǐ hào?",
+        "vi": "Sinh nhật bạn là ngày mấy tháng mấy?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0329",
+      "hanzi": "什么",
+      "pinyin": "shénme",
+      "pos": "đại từ",
+      "meaning_vi": "gì, cái gì",
+      "example": {
+        "zh": "这是什么？",
+        "pinyin": "zhè shì shénme?",
+        "vi": "Đây là cái gì?"
+      },
+      "traditional": "什麼",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0330",
+      "hanzi": "身上",
+      "pinyin": "shēnshang",
+      "pos": "danh từ",
+      "meaning_vi": "trên người",
+      "example": {
+        "zh": "我身上没有钱。",
+        "pinyin": "wǒ shēnshang méiyǒu qián.",
+        "vi": "Trên người tôi không có tiền."
+      }
+    },
+    {
+      "id": "hsk1-0331",
+      "hanzi": "身体",
+      "pinyin": "shēntǐ",
+      "pos": "danh từ",
+      "meaning_vi": "cơ thể, sức khỏe",
+      "example": {
+        "zh": "你身体好吗？",
+        "pinyin": "nǐ shēntǐ hǎo ma?",
+        "vi": "Bạn khỏe không?"
+      },
+      "traditional": "身體",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0332",
+      "hanzi": "十",
+      "pinyin": "shí",
+      "pos": "số từ",
+      "meaning_vi": "mười (10)",
+      "example": {
+        "zh": "我们班有十个女生。",
+        "pinyin": "wǒmen bān yǒu shí ge nǚshēng.",
+        "vi": "Lớp tôi có mười bạn nữ."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0333",
+      "hanzi": "事",
+      "pinyin": "shì",
+      "pos": "danh từ",
+      "meaning_vi": "việc, chuyện",
+      "example": {
+        "zh": "你有什么事？",
+        "pinyin": "nǐ yǒu shénme shì?",
+        "vi": "Bạn có việc gì?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0334",
+      "hanzi": "是",
+      "pinyin": "shì",
+      "pos": "động từ",
+      "meaning_vi": "là",
+      "example": {
+        "zh": "我是越南人。",
+        "pinyin": "wǒ shì Yuènán rén.",
+        "vi": "Tôi là người Việt Nam."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0335",
+      "hanzi": "试",
+      "pinyin": "shì",
+      "pos": "động từ",
+      "meaning_vi": "thử",
+      "example": {
+        "zh": "你试试这个。",
+        "pinyin": "nǐ shì shì zhège.",
+        "vi": "Bạn thử cái này xem."
+      },
+      "traditional": "試",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0336",
+      "hanzi": "是不是",
+      "pinyin": "shì bu shì",
+      "pos": "cụm từ",
+      "meaning_vi": "có phải … không",
+      "example": {
+        "zh": "你是不是王老师？",
+        "pinyin": "nǐ shì bu shì Wáng lǎoshī?",
+        "vi": "Ông có phải thầy Vương không?"
+      }
+    },
+    {
+      "id": "hsk1-0337",
+      "hanzi": "时候",
+      "pinyin": "shíhou",
+      "pos": "danh từ",
+      "meaning_vi": "lúc, khi",
+      "example": {
+        "zh": "你什么时候回家？",
+        "pinyin": "nǐ shénme shíhou huí jiā?",
+        "vi": "Khi nào bạn về nhà?"
+      },
+      "traditional": "時候",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0338",
+      "hanzi": "时间",
+      "pinyin": "shíjiān",
+      "pos": "danh từ",
+      "meaning_vi": "thời gian",
+      "example": {
+        "zh": "我没有时间。",
+        "pinyin": "wǒ méiyǒu shíjiān.",
+        "vi": "Tôi không có thời gian."
+      },
+      "traditional": "時間",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0339",
+      "hanzi": "手",
+      "pinyin": "shǒu",
+      "pos": "danh từ",
+      "meaning_vi": "tay",
+      "example": {
+        "zh": "请洗手。",
+        "pinyin": "qǐng xǐ shǒu.",
+        "vi": "Hãy rửa tay."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0340",
+      "hanzi": "手机",
+      "pinyin": "shǒujī",
+      "pos": "danh từ",
+      "meaning_vi": "điện thoại di động",
+      "example": {
+        "zh": "我的手机是新的。",
+        "pinyin": "wǒ de shǒujī shì xīn de.",
+        "vi": "Điện thoại của tôi là đồ mới."
+      },
+      "traditional": "手機",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0341",
+      "hanzi": "书",
+      "pinyin": "shū",
+      "pos": "danh từ",
+      "meaning_vi": "sách",
+      "example": {
+        "zh": "这是谁的书？",
+        "pinyin": "zhè shì shéi de shū?",
+        "vi": "Đây là sách của ai?"
+      },
+      "traditional": "書",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0342",
+      "hanzi": "树",
+      "pinyin": "shù",
+      "pos": "danh từ",
+      "meaning_vi": "cây",
+      "example": {
+        "zh": "学校里有很多树。",
+        "pinyin": "xuéxiào lǐ yǒu hěn duō shù.",
+        "vi": "Trong trường có nhiều cây."
+      },
+      "traditional": "樹",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0343",
+      "hanzi": "书包",
+      "pinyin": "shūbāo",
+      "pos": "danh từ",
+      "meaning_vi": "cặp sách",
+      "example": {
+        "zh": "我的书包很重。",
+        "pinyin": "wǒ de shūbāo hěn zhòng.",
+        "vi": "Cặp sách của tôi rất nặng."
+      },
+      "traditional": "書包",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0344",
+      "hanzi": "书店",
+      "pinyin": "shūdiàn",
+      "pos": "danh từ",
+      "meaning_vi": "hiệu sách",
+      "example": {
+        "zh": "书店里有很多书。",
+        "pinyin": "shūdiàn lǐ yǒu hěn duō shū.",
+        "vi": "Trong hiệu sách có rất nhiều sách."
+      },
+      "traditional": "書店",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0345",
+      "hanzi": "水",
+      "pinyin": "shuǐ",
+      "pos": "danh từ",
+      "meaning_vi": "nước",
+      "example": {
+        "zh": "我想喝水。",
+        "pinyin": "wǒ xiǎng hē shuǐ.",
+        "vi": "Tôi muốn uống nước."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0346",
+      "hanzi": "睡",
+      "pinyin": "shuì",
+      "pos": "động từ",
+      "meaning_vi": "ngủ",
+      "example": {
+        "zh": "你睡了吗？",
+        "pinyin": "nǐ shuì le ma?",
+        "vi": "Bạn ngủ chưa?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0347",
+      "hanzi": "水果",
+      "pinyin": "shuǐguǒ",
+      "pos": "danh từ",
+      "meaning_vi": "hoa quả, trái cây",
+      "example": {
+        "zh": "我喜欢吃水果。",
+        "pinyin": "wǒ xǐhuan chī shuǐguǒ.",
+        "vi": "Tôi thích ăn trái cây."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0348",
+      "hanzi": "睡觉",
+      "pinyin": "shuìjiào",
+      "pos": "cụm từ",
+      "meaning_vi": "đi ngủ",
+      "example": {
+        "zh": "我晚上十一点睡觉。",
+        "pinyin": "wǒ wǎnshang shíyī diǎn shuìjiào.",
+        "vi": "Tôi đi ngủ lúc 11 giờ tối."
+      },
+      "traditional": "睡覺",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0349",
+      "hanzi": "说",
+      "pinyin": "shuō",
+      "pos": "động từ",
+      "meaning_vi": "nói",
+      "example": {
+        "zh": "你说什么？",
+        "pinyin": "nǐ shuō shénme?",
+        "vi": "Bạn nói gì?"
+      },
+      "traditional": "說",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0350",
+      "hanzi": "说话",
+      "pinyin": "shuōhuà",
+      "pos": "cụm từ",
+      "meaning_vi": "nói chuyện",
+      "example": {
+        "zh": "上课的时候别说话。",
+        "pinyin": "shàngkè de shíhou bié shuōhuà.",
+        "vi": "Trong giờ học đừng nói chuyện."
+      },
+      "traditional": "說話",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0351",
+      "hanzi": "四",
+      "pinyin": "sì",
+      "pos": "số từ",
+      "meaning_vi": "bốn (4)",
+      "example": {
+        "zh": "我家有四口人。",
+        "pinyin": "wǒ jiā yǒu sì kǒu rén.",
+        "vi": "Nhà tôi có bốn người."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0352",
+      "hanzi": "送",
+      "pinyin": "sòng",
+      "pos": "động từ",
+      "meaning_vi": "tặng; tiễn; đưa",
+      "example": {
+        "zh": "我送你一本书。",
+        "pinyin": "wǒ sòng nǐ yì běn shū.",
+        "vi": "Tôi tặng bạn một quyển sách."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0353",
+      "hanzi": "岁",
+      "pinyin": "suì",
+      "pos": "lượng từ",
+      "meaning_vi": "tuổi",
+      "example": {
+        "zh": "你几岁了？",
+        "pinyin": "nǐ jǐ suì le?",
+        "vi": "Cháu mấy tuổi rồi?"
+      },
+      "traditional": "歲",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0354",
+      "hanzi": "他",
+      "pinyin": "tā",
+      "pos": "đại từ",
+      "meaning_vi": "anh ấy, ông ấy (nam)",
+      "example": {
+        "zh": "他是我哥哥。",
+        "pinyin": "tā shì wǒ gēge.",
+        "vi": "Anh ấy là anh trai tôi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0355",
+      "hanzi": "她",
+      "pinyin": "tā",
+      "pos": "đại từ",
+      "meaning_vi": "cô ấy, bà ấy (nữ)",
+      "example": {
+        "zh": "她是我的老师。",
+        "pinyin": "tā shì wǒ de lǎoshī.",
+        "vi": "Cô ấy là giáo viên của tôi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0356",
+      "hanzi": "太",
+      "pinyin": "tài",
+      "pos": "phó từ",
+      "meaning_vi": "quá, lắm",
+      "example": {
+        "zh": "太好了！",
+        "pinyin": "tài hǎo le!",
+        "vi": "Tốt quá!"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0357",
+      "hanzi": "他们",
+      "pinyin": "tāmen",
+      "pos": "đại từ",
+      "meaning_vi": "họ, bọn họ",
+      "example": {
+        "zh": "他们都是我的同学。",
+        "pinyin": "tāmen dōu shì wǒ de tóngxué.",
+        "vi": "Họ đều là bạn học của tôi."
+      },
+      "traditional": "他們",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0358",
+      "hanzi": "她们",
+      "pinyin": "tāmen",
+      "pos": "đại từ",
+      "meaning_vi": "họ (nữ)",
+      "example": {
+        "zh": "她们在唱歌。",
+        "pinyin": "tāmen zài chànggē.",
+        "vi": "Họ đang hát."
+      },
+      "traditional": "她們",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0359",
+      "hanzi": "天",
+      "pinyin": "tiān",
+      "pos": "danh từ, lượng từ",
+      "meaning_vi": "ngày; trời",
+      "example": {
+        "zh": "我在北京住了三天。",
+        "pinyin": "wǒ zài Běijīng zhù le sān tiān.",
+        "vi": "Tôi ở Bắc Kinh ba ngày."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0360",
+      "hanzi": "天气",
+      "pinyin": "tiānqì",
+      "pos": "danh từ",
+      "meaning_vi": "thời tiết",
+      "example": {
+        "zh": "明天天气很好。",
+        "pinyin": "míngtiān tiānqì hěn hǎo.",
+        "vi": "Ngày mai thời tiết rất đẹp."
+      },
+      "traditional": "天氣",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0361",
+      "hanzi": "听",
+      "pinyin": "tīng",
+      "pos": "động từ",
+      "meaning_vi": "nghe",
+      "example": {
+        "zh": "我喜欢听歌。",
+        "pinyin": "wǒ xǐhuan tīng gē.",
+        "vi": "Tôi thích nghe nhạc."
+      },
+      "traditional": "聽",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0362",
+      "hanzi": "听到",
+      "pinyin": "tīngdào",
+      "pos": "cụm từ",
+      "meaning_vi": "nghe thấy",
+      "example": {
+        "zh": "你听到了吗？",
+        "pinyin": "nǐ tīngdào le ma?",
+        "vi": "Bạn nghe thấy chưa?"
+      },
+      "traditional": "聽到"
+    },
+    {
+      "id": "hsk1-0363",
+      "hanzi": "听见",
+      "pinyin": "tīngjiàn",
+      "pos": "cụm từ",
+      "meaning_vi": "nghe thấy",
+      "example": {
+        "zh": "我没听见你说什么。",
+        "pinyin": "wǒ méi tīngjiàn nǐ shuō shénme.",
+        "vi": "Tôi không nghe thấy bạn nói gì."
+      },
+      "traditional": "聽見",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0364",
+      "hanzi": "听写",
+      "pinyin": "tīngxiě",
+      "pos": "động từ",
+      "meaning_vi": "nghe viết, chính tả",
+      "example": {
+        "zh": "明天有听写。",
+        "pinyin": "míngtiān yǒu tīngxiě.",
+        "vi": "Ngày mai có bài nghe viết."
+      },
+      "traditional": "聽寫"
+    },
+    {
+      "id": "hsk1-0365",
+      "hanzi": "同学",
+      "pinyin": "tóngxué",
+      "pos": "danh từ",
+      "meaning_vi": "bạn học",
+      "example": {
+        "zh": "他是我的同学。",
+        "pinyin": "tā shì wǒ de tóngxué.",
+        "vi": "Cậu ấy là bạn cùng lớp tôi."
+      },
+      "traditional": "同學",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0366",
+      "hanzi": "图书馆",
+      "pinyin": "túshūguǎn",
+      "pos": "danh từ",
+      "meaning_vi": "thư viện",
+      "example": {
+        "zh": "我在图书馆看书。",
+        "pinyin": "wǒ zài túshūguǎn kàn shū.",
+        "vi": "Tôi đọc sách ở thư viện."
+      },
+      "traditional": "圖書館",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0367",
+      "hanzi": "外",
+      "pinyin": "wài",
+      "pos": "danh từ",
+      "meaning_vi": "ngoài",
+      "example": {
+        "zh": "门外有人。",
+        "pinyin": "mén wài yǒu rén.",
+        "vi": "Ngoài cửa có người."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0368",
+      "hanzi": "外边",
+      "pinyin": "wàibian",
+      "pos": "danh từ",
+      "meaning_vi": "bên ngoài",
+      "example": {
+        "zh": "外边下雨了。",
+        "pinyin": "wàibian xiàyǔ le.",
+        "vi": "Bên ngoài mưa rồi."
+      },
+      "traditional": "外邊",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0369",
+      "hanzi": "外国",
+      "pinyin": "wàiguó",
+      "pos": "danh từ",
+      "meaning_vi": "nước ngoài",
+      "example": {
+        "zh": "他是外国人。",
+        "pinyin": "tā shì wàiguó rén.",
+        "vi": "Anh ấy là người nước ngoài."
+      },
+      "traditional": "外國",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0370",
+      "hanzi": "外语",
+      "pinyin": "wàiyǔ",
+      "pos": "danh từ",
+      "meaning_vi": "ngoại ngữ",
+      "example": {
+        "zh": "你会说什么外语？",
+        "pinyin": "nǐ huì shuō shénme wàiyǔ?",
+        "vi": "Bạn biết nói ngoại ngữ nào?"
+      },
+      "traditional": "外語",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0371",
+      "hanzi": "晚",
+      "pinyin": "wǎn",
+      "pos": "tính từ",
+      "meaning_vi": "muộn; tối",
+      "example": {
+        "zh": "今天我回家很晚。",
+        "pinyin": "jīntiān wǒ huí jiā hěn wǎn.",
+        "vi": "Hôm nay tôi về nhà rất muộn."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0372",
+      "hanzi": "晚饭",
+      "pinyin": "wǎnfàn",
+      "pos": "danh từ",
+      "meaning_vi": "bữa tối",
+      "example": {
+        "zh": "我们一起吃晚饭吧。",
+        "pinyin": "wǒmen yìqǐ chī wǎnfàn ba.",
+        "vi": "Chúng ta cùng ăn tối nhé."
+      },
+      "traditional": "晚飯",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0373",
+      "hanzi": "忘",
+      "pinyin": "wàng",
+      "pos": "động từ",
+      "meaning_vi": "quên",
+      "example": {
+        "zh": "我忘了他的名字。",
+        "pinyin": "wǒ wàng le tā de míngzi.",
+        "vi": "Tôi quên tên anh ấy rồi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0374",
+      "hanzi": "忘记",
+      "pinyin": "wàngjì",
+      "pos": "động từ",
+      "meaning_vi": "quên",
+      "example": {
+        "zh": "别忘记我的生日。",
+        "pinyin": "bié wàngjì wǒ de shēngrì.",
+        "vi": "Đừng quên sinh nhật của tôi."
+      },
+      "traditional": "忘記",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0375",
+      "hanzi": "网上",
+      "pinyin": "wǎng shang",
+      "pos": "cụm từ",
+      "meaning_vi": "trên mạng",
+      "example": {
+        "zh": "我在网上买东西。",
+        "pinyin": "wǒ zài wǎng shang mǎi dōngxi.",
+        "vi": "Tôi mua đồ trên mạng."
+      },
+      "traditional": "網上",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0376",
+      "hanzi": "网友",
+      "pinyin": "wǎngyǒu",
+      "pos": "danh từ",
+      "meaning_vi": "bạn trên mạng",
+      "example": {
+        "zh": "他是我的网友。",
+        "pinyin": "tā shì wǒ de wǎngyǒu.",
+        "vi": "Anh ấy là bạn qua mạng của tôi."
+      },
+      "traditional": "網友"
+    },
+    {
+      "id": "hsk1-0377",
+      "hanzi": "玩儿",
+      "pinyin": "wánr",
+      "pos": "động từ",
+      "meaning_vi": "chơi",
+      "example": {
+        "zh": "孩子们在外边玩儿。",
+        "pinyin": "háizi men zài wàibian wánr.",
+        "vi": "Bọn trẻ đang chơi bên ngoài."
+      },
+      "traditional": "玩兒"
+    },
+    {
+      "id": "hsk1-0378",
+      "hanzi": "晚上",
+      "pinyin": "wǎnshang",
+      "pos": "danh từ",
+      "meaning_vi": "buổi tối",
+      "example": {
+        "zh": "晚上我在家看电视。",
+        "pinyin": "wǎnshang wǒ zàijiā kàn diànshì.",
+        "vi": "Buổi tối tôi ở nhà xem tivi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0379",
+      "hanzi": "问",
+      "pinyin": "wèn",
+      "pos": "động từ",
+      "meaning_vi": "hỏi",
+      "traditional": "問",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0380",
+      "hanzi": "我",
+      "pinyin": "wǒ",
+      "pos": "đại từ",
+      "meaning_vi": "tôi",
+      "example": {
+        "zh": "我是学生。",
+        "pinyin": "wǒ shì xuésheng.",
+        "vi": "Tôi là học sinh."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0381",
+      "hanzi": "我们",
+      "pinyin": "wǒmen",
+      "pos": "đại từ",
+      "meaning_vi": "chúng tôi, chúng ta",
+      "example": {
+        "zh": "我们是好朋友。",
+        "pinyin": "wǒmen shì hǎo péngyou.",
+        "vi": "Chúng tôi là bạn tốt."
+      },
+      "traditional": "我們",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0382",
+      "hanzi": "五",
+      "pinyin": "wǔ",
+      "pos": "số từ",
+      "meaning_vi": "năm (5)",
+      "example": {
+        "zh": "我五点下班。",
+        "pinyin": "wǒ wǔ diǎn xiàbān.",
+        "vi": "Tôi tan làm lúc năm giờ."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0383",
+      "hanzi": "午饭",
+      "pinyin": "wǔfàn",
+      "pos": "danh từ",
+      "meaning_vi": "bữa trưa",
+      "example": {
+        "zh": "你午饭吃什么？",
+        "pinyin": "nǐ wǔfàn chī shénme?",
+        "vi": "Bữa trưa bạn ăn gì?"
+      },
+      "traditional": "午飯",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0384",
+      "hanzi": "西",
+      "pinyin": "xī",
+      "pos": "danh từ",
+      "meaning_vi": "phía tây",
+      "example": {
+        "zh": "车站在西边。",
+        "pinyin": "chēzhàn zài xībian.",
+        "vi": "Bến xe ở phía tây."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0385",
+      "hanzi": "洗",
+      "pinyin": "xǐ",
+      "pos": "động từ",
+      "meaning_vi": "rửa, giặt",
+      "example": {
+        "zh": "我在洗衣服。",
+        "pinyin": "wǒ zài xǐ yīfu.",
+        "vi": "Tôi đang giặt quần áo."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0386",
+      "hanzi": "下",
+      "pinyin": "xià",
+      "pos": "danh từ, động từ",
+      "meaning_vi": "dưới; xuống; sau, tới",
+      "example": {
+        "zh": "下个月我去北京。",
+        "pinyin": "xià ge yuè wǒ qù Běijīng.",
+        "vi": "Tháng sau tôi đi Bắc Kinh."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0387",
+      "hanzi": "下班",
+      "pinyin": "xiàbān",
+      "pos": "cụm từ",
+      "meaning_vi": "tan làm",
+      "example": {
+        "zh": "你几点下班？",
+        "pinyin": "nǐ jǐ diǎn xiàbān?",
+        "vi": "Mấy giờ bạn tan làm?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0388",
+      "hanzi": "下边",
+      "pinyin": "xiàbian",
+      "pos": "danh từ",
+      "meaning_vi": "phía dưới",
+      "traditional": "下邊"
+    },
+    {
+      "id": "hsk1-0389",
+      "hanzi": "下车",
+      "pinyin": "xià chē",
+      "pos": "cụm từ",
+      "meaning_vi": "xuống xe",
+      "example": {
+        "zh": "我们在这儿下车。",
+        "pinyin": "wǒmen zài zhèr xià chē.",
+        "vi": "Chúng ta xuống xe ở đây."
+      },
+      "traditional": "下車"
+    },
+    {
+      "id": "hsk1-0390",
+      "hanzi": "下次",
+      "pinyin": "xià cì",
+      "pos": "cụm từ",
+      "meaning_vi": "lần sau",
+      "example": {
+        "zh": "下次见！",
+        "pinyin": "xià cì jiàn!",
+        "vi": "Hẹn gặp lần sau!"
+      }
+    },
+    {
+      "id": "hsk1-0391",
+      "hanzi": "下课",
+      "pinyin": "xiàkè",
+      "pos": "cụm từ",
+      "meaning_vi": "tan học, hết giờ",
+      "example": {
+        "zh": "下课了，我们去吃饭吧。",
+        "pinyin": "xiàkè le, wǒmen qù chīfàn ba.",
+        "vi": "Tan học rồi, chúng ta đi ăn nhé."
+      },
+      "traditional": "下課",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0392",
+      "hanzi": "先",
+      "pinyin": "xiān",
+      "pos": "phó từ",
+      "meaning_vi": "trước (tiên)",
+      "example": {
+        "zh": "你先走吧。",
+        "pinyin": "nǐ xiān zǒu ba.",
+        "vi": "Bạn đi trước đi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0393",
+      "hanzi": "想",
+      "pinyin": "xiǎng",
+      "pos": "động từ",
+      "meaning_vi": "muốn; nghĩ; nhớ",
+      "example": {
+        "zh": "我想去中国。",
+        "pinyin": "wǒ xiǎng qù Zhōngguó.",
+        "vi": "Tôi muốn đi Trung Quốc."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0394",
+      "hanzi": "先生",
+      "pinyin": "xiānsheng",
+      "pos": "danh từ",
+      "meaning_vi": "ông, ngài; chồng",
+      "example": {
+        "zh": "王先生，您好！",
+        "pinyin": "Wáng xiānsheng, nín hǎo!",
+        "vi": "Chào ông Vương!"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0395",
+      "hanzi": "现在",
+      "pinyin": "xiànzài",
+      "pos": "danh từ",
+      "meaning_vi": "bây giờ",
+      "example": {
+        "zh": "现在几点了？",
+        "pinyin": "xiànzài jǐ diǎn le?",
+        "vi": "Bây giờ mấy giờ rồi?"
+      },
+      "traditional": "現在",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0396",
+      "hanzi": "小",
+      "pinyin": "xiǎo",
+      "pos": "tính từ",
+      "meaning_vi": "nhỏ, bé",
+      "example": {
+        "zh": "我的房间很小。",
+        "pinyin": "wǒ de fángjiān hěn xiǎo.",
+        "vi": "Phòng tôi rất nhỏ."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0397",
+      "hanzi": "笑",
+      "pinyin": "xiào",
+      "pos": "động từ",
+      "meaning_vi": "cười",
+      "example": {
+        "zh": "她笑了。",
+        "pinyin": "tā xiào le.",
+        "vi": "Cô ấy cười rồi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0398",
+      "hanzi": "小孩儿",
+      "pinyin": "xiǎoháir",
+      "pos": "danh từ",
+      "meaning_vi": "trẻ con",
+      "example": {
+        "zh": "小孩儿在睡觉。",
+        "pinyin": "xiǎoháir zài shuìjiào.",
+        "vi": "Đứa bé đang ngủ."
+      },
+      "traditional": "小孩兒",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0399",
+      "hanzi": "小姐",
+      "pinyin": "xiǎojiě",
+      "pos": "danh từ",
+      "meaning_vi": "cô (gọi phụ nữ trẻ)",
+      "example": {
+        "zh": "李小姐，这是您的票。",
+        "pinyin": "Lǐ xiǎojie, zhè shì nín de piào.",
+        "vi": "Cô Lý, đây là vé của cô."
+      }
+    },
+    {
+      "id": "hsk1-0400",
+      "hanzi": "小朋友",
+      "pinyin": "xiǎopéngyǒu",
+      "pos": "danh từ",
+      "meaning_vi": "các bạn nhỏ, em bé",
+      "example": {
+        "zh": "小朋友，你几岁了？",
+        "pinyin": "xiǎopéngyǒu, nǐ jǐ suì le?",
+        "vi": "Bạn nhỏ ơi, cháu mấy tuổi rồi?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0401",
+      "hanzi": "小时",
+      "pinyin": "xiǎoshí",
+      "pos": "danh từ",
+      "meaning_vi": "giờ, tiếng đồng hồ",
+      "example": {
+        "zh": "我学习了两个小时。",
+        "pinyin": "wǒ xuéxí le liǎng ge xiǎoshí.",
+        "vi": "Tôi đã học hai tiếng."
+      },
+      "traditional": "小時",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0402",
+      "hanzi": "小学",
+      "pinyin": "xiǎoxué",
+      "pos": "danh từ",
+      "meaning_vi": "trường tiểu học",
+      "example": {
+        "zh": "我弟弟在上小学。",
+        "pinyin": "wǒ dìdi zài shàng xiǎoxué.",
+        "vi": "Em trai tôi đang học tiểu học."
+      },
+      "traditional": "小學",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0403",
+      "hanzi": "小学生",
+      "pinyin": "xiǎoxuéshēng",
+      "pos": "danh từ",
+      "meaning_vi": "học sinh tiểu học",
+      "example": {
+        "zh": "他是小学生。",
+        "pinyin": "tā shì xiǎoxuéshēng.",
+        "vi": "Cậu bé là học sinh tiểu học."
+      },
+      "traditional": "小學生",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0404",
+      "hanzi": "下午",
+      "pinyin": "xiàwǔ",
+      "pos": "danh từ",
+      "meaning_vi": "buổi chiều",
+      "example": {
+        "zh": "下午我去商店。",
+        "pinyin": "xiàwǔ wǒ qù shāngdiàn.",
+        "vi": "Buổi chiều tôi đi cửa hàng."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0405",
+      "hanzi": "下雨",
+      "pinyin": "xià yǔ",
+      "pos": "cụm từ",
+      "meaning_vi": "mưa",
+      "example": {
+        "zh": "外边下雨了。",
+        "pinyin": "wàibian xiàyǔ le.",
+        "vi": "Bên ngoài mưa rồi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0406",
+      "hanzi": "西边",
+      "pinyin": "xībian",
+      "pos": "danh từ",
+      "meaning_vi": "phía tây",
+      "example": {
+        "zh": "商场在西边。",
+        "pinyin": "shāngchǎng zài xībian.",
+        "vi": "Trung tâm thương mại ở phía tây."
+      },
+      "traditional": "西邊"
+    },
+    {
+      "id": "hsk1-0407",
+      "hanzi": "写",
+      "pinyin": "xiě",
+      "pos": "động từ",
+      "meaning_vi": "viết",
+      "example": {
+        "zh": "你会写汉字吗？",
+        "pinyin": "nǐ huì xiě Hànzì ma?",
+        "vi": "Bạn biết viết chữ Hán không?"
+      },
+      "traditional": "寫",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0408",
+      "hanzi": "谢谢",
+      "pinyin": "xièxie",
+      "pos": "động từ",
+      "meaning_vi": "cảm ơn",
+      "example": {
+        "zh": "谢谢你！",
+        "pinyin": "xièxie nǐ!",
+        "vi": "Cảm ơn bạn!"
+      },
+      "traditional": "謝謝",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0409",
+      "hanzi": "喜欢",
+      "pinyin": "xǐhuan",
+      "pos": "động từ",
+      "meaning_vi": "thích",
+      "example": {
+        "zh": "我喜欢喝茶。",
+        "pinyin": "wǒ xǐhuan hē chá.",
+        "vi": "Tôi thích uống trà."
+      },
+      "traditional": "喜歡",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0410",
+      "hanzi": "新",
+      "pinyin": "xīn",
+      "pos": "tính từ",
+      "meaning_vi": "mới",
+      "example": {
+        "zh": "这是我的新手机。",
+        "pinyin": "zhè shì wǒ de xīn shǒujī.",
+        "vi": "Đây là điện thoại mới của tôi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0411",
+      "hanzi": "行",
+      "pinyin": "xíng",
+      "pos": "động từ, tính từ",
+      "meaning_vi": "được, ổn",
+      "example": {
+        "zh": "A：明天八点，行吗？B：行。",
+        "pinyin": "A: míngtiān bā diǎn, xíng ma? B: xíng.",
+        "vi": "A: Tám giờ sáng mai được không? B: Được."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0412",
+      "hanzi": "星期",
+      "pinyin": "xīngqī",
+      "pos": "danh từ",
+      "meaning_vi": "tuần; thứ",
+      "example": {
+        "zh": "今天星期几？",
+        "pinyin": "jīntiān xīngqī jǐ?",
+        "vi": "Hôm nay thứ mấy?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0413",
+      "hanzi": "星期日",
+      "pinyin": "xīngqīrì",
+      "pos": "danh từ",
+      "meaning_vi": "chủ nhật",
+      "example": {
+        "zh": "星期日我在家休息。",
+        "pinyin": "xīngqīrì wǒ zàijiā xiūxi.",
+        "vi": "Chủ nhật tôi nghỉ ở nhà."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0414",
+      "hanzi": "星期天",
+      "pinyin": "xīngqītiān",
+      "pos": "danh từ",
+      "meaning_vi": "chủ nhật",
+      "example": {
+        "zh": "星期天我们去看电影吧。",
+        "pinyin": "xīngqītiān wǒmen qù kàn diànyǐng ba.",
+        "vi": "Chủ nhật chúng ta đi xem phim nhé."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0415",
+      "hanzi": "新年",
+      "pinyin": "xīnnián",
+      "pos": "danh từ",
+      "meaning_vi": "năm mới",
+      "example": {
+        "zh": "新年好！",
+        "pinyin": "xīnnián hǎo!",
+        "vi": "Chúc mừng năm mới!"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0416",
+      "hanzi": "洗手间",
+      "pinyin": "xǐshǒujiān",
+      "pos": "danh từ",
+      "meaning_vi": "nhà vệ sinh",
+      "example": {
+        "zh": "请问，洗手间在哪儿？",
+        "pinyin": "qǐngwèn, xǐshǒujiān zài nǎr?",
+        "vi": "Xin hỏi, nhà vệ sinh ở đâu?"
+      },
+      "traditional": "洗手間",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0417",
+      "hanzi": "休息",
+      "pinyin": "xiūxi",
+      "pos": "động từ",
+      "meaning_vi": "nghỉ ngơi",
+      "example": {
+        "zh": "你累了，休息一下儿吧。",
+        "pinyin": "nǐ lèi le, xiūxi yíxiàr ba.",
+        "vi": "Bạn mệt rồi, nghỉ một chút đi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0418",
+      "hanzi": "学",
+      "pinyin": "xué",
+      "pos": "động từ",
+      "meaning_vi": "học",
+      "example": {
+        "zh": "我在学汉语。",
+        "pinyin": "wǒ zài xué Hànyǔ.",
+        "vi": "Tôi đang học tiếng Trung."
+      },
+      "traditional": "學",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0419",
+      "hanzi": "学生",
+      "pinyin": "xuéshēng",
+      "pos": "danh từ",
+      "meaning_vi": "học sinh",
+      "example": {
+        "zh": "我是学生。",
+        "pinyin": "wǒ shì xuésheng.",
+        "vi": "Tôi là học sinh."
+      },
+      "traditional": "學生",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0420",
+      "hanzi": "学习",
+      "pinyin": "xuéxí",
+      "pos": "động từ",
+      "meaning_vi": "học tập",
+      "example": {
+        "zh": "她学习很好。",
+        "pinyin": "tā xuéxí hěn hǎo.",
+        "vi": "Cô ấy học rất giỏi."
+      },
+      "traditional": "學習",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0421",
+      "hanzi": "学校",
+      "pinyin": "xuéxiào",
+      "pos": "danh từ",
+      "meaning_vi": "trường học",
+      "traditional": "學校",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0422",
+      "hanzi": "学院",
+      "pinyin": "xuéyuàn",
+      "pos": "danh từ",
+      "meaning_vi": "học viện, trường cao đẳng",
+      "example": {
+        "zh": "他在外语学院学习。",
+        "pinyin": "tā zài wàiyǔ xuéyuàn xuéxí.",
+        "vi": "Anh ấy học ở học viện ngoại ngữ."
+      },
+      "traditional": "學院"
+    },
+    {
+      "id": "hsk1-0423",
+      "hanzi": "要",
+      "pinyin": "yào",
+      "pos": "động từ",
+      "meaning_vi": "muốn; cần; sẽ",
+      "example": {
+        "zh": "我要一杯水。",
+        "pinyin": "wǒ yào yì bēi shuǐ.",
+        "vi": "Tôi muốn một cốc nước."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0424",
+      "hanzi": "也",
+      "pinyin": "yě",
+      "pos": "phó từ",
+      "meaning_vi": "cũng",
+      "example": {
+        "zh": "我也是学生。",
+        "pinyin": "wǒ yě shì xuésheng.",
+        "vi": "Tôi cũng là học sinh."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0425",
+      "hanzi": "页",
+      "pinyin": "yè",
+      "pos": "lượng từ",
+      "meaning_vi": "trang",
+      "example": {
+        "zh": "请看第十页。",
+        "pinyin": "qǐng kàn dì shí yè.",
+        "vi": "Mời xem trang mười."
+      },
+      "traditional": "頁",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0426",
+      "hanzi": "爷爷",
+      "pinyin": "yéye",
+      "pos": "danh từ",
+      "meaning_vi": "ông nội",
+      "traditional": "爺爺",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0427",
+      "hanzi": "一",
+      "pinyin": "yī",
+      "pos": "số từ",
+      "meaning_vi": "một (1)",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0428",
+      "hanzi": "一半",
+      "pinyin": "yībàn",
+      "pos": "số từ",
+      "meaning_vi": "một nửa",
+      "example": {
+        "zh": "我吃了一半。",
+        "pinyin": "wǒ chī le yíbàn.",
+        "vi": "Tôi ăn một nửa rồi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0429",
+      "hanzi": "一边",
+      "pinyin": "yībiān",
+      "pos": "danh từ, phó từ",
+      "meaning_vi": "một bên; vừa … vừa …",
+      "example": {
+        "zh": "他一边吃饭，一边看电视。",
+        "pinyin": "tā yìbiān chīfàn, yìbiān kàn diànshì.",
+        "vi": "Anh ấy vừa ăn cơm vừa xem tivi."
+      },
+      "traditional": "一邊",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0430",
+      "hanzi": "一点儿",
+      "pinyin": "yīdiǎnr",
+      "pos": "cụm từ",
+      "meaning_vi": "một chút, một ít",
+      "example": {
+        "zh": "我会说一点儿汉语。",
+        "pinyin": "wǒ huì shuō yìdiǎnr Hànyǔ.",
+        "vi": "Tôi biết nói một chút tiếng Trung."
+      },
+      "traditional": "一點兒",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0431",
+      "hanzi": "衣服",
+      "pinyin": "yīfu",
+      "pos": "danh từ",
+      "meaning_vi": "quần áo",
+      "example": {
+        "zh": "我想买新衣服。",
+        "pinyin": "wǒ xiǎng mǎi xīn yīfu.",
+        "vi": "Tôi muốn mua quần áo mới."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0432",
+      "hanzi": "一会儿",
+      "pinyin": "yīhuìr",
+      "pos": "cụm từ",
+      "meaning_vi": "một lát, một chút",
+      "example": {
+        "zh": "请等一会儿。",
+        "pinyin": "qǐng děng yíhuìr.",
+        "vi": "Xin đợi một lát."
+      },
+      "traditional": "一會兒",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0433",
+      "hanzi": "一块儿",
+      "pinyin": "yīkuàir",
+      "pos": "danh từ, phó từ",
+      "meaning_vi": "cùng nhau",
+      "example": {
+        "zh": "我们一块儿去吧。",
+        "pinyin": "wǒmen yíkuàir qù ba.",
+        "vi": "Chúng ta cùng đi nhé."
+      },
+      "traditional": "一塊兒",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0434",
+      "hanzi": "一起",
+      "pinyin": "yīqǐ",
+      "pos": "phó từ, danh từ",
+      "meaning_vi": "cùng nhau",
+      "example": {
+        "zh": "我们一起学习吧。",
+        "pinyin": "wǒmen yìqǐ xuéxí ba.",
+        "vi": "Chúng ta cùng học nhé."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0435",
+      "hanzi": "医生",
+      "pinyin": "yīshēng",
+      "pos": "danh từ",
+      "meaning_vi": "bác sĩ",
+      "example": {
+        "zh": "我妈妈是医生。",
+        "pinyin": "wǒ māma shì yīshēng.",
+        "vi": "Mẹ tôi là bác sĩ."
+      },
+      "traditional": "醫生",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0436",
+      "hanzi": "一下儿",
+      "pinyin": "yīxiàr",
+      "pos": "cụm từ",
+      "meaning_vi": "một chút, thử (làm gì)",
+      "example": {
+        "zh": "你看一下儿。",
+        "pinyin": "nǐ kàn yíxiàr.",
+        "vi": "Bạn xem thử một chút."
+      },
+      "traditional": "一下兒"
+    },
+    {
+      "id": "hsk1-0437",
+      "hanzi": "一些",
+      "pinyin": "yīxiē",
+      "pos": "cụm từ",
+      "meaning_vi": "một vài, một ít",
+      "example": {
+        "zh": "我买了一些水果。",
+        "pinyin": "wǒ mǎi le yìxiē shuǐguǒ.",
+        "vi": "Tôi mua một ít trái cây."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0438",
+      "hanzi": "一样",
+      "pinyin": "yīyàng",
+      "pos": "tính từ",
+      "meaning_vi": "giống nhau",
+      "example": {
+        "zh": "我们的书包一样。",
+        "pinyin": "wǒmen de shūbāo yíyàng.",
+        "vi": "Cặp của chúng ta giống nhau."
+      },
+      "traditional": "一樣",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0439",
+      "hanzi": "医院",
+      "pinyin": "yīyuàn",
+      "pos": "danh từ",
+      "meaning_vi": "bệnh viện",
+      "example": {
+        "zh": "医院在哪儿？",
+        "pinyin": "yīyuàn zài nǎr?",
+        "vi": "Bệnh viện ở đâu?"
+      },
+      "traditional": "醫院",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0440",
+      "hanzi": "用",
+      "pinyin": "yòng",
+      "pos": "động từ",
+      "meaning_vi": "dùng, sử dụng",
+      "example": {
+        "zh": "我能用一下儿你的电脑吗？",
+        "pinyin": "wǒ néng yòng yíxiàr nǐ de diànnǎo ma?",
+        "vi": "Tôi dùng máy tính của bạn một chút được không?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0441",
+      "hanzi": "有",
+      "pinyin": "yǒu",
+      "pos": "động từ",
+      "meaning_vi": "có",
+      "example": {
+        "zh": "我有一个哥哥。",
+        "pinyin": "wǒ yǒu yí ge gēge.",
+        "vi": "Tôi có một anh trai."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0442",
+      "hanzi": "右",
+      "pinyin": "yòu",
+      "pos": "danh từ",
+      "meaning_vi": "phải (bên phải)",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0443",
+      "hanzi": "右边",
+      "pinyin": "yòubian",
+      "pos": "danh từ",
+      "meaning_vi": "bên phải",
+      "traditional": "右邊",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0444",
+      "hanzi": "有的",
+      "pinyin": "yǒude",
+      "pos": "đại từ",
+      "meaning_vi": "có cái, có người",
+      "example": {
+        "zh": "有的人喜欢喝茶，有的人喜欢喝水。",
+        "pinyin": "yǒude rén xǐhuan hē chá, yǒude rén xǐhuan hē shuǐ.",
+        "vi": "Có người thích uống trà, có người thích uống nước."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0445",
+      "hanzi": "有名",
+      "pinyin": "yǒumíng",
+      "pos": "cụm từ",
+      "meaning_vi": "nổi tiếng",
+      "example": {
+        "zh": "这个饭店很有名。",
+        "pinyin": "zhège fàndiàn hěn yǒumíng.",
+        "vi": "Nhà hàng này rất nổi tiếng."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0446",
+      "hanzi": "有时候",
+      "pinyin": "yǒushíhou",
+      "pos": "phó từ",
+      "meaning_vi": "có lúc, đôi khi",
+      "example": {
+        "zh": "有时候我坐车上学。",
+        "pinyin": "yǒushíhou wǒ zuò chē shàngxué.",
+        "vi": "Có lúc tôi đi xe đến trường."
+      },
+      "traditional": "有時候",
+      "notes": "Dạng khác: 有时 (yǒushí)"
+    },
+    {
+      "id": "hsk1-0447",
+      "hanzi": "有些",
+      "pinyin": "yǒuxiē",
+      "pos": "đại từ",
+      "meaning_vi": "có một số, một vài; hơi",
+      "example": {
+        "zh": "有些人喜欢喝茶。",
+        "pinyin": "yǒuxiē rén xǐhuan hē chá.",
+        "vi": "Có một số người thích uống trà."
+      },
+      "notes": "Cũng nói: 有一些",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0448",
+      "hanzi": "有用",
+      "pinyin": "yǒuyòng",
+      "pos": "động từ",
+      "meaning_vi": "có ích",
+      "example": {
+        "zh": "这本书很有用。",
+        "pinyin": "zhè běn shū hěn yǒuyòng.",
+        "vi": "Quyển sách này rất có ích."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0449",
+      "hanzi": "雨",
+      "pinyin": "yǔ",
+      "pos": "danh từ",
+      "meaning_vi": "mưa",
+      "example": {
+        "zh": "今天雨很大。",
+        "pinyin": "jīntiān yǔ hěn dà.",
+        "vi": "Hôm nay mưa rất to."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0450",
+      "hanzi": "元",
+      "pinyin": "yuán",
+      "pos": "lượng từ",
+      "meaning_vi": "đồng, tệ (đơn vị tiền)",
+      "example": {
+        "zh": "这本书三十元。",
+        "pinyin": "zhè běn shū sān shí yuán.",
+        "vi": "Quyển sách này ba mươi tệ."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0451",
+      "hanzi": "远",
+      "pinyin": "yuǎn",
+      "pos": "tính từ",
+      "meaning_vi": "xa",
+      "example": {
+        "zh": "你家远吗？",
+        "pinyin": "nǐ jiā yuǎn ma?",
+        "vi": "Nhà bạn có xa không?"
+      },
+      "traditional": "遠",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0452",
+      "hanzi": "月",
+      "pinyin": "yuè",
+      "pos": "danh từ",
+      "meaning_vi": "tháng; mặt trăng",
+      "example": {
+        "zh": "我下个月去中国。",
+        "pinyin": "wǒ xià ge yuè qù Zhōngguó.",
+        "vi": "Tháng sau tôi đi Trung Quốc."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0453",
+      "hanzi": "再",
+      "pinyin": "zài",
+      "pos": "phó từ",
+      "meaning_vi": "lại, nữa",
+      "example": {
+        "zh": "请再说一次。",
+        "pinyin": "qǐng zàishuō yí cì.",
+        "vi": "Xin nói lại một lần nữa."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0454",
+      "hanzi": "在",
+      "pinyin": "zài",
+      "pos": "động từ, giới từ, phó từ",
+      "meaning_vi": "ở; đang",
+      "example": {
+        "zh": "我在家。",
+        "pinyin": "wǒ zàijiā.",
+        "vi": "Tôi ở nhà."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0455",
+      "hanzi": "在家",
+      "pinyin": "zàijiā",
+      "pos": "động từ",
+      "meaning_vi": "ở nhà",
+      "example": {
+        "zh": "明天你在家吗？",
+        "pinyin": "míngtiān nǐ zàijiā ma?",
+        "vi": "Ngày mai bạn có ở nhà không?"
+      }
+    },
+    {
+      "id": "hsk1-0456",
+      "hanzi": "再见",
+      "pinyin": "zàijiàn",
+      "pos": "động từ",
+      "meaning_vi": "tạm biệt",
+      "example": {
+        "zh": "老师，再见！",
+        "pinyin": "lǎoshī, zàijiàn!",
+        "vi": "Em chào thầy ạ!"
+      },
+      "traditional": "再見",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0457",
+      "hanzi": "早",
+      "pinyin": "zǎo",
+      "pos": "tính từ",
+      "meaning_vi": "sớm",
+      "example": {
+        "zh": "你来得真早！",
+        "pinyin": "nǐ lái de zhēn zǎo!",
+        "vi": "Bạn đến sớm thật!"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0458",
+      "hanzi": "早饭",
+      "pinyin": "zǎofàn",
+      "pos": "danh từ",
+      "meaning_vi": "bữa sáng",
+      "example": {
+        "zh": "你吃早饭了吗？",
+        "pinyin": "nǐ chī zǎofàn le ma?",
+        "vi": "Bạn ăn sáng chưa?"
+      },
+      "traditional": "早飯",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0459",
+      "hanzi": "早上",
+      "pinyin": "zǎoshang",
+      "pos": "danh từ",
+      "meaning_vi": "buổi sáng (sớm)",
+      "example": {
+        "zh": "早上好！",
+        "pinyin": "zǎoshang hǎo!",
+        "vi": "Chào buổi sáng!"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0460",
+      "hanzi": "怎么",
+      "pinyin": "zěnme",
+      "pos": "đại từ",
+      "meaning_vi": "thế nào, sao",
+      "example": {
+        "zh": "这个字怎么读？",
+        "pinyin": "zhège zì zěnme dú?",
+        "vi": "Chữ này đọc thế nào?"
+      },
+      "traditional": "怎麼",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0461",
+      "hanzi": "站",
+      "pinyin": "zhàn",
+      "pos": "danh từ",
+      "meaning_vi": "đứng; trạm, ga",
+      "example": {
+        "zh": "他站在门口。",
+        "pinyin": "tā zhàn zài ménkǒu.",
+        "vi": "Anh ấy đứng ở cửa."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0462",
+      "hanzi": "找",
+      "pinyin": "zhǎo",
+      "pos": "động từ",
+      "meaning_vi": "tìm",
+      "example": {
+        "zh": "你找谁？",
+        "pinyin": "nǐ zhǎo shéi?",
+        "vi": "Bạn tìm ai?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0463",
+      "hanzi": "找到",
+      "pinyin": "zhǎodào",
+      "pos": "cụm từ",
+      "meaning_vi": "tìm thấy",
+      "example": {
+        "zh": "我找到我的钱包了。",
+        "pinyin": "wǒ zhǎodào wǒ de qiánbāo le.",
+        "vi": "Tôi tìm thấy ví rồi."
+      }
+    },
+    {
+      "id": "hsk1-0464",
+      "hanzi": "这",
+      "pinyin": "zhè",
+      "pos": "đại từ",
+      "meaning_vi": "này, đây",
+      "example": {
+        "zh": "这是我的朋友。",
+        "pinyin": "zhè shì wǒ de péngyou.",
+        "vi": "Đây là bạn tôi."
+      },
+      "traditional": "這",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0465",
+      "hanzi": "着",
+      "pinyin": "zhe",
+      "pos": "trợ từ",
+      "meaning_vi": "đang (trợ từ chỉ trạng thái tiếp diễn)",
+      "example": {
+        "zh": "他笑着说：“你好！”",
+        "pinyin": "tā xiào zhe shuō: \"nǐ hǎo!\"",
+        "vi": "Anh ấy cười nói: \"Xin chào!\""
+      },
+      "traditional": "著",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0466",
+      "hanzi": "这边",
+      "pinyin": "zhèbiān",
+      "pos": "đại từ",
+      "meaning_vi": "bên này",
+      "example": {
+        "zh": "请到这边来。",
+        "pinyin": "qǐng dào zhèbiān lái.",
+        "vi": "Mời qua bên này."
+      },
+      "traditional": "這邊",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0467",
+      "hanzi": "这里",
+      "pinyin": "zhèlǐ",
+      "pos": "đại từ",
+      "meaning_vi": "ở đây, chỗ này",
+      "traditional": "這裡",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0468",
+      "hanzi": "真",
+      "pinyin": "zhēn",
+      "pos": "phó từ, tính từ",
+      "meaning_vi": "thật, thật là",
+      "example": {
+        "zh": "你的汉语说得真好！",
+        "pinyin": "nǐ de Hànyǔ shuō de zhēn hǎo!",
+        "vi": "Bạn nói tiếng Trung giỏi thật!"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0469",
+      "hanzi": "真的",
+      "pinyin": "zhēn de",
+      "pos": "cụm từ",
+      "meaning_vi": "thật sự, thật",
+      "example": {
+        "zh": "真的吗？",
+        "pinyin": "zhēn de ma?",
+        "vi": "Thật không?"
+      }
+    },
+    {
+      "id": "hsk1-0470",
+      "hanzi": "正",
+      "pinyin": "zhèng",
+      "pos": "phó từ",
+      "meaning_vi": "đúng; đang",
+      "example": {
+        "zh": "我正在吃饭。",
+        "pinyin": "wǒ zhèngzài chīfàn.",
+        "vi": "Tôi đang ăn cơm."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0471",
+      "hanzi": "正在",
+      "pinyin": "zhèngzài",
+      "pos": "phó từ",
+      "meaning_vi": "đang",
+      "example": {
+        "zh": "妈妈正在做饭。",
+        "pinyin": "māma zhèngzài zuòfàn.",
+        "vi": "Mẹ đang nấu cơm."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0472",
+      "hanzi": "这儿",
+      "pinyin": "zhèr",
+      "pos": "đại từ",
+      "meaning_vi": "ở đây",
+      "example": {
+        "zh": "你来这儿吧。",
+        "pinyin": "nǐ lái zhèr ba.",
+        "vi": "Bạn đến đây đi."
+      },
+      "traditional": "這兒",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0473",
+      "hanzi": "这些",
+      "pinyin": "zhèxiē",
+      "pos": "đại từ",
+      "meaning_vi": "những … này",
+      "example": {
+        "zh": "这些都是我的书。",
+        "pinyin": "zhèxiē dōu shì wǒ de shū.",
+        "vi": "Những cái này đều là sách của tôi."
+      },
+      "traditional": "這些",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0474",
+      "hanzi": "知道",
+      "pinyin": "zhīdào",
+      "pos": "động từ",
+      "meaning_vi": "biết",
+      "example": {
+        "zh": "我不知道他的名字。",
+        "pinyin": "wǒ bù zhīdao tā de míngzi.",
+        "vi": "Tôi không biết tên anh ấy."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0475",
+      "hanzi": "知识",
+      "pinyin": "zhīshi",
+      "pos": "danh từ",
+      "meaning_vi": "kiến thức, tri thức",
+      "example": {
+        "zh": "书里有很多知识。",
+        "pinyin": "shū lǐ yǒu hěn duō zhīshi.",
+        "vi": "Trong sách có nhiều kiến thức."
+      },
+      "traditional": "知識"
+    },
+    {
+      "id": "hsk1-0476",
+      "hanzi": "中",
+      "pinyin": "zhōng",
+      "pos": "danh từ",
+      "meaning_vi": "giữa; trong",
+      "example": {
+        "zh": "我在中学工作。",
+        "pinyin": "wǒ zài zhōngxué gōngzuò.",
+        "vi": "Tôi làm việc ở trường trung học."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0477",
+      "hanzi": "重",
+      "pinyin": "zhòng",
+      "pos": "tính từ",
+      "meaning_vi": "nặng",
+      "example": {
+        "zh": "这个包很重。",
+        "pinyin": "zhège bāo hěn zhòng.",
+        "vi": "Cái túi này rất nặng."
+      }
+    },
+    {
+      "id": "hsk1-0478",
+      "hanzi": "中国",
+      "pinyin": "Zhōngguó",
+      "pos": "danh từ",
+      "meaning_vi": "Trung Quốc",
+      "example": {
+        "zh": "我想去中国学汉语。",
+        "pinyin": "wǒ xiǎng qù Zhōngguó xué Hànyǔ.",
+        "vi": "Tôi muốn đến Trung Quốc học tiếng Trung."
+      },
+      "traditional": "中國",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0479",
+      "hanzi": "中间",
+      "pinyin": "zhōngjiān",
+      "pos": "danh từ",
+      "meaning_vi": "ở giữa",
+      "example": {
+        "zh": "我坐在他们中间。",
+        "pinyin": "wǒ zuò zài tāmen zhōngjiān.",
+        "vi": "Tôi ngồi giữa họ."
+      },
+      "traditional": "中間",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0480",
+      "hanzi": "中文",
+      "pinyin": "Zhōngwén",
+      "pos": "danh từ",
+      "meaning_vi": "tiếng Trung, Trung văn",
+      "example": {
+        "zh": "你会说中文吗？",
+        "pinyin": "nǐ huì shuō Zhōngwén ma?",
+        "vi": "Bạn biết nói tiếng Trung không?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0481",
+      "hanzi": "中午",
+      "pinyin": "zhōngwǔ",
+      "pos": "danh từ",
+      "meaning_vi": "buổi trưa",
+      "example": {
+        "zh": "中午我在学校吃饭。",
+        "pinyin": "zhōngwǔ wǒ zài xuéxiào chīfàn.",
+        "vi": "Buổi trưa tôi ăn cơm ở trường."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0482",
+      "hanzi": "中学",
+      "pinyin": "zhōngxué",
+      "pos": "danh từ",
+      "meaning_vi": "trường trung học",
+      "example": {
+        "zh": "他在中学学习。",
+        "pinyin": "tā zài zhōngxué xuéxí.",
+        "vi": "Cậu ấy học ở trường trung học."
+      },
+      "traditional": "中學",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0483",
+      "hanzi": "中学生",
+      "pinyin": "zhōngxuéshēng",
+      "pos": "danh từ",
+      "meaning_vi": "học sinh trung học",
+      "example": {
+        "zh": "我妹妹是中学生。",
+        "pinyin": "wǒ mèimei shì zhōngxuéshēng.",
+        "vi": "Em gái tôi là học sinh trung học."
+      },
+      "traditional": "中學生",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0484",
+      "hanzi": "重要",
+      "pinyin": "zhòngyào",
+      "pos": "tính từ",
+      "meaning_vi": "quan trọng",
+      "example": {
+        "zh": "这个考试很重要。",
+        "pinyin": "zhège kǎoshì hěn zhòngyào.",
+        "vi": "Kỳ thi này rất quan trọng."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0485",
+      "hanzi": "住",
+      "pinyin": "zhù",
+      "pos": "động từ",
+      "meaning_vi": "sống, ở",
+      "example": {
+        "zh": "你住在哪儿？",
+        "pinyin": "nǐ zhù zài nǎr?",
+        "vi": "Bạn sống ở đâu?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0486",
+      "hanzi": "准备",
+      "pinyin": "zhǔnbèi",
+      "pos": "động từ",
+      "meaning_vi": "chuẩn bị",
+      "example": {
+        "zh": "我在准备考试。",
+        "pinyin": "wǒ zài zhǔnbèi kǎoshì.",
+        "vi": "Tôi đang chuẩn bị thi."
+      },
+      "traditional": "準備",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0487",
+      "hanzi": "桌子",
+      "pinyin": "zhuōzi",
+      "pos": "danh từ",
+      "meaning_vi": "cái bàn",
+      "example": {
+        "zh": "桌子上有一杯茶。",
+        "pinyin": "zhuōzi shàng yǒu yì bēi chá.",
+        "vi": "Trên bàn có một cốc trà."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0488",
+      "hanzi": "字",
+      "pinyin": "zì",
+      "pos": "danh từ",
+      "meaning_vi": "chữ",
+      "example": {
+        "zh": "这个字我不认识。",
+        "pinyin": "zhège zì wǒ bú rènshi.",
+        "vi": "Chữ này tôi không biết."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0489",
+      "hanzi": "子",
+      "pinyin": "zi",
+      "pos": "trợ từ",
+      "meaning_vi": "(hậu tố danh từ, đọc nhẹ: 桌子, 杯子)",
+      "example": {
+        "zh": "桌子、杯子、本子都有“子”。",
+        "pinyin": "zhuōzi, bēizi, běnzi dōu yǒu \"zi\".",
+        "vi": "Bàn, cốc, vở đều có chữ \"子\"."
+      },
+      "notes": "Ví dụ dùng: 桌子; Phụ tố (词缀)",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0490",
+      "hanzi": "走",
+      "pinyin": "zǒu",
+      "pos": "động từ",
+      "meaning_vi": "đi (bộ); rời đi",
+      "example": {
+        "zh": "我们走吧。",
+        "pinyin": "wǒmen zǒu ba.",
+        "vi": "Chúng ta đi thôi."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0491",
+      "hanzi": "走路",
+      "pinyin": "zǒulù",
+      "pos": "cụm từ",
+      "meaning_vi": "đi bộ",
+      "example": {
+        "zh": "我常常走路上班。",
+        "pinyin": "wǒ chángcháng zǒulù shàngbān.",
+        "vi": "Tôi thường đi bộ đi làm."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0492",
+      "hanzi": "最",
+      "pinyin": "zuì",
+      "pos": "phó từ",
+      "meaning_vi": "nhất",
+      "example": {
+        "zh": "我最喜欢吃包子。",
+        "pinyin": "wǒ zuì xǐhuan chī bāozi.",
+        "vi": "Tôi thích ăn bánh bao nhất."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0493",
+      "hanzi": "最好",
+      "pinyin": "zuìhǎo",
+      "pos": "phó từ",
+      "meaning_vi": "tốt nhất; tốt nhất là",
+      "example": {
+        "zh": "你最好早点儿回家。",
+        "pinyin": "nǐ zuìhǎo zǎo diǎnr huí jiā.",
+        "vi": "Tốt nhất bạn nên về nhà sớm."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0494",
+      "hanzi": "最后",
+      "pinyin": "zuìhòu",
+      "pos": "danh từ",
+      "meaning_vi": "cuối cùng",
+      "traditional": "最後",
+      "syllabus2025": true,
+      "syllabus2025_level": 3
+    },
+    {
+      "id": "hsk1-0495",
+      "hanzi": "左",
+      "pinyin": "zuǒ",
+      "pos": "danh từ",
+      "meaning_vi": "trái (bên trái)",
+      "example": {
+        "zh": "左手",
+        "pinyin": "zuǒ shǒu",
+        "vi": "Tay trái"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0496",
+      "hanzi": "做",
+      "pinyin": "zuò",
+      "pos": "động từ",
+      "meaning_vi": "làm",
+      "example": {
+        "zh": "你在做什么？",
+        "pinyin": "nǐ zài zuò shénme?",
+        "vi": "Bạn đang làm gì?"
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0497",
+      "hanzi": "坐",
+      "pinyin": "zuò",
+      "pos": "động từ",
+      "meaning_vi": "ngồi; đi (xe, tàu…)",
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0498",
+      "hanzi": "左边",
+      "pinyin": "zuǒbian",
+      "pos": "danh từ",
+      "meaning_vi": "bên trái",
+      "example": {
+        "zh": "书店在左边。",
+        "pinyin": "shūdiàn zài zuǒbian.",
+        "vi": "Hiệu sách ở bên trái."
+      },
+      "traditional": "左邊",
+      "syllabus2025": true,
+      "syllabus2025_level": 2
+    },
+    {
+      "id": "hsk1-0499",
+      "hanzi": "昨天",
+      "pinyin": "zuótiān",
+      "pos": "danh từ",
+      "meaning_vi": "hôm qua",
+      "example": {
+        "zh": "昨天我没去学校。",
+        "pinyin": "zuótiān wǒ méi qù xuéxiào.",
+        "vi": "Hôm qua tôi không đi học."
+      },
+      "syllabus2025": true,
+      "syllabus2025_level": 1
+    },
+    {
+      "id": "hsk1-0500",
+      "hanzi": "坐下",
+      "pinyin": "zuò xia",
+      "pos": "cụm từ",
+      "meaning_vi": "ngồi xuống",
+      "example": {
+        "zh": "请坐下。",
+        "pinyin": "qǐng zuò xià.",
+        "vi": "Mời ngồi xuống."
+      }
+    }
+  ]
+}

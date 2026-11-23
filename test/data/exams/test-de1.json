@@ -1,0 +1,956 @@
+{
+  "id": "test-de1",
+  "level": 1,
+  "title_vi": "Đề kiểm thử – mọi dạng câu",
+  "standard": "HSK3.0",
+  "duration_minutes": 20,
+  "total_score": 300,
+  "pass_score": 180,
+  "show_pinyin": true,
+  "sections": [
+    {
+      "id": "listening",
+      "name_vi": "Nghe",
+      "name_zh": "听力",
+      "max_score": 100,
+      "parts": [
+        {
+          "code": "L1",
+          "type": "true_false_image",
+          "expected_count": 2,
+          "instruction_vi": "Nghe và phán đoán hình ảnh đúng (✓) hay sai (✗).",
+          "instruction_zh": "第一部分：判断对错。",
+          "groups": [
+            {
+              "id": "test-de1-L1-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "test-de1-L1-ex",
+                  "no": 0,
+                  "is_example": true,
+                  "type": "true_false_image",
+                  "image": {
+                    "emoji": "🍎",
+                    "alt_vi": "Quả táo"
+                  },
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "苹果",
+                        "pinyin": "píngguǒ"
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "stem": null,
+                  "answer": true,
+                  "explanation_vi": "苹果 = táo."
+                },
+                {
+                  "id": "test-de1-01",
+                  "no": 1,
+                  "type": "true_false_image",
+                  "image": {
+                    "emoji": "🚕",
+                    "alt_vi": "Một chiếc taxi"
+                  },
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "出租车",
+                        "pinyin": "chūzūchē"
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "stem": null,
+                  "answer": true,
+                  "explanation_vi": "出租车 = taxi, khớp với hình."
+                },
+                {
+                  "id": "test-de1-02",
+                  "no": 2,
+                  "type": "true_false_image",
+                  "image": {
+                    "emoji": "🐱",
+                    "alt_vi": "Con mèo"
+                  },
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "旁白",
+                        "text": "狗",
+                        "pinyin": "gǒu"
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "stem": null,
+                  "answer": false,
+                  "explanation_vi": "狗 = chó, hình là mèo → sai."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "L2",
+          "type": "choose_image",
+          "expected_count": 1,
+          "instruction_vi": "Nghe câu, chọn hình đúng.",
+          "instruction_zh": "第二部分",
+          "groups": [
+            {
+              "id": "test-de1-L2-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "test-de1-03",
+                  "no": 3,
+                  "type": "choose_image",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "我喜欢喝茶。",
+                        "pinyin": "wǒ xǐhuan hē chá."
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "image": {
+                        "emoji": "🍵",
+                        "alt_vi": "Tách trà"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "image": {
+                        "emoji": "☕",
+                        "alt_vi": "Cốc cà phê"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "image": {
+                        "emoji": "🥛",
+                        "alt_vi": "Cốc sữa"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "喝茶 = uống trà."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "L3",
+          "type": "match_image",
+          "expected_count": 2,
+          "instruction_vi": "Nghe hội thoại, chọn hình tương ứng.",
+          "instruction_zh": "第三部分",
+          "groups": [
+            {
+              "id": "test-de1-L3-g1",
+              "passage": null,
+              "shared_options": [
+                {
+                  "key": "A",
+                  "image": {
+                    "emoji": "📖",
+                    "alt_vi": "Đọc sách"
+                  }
+                },
+                {
+                  "key": "B",
+                  "image": {
+                    "emoji": "🍚",
+                    "alt_vi": "Ăn cơm"
+                  }
+                },
+                {
+                  "key": "C",
+                  "image": {
+                    "emoji": "📺",
+                    "alt_vi": "Xem TV"
+                  }
+                }
+              ],
+              "questions": [
+                {
+                  "id": "test-de1-04",
+                  "no": 4,
+                  "type": "match_image",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "你在做什么？",
+                        "pinyin": "nǐ zài zuò shénme?"
+                      },
+                      {
+                        "speaker": "女",
+                        "text": "我在看书。",
+                        "pinyin": "wǒ zài kàn shū."
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "stem": null,
+                  "answer": "A",
+                  "explanation_vi": "看书 = đọc sách → A."
+                },
+                {
+                  "id": "test-de1-05",
+                  "no": 5,
+                  "type": "match_image",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "你吃米饭吗？"
+                      },
+                      {
+                        "speaker": "男",
+                        "text": "吃，我很饿。"
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "stem": null,
+                  "answer": "B",
+                  "explanation_vi": "吃米饭 = ăn cơm → B."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "L4",
+          "type": "choose_option",
+          "expected_count": 1,
+          "instruction_vi": "Nghe và chọn đáp án đúng.",
+          "instruction_zh": "第四部分",
+          "groups": [
+            {
+              "id": "test-de1-L4-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "test-de1-06",
+                  "no": 6,
+                  "type": "choose_option",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "男",
+                        "text": "下午我去商店买东西。"
+                      },
+                      {
+                        "speaker": "旁白",
+                        "text": "问：他下午去哪儿？"
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "passage": null,
+                  "question": {
+                    "zh": "他下午去哪儿？",
+                    "pinyin": "tā xiàwǔ qù nǎr?",
+                    "vi": "Buổi chiều anh ấy đi đâu?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "商店",
+                        "pinyin": "shāngdiàn"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "医院",
+                        "pinyin": "yīyuàn"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "学校",
+                        "pinyin": "xuéxiào"
+                      }
+                    }
+                  ],
+                  "answer": "A",
+                  "explanation_vi": "去商店买东西 → đi cửa hàng."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "L5",
+          "type": "true_false_statement",
+          "expected_count": 1,
+          "instruction_vi": "Nghe đoạn và phán đoán câu ★.",
+          "instruction_zh": "第五部分",
+          "groups": [
+            {
+              "id": "test-de1-L5-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "test-de1-07",
+                  "no": 7,
+                  "type": "true_false_statement",
+                  "audio": {
+                    "lines": [
+                      {
+                        "speaker": "女",
+                        "text": "我每天早上七点起床，八点去公司上班。"
+                      }
+                    ],
+                    "repeat": 2
+                  },
+                  "passage": null,
+                  "statement": {
+                    "zh": "★ 她八点起床。",
+                    "pinyin": "tā bā diǎn qǐchuáng."
+                  },
+                  "answer": false,
+                  "explanation_vi": "Cô ấy dậy lúc 7 giờ, 8 giờ đi làm."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "name_vi": "Đọc",
+      "name_zh": "阅读",
+      "max_score": 100,
+      "duration_minutes": 10,
+      "parts": [
+        {
+          "code": "R1",
+          "type": "true_false_image",
+          "expected_count": 1,
+          "instruction_vi": "Từ và hình có khớp không?",
+          "instruction_zh": "第一部分",
+          "groups": [
+            {
+              "id": "test-de1-R1-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "test-de1-08",
+                  "no": 8,
+                  "type": "true_false_image",
+                  "image": {
+                    "emoji": "✈️",
+                    "alt_vi": "Máy bay"
+                  },
+                  "stem": {
+                    "zh": "飞机",
+                    "pinyin": "fēijī",
+                    "vi": "máy bay"
+                  },
+                  "answer": true,
+                  "explanation_vi": "飞机 = máy bay."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R2",
+          "type": "match_image",
+          "expected_count": 1,
+          "instruction_vi": "Chọn hình phù hợp với câu.",
+          "instruction_zh": "第二部分",
+          "groups": [
+            {
+              "id": "test-de1-R2-g1",
+              "passage": null,
+              "shared_options": [
+                {
+                  "key": "A",
+                  "image": {
+                    "emoji": "🌧️",
+                    "alt_vi": "Trời mưa"
+                  }
+                },
+                {
+                  "key": "B",
+                  "image": {
+                    "emoji": "☀️",
+                    "alt_vi": "Trời nắng"
+                  }
+                }
+              ],
+              "questions": [
+                {
+                  "id": "test-de1-09",
+                  "no": 9,
+                  "type": "match_image",
+                  "stem": {
+                    "zh": "今天下雨了。",
+                    "pinyin": "jīntiān xià yǔ le.",
+                    "vi": "Hôm nay trời mưa."
+                  },
+                  "answer": "A",
+                  "explanation_vi": "下雨 = mưa."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R3",
+          "type": "match_sentence",
+          "expected_count": 2,
+          "instruction_vi": "Tìm câu trả lời tương ứng.",
+          "instruction_zh": "第三部分",
+          "groups": [
+            {
+              "id": "test-de1-R3-g1",
+              "passage": null,
+              "shared_options": [
+                {
+                  "key": "A",
+                  "text": {
+                    "zh": "我叫王明。",
+                    "pinyin": "wǒ jiào Wáng Míng."
+                  }
+                },
+                {
+                  "key": "B",
+                  "text": {
+                    "zh": "三点了。",
+                    "pinyin": "sān diǎn le."
+                  }
+                },
+                {
+                  "key": "C",
+                  "text": {
+                    "zh": "不客气。",
+                    "pinyin": "bú kèqi."
+                  }
+                }
+              ],
+              "questions": [
+                {
+                  "id": "test-de1-10",
+                  "no": 10,
+                  "type": "match_sentence",
+                  "stem": {
+                    "zh": "你叫什么名字？",
+                    "pinyin": "nǐ jiào shénme míngzi?"
+                  },
+                  "answer": "A",
+                  "explanation_vi": "Hỏi tên → A."
+                },
+                {
+                  "id": "test-de1-11",
+                  "no": 11,
+                  "type": "match_sentence",
+                  "stem": {
+                    "zh": "现在几点？",
+                    "pinyin": "xiànzài jǐ diǎn?"
+                  },
+                  "answer": "B",
+                  "explanation_vi": "Hỏi giờ → B."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R4",
+          "type": "fill_blank_wordbank",
+          "expected_count": 2,
+          "instruction_vi": "Chọn từ thích hợp điền vào chỗ trống.",
+          "instruction_zh": "第四部分：选词填空。",
+          "groups": [
+            {
+              "id": "test-de1-R4-g1",
+              "passage": null,
+              "shared_options": [
+                {
+                  "key": "A",
+                  "text": {
+                    "zh": "米饭",
+                    "pinyin": "mǐfàn"
+                  }
+                },
+                {
+                  "key": "B",
+                  "text": {
+                    "zh": "买",
+                    "pinyin": "mǎi"
+                  }
+                },
+                {
+                  "key": "C",
+                  "text": {
+                    "zh": "名字",
+                    "pinyin": "míngzi"
+                  }
+                },
+                {
+                  "key": "D",
+                  "text": {
+                    "zh": "坐",
+                    "pinyin": "zuò"
+                  }
+                }
+              ],
+              "questions": [
+                {
+                  "id": "test-de1-R4-ex",
+                  "no": 0,
+                  "is_example": true,
+                  "type": "fill_blank_wordbank",
+                  "stem": {
+                    "zh": "你叫什么（ ）？",
+                    "pinyin": "nǐ jiào shénme ( )?"
+                  },
+                  "answer": "C",
+                  "explanation_vi": "名字 = tên."
+                },
+                {
+                  "id": "test-de1-12",
+                  "no": 12,
+                  "type": "fill_blank_wordbank",
+                  "stem": {
+                    "zh": "这是我（ ）的苹果。",
+                    "pinyin": "zhè shì wǒ ( ) de píngguǒ."
+                  },
+                  "answer": "B",
+                  "explanation_vi": "买 = mua."
+                },
+                {
+                  "id": "test-de1-13",
+                  "no": 13,
+                  "type": "fill_blank_wordbank",
+                  "stem": {
+                    "zh": "A：你怎么去？\nB：我（ ）出租车去。",
+                    "pinyin": "A: nǐ zěnme qù?\nB: wǒ ( ) chūzūchē qù."
+                  },
+                  "answer": "D",
+                  "explanation_vi": "坐出租车 = đi taxi."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R5",
+          "type": "choose_option",
+          "expected_count": 1,
+          "instruction_vi": "Đọc đoạn văn, chọn đáp án.",
+          "instruction_zh": "第五部分",
+          "groups": [
+            {
+              "id": "test-de1-R5-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "test-de1-14",
+                  "no": 14,
+                  "type": "choose_option",
+                  "passage": {
+                    "zh": "我姐姐是老师，她在北京的一个学校工作。",
+                    "pinyin": "wǒ jiějie shì lǎoshī, tā zài Běijīng de yí gè xuéxiào gōngzuò.",
+                    "vi": "Chị tôi là giáo viên, chị làm ở một trường ở Bắc Kinh."
+                  },
+                  "question": {
+                    "zh": "★ 她姐姐做什么工作？",
+                    "pinyin": "tā jiějie zuò shénme gōngzuò?"
+                  },
+                  "options": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "医生",
+                        "pinyin": "yīshēng"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "老师",
+                        "pinyin": "lǎoshī"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "司机",
+                        "pinyin": "sījī"
+                      }
+                    }
+                  ],
+                  "answer": "B",
+                  "explanation_vi": "是老师 → B."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R6",
+          "type": "true_false_statement",
+          "expected_count": 1,
+          "instruction_vi": "Đọc và phán đoán câu ★.",
+          "instruction_zh": "第六部分",
+          "groups": [
+            {
+              "id": "test-de1-R6-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "test-de1-15",
+                  "no": 15,
+                  "type": "true_false_statement",
+                  "passage": {
+                    "zh": "今天天气很好，我们去公园吧。",
+                    "pinyin": "jīntiān tiānqì hěn hǎo, wǒmen qù gōngyuán ba."
+                  },
+                  "statement": {
+                    "zh": "★ 今天天气不好。",
+                    "pinyin": "jīntiān tiānqì bù hǎo."
+                  },
+                  "answer": false,
+                  "explanation_vi": "天气很好 → câu ★ sai."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "R7",
+          "type": "order_sentences",
+          "expected_count": 1,
+          "instruction_vi": "Sắp xếp các câu theo thứ tự đúng.",
+          "instruction_zh": "排列顺序",
+          "groups": [
+            {
+              "id": "test-de1-R7-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "test-de1-16",
+                  "no": 16,
+                  "type": "order_sentences",
+                  "sentences": [
+                    {
+                      "key": "A",
+                      "text": {
+                        "zh": "所以我今天没去上班",
+                        "pinyin": "suǒyǐ wǒ jīntiān méi qù shàngbān"
+                      }
+                    },
+                    {
+                      "key": "B",
+                      "text": {
+                        "zh": "昨天晚上我感冒了",
+                        "pinyin": "zuótiān wǎnshang wǒ gǎnmào le"
+                      }
+                    },
+                    {
+                      "key": "C",
+                      "text": {
+                        "zh": "医生让我多休息",
+                        "pinyin": "yīshēng ràng wǒ duō xiūxi"
+                      }
+                    }
+                  ],
+                  "answer": "BCA",
+                  "explanation_vi": "Nguyên nhân (B) → lời bác sĩ (C) → kết quả 所以 (A)."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "name_vi": "Viết",
+      "name_zh": "书写",
+      "max_score": 100,
+      "duration_minutes": 8,
+      "parts": [
+        {
+          "code": "W1",
+          "type": "reorder_words",
+          "expected_count": 1,
+          "instruction_vi": "Sắp xếp từ thành câu.",
+          "instruction_zh": "第一部分：完成句子。",
+          "groups": [
+            {
+              "id": "test-de1-W1-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "test-de1-17",
+                  "no": 17,
+                  "type": "reorder_words",
+                  "words": [
+                    "北京",
+                    "去",
+                    "我",
+                    "明天"
+                  ],
+                  "answer": "我明天去北京。",
+                  "accepted_answers": [
+                    "明天我去北京。"
+                  ],
+                  "pinyin": "wǒ míngtiān qù běijīng.",
+                  "explanation_vi": "Trạng ngữ thời gian đứng trước động từ."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "W2",
+          "type": "write_hanzi_from_pinyin",
+          "expected_count": 1,
+          "instruction_vi": "Viết chữ Hán theo pinyin.",
+          "instruction_zh": "第二部分",
+          "groups": [
+            {
+              "id": "test-de1-W2-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "test-de1-18",
+                  "no": 18,
+                  "type": "write_hanzi_from_pinyin",
+                  "stem": {
+                    "zh": "我（ ）你介绍一下，这是我朋友。"
+                  },
+                  "blank_pinyin": "gěi",
+                  "answer": "给",
+                  "explanation_vi": "给…介绍 = giới thiệu cho ai."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "W2b",
+          "type": "choose_component",
+          "expected_count": 1,
+          "instruction_vi": "Chọn bộ phận còn thiếu để hoàn thành chữ.",
+          "instruction_zh": "选择部件，完成汉字。",
+          "groups": [
+            {
+              "id": "test-de1-W2b-g1",
+              "passage": null,
+              "shared_options": [
+                {
+                  "key": "A",
+                  "text": {
+                    "zh": "马",
+                    "pinyin": "mǎ"
+                  }
+                },
+                {
+                  "key": "B",
+                  "text": {
+                    "zh": "子",
+                    "pinyin": "zǐ"
+                  }
+                },
+                {
+                  "key": "C",
+                  "text": {
+                    "zh": "目",
+                    "pinyin": "mù"
+                  }
+                }
+              ],
+              "questions": [
+                {
+                  "id": "test-de1-19",
+                  "no": 19,
+                  "type": "choose_component",
+                  "word": {
+                    "zh": "妈妈",
+                    "pinyin": "māma"
+                  },
+                  "target_char": "妈",
+                  "target_index": 0,
+                  "shown_part": "女",
+                  "layout": "left-right",
+                  "answer": "A",
+                  "explanation_vi": "妈 = 女 + 马 (A)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "W3",
+          "type": "write_sentence",
+          "expected_count": 1,
+          "instruction_vi": "Đặt câu với từ cho sẵn.",
+          "instruction_zh": "看图，用词造句。",
+          "groups": [
+            {
+              "id": "test-de1-W3-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "test-de1-20",
+                  "no": 20,
+                  "type": "write_sentence",
+                  "prompt_vi": "Đặt một câu có dùng từ cho sẵn, phù hợp với hình.",
+                  "keyword": {
+                    "zh": "打篮球",
+                    "pinyin": "dǎ lánqiú"
+                  },
+                  "image": {
+                    "emoji": "🏀",
+                    "alt_vi": "Hai người đang chơi bóng rổ"
+                  },
+                  "min_chars": 6,
+                  "sample_answers": [
+                    "他们每个周末都去打篮球。"
+                  ],
+                  "answer": null,
+                  "explanation_vi": "Gợi ý: 主语 + 时间 + 打篮球.",
+                  "max_points": 2,
+                  "rubric_id": "rb-sentence"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "W4",
+          "type": "write_essay",
+          "expected_count": 1,
+          "instruction_vi": "Viết đoạn văn ngắn.",
+          "instruction_zh": "写短文",
+          "groups": [
+            {
+              "id": "test-de1-W4-g1",
+              "shared_options": null,
+              "passage": null,
+              "questions": [
+                {
+                  "id": "test-de1-21",
+                  "no": 21,
+                  "type": "write_essay",
+                  "prompt_vi": "Viết khoảng 40 chữ giới thiệu gia đình bạn, dùng các từ cho sẵn.",
+                  "keywords": [
+                    "家",
+                    "爸爸",
+                    "妈妈"
+                  ],
+                  "min_chars": 20,
+                  "sample_answers": [
+                    "我家有三口人：爸爸、妈妈和我。爸爸是医生，妈妈是老师。我很爱我的家。"
+                  ],
+                  "answer": null,
+                  "explanation_vi": "Dùng đủ từ khóa, câu đơn giản rõ ràng.",
+                  "max_points": 20,
+                  "rubric_id": "rb-essay",
+                  "prompt": {
+                    "zh": "请介绍一下你的家。"
+                  },
+                  "genre": "narrative",
+                  "outline_vi": [
+                    "Mở: nhà có mấy người",
+                    "Thân: nghề nghiệp từng người",
+                    "Kết: tình cảm"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "test": true,
+  "score_mode": "pass",
+  "speaking_paper": "hsk3-de1-speaking",
+  "repeat_default": 2,
+  "rubrics": [
+    {
+      "id": "rb-sentence",
+      "max_score": 10,
+      "criteria": [
+        {
+          "key": "grammar",
+          "name_vi": "Ngữ pháp",
+          "weight": 0.5,
+          "description_vi": "Câu đúng ngữ pháp."
+        },
+        {
+          "key": "keyword",
+          "name_vi": "Dùng từ",
+          "weight": 0.5,
+          "description_vi": "Dùng đúng từ cho sẵn."
+        }
+      ]
+    },
+    {
+      "id": "rb-essay",
+      "max_score": 20,
+      "criteria": [
+        {
+          "key": "content",
+          "name_vi": "Nội dung",
+          "weight": 0.4,
+          "description_vi": "Đủ ý."
+        },
+        {
+          "key": "organization",
+          "name_vi": "Bố cục",
+          "weight": 0.2,
+          "description_vi": "Mạch lạc."
+        },
+        {
+          "key": "vocab_grammar",
+          "name_vi": "Từ vựng & ngữ pháp",
+          "weight": 0.3,
+          "description_vi": "Chính xác."
+        },
+        {
+          "key": "characters",
+          "name_vi": "Chữ viết",
+          "weight": 0.1,
+          "description_vi": "Viết đúng chữ."
+        }
+      ]
+    }
+  ]
+}

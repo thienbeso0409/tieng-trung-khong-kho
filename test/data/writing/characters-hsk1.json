@@ -1,0 +1,69 @@
+{
+  "level": 1,
+  "target_count": 246,
+  "count": 5,
+  "complete": false,
+  "characters": [
+    {
+      "hanzi": "爱",
+      "pinyin": "ài",
+      "meaning_vi": "yêu",
+      "han_viet": "ái",
+      "strokes": 10,
+      "radical": "爫",
+      "radical_meaning_vi": "trảo (móng vuốt)",
+      "level": 1,
+      "words": [
+        "爱"
+      ]
+    },
+    {
+      "hanzi": "八",
+      "pinyin": "bā",
+      "meaning_vi": "tám",
+      "han_viet": "bát",
+      "strokes": 2,
+      "radical": "八",
+      "level": 1,
+      "words": [
+        "八"
+      ]
+    },
+    {
+      "hanzi": "好",
+      "pinyin": "hǎo",
+      "meaning_vi": "tốt, hay",
+      "han_viet": "hảo",
+      "strokes": 6,
+      "radical": "女",
+      "radical_meaning_vi": "nữ (phụ nữ)",
+      "level": 1,
+      "words": [
+        "你好"
+      ]
+    },
+    {
+      "hanzi": "你",
+      "pinyin": "nǐ",
+      "meaning_vi": "bạn",
+      "han_viet": "nhĩ",
+      "strokes": 7,
+      "radical": "亻",
+      "radical_meaning_vi": "nhân đứng (người)",
+      "level": 1,
+      "words": [
+        "你"
+      ]
+    },
+    {
+      "hanzi": "喝",
+      "pinyin": "hē",
+      "meaning_vi": "uống",
+      "han_viet": "hát",
+      "strokes": 12,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1
+    }
+  ]
+}

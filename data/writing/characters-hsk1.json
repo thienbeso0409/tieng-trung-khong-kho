@@ -1,0 +1,4019 @@
+{
+  "level": 1,
+  "standard": "HSK3.0",
+  "target_count": 246,
+  "count": 248,
+  "complete": true,
+  "notes": "Chữ nhận biết theo đại cương HSK 2025 (suy ra từ danh sách từ cấp 1). Số nét, bộ thủ: Make Me a Hanzi (cùng nguồn dữ liệu nét của Hanzi Writer).",
+  "characters": [
+    {
+      "hanzi": "爱",
+      "pinyin": "ài",
+      "meaning_vi": "yêu",
+      "han_viet": "ái",
+      "strokes": 10,
+      "radical": "爫",
+      "radical_meaning_vi": "trảo (móng vuốt)",
+      "level": 1,
+      "words": [
+        "爱",
+        "爱心",
+        "爱好",
+        "爱情",
+        "可爱",
+        "热爱"
+      ]
+    },
+    {
+      "hanzi": "八",
+      "pinyin": "bā",
+      "meaning_vi": "tám",
+      "han_viet": "bát",
+      "strokes": 2,
+      "radical": "八",
+      "radical_meaning_vi": "bát (tám)",
+      "level": 1,
+      "words": [
+        "八"
+      ]
+    },
+    {
+      "hanzi": "爸",
+      "pinyin": "bà",
+      "meaning_vi": "bố",
+      "han_viet": "bá",
+      "strokes": 8,
+      "radical": "父",
+      "radical_meaning_vi": "phụ (cha)",
+      "level": 1,
+      "words": [
+        "爸爸"
+      ]
+    },
+    {
+      "hanzi": "吧",
+      "pinyin": "ba",
+      "meaning_vi": "trợ từ ngữ khí (nhé, đi)",
+      "han_viet": "ba",
+      "strokes": 7,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "吧"
+      ]
+    },
+    {
+      "hanzi": "白",
+      "pinyin": "bái",
+      "meaning_vi": "trắng",
+      "han_viet": "bạch",
+      "strokes": 5,
+      "radical": "白",
+      "radical_meaning_vi": "bạch (trắng)",
+      "level": 1,
+      "words": [
+        "白",
+        "白菜",
+        "明白",
+        "白天",
+        "白色"
+      ]
+    },
+    {
+      "hanzi": "百",
+      "pinyin": "bǎi",
+      "meaning_vi": "trăm",
+      "han_viet": "bách",
+      "strokes": 6,
+      "radical": "白",
+      "radical_meaning_vi": "bạch (trắng)",
+      "level": 1,
+      "words": [
+        "百",
+        "老百姓"
+      ]
+    },
+    {
+      "hanzi": "班",
+      "pinyin": "bān",
+      "meaning_vi": "lớp; ca",
+      "han_viet": "ban",
+      "strokes": 10,
+      "radical": "王",
+      "radical_meaning_vi": "ngọc (ngọc)",
+      "level": 1,
+      "words": [
+        "班",
+        "班级",
+        "上班",
+        "班长",
+        "下班"
+      ]
+    },
+    {
+      "hanzi": "半",
+      "pinyin": "bàn",
+      "meaning_vi": "nửa",
+      "han_viet": "bán",
+      "strokes": 5,
+      "radical": "十",
+      "radical_meaning_vi": "thập (mười)",
+      "level": 1,
+      "words": [
+        "半",
+        "一半",
+        "半夜",
+        "半天",
+        "半年"
+      ]
+    },
+    {
+      "hanzi": "包",
+      "pinyin": "bāo",
+      "meaning_vi": "bao, túi; gói",
+      "han_viet": "bao",
+      "strokes": 5,
+      "radical": "勹",
+      "radical_meaning_vi": "bao (bọc)",
+      "level": 1,
+      "words": [
+        "包",
+        "包子",
+        "书包",
+        "皮包",
+        "钱包",
+        "面包"
+      ]
+    },
+    {
+      "hanzi": "杯",
+      "pinyin": "bēi",
+      "meaning_vi": "cốc, chén",
+      "han_viet": "bôi",
+      "strokes": 8,
+      "radical": "木",
+      "radical_meaning_vi": "mộc (cây)",
+      "level": 1,
+      "words": [
+        "杯",
+        "干杯",
+        "杯子",
+        "世界杯"
+      ]
+    },
+    {
+      "hanzi": "本",
+      "pinyin": "běn",
+      "meaning_vi": "gốc; quyển",
+      "han_viet": "bản",
+      "strokes": 5,
+      "radical": "木",
+      "radical_meaning_vi": "mộc (cây)",
+      "level": 1,
+      "words": [
+        "本",
+        "本事",
+        "基本",
+        "根本",
+        "本领",
+        "本来"
+      ]
+    },
+    {
+      "hanzi": "边",
+      "pinyin": "biān",
+      "meaning_vi": "bên, cạnh",
+      "han_viet": "biên",
+      "strokes": 5,
+      "radical": "辶",
+      "radical_meaning_vi": "sước (đi)",
+      "level": 1,
+      "words": [
+        "边",
+        "那边",
+        "西边",
+        "左边",
+        "下边",
+        "右边"
+      ]
+    },
+    {
+      "hanzi": "便",
+      "pinyin": "biàn",
+      "meaning_vi": "tiện",
+      "han_viet": "tiện",
+      "strokes": 9,
+      "radical": "亻",
+      "radical_meaning_vi": "nhân đứng (người)",
+      "level": 1,
+      "words": [
+        "便宜",
+        "方便",
+        "随便",
+        "方便面"
+      ]
+    },
+    {
+      "hanzi": "病",
+      "pinyin": "bìng",
+      "meaning_vi": "bệnh",
+      "han_viet": "bệnh",
+      "strokes": 10,
+      "radical": "疒",
+      "radical_meaning_vi": "nạch (bệnh)",
+      "level": 1,
+      "words": [
+        "病",
+        "生病",
+        "病人",
+        "毛病",
+        "看病"
+      ]
+    },
+    {
+      "hanzi": "不",
+      "pinyin": "bù",
+      "meaning_vi": "không",
+      "han_viet": "bất",
+      "strokes": 4,
+      "radical": "一",
+      "radical_meaning_vi": "nhất (một)",
+      "level": 1,
+      "words": [
+        "不",
+        "不光",
+        "不要",
+        "不对",
+        "不太",
+        "不安"
+      ]
+    },
+    {
+      "hanzi": "菜",
+      "pinyin": "cài",
+      "meaning_vi": "rau; món ăn",
+      "han_viet": "thái",
+      "strokes": 11,
+      "radical": "艹",
+      "radical_meaning_vi": "thảo (cỏ)",
+      "level": 1,
+      "words": [
+        "菜",
+        "白菜",
+        "菜单"
+      ]
+    },
+    {
+      "hanzi": "茶",
+      "pinyin": "chá",
+      "meaning_vi": "trà",
+      "han_viet": "trà",
+      "strokes": 9,
+      "radical": "艹",
+      "radical_meaning_vi": "thảo (cỏ)",
+      "level": 1,
+      "words": [
+        "茶",
+        "绿茶",
+        "红茶",
+        "奶茶"
+      ]
+    },
+    {
+      "hanzi": "常",
+      "pinyin": "cháng",
+      "meaning_vi": "thường",
+      "han_viet": "thường",
+      "strokes": 11,
+      "radical": "巾",
+      "radical_meaning_vi": "cân (khăn)",
+      "level": 1,
+      "words": [
+        "常",
+        "正常",
+        "通常",
+        "常用",
+        "常见",
+        "经常"
+      ]
+    },
+    {
+      "hanzi": "唱",
+      "pinyin": "chàng",
+      "meaning_vi": "hát",
+      "han_viet": "xướng",
+      "strokes": 11,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "唱",
+        "唱歌",
+        "演唱",
+        "演唱会"
+      ]
+    },
+    {
+      "hanzi": "超",
+      "pinyin": "chāo",
+      "meaning_vi": "vượt qua",
+      "han_viet": "siêu",
+      "strokes": 12,
+      "radical": "走",
+      "radical_meaning_vi": "tẩu (đi)",
+      "level": 1,
+      "words": [
+        "超市",
+        "超过",
+        "超级"
+      ]
+    },
+    {
+      "hanzi": "车",
+      "pinyin": "chē",
+      "meaning_vi": "xe",
+      "han_viet": "xa",
+      "strokes": 4,
+      "radical": "车",
+      "radical_meaning_vi": "xa (xe)",
+      "level": 1,
+      "words": [
+        "车",
+        "车辆",
+        "上车",
+        "停车",
+        "车站",
+        "打车"
+      ]
+    },
+    {
+      "hanzi": "吃",
+      "pinyin": "chī",
+      "meaning_vi": "ăn",
+      "han_viet": "ngật",
+      "strokes": 6,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "吃",
+        "吃饭",
+        "好吃"
+      ]
+    },
+    {
+      "hanzi": "出",
+      "pinyin": "chū",
+      "meaning_vi": "ra",
+      "han_viet": "xuất",
+      "strokes": 5,
+      "radical": "凵",
+      "radical_meaning_vi": "khảm (há miệng)",
+      "level": 1,
+      "words": [
+        "出",
+        "出去",
+        "出租",
+        "出发",
+        "演出",
+        "找出"
+      ]
+    },
+    {
+      "hanzi": "穿",
+      "pinyin": "chuān",
+      "meaning_vi": "mặc; xuyên qua",
+      "han_viet": "xuyên",
+      "strokes": 9,
+      "radical": "穴",
+      "radical_meaning_vi": "huyệt (hang)",
+      "level": 1,
+      "words": [
+        "穿"
+      ]
+    },
+    {
+      "hanzi": "床",
+      "pinyin": "chuáng",
+      "meaning_vi": "giường",
+      "han_viet": "sàng",
+      "strokes": 7,
+      "radical": "广",
+      "radical_meaning_vi": "nghiễm (mái hiên)",
+      "level": 1,
+      "words": [
+        "床",
+        "起床"
+      ]
+    },
+    {
+      "hanzi": "打",
+      "pinyin": "dǎ",
+      "meaning_vi": "đánh",
+      "han_viet": "đả",
+      "strokes": 5,
+      "radical": "扌",
+      "radical_meaning_vi": "thủ (tay)",
+      "level": 1,
+      "words": [
+        "打",
+        "打工",
+        "打球",
+        "打印",
+        "打听",
+        "打车"
+      ]
+    },
+    {
+      "hanzi": "大",
+      "pinyin": "dà",
+      "meaning_vi": "to, lớn",
+      "han_viet": "đại",
+      "strokes": 3,
+      "radical": "大",
+      "radical_meaning_vi": "đại (to)",
+      "level": 1,
+      "words": [
+        "大",
+        "伟大",
+        "大海",
+        "大概",
+        "大大",
+        "大约"
+      ]
+    },
+    {
+      "hanzi": "蛋",
+      "pinyin": "dàn",
+      "meaning_vi": "trứng",
+      "han_viet": "đản",
+      "strokes": 11,
+      "radical": "虫",
+      "radical_meaning_vi": "trùng (sâu bọ)",
+      "level": 1,
+      "words": [
+        "蛋",
+        "鸡蛋"
+      ]
+    },
+    {
+      "hanzi": "到",
+      "pinyin": "dào",
+      "meaning_vi": "đến",
+      "han_viet": "đáo",
+      "strokes": 8,
+      "radical": "刂",
+      "radical_meaning_vi": "đao (dao)",
+      "level": 1,
+      "words": [
+        "到",
+        "受到",
+        "到处",
+        "达到",
+        "到达",
+        "回到"
+      ]
+    },
+    {
+      "hanzi": "道",
+      "pinyin": "dào",
+      "meaning_vi": "đường; nói",
+      "han_viet": "đạo",
+      "strokes": 12,
+      "radical": "辶",
+      "radical_meaning_vi": "sước (đi)",
+      "level": 1,
+      "words": [
+        "道",
+        "道理",
+        "味道",
+        "知道",
+        "道路",
+        "报道"
+      ]
+    },
+    {
+      "hanzi": "得",
+      "pinyin": "dé",
+      "meaning_vi": "được; (trợ từ)",
+      "han_viet": "đắc",
+      "strokes": 11,
+      "radical": "彳",
+      "radical_meaning_vi": "xích (bước chân)",
+      "level": 1,
+      "words": [
+        "得",
+        "懂得",
+        "得分",
+        "显得",
+        "得出",
+        "得到"
+      ]
+    },
+    {
+      "hanzi": "的",
+      "pinyin": "de",
+      "meaning_vi": "của (trợ từ)",
+      "han_viet": "đích",
+      "strokes": 8,
+      "radical": "白",
+      "radical_meaning_vi": "bạch (trắng)",
+      "level": 1,
+      "words": [
+        "的",
+        "的话",
+        "真的",
+        "目的",
+        "有的",
+        "别的"
+      ]
+    },
+    {
+      "hanzi": "弟",
+      "pinyin": "dì",
+      "meaning_vi": "em trai",
+      "han_viet": "đệ",
+      "strokes": 7,
+      "radical": "弓",
+      "radical_meaning_vi": "cung (cung)",
+      "level": 1,
+      "words": [
+        "弟弟"
+      ]
+    },
+    {
+      "hanzi": "第",
+      "pinyin": "dì",
+      "meaning_vi": "thứ (thứ tự)",
+      "han_viet": "đệ",
+      "strokes": 11,
+      "radical": "⺮",
+      "radical_meaning_vi": "trúc",
+      "level": 1,
+      "words": [
+        "第"
+      ]
+    },
+    {
+      "hanzi": "点",
+      "pinyin": "diǎn",
+      "meaning_vi": "điểm; giờ",
+      "han_viet": "điểm",
+      "strokes": 9,
+      "radical": "灬",
+      "radical_meaning_vi": "hỏa (lửa)",
+      "level": 1,
+      "words": [
+        "点",
+        "地点",
+        "点头",
+        "优点",
+        "观点",
+        "特点"
+      ]
+    },
+    {
+      "hanzi": "店",
+      "pinyin": "diàn",
+      "meaning_vi": "cửa hàng",
+      "han_viet": "điếm",
+      "strokes": 8,
+      "radical": "广",
+      "radical_meaning_vi": "nghiễm (mái hiên)",
+      "level": 1,
+      "words": [
+        "店",
+        "饭店",
+        "商店",
+        "书店",
+        "酒店",
+        "药店"
+      ]
+    },
+    {
+      "hanzi": "电",
+      "pinyin": "diàn",
+      "meaning_vi": "điện",
+      "han_viet": "điện",
+      "strokes": 5,
+      "radical": "曰",
+      "radical_meaning_vi": "viết (nói)",
+      "level": 1,
+      "words": [
+        "电",
+        "电影",
+        "电话",
+        "电视",
+        "电脑",
+        "电台"
+      ]
+    },
+    {
+      "hanzi": "东",
+      "pinyin": "dōng",
+      "meaning_vi": "phía đông",
+      "han_viet": "đông",
+      "strokes": 5,
+      "radical": "一",
+      "radical_meaning_vi": "nhất (một)",
+      "level": 1,
+      "words": [
+        "东",
+        "东方",
+        "东北",
+        "房东",
+        "东边",
+        "东部"
+      ]
+    },
+    {
+      "hanzi": "都",
+      "pinyin": "dōu",
+      "meaning_vi": "đều; thủ đô",
+      "han_viet": "đô",
+      "strokes": 10,
+      "radical": "阝",
+      "radical_meaning_vi": "phụ/ấp (gò, thành)",
+      "level": 1,
+      "words": [
+        "都",
+        "首都"
+      ]
+    },
+    {
+      "hanzi": "读",
+      "pinyin": "dú",
+      "meaning_vi": "đọc",
+      "han_viet": "độc",
+      "strokes": 10,
+      "radical": "讠",
+      "radical_meaning_vi": "ngôn (lời nói)",
+      "level": 1,
+      "words": [
+        "读",
+        "读音",
+        "读者",
+        "读书"
+      ]
+    },
+    {
+      "hanzi": "对",
+      "pinyin": "duì",
+      "meaning_vi": "đúng; đối với",
+      "han_viet": "đối",
+      "strokes": 5,
+      "radical": "寸",
+      "radical_meaning_vi": "thốn (tấc)",
+      "level": 1,
+      "words": [
+        "对",
+        "不对",
+        "对话",
+        "绝对",
+        "反对",
+        "面对"
+      ]
+    },
+    {
+      "hanzi": "多",
+      "pinyin": "duō",
+      "meaning_vi": "nhiều",
+      "han_viet": "đa",
+      "strokes": 6,
+      "radical": "夕",
+      "radical_meaning_vi": "tịch (đêm)",
+      "level": 1,
+      "words": [
+        "多",
+        "多久",
+        "多么",
+        "好多",
+        "多少",
+        "许多"
+      ]
+    },
+    {
+      "hanzi": "儿",
+      "pinyin": "ér",
+      "meaning_vi": "con, trẻ; hậu tố \"r\"",
+      "han_viet": "nhi",
+      "strokes": 2,
+      "radical": "儿",
+      "radical_meaning_vi": "nhi (trẻ con)",
+      "level": 1,
+      "words": [
+        "画儿",
+        "玩儿",
+        "空儿",
+        "哪儿",
+        "这儿",
+        "女儿"
+      ]
+    },
+    {
+      "hanzi": "二",
+      "pinyin": "èr",
+      "meaning_vi": "hai",
+      "han_viet": "nhị",
+      "strokes": 2,
+      "radical": "二",
+      "radical_meaning_vi": "nhị (hai)",
+      "level": 1,
+      "words": [
+        "二"
+      ]
+    },
+    {
+      "hanzi": "饭",
+      "pinyin": "fàn",
+      "meaning_vi": "cơm",
+      "han_viet": "phạn",
+      "strokes": 7,
+      "radical": "饣",
+      "radical_meaning_vi": "thực (ăn)",
+      "level": 1,
+      "words": [
+        "饭",
+        "米饭",
+        "饭店",
+        "吃饭",
+        "饭馆",
+        "做饭"
+      ]
+    },
+    {
+      "hanzi": "房",
+      "pinyin": "fáng",
+      "meaning_vi": "nhà; phòng",
+      "han_viet": "phòng",
+      "strokes": 8,
+      "radical": "户",
+      "radical_meaning_vi": "hộ (cửa)",
+      "level": 1,
+      "words": [
+        "房间",
+        "房子",
+        "房东",
+        "房屋",
+        "住房",
+        "房租"
+      ]
+    },
+    {
+      "hanzi": "非",
+      "pinyin": "fēi",
+      "meaning_vi": "không phải",
+      "han_viet": "phi",
+      "strokes": 8,
+      "radical": "非",
+      "radical_meaning_vi": "phi (không)",
+      "level": 1,
+      "words": [
+        "非常"
+      ]
+    },
+    {
+      "hanzi": "飞",
+      "pinyin": "fēi",
+      "meaning_vi": "bay",
+      "han_viet": "phi",
+      "strokes": 3,
+      "radical": "飞",
+      "radical_meaning_vi": "phi (bay)",
+      "level": 1,
+      "words": [
+        "飞",
+        "飞机",
+        "起飞",
+        "飞行"
+      ]
+    },
+    {
+      "hanzi": "分",
+      "pinyin": "fēn",
+      "meaning_vi": "phân, phút",
+      "han_viet": "phân",
+      "strokes": 4,
+      "radical": "刀",
+      "radical_meaning_vi": "đao (dao)",
+      "level": 1,
+      "words": [
+        "分",
+        "分组",
+        "得分",
+        "分别",
+        "分数",
+        "十分"
+      ]
+    },
+    {
+      "hanzi": "服",
+      "pinyin": "fú",
+      "meaning_vi": "quần áo; phục vụ",
+      "han_viet": "phục",
+      "strokes": 8,
+      "radical": "月",
+      "radical_meaning_vi": "nguyệt (trăng, thịt)",
+      "level": 1,
+      "words": [
+        "衣服",
+        "克服",
+        "舒服",
+        "服务",
+        "服装"
+      ]
+    },
+    {
+      "hanzi": "高",
+      "pinyin": "gāo",
+      "meaning_vi": "cao",
+      "han_viet": "cao",
+      "strokes": 10,
+      "radical": "高",
+      "radical_meaning_vi": "cao (cao)",
+      "level": 1,
+      "words": [
+        "高",
+        "提高",
+        "高速",
+        "高兴",
+        "高级",
+        "跳高"
+      ]
+    },
+    {
+      "hanzi": "哥",
+      "pinyin": "gē",
+      "meaning_vi": "anh trai",
+      "han_viet": "ca",
+      "strokes": 10,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "哥哥"
+      ]
+    },
+    {
+      "hanzi": "歌",
+      "pinyin": "gē",
+      "meaning_vi": "bài hát",
+      "han_viet": "ca",
+      "strokes": 14,
+      "radical": "欠",
+      "radical_meaning_vi": "khiếm (thiếu)",
+      "level": 1,
+      "words": [
+        "歌",
+        "歌手",
+        "唱歌",
+        "歌迷",
+        "歌声"
+      ]
+    },
+    {
+      "hanzi": "个",
+      "pinyin": "gè",
+      "meaning_vi": "cái (lượng từ)",
+      "han_viet": "cá",
+      "strokes": 3,
+      "radical": "丨",
+      "radical_meaning_vi": "cổn (nét sổ)",
+      "level": 1,
+      "words": [
+        "个",
+        "整个",
+        "个子",
+        "个人",
+        "个性"
+      ]
+    },
+    {
+      "hanzi": "给",
+      "pinyin": "gěi",
+      "meaning_vi": "cho",
+      "han_viet": "cấp",
+      "strokes": 9,
+      "radical": "纟",
+      "radical_meaning_vi": "mịch (sợi tơ)",
+      "level": 1,
+      "words": [
+        "给",
+        "交给",
+        "送给"
+      ]
+    },
+    {
+      "hanzi": "公",
+      "pinyin": "gōng",
+      "meaning_vi": "công cộng",
+      "han_viet": "công",
+      "strokes": 4,
+      "radical": "八",
+      "radical_meaning_vi": "bát (tám)",
+      "level": 1,
+      "words": [
+        "公里",
+        "公平",
+        "公斤",
+        "公园",
+        "公路",
+        "公司"
+      ]
+    },
+    {
+      "hanzi": "工",
+      "pinyin": "gōng",
+      "meaning_vi": "công việc",
+      "han_viet": "công",
+      "strokes": 3,
+      "radical": "工",
+      "radical_meaning_vi": "công (thợ)",
+      "level": 1,
+      "words": [
+        "职工",
+        "工人",
+        "打工",
+        "员工",
+        "工具",
+        "工夫"
+      ]
+    },
+    {
+      "hanzi": "狗",
+      "pinyin": "gǒu",
+      "meaning_vi": "chó",
+      "han_viet": "cẩu",
+      "strokes": 8,
+      "radical": "犭",
+      "radical_meaning_vi": "khuyển (chó)",
+      "level": 1,
+      "words": [
+        "狗"
+      ]
+    },
+    {
+      "hanzi": "关",
+      "pinyin": "guān",
+      "meaning_vi": "đóng; liên quan",
+      "han_viet": "quan",
+      "strokes": 6,
+      "radical": "丷",
+      "radical_meaning_vi": "bát (tám)",
+      "level": 1,
+      "words": [
+        "关",
+        "关注",
+        "相关",
+        "关机",
+        "关系",
+        "关心"
+      ]
+    },
+    {
+      "hanzi": "贵",
+      "pinyin": "guì",
+      "meaning_vi": "đắt; quý",
+      "han_viet": "quý",
+      "strokes": 9,
+      "radical": "贝",
+      "radical_meaning_vi": "bối (vỏ sò, tiền)",
+      "level": 1,
+      "words": [
+        "贵"
+      ]
+    },
+    {
+      "hanzi": "国",
+      "pinyin": "guó",
+      "meaning_vi": "nước",
+      "han_viet": "quốc",
+      "strokes": 8,
+      "radical": "囗",
+      "radical_meaning_vi": "vi (vây quanh)",
+      "level": 1,
+      "words": [
+        "国",
+        "外国",
+        "中国",
+        "国际",
+        "出国",
+        "国外"
+      ]
+    },
+    {
+      "hanzi": "果",
+      "pinyin": "guǒ",
+      "meaning_vi": "quả",
+      "han_viet": "quả",
+      "strokes": 8,
+      "radical": "木",
+      "radical_meaning_vi": "mộc (cây)",
+      "level": 1,
+      "words": [
+        "成果",
+        "果汁",
+        "后果",
+        "苹果",
+        "结果",
+        "水果"
+      ]
+    },
+    {
+      "hanzi": "孩",
+      "pinyin": "hái",
+      "meaning_vi": "trẻ con",
+      "han_viet": "hài",
+      "strokes": 9,
+      "radical": "子",
+      "radical_meaning_vi": "tử (con)",
+      "level": 1,
+      "words": [
+        "孩子",
+        "女孩儿",
+        "小孩儿",
+        "男孩儿"
+      ]
+    },
+    {
+      "hanzi": "还",
+      "pinyin": "hái",
+      "meaning_vi": "còn; trả lại",
+      "han_viet": "hoàn",
+      "strokes": 7,
+      "radical": "辶",
+      "radical_meaning_vi": "sước (đi)",
+      "level": 1,
+      "words": [
+        "还",
+        "还是",
+        "还有"
+      ]
+    },
+    {
+      "hanzi": "汉",
+      "pinyin": "hàn",
+      "meaning_vi": "Hán",
+      "han_viet": "hán",
+      "strokes": 5,
+      "radical": "氵",
+      "radical_meaning_vi": "thủy (nước)",
+      "level": 1,
+      "words": [
+        "汉字",
+        "汉语"
+      ]
+    },
+    {
+      "hanzi": "好",
+      "pinyin": "hǎo",
+      "meaning_vi": "tốt",
+      "han_viet": "hảo",
+      "strokes": 6,
+      "radical": "女",
+      "radical_meaning_vi": "nữ (phụ nữ)",
+      "level": 1,
+      "words": [
+        "好",
+        "友好",
+        "好多",
+        "好久",
+        "好人",
+        "只好"
+      ]
+    },
+    {
+      "hanzi": "号",
+      "pinyin": "hào",
+      "meaning_vi": "số; ngày",
+      "han_viet": "hiệu",
+      "strokes": 5,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "号",
+        "信号"
+      ]
+    },
+    {
+      "hanzi": "喝",
+      "pinyin": "hē",
+      "meaning_vi": "uống",
+      "han_viet": "hát",
+      "strokes": 12,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "喝"
+      ]
+    },
+    {
+      "hanzi": "和",
+      "pinyin": "hé",
+      "meaning_vi": "và; hòa",
+      "han_viet": "hòa",
+      "strokes": 8,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "和",
+        "和平",
+        "暖和"
+      ]
+    },
+    {
+      "hanzi": "很",
+      "pinyin": "hěn",
+      "meaning_vi": "rất",
+      "han_viet": "ngận",
+      "strokes": 9,
+      "radical": "彳",
+      "radical_meaning_vi": "xích (bước chân)",
+      "level": 1,
+      "words": [
+        "很"
+      ]
+    },
+    {
+      "hanzi": "候",
+      "pinyin": "hòu",
+      "meaning_vi": "chờ; lúc",
+      "han_viet": "hậu",
+      "strokes": 10,
+      "radical": "亻",
+      "radical_meaning_vi": "nhân đứng (người)",
+      "level": 1,
+      "words": [
+        "气候",
+        "时候",
+        "小时候",
+        "那时候",
+        "有时候",
+        "这时候"
+      ]
+    },
+    {
+      "hanzi": "后",
+      "pinyin": "hòu",
+      "meaning_vi": "sau",
+      "han_viet": "hậu",
+      "strokes": 6,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "后",
+        "后天",
+        "落后",
+        "后果",
+        "后面",
+        "今后"
+      ]
+    },
+    {
+      "hanzi": "话",
+      "pinyin": "huà",
+      "meaning_vi": "lời nói",
+      "han_viet": "thoại",
+      "strokes": 8,
+      "radical": "讠",
+      "radical_meaning_vi": "ngôn (lời nói)",
+      "level": 1,
+      "words": [
+        "话",
+        "对话",
+        "讲话",
+        "说话",
+        "的话",
+        "电话"
+      ]
+    },
+    {
+      "hanzi": "欢",
+      "pinyin": "huān",
+      "meaning_vi": "vui",
+      "han_viet": "hoan",
+      "strokes": 6,
+      "radical": "欠",
+      "radical_meaning_vi": "khiếm (thiếu)",
+      "level": 1,
+      "words": [
+        "欢迎",
+        "欢乐",
+        "喜欢"
+      ]
+    },
+    {
+      "hanzi": "回",
+      "pinyin": "huí",
+      "meaning_vi": "về",
+      "han_viet": "hồi",
+      "strokes": 6,
+      "radical": "囗",
+      "radical_meaning_vi": "vi (vây quanh)",
+      "level": 1,
+      "words": [
+        "回",
+        "回到",
+        "回去",
+        "回来",
+        "回国",
+        "回答"
+      ]
+    },
+    {
+      "hanzi": "会",
+      "pinyin": "huì",
+      "meaning_vi": "biết; sẽ; họp",
+      "han_viet": "hội",
+      "strokes": 6,
+      "radical": "人",
+      "radical_meaning_vi": "nhân (người)",
+      "level": 1,
+      "words": [
+        "会",
+        "开会",
+        "机会",
+        "体会",
+        "晚会",
+        "会员"
+      ]
+    },
+    {
+      "hanzi": "火",
+      "pinyin": "huǒ",
+      "meaning_vi": "lửa",
+      "han_viet": "hỏa",
+      "strokes": 4,
+      "radical": "火",
+      "radical_meaning_vi": "hỏa (lửa)",
+      "level": 1,
+      "words": [
+        "火",
+        "火车"
+      ]
+    },
+    {
+      "hanzi": "机",
+      "pinyin": "jī",
+      "meaning_vi": "máy",
+      "han_viet": "cơ",
+      "strokes": 6,
+      "radical": "木",
+      "radical_meaning_vi": "mộc (cây)",
+      "level": 1,
+      "words": [
+        "飞机",
+        "机会",
+        "相机",
+        "机场",
+        "关机",
+        "机器"
+      ]
+    },
+    {
+      "hanzi": "鸡",
+      "pinyin": "jī",
+      "meaning_vi": "gà",
+      "han_viet": "kê",
+      "strokes": 7,
+      "radical": "鸟",
+      "radical_meaning_vi": "điểu (chim)",
+      "level": 1,
+      "words": [
+        "鸡",
+        "鸡蛋"
+      ]
+    },
+    {
+      "hanzi": "几",
+      "pinyin": "jǐ",
+      "meaning_vi": "mấy",
+      "han_viet": "kỉ",
+      "strokes": 2,
+      "radical": "几",
+      "radical_meaning_vi": "kỷ (ghế)",
+      "level": 1,
+      "words": [
+        "几"
+      ]
+    },
+    {
+      "hanzi": "家",
+      "pinyin": "jiā",
+      "meaning_vi": "nhà",
+      "han_viet": "gia",
+      "strokes": 10,
+      "radical": "宀",
+      "radical_meaning_vi": "miên (mái nhà)",
+      "level": 1,
+      "words": [
+        "家",
+        "在家",
+        "大家",
+        "家属",
+        "家乡",
+        "家长"
+      ]
+    },
+    {
+      "hanzi": "间",
+      "pinyin": "jiān",
+      "meaning_vi": "gian, khoảng",
+      "han_viet": "gian",
+      "strokes": 7,
+      "radical": "门",
+      "radical_meaning_vi": "môn (cửa)",
+      "level": 1,
+      "words": [
+        "间",
+        "房间",
+        "时间",
+        "民间",
+        "中间",
+        "卫生间"
+      ]
+    },
+    {
+      "hanzi": "件",
+      "pinyin": "jiàn",
+      "meaning_vi": "chiếc, kiện",
+      "han_viet": "kiện",
+      "strokes": 6,
+      "radical": "亻",
+      "radical_meaning_vi": "nhân đứng (người)",
+      "level": 1,
+      "words": [
+        "件",
+        "文件",
+        "事件",
+        "证件",
+        "邮件",
+        "条件"
+      ]
+    },
+    {
+      "hanzi": "见",
+      "pinyin": "jiàn",
+      "meaning_vi": "thấy, gặp",
+      "han_viet": "kiến",
+      "strokes": 4,
+      "radical": "见",
+      "radical_meaning_vi": "kiến (thấy)",
+      "level": 1,
+      "words": [
+        "见",
+        "意见",
+        "见面",
+        "再见",
+        "见到",
+        "常见"
+      ]
+    },
+    {
+      "hanzi": "饺",
+      "pinyin": "jiǎo",
+      "meaning_vi": "sủi cảo",
+      "han_viet": "giảo",
+      "strokes": 9,
+      "radical": "饣",
+      "radical_meaning_vi": "thực (ăn)",
+      "level": 1,
+      "words": [
+        "饺子"
+      ]
+    },
+    {
+      "hanzi": "叫",
+      "pinyin": "jiào",
+      "meaning_vi": "gọi, kêu",
+      "han_viet": "khiếu",
+      "strokes": 5,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "叫",
+        "叫作"
+      ]
+    },
+    {
+      "hanzi": "姐",
+      "pinyin": "jiě",
+      "meaning_vi": "chị gái",
+      "han_viet": "thư",
+      "strokes": 8,
+      "radical": "女",
+      "radical_meaning_vi": "nữ (phụ nữ)",
+      "level": 1,
+      "words": [
+        "姐姐",
+        "小姐"
+      ]
+    },
+    {
+      "hanzi": "今",
+      "pinyin": "jīn",
+      "meaning_vi": "nay",
+      "han_viet": "kim",
+      "strokes": 4,
+      "radical": "人",
+      "radical_meaning_vi": "nhân (người)",
+      "level": 1,
+      "words": [
+        "今年",
+        "至今",
+        "今后",
+        "今天"
+      ]
+    },
+    {
+      "hanzi": "九",
+      "pinyin": "jiǔ",
+      "meaning_vi": "chín",
+      "han_viet": "cửu",
+      "strokes": 2,
+      "radical": "乙",
+      "radical_meaning_vi": "ất",
+      "level": 1,
+      "words": [
+        "九"
+      ]
+    },
+    {
+      "hanzi": "觉",
+      "pinyin": "jué",
+      "meaning_vi": "cảm thấy",
+      "han_viet": "giác",
+      "strokes": 9,
+      "radical": "见",
+      "radical_meaning_vi": "kiến (thấy)",
+      "level": 1,
+      "words": [
+        "觉得",
+        "自觉",
+        "感觉",
+        "睡觉"
+      ]
+    },
+    {
+      "hanzi": "开",
+      "pinyin": "kāi",
+      "meaning_vi": "mở",
+      "han_viet": "khai",
+      "strokes": 4,
+      "radical": "廾",
+      "radical_meaning_vi": "củng (chắp tay)",
+      "level": 1,
+      "words": [
+        "开",
+        "开业",
+        "公开",
+        "开车",
+        "开机",
+        "分开"
+      ]
+    },
+    {
+      "hanzi": "看",
+      "pinyin": "kàn",
+      "meaning_vi": "xem, nhìn",
+      "han_viet": "khán",
+      "strokes": 9,
+      "radical": "目",
+      "radical_meaning_vi": "mục (mắt)",
+      "level": 1,
+      "words": [
+        "看",
+        "难看",
+        "观看",
+        "收看",
+        "看法",
+        "看到"
+      ]
+    },
+    {
+      "hanzi": "可",
+      "pinyin": "kě",
+      "meaning_vi": "có thể",
+      "han_viet": "khả",
+      "strokes": 5,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "认可",
+        "可乐",
+        "可能",
+        "可是",
+        "可爱",
+        "可靠"
+      ]
+    },
+    {
+      "hanzi": "客",
+      "pinyin": "kè",
+      "meaning_vi": "khách",
+      "han_viet": "khách",
+      "strokes": 9,
+      "radical": "宀",
+      "radical_meaning_vi": "miên (mái nhà)",
+      "level": 1,
+      "words": [
+        "客人",
+        "旅客",
+        "游客",
+        "客观",
+        "请客",
+        "做客"
+      ]
+    },
+    {
+      "hanzi": "课",
+      "pinyin": "kè",
+      "meaning_vi": "bài học",
+      "han_viet": "khóa",
+      "strokes": 10,
+      "radical": "讠",
+      "radical_meaning_vi": "ngôn (lời nói)",
+      "level": 1,
+      "words": [
+        "课",
+        "下课",
+        "课程",
+        "上课",
+        "功课",
+        "课文"
+      ]
+    },
+    {
+      "hanzi": "口",
+      "pinyin": "kǒu",
+      "meaning_vi": "miệng",
+      "han_viet": "khẩu",
+      "strokes": 3,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "口",
+        "路口",
+        "出口",
+        "人口",
+        "入口",
+        "门口"
+      ]
+    },
+    {
+      "hanzi": "块",
+      "pinyin": "kuài",
+      "meaning_vi": "miếng; đồng (tiền)",
+      "han_viet": "khối",
+      "strokes": 7,
+      "radical": "土",
+      "radical_meaning_vi": "thổ (đất)",
+      "level": 1,
+      "words": [
+        "块",
+        "一块儿"
+      ]
+    },
+    {
+      "hanzi": "来",
+      "pinyin": "lái",
+      "meaning_vi": "đến",
+      "han_viet": "lai",
+      "strokes": 7,
+      "radical": "木",
+      "radical_meaning_vi": "mộc (cây)",
+      "level": 1,
+      "words": [
+        "来",
+        "起来",
+        "原来",
+        "本来",
+        "回来",
+        "以来"
+      ]
+    },
+    {
+      "hanzi": "老",
+      "pinyin": "lǎo",
+      "meaning_vi": "già",
+      "han_viet": "lão",
+      "strokes": 6,
+      "radical": "老",
+      "radical_meaning_vi": "lão (già)",
+      "level": 1,
+      "words": [
+        "老",
+        "老板",
+        "老人",
+        "老师",
+        "老年",
+        "老是"
+      ]
+    },
+    {
+      "hanzi": "了",
+      "pinyin": "le",
+      "meaning_vi": "rồi (trợ từ)",
+      "han_viet": "liễu",
+      "strokes": 2,
+      "radical": "亅",
+      "radical_meaning_vi": "quyết (nét móc)",
+      "level": 1,
+      "words": [
+        "了",
+        "极了",
+        "为了",
+        "除了"
+      ]
+    },
+    {
+      "hanzi": "冷",
+      "pinyin": "lěng",
+      "meaning_vi": "lạnh",
+      "han_viet": "lãnh",
+      "strokes": 7,
+      "radical": "冫",
+      "radical_meaning_vi": "băng (nước đá)",
+      "level": 1,
+      "words": [
+        "冷"
+      ]
+    },
+    {
+      "hanzi": "里",
+      "pinyin": "lǐ",
+      "meaning_vi": "trong",
+      "han_viet": "lí",
+      "strokes": 7,
+      "radical": "里",
+      "radical_meaning_vi": "lý (dặm)",
+      "level": 1,
+      "words": [
+        "里",
+        "夜里",
+        "公里",
+        "这里",
+        "心里",
+        "里头"
+      ]
+    },
+    {
+      "hanzi": "两",
+      "pinyin": "liǎng",
+      "meaning_vi": "hai",
+      "han_viet": "lưỡng",
+      "strokes": 7,
+      "radical": "一",
+      "radical_meaning_vi": "nhất (một)",
+      "level": 1,
+      "words": [
+        "两"
+      ]
+    },
+    {
+      "hanzi": "亮",
+      "pinyin": "liàng",
+      "meaning_vi": "sáng",
+      "han_viet": "lượng",
+      "strokes": 9,
+      "radical": "亠",
+      "radical_meaning_vi": "đầu (nắp)",
+      "level": 1,
+      "words": [
+        "亮",
+        "月亮",
+        "漂亮"
+      ]
+    },
+    {
+      "hanzi": "零",
+      "pinyin": "líng",
+      "meaning_vi": "số không",
+      "han_viet": "linh",
+      "strokes": 13,
+      "radical": "雨",
+      "radical_meaning_vi": "vũ (mưa)",
+      "level": 1,
+      "words": [
+        "零",
+        "零下"
+      ]
+    },
+    {
+      "hanzi": "六",
+      "pinyin": "liù",
+      "meaning_vi": "sáu",
+      "han_viet": "lục",
+      "strokes": 4,
+      "radical": "八",
+      "radical_meaning_vi": "bát (tám)",
+      "level": 1,
+      "words": [
+        "六"
+      ]
+    },
+    {
+      "hanzi": "妈",
+      "pinyin": "mā",
+      "meaning_vi": "mẹ",
+      "han_viet": "ma",
+      "strokes": 6,
+      "radical": "女",
+      "radical_meaning_vi": "nữ (phụ nữ)",
+      "level": 1,
+      "words": [
+        "妈妈"
+      ]
+    },
+    {
+      "hanzi": "吗",
+      "pinyin": "ma",
+      "meaning_vi": "không? (trợ từ hỏi)",
+      "han_viet": "ma",
+      "strokes": 6,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "吗",
+        "干吗"
+      ]
+    },
+    {
+      "hanzi": "买",
+      "pinyin": "mǎi",
+      "meaning_vi": "mua",
+      "han_viet": "mãi",
+      "strokes": 6,
+      "radical": "大",
+      "radical_meaning_vi": "đại (to)",
+      "level": 1,
+      "words": [
+        "买"
+      ]
+    },
+    {
+      "hanzi": "卖",
+      "pinyin": "mài",
+      "meaning_vi": "bán",
+      "han_viet": "mại",
+      "strokes": 8,
+      "radical": "十",
+      "radical_meaning_vi": "thập (mười)",
+      "level": 1,
+      "words": [
+        "卖",
+        "外卖"
+      ]
+    },
+    {
+      "hanzi": "忙",
+      "pinyin": "máng",
+      "meaning_vi": "bận",
+      "han_viet": "mang",
+      "strokes": 6,
+      "radical": "忄",
+      "radical_meaning_vi": "tâm đứng (lòng)",
+      "level": 1,
+      "words": [
+        "忙",
+        "连忙",
+        "帮忙"
+      ]
+    },
+    {
+      "hanzi": "猫",
+      "pinyin": "māo",
+      "meaning_vi": "mèo",
+      "han_viet": "miêu",
+      "strokes": 11,
+      "radical": "犭",
+      "radical_meaning_vi": "khuyển (chó)",
+      "level": 1,
+      "words": [
+        "猫"
+      ]
+    },
+    {
+      "hanzi": "么",
+      "pinyin": "me",
+      "meaning_vi": "gì (什么)",
+      "han_viet": "ma",
+      "strokes": 3,
+      "radical": "丿",
+      "radical_meaning_vi": "phiệt (nét phẩy)",
+      "level": 1,
+      "words": [
+        "多么",
+        "那么",
+        "这么",
+        "什么",
+        "怎么",
+        "怎么样"
+      ]
+    },
+    {
+      "hanzi": "没",
+      "pinyin": "méi",
+      "meaning_vi": "không có",
+      "han_viet": "một",
+      "strokes": 7,
+      "radical": "氵",
+      "radical_meaning_vi": "thủy (nước)",
+      "level": 1,
+      "words": [
+        "没",
+        "没用",
+        "没有",
+        "没事儿",
+        "没什么",
+        "没关系"
+      ]
+    },
+    {
+      "hanzi": "妹",
+      "pinyin": "mèi",
+      "meaning_vi": "em gái",
+      "han_viet": "muội",
+      "strokes": 8,
+      "radical": "女",
+      "radical_meaning_vi": "nữ (phụ nữ)",
+      "level": 1,
+      "words": [
+        "妹妹"
+      ]
+    },
+    {
+      "hanzi": "们",
+      "pinyin": "men",
+      "meaning_vi": "các (số nhiều)",
+      "han_viet": "môn",
+      "strokes": 5,
+      "radical": "亻",
+      "radical_meaning_vi": "nhân đứng (người)",
+      "level": 1,
+      "words": [
+        "们",
+        "人们",
+        "咱们",
+        "我们",
+        "你们",
+        "他们"
+      ]
+    },
+    {
+      "hanzi": "米",
+      "pinyin": "mǐ",
+      "meaning_vi": "gạo; mét",
+      "han_viet": "mễ",
+      "strokes": 6,
+      "radical": "米",
+      "radical_meaning_vi": "mễ (gạo)",
+      "level": 1,
+      "words": [
+        "米",
+        "米饭"
+      ]
+    },
+    {
+      "hanzi": "面",
+      "pinyin": "miàn",
+      "meaning_vi": "mặt; mì",
+      "han_viet": "diện",
+      "strokes": 9,
+      "radical": "面",
+      "radical_meaning_vi": "diện (mặt)",
+      "level": 1,
+      "words": [
+        "面",
+        "表面",
+        "见面",
+        "后面",
+        "外面",
+        "面前"
+      ]
+    },
+    {
+      "hanzi": "名",
+      "pinyin": "míng",
+      "meaning_vi": "tên",
+      "han_viet": "danh",
+      "strokes": 6,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "名",
+        "报名",
+        "姓名",
+        "名称",
+        "有名",
+        "名单"
+      ]
+    },
+    {
+      "hanzi": "明",
+      "pinyin": "míng",
+      "meaning_vi": "sáng; rõ",
+      "han_viet": "minh",
+      "strokes": 8,
+      "radical": "日",
+      "radical_meaning_vi": "nhật (mặt trời)",
+      "level": 1,
+      "words": [
+        "明确",
+        "声明",
+        "光明",
+        "明白",
+        "发明",
+        "文明"
+      ]
+    },
+    {
+      "hanzi": "哪",
+      "pinyin": "nǎ",
+      "meaning_vi": "nào",
+      "han_viet": "na",
+      "strokes": 9,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "哪",
+        "哪儿",
+        "哪里",
+        "哪些"
+      ]
+    },
+    {
+      "hanzi": "那",
+      "pinyin": "nà",
+      "meaning_vi": "kia, đó",
+      "han_viet": "na",
+      "strokes": 6,
+      "radical": "阝",
+      "radical_meaning_vi": "phụ/ấp (gò, thành)",
+      "level": 1,
+      "words": [
+        "那",
+        "那样",
+        "那些",
+        "那边",
+        "那儿",
+        "那么"
+      ]
+    },
+    {
+      "hanzi": "奶",
+      "pinyin": "nǎi",
+      "meaning_vi": "sữa",
+      "han_viet": "nãi",
+      "strokes": 5,
+      "radical": "女",
+      "radical_meaning_vi": "nữ (phụ nữ)",
+      "level": 1,
+      "words": [
+        "奶",
+        "奶奶",
+        "牛奶",
+        "奶茶"
+      ]
+    },
+    {
+      "hanzi": "男",
+      "pinyin": "nán",
+      "meaning_vi": "nam",
+      "han_viet": "nam",
+      "strokes": 7,
+      "radical": "田",
+      "radical_meaning_vi": "điền (ruộng)",
+      "level": 1,
+      "words": [
+        "男",
+        "男生",
+        "男人",
+        "男子",
+        "男朋友",
+        "男孩儿"
+      ]
+    },
+    {
+      "hanzi": "脑",
+      "pinyin": "nǎo",
+      "meaning_vi": "não, đầu óc",
+      "han_viet": "não",
+      "strokes": 10,
+      "radical": "⺼",
+      "radical_meaning_vi": "nhục (thịt)",
+      "level": 1,
+      "words": [
+        "电脑",
+        "头脑"
+      ]
+    },
+    {
+      "hanzi": "呢",
+      "pinyin": "ne",
+      "meaning_vi": "thì sao (trợ từ)",
+      "han_viet": "ni",
+      "strokes": 8,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "呢"
+      ]
+    },
+    {
+      "hanzi": "能",
+      "pinyin": "néng",
+      "meaning_vi": "có thể",
+      "han_viet": "năng",
+      "strokes": 10,
+      "radical": "⺼",
+      "radical_meaning_vi": "nhục (thịt)",
+      "level": 1,
+      "words": [
+        "能",
+        "能力",
+        "才能",
+        "功能",
+        "可能",
+        "只能"
+      ]
+    },
+    {
+      "hanzi": "你",
+      "pinyin": "nǐ",
+      "meaning_vi": "bạn, anh, chị",
+      "han_viet": "nhĩ",
+      "strokes": 7,
+      "radical": "亻",
+      "radical_meaning_vi": "nhân đứng (người)",
+      "level": 1,
+      "words": [
+        "你",
+        "你们"
+      ]
+    },
+    {
+      "hanzi": "年",
+      "pinyin": "nián",
+      "meaning_vi": "năm",
+      "han_viet": "niên",
+      "strokes": 6,
+      "radical": "干",
+      "radical_meaning_vi": "can (khiên)",
+      "level": 1,
+      "words": [
+        "年",
+        "今年",
+        "青年",
+        "新年",
+        "明年",
+        "年纪"
+      ]
+    },
+    {
+      "hanzi": "您",
+      "pinyin": "nín",
+      "meaning_vi": "ngài (kính trọng)",
+      "han_viet": "nâm",
+      "strokes": 11,
+      "radical": "心",
+      "radical_meaning_vi": "tâm (tim, lòng)",
+      "level": 1,
+      "words": [
+        "您"
+      ]
+    },
+    {
+      "hanzi": "牛",
+      "pinyin": "niú",
+      "meaning_vi": "bò",
+      "han_viet": "ngưu",
+      "strokes": 4,
+      "radical": "牛",
+      "radical_meaning_vi": "ngưu (bò)",
+      "level": 1,
+      "words": [
+        "牛",
+        "牛奶"
+      ]
+    },
+    {
+      "hanzi": "女",
+      "pinyin": "nǚ",
+      "meaning_vi": "nữ",
+      "han_viet": "nữ",
+      "strokes": 3,
+      "radical": "女",
+      "radical_meaning_vi": "nữ (phụ nữ)",
+      "level": 1,
+      "words": [
+        "女",
+        "女生",
+        "女儿",
+        "子女",
+        "女子",
+        "女人"
+      ]
+    },
+    {
+      "hanzi": "朋",
+      "pinyin": "péng",
+      "meaning_vi": "bạn",
+      "han_viet": "bằng",
+      "strokes": 8,
+      "radical": "月",
+      "radical_meaning_vi": "nguyệt (trăng, thịt)",
+      "level": 1,
+      "words": [
+        "朋友",
+        "男朋友",
+        "交朋友",
+        "小朋友",
+        "女朋友",
+        "老朋友"
+      ]
+    },
+    {
+      "hanzi": "漂",
+      "pinyin": "piào",
+      "meaning_vi": "trôi; (漂亮: đẹp)",
+      "han_viet": "phiêu",
+      "strokes": 14,
+      "radical": "氵",
+      "radical_meaning_vi": "thủy (nước)",
+      "level": 1,
+      "words": [
+        "漂亮"
+      ]
+    },
+    {
+      "hanzi": "苹",
+      "pinyin": "píng",
+      "meaning_vi": "táo (苹果)",
+      "han_viet": "bình",
+      "strokes": 8,
+      "radical": "艹",
+      "radical_meaning_vi": "thảo (cỏ)",
+      "level": 1,
+      "words": [
+        "苹果"
+      ]
+    },
+    {
+      "hanzi": "七",
+      "pinyin": "qī",
+      "meaning_vi": "bảy",
+      "han_viet": "thất",
+      "strokes": 2,
+      "radical": "一",
+      "radical_meaning_vi": "nhất (một)",
+      "level": 1,
+      "words": [
+        "七"
+      ]
+    },
+    {
+      "hanzi": "期",
+      "pinyin": "qī",
+      "meaning_vi": "kỳ",
+      "han_viet": "kỳ",
+      "strokes": 12,
+      "radical": "月",
+      "radical_meaning_vi": "nguyệt (trăng, thịt)",
+      "level": 1,
+      "words": [
+        "期",
+        "日期",
+        "学期",
+        "定期",
+        "短期",
+        "近期"
+      ]
+    },
+    {
+      "hanzi": "起",
+      "pinyin": "qǐ",
+      "meaning_vi": "dậy; lên",
+      "han_viet": "khởi",
+      "strokes": 10,
+      "radical": "走",
+      "radical_meaning_vi": "tẩu (đi)",
+      "level": 1,
+      "words": [
+        "起",
+        "想起",
+        "起床",
+        "起来",
+        "起飞",
+        "一起"
+      ]
+    },
+    {
+      "hanzi": "气",
+      "pinyin": "qì",
+      "meaning_vi": "hơi, khí",
+      "han_viet": "khí",
+      "strokes": 4,
+      "radical": "气",
+      "radical_meaning_vi": "khí (hơi)",
+      "level": 1,
+      "words": [
+        "气",
+        "天气",
+        "空气",
+        "气温",
+        "生气",
+        "气候"
+      ]
+    },
+    {
+      "hanzi": "千",
+      "pinyin": "qiān",
+      "meaning_vi": "nghìn",
+      "han_viet": "thiên",
+      "strokes": 3,
+      "radical": "十",
+      "radical_meaning_vi": "thập (mười)",
+      "level": 1,
+      "words": [
+        "千",
+        "千万",
+        "千克"
+      ]
+    },
+    {
+      "hanzi": "前",
+      "pinyin": "qián",
+      "meaning_vi": "trước",
+      "han_viet": "tiền",
+      "strokes": 9,
+      "radical": "刂",
+      "radical_meaning_vi": "đao (dao)",
+      "level": 1,
+      "words": [
+        "前",
+        "提前",
+        "前进",
+        "目前",
+        "眼前",
+        "以前"
+      ]
+    },
+    {
+      "hanzi": "钱",
+      "pinyin": "qián",
+      "meaning_vi": "tiền",
+      "han_viet": "tiền",
+      "strokes": 10,
+      "radical": "钅",
+      "radical_meaning_vi": "kim (kim loại)",
+      "level": 1,
+      "words": [
+        "钱",
+        "钱包",
+        "价钱"
+      ]
+    },
+    {
+      "hanzi": "请",
+      "pinyin": "qǐng",
+      "meaning_vi": "mời",
+      "han_viet": "thỉnh",
+      "strokes": 10,
+      "radical": "讠",
+      "radical_meaning_vi": "ngôn (lời nói)",
+      "level": 1,
+      "words": [
+        "请",
+        "请求",
+        "请问",
+        "请教",
+        "请客",
+        "请假"
+      ]
+    },
+    {
+      "hanzi": "去",
+      "pinyin": "qù",
+      "meaning_vi": "đi",
+      "han_viet": "khứ",
+      "strokes": 5,
+      "radical": "厶",
+      "radical_meaning_vi": "khư (riêng)",
+      "level": 1,
+      "words": [
+        "去",
+        "出去",
+        "过去",
+        "回去",
+        "进去",
+        "下去"
+      ]
+    },
+    {
+      "hanzi": "热",
+      "pinyin": "rè",
+      "meaning_vi": "nóng",
+      "han_viet": "nhiệt",
+      "strokes": 10,
+      "radical": "灬",
+      "radical_meaning_vi": "hỏa (lửa)",
+      "level": 1,
+      "words": [
+        "热",
+        "热情",
+        "热爱",
+        "热烈"
+      ]
+    },
+    {
+      "hanzi": "人",
+      "pinyin": "rén",
+      "meaning_vi": "người",
+      "han_viet": "nhân",
+      "strokes": 2,
+      "radical": "人",
+      "radical_meaning_vi": "nhân (người)",
+      "level": 1,
+      "words": [
+        "人",
+        "老人",
+        "客人",
+        "行人",
+        "人员",
+        "人民"
+      ]
+    },
+    {
+      "hanzi": "认",
+      "pinyin": "rèn",
+      "meaning_vi": "nhận biết",
+      "han_viet": "nhận",
+      "strokes": 4,
+      "radical": "讠",
+      "radical_meaning_vi": "ngôn (lời nói)",
+      "level": 1,
+      "words": [
+        "认为",
+        "认出",
+        "认真",
+        "认识",
+        "认可",
+        "否认"
+      ]
+    },
+    {
+      "hanzi": "日",
+      "pinyin": "rì",
+      "meaning_vi": "ngày; mặt trời",
+      "han_viet": "nhật",
+      "strokes": 4,
+      "radical": "日",
+      "radical_meaning_vi": "nhật (mặt trời)",
+      "level": 1,
+      "words": [
+        "日",
+        "生日",
+        "日期",
+        "节日",
+        "日报",
+        "日子"
+      ]
+    },
+    {
+      "hanzi": "三",
+      "pinyin": "sān",
+      "meaning_vi": "ba",
+      "han_viet": "tam",
+      "strokes": 3,
+      "radical": "一",
+      "radical_meaning_vi": "nhất (một)",
+      "level": 1,
+      "words": [
+        "三"
+      ]
+    },
+    {
+      "hanzi": "商",
+      "pinyin": "shāng",
+      "meaning_vi": "buôn bán",
+      "han_viet": "thương",
+      "strokes": 11,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "商业",
+        "商店",
+        "商场",
+        "商品",
+        "商人",
+        "商量"
+      ]
+    },
+    {
+      "hanzi": "上",
+      "pinyin": "shàng",
+      "meaning_vi": "trên",
+      "han_viet": "thượng",
+      "strokes": 3,
+      "radical": "一",
+      "radical_meaning_vi": "nhất (một)",
+      "level": 1,
+      "words": [
+        "上",
+        "上车",
+        "上班",
+        "天上",
+        "上周",
+        "路上"
+      ]
+    },
+    {
+      "hanzi": "少",
+      "pinyin": "shǎo",
+      "meaning_vi": "ít",
+      "han_viet": "thiểu",
+      "strokes": 4,
+      "radical": "小",
+      "radical_meaning_vi": "tiểu (nhỏ)",
+      "level": 1,
+      "words": [
+        "少",
+        "至少",
+        "不少",
+        "少数",
+        "多少",
+        "少年"
+      ]
+    },
+    {
+      "hanzi": "谁",
+      "pinyin": "shéi",
+      "meaning_vi": "ai",
+      "han_viet": "thùy",
+      "strokes": 10,
+      "radical": "讠",
+      "radical_meaning_vi": "ngôn (lời nói)",
+      "level": 1,
+      "words": [
+        "谁"
+      ]
+    },
+    {
+      "hanzi": "什",
+      "pinyin": "shén",
+      "meaning_vi": "gì (什么)",
+      "han_viet": "thập",
+      "strokes": 4,
+      "radical": "亻",
+      "radical_meaning_vi": "nhân đứng (người)",
+      "level": 1,
+      "words": [
+        "什么",
+        "什么样",
+        "为什么",
+        "干什么",
+        "没什么"
+      ]
+    },
+    {
+      "hanzi": "生",
+      "pinyin": "shēng",
+      "meaning_vi": "sinh, sống",
+      "han_viet": "sinh",
+      "strokes": 5,
+      "radical": "生",
+      "radical_meaning_vi": "sinh (sống)",
+      "level": 1,
+      "words": [
+        "生",
+        "生存",
+        "生动",
+        "生长",
+        "生词",
+        "一生"
+      ]
+    },
+    {
+      "hanzi": "师",
+      "pinyin": "shī",
+      "meaning_vi": "thầy",
+      "han_viet": "sư",
+      "strokes": 6,
+      "radical": "巾",
+      "radical_meaning_vi": "cân (khăn)",
+      "level": 1,
+      "words": [
+        "老师",
+        "教师",
+        "工程师"
+      ]
+    },
+    {
+      "hanzi": "十",
+      "pinyin": "shí",
+      "meaning_vi": "mười",
+      "han_viet": "thập",
+      "strokes": 2,
+      "radical": "十",
+      "radical_meaning_vi": "thập (mười)",
+      "level": 1,
+      "words": [
+        "十",
+        "十分"
+      ]
+    },
+    {
+      "hanzi": "时",
+      "pinyin": "shí",
+      "meaning_vi": "thời gian",
+      "han_viet": "thời",
+      "strokes": 7,
+      "radical": "日",
+      "radical_meaning_vi": "nhật (mặt trời)",
+      "level": 1,
+      "words": [
+        "时",
+        "小时",
+        "时间",
+        "当时",
+        "时代",
+        "时刻"
+      ]
+    },
+    {
+      "hanzi": "识",
+      "pinyin": "shí",
+      "meaning_vi": "biết",
+      "han_viet": "thức",
+      "strokes": 7,
+      "radical": "讠",
+      "radical_meaning_vi": "ngôn (lời nói)",
+      "level": 1,
+      "words": [
+        "认识",
+        "知识"
+      ]
+    },
+    {
+      "hanzi": "事",
+      "pinyin": "shì",
+      "meaning_vi": "việc",
+      "han_viet": "sự",
+      "strokes": 8,
+      "radical": "亅",
+      "radical_meaning_vi": "quyết (nét móc)",
+      "level": 1,
+      "words": [
+        "事",
+        "本事",
+        "故事",
+        "好事",
+        "从事",
+        "事情"
+      ]
+    },
+    {
+      "hanzi": "士",
+      "pinyin": "shì",
+      "meaning_vi": "kẻ sĩ; người",
+      "han_viet": "sĩ",
+      "strokes": 3,
+      "radical": "士",
+      "radical_meaning_vi": "sĩ (kẻ sĩ)",
+      "level": 1
+    },
+    {
+      "hanzi": "市",
+      "pinyin": "shì",
+      "meaning_vi": "chợ; thành phố",
+      "han_viet": "thị",
+      "strokes": 5,
+      "radical": "巾",
+      "radical_meaning_vi": "cân (khăn)",
+      "level": 1,
+      "words": [
+        "市",
+        "市长",
+        "市场",
+        "超市",
+        "城市"
+      ]
+    },
+    {
+      "hanzi": "是",
+      "pinyin": "shì",
+      "meaning_vi": "là",
+      "han_viet": "thị",
+      "strokes": 9,
+      "radical": "日",
+      "radical_meaning_vi": "nhật (mặt trời)",
+      "level": 1,
+      "words": [
+        "是",
+        "要是",
+        "老是",
+        "但是",
+        "总是",
+        "就是"
+      ]
+    },
+    {
+      "hanzi": "视",
+      "pinyin": "shì",
+      "meaning_vi": "nhìn",
+      "han_viet": "thị",
+      "strokes": 8,
+      "radical": "见",
+      "radical_meaning_vi": "kiến (thấy)",
+      "level": 1,
+      "words": [
+        "重视",
+        "电视",
+        "影视",
+        "电视机",
+        "电视剧",
+        "电视台"
+      ]
+    },
+    {
+      "hanzi": "手",
+      "pinyin": "shǒu",
+      "meaning_vi": "tay",
+      "han_viet": "thủ",
+      "strokes": 4,
+      "radical": "手",
+      "radical_meaning_vi": "thủ (tay)",
+      "level": 1,
+      "words": [
+        "手",
+        "握手",
+        "手表",
+        "歌手",
+        "举手",
+        "手续"
+      ]
+    },
+    {
+      "hanzi": "书",
+      "pinyin": "shū",
+      "meaning_vi": "sách",
+      "han_viet": "thư",
+      "strokes": 4,
+      "radical": "丨",
+      "radical_meaning_vi": "cổn (nét sổ)",
+      "level": 1,
+      "words": [
+        "书",
+        "书架",
+        "书包",
+        "书店",
+        "读书",
+        "图书馆"
+      ]
+    },
+    {
+      "hanzi": "水",
+      "pinyin": "shuǐ",
+      "meaning_vi": "nước",
+      "han_viet": "thủy",
+      "strokes": 4,
+      "radical": "水",
+      "radical_meaning_vi": "thủy (nước)",
+      "level": 1,
+      "words": [
+        "水",
+        "药水",
+        "水果",
+        "水平",
+        "凉水"
+      ]
+    },
+    {
+      "hanzi": "睡",
+      "pinyin": "shuì",
+      "meaning_vi": "ngủ",
+      "han_viet": "thụy",
+      "strokes": 13,
+      "radical": "目",
+      "radical_meaning_vi": "mục (mắt)",
+      "level": 1,
+      "words": [
+        "睡",
+        "午睡",
+        "睡觉"
+      ]
+    },
+    {
+      "hanzi": "说",
+      "pinyin": "shuō",
+      "meaning_vi": "nói",
+      "han_viet": "thuyết",
+      "strokes": 9,
+      "radical": "讠",
+      "radical_meaning_vi": "ngôn (lời nói)",
+      "level": 1,
+      "words": [
+        "说",
+        "说话",
+        "据说",
+        "传说",
+        "小说",
+        "听说"
+      ]
+    },
+    {
+      "hanzi": "司",
+      "pinyin": "sī",
+      "meaning_vi": "ty, cơ quan",
+      "han_viet": "ty",
+      "strokes": 5,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "司机",
+        "公司"
+      ]
+    },
+    {
+      "hanzi": "四",
+      "pinyin": "sì",
+      "meaning_vi": "bốn",
+      "han_viet": "tứ",
+      "strokes": 5,
+      "radical": "囗",
+      "radical_meaning_vi": "vi (vây quanh)",
+      "level": 1,
+      "words": [
+        "四"
+      ]
+    },
+    {
+      "hanzi": "岁",
+      "pinyin": "suì",
+      "meaning_vi": "tuổi",
+      "han_viet": "tuế",
+      "strokes": 6,
+      "radical": "山",
+      "radical_meaning_vi": "sơn (núi)",
+      "level": 1,
+      "words": [
+        "岁"
+      ]
+    },
+    {
+      "hanzi": "他",
+      "pinyin": "tā",
+      "meaning_vi": "anh ấy",
+      "han_viet": "tha",
+      "strokes": 5,
+      "radical": "亻",
+      "radical_meaning_vi": "nhân đứng (người)",
+      "level": 1,
+      "words": [
+        "他",
+        "他们",
+        "其他"
+      ]
+    },
+    {
+      "hanzi": "她",
+      "pinyin": "tā",
+      "meaning_vi": "cô ấy",
+      "han_viet": "tha",
+      "strokes": 6,
+      "radical": "女",
+      "radical_meaning_vi": "nữ (phụ nữ)",
+      "level": 1,
+      "words": [
+        "她",
+        "她们"
+      ]
+    },
+    {
+      "hanzi": "它",
+      "pinyin": "tā",
+      "meaning_vi": "nó",
+      "han_viet": "tha",
+      "strokes": 5,
+      "radical": "宀",
+      "radical_meaning_vi": "miên (mái nhà)",
+      "level": 1,
+      "words": [
+        "它",
+        "它们"
+      ]
+    },
+    {
+      "hanzi": "太",
+      "pinyin": "tài",
+      "meaning_vi": "quá",
+      "han_viet": "thái",
+      "strokes": 4,
+      "radical": "大",
+      "radical_meaning_vi": "đại (to)",
+      "level": 1,
+      "words": [
+        "太",
+        "不太",
+        "太阳",
+        "太太",
+        "老太太"
+      ]
+    },
+    {
+      "hanzi": "题",
+      "pinyin": "tí",
+      "meaning_vi": "đề, câu hỏi",
+      "han_viet": "đề",
+      "strokes": 15,
+      "radical": "页",
+      "radical_meaning_vi": "hiệt (đầu)",
+      "level": 1,
+      "words": [
+        "题",
+        "题目",
+        "话题",
+        "专题",
+        "问题",
+        "标题"
+      ]
+    },
+    {
+      "hanzi": "天",
+      "pinyin": "tiān",
+      "meaning_vi": "trời; ngày",
+      "han_viet": "thiên",
+      "strokes": 4,
+      "radical": "大",
+      "radical_meaning_vi": "đại (to)",
+      "level": 1,
+      "words": [
+        "天",
+        "阴天",
+        "夏天",
+        "白天",
+        "天上",
+        "前天"
+      ]
+    },
+    {
+      "hanzi": "条",
+      "pinyin": "tiáo",
+      "meaning_vi": "cái, con (lượng từ vật dài)",
+      "han_viet": "điều",
+      "strokes": 7,
+      "radical": "木",
+      "radical_meaning_vi": "mộc (cây)",
+      "level": 1,
+      "words": [
+        "条",
+        "条件",
+        "面条儿"
+      ]
+    },
+    {
+      "hanzi": "听",
+      "pinyin": "tīng",
+      "meaning_vi": "nghe",
+      "han_viet": "thính",
+      "strokes": 7,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "听",
+        "收听",
+        "听力",
+        "打听",
+        "听到",
+        "好听"
+      ]
+    },
+    {
+      "hanzi": "同",
+      "pinyin": "tóng",
+      "meaning_vi": "cùng",
+      "han_viet": "đồng",
+      "strokes": 6,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "同样",
+        "同学",
+        "同意",
+        "相同",
+        "不同",
+        "同时"
+      ]
+    },
+    {
+      "hanzi": "外",
+      "pinyin": "wài",
+      "meaning_vi": "ngoài",
+      "han_viet": "ngoại",
+      "strokes": 5,
+      "radical": "夕",
+      "radical_meaning_vi": "tịch (đêm)",
+      "level": 1,
+      "words": [
+        "外",
+        "外国",
+        "外语",
+        "另外",
+        "外面",
+        "外卖"
+      ]
+    },
+    {
+      "hanzi": "玩",
+      "pinyin": "wán",
+      "meaning_vi": "chơi",
+      "han_viet": "ngoạn",
+      "strokes": 8,
+      "radical": "王",
+      "radical_meaning_vi": "ngọc (ngọc)",
+      "level": 1,
+      "words": [
+        "玩具",
+        "玩儿",
+        "开玩笑",
+        "好玩儿"
+      ]
+    },
+    {
+      "hanzi": "晚",
+      "pinyin": "wǎn",
+      "meaning_vi": "muộn; tối",
+      "han_viet": "vãn",
+      "strokes": 11,
+      "radical": "日",
+      "radical_meaning_vi": "nhật (mặt trời)",
+      "level": 1,
+      "words": [
+        "晚",
+        "晚安",
+        "晚上",
+        "晚会",
+        "晚饭",
+        "晚报"
+      ]
+    },
+    {
+      "hanzi": "喂",
+      "pinyin": "wèi",
+      "meaning_vi": "alô",
+      "han_viet": "uy",
+      "strokes": 12,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "喂"
+      ]
+    },
+    {
+      "hanzi": "文",
+      "pinyin": "wén",
+      "meaning_vi": "văn, chữ",
+      "han_viet": "văn",
+      "strokes": 4,
+      "radical": "文",
+      "radical_meaning_vi": "văn (văn)",
+      "level": 1,
+      "words": [
+        "文章",
+        "文件",
+        "文字",
+        "课文",
+        "外文",
+        "文明"
+      ]
+    },
+    {
+      "hanzi": "问",
+      "pinyin": "wèn",
+      "meaning_vi": "hỏi",
+      "han_viet": "vấn",
+      "strokes": 6,
+      "radical": "门",
+      "radical_meaning_vi": "môn (cửa)",
+      "level": 1,
+      "words": [
+        "问",
+        "请问",
+        "问题",
+        "提问",
+        "问路",
+        "访问"
+      ]
+    },
+    {
+      "hanzi": "我",
+      "pinyin": "wǒ",
+      "meaning_vi": "tôi",
+      "han_viet": "ngã",
+      "strokes": 7,
+      "radical": "戈",
+      "radical_meaning_vi": "qua (giáo mác)",
+      "level": 1,
+      "words": [
+        "我",
+        "我们"
+      ]
+    },
+    {
+      "hanzi": "五",
+      "pinyin": "wǔ",
+      "meaning_vi": "năm",
+      "han_viet": "ngũ",
+      "strokes": 4,
+      "radical": "二",
+      "radical_meaning_vi": "nhị (hai)",
+      "level": 1,
+      "words": [
+        "五"
+      ]
+    },
+    {
+      "hanzi": "午",
+      "pinyin": "wǔ",
+      "meaning_vi": "trưa",
+      "han_viet": "ngọ",
+      "strokes": 4,
+      "radical": "十",
+      "radical_meaning_vi": "thập (mười)",
+      "level": 1,
+      "words": [
+        "午睡",
+        "下午",
+        "午餐",
+        "午饭",
+        "上午",
+        "中午"
+      ]
+    },
+    {
+      "hanzi": "息",
+      "pinyin": "xī",
+      "meaning_vi": "nghỉ; hơi thở",
+      "han_viet": "tức",
+      "strokes": 10,
+      "radical": "心",
+      "radical_meaning_vi": "tâm (tim, lòng)",
+      "level": 1,
+      "words": [
+        "消息",
+        "信息",
+        "休息"
+      ]
+    },
+    {
+      "hanzi": "西",
+      "pinyin": "xī",
+      "meaning_vi": "phía tây",
+      "han_viet": "tây",
+      "strokes": 6,
+      "radical": "西",
+      "radical_meaning_vi": "tây (phía tây)",
+      "level": 1,
+      "words": [
+        "西",
+        "西部",
+        "西南",
+        "西医",
+        "西边",
+        "西方"
+      ]
+    },
+    {
+      "hanzi": "习",
+      "pinyin": "xí",
+      "meaning_vi": "tập, luyện",
+      "han_viet": "tập",
+      "strokes": 3,
+      "radical": "冫",
+      "radical_meaning_vi": "băng (nước đá)",
+      "level": 1,
+      "words": [
+        "复习",
+        "实习",
+        "预习",
+        "练习",
+        "学习",
+        "习惯"
+      ]
+    },
+    {
+      "hanzi": "喜",
+      "pinyin": "xǐ",
+      "meaning_vi": "vui, thích",
+      "han_viet": "hỉ",
+      "strokes": 12,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "喜欢"
+      ]
+    },
+    {
+      "hanzi": "系",
+      "pinyin": "xì",
+      "meaning_vi": "hệ; liên quan",
+      "han_viet": "hệ",
+      "strokes": 7,
+      "radical": "糸",
+      "radical_meaning_vi": "mịch (sợi tơ)",
+      "level": 1,
+      "words": [
+        "系",
+        "联系",
+        "关系",
+        "没关系"
+      ]
+    },
+    {
+      "hanzi": "下",
+      "pinyin": "xià",
+      "meaning_vi": "dưới",
+      "han_viet": "hạ",
+      "strokes": 3,
+      "radical": "一",
+      "radical_meaning_vi": "nhất (một)",
+      "level": 1,
+      "words": [
+        "下",
+        "下雨",
+        "以下",
+        "下周",
+        "留下",
+        "下雪"
+      ]
+    },
+    {
+      "hanzi": "先",
+      "pinyin": "xiān",
+      "meaning_vi": "trước",
+      "han_viet": "tiên",
+      "strokes": 6,
+      "radical": "儿",
+      "radical_meaning_vi": "nhi (trẻ con)",
+      "level": 1,
+      "words": [
+        "先",
+        "先进",
+        "首先",
+        "领先",
+        "先生"
+      ]
+    },
+    {
+      "hanzi": "现",
+      "pinyin": "xiàn",
+      "meaning_vi": "hiện",
+      "han_viet": "hiện",
+      "strokes": 8,
+      "radical": "王",
+      "radical_meaning_vi": "ngọc (ngọc)",
+      "level": 1,
+      "words": [
+        "表现",
+        "现场",
+        "实现",
+        "出现",
+        "体现",
+        "现象"
+      ]
+    },
+    {
+      "hanzi": "想",
+      "pinyin": "xiǎng",
+      "meaning_vi": "nghĩ; muốn",
+      "han_viet": "tưởng",
+      "strokes": 13,
+      "radical": "心",
+      "radical_meaning_vi": "tâm (tim, lòng)",
+      "level": 1,
+      "words": [
+        "想",
+        "理想",
+        "想起",
+        "想到",
+        "想法",
+        "思想"
+      ]
+    },
+    {
+      "hanzi": "小",
+      "pinyin": "xiǎo",
+      "meaning_vi": "nhỏ",
+      "han_viet": "tiểu",
+      "strokes": 3,
+      "radical": "小",
+      "radical_meaning_vi": "tiểu (nhỏ)",
+      "level": 1,
+      "words": [
+        "小",
+        "小时",
+        "大小",
+        "小学",
+        "小组",
+        "小说"
+      ]
+    },
+    {
+      "hanzi": "校",
+      "pinyin": "xiào",
+      "meaning_vi": "trường",
+      "han_viet": "hiệu",
+      "strokes": 10,
+      "radical": "木",
+      "radical_meaning_vi": "mộc (cây)",
+      "level": 1,
+      "words": [
+        "校园",
+        "学校",
+        "校长"
+      ]
+    },
+    {
+      "hanzi": "些",
+      "pinyin": "xiē",
+      "meaning_vi": "một số",
+      "han_viet": "ta",
+      "strokes": 8,
+      "radical": "二",
+      "radical_meaning_vi": "nhị (hai)",
+      "level": 1,
+      "words": [
+        "一些",
+        "哪些",
+        "那些",
+        "这些",
+        "有些"
+      ]
+    },
+    {
+      "hanzi": "写",
+      "pinyin": "xiě",
+      "meaning_vi": "viết",
+      "han_viet": "tả",
+      "strokes": 5,
+      "radical": "冖",
+      "radical_meaning_vi": "mịch (khăn trùm)",
+      "level": 1,
+      "words": [
+        "写",
+        "听写",
+        "写作"
+      ]
+    },
+    {
+      "hanzi": "谢",
+      "pinyin": "xiè",
+      "meaning_vi": "cảm ơn",
+      "han_viet": "tạ",
+      "strokes": 12,
+      "radical": "讠",
+      "radical_meaning_vi": "ngôn (lời nói)",
+      "level": 1,
+      "words": [
+        "谢谢",
+        "感谢"
+      ]
+    },
+    {
+      "hanzi": "新",
+      "pinyin": "xīn",
+      "meaning_vi": "mới",
+      "han_viet": "tân",
+      "strokes": 13,
+      "radical": "斤",
+      "radical_meaning_vi": "cân (rìu)",
+      "level": 1,
+      "words": [
+        "新",
+        "创新",
+        "新闻",
+        "重新",
+        "新年"
+      ]
+    },
+    {
+      "hanzi": "兴",
+      "pinyin": "xīng",
+      "meaning_vi": "hứng, hưng thịnh",
+      "han_viet": "hưng",
+      "strokes": 6,
+      "radical": "八",
+      "radical_meaning_vi": "bát (tám)",
+      "level": 1,
+      "words": [
+        "高兴"
+      ]
+    },
+    {
+      "hanzi": "星",
+      "pinyin": "xīng",
+      "meaning_vi": "sao",
+      "han_viet": "tinh",
+      "strokes": 9,
+      "radical": "日",
+      "radical_meaning_vi": "nhật (mặt trời)",
+      "level": 1,
+      "words": [
+        "星星",
+        "明星",
+        "星期",
+        "星期日",
+        "星期天"
+      ]
+    },
+    {
+      "hanzi": "休",
+      "pinyin": "xiū",
+      "meaning_vi": "nghỉ",
+      "han_viet": "hưu",
+      "strokes": 6,
+      "radical": "亻",
+      "radical_meaning_vi": "nhân đứng (người)",
+      "level": 1,
+      "words": [
+        "休假",
+        "退休",
+        "休息"
+      ]
+    },
+    {
+      "hanzi": "学",
+      "pinyin": "xué",
+      "meaning_vi": "học",
+      "han_viet": "học",
+      "strokes": 8,
+      "radical": "子",
+      "radical_meaning_vi": "tử (con)",
+      "level": 1,
+      "words": [
+        "学",
+        "同学",
+        "学院",
+        "学校",
+        "教学",
+        "学费"
+      ]
+    },
+    {
+      "hanzi": "雪",
+      "pinyin": "xuě",
+      "meaning_vi": "tuyết",
+      "han_viet": "tuyết",
+      "strokes": 11,
+      "radical": "雨",
+      "radical_meaning_vi": "vũ (mưa)",
+      "level": 1,
+      "words": [
+        "雪",
+        "下雪"
+      ]
+    },
+    {
+      "hanzi": "样",
+      "pinyin": "yàng",
+      "meaning_vi": "kiểu, dáng",
+      "han_viet": "dạng",
+      "strokes": 10,
+      "radical": "木",
+      "radical_meaning_vi": "mộc (cây)",
+      "level": 1,
+      "words": [
+        "那样",
+        "样子",
+        "同样",
+        "这样",
+        "一样",
+        "怎样"
+      ]
+    },
+    {
+      "hanzi": "要",
+      "pinyin": "yào",
+      "meaning_vi": "muốn, cần",
+      "han_viet": "yếu",
+      "strokes": 9,
+      "radical": "覀",
+      "radical_meaning_vi": "á (che)",
+      "level": 1,
+      "words": [
+        "要",
+        "主要",
+        "要是",
+        "需要",
+        "必要",
+        "不要"
+      ]
+    },
+    {
+      "hanzi": "也",
+      "pinyin": "yě",
+      "meaning_vi": "cũng",
+      "han_viet": "dã",
+      "strokes": 3,
+      "radical": "乚",
+      "radical_meaning_vi": "ất",
+      "level": 1,
+      "words": [
+        "也",
+        "也许"
+      ]
+    },
+    {
+      "hanzi": "一",
+      "pinyin": "yī",
+      "meaning_vi": "một",
+      "han_viet": "nhất",
+      "strokes": 1,
+      "radical": "一",
+      "radical_meaning_vi": "nhất (một)",
+      "level": 1,
+      "words": [
+        "一",
+        "一直",
+        "一半",
+        "一样",
+        "一共",
+        "一生"
+      ]
+    },
+    {
+      "hanzi": "医",
+      "pinyin": "yī",
+      "meaning_vi": "chữa bệnh",
+      "han_viet": "y",
+      "strokes": 7,
+      "radical": "匸",
+      "radical_meaning_vi": "hệ (che đậy)",
+      "level": 1,
+      "words": [
+        "医院",
+        "医生",
+        "中医",
+        "西医"
+      ]
+    },
+    {
+      "hanzi": "衣",
+      "pinyin": "yī",
+      "meaning_vi": "áo",
+      "han_viet": "y",
+      "strokes": 6,
+      "radical": "衣",
+      "radical_meaning_vi": "y (áo)",
+      "level": 1,
+      "words": [
+        "衣服",
+        "大衣",
+        "上衣",
+        "衬衣",
+        "衣架",
+        "洗衣机"
+      ]
+    },
+    {
+      "hanzi": "宜",
+      "pinyin": "yí",
+      "meaning_vi": "thích hợp",
+      "han_viet": "nghi",
+      "strokes": 8,
+      "radical": "宀",
+      "radical_meaning_vi": "miên (mái nhà)",
+      "level": 1,
+      "words": [
+        "便宜"
+      ]
+    },
+    {
+      "hanzi": "以",
+      "pinyin": "yǐ",
+      "meaning_vi": "dùng; để",
+      "han_viet": "dĩ",
+      "strokes": 4,
+      "radical": "人",
+      "radical_meaning_vi": "nhân (người)",
+      "level": 1,
+      "words": [
+        "以下",
+        "以前",
+        "以外",
+        "以为",
+        "以来",
+        "所以"
+      ]
+    },
+    {
+      "hanzi": "椅",
+      "pinyin": "yǐ",
+      "meaning_vi": "ghế",
+      "han_viet": "ỷ",
+      "strokes": 12,
+      "radical": "木",
+      "radical_meaning_vi": "mộc (cây)",
+      "level": 1,
+      "words": [
+        "椅子"
+      ]
+    },
+    {
+      "hanzi": "影",
+      "pinyin": "yǐng",
+      "meaning_vi": "bóng; ảnh",
+      "han_viet": "ảnh",
+      "strokes": 15,
+      "radical": "彡",
+      "radical_meaning_vi": "sam (lông)",
+      "level": 1,
+      "words": [
+        "电影",
+        "影视",
+        "影片",
+        "影响",
+        "电影院"
+      ]
+    },
+    {
+      "hanzi": "友",
+      "pinyin": "yǒu",
+      "meaning_vi": "bạn",
+      "han_viet": "hữu",
+      "strokes": 4,
+      "radical": "又",
+      "radical_meaning_vi": "hựu (tay, lại)",
+      "level": 1,
+      "words": [
+        "友好",
+        "网友",
+        "朋友",
+        "男朋友",
+        "交朋友",
+        "小朋友"
+      ]
+    },
+    {
+      "hanzi": "有",
+      "pinyin": "yǒu",
+      "meaning_vi": "có",
+      "han_viet": "hữu",
+      "strokes": 6,
+      "radical": "月",
+      "radical_meaning_vi": "nguyệt (trăng, thịt)",
+      "level": 1,
+      "words": [
+        "有",
+        "有效",
+        "具有",
+        "有利",
+        "有人",
+        "只有"
+      ]
+    },
+    {
+      "hanzi": "语",
+      "pinyin": "yǔ",
+      "meaning_vi": "ngôn ngữ",
+      "han_viet": "ngữ",
+      "strokes": 9,
+      "radical": "讠",
+      "radical_meaning_vi": "ngôn (lời nói)",
+      "level": 1,
+      "words": [
+        "外语",
+        "汉语",
+        "词语",
+        "英语",
+        "语言"
+      ]
+    },
+    {
+      "hanzi": "雨",
+      "pinyin": "yǔ",
+      "meaning_vi": "mưa",
+      "han_viet": "vũ",
+      "strokes": 8,
+      "radical": "雨",
+      "radical_meaning_vi": "vũ (mưa)",
+      "level": 1,
+      "words": [
+        "雨",
+        "下雨"
+      ]
+    },
+    {
+      "hanzi": "元",
+      "pinyin": "yuán",
+      "meaning_vi": "đồng (tiền)",
+      "han_viet": "nguyên",
+      "strokes": 4,
+      "radical": "儿",
+      "radical_meaning_vi": "nhi (trẻ con)",
+      "level": 1,
+      "words": [
+        "元",
+        "单元",
+        "美元"
+      ]
+    },
+    {
+      "hanzi": "院",
+      "pinyin": "yuàn",
+      "meaning_vi": "viện; sân",
+      "han_viet": "viện",
+      "strokes": 9,
+      "radical": "阝",
+      "radical_meaning_vi": "phụ/ấp (gò, thành)",
+      "level": 1,
+      "words": [
+        "院",
+        "学院",
+        "住院",
+        "院长",
+        "医院",
+        "出院"
+      ]
+    },
+    {
+      "hanzi": "月",
+      "pinyin": "yuè",
+      "meaning_vi": "tháng; trăng",
+      "han_viet": "nguyệt",
+      "strokes": 4,
+      "radical": "月",
+      "radical_meaning_vi": "nguyệt (trăng, thịt)",
+      "level": 1,
+      "words": [
+        "月",
+        "月亮",
+        "月份"
+      ]
+    },
+    {
+      "hanzi": "再",
+      "pinyin": "zài",
+      "meaning_vi": "lại",
+      "han_viet": "tái",
+      "strokes": 6,
+      "radical": "冂",
+      "radical_meaning_vi": "quynh (vùng biên)",
+      "level": 1,
+      "words": [
+        "再",
+        "再见"
+      ]
+    },
+    {
+      "hanzi": "在",
+      "pinyin": "zài",
+      "meaning_vi": "ở; đang",
+      "han_viet": "tại",
+      "strokes": 6,
+      "radical": "土",
+      "radical_meaning_vi": "thổ (đất)",
+      "level": 1,
+      "words": [
+        "在",
+        "实在",
+        "在家",
+        "正在",
+        "现在",
+        "存在"
+      ]
+    },
+    {
+      "hanzi": "早",
+      "pinyin": "zǎo",
+      "meaning_vi": "sớm",
+      "han_viet": "tảo",
+      "strokes": 6,
+      "radical": "日",
+      "radical_meaning_vi": "nhật (mặt trời)",
+      "level": 1,
+      "words": [
+        "早",
+        "早就",
+        "早餐",
+        "早晨",
+        "早已",
+        "早上"
+      ]
+    },
+    {
+      "hanzi": "怎",
+      "pinyin": "zěn",
+      "meaning_vi": "sao, thế nào",
+      "han_viet": "chẩm",
+      "strokes": 9,
+      "radical": "心",
+      "radical_meaning_vi": "tâm (tim, lòng)",
+      "level": 1,
+      "words": [
+        "怎么",
+        "怎样",
+        "怎么样",
+        "怎么办"
+      ]
+    },
+    {
+      "hanzi": "找",
+      "pinyin": "zhǎo",
+      "meaning_vi": "tìm",
+      "han_viet": "trảo",
+      "strokes": 7,
+      "radical": "扌",
+      "radical_meaning_vi": "thủ (tay)",
+      "level": 1,
+      "words": [
+        "找",
+        "找出",
+        "找到"
+      ]
+    },
+    {
+      "hanzi": "这",
+      "pinyin": "zhè",
+      "meaning_vi": "này",
+      "han_viet": "giá",
+      "strokes": 7,
+      "radical": "辶",
+      "radical_meaning_vi": "sước (đi)",
+      "level": 1,
+      "words": [
+        "这",
+        "这里",
+        "这样",
+        "这边",
+        "这么",
+        "这些"
+      ]
+    },
+    {
+      "hanzi": "真",
+      "pinyin": "zhēn",
+      "meaning_vi": "thật",
+      "han_viet": "chân",
+      "strokes": 10,
+      "radical": "目",
+      "radical_meaning_vi": "mục (mắt)",
+      "level": 1,
+      "words": [
+        "真",
+        "认真",
+        "真正",
+        "真的",
+        "真实"
+      ]
+    },
+    {
+      "hanzi": "正",
+      "pinyin": "zhèng",
+      "meaning_vi": "chính; đang",
+      "han_viet": "chính",
+      "strokes": 5,
+      "radical": "止",
+      "radical_meaning_vi": "chỉ (dừng)",
+      "level": 1,
+      "words": [
+        "正",
+        "正确",
+        "正常",
+        "真正",
+        "正式",
+        "正在"
+      ]
+    },
+    {
+      "hanzi": "知",
+      "pinyin": "zhī",
+      "meaning_vi": "biết",
+      "han_viet": "tri",
+      "strokes": 8,
+      "radical": "矢",
+      "radical_meaning_vi": "thỉ (mũi tên)",
+      "level": 1,
+      "words": [
+        "通知",
+        "知道",
+        "知识"
+      ]
+    },
+    {
+      "hanzi": "只",
+      "pinyin": "zhǐ",
+      "meaning_vi": "chỉ; con (lượng từ)",
+      "han_viet": "chỉ",
+      "strokes": 5,
+      "radical": "口",
+      "radical_meaning_vi": "khẩu (miệng)",
+      "level": 1,
+      "words": [
+        "只",
+        "只有",
+        "只好",
+        "只是",
+        "只能",
+        "只要"
+      ]
+    },
+    {
+      "hanzi": "中",
+      "pinyin": "zhōng",
+      "meaning_vi": "giữa",
+      "han_viet": "trung",
+      "strokes": 4,
+      "radical": "丨",
+      "radical_meaning_vi": "cổn (nét sổ)",
+      "level": 1,
+      "words": [
+        "中",
+        "中心",
+        "中部",
+        "集中",
+        "中餐",
+        "中间"
+      ]
+    },
+    {
+      "hanzi": "钟",
+      "pinyin": "zhōng",
+      "meaning_vi": "chuông; đồng hồ",
+      "han_viet": "chung",
+      "strokes": 9,
+      "radical": "钅",
+      "radical_meaning_vi": "kim (kim loại)",
+      "level": 1,
+      "words": [
+        "钟",
+        "分钟"
+      ]
+    },
+    {
+      "hanzi": "住",
+      "pinyin": "zhù",
+      "meaning_vi": "ở",
+      "han_viet": "trú",
+      "strokes": 7,
+      "radical": "亻",
+      "radical_meaning_vi": "nhân đứng (người)",
+      "level": 1,
+      "words": [
+        "住",
+        "住院",
+        "站住",
+        "抓住",
+        "住房",
+        "记住"
+      ]
+    },
+    {
+      "hanzi": "桌",
+      "pinyin": "zhuō",
+      "meaning_vi": "bàn",
+      "han_viet": "trác",
+      "strokes": 10,
+      "radical": "木",
+      "radical_meaning_vi": "mộc (cây)",
+      "level": 1,
+      "words": [
+        "桌子"
+      ]
+    },
+    {
+      "hanzi": "子",
+      "pinyin": "zǐ",
+      "meaning_vi": "con; hậu tố danh từ",
+      "han_viet": "tử",
+      "strokes": 3,
+      "radical": "子",
+      "radical_meaning_vi": "tử (con)",
+      "level": 1,
+      "words": [
+        "子",
+        "样子",
+        "女子",
+        "院子",
+        "牌子",
+        "房子"
+      ]
+    },
+    {
+      "hanzi": "字",
+      "pinyin": "zì",
+      "meaning_vi": "chữ",
+      "han_viet": "tự",
+      "strokes": 6,
+      "radical": "子",
+      "radical_meaning_vi": "tử (con)",
+      "level": 1,
+      "words": [
+        "字",
+        "汉字",
+        "字典",
+        "文字",
+        "数字",
+        "名字"
+      ]
+    },
+    {
+      "hanzi": "租",
+      "pinyin": "zū",
+      "meaning_vi": "thuê",
+      "han_viet": "tô",
+      "strokes": 10,
+      "radical": "禾",
+      "radical_meaning_vi": "hòa (lúa)",
+      "level": 1,
+      "words": [
+        "租",
+        "房租",
+        "出租",
+        "出租车"
+      ]
+    },
+    {
+      "hanzi": "昨",
+      "pinyin": "zuó",
+      "meaning_vi": "hôm qua",
+      "han_viet": "tạc",
+      "strokes": 9,
+      "radical": "日",
+      "radical_meaning_vi": "nhật (mặt trời)",
+      "level": 1,
+      "words": [
+        "昨天"
+      ]
+    },
+    {
+      "hanzi": "作",
+      "pinyin": "zuò",
+      "meaning_vi": "làm",
+      "han_viet": "tác",
+      "strokes": 7,
+      "radical": "亻",
+      "radical_meaning_vi": "nhân đứng (người)",
+      "level": 1,
+      "words": [
+        "动作",
+        "作业",
+        "写作",
+        "作家",
+        "合作",
+        "创作"
+      ]
+    },
+    {
+      "hanzi": "做",
+      "pinyin": "zuò",
+      "meaning_vi": "làm",
+      "han_viet": "tố",
+      "strokes": 11,
+      "radical": "亻",
+      "radical_meaning_vi": "nhân đứng (người)",
+      "level": 1,
+      "words": [
+        "做",
+        "做到",
+        "做饭",
+        "做客",
+        "做法"
+      ]
+    },
+    {
+      "hanzi": "坐",
+      "pinyin": "zuò",
+      "meaning_vi": "ngồi",
+      "han_viet": "tọa",
+      "strokes": 7,
+      "radical": "土",
+      "radical_meaning_vi": "thổ (đất)",
+      "level": 1,
+      "words": [
+        "坐",
+        "请坐",
+        "坐下"
+      ]
+    }
+  ]
+}

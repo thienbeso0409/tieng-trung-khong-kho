@@ -1,0 +1,30 @@
+{
+  "level": "7-9",
+  "standard": "HSK3.0-2025",
+  "target_count": 5636,
+  "count": 2,
+  "complete": false,
+  "words": [
+    {
+      "id": "hsk7-9-0001",
+      "hanzi": "哀悼",
+      "pinyin": "āidào",
+      "pos": "động từ",
+      "meaning_vi": "thương tiếc, tưởng niệm",
+      "han_viet": "ai điệu",
+      "example": {
+        "zh": "人们哀悼遇难者。",
+        "pinyin": "rénmen āidào yùnànzhě.",
+        "vi": "Mọi người tưởng niệm các nạn nhân."
+      }
+    },
+    {
+      "id": "hsk7-9-0002",
+      "hanzi": "安居乐业",
+      "pinyin": "ānjū-lèyè",
+      "pos": "cụm từ",
+      "meaning_vi": "an cư lạc nghiệp",
+      "han_viet": "an cư lạc nghiệp"
+    }
+  ]
+}

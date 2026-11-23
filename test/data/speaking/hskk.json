@@ -1,0 +1,496 @@
+{
+  "levels": [
+    {
+      "level": "so",
+      "name_vi": "HSKK Sơ cấp",
+      "hsk_equiv": [
+        1,
+        2
+      ],
+      "parts": [
+        {
+          "code": "so-1",
+          "type": "repeat",
+          "name_vi": "Nghe và nhắc lại",
+          "name_zh": "听后重复",
+          "instruction_vi": "Nghe câu và nhắc lại chính xác.",
+          "real_count": 15,
+          "prep_seconds": 0,
+          "answer_seconds": 10,
+          "rubric_id": "rb-repeat"
+        },
+        {
+          "code": "so-2",
+          "type": "listen_answer",
+          "name_vi": "Nghe và trả lời",
+          "name_zh": "听后回答",
+          "instruction_vi": "Nghe câu hỏi và trả lời ngắn gọn.",
+          "real_count": 10,
+          "prep_seconds": 0,
+          "answer_seconds": 10,
+          "rubric_id": "rb-answer-short"
+        },
+        {
+          "code": "so-3",
+          "type": "answer_question",
+          "name_vi": "Trả lời câu hỏi",
+          "name_zh": "回答问题",
+          "instruction_vi": "Đọc câu hỏi, nói ít nhất 5 câu.",
+          "real_count": 2,
+          "prep_seconds": 20,
+          "answer_seconds": 90,
+          "rubric_id": "rb-speech"
+        }
+      ]
+    },
+    {
+      "level": "trung",
+      "name_vi": "HSKK Trung cấp",
+      "hsk_equiv": [
+        3,
+        4
+      ],
+      "parts": [
+        {
+          "code": "trung-2",
+          "type": "describe_picture",
+          "name_vi": "Miêu tả tranh",
+          "name_zh": "看图说话",
+          "instruction_vi": "Nhìn tranh và miêu tả.",
+          "real_count": 2,
+          "prep_seconds": 15,
+          "answer_seconds": 120,
+          "rubric_id": "rb-speech"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name_vi": "Thi nói HSK 3",
+      "parts": [
+        {
+          "code": "hsk3-1",
+          "type": "repeat",
+          "name_vi": "Nghe và nhắc lại",
+          "name_zh": "听后重复",
+          "instruction_vi": "Nghe câu và nhắc lại.",
+          "prep_seconds": 0,
+          "answer_seconds": 10,
+          "rubric_id": "rb-repeat"
+        },
+        {
+          "code": "hsk3-2",
+          "type": "describe_picture",
+          "name_vi": "Nói về ảnh",
+          "name_zh": "看图说话",
+          "instruction_vi": "Nói 1 câu về bức ảnh.",
+          "prep_seconds": 0,
+          "answer_seconds": 15,
+          "rubric_id": "rb-speech"
+        },
+        {
+          "code": "hsk3-3",
+          "type": "answer_question",
+          "name_vi": "Trả lời câu hỏi",
+          "name_zh": "回答问题",
+          "instruction_vi": "Đọc câu hỏi, chuẩn bị rồi trả lời.",
+          "prep_seconds": 180,
+          "answer_seconds": 90,
+          "rubric_id": "rb-speech"
+        }
+      ]
+    },
+    {
+      "level": "7-9",
+      "name_vi": "Thi nói HSK 7–9",
+      "parts": [
+        {
+          "code": "hsk7-9-1",
+          "type": "present_material",
+          "name_vi": "Trình bày theo tài liệu",
+          "name_zh": "材料陈述",
+          "instruction_vi": "Đọc tài liệu, chuẩn bị rồi trình bày.",
+          "prep_seconds": 120,
+          "answer_seconds": 180,
+          "rubric_id": "rb-speech"
+        },
+        {
+          "code": "hsk7-9-2",
+          "type": "picture_story",
+          "name_vi": "Kể chuyện theo tranh (thử)",
+          "name_zh": "看图说话",
+          "instruction_vi": "Kể chuyện theo các tranh.",
+          "prep_seconds": 30,
+          "answer_seconds": 60,
+          "rubric_id": "rb-speech"
+        }
+      ]
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "rb-repeat",
+      "max_score": 10,
+      "criteria": [
+        {
+          "key": "accuracy",
+          "name_vi": "Độ chính xác nội dung",
+          "weight": 0.6,
+          "description_vi": "Nhắc lại đúng, đủ các từ của câu gốc."
+        },
+        {
+          "key": "pronunciation",
+          "name_vi": "Phát âm & thanh điệu",
+          "weight": 0.4,
+          "description_vi": "Thanh điệu, âm đầu/vần chuẩn."
+        }
+      ]
+    },
+    {
+      "id": "rb-answer-short",
+      "max_score": 10,
+      "criteria": [
+        {
+          "key": "relevance",
+          "name_vi": "Đúng trọng tâm",
+          "weight": 0.4,
+          "description_vi": "Trả lời đúng câu hỏi."
+        },
+        {
+          "key": "grammar",
+          "name_vi": "Ngữ pháp",
+          "weight": 0.3,
+          "description_vi": "Câu đúng ngữ pháp."
+        },
+        {
+          "key": "pronunciation",
+          "name_vi": "Phát âm",
+          "weight": 0.3,
+          "description_vi": "Phát âm rõ."
+        }
+      ]
+    },
+    {
+      "id": "rb-speech",
+      "max_score": 30,
+      "criteria": [
+        {
+          "key": "content",
+          "name_vi": "Nội dung",
+          "weight": 0.3,
+          "description_vi": "Đủ ý, liên quan."
+        },
+        {
+          "key": "fluency",
+          "name_vi": "Độ trôi chảy",
+          "weight": 0.25,
+          "description_vi": "Nói liền mạch."
+        },
+        {
+          "key": "vocab_grammar",
+          "name_vi": "Từ vựng & ngữ pháp",
+          "weight": 0.25,
+          "description_vi": "Đa dạng, chính xác."
+        },
+        {
+          "key": "pronunciation",
+          "name_vi": "Phát âm",
+          "weight": 0.2,
+          "description_vi": "Thanh điệu chuẩn."
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "so-1-01",
+      "level": "so",
+      "part": "so-1",
+      "type": "repeat",
+      "prompt": {
+        "zh": "我今天很忙。",
+        "pinyin": "wǒ jīntiān hěn máng.",
+        "vi": "Hôm nay tôi rất bận."
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "女",
+            "text": "我今天很忙。"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "prep_seconds": 0,
+      "answer_seconds": 10,
+      "sample_answer": {
+        "zh": "我今天很忙。",
+        "pinyin": "wǒ jīntiān hěn máng.",
+        "vi": "Hôm nay tôi rất bận."
+      },
+      "keywords": [
+        "今天",
+        "忙"
+      ],
+      "rubric_id": "rb-repeat"
+    },
+    {
+      "id": "so-1-02",
+      "level": "so",
+      "part": "so-1",
+      "type": "repeat",
+      "prompt": {
+        "zh": "他是我的老师。",
+        "pinyin": "tā shì wǒ de lǎoshī.",
+        "vi": "Anh ấy là thầy giáo của tôi."
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "男",
+            "text": "他是我的老师。"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "sample_answer": {
+        "zh": "他是我的老师。"
+      },
+      "keywords": [
+        "老师",
+        "我的"
+      ],
+      "rubric_id": "rb-repeat"
+    },
+    {
+      "id": "so-2-01",
+      "level": "so",
+      "part": "so-2",
+      "type": "listen_answer",
+      "prompt": {
+        "zh": "你喜欢喝茶吗？",
+        "pinyin": "nǐ xǐhuan hē chá ma?",
+        "vi": "Bạn có thích uống trà không?"
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "女",
+            "text": "你喜欢喝茶吗？"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "sample_answer": {
+        "zh": "我很喜欢喝茶。",
+        "pinyin": "wǒ hěn xǐhuan hē chá.",
+        "vi": "Tôi rất thích uống trà."
+      },
+      "keywords": [
+        "喜欢",
+        "茶"
+      ],
+      "rubric_id": "rb-answer-short"
+    },
+    {
+      "id": "so-3-01",
+      "level": "so",
+      "part": "so-3",
+      "type": "answer_question",
+      "prompt": {
+        "zh": "请介绍一下你的家。",
+        "pinyin": "qǐng jièshào yíxià nǐ de jiā.",
+        "vi": "Hãy giới thiệu về gia đình bạn."
+      },
+      "audio": null,
+      "image": null,
+      "sample_answer": {
+        "zh": "我家有四口人，爸爸、妈妈、哥哥和我。我爸爸是医生，妈妈是老师。我很爱我的家。"
+      },
+      "keywords": [
+        "家",
+        "口人",
+        "爸爸",
+        "妈妈"
+      ],
+      "rubric_id": "rb-speech"
+    },
+    {
+      "id": "trung-2-01",
+      "level": "trung",
+      "part": "trung-2",
+      "type": "describe_picture",
+      "prompt": {
+        "zh": "请描述这张图片。",
+        "pinyin": "qǐng miáoshù zhè zhāng túpiàn.",
+        "vi": "Hãy miêu tả bức tranh này."
+      },
+      "audio": null,
+      "image": {
+        "emoji": "👨‍👩‍👧🏞️",
+        "alt_vi": "Một gia đình đi dạo trong công viên"
+      },
+      "sample_answer": {
+        "zh": "今天天气很好，一家人去公园散步。"
+      },
+      "keywords": [
+        "公园",
+        "天气",
+        "一家人"
+      ],
+      "rubric_id": "rb-speech"
+    },
+    {
+      "id": "hsk3-s-01",
+      "level": 3,
+      "part": "hsk3-1",
+      "type": "repeat",
+      "prompt": {
+        "zh": "我每天早上七点起床。"
+      },
+      "audio": {
+        "lines": [
+          {
+            "speaker": "男",
+            "text": "我每天早上七点起床。"
+          }
+        ],
+        "repeat": 1
+      },
+      "image": null,
+      "sample_answer": {
+        "zh": "我每天早上七点起床。"
+      },
+      "keywords": [
+        "七点",
+        "起床"
+      ],
+      "rubric_id": "rb-repeat"
+    },
+    {
+      "id": "hsk3-s-02",
+      "level": 3,
+      "part": "hsk3-2",
+      "type": "describe_picture",
+      "prompt": {
+        "zh": "请用一句话说说这张图片。"
+      },
+      "audio": null,
+      "image": {
+        "emoji": "🚴",
+        "alt_vi": "Một người đang đạp xe"
+      },
+      "sample_answer": {
+        "zh": "他在骑自行车。"
+      },
+      "keywords": [
+        "骑",
+        "自行车"
+      ],
+      "rubric_id": "rb-speech"
+    },
+    {
+      "id": "hsk3-s-03",
+      "level": 3,
+      "part": "hsk3-3",
+      "type": "answer_question",
+      "prompt": {
+        "zh": "你周末一般做什么？"
+      },
+      "audio": null,
+      "image": null,
+      "prep_seconds": 5,
+      "answer_seconds": 20,
+      "sample_answer": {
+        "zh": "我周末一般在家看书，有时候和朋友去公园。"
+      },
+      "keywords": [
+        "周末",
+        "朋友"
+      ],
+      "rubric_id": "rb-speech"
+    },
+    {
+      "id": "hsk7-9-s-01",
+      "level": "7-9",
+      "part": "hsk7-9-1",
+      "type": "present_material",
+      "prompt": {
+        "zh": "材料：近年来，远程办公越来越普遍。请根据材料谈谈远程办公的利与弊。"
+      },
+      "audio": null,
+      "image": null,
+      "prep_seconds": 5,
+      "answer_seconds": 30,
+      "sample_answer": {
+        "zh": "远程办公节省了通勤时间，但也让人与人之间的交流变少……"
+      },
+      "keywords": [
+        "远程办公",
+        "交流",
+        "效率"
+      ],
+      "rubric_id": "rb-speech"
+    },
+    {
+      "id": "hsk7-9-s-02",
+      "level": "7-9",
+      "part": "hsk7-9-2",
+      "type": "picture_story",
+      "prompt": {
+        "zh": "请根据图片讲一个故事。"
+      },
+      "audio": null,
+      "image": null,
+      "images": [
+        {
+          "emoji": "🧒📚",
+          "alt_vi": "Cậu bé đọc sách"
+        },
+        {
+          "emoji": "🌧️",
+          "alt_vi": "Trời mưa"
+        },
+        {
+          "emoji": "☂️👧",
+          "alt_vi": "Bạn gái mang ô tới"
+        }
+      ],
+      "sample_answer": {
+        "zh": "有一个小男孩在看书，突然下雨了，他的朋友给他送来了雨伞。"
+      },
+      "keywords": [
+        "下雨",
+        "雨伞"
+      ],
+      "rubric_id": "rb-speech"
+    }
+  ],
+  "papers": [
+    {
+      "id": "hsk3-de1-speaking",
+      "level": 3,
+      "title_vi": "Đề nói HSK 3 – thử",
+      "warmup": true,
+      "prep_total_seconds": 0,
+      "item_ids": [
+        "hsk3-s-01",
+        "hsk3-s-02",
+        "hsk3-s-03"
+      ]
+    },
+    {
+      "id": "hsk7-9-de1-speaking",
+      "level": "7-9",
+      "title_vi": "Đề nói HSK 7–9 – thử",
+      "warmup": false,
+      "item_ids": [
+        "hsk7-9-s-01",
+        "hsk7-9-s-02"
+      ]
+    }
+  ]
+}
